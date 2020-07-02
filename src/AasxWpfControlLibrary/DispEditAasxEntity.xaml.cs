@@ -2263,17 +2263,17 @@ namespace AasxPackageExplorer
                     });
                     helper.AddAction(substack, "OperationVariable:", new[] { "Add" }, repo, (buttonNdx) =>
                     {
-                       if (buttonNdx is int && (int)buttonNdx == 0)
-                       {
-                           var ov = new AdminShell.OperationVariable();
-                           if (smo[dir] == null)
-                               smo[dir] = new List<AdminShell.OperationVariable>();
-                           smo[dir].Add(ov);
+                        if (buttonNdx is int && (int)buttonNdx == 0)
+                        {
+                            var ov = new AdminShell.OperationVariable();
+                            if (smo[dir] == null)
+                                smo[dir] = new List<AdminShell.OperationVariable>();
+                            smo[dir].Add(ov);
 
-                           // redraw
-                           return new ModifyRepo.LambdaActionRedrawAllElements(nextFocus: ov);
-                       }
-                       return new ModifyRepo.LambdaActionNone();
+                            // redraw
+                            return new ModifyRepo.LambdaActionRedrawAllElements(nextFocus: ov);
+                        }
+                        return new ModifyRepo.LambdaActionNone();
                     });
 
                     helper.AddHintBubble(substack, hintMode, new[] {
@@ -2282,26 +2282,26 @@ namespace AasxPackageExplorer
                     });
                     helper.AddAction(substack, "Copy from existing OperationVariable:", new[] { "Copy single", "Copy recursively" }, repo, (buttonNdx) =>
                     {
-                       if (buttonNdx is int)
-                       {
-                           if ((int)buttonNdx == 0 || (int)buttonNdx == 1)
-                           {
-                               var rve = helper.SmartSelectAasEntityVisualElement(package.AasEnv, "OperationVariable", package: package, auxPackages: helper.auxPackages) as VisualElementOperationVariable;
-                               if (rve != null)
-                               {
-                                   var mdo = rve.GetMainDataObject();
-                                   if (mdo != null && mdo is AdminShell.OperationVariable)
-                                   {
-                                       var clone = new AdminShell.OperationVariable(mdo as AdminShell.OperationVariable, shallowCopy: (int)buttonNdx == 0);
-                                       if (smo[dir] == null)
-                                           smo[dir] = new List<AdminShell.OperationVariable>();
-                                       smo[dir].Add(clone);
-                                       return new ModifyRepo.LambdaActionRedrawAllElements(nextFocus: smo, isExpanded: true);
-                                   }
-                               }
-                           }
-                       }
-                       return new ModifyRepo.LambdaActionNone();
+                        if (buttonNdx is int)
+                        {
+                            if ((int)buttonNdx == 0 || (int)buttonNdx == 1)
+                            {
+                                var rve = helper.SmartSelectAasEntityVisualElement(package.AasEnv, "OperationVariable", package: package, auxPackages: helper.auxPackages) as VisualElementOperationVariable;
+                                if (rve != null)
+                                {
+                                    var mdo = rve.GetMainDataObject();
+                                    if (mdo != null && mdo is AdminShell.OperationVariable)
+                                    {
+                                        var clone = new AdminShell.OperationVariable(mdo as AdminShell.OperationVariable, shallowCopy: (int)buttonNdx == 0);
+                                        if (smo[dir] == null)
+                                            smo[dir] = new List<AdminShell.OperationVariable>();
+                                        smo[dir].Add(clone);
+                                        return new ModifyRepo.LambdaActionRedrawAllElements(nextFocus: smo, isExpanded: true);
+                                    }
+                                }
+                            }
+                        }
+                        return new ModifyRepo.LambdaActionNone();
                     });
 
                 }
@@ -2727,7 +2727,7 @@ namespace AasxPackageExplorer
                 }
 
                 // specifically for annotated relationship?
-                if (sme is AdminShell.AnnotatedRelationshipElement arele)
+                if (sme is AdminShell.AnnotatedRelationshipElement /*arele*/)
                 {
                 }
             }

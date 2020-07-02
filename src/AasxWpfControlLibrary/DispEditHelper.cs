@@ -925,7 +925,7 @@ namespace AasxPackageExplorer
         /// <summary>
         /// Asks the user for SME element type, allowing exclusion of types.
         /// </summary>
-        public AdminShell.SubmodelElementWrapper.AdequateElementEnum SelectAdequateEnum(string caption, 
+        public AdminShell.SubmodelElementWrapper.AdequateElementEnum SelectAdequateEnum(string caption,
             AdminShell.SubmodelElementWrapper.AdequateElementEnum[] excludeValues = null,
             AdminShell.SubmodelElementWrapper.AdequateElementEnum[] includeValues = null)
         {
