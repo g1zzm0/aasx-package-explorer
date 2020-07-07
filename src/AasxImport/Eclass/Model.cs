@@ -43,6 +43,12 @@ namespace AasxImport.Eclass
         /// <inheritdoc/>
         public override string Name => "eCl@ss";
 
+        /// <inheritdoc/>
+        public override bool IsFetchSupported => true;
+
+        /// <inheritdoc/>
+        public override string FetchPrompt => "IRDI";
+
         /// <summary>
         /// Checks whether the given path contains valid eCl@ss data that can be read by this data provider.  If this
         /// method returns true, the data source at the given path can be opened using the <see cref="OpenPath"/>
@@ -104,6 +110,26 @@ namespace AasxImport.Eclass
             {
                 return false;
             }
+        }
+
+        /// <inheritdoc/>
+        public override Model.IDataSource Fetch(string query)
+        {
+            return new DataSource(this, FetchXmlFile(query), Model.DataSourceType.Online);
+        }
+
+        /// <summary>
+        /// Fetch the XML data for the eCl@ss element with the given IRDI using the eCl@ss web service, write it to a
+        /// file and return the path to the file.  The file name of the created file should identify the fetched
+        /// element as it is shown as the name of the data source in the user interface.
+        /// </summary>
+        /// <param name="irdi">The IRDI of the eCl@ss element to fetch from the web service</param>
+        /// <returns>The path of the XML file containing the data for the eCl@ss element with the given IRDI</returns>
+        /// <exception cref="Model.ImportException">If the element could not be fetched from the web API</exception>
+        private string FetchXmlFile(string irdi)
+        {
+            // TODO(aorzelski): implement
+            throw new Model.ImportException($"Trying to fetch {irdi} -- not implemented yet");
         }
 
         /// <inheritdoc/>

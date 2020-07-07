@@ -73,6 +73,8 @@ namespace AasxImport
             foreach (var provider in DataProviders)
                 foreach (var source in provider.FindDefaultDataSources())
                     ComboBoxSource.Items.Add(source);
+
+            ButtonFetchOnline.IsEnabled = DataProviders.Any(p => p.IsFetchSupported);
         }
 
         public IEnumerable<Model.IElement> GetResult()
@@ -228,6 +230,32 @@ namespace AasxImport
 
             ComboBoxSource.Items.Add(source);
             ComboBoxSource.SelectedItem = source;
+        }
+
+        private void ButtonFetchOnline_Click(object sender, RoutedEventArgs e)
+        {
+            var fetchProviders = DataProviders.Where(p => p.IsFetchSupported).ToList();
+            if (fetchProviders.Count == 0)
+                return;
+
+            var dialog = new FetchOnlineDialog(fetchProviders);
+            if (dialog.ShowDialog() != true || dialog.DataProvider == null)
+                return;
+
+            try
+            {
+                var source = dialog.DataProvider.Fetch(dialog.Query);
+                ComboBoxSource.Items.Add(source);
+                ComboBoxSource.SelectedItem = source;
+            }
+            catch (Model.ImportException ex)
+            {
+                Log.Error(ex, $"Could not fetch data from {dialog.DataProvider} using the query {dialog.Query}.");
+                MessageBox.Show(
+                        "Could not load fetch the requested data.\n" +
+                        "Details: " + ex.Message,
+                        "Fetch Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void ViewItem_MouseDoubleClick(object sender, MouseButtonEventArgs e)

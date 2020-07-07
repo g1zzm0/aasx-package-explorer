@@ -66,6 +66,9 @@
     <Compile Include="ElementDetailsDialog.xaml.cs">
       <DependentUpon>ElementDetailsDialog.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FetchOnlineDialog.xaml.cs">
+      <DependentUpon>FetchOnlineDialog.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Import.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Iec61360Utils.cs" />
@@ -93,6 +96,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ElementDetailsDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FetchOnlineDialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

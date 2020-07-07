@@ -37,6 +37,18 @@ namespace AasxImport.Model
         string Name { get; }
 
         /// <summary>
+        /// The prompt to use in the user interface when asking the user for the query string for fetching online data
+        /// using the <see cref="Fetch"/> method.
+        /// </summary>
+        string FetchPrompt { get; }
+
+        /// <summary>
+        /// Whether this data provider supports fetching data from the network based on a search string provided by the
+        /// user.
+        /// </summary>
+        bool IsFetchSupported { get; }
+
+        /// <summary>
         /// Returns a list of all default data sources for this provider, i. e. all data sources that have been shipped
         /// with the AASX Package Explorer or that are freely available on the internet.
         /// </summary>
@@ -61,6 +73,17 @@ namespace AasxImport.Model
         /// <exception cref="ImportException">If the path could not be accessed or does not contain valid data for this
         /// data provider</exception>
         IDataSource OpenPath(string path);
+
+        /// <summary>
+        /// Fetch data from this data provider from the network using the given query string provided by the user.
+        /// This method will only work if <see cref="IsFetchSupported"/> is true.  Otherwise it will throw an
+        /// ImportException.
+        /// </summary>
+        /// <param name="query">The query string provided by the user</param>
+        /// <returns>A data source loaded from the network using the given query string</returns>
+        /// <exception cref="ImportException">If the data cannot be retrieved from the network or if this data provider
+        /// does not support fetching data from the network</exception>
+        IDataSource Fetch(string query);
     }
 
     /// <summary>
@@ -318,6 +341,12 @@ namespace AasxImport.Model
         public abstract string Name { get; }
 
         /// <inheritdoc/>
+        public virtual string FetchPrompt { get; } = string.Empty;
+
+        /// <inheritdoc/>
+        public virtual bool IsFetchSupported { get; } = false;
+
+        /// <inheritdoc/>
         public virtual IEnumerable<IDataSource> FindDefaultDataSources()
         {
             return GetDefaultPaths()
@@ -335,6 +364,10 @@ namespace AasxImport.Model
         /// <inheritdoc/>
         public virtual IDataSource OpenPath(string path)
             => OpenPath(path, DataSourceType.Custom);
+
+        /// <inheritdoc/>
+        public virtual IDataSource Fetch(string query) =>
+            throw new ImportException("Fetch not supported by this data provider");
 
         /// <summary>
         /// Returns all paths that could contain a default data source.
