@@ -14,6 +14,10 @@ using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Windows;
+using System.Net;
+using System.Net.Http;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 
@@ -128,8 +132,29 @@ namespace AasxImport.Eclass
         /// <exception cref="Model.ImportException">If the element could not be fetched from the web API</exception>
         private string FetchXmlFile(string irdi)
         {
-            // TODO(aorzelski): implement
-            throw new Model.ImportException($"Trying to fetch {irdi} -- not implemented yet");
+            var cert = new X509Certificate2(@"C:\Users\krahlro\certs\19-SICK_Webservice.full.pfx", "");
+
+            HttpClientHandler clientHandler = new HttpClientHandler();
+            clientHandler.DefaultProxyCredentials = CredentialCache.DefaultCredentials;
+            clientHandler.ClientCertificates.Add(cert);
+            clientHandler.ClientCertificateOptions = ClientCertificateOption.Manual;
+
+            // var url = "https://www.eclass-cdp.com/portal/seam/resource/rest/dictionary/classes/0173%252d1~01%252dAFZ615~016.xml?mediaType=ECLASS_V3_0";
+            var url = "https://eclass-cdp.com/api/v2/classes/" + Uri.EscapeDataString(irdi);
+
+            Console.WriteLine(url);
+
+            HttpClient client = new HttpClient(clientHandler);
+            var response = client.GetAsync(url).Result;
+
+            var tempDir = Path.Combine(Path.GetTempPath(), Path.GetRandomFileName());
+            Directory.CreateDirectory(tempDir);
+            var tempFile = Path.Combine(tempDir, irdi + ".xml");
+
+            using var fs = new FileStream(tempFile, FileMode.CreateNew);
+            response.Content.CopyToAsync(fs).Wait();
+
+            return tempFile;
         }
 
         /// <inheritdoc/>
