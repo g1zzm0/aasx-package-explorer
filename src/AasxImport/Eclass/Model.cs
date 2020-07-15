@@ -346,6 +346,14 @@ namespace AasxImport.Eclass
         /// <inheritdoc/>
         public ICollection<Model.IElement> LoadSubmodelElements() => _elements.Values.Cast<Model.IElement>().ToList();
 
+        public Class? GetClass(Model.IElement? parent, string id)
+        {
+            var cls = GetElement<Class>(id);
+            if (cls != null)
+                return new Class(cls, parent);
+            return null;
+        }
+
         public Property? GetProperty(Class parent, string id)
         {
             var property = GetElement<Property>(id);
@@ -523,6 +531,14 @@ namespace AasxImport.Eclass
         /// </summary>
         public ICollection<Class> Aspects { get; } = new List<Class>();
 
+        public override string Icon
+        {
+            get
+            {
+                return IsAspect() ? "/AasxPackageExplorer;component/icon-set/Icon_AASX_16x16_2_W.bmp" : string.Empty;
+            }
+        }
+
         /// <summary>
         /// Creates a new Class object within the given context, backed by the given XML element.
         /// </summary>
@@ -532,6 +548,12 @@ namespace AasxImport.Eclass
         {
             if (IsAspect())
                 IsSelected = false;
+        }
+
+        public Class(Class cls, Model.IElement? parent) : base(cls.Context, cls.XElement, parent)
+        {
+            ApplicationClasses = cls.ApplicationClasses;
+            Aspects = cls.Aspects;
         }
 
         private bool IsAspect()
@@ -658,7 +680,7 @@ namespace AasxImport.Eclass
                 }
                 else
                 {
-                    return Context.GetElement<Class>(ClassReferenceIrdi);
+                    return Context.GetClass(Parent, ClassReferenceIrdi);
                 }
             }
             return this;

@@ -183,6 +183,8 @@ namespace AasxImport.Model
         /// </summary>
         bool IsSelected { get; set; }
 
+        string Icon { get; }
+
         /// <summary>
         /// Checks whether all parts of the given query match this element.  Implementations should at least check the
         /// name and the ID and may also check other attributes.
@@ -376,10 +378,15 @@ namespace AasxImport.Model
         /// <inheritdoc/>
         public virtual bool IsSelected { get; set; } = true;
 
+        public virtual string Icon { get; } = string.Empty;
+
         protected ElementBase(IDataSource dataSource, IElement? parent = null)
         {
             DataSource = dataSource;
             Parent = parent;
+
+            if (parent != null)
+                IsSelected = parent.IsSelected;
         }
 
         /// <inheritdoc/>

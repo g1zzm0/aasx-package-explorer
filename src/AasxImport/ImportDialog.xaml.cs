@@ -299,6 +299,10 @@ namespace AasxImport
 
         public string Name => Element.Name;
 
+        public string Icon => Element.Icon;
+
+        public bool HasIcon => Icon.Length > 0;
+
         public bool IsExpanded => Parent == null;
 
         public bool? IsChecked

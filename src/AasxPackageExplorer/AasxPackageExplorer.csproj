@@ -326,7 +326,7 @@
   <ItemGroup>
     <Resource Include="icon-set\aasx.ico" />
     <None Include="icon-set\how-to.txt" />
-    <None Include="icon-set\Icon_AASX_16x16_2_W.bmp" />
+    <Resource Include="icon-set\Icon_AASX_16x16_2_W.bmp" />
     <None Include="icon-set\Icon_AASX_20x20_2_W.bmp" />
     <None Include="icon-set\Icon_AASX_24x24_2_W.bmp" />
     <Resource Include="icon-set\Icon_AASX_256x256_W.bmp" />
