@@ -7,6 +7,7 @@ using AdminShellNS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 namespace AasxImport
 {
@@ -38,6 +39,8 @@ namespace AasxImport
             AdminShellV20.AdministrationShellEnv env,
             AdminShellV20.AdministrationShell adminShell, Iec61360Data data)
         {
+            // TODO: fix
+            Thread.Sleep(1000);
             var submodel = new AdminShellV20.Submodel()
             {
                 identification = new AdminShellV20.Identification(

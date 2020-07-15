@@ -315,7 +315,7 @@ namespace AasxImport
             Element = element;
             Children = element.Children.Select(e => new ElementWrapper(e, this)).ToList();
 
-            Element.IsSelected = _isChecked != false;
+            _isChecked = Element.IsSelected;
         }
 
         protected void PropagateIsChecked(bool up, bool down)

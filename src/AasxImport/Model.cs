@@ -374,7 +374,7 @@ namespace AasxImport.Model
         public abstract ICollection<IElement> Children { get; }
 
         /// <inheritdoc/>
-        public virtual bool IsSelected { get; set; }
+        public virtual bool IsSelected { get; set; } = true;
 
         protected ElementBase(IDataSource dataSource, IElement? parent = null)
         {
