@@ -779,6 +779,31 @@
     "title": "Class MqttClient",
     "keywords": "Class MqttClient Inheritance System.Object MqttClient Namespace : AasxMqttClient Assembly : AasxMqttClient.dll Syntax public static class MqttClient : object Methods | Improve this Doc View Source StartAsync(AdminShellPackageEnv, GrapevineLoggerSuper) Declaration public static Task StartAsync(AdminShellPackageEnv package, GrapevineLoggerSuper logger = null) Parameters Type Name Description AdminShellPackageEnv package GrapevineLoggerSuper logger Returns Type Description Task"
   },
+  "api/AasxOpenIdClient.ConsoleExtensions.html": {
+    "href": "api/AasxOpenIdClient.ConsoleExtensions.html",
+    "title": "Class ConsoleExtensions",
+    "keywords": "Class ConsoleExtensions Inheritance System.Object ConsoleExtensions Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : AasxOpenIdClient Assembly : AasxOpenidClient.dll Syntax public static class ConsoleExtensions Methods | Improve this Doc View Source ColoredWriteLine(String, ConsoleColor) Writes out text with the specified ConsoleColor. Declaration public static void ColoredWriteLine(this string text, ConsoleColor color) Parameters Type Name Description System.String text The text. System.ConsoleColor color The color. | Improve this Doc View Source ConsoleGreen(String) Writes green text to the console. Declaration public static void ConsoleGreen(this string text) Parameters Type Name Description System.String text The text. | Improve this Doc View Source ConsoleRed(String) Writes red text to the console. Declaration public static void ConsoleRed(this string text) Parameters Type Name Description System.String text The text. | Improve this Doc View Source ConsoleYellow(String) Writes yellow text to the console. Declaration public static void ConsoleYellow(this string text) Parameters Type Name Description System.String text The text."
+  },
+  "api/AasxOpenIdClient.Constants.html": {
+    "href": "api/AasxOpenIdClient.Constants.html",
+    "title": "Class Constants",
+    "keywords": "Class Constants Inheritance System.Object Constants Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : AasxOpenIdClient Assembly : AasxOpenidClient.dll Syntax public class Constants Fields | Improve this Doc View Source Authority Declaration public const string Authority = \"https://localhost:5001\" Field Value Type Description System.String | Improve this Doc View Source AuthorityMtls Declaration public const string AuthorityMtls = \"https://identityserver.local\" Field Value Type Description System.String | Improve this Doc View Source SampleApi Declaration public const string SampleApi = \"https://localhost:5005/\" Field Value Type Description System.String | Improve this Doc View Source SampleApiMtls Declaration public const string SampleApiMtls = \"https://api.identityserver.local/\" Field Value Type Description System.String"
+  },
+  "api/AasxOpenIdClient.html": {
+    "href": "api/AasxOpenIdClient.html",
+    "title": "Namespace AasxOpenIdClient",
+    "keywords": "Namespace AasxOpenIdClient Classes ConsoleExtensions Constants OpenIDClient TokenResponseExtensions"
+  },
+  "api/AasxOpenIdClient.OpenIDClient.html": {
+    "href": "api/AasxOpenIdClient.OpenIDClient.html",
+    "title": "Class OpenIDClient",
+    "keywords": "Class OpenIDClient Inheritance System.Object OpenIDClient Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : AasxOpenIdClient Assembly : AasxOpenidClient.dll Syntax public class OpenIDClient Fields | Improve this Doc View Source authServer Declaration public static string authServer Field Value Type Description System.String | Improve this Doc View Source certPfx Declaration public static string certPfx Field Value Type Description System.String | Improve this Doc View Source certPfxPW Declaration public static string certPfxPW Field Value Type Description System.String | Improve this Doc View Source dataServer Declaration public static string dataServer Field Value Type Description System.String | Improve this Doc View Source outputDir Declaration public static string outputDir Field Value Type Description System.String | Improve this Doc View Source secretString Declaration public static string secretString Field Value Type Description System.String Methods | Improve this Doc View Source AcceptAllCertifications(Object, X509Certificate, X509Chain, SslPolicyErrors) Declaration public static bool AcceptAllCertifications(object sender, X509Certificate certification, X509Chain chain, SslPolicyErrors sslPolicyErrors) Parameters Type Name Description System.Object sender System.Security.Cryptography.X509Certificates.X509Certificate certification System.Security.Cryptography.X509Certificates.X509Chain chain System.Net.Security.SslPolicyErrors sslPolicyErrors Returns Type Description System.Boolean | Improve this Doc View Source Run(String, String) Declaration public static Task Run(string tag, string value) Parameters Type Name Description System.String tag System.String value Returns Type Description System.Threading.Tasks.Task"
+  },
+  "api/AasxOpenIdClient.TokenResponseExtensions.html": {
+    "href": "api/AasxOpenIdClient.TokenResponseExtensions.html",
+    "title": "Class TokenResponseExtensions",
+    "keywords": "Class TokenResponseExtensions Inheritance System.Object TokenResponseExtensions Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : AasxOpenIdClient Assembly : AasxOpenidClient.dll Syntax public static class TokenResponseExtensions Methods | Improve this Doc View Source Show(TokenResponse) Declaration public static void Show(this TokenResponse response) Parameters Type Name Description TokenResponse response"
+  },
   "api/AasxPackageExplorer.AasxFileRepository.FileMap.html": {
     "href": "api/AasxPackageExplorer.AasxFileRepository.FileMap.html",
     "title": "Class AasxFileRepository.FileMap",
@@ -1538,16 +1563,6 @@
     "href": "api/AasxPredefinedConcepts.html",
     "title": "Namespace AasxPredefinedConcepts",
     "keywords": "Namespace AasxPredefinedConcepts Classes AasxDefinitionBase AasxDefinitionBase.LibraryEntry DefinitionsLanguages DefinitionsVDI2770 DefinitionsVDI2770.SetOfDefsVDI2770 DefinitionsZveiDigitalTypeplate DefinitionsZveiDigitalTypeplate.SetOfDocumentation DefinitionsZveiDigitalTypeplate.SetOfIdentification DefinitionsZveiDigitalTypeplate.SetOfNameplate DefinitionsZveiTechnicalData DefinitionsZveiTechnicalData.SetOfDefs ExportPredefinedConcepts Enums DefinitionsVDI2770.Vdi2770DocClass"
-  },
-  "api/AasxPrivateKeyJwtClient.html": {
-    "href": "api/AasxPrivateKeyJwtClient.html",
-    "title": "Namespace AasxPrivateKeyJwtClient",
-    "keywords": "Namespace AasxPrivateKeyJwtClient Classes OpenIDClient"
-  },
-  "api/AasxPrivateKeyJwtClient.OpenIDClient.html": {
-    "href": "api/AasxPrivateKeyJwtClient.OpenIDClient.html",
-    "title": "Class OpenIDClient",
-    "keywords": "Class OpenIDClient Inheritance System.Object OpenIDClient Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : AasxPrivateKeyJwtClient Assembly : AasxOpenidClient.dll Syntax public class OpenIDClient Fields | Improve this Doc View Source authServer Declaration public static string authServer Field Value Type Description System.String | Improve this Doc View Source certPfx Declaration public static string certPfx Field Value Type Description System.String | Improve this Doc View Source certPfxPW Declaration public static string certPfxPW Field Value Type Description System.String | Improve this Doc View Source dataServer Declaration public static string dataServer Field Value Type Description System.String | Improve this Doc View Source outputDir Declaration public static string outputDir Field Value Type Description System.String | Improve this Doc View Source secretString Declaration public static string secretString Field Value Type Description System.String Methods | Improve this Doc View Source AcceptAllCertifications(Object, X509Certificate, X509Chain, SslPolicyErrors) Declaration public static bool AcceptAllCertifications(object sender, X509Certificate certification, X509Chain chain, SslPolicyErrors sslPolicyErrors) Parameters Type Name Description System.Object sender System.Security.Cryptography.X509Certificates.X509Certificate certification System.Security.Cryptography.X509Certificates.X509Chain chain System.Net.Security.SslPolicyErrors sslPolicyErrors Returns Type Description System.Boolean | Improve this Doc View Source Run(String, String) Declaration public static Task Run(string tag, string value) Parameters Type Name Description System.String tag System.String value Returns Type Description System.Threading.Tasks.Task"
   },
   "api/AasxRestConsoleServer.html": {
     "href": "api/AasxRestConsoleServer.html",
@@ -2313,26 +2328,6 @@
     "href": "api/AdminShellNS.IriIdentifierRepository.Repository.html",
     "title": "Class IriIdentifierRepository.Repository",
     "keywords": "Class IriIdentifierRepository.Repository Inheritance System.Object IriIdentifierRepository.Repository Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : AdminShellNS Assembly : AasxGenerate.dll Syntax public class Repository Fields | Improve this Doc View Source entries Declaration public List<IriIdentifierRepository.Entry> entries Field Value Type Description System.Collections.Generic.List < IriIdentifierRepository.Entry > | Improve this Doc View Source iriTemplate Declaration public string iriTemplate Field Value Type Description System.String | Improve this Doc View Source lastIndex Declaration public int lastIndex Field Value Type Description System.Int32"
-  },
-  "api/Clients.ConsoleExtensions.html": {
-    "href": "api/Clients.ConsoleExtensions.html",
-    "title": "Class ConsoleExtensions",
-    "keywords": "Class ConsoleExtensions Inheritance System.Object ConsoleExtensions Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Clients Assembly : AasxOpenidClient.dll Syntax public static class ConsoleExtensions Methods | Improve this Doc View Source ColoredWriteLine(String, ConsoleColor) Writes out text with the specified ConsoleColor. Declaration public static void ColoredWriteLine(this string text, ConsoleColor color) Parameters Type Name Description System.String text The text. System.ConsoleColor color The color. | Improve this Doc View Source ConsoleGreen(String) Writes green text to the console. Declaration public static void ConsoleGreen(this string text) Parameters Type Name Description System.String text The text. | Improve this Doc View Source ConsoleRed(String) Writes red text to the console. Declaration public static void ConsoleRed(this string text) Parameters Type Name Description System.String text The text. | Improve this Doc View Source ConsoleYellow(String) Writes yellow text to the console. Declaration public static void ConsoleYellow(this string text) Parameters Type Name Description System.String text The text."
-  },
-  "api/Clients.Constants.html": {
-    "href": "api/Clients.Constants.html",
-    "title": "Class Constants",
-    "keywords": "Class Constants Inheritance System.Object Constants Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Clients Assembly : AasxOpenidClient.dll Syntax public class Constants Fields | Improve this Doc View Source Authority Declaration public const string Authority = \"https://localhost:5001\" Field Value Type Description System.String | Improve this Doc View Source AuthorityMtls Declaration public const string AuthorityMtls = \"https://identityserver.local\" Field Value Type Description System.String | Improve this Doc View Source SampleApi Declaration public const string SampleApi = \"https://localhost:5005/\" Field Value Type Description System.String | Improve this Doc View Source SampleApiMtls Declaration public const string SampleApiMtls = \"https://api.identityserver.local/\" Field Value Type Description System.String"
-  },
-  "api/Clients.html": {
-    "href": "api/Clients.html",
-    "title": "Namespace Clients",
-    "keywords": "Namespace Clients Classes ConsoleExtensions Constants TokenResponseExtensions"
-  },
-  "api/Clients.TokenResponseExtensions.html": {
-    "href": "api/Clients.TokenResponseExtensions.html",
-    "title": "Class TokenResponseExtensions",
-    "keywords": "Class TokenResponseExtensions Inheritance System.Object TokenResponseExtensions Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Clients Assembly : AasxOpenidClient.dll Syntax public static class TokenResponseExtensions Methods | Improve this Doc View Source Show(TokenResponse) Declaration public static void Show(this TokenResponse response) Parameters Type Name Description TokenResponse response"
   },
   "api/index.html": {
     "href": "api/index.html",
