@@ -3914,6 +3914,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AasxSignature.PackageHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxSignature.PackageHelper.html",
+          "hash": "onp8zYS2RzNgoJJa0XRQvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxSignature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxSignature.html",
+          "hash": "y0SmbfO69pCy+eTjlbcrcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AasxUANodesetImExport.DataTypeDefinition.yml",
       "output": {
         ".html": {
@@ -5594,78 +5618,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/De.Zvei.Aasx.CardinalityType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/De.Zvei.Aasx.CardinalityType.html",
-          "hash": "9xzeLo4Y3M/lSFGdQqN8KA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/De.Zvei.Aasx.LogicalModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/De.Zvei.Aasx.LogicalModel.html",
-          "hash": "UD22yTamYBihATHaRB8EdQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/De.Zvei.Aasx.PackageCoreProperties.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/De.Zvei.Aasx.PackageCoreProperties.html",
-          "hash": "fViRlQvQnUPm8rh4OSL2vA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/De.Zvei.Aasx.PackageHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/De.Zvei.Aasx.PackageHelper.html",
-          "hash": "xNZvA3HdLbvSf41/tnYy3w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/De.Zvei.Aasx.RelationshipType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/De.Zvei.Aasx.RelationshipType.html",
-          "hash": "TmwGYTQRyZWfpNLl9xdwSQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/De.Zvei.Aasx.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/De.Zvei.Aasx.html",
-          "hash": "hTusTn8x2a9idCMRCnp2fA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Microsoft.Msagl.WpfGraphControl.GraphViewer.yml",
       "output": {
         ".html": {
@@ -5862,7 +5814,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "HiRqlXF8bek1a1szGyGLNA=="
+          "hash": "0AqQanyOT38ceBX1H9t2ug=="
         }
       },
       "is_incremental": false,
@@ -5997,7 +5949,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 486,
+          "total_file_count": 482,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
