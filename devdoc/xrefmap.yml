@@ -10742,6 +10742,63 @@ references:
   isSpec: "True"
   fullName: AasxIntegrationBase.StoredPrintsMinimalStore.PopLastStoredPrint
   nameWithType: StoredPrintsMinimalStore.PopLastStoredPrint
+- uid: AasxIntegrationBase.WpfViewModelBase
+  name: WpfViewModelBase
+  href: api/AasxIntegrationBase.WpfViewModelBase.html
+  commentId: T:AasxIntegrationBase.WpfViewModelBase
+  fullName: AasxIntegrationBase.WpfViewModelBase
+  nameWithType: WpfViewModelBase
+- uid: AasxIntegrationBase.WpfViewModelBase.OnPropertyChanged(System.String)
+  name: OnPropertyChanged(String)
+  href: api/AasxIntegrationBase.WpfViewModelBase.html#AasxIntegrationBase_WpfViewModelBase_OnPropertyChanged_System_String_
+  commentId: M:AasxIntegrationBase.WpfViewModelBase.OnPropertyChanged(System.String)
+  fullName: AasxIntegrationBase.WpfViewModelBase.OnPropertyChanged(System.String)
+  nameWithType: WpfViewModelBase.OnPropertyChanged(String)
+- uid: AasxIntegrationBase.WpfViewModelBase.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/AasxIntegrationBase.WpfViewModelBase.html#AasxIntegrationBase_WpfViewModelBase_OnPropertyChanged_
+  commentId: Overload:AasxIntegrationBase.WpfViewModelBase.OnPropertyChanged
+  isSpec: "True"
+  fullName: AasxIntegrationBase.WpfViewModelBase.OnPropertyChanged
+  nameWithType: WpfViewModelBase.OnPropertyChanged
+- uid: AasxIntegrationBase.WpfViewModelBase.PropertyChanged
+  name: PropertyChanged
+  href: api/AasxIntegrationBase.WpfViewModelBase.html#AasxIntegrationBase_WpfViewModelBase_PropertyChanged
+  commentId: E:AasxIntegrationBase.WpfViewModelBase.PropertyChanged
+  fullName: AasxIntegrationBase.WpfViewModelBase.PropertyChanged
+  nameWithType: WpfViewModelBase.PropertyChanged
+- uid: AasxIntegrationBase.WpfViewModelBase.RaisePropertyChanged(System.String)
+  name: RaisePropertyChanged(String)
+  href: api/AasxIntegrationBase.WpfViewModelBase.html#AasxIntegrationBase_WpfViewModelBase_RaisePropertyChanged_System_String_
+  commentId: M:AasxIntegrationBase.WpfViewModelBase.RaisePropertyChanged(System.String)
+  fullName: AasxIntegrationBase.WpfViewModelBase.RaisePropertyChanged(System.String)
+  nameWithType: WpfViewModelBase.RaisePropertyChanged(String)
+- uid: AasxIntegrationBase.WpfViewModelBase.RaisePropertyChanged*
+  name: RaisePropertyChanged
+  href: api/AasxIntegrationBase.WpfViewModelBase.html#AasxIntegrationBase_WpfViewModelBase_RaisePropertyChanged_
+  commentId: Overload:AasxIntegrationBase.WpfViewModelBase.RaisePropertyChanged
+  isSpec: "True"
+  fullName: AasxIntegrationBase.WpfViewModelBase.RaisePropertyChanged
+  nameWithType: WpfViewModelBase.RaisePropertyChanged
+- uid: AasxIntegrationBase.WpfViewModelBase.RaiseViewModelChanged
+  name: RaiseViewModelChanged()
+  href: api/AasxIntegrationBase.WpfViewModelBase.html#AasxIntegrationBase_WpfViewModelBase_RaiseViewModelChanged
+  commentId: M:AasxIntegrationBase.WpfViewModelBase.RaiseViewModelChanged
+  fullName: AasxIntegrationBase.WpfViewModelBase.RaiseViewModelChanged()
+  nameWithType: WpfViewModelBase.RaiseViewModelChanged()
+- uid: AasxIntegrationBase.WpfViewModelBase.RaiseViewModelChanged*
+  name: RaiseViewModelChanged
+  href: api/AasxIntegrationBase.WpfViewModelBase.html#AasxIntegrationBase_WpfViewModelBase_RaiseViewModelChanged_
+  commentId: Overload:AasxIntegrationBase.WpfViewModelBase.RaiseViewModelChanged
+  isSpec: "True"
+  fullName: AasxIntegrationBase.WpfViewModelBase.RaiseViewModelChanged
+  nameWithType: WpfViewModelBase.RaiseViewModelChanged
+- uid: AasxIntegrationBase.WpfViewModelBase.ViewModelChanged
+  name: ViewModelChanged
+  href: api/AasxIntegrationBase.WpfViewModelBase.html#AasxIntegrationBase_WpfViewModelBase_ViewModelChanged
+  commentId: E:AasxIntegrationBase.WpfViewModelBase.ViewModelChanged
+  fullName: AasxIntegrationBase.WpfViewModelBase.ViewModelChanged
+  nameWithType: WpfViewModelBase.ViewModelChanged
 - uid: AasxMqttClient
   name: AasxMqttClient
   href: api/AasxMqttClient.html
@@ -24625,268 +24682,6 @@ references:
   isSpec: "True"
   fullName: AasxUANodesetImExport.UAView.EventNotifier
   nameWithType: UAView.EventNotifier
-- uid: AasxUtilities
-  name: AasxUtilities
-  href: api/AasxUtilities.html
-  commentId: N:AasxUtilities
-  fullName: AasxUtilities
-  nameWithType: AasxUtilities
-- uid: AasxUtilities.WpfViewModelBase
-  name: WpfViewModelBase
-  href: api/AasxUtilities.WpfViewModelBase.html
-  commentId: T:AasxUtilities.WpfViewModelBase
-  fullName: AasxUtilities.WpfViewModelBase
-  nameWithType: WpfViewModelBase
-- uid: AasxUtilities.WpfViewModelBase.OnPropertyChanged(System.String)
-  name: OnPropertyChanged(String)
-  href: api/AasxUtilities.WpfViewModelBase.html#AasxUtilities_WpfViewModelBase_OnPropertyChanged_System_String_
-  commentId: M:AasxUtilities.WpfViewModelBase.OnPropertyChanged(System.String)
-  fullName: AasxUtilities.WpfViewModelBase.OnPropertyChanged(System.String)
-  nameWithType: WpfViewModelBase.OnPropertyChanged(String)
-- uid: AasxUtilities.WpfViewModelBase.OnPropertyChanged*
-  name: OnPropertyChanged
-  href: api/AasxUtilities.WpfViewModelBase.html#AasxUtilities_WpfViewModelBase_OnPropertyChanged_
-  commentId: Overload:AasxUtilities.WpfViewModelBase.OnPropertyChanged
-  isSpec: "True"
-  fullName: AasxUtilities.WpfViewModelBase.OnPropertyChanged
-  nameWithType: WpfViewModelBase.OnPropertyChanged
-- uid: AasxUtilities.WpfViewModelBase.PropertyChanged
-  name: PropertyChanged
-  href: api/AasxUtilities.WpfViewModelBase.html#AasxUtilities_WpfViewModelBase_PropertyChanged
-  commentId: E:AasxUtilities.WpfViewModelBase.PropertyChanged
-  fullName: AasxUtilities.WpfViewModelBase.PropertyChanged
-  nameWithType: WpfViewModelBase.PropertyChanged
-- uid: AasxUtilities.WpfViewModelBase.RaisePropertyChanged(System.String)
-  name: RaisePropertyChanged(String)
-  href: api/AasxUtilities.WpfViewModelBase.html#AasxUtilities_WpfViewModelBase_RaisePropertyChanged_System_String_
-  commentId: M:AasxUtilities.WpfViewModelBase.RaisePropertyChanged(System.String)
-  fullName: AasxUtilities.WpfViewModelBase.RaisePropertyChanged(System.String)
-  nameWithType: WpfViewModelBase.RaisePropertyChanged(String)
-- uid: AasxUtilities.WpfViewModelBase.RaisePropertyChanged*
-  name: RaisePropertyChanged
-  href: api/AasxUtilities.WpfViewModelBase.html#AasxUtilities_WpfViewModelBase_RaisePropertyChanged_
-  commentId: Overload:AasxUtilities.WpfViewModelBase.RaisePropertyChanged
-  isSpec: "True"
-  fullName: AasxUtilities.WpfViewModelBase.RaisePropertyChanged
-  nameWithType: WpfViewModelBase.RaisePropertyChanged
-- uid: AasxUtilities.WpfViewModelBase.RaiseViewModelChanged
-  name: RaiseViewModelChanged()
-  href: api/AasxUtilities.WpfViewModelBase.html#AasxUtilities_WpfViewModelBase_RaiseViewModelChanged
-  commentId: M:AasxUtilities.WpfViewModelBase.RaiseViewModelChanged
-  fullName: AasxUtilities.WpfViewModelBase.RaiseViewModelChanged()
-  nameWithType: WpfViewModelBase.RaiseViewModelChanged()
-- uid: AasxUtilities.WpfViewModelBase.RaiseViewModelChanged*
-  name: RaiseViewModelChanged
-  href: api/AasxUtilities.WpfViewModelBase.html#AasxUtilities_WpfViewModelBase_RaiseViewModelChanged_
-  commentId: Overload:AasxUtilities.WpfViewModelBase.RaiseViewModelChanged
-  isSpec: "True"
-  fullName: AasxUtilities.WpfViewModelBase.RaiseViewModelChanged
-  nameWithType: WpfViewModelBase.RaiseViewModelChanged
-- uid: AasxUtilities.WpfViewModelBase.ViewModelChanged
-  name: ViewModelChanged
-  href: api/AasxUtilities.WpfViewModelBase.html#AasxUtilities_WpfViewModelBase_ViewModelChanged
-  commentId: E:AasxUtilities.WpfViewModelBase.ViewModelChanged
-  fullName: AasxUtilities.WpfViewModelBase.ViewModelChanged
-  nameWithType: WpfViewModelBase.ViewModelChanged
-- uid: AasxUtils
-  name: AasxUtils
-  href: api/AasxUtils.html
-  commentId: N:AasxUtils
-  fullName: AasxUtils
-  nameWithType: AasxUtils
-- uid: AasxUtils.MultiTuple2`1
-  name: MultiTuple2<T>
-  href: api/AasxUtils.MultiTuple2-1.html
-  commentId: T:AasxUtils.MultiTuple2`1
-  name.vb: MultiTuple2(Of T)
-  fullName: AasxUtils.MultiTuple2<T>
-  fullName.vb: AasxUtils.MultiTuple2(Of T)
-  nameWithType: MultiTuple2<T>
-  nameWithType.vb: MultiTuple2(Of T)
-- uid: AasxUtils.MultiTuple2`1.#ctor(`0)
-  name: MultiTuple2(T)
-  href: api/AasxUtils.MultiTuple2-1.html#AasxUtils_MultiTuple2_1__ctor__0_
-  commentId: M:AasxUtils.MultiTuple2`1.#ctor(`0)
-  fullName: AasxUtils.MultiTuple2<T>.MultiTuple2(T)
-  fullName.vb: AasxUtils.MultiTuple2(Of T).MultiTuple2(T)
-  nameWithType: MultiTuple2<T>.MultiTuple2(T)
-  nameWithType.vb: MultiTuple2(Of T).MultiTuple2(T)
-- uid: AasxUtils.MultiTuple2`1.#ctor*
-  name: MultiTuple2
-  href: api/AasxUtils.MultiTuple2-1.html#AasxUtils_MultiTuple2_1__ctor_
-  commentId: Overload:AasxUtils.MultiTuple2`1.#ctor
-  isSpec: "True"
-  fullName: AasxUtils.MultiTuple2<T>.MultiTuple2
-  fullName.vb: AasxUtils.MultiTuple2(Of T).MultiTuple2
-  nameWithType: MultiTuple2<T>.MultiTuple2
-  nameWithType.vb: MultiTuple2(Of T).MultiTuple2
-- uid: AasxUtils.MultiTuple2`1.one
-  name: one
-  href: api/AasxUtils.MultiTuple2-1.html#AasxUtils_MultiTuple2_1_one
-  commentId: F:AasxUtils.MultiTuple2`1.one
-  fullName: AasxUtils.MultiTuple2<T>.one
-  fullName.vb: AasxUtils.MultiTuple2(Of T).one
-  nameWithType: MultiTuple2<T>.one
-  nameWithType.vb: MultiTuple2(Of T).one
-- uid: AasxUtils.MultiTuple2`2
-  name: MultiTuple2<T, U>
-  href: api/AasxUtils.MultiTuple2-2.html
-  commentId: T:AasxUtils.MultiTuple2`2
-  name.vb: MultiTuple2(Of T, U)
-  fullName: AasxUtils.MultiTuple2<T, U>
-  fullName.vb: AasxUtils.MultiTuple2(Of T, U)
-  nameWithType: MultiTuple2<T, U>
-  nameWithType.vb: MultiTuple2(Of T, U)
-- uid: AasxUtils.MultiTuple2`2.#ctor(`0,`1)
-  name: MultiTuple2(T, U)
-  href: api/AasxUtils.MultiTuple2-2.html#AasxUtils_MultiTuple2_2__ctor__0__1_
-  commentId: M:AasxUtils.MultiTuple2`2.#ctor(`0,`1)
-  fullName: AasxUtils.MultiTuple2<T, U>.MultiTuple2(T, U)
-  fullName.vb: AasxUtils.MultiTuple2(Of T, U).MultiTuple2(T, U)
-  nameWithType: MultiTuple2<T, U>.MultiTuple2(T, U)
-  nameWithType.vb: MultiTuple2(Of T, U).MultiTuple2(T, U)
-- uid: AasxUtils.MultiTuple2`2.#ctor*
-  name: MultiTuple2
-  href: api/AasxUtils.MultiTuple2-2.html#AasxUtils_MultiTuple2_2__ctor_
-  commentId: Overload:AasxUtils.MultiTuple2`2.#ctor
-  isSpec: "True"
-  fullName: AasxUtils.MultiTuple2<T, U>.MultiTuple2
-  fullName.vb: AasxUtils.MultiTuple2(Of T, U).MultiTuple2
-  nameWithType: MultiTuple2<T, U>.MultiTuple2
-  nameWithType.vb: MultiTuple2(Of T, U).MultiTuple2
-- uid: AasxUtils.MultiTuple2`2.one
-  name: one
-  href: api/AasxUtils.MultiTuple2-2.html#AasxUtils_MultiTuple2_2_one
-  commentId: F:AasxUtils.MultiTuple2`2.one
-  fullName: AasxUtils.MultiTuple2<T, U>.one
-  fullName.vb: AasxUtils.MultiTuple2(Of T, U).one
-  nameWithType: MultiTuple2<T, U>.one
-  nameWithType.vb: MultiTuple2(Of T, U).one
-- uid: AasxUtils.MultiTuple2`2.two
-  name: two
-  href: api/AasxUtils.MultiTuple2-2.html#AasxUtils_MultiTuple2_2_two
-  commentId: F:AasxUtils.MultiTuple2`2.two
-  fullName: AasxUtils.MultiTuple2<T, U>.two
-  fullName.vb: AasxUtils.MultiTuple2(Of T, U).two
-  nameWithType: MultiTuple2<T, U>.two
-  nameWithType.vb: MultiTuple2(Of T, U).two
-- uid: AasxUtils.MultiTuple3`3
-  name: MultiTuple3<T, U, V>
-  href: api/AasxUtils.MultiTuple3-3.html
-  commentId: T:AasxUtils.MultiTuple3`3
-  name.vb: MultiTuple3(Of T, U, V)
-  fullName: AasxUtils.MultiTuple3<T, U, V>
-  fullName.vb: AasxUtils.MultiTuple3(Of T, U, V)
-  nameWithType: MultiTuple3<T, U, V>
-  nameWithType.vb: MultiTuple3(Of T, U, V)
-- uid: AasxUtils.MultiTuple3`3.#ctor(`0,`1,`2)
-  name: MultiTuple3(T, U, V)
-  href: api/AasxUtils.MultiTuple3-3.html#AasxUtils_MultiTuple3_3__ctor__0__1__2_
-  commentId: M:AasxUtils.MultiTuple3`3.#ctor(`0,`1,`2)
-  fullName: AasxUtils.MultiTuple3<T, U, V>.MultiTuple3(T, U, V)
-  fullName.vb: AasxUtils.MultiTuple3(Of T, U, V).MultiTuple3(T, U, V)
-  nameWithType: MultiTuple3<T, U, V>.MultiTuple3(T, U, V)
-  nameWithType.vb: MultiTuple3(Of T, U, V).MultiTuple3(T, U, V)
-- uid: AasxUtils.MultiTuple3`3.#ctor*
-  name: MultiTuple3
-  href: api/AasxUtils.MultiTuple3-3.html#AasxUtils_MultiTuple3_3__ctor_
-  commentId: Overload:AasxUtils.MultiTuple3`3.#ctor
-  isSpec: "True"
-  fullName: AasxUtils.MultiTuple3<T, U, V>.MultiTuple3
-  fullName.vb: AasxUtils.MultiTuple3(Of T, U, V).MultiTuple3
-  nameWithType: MultiTuple3<T, U, V>.MultiTuple3
-  nameWithType.vb: MultiTuple3(Of T, U, V).MultiTuple3
-- uid: AasxUtils.MultiTuple3`3.one
-  name: one
-  href: api/AasxUtils.MultiTuple3-3.html#AasxUtils_MultiTuple3_3_one
-  commentId: F:AasxUtils.MultiTuple3`3.one
-  fullName: AasxUtils.MultiTuple3<T, U, V>.one
-  fullName.vb: AasxUtils.MultiTuple3(Of T, U, V).one
-  nameWithType: MultiTuple3<T, U, V>.one
-  nameWithType.vb: MultiTuple3(Of T, U, V).one
-- uid: AasxUtils.MultiTuple3`3.three
-  name: three
-  href: api/AasxUtils.MultiTuple3-3.html#AasxUtils_MultiTuple3_3_three
-  commentId: F:AasxUtils.MultiTuple3`3.three
-  fullName: AasxUtils.MultiTuple3<T, U, V>.three
-  fullName.vb: AasxUtils.MultiTuple3(Of T, U, V).three
-  nameWithType: MultiTuple3<T, U, V>.three
-  nameWithType.vb: MultiTuple3(Of T, U, V).three
-- uid: AasxUtils.MultiTuple3`3.two
-  name: two
-  href: api/AasxUtils.MultiTuple3-3.html#AasxUtils_MultiTuple3_3_two
-  commentId: F:AasxUtils.MultiTuple3`3.two
-  fullName: AasxUtils.MultiTuple3<T, U, V>.two
-  fullName.vb: AasxUtils.MultiTuple3(Of T, U, V).two
-  nameWithType: MultiTuple3<T, U, V>.two
-  nameWithType.vb: MultiTuple3(Of T, U, V).two
-- uid: AasxUtils.MultiTupleBase
-  name: MultiTupleBase
-  href: api/AasxUtils.MultiTupleBase.html
-  commentId: T:AasxUtils.MultiTupleBase
-  fullName: AasxUtils.MultiTupleBase
-  nameWithType: MultiTupleBase
-- uid: AasxUtils.MultiTupleDictionary`2
-  name: MultiTupleDictionary<KEY, MT>
-  href: api/AasxUtils.MultiTupleDictionary-2.html
-  commentId: T:AasxUtils.MultiTupleDictionary`2
-  name.vb: MultiTupleDictionary(Of KEY, MT)
-  fullName: AasxUtils.MultiTupleDictionary<KEY, MT>
-  fullName.vb: AasxUtils.MultiTupleDictionary(Of KEY, MT)
-  nameWithType: MultiTupleDictionary<KEY, MT>
-  nameWithType.vb: MultiTupleDictionary(Of KEY, MT)
-- uid: AasxUtils.MultiTupleDictionary`2.Add(`0,`1)
-  name: Add(KEY, MT)
-  href: api/AasxUtils.MultiTupleDictionary-2.html#AasxUtils_MultiTupleDictionary_2_Add__0__1_
-  commentId: M:AasxUtils.MultiTupleDictionary`2.Add(`0,`1)
-  fullName: AasxUtils.MultiTupleDictionary<KEY, MT>.Add(KEY, MT)
-  fullName.vb: AasxUtils.MultiTupleDictionary(Of KEY, MT).Add(KEY, MT)
-  nameWithType: MultiTupleDictionary<KEY, MT>.Add(KEY, MT)
-  nameWithType.vb: MultiTupleDictionary(Of KEY, MT).Add(KEY, MT)
-- uid: AasxUtils.MultiTupleDictionary`2.Add*
-  name: Add
-  href: api/AasxUtils.MultiTupleDictionary-2.html#AasxUtils_MultiTupleDictionary_2_Add_
-  commentId: Overload:AasxUtils.MultiTupleDictionary`2.Add
-  isSpec: "True"
-  fullName: AasxUtils.MultiTupleDictionary<KEY, MT>.Add
-  fullName.vb: AasxUtils.MultiTupleDictionary(Of KEY, MT).Add
-  nameWithType: MultiTupleDictionary<KEY, MT>.Add
-  nameWithType.vb: MultiTupleDictionary(Of KEY, MT).Add
-- uid: AasxUtils.MultiTupleDictionary`2.ContainsKey(`0)
-  name: ContainsKey(KEY)
-  href: api/AasxUtils.MultiTupleDictionary-2.html#AasxUtils_MultiTupleDictionary_2_ContainsKey__0_
-  commentId: M:AasxUtils.MultiTupleDictionary`2.ContainsKey(`0)
-  fullName: AasxUtils.MultiTupleDictionary<KEY, MT>.ContainsKey(KEY)
-  fullName.vb: AasxUtils.MultiTupleDictionary(Of KEY, MT).ContainsKey(KEY)
-  nameWithType: MultiTupleDictionary<KEY, MT>.ContainsKey(KEY)
-  nameWithType.vb: MultiTupleDictionary(Of KEY, MT).ContainsKey(KEY)
-- uid: AasxUtils.MultiTupleDictionary`2.ContainsKey*
-  name: ContainsKey
-  href: api/AasxUtils.MultiTupleDictionary-2.html#AasxUtils_MultiTupleDictionary_2_ContainsKey_
-  commentId: Overload:AasxUtils.MultiTupleDictionary`2.ContainsKey
-  isSpec: "True"
-  fullName: AasxUtils.MultiTupleDictionary<KEY, MT>.ContainsKey
-  fullName.vb: AasxUtils.MultiTupleDictionary(Of KEY, MT).ContainsKey
-  nameWithType: MultiTupleDictionary<KEY, MT>.ContainsKey
-  nameWithType.vb: MultiTupleDictionary(Of KEY, MT).ContainsKey
-- uid: AasxUtils.MultiTupleDictionary`2.Item(`0)
-  name: Item[KEY]
-  href: api/AasxUtils.MultiTupleDictionary-2.html#AasxUtils_MultiTupleDictionary_2_Item__0_
-  commentId: P:AasxUtils.MultiTupleDictionary`2.Item(`0)
-  name.vb: Item(KEY)
-  fullName: AasxUtils.MultiTupleDictionary<KEY, MT>.Item[KEY]
-  fullName.vb: AasxUtils.MultiTupleDictionary(Of KEY, MT).Item(KEY)
-  nameWithType: MultiTupleDictionary<KEY, MT>.Item[KEY]
-  nameWithType.vb: MultiTupleDictionary(Of KEY, MT).Item(KEY)
-- uid: AasxUtils.MultiTupleDictionary`2.Item*
-  name: Item
-  href: api/AasxUtils.MultiTupleDictionary-2.html#AasxUtils_MultiTupleDictionary_2_Item_
-  commentId: Overload:AasxUtils.MultiTupleDictionary`2.Item
-  isSpec: "True"
-  fullName: AasxUtils.MultiTupleDictionary<KEY, MT>.Item
-  fullName.vb: AasxUtils.MultiTupleDictionary(Of KEY, MT).Item
-  nameWithType: MultiTupleDictionary<KEY, MT>.Item
-  nameWithType.vb: MultiTupleDictionary(Of KEY, MT).Item
 - uid: AdminShellNS
   name: AdminShellNS
   href: api/AdminShellNS.html

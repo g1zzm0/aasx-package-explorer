@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxAmlImExport.AmlExport.html",
-          "hash": "JIjt2JNt5QxrbA3pT7z3mQ=="
+          "hash": "MQ+9Mfrk896kuy5vGXNn5w=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxAmlImExport.AmlImport.AmlParser.html",
-          "hash": "T5+JErFbn1wo2sDMlpX7LQ=="
+          "hash": "o8alWOqscNEz/sXteDPLEQ=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxAmlImExport.AmlImport.html",
-          "hash": "UAKM0vHUyJatLcuYxAndQg=="
+          "hash": "uUlIvwOgkh1LxOFO5Qj9/A=="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceFile.html",
-          "hash": "94LDy0oK8w2wUHRX6L/xKg=="
+          "hash": "HWgfH+7R29BhHsF/PeGhYA=="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceMultiLangProp.html",
-          "hash": "slJQMTGdaniWpkusQUsgXg=="
+          "hash": "X/JikyWX5c/tR2cBXz4NHA=="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceProperty.html",
-          "hash": "yXC92NaBScW3DMweU3WgLw=="
+          "hash": "19pMajotoCWGoGSRLfVWCQ=="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceSubmodelElementCollection.html",
-          "hash": "Z7sAKMg0oISHfKLqoU70kQ=="
+          "hash": "sM1+B/51LX1BJj5ASCrLHA=="
         }
       },
       "is_incremental": false,
@@ -1922,11 +1922,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AasxIntegrationBase.WpfViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxIntegrationBase.WpfViewModelBase.html",
+          "hash": "cR251om01N/9QcOH9mafIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AasxIntegrationBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.html",
-          "hash": "WYkBCGd1encmB+JPpQvT3g=="
+          "hash": "inc94p2MsOQ6ZFC5R59O8A=="
         }
       },
       "is_incremental": false,
@@ -2214,7 +2226,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPackageExplorer.DispEditHelper.html",
-          "hash": "FXwODzNMpefS7p4pbFiYOA=="
+          "hash": "xwydJdsl7KJM+GwwnZ3mdw=="
         }
       },
       "is_incremental": false,
@@ -3102,7 +3114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPluginBomStructure.AasReferenceStore.html",
-          "hash": "LgZrdohUnGndC0b2RsS0PQ=="
+          "hash": "cdqVf4joJ0gt6yij8I74qg=="
         }
       },
       "is_incremental": false,
@@ -3258,7 +3270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPluginDocumentShelf.ShelfControl.ViewModel.html",
-          "hash": "FHZHKUdLB2dt7AECOk9FSg=="
+          "hash": "zGCXh7qzE/yLRmdu84LRFQ=="
         }
       },
       "is_incremental": false,
@@ -3438,7 +3450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPluginGenericForms.GenericFormsControl.ViewModel.html",
-          "hash": "FyDJNutp6+c3/3wPaMeu+Q=="
+          "hash": "bwee3alIMWqNpSn9E2GN6Q=="
         }
       },
       "is_incremental": false,
@@ -4026,7 +4038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxRestServerLibrary.AasxRestClient.html",
-          "hash": "nA/oqVpbuRvENFUxmZOCfg=="
+          "hash": "vKMhVJ4ly8VU6RlLK/1s5Q=="
         }
       },
       "is_incremental": false,
@@ -4483,102 +4495,6 @@
         ".html": {
           "relative_path": "api/AasxUANodesetImExport.html",
           "hash": "CxxuyfuAdauDl4lK2xQtIA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AasxUtilities.WpfViewModelBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxUtilities.WpfViewModelBase.html",
-          "hash": "DN+ozEa6UMRmn9tDUuKeTg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AasxUtilities.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxUtilities.html",
-          "hash": "KCT1vlRHzVXXBWJThApipw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AasxUtils.MultiTuple2-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxUtils.MultiTuple2-1.html",
-          "hash": "RQz11FdsKpSyculrVrWT6w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AasxUtils.MultiTuple2-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxUtils.MultiTuple2-2.html",
-          "hash": "gcnnkBNTqq7XgAnwnqhVCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AasxUtils.MultiTuple3-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxUtils.MultiTuple3-3.html",
-          "hash": "lco+QOhkaLHEvt4LjPtSNg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AasxUtils.MultiTupleBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxUtils.MultiTupleBase.html",
-          "hash": "4ODMv5Gz/wUqB12B3k0eNA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AasxUtils.MultiTupleDictionary-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxUtils.MultiTupleDictionary-2.html",
-          "hash": "mD5jiPqY0YRgzsnGs889PA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AasxUtils.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxUtils.html",
-          "hash": "0hn8WFEuXI4vQe4wObLIbw=="
         }
       },
       "is_incremental": false,
@@ -5778,7 +5694,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "yQpaWLvw0CGacHFSW4eT3w=="
+          "hash": "GZwWkli5/4cSANxpUjhpCQ=="
         }
       },
       "is_incremental": false,
@@ -5790,7 +5706,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "w3Xj+Vj0kj7R3qwbqOkYOQ=="
+          "hash": "yyMuA3KlmFJLZ46jk6Zv+A=="
         }
       },
       "is_incremental": false,
@@ -5925,7 +5841,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 480,
+          "total_file_count": 473,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
