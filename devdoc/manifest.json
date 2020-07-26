@@ -5713,96 +5713,15 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "articles/building-the-solution.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/building-the-solution.html",
-          "hash": "p9Q7VYfi0QJMGeW3A21RGw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/continuous-integration.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/continuous-integration.html",
-          "hash": "DfMY9bFOs5frVBoaaiv+3Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/development-workflow.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/development-workflow.html",
-          "hash": "m4F9BMJXriJJbehvPChYOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "jjJwtM2RVPeGBwlBJa85Kg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/licenses-and-copyrights.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/licenses-and-copyrights.html",
-          "hash": "3vl1Pn+li2EjQtdXnIlopA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "GtbUBFQ4jPjpBxR873qLAA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/troubleshooting.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/troubleshooting.html",
-          "hash": "xVnWPyMwp9sIcWKWc69fMA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "vg1S/zS9GCNICnb5c+3sIA=="
+          "hash": "x5lH7GdaV43+GL+m1zytqg=="
         }
       },
       "is_incremental": false,
@@ -5814,7 +5733,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+          "hash": "NFCZgwIAEkAyFZ9nk/+dTw=="
         }
       },
       "is_incremental": false,
@@ -5835,7 +5754,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 8,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
