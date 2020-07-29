@@ -5713,15 +5713,96 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Conceptual",
+      "source_relative_path": "getting-started/building-the-solution.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started/building-the-solution.html",
+          "hash": "fByHjHqdtAr9jodQkIW7gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started/continuous-integration.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started/continuous-integration.html",
+          "hash": "5K/RIbylNg44KJyC2VgPRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started/development-workflow.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started/development-workflow.html",
+          "hash": "RNrx2FR4+8LpM0utzzuUzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started/intro.html",
+          "hash": "yNhGWykdNxE1riyoaPXffg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started/licenses-and-copyrights.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started/licenses-and-copyrights.html",
+          "hash": "OKxu152gB1iABXVJKqBTxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "getting-started/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started/toc.html",
+          "hash": "GtbUBFQ4jPjpBxR873qLAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started/troubleshooting.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started/troubleshooting.html",
+          "hash": "LV8jJJAbA8zN8+5a+LBe4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "x5lH7GdaV43+GL+m1zytqg=="
+          "hash": "X/Kf6nHgdv+kqaBouIr1Rg=="
         }
       },
       "is_incremental": false,
@@ -5733,7 +5814,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "NFCZgwIAEkAyFZ9nk/+dTw=="
+          "hash": "8Ze8D/yTPZBsDISfxd/kRQ=="
         }
       },
       "is_incremental": false,
@@ -5754,7 +5835,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
