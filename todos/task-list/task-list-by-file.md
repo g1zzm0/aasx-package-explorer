@@ -112,24 +112,6 @@ Michael Hoffmeister,
 
     use aasenv serialzers here!
 
-## AasxIntegrationBaseWpf\AasForms\FormInstance.cs
-
-[Line 649, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxIntegrationBaseWpf/AasForms/FormInstance.cs#L649
-), 
-Michael Hoffmeister,
-1970-01-01
-
-    take over
-
-[Line 769, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxIntegrationBaseWpf/AasForms/FormInstance.cs#L769
-), 
-Michael Hoffmeister,
-1970-01-01
-
-    MICHA
-
 ## AasxRestServerLibrary\AasxRestClient.cs
 
 [Line 56, column 17](
@@ -272,16 +254,6 @@ https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfC
 Michael Hoffmeister,
 1970-01-01
 
-    Needs to be revisted
-
-## AasxWpfControlLibrary\VisualAasxElements.cs
-
-[Line 27, column 1](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/VisualAasxElements.cs#L27
-), 
-Michael Hoffmeister,
-1970-01-01
-
-    check again
+    Needs to be revisited
 
 
