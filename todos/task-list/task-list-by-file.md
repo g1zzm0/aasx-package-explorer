@@ -62,21 +62,29 @@ Michael Hoffmeister,
 
 ## AasxCsharpLibrary\AdminShell.cs
 
-[Line 2558, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2558
+[Line 2578, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2578
 ), 
 Michael Hoffmeister,
 1970-01-01
 
     in V1.0, shall be a list of embeddedDataSpecification
 
-[Line 3508, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3508
+[Line 3528, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3528
 ), 
 Michael Hoffmeister,
 1970-01-01
 
     check, if Json has Qualifiers or not
+
+[Line 4245, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4245
+), 
+MIHO,
+2020-07-31
+
+    would be nice to use IEnumerateChildren for this ..
 
 ## AasxCsharpLibrary\AdminShellPackageEnv.cs
 
@@ -111,6 +119,24 @@ Michael Hoffmeister,
 1970-01-01
 
     use aasenv serialzers here!
+
+## AasxPredefinedConcepts\Convert\ConvertDocumentationSg2ToHsu.cs
+
+[Line 33, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPredefinedConcepts/Convert/ConvertDocumentationSg2ToHsu.cs#L33
+), 
+MIHO,
+2020-07-31
+
+    temporary have code to allow conversion of Festo MCAD / ECAD models as well
+
+[Line 60, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPredefinedConcepts/Convert/ConvertDocumentationSg2ToHsu.cs#L60
+), 
+MIHO,
+2020-07-31
+
+    disable line above to allow more models, such as MCAD/ECAD
 
 ## AasxRestServerLibrary\AasxRestClient.cs
 
@@ -204,34 +230,44 @@ Michael Hoffmeister,
 
     Fraunhofer IOSB: Check ReSharper
 
+## AasxWpfControlLibrary\DiplayVisualAasxElements.xaml.cs
+
+[Line 610, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DiplayVisualAasxElements.xaml.cs#L610
+), 
+MIHO,
+2020-07-21
+
+    was because of multi-select
+
 ## AasxWpfControlLibrary\DispEditAasxEntity.xaml.cs
 
-[Line 2373, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L2373
+[Line 2375, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L2375
 ), 
 Michael Hoffmeister,
 1970-01-01
 
     add Sync to shortName
 
-[Line 2861, column 37](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L2861
+[Line 2863, column 37](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L2863
 ), 
 Michael Hoffmeister,
 1970-01-01
 
     Operation mssing here?
 
-[Line 2883, column 37](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L2883
+[Line 2885, column 37](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L2885
 ), 
 Michael Hoffmeister,
 1970-01-01
 
     Operation mssing here?
 
-[Line 4022, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L4022
+[Line 4024, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L4024
 ), 
 Michael Hoffmeister,
 1970-01-01
@@ -240,20 +276,30 @@ Michael Hoffmeister,
 
 ## AasxWpfControlLibrary\DispEditHelper.cs
 
-[Line 1162, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelper.cs#L1162
+[Line 1161, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelper.cs#L1161
 ), 
 Michael Hoffmeister,
 1970-01-01
 
     possibly [Jump] button??
 
-[Line 1305, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelper.cs#L1305
+[Line 1304, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelper.cs#L1304
 ), 
 Michael Hoffmeister,
 1970-01-01
 
     Needs to be revisited
+
+## AasxWpfControlLibrary\VisualAasxElements.cs
+
+[Line 153, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/VisualAasxElements.cs#L153
+), 
+MIHO,
+2020-07-31
+
+    check if commented out because of non-working multi-select?
 
 

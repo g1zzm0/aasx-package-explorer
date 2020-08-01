@@ -11748,6 +11748,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DiplayVisualAasxElements.FilterLeafsOfVisualElements
   nameWithType: DiplayVisualAasxElements.FilterLeafsOfVisualElements
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.MultiSelect
+  name: MultiSelect
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_MultiSelect
+  commentId: F:AasxPackageExplorer.DiplayVisualAasxElements.MultiSelect
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.MultiSelect
+  nameWithType: DiplayVisualAasxElements.MultiSelect
 - uid: AasxPackageExplorer.DiplayVisualAasxElements.RebuildAasxElements(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[],System.Boolean,System.String)
   name: RebuildAasxElements(AdminShellV20.AdministrationShellEnv, AdminShellPackageEnv, AdminShellPackageEnv[], Boolean, String)
   href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_RebuildAasxElements_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellPackageEnv___System_Boolean_System_String_
@@ -11809,6 +11815,19 @@ references:
   commentId: E:AasxPackageExplorer.DiplayVisualAasxElements.SelectedItemChanged
   fullName: AasxPackageExplorer.DiplayVisualAasxElements.SelectedItemChanged
   nameWithType: DiplayVisualAasxElements.SelectedItemChanged
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.Test
+  name: Test()
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_Test
+  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.Test
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.Test()
+  nameWithType: DiplayVisualAasxElements.Test()
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.Test*
+  name: Test
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_Test_
+  commentId: Overload:AasxPackageExplorer.DiplayVisualAasxElements.Test
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.Test
+  nameWithType: DiplayVisualAasxElements.Test
 - uid: AasxPackageExplorer.DiplayVisualAasxElements.TrySelectMainDataObject(System.Object,System.Boolean)
   name: TrySelectMainDataObject(Object, Boolean)
   href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_TrySelectMainDataObject_System_Object_System_Boolean_
@@ -13367,6 +13386,25 @@ references:
   commentId: F:AasxPackageExplorer.HintCheck.TextToShow
   fullName: AasxPackageExplorer.HintCheck.TextToShow
   nameWithType: HintCheck.TextToShow
+- uid: AasxPackageExplorer.ITreeViewSelectable
+  name: ITreeViewSelectable
+  href: api/AasxPackageExplorer.ITreeViewSelectable.html
+  commentId: T:AasxPackageExplorer.ITreeViewSelectable
+  fullName: AasxPackageExplorer.ITreeViewSelectable
+  nameWithType: ITreeViewSelectable
+- uid: AasxPackageExplorer.ITreeViewSelectable.IsSelected
+  name: IsSelected
+  href: api/AasxPackageExplorer.ITreeViewSelectable.html#AasxPackageExplorer_ITreeViewSelectable_IsSelected
+  commentId: P:AasxPackageExplorer.ITreeViewSelectable.IsSelected
+  fullName: AasxPackageExplorer.ITreeViewSelectable.IsSelected
+  nameWithType: ITreeViewSelectable.IsSelected
+- uid: AasxPackageExplorer.ITreeViewSelectable.IsSelected*
+  name: IsSelected
+  href: api/AasxPackageExplorer.ITreeViewSelectable.html#AasxPackageExplorer_ITreeViewSelectable_IsSelected_
+  commentId: Overload:AasxPackageExplorer.ITreeViewSelectable.IsSelected
+  isSpec: "True"
+  fullName: AasxPackageExplorer.ITreeViewSelectable.IsSelected
+  nameWithType: ITreeViewSelectable.IsSelected
 - uid: AasxPackageExplorer.LogMessageFlyout
   name: LogMessageFlyout
   href: api/AasxPackageExplorer.LogMessageFlyout.html
@@ -20042,6 +20080,63 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.Convert.ConvertProviderBase.ExecuteOffer
   nameWithType: ConvertProviderBase.ExecuteOffer
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider
+  name: ConvertTechnicalDataToFlatProvider
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.html
+  commentId: T:AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider
+  nameWithType: ConvertTechnicalDataToFlatProvider
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.CheckForOffers(AdminShellNS.AdminShellV20.Referable)
+  name: CheckForOffers(AdminShellV20.Referable)
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataToFlatProvider_CheckForOffers_AdminShellNS_AdminShellV20_Referable_
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.CheckForOffers(AdminShellNS.AdminShellV20.Referable)
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.CheckForOffers(AdminShellNS.AdminShellV20.Referable)
+  nameWithType: ConvertTechnicalDataToFlatProvider.CheckForOffers(AdminShellV20.Referable)
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.CheckForOffers*
+  name: CheckForOffers
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataToFlatProvider_CheckForOffers_
+  commentId: Overload:AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.CheckForOffers
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.CheckForOffers
+  nameWithType: ConvertTechnicalDataToFlatProvider.CheckForOffers
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat
+  name: ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.html
+  commentId: T:AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat
+  nameWithType: ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.#ctor
+  name: ConvertOfferTechnicalDataToFlat()
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataToFlatProvider_ConvertOfferTechnicalDataToFlat__ctor
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.#ctor
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.ConvertOfferTechnicalDataToFlat()
+  nameWithType: ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.ConvertOfferTechnicalDataToFlat()
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.#ctor(AasxPredefinedConcepts.Convert.ConvertProviderBase,System.String)
+  name: ConvertOfferTechnicalDataToFlat(ConvertProviderBase, String)
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataToFlatProvider_ConvertOfferTechnicalDataToFlat__ctor_AasxPredefinedConcepts_Convert_ConvertProviderBase_System_String_
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.#ctor(AasxPredefinedConcepts.Convert.ConvertProviderBase,System.String)
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.ConvertOfferTechnicalDataToFlat(AasxPredefinedConcepts.Convert.ConvertProviderBase, System.String)
+  nameWithType: ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.ConvertOfferTechnicalDataToFlat(ConvertProviderBase, String)
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.#ctor*
+  name: ConvertOfferTechnicalDataToFlat
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataToFlatProvider_ConvertOfferTechnicalDataToFlat__ctor_
+  commentId: Overload:AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.ConvertOfferTechnicalDataToFlat
+  nameWithType: ConvertTechnicalDataToFlatProvider.ConvertOfferTechnicalDataToFlat.ConvertOfferTechnicalDataToFlat
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ExecuteOffer(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Referable,AasxPredefinedConcepts.Convert.ConvertOfferBase,System.Boolean,System.Boolean)
+  name: ExecuteOffer(AdminShellPackageEnv, AdminShellV20.Referable, ConvertOfferBase, Boolean, Boolean)
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataToFlatProvider_ExecuteOffer_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_Referable_AasxPredefinedConcepts_Convert_ConvertOfferBase_System_Boolean_System_Boolean_
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ExecuteOffer(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Referable,AasxPredefinedConcepts.Convert.ConvertOfferBase,System.Boolean,System.Boolean)
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ExecuteOffer(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.Referable, AasxPredefinedConcepts.Convert.ConvertOfferBase, System.Boolean, System.Boolean)
+  nameWithType: ConvertTechnicalDataToFlatProvider.ExecuteOffer(AdminShellPackageEnv, AdminShellV20.Referable, ConvertOfferBase, Boolean, Boolean)
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ExecuteOffer*
+  name: ExecuteOffer
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataToFlatProvider_ExecuteOffer_
+  commentId: Overload:AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ExecuteOffer
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ExecuteOffer
+  nameWithType: ConvertTechnicalDataToFlatProvider.ExecuteOffer
 - uid: AasxPredefinedConcepts.DefinitionsLanguages
   name: DefinitionsLanguages
   href: api/AasxPredefinedConcepts.DefinitionsLanguages.html
@@ -26784,24 +26879,6 @@ references:
   fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CreateSMEForIdShort(Of T)(System.String, System.String, System.String, System.Int32, System.Boolean)
   nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CreateSMEForIdShort<T>(String, String, String, Int32, Boolean)
   nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CreateSMEForIdShort(Of T)(String, String, String, Int32, Boolean)
-- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindAll*
-  name: FindAll
-  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_FindAll_
-  commentId: Overload:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindAll
-  isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindAll
-  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindAll
-  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindAll
-  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindAll
-- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindAll``1(System.Predicate{``0})
-  name: FindAll<T>(Predicate<T>)
-  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_FindAll__1_System_Predicate___0__
-  commentId: M:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindAll``1(System.Predicate{``0})
-  name.vb: FindAll(Of T)(Predicate(Of T))
-  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindAll<T>(System.Predicate<T>)
-  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindAll(Of T)(System.Predicate(Of T))
-  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindAll<T>(Predicate<T>)
-  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindAll(Of T)(Predicate(Of T))
 - uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindAllIdShort(System.String)
   name: FindAllIdShort(String)
   href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_FindAllIdShort_System_String_
@@ -26873,6 +26950,24 @@ references:
   fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindAllSemanticIdAs(Of T)(AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.Key.MatchMode)
   nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindAllSemanticIdAs<T>(AdminShellV20.Key, AdminShellV20.Key.MatchMode)
   nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindAllSemanticIdAs(Of T)(AdminShellV20.Key, AdminShellV20.Key.MatchMode)
+- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindDeep*
+  name: FindDeep
+  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_FindDeep_
+  commentId: Overload:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindDeep
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindDeep
+  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindDeep
+  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindDeep
+  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindDeep
+- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindDeep``1(System.Predicate{``0})
+  name: FindDeep<T>(Predicate<T>)
+  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_FindDeep__1_System_Predicate___0__
+  commentId: M:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindDeep``1(System.Predicate{``0})
+  name.vb: FindDeep(Of T)(Predicate(Of T))
+  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindDeep<T>(System.Predicate<T>)
+  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindDeep(Of T)(System.Predicate(Of T))
+  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindDeep<T>(Predicate<T>)
+  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindDeep(Of T)(Predicate(Of T))
 - uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindFirstIdShort(System.String)
   name: FindFirstIdShort(String)
   href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_FindFirstIdShort_System_String_
@@ -29042,6 +29137,12 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Key.CreateNew
   nameWithType: AdminShellV20.Key.CreateNew
+- uid: AdminShellNS.AdminShellV20.Key.Custom
+  name: Custom
+  href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_Custom
+  commentId: F:AdminShellNS.AdminShellV20.Key.Custom
+  fullName: AdminShellNS.AdminShellV20.Key.Custom
+  nameWithType: AdminShellV20.Key.Custom
 - uid: AdminShellNS.AdminShellV20.Key.GetFromRef(AdminShellNS.AdminShellV20.Reference)
   name: GetFromRef(AdminShellV20.Reference)
   href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_GetFromRef_AdminShellNS_AdminShellV20_Reference_
@@ -29128,6 +29229,18 @@ references:
   commentId: F:AdminShellNS.AdminShellV20.Key.index
   fullName: AdminShellNS.AdminShellV20.Key.index
   nameWithType: AdminShellV20.Key.index
+- uid: AdminShellNS.AdminShellV20.Key.IRDI
+  name: IRDI
+  href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_IRDI
+  commentId: F:AdminShellNS.AdminShellV20.Key.IRDI
+  fullName: AdminShellNS.AdminShellV20.Key.IRDI
+  nameWithType: AdminShellV20.Key.IRDI
+- uid: AdminShellNS.AdminShellV20.Key.IRI
+  name: IRI
+  href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_IRI
+  commentId: F:AdminShellNS.AdminShellV20.Key.IRI
+  fullName: AdminShellNS.AdminShellV20.Key.IRI
+  nameWithType: AdminShellV20.Key.IRI
 - uid: AdminShellNS.AdminShellV20.Key.IsInKeyElements(System.String)
   name: IsInKeyElements(String)
   href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_IsInKeyElements_System_String_
@@ -31215,6 +31328,25 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Reference.MatchesExactlyOneKey
   nameWithType: AdminShellV20.Reference.MatchesExactlyOneKey
+- uid: AdminShellNS.AdminShellV20.Reference.op_Addition(AdminShellNS.AdminShellV20.Reference,AdminShellNS.AdminShellV20.Key)
+  name: Addition(AdminShellV20.Reference, AdminShellV20.Key)
+  href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_op_Addition_AdminShellNS_AdminShellV20_Reference_AdminShellNS_AdminShellV20_Key_
+  commentId: M:AdminShellNS.AdminShellV20.Reference.op_Addition(AdminShellNS.AdminShellV20.Reference,AdminShellNS.AdminShellV20.Key)
+  fullName: AdminShellNS.AdminShellV20.Reference.Addition(AdminShellNS.AdminShellV20.Reference, AdminShellNS.AdminShellV20.Key)
+  nameWithType: AdminShellV20.Reference.Addition(AdminShellV20.Reference, AdminShellV20.Key)
+- uid: AdminShellNS.AdminShellV20.Reference.op_Addition(AdminShellNS.AdminShellV20.Reference,AdminShellNS.AdminShellV20.Reference)
+  name: Addition(AdminShellV20.Reference, AdminShellV20.Reference)
+  href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_op_Addition_AdminShellNS_AdminShellV20_Reference_AdminShellNS_AdminShellV20_Reference_
+  commentId: M:AdminShellNS.AdminShellV20.Reference.op_Addition(AdminShellNS.AdminShellV20.Reference,AdminShellNS.AdminShellV20.Reference)
+  fullName: AdminShellNS.AdminShellV20.Reference.Addition(AdminShellNS.AdminShellV20.Reference, AdminShellNS.AdminShellV20.Reference)
+  nameWithType: AdminShellV20.Reference.Addition(AdminShellV20.Reference, AdminShellV20.Reference)
+- uid: AdminShellNS.AdminShellV20.Reference.op_Addition*
+  name: Addition
+  href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_op_Addition_
+  commentId: Overload:AdminShellNS.AdminShellV20.Reference.op_Addition
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Reference.Addition
+  nameWithType: AdminShellV20.Reference.Addition
 - uid: AdminShellNS.AdminShellV20.Reference.ToString(System.Int32,System.String)
   name: ToString(Int32, String)
   href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_ToString_System_Int32_System_String_
