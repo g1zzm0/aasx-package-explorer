@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Development Workflow </title>
+    <title>Releasing </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Development Workflow ">
+    <meta name="title" content="Releasing ">
     <meta name="generator" content="docfx 2.56.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,55 +77,53 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="development-workflow">Development Workflow</h1>
+<h1 id="releasing">Releasing</h1>
 
-<p>We develop with Github using pull requests (see <a href="https://guides.github.com/introduction/flow/">this Github guide</a> for a short introduction).</p>
-<p>The development branch is always <code>master</code>. The releases mark the development
-milestones on the <code>master</code> branch with a certain feature completeness.</p>
-<h2 id="pull-requests">Pull Requests</h2>
-<p><strong>Feature branches</strong>. We develop using the feature branches, see <a href="https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows">this section
-of the Git book</a>.</p>
-<p>If you are a member of the development team, create a feature branch directly
-within the repository.</p>
-<p>Otherwise, if you are a non-member contributor, fork the repository and create
-the feature branch in your forked repository. See <a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork">this Github tuturial</a> for more guidance.</p>
-<p><strong>Branch Prefix</strong>. Please prefix the branch with your Github user name
-(<em>e.g.,</em> <code>mristin/Add-some-feature</code>).</p>
-<p><strong>Continuous Integration</strong>. Github will run the continuous integration (CI) automatically through Github
-actions. The CI includes building the solution, running the test, inspecting
-the code <em>etc.</em> (see below the section &quot;Pre-merge Checks&quot;).</p>
-<p>Please note that running the Github actions consumes limited resources (we have only 2,000 minutes
-per month available for CI on our current Github plan). You can manually disable workflows
-by appending the following lines to the body of the pull request:</p>
-<ul>
-<li><code>The workflow build-test-inspect was intentionally skipped.</code></li>
-<li><code>The workflow check-style was intentionally skipped.</code>.</li>
-</ul>
-<p>For an example, see <a href="https://github.com/admin-shell-io/aasx-package-explorer/pull/94">this pull request</a>.</p>
-<h2 id="commit-messages">Commit Messages</h2>
-<p>The commit messages follow the guidelines from
-from <a href="https://chris.beams.io/posts/git-commit">https://chris.beams.io/posts/git-commit</a>:</p>
-<ul>
-<li>Separate subject from body with a blank line</li>
-<li>Limit the subject line to 50 characters</li>
-<li>Capitalize the subject line</li>
-<li>Do not end the subject line with a period</li>
-<li>Use the imperative mood in the subject line</li>
-<li>Wrap the body at 72 characters</li>
-<li>Use the body to explain <em>what</em> and <em>why</em> (instead of <em>how</em>)</li>
-</ul>
-<p>We automatically check the commit messages using <a href="https://github.com/mristin/opinionated-commit-message">opinionated-commit-message</a>.</p>
-<h2 id="large-binary-files">Large Binary Files</h2>
-<p>We use Git Large File Support (LFS) to handle binary files. Please do not forget
-to install Git-Lfs (<a href="https://git-lfs.github.com">https://git-lfs.github.com</a>) on your computer.</p>
-<p>You need to make sure the files are tracked before you add binaries to the
-repository. Invoking:</p>
-<pre><code class="lang-bash">$ git lfs track
+<h2 id="versioning">Versioning</h2>
+<p>We version based on the date of the release (<em>e.g.</em>, <code>19-10-21</code>).
+The pre-releases are marked with <code>pre</code> (<em>e.g.</em>, <code>19-10-21.pre3</code>) and
+post-releases with <code>post</code> (<em>e.g.</em>, <code>19-10-21.post2</code>).</p>
+<p>While we admit that such a versioning scheme is uninformative with respect to
+number of new features, bugs fixed or critical changes, we found it too hard to
+come up with a versioning scheme for a GUI program such as ours that would be
+neither misleading nor confusing. Schemes like <a href="https://semver.org">semantic versioning</a> work well for libraries or command-line tools where breaking
+changes and extensions are well-defined. However, a breaking change in a GUI is
+not as easily defined and much more subjective (<em>e.g.</em>, a breaking change for
+one user is a minor improvement to another user).</p>
+<h2 id="artefacts">Artefacts</h2>
+<p>Before you can release, you need the following artefacts:</p>
+<ol>
+<li>Solution release build</li>
+<li>AASX samples and</li>
+<li>ecl@ss definitions.</li>
+</ol>
+<p>Once these are set, you can package the release.</p>
+<h3 id="build-solution-for-release">Build Solution for Release</h3>
+<p>To build the solution for release, invoke:</p>
+<pre><code class="lang-powershell">.\src\BuildForRelease.ps1
 </code></pre>
-<p>gives you the list like this one:</p>
-<pre><code>Listing tracked patterns
-    *.png (.gitattributes)
+<p>If you want to clean a previous build, call:</p>
+<pre><code class="lang-powershell">.\src\BuildForRelease.ps1 -clean
 </code></pre>
+<p>This will produce the solution build in <code>artefacts/</code> directory.</p>
+<h3 id="aasx-samples">AASX Samples</h3>
+<p>Tha AASX samples live at <a href="http://admin-shell-io.com/samples/">http://admin-shell-io.com/samples/</a>. They are
+intentionally not included in the repository in order to avoid mangaing multiple
+sites.</p>
+<p>To download the samples to their expected directory, invoke:</p>
+<pre><code class="lang-powershell">.\src\DownloadSamples.ps1
+</code></pre>
+<h3 id="ecl-definitions">Ecl@ss Definitions</h3>
+<p>We can not check in ecl@ss definitions due to their restrictive license, but we
+need to include them in the release. Hence you need to manually copy them to
+<code>eclass/</code> directory.</p>
+<h3 id="package">Package</h3>
+<p>The release is now ready to be packaged. Call:</p>
+<pre><code class="lang-powershell">.\src\PackageRelease.ps1
+</code></pre>
+<p>Multiple release packages will be produced (small, with or without ecl@ss
+<em>etc</em>.).</p>
+<p>You can now go to Github, create a release and attach the files.</p>
 </article>
           </div>
           
@@ -134,7 +132,7 @@ repository. Invoking:</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/docdev/docfx_project/getting-started/development-workflow.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/docdev/docfx_project/getting-started/releasing.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

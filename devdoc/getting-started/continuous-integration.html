@@ -83,19 +83,18 @@
 the code quality, we provide scripts to run pre-merge checks on your local
 machine as well as Github workflows to run remotely.</p>
 <h2 id="running-checks-locally">Running Checks Locally</h2>
-<p>Please change to the directory <code>src/</code>.</p>
 <p>To run all the checks:</p>
-<pre><code class="lang-powershell">.\Check.ps1
+<pre><code class="lang-powershell">.src\Check.ps1
 </code></pre>
 <p>To format the code in-place with <code>dotnet-format</code>:</p>
-<pre><code class="lang-powershell">.\FormatCode.ps1
+<pre><code class="lang-powershell">.\src\FormatCode.ps1
 </code></pre>
 <p>We use <a href="https://github.com/mristin/doctest-csharp">doctest-csharp</a> for <a href="https://en.wikipedia.org/wiki/Doctest">doctests</a>. To extract the doctests and generate
 the corresponding unit tests:</p>
-<pre><code class="lang-powershell">.\Doctest.ps1
+<pre><code class="lang-powershell">.\src\Doctest.ps1
 </code></pre>
 <p>To run all the unit tests:</p>
-<pre><code class="lang-powershell">.\Test.ps1
+<pre><code class="lang-powershell">.\src\Test.ps1
 </code></pre>
 <h2 id="github-workflows">Github Workflows</h2>
 <p>Github Actions allow for running continuous integration on Github servers.

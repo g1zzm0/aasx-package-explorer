@@ -5718,7 +5718,7 @@
       "output": {
         ".html": {
           "relative_path": "getting-started/building-the-solution.html",
-          "hash": "WCnsmYcHG3sOQSr73EuElg=="
+          "hash": "GiehU+LWcOn4cAm3ojyR+w=="
         }
       },
       "is_incremental": false,
@@ -5730,7 +5730,7 @@
       "output": {
         ".html": {
           "relative_path": "getting-started/continuous-integration.html",
-          "hash": "5K/RIbylNg44KJyC2VgPRw=="
+          "hash": "PO/hmMPOWnx5Rb58bJz/yw=="
         }
       },
       "is_incremental": false,
@@ -5742,7 +5742,7 @@
       "output": {
         ".html": {
           "relative_path": "getting-started/development-workflow.html",
-          "hash": "RNrx2FR4+8LpM0utzzuUzg=="
+          "hash": "pRk4wR5wOmYUKcRybspDJw=="
         }
       },
       "is_incremental": false,
@@ -5766,7 +5766,19 @@
       "output": {
         ".html": {
           "relative_path": "getting-started/licenses-and-copyrights.html",
-          "hash": "OKxu152gB1iABXVJKqBTxQ=="
+          "hash": "ZrVpYVreCx+BhsW733Lr9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started/releasing.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started/releasing.html",
+          "hash": "/Eh7UGUSZ1hzkt/qvCkTRw=="
         }
       },
       "is_incremental": false,
@@ -5778,7 +5790,7 @@
       "output": {
         ".html": {
           "relative_path": "getting-started/toc.html",
-          "hash": "GtbUBFQ4jPjpBxR873qLAA=="
+          "hash": "4aFAj1DP8hTvD2B7fYBZRA=="
         }
       },
       "is_incremental": false,
@@ -5835,7 +5847,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 8,
+          "total_file_count": 9,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
