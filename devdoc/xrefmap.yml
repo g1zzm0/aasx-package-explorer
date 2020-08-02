@@ -25042,6 +25042,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellPackageEnv.DeleteSupplementaryFile
   nameWithType: AdminShellPackageEnv.DeleteSupplementaryFile
+- uid: AdminShellNS.AdminShellPackageEnv.Dispose
+  name: Dispose()
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_Dispose
+  commentId: M:AdminShellNS.AdminShellPackageEnv.Dispose
+  fullName: AdminShellNS.AdminShellPackageEnv.Dispose()
+  nameWithType: AdminShellPackageEnv.Dispose()
+- uid: AdminShellNS.AdminShellPackageEnv.Dispose*
+  name: Dispose
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_Dispose_
+  commentId: Overload:AdminShellNS.AdminShellPackageEnv.Dispose
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellPackageEnv.Dispose
+  nameWithType: AdminShellPackageEnv.Dispose
 - uid: AdminShellNS.AdminShellPackageEnv.Filename
   name: Filename
   href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_Filename
@@ -33207,6 +33220,67 @@ references:
   commentId: F:AdminShellNS.AdminShellV20.Views.views
   fullName: AdminShellNS.AdminShellV20.Views.views
   nameWithType: AdminShellV20.Views.views
+- uid: AdminShellNS.MultiValueDictionary`2
+  name: MultiValueDictionary<K, V>
+  href: api/AdminShellNS.MultiValueDictionary-2.html
+  commentId: T:AdminShellNS.MultiValueDictionary`2
+  name.vb: MultiValueDictionary(Of K, V)
+  fullName: AdminShellNS.MultiValueDictionary<K, V>
+  fullName.vb: AdminShellNS.MultiValueDictionary(Of K, V)
+  nameWithType: MultiValueDictionary<K, V>
+  nameWithType.vb: MultiValueDictionary(Of K, V)
+- uid: AdminShellNS.MultiValueDictionary`2.Add(`0,`1)
+  name: Add(K, V)
+  href: api/AdminShellNS.MultiValueDictionary-2.html#AdminShellNS_MultiValueDictionary_2_Add__0__1_
+  commentId: M:AdminShellNS.MultiValueDictionary`2.Add(`0,`1)
+  fullName: AdminShellNS.MultiValueDictionary<K, V>.Add(K, V)
+  fullName.vb: AdminShellNS.MultiValueDictionary(Of K, V).Add(K, V)
+  nameWithType: MultiValueDictionary<K, V>.Add(K, V)
+  nameWithType.vb: MultiValueDictionary(Of K, V).Add(K, V)
+- uid: AdminShellNS.MultiValueDictionary`2.Add*
+  name: Add
+  href: api/AdminShellNS.MultiValueDictionary-2.html#AdminShellNS_MultiValueDictionary_2_Add_
+  commentId: Overload:AdminShellNS.MultiValueDictionary`2.Add
+  isSpec: "True"
+  fullName: AdminShellNS.MultiValueDictionary<K, V>.Add
+  fullName.vb: AdminShellNS.MultiValueDictionary(Of K, V).Add
+  nameWithType: MultiValueDictionary<K, V>.Add
+  nameWithType.vb: MultiValueDictionary(Of K, V).Add
+- uid: AdminShellNS.MultiValueDictionary`2.ContainsKey(`0)
+  name: ContainsKey(K)
+  href: api/AdminShellNS.MultiValueDictionary-2.html#AdminShellNS_MultiValueDictionary_2_ContainsKey__0_
+  commentId: M:AdminShellNS.MultiValueDictionary`2.ContainsKey(`0)
+  fullName: AdminShellNS.MultiValueDictionary<K, V>.ContainsKey(K)
+  fullName.vb: AdminShellNS.MultiValueDictionary(Of K, V).ContainsKey(K)
+  nameWithType: MultiValueDictionary<K, V>.ContainsKey(K)
+  nameWithType.vb: MultiValueDictionary(Of K, V).ContainsKey(K)
+- uid: AdminShellNS.MultiValueDictionary`2.ContainsKey*
+  name: ContainsKey
+  href: api/AdminShellNS.MultiValueDictionary-2.html#AdminShellNS_MultiValueDictionary_2_ContainsKey_
+  commentId: Overload:AdminShellNS.MultiValueDictionary`2.ContainsKey
+  isSpec: "True"
+  fullName: AdminShellNS.MultiValueDictionary<K, V>.ContainsKey
+  fullName.vb: AdminShellNS.MultiValueDictionary(Of K, V).ContainsKey
+  nameWithType: MultiValueDictionary<K, V>.ContainsKey
+  nameWithType.vb: MultiValueDictionary(Of K, V).ContainsKey
+- uid: AdminShellNS.MultiValueDictionary`2.Item(`0)
+  name: Item[K]
+  href: api/AdminShellNS.MultiValueDictionary-2.html#AdminShellNS_MultiValueDictionary_2_Item__0_
+  commentId: P:AdminShellNS.MultiValueDictionary`2.Item(`0)
+  name.vb: Item(K)
+  fullName: AdminShellNS.MultiValueDictionary<K, V>.Item[K]
+  fullName.vb: AdminShellNS.MultiValueDictionary(Of K, V).Item(K)
+  nameWithType: MultiValueDictionary<K, V>.Item[K]
+  nameWithType.vb: MultiValueDictionary(Of K, V).Item(K)
+- uid: AdminShellNS.MultiValueDictionary`2.Item*
+  name: Item
+  href: api/AdminShellNS.MultiValueDictionary-2.html#AdminShellNS_MultiValueDictionary_2_Item_
+  commentId: Overload:AdminShellNS.MultiValueDictionary`2.Item
+  isSpec: "True"
+  fullName: AdminShellNS.MultiValueDictionary<K, V>.Item
+  fullName.vb: AdminShellNS.MultiValueDictionary(Of K, V).Item
+  nameWithType: MultiValueDictionary<K, V>.Item
+  nameWithType.vb: MultiValueDictionary(Of K, V).Item
 - uid: Microsoft.Msagl.WpfGraphControl
   name: Microsoft.Msagl.WpfGraphControl
   href: api/Microsoft.Msagl.WpfGraphControl.html

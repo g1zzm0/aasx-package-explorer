@@ -4,23 +4,9 @@
     "records": [
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): here is no equivalence to set a match!!",
-        "line": 300,
-        "column": 20,
-        "status": "ok"
-      },
-      {
-        "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): source99999",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): If further data specifications exist (in future), add here",
         "line": 861,
         "column": 12,
-        "status": "ok"
-      },
-      {
-        "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): Export tasks\r\n              * ConceptDescriptions - done\r\n              * Views\r\n              * Types -\u003E SystemUnitClasses \u0026 linkings - done",
-        "line": 1040,
-        "column": 8,
         "status": "ok"
       }
     ]
@@ -29,16 +15,16 @@
     "path": "AasxAmlImExport\\AmlImport.cs",
     "records": [
       {
-        "prefix": "TODO",
-        "suffix": " (MICHA\u002BM. WIEGAND, 1970-01-01): I dont understand the determinism behind that!\r\n                 WIEGAND: me, neither ;-)\r\n                 Wiegand:  ich hab mir von Prof.Drath nochmal erkl\u00E4ren lassen, wie SupportedRoleClass und\r\n                 RoleRequirement verwendet werden:\r\n                 In CAEX2.15(aktuelle AML Version und unsere AAS Mapping Version):\r\n                   1.Eine SystemUnitClass hat eine oder mehrere SupportedRoleClasses, die ihre \u201Em\u00F6gliche Rolle\r\n                     beschreiben(Drucker / Fax / kopierer)\r\n                   2.Wird die SystemUnitClass als InternalElement instanziiert entscheidet man sich f\u00FCr eine\r\n                     Hauptrolle, die dann zum RoleRequirement wird und evtl. Nebenklassen die dann\r\n                     SupportedRoleClasses sind(ist ein Workaround weil CAEX2.15 in der Norm nur\r\n                     ein RoleReuqirement erlaubt)\r\n                 InCAEX3.0(n\u00E4chste AMl Version):\r\n                   1.Wie bei CAEX2.15\r\n                   2.Wird die SystemUnitClass als Internal Elementinstanziiert werden die verwendeten Rollen\r\n                     jeweils als RoleRequirement zugewiesen (in CAEX3 sind mehrere RoleReuqirements nun erlaubt)",
-        "line": 190,
+        "prefix": "HACK",
+        "suffix": " (MIHO, 2020-08-01): The check for role class or requirements is still questionable\r\n                 but seems to be correct (see below)\r\n\r\n                 Question MIHO: I dont understand the determinism behind that!\r\n                 WIEGAND: me, neither ;-)\r\n                 Wiegand:  ich hab mir von Prof.Drath nochmal erkl\u00E4ren lassen, wie SupportedRoleClass und\r\n                 RoleRequirement verwendet werden:\r\n                 In CAEX2.15(aktuelle AML Version und unsere AAS Mapping Version):\r\n                   1.Eine SystemUnitClass hat eine oder mehrere SupportedRoleClasses, die ihre \u201Em\u00F6gliche Rolle\r\n                     beschreiben(Drucker / Fax / kopierer)\r\n                   2.Wird die SystemUnitClass als InternalElement instanziiert entscheidet man sich f\u00FCr eine\r\n                     Hauptrolle, die dann zum RoleRequirement wird und evtl. Nebenklassen die dann\r\n                     SupportedRoleClasses sind(ist ein Workaround weil CAEX2.15 in der Norm nur\r\n                     ein RoleReuqirement erlaubt)\r\n                 InCAEX3.0(n\u00E4chste AMl Version):\r\n                   1.Wie bei CAEX2.15\r\n                   2.Wird die SystemUnitClass als Internal Elementinstanziiert werden die verwendeten Rollen\r\n                     jeweils als RoleRequirement zugewiesen (in CAEX3 sind mehrere RoleReuqirements nun erlaubt)",
+        "line": 176,
         "column": 16,
         "status": "ok"
       },
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): fill out \r\n                                             eds.hasDataSpecification by using outer attributes",
-        "line": 1342,
+        "suffix": " (Michael Hoffmeister, 2020-08-01): fill out \r\n                                             eds.hasDataSpecification by using outer attributes",
+        "line": 1331,
         "column": 44,
         "status": "ok"
       }
@@ -49,22 +35,15 @@
     "records": [
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): in V1.0, shall be a list of embeddedDataSpecification",
-        "line": 2577,
-        "column": 12,
-        "status": "ok"
-      },
-      {
-        "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): check, if Json has Qualifiers or not",
-        "line": 3527,
+        "suffix": " (Michael Hoffmeister, 2020-08-01): check, if Json has Qualifiers or not",
+        "line": 3526,
         "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-07-31): would be nice to use IEnumerateChildren for this ..",
-        "line": 4244,
+        "line": 4243,
         "column": 20,
         "status": "ok"
       }
@@ -75,49 +54,30 @@
     "records": [
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): use aasenv serialzers here!",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): use a unified function to create a serializer",
         "line": 229,
         "column": 24,
         "status": "ok"
       },
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): use aasenv serialzers here!",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): use a unified function to create a serializer",
         "line": 349,
         "column": 20,
         "status": "ok"
       },
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): use aasenv serialzers here!",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): use a unified function to create a serializer",
         "line": 388,
         "column": 24,
         "status": "ok"
       },
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): use aasenv serialzers here!",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): use a unified function to create a serializer",
         "line": 412,
         "column": 24,
-        "status": "ok"
-      }
-    ]
-  },
-  {
-    "path": "AasxPredefinedConcepts\\Convert\\ConvertDocumentationSg2ToHsu.cs",
-    "records": [
-      {
-        "prefix": "TODO",
-        "suffix": " (MIHO, 2020-07-31): temporary have code to allow conversion of Festo MCAD / ECAD models as well",
-        "line": 32,
-        "column": 12,
-        "status": "ok"
-      },
-      {
-        "prefix": "TODO",
-        "suffix": " (MIHO, 2020-07-31): disable line above to allow more models, such as MCAD/ECAD",
-        "line": 59,
-        "column": 16,
         "status": "ok"
       }
     ]
@@ -127,7 +87,7 @@
     "records": [
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): Andreas, check this. \r\n                 System.Net.WebProxy.GetDefaultProxy was deprecated.",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): Andreas, check this. \r\n                 System.Net.WebProxy.GetDefaultProxy was deprecated.",
         "line": 55,
         "column": 16,
         "status": "ok"
@@ -139,22 +99,29 @@
     "records": [
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): Is package according to the Logical model of the AAS?",
-        "line": 172,
+        "suffix": " (Andreas Orzelski, 2020-08-01): The signature file and [Content_Types].xml can be tampered?",
+        "line": 24,
+        "column": 8,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Andreas Orzelski, 2020-08-01): Is package according to the Logical model of the AAS?",
+        "line": 174,
         "column": 20,
         "status": "ok"
       },
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): is package sealed? =\u003E no other signatures can be added?",
-        "line": 206,
+        "suffix": " (Andreas Orzelski, 2020-08-01): is package sealed? =\u003E no other signatures can be added?",
+        "line": 208,
         "column": 16,
         "status": "ok"
       },
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): The information from the analysis\r\n                  -\u003E return as an object (list of enums with the issues/warings???)",
-        "line": 209,
+        "suffix": " (Andreas Orzelski, 2020-08-01): The information from the analysis\r\n                  -\u003E return as an object (list of enums with the issues/warings???)",
+        "line": 211,
         "column": 16,
         "status": "ok"
       }
@@ -165,15 +132,8 @@
     "records": [
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): License",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): Fraunhofer IOSB: Check ReSharper to be OK",
         "line": 19,
-        "column": 0,
-        "status": "ok"
-      },
-      {
-        "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): Fraunhofer IOSB: Check ReSharper",
-        "line": 20,
         "column": 0,
         "status": "ok"
       }
@@ -203,15 +163,8 @@
     "records": [
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): License",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): Fraunhofer IOSB: Check ReSharper settings to be OK",
         "line": 22,
-        "column": 0,
-        "status": "ok"
-      },
-      {
-        "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): Fraunhofer IOSB: Check ReSharper",
-        "line": 23,
         "column": 0,
         "status": "ok"
       }
@@ -234,30 +187,23 @@
     "records": [
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): add Sync to shortName",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): add Sync to shortName",
         "line": 2374,
         "column": 24,
         "status": "ok"
       },
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): Operation mssing here?",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): Operation mssing here?",
         "line": 2862,
         "column": 36,
         "status": "ok"
       },
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): Operation mssing here?",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): Operation mssing here?",
         "line": 2884,
         "column": 36,
-        "status": "ok"
-      },
-      {
-        "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): ordered, allowDuplicates",
-        "line": 4023,
-        "column": 16,
         "status": "ok"
       }
     ]
@@ -267,14 +213,14 @@
     "records": [
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): possibly [Jump] button??",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): possibly [Jump] button??",
         "line": 1160,
         "column": 16,
         "status": "ok"
       },
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 1970-01-01): Needs to be revisited",
+        "suffix": " (Michael Hoffmeister, 2020-08-01): Needs to be revisited",
         "line": 1303,
         "column": 24,
         "status": "ok"
