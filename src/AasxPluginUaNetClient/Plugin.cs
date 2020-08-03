@@ -79,11 +79,8 @@ namespace AasxIntegrationBase // the namespace has to be: AasxIntegrationBase
             if (action == "create-client")
             {
                 // OPC Copyright
-                MessageBox.Show(
-                    "Copyright (c) 2018-2019 PHOENIX CONTACT GmbH & Co. KG <opensource@phoenixcontact.com>, " +
-                    "author: Andreas Orzelski\n\n" +
-                    "Portions copyright (c) by OPC Foundation, Inc. and licensed under the Reciprocal Community " +
-                    "License (RCL) \n" +
+                MessageBox.Show("Copyright (c) 2018-2019 PHOENIX CONTACT GmbH & Co. KG <opensource@phoenixcontact.com>, author: Andreas Orzelski\n\n" +
+                    "Portions copyright (c) by OPC Foundation, Inc. and licensed under the Reciprocal Community License (RCL)\n" +
                     "see https://opcfoundation.org/license/rcl.html",
                     "Plugin Notice"
                     );
