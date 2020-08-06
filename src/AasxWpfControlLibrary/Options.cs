@@ -312,6 +312,12 @@ namespace AasxPackageExplorer
         public string PluginDir = null;
 
         /// <summary>
+        /// For such operations as query repository, do load a new AASX file without
+        /// prmpting the user.
+        /// </summary>
+        public bool LoadWithoutPrompt = false;
+
+        /// <summary>
         /// Point to a list of SecureConnectPresets for the respective dialogie
         /// </summary>
         [JetBrains.Annotations.UsedImplicitly]
@@ -419,6 +425,11 @@ namespace AasxPackageExplorer
                 if (arg == "-indirect-load-save")
                 {
                     IndirectLoadSave = true;
+                    continue;
+                }
+                if (arg == "-load-without-prompt")
+                {
+                    LoadWithoutPrompt = true;
                     continue;
                 }
 
