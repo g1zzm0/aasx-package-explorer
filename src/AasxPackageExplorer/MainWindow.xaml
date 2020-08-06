@@ -84,6 +84,7 @@ The Dot Matrix Code (DMC) generation is under Apache license v.2 (see http://www
         <RoutedUICommand x:Key="FileRepoLoadWoPrompt" Text="FileRepoLoadWoPrompt" />
         <RoutedUICommand x:Key="FileRepoQuery" Text="FileRepoQuery" />
         <RoutedUICommand x:Key="FileRepoMultiAdd" Text="FileRepoMultiAdd" />
+        <RoutedUICommand x:Key="FileRepoAddCurrent" Text="FileRepoAddCurrent" />
         <RoutedUICommand x:Key="FileRepoPrint" Text="FileRepoPrint" />
 
         <!-- TODO: move this to separate xaml file -->
@@ -229,6 +230,7 @@ The Dot Matrix Code (DMC) generation is under Apache license v.2 (see http://www
         <CommandBinding Command="{StaticResource FileRepoLoadWoPrompt}" Executed="CommandBinding_Executed"/>
         <CommandBinding Command="{StaticResource FileRepoQuery}" Executed="CommandBinding_Executed"/>
         <CommandBinding Command="{StaticResource FileRepoMultiAdd}" Executed="CommandBinding_Executed"/>
+        <CommandBinding Command="{StaticResource FileRepoAddCurrent}" Executed="CommandBinding_Executed"/>
         <CommandBinding Command="{StaticResource FileRepoPrint}" Executed="CommandBinding_Executed"/>
     </Window.CommandBindings>
 
@@ -304,6 +306,7 @@ The Dot Matrix Code (DMC) generation is under Apache license v.2 (see http://www
                             <Separator/>
                             <MenuItem Header="_Query .." InputGestureText="F12" Command="{StaticResource FileRepoQuery}"/>
                             <Separator/>
+                            <MenuItem Header="Add current AAS" Command="{StaticResource FileRepoAddCurrent}"/>
                             <MenuItem Header="Add multiple AASX files .." Command="{StaticResource FileRepoMultiAdd}"/>
                             <MenuItem Header="Print 2D code sheet .." Command="{StaticResource FileRepoPrint}"/>
                             <Separator/>

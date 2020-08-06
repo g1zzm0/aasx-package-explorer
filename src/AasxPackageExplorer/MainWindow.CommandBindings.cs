@@ -683,6 +683,33 @@ namespace AasxPackageExplorer
                 }
             }
 
+            if (cmd == "filerepoaddcurrent")
+            {
+                // check
+                VisualElementAdminShell ve = null;
+                if (DisplayElements.SelectedItem != null && DisplayElements.SelectedItem is VisualElementAdminShell)
+                    ve = DisplayElements.SelectedItem as VisualElementAdminShell;
+
+                if (ve == null || ve.theAas == null || ve.theEnv == null || ve.thePackage == null)
+                {
+                    MessageBoxFlyoutShow(
+                        "No valid AAS selected. Aborting.", "AASX File repository", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
+                if (this.theFileRepository == null)
+                {
+                    MessageBoxFlyoutShow(
+                        "No repository currently available! Please create new or open.",
+                        "AASX File Repository",
+                        MessageBoxButton.OK, MessageBoxImage.Hand);
+                    return;
+                }
+
+                // add
+                this.theFileRepository.AddByAas(ve.theEnv, ve.theAas, "" + ve.thePackage?.Filename);
+            }
+
             if (cmd == "filerepomultiadd")
             {
                 // access

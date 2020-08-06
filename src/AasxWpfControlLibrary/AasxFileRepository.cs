@@ -351,70 +351,69 @@ namespace AasxPackageExplorer
                 catch { }
         }
 
+        public void AddByAas(AdminShell.AdministrationShellEnv env, AdminShell.AdministrationShell aas, string fn)
+        {
+            // access
+            if (env == null || aas?.identification == null)
+                return;
+            var aasId = "" + aas.identification.id;
+
+            // demand also asset
+            var asset = env.FindAsset(aas.assetRef);
+            if (asset?.identification == null)
+                return;
+            var assetId = "" + asset.identification.id;
+
+            // try determine tag
+            var tag = "";
+            try
+            {
+                var threeFn = Path.GetFileNameWithoutExtension(fn);
+                tag = AdminShellUtil.ExtractPascalCasingLetters(asset.idShort);
+                if (tag == null || tag.Length < 2)
+                    tag = AdminShellUtil.ExtractPascalCasingLetters(threeFn).SubstringMax(0, 3);
+                if (tag == null || tag.Length < 2)
+                    tag = ("" + asset.idShort).SubstringMax(0, 3).ToUpper();
+                if (tag == null || tag.Length < 3)
+                    tag = ("" + threeFn).SubstringMax(0, 3).ToUpper();
+            }
+            catch { }
+
+            // build description
+            var desc = "";
+            if (aas.idShort.HasContent())
+                desc += $"\"{aas.idShort}\"";
+            if (asset.idShort.HasContent())
+            {
+                if (desc.HasContent())
+                    desc += ",";
+                desc += $"\"{asset.idShort}\"";
+            }
+
+            // ok, add
+            var fi = new FileItem(
+                assetId: assetId, aasId: aasId, fn: fn, tag: "" + tag, description: desc);
+            fi.VisualState = FileItem.VisualStateEnum.ReadFrom;
+            fi.VisualTime = 2.0;
+            this.Add(fi);
+        }
+
         public void AddByAasxFn(string fn)
         {
             try
             {
                 // load
-                var env = new AdminShellPackageEnv(fn);
+                var pkg = new AdminShellPackageEnv(fn);
 
                 // for each Admin Shell and then each Asset
-                if (env != null && env.AasEnv?.AdministrationShells?.Count > 0)
-                    foreach (var aas in env.AasEnv.AdministrationShells)
+                if (pkg != null && pkg.AasEnv?.AdministrationShells?.Count > 0)
+                    foreach (var aas in pkg.AasEnv.AdministrationShells)
                     {
-                        // access
-                        if (aas?.identification == null)
-                            continue;
-                        var aasId = "" + aas.identification.id;
-
-                        // demand also asset
-                        var asset = env.AasEnv.FindAsset(aas.assetRef);
-                        if (asset?.identification == null)
-                            continue;
-                        var assetId = "" + asset.identification.id;
-
-                        // check, if already contained ..
-#if _not_sure_if_always_helpful
-                        if (this.FindByAssetId(assetId) != null)
-                            continue;
-#endif
-
-                        // try determine tag
-                        var tag = "";
-                        try
-                        {
-                            var threeFn = Path.GetFileNameWithoutExtension(fn);
-                            tag = AdminShellUtil.ExtractPascalCasingLetters(asset.idShort);
-                            if (tag == null || tag.Length < 2)
-                                tag = AdminShellUtil.ExtractPascalCasingLetters(threeFn).SubstringMax(0, 3);
-                            if (tag == null || tag.Length < 2)
-                                tag = ("" + asset.idShort).SubstringMax(0, 3).ToUpper();
-                            if (tag == null || tag.Length < 3)
-                                tag = ("" + threeFn).SubstringMax(0, 3).ToUpper();
-                        }
-                        catch { }
-
-                        // build description
-                        var desc = "";
-                        if (aas.idShort.HasContent())
-                            desc += $"\"{aas.idShort}\"";
-                        if (asset.idShort.HasContent())
-                        {
-                            if (desc.HasContent())
-                                desc += ",";
-                            desc += $"\"{asset.idShort}\"";
-                        }
-
-                        // ok, add
-                        var fi = new FileItem(
-                            assetId: assetId, aasId: aasId, fn: fn, tag: "" + tag, description: desc);
-                        fi.VisualState = FileItem.VisualStateEnum.ReadFrom;
-                        fi.VisualTime = 2.0;
-                        this.Add(fi);
+                        this.AddByAas(pkg.AasEnv, aas, fn);
                     }
 
                 // close directly!
-                env.Close();
+                pkg.Close();
             }
             catch { }
         }
