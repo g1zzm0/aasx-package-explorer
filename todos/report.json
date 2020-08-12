@@ -83,6 +83,30 @@
     ]
   },
   {
+    "path": "AasxPluginUaNetClient\\UASampleClient.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): lookup SOURCE!",
+        "line": 0,
+        "column": 0,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "AasxPluginWebBrowser\\Plugin.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-02): when dragging the divider between elements tree and browser window,",
+        "line": 143,
+        "column": 16,
+        "status": "ok"
+      }
+    ]
+  },
+  {
     "path": "AasxRestServerLibrary\\AasxRestClient.cs",
     "records": [
       {
@@ -123,6 +147,141 @@
         "suffix": " (Andreas Orzelski, 2020-08-01): The information from the analysis\r\n                  -\u003E return as an object (list of enums with the issues/warings???)",
         "line": 211,
         "column": 16,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "AasxUaNetConsoleServer\\Program.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-03): check SOURCE",
+        "line": 0,
+        "column": 0,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "AasxUaNetServer\\AasxServer\\AasEntityBuilder.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): check, which namespace shall be used",
+        "line": 269,
+        "column": 32,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "AasxUaNetServer\\AasxServer\\AasUaEntities.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): check (again) if reference to CDs is done are shall be done",
+        "line": 671,
+        "column": 20,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): not sure if to add these",
+        "line": 957,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): use the collection element of UA?",
+        "line": 1058,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): decide to from where the name comes",
+        "line": 1369,
+        "column": 28,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): description: get \u0022en\u0022 version which is appropriate?",
+        "line": 1372,
+        "column": 28,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): parse UA data type out .. OK?",
+        "line": 1375,
+        "column": 28,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): description: get \u0022en\u0022 version is appropriate?",
+        "line": 1384,
+        "column": 32,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): this any better?",
+        "line": 1393,
+        "column": 36,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): description: get \u0022en\u0022 version is appropriate?",
+        "line": 1397,
+        "column": 36,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): check, if to make super classes for UriDictionaryEntryType?",
+        "line": 1732,
+        "column": 12,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "AasxUaNetServer\\Base\\SampleNodeManager.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): check, if this is valid use of the SDK. MIHO added this",
+        "line": 665,
+        "column": 8,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "AasxUaNetServer\\SampleServer.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-04): To be checked by Andreas. All applications have software certificates",
+        "line": 172,
+        "column": 12,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "AasxUaNetServer\\UaServerWrapper.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-02): Andreas to check license!",
+        "line": 4,
+        "column": 0,
         "status": "ok"
       }
     ]
@@ -235,6 +394,37 @@
         "suffix": " (MIHO, 2020-07-31): check if commented out because of non-working multi-select?",
         "line": 152,
         "column": 16,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "WpfMtpControl\\MtpAmlHelper.cs",
+    "records": [
+      {
+        "prefix": "HACK",
+        "suffix": " (MIHO, 2020-08-03): see equivalent function in AmlImport.cs; may be re-use",
+        "line": 40,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): spec/example files seem not to be in a final state",
+        "line": 191,
+        "column": 40,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "WpfMtpControl\\MtpVisuOpcUaClient.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): remove this, if not required anymore",
+        "line": 223,
+        "column": 12,
         "status": "ok"
       }
     ]

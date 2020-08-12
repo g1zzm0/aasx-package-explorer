@@ -96,6 +96,26 @@ Michael Hoffmeister,
 
     use a unified function to create a serializer
 
+## AasxPluginUaNetClient\UASampleClient.cs
+
+[Line 1, column 1](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPluginUaNetClient/UASampleClient.cs#L1
+), 
+MIHO,
+2020-08-06
+
+    lookup SOURCE!
+
+## AasxPluginWebBrowser\Plugin.cs
+
+[Line 144, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPluginWebBrowser/Plugin.cs#L144
+), 
+MIHO,
+2020-08-02
+
+    when dragging the divider between elements tree and browser window,
+
 ## AasxRestServerLibrary\AasxRestClient.cs
 
 [Line 56, column 17](
@@ -141,6 +161,138 @@ Andreas Orzelski,
 
     The information from the analysis
     -> return as an object (list of enums with the issues/warings???)
+
+## AasxUaNetConsoleServer\Program.cs
+
+[Line 1, column 1](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetConsoleServer/Program.cs#L1
+), 
+MIHO,
+2020-08-03
+
+    check SOURCE
+
+## AasxUaNetServer\AasxServer\AasEntityBuilder.cs
+
+[Line 270, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasEntityBuilder.cs#L270
+), 
+MIHO,
+2020-08-06
+
+    check, which namespace shall be used
+
+## AasxUaNetServer\AasxServer\AasUaEntities.cs
+
+[Line 672, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L672
+), 
+MIHO,
+2020-08-06
+
+    check (again) if reference to CDs is done are shall be done
+
+[Line 958, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L958
+), 
+MIHO,
+2020-08-06
+
+    not sure if to add these
+
+[Line 1059, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1059
+), 
+MIHO,
+2020-08-06
+
+    use the collection element of UA?
+
+[Line 1370, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1370
+), 
+MIHO,
+2020-08-06
+
+    decide to from where the name comes
+
+[Line 1373, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1373
+), 
+MIHO,
+2020-08-06
+
+    description: get "en" version which is appropriate?
+
+[Line 1376, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1376
+), 
+MIHO,
+2020-08-06
+
+    parse UA data type out .. OK?
+
+[Line 1385, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1385
+), 
+MIHO,
+2020-08-06
+
+    description: get "en" version is appropriate?
+
+[Line 1394, column 37](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1394
+), 
+MIHO,
+2020-08-06
+
+    this any better?
+
+[Line 1398, column 37](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1398
+), 
+MIHO,
+2020-08-06
+
+    description: get "en" version is appropriate?
+
+[Line 1733, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1733
+), 
+MIHO,
+2020-08-06
+
+    check, if to make super classes for UriDictionaryEntryType?
+
+## AasxUaNetServer\Base\SampleNodeManager.cs
+
+[Line 666, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/Base/SampleNodeManager.cs#L666
+), 
+MIHO,
+2020-08-06
+
+    check, if this is valid use of the SDK. MIHO added this
+
+## AasxUaNetServer\SampleServer.cs
+
+[Line 173, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/SampleServer.cs#L173
+), 
+MIHO,
+2020-08-04
+
+    To be checked by Andreas. All applications have software certificates
+
+## AasxUaNetServer\UaServerWrapper.cs
+
+[Line 5, column 1](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/UaServerWrapper.cs#L5
+), 
+MIHO,
+2020-08-02
+
+    Andreas to check license!
 
 ## AasxUANodesetImExport\UANodeSet.cs
 
@@ -243,5 +395,33 @@ MIHO,
 2020-07-31
 
     check if commented out because of non-working multi-select?
+
+## WpfMtpControl\MtpAmlHelper.cs
+
+[Line 41, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/MtpAmlHelper.cs#L41
+), 
+MIHO,
+2020-08-03
+
+    see equivalent function in AmlImport.cs; may be re-use
+
+[Line 192, column 41](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/MtpAmlHelper.cs#L192
+), 
+MIHO,
+2020-08-06
+
+    spec/example files seem not to be in a final state
+
+## WpfMtpControl\MtpVisuOpcUaClient.cs
+
+[Line 224, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/MtpVisuOpcUaClient.cs#L224
+), 
+MIHO,
+2020-08-06
+
+    remove this, if not required anymore
 
 

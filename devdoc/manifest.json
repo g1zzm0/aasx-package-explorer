@@ -14,6 +14,678 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasEntityBuilder.AasReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasEntityBuilder.AasReference.html",
+          "hash": "3VDQLrqyjtUPwNdW/Ayg0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasEntityBuilder.AasTypeEntities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasEntityBuilder.AasTypeEntities.html",
+          "hash": "VGpHhxPMm+StKoGHCdG1yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasEntityBuilder.AasVariableTypeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasEntityBuilder.AasVariableTypeState.html",
+          "hash": "CWtzfD0nIm3tmNhGPUqifw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasEntityBuilder.NodeLateAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasEntityBuilder.NodeLateAction.html",
+          "hash": "2VE0KpTKEhQVAnr6xk8kCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasEntityBuilder.NodeLateActionLinkToReference.ActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasEntityBuilder.NodeLateActionLinkToReference.ActionType.html",
+          "hash": "UAF31pu77tuI0hVf27aMWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasEntityBuilder.NodeLateActionLinkToReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasEntityBuilder.NodeLateActionLinkToReference.html",
+          "hash": "Sla4i279ueehOlCpPwukKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasEntityBuilder.NodeRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasEntityBuilder.NodeRecord.html",
+          "hash": "DHldPVjhy2NOHaO2erADHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasEntityBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasEntityBuilder.html",
+          "hash": "2Fth+8/BIl5p53qVRd8xuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasEntityDescriptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasEntityDescriptions.html",
+          "hash": "nemMXOC67AYquXFT+s3Tew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasModeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasModeManager.html",
+          "hash": "Gb3lmXqc3mX+tn3E0Q7h0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaBaseEntity.CreateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaBaseEntity.CreateMode.html",
+          "hash": "zYGtYkc1+wvWsmwHEVMr1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaBaseEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaBaseEntity.html",
+          "hash": "GdR8l1XRp1v8FixYAuFqgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityAAS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityAAS.html",
+          "hash": "/QdxQQulElum3a7fa//ZRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityAdministration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityAdministration.html",
+          "hash": "IOMqd/wEhhBddFDoyPXjCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityAsset.html",
+          "hash": "Ph0YZFO3FByNkz4NQ/o4Uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityAssetKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityAssetKind.html",
+          "hash": "HApYTtVJ5069/JHhb1QZBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityBlob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityBlob.html",
+          "hash": "GS+1slmHDQa0D/4qX/VV2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityCollection.html",
+          "hash": "NSr9nXxmXj6u/afxeBWOtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityConceptDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityConceptDescription.html",
+          "hash": "lEYo2VJnLHMqtkZBlL4bVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityConceptDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityConceptDictionary.html",
+          "hash": "Yn4LBfSMDkkg3bxG34dSoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityDataSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityDataSpecification.html",
+          "hash": "llcdYswF7heIz1HW4vI8Zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityDataSpecificationIEC61360.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityDataSpecificationIEC61360.html",
+          "hash": "CfZnwhrVcPdRJwLk/UMLTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityFile.html",
+          "hash": "NqV2jtq6ugqF2JvFIhTc6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityFileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityFileType.html",
+          "hash": "GU2gKAPSz99/UAyr7wk/rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityIdentification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityIdentification.html",
+          "hash": "fpDKm6hJ5sBSOL6tPz3yTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityMimeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityMimeType.html",
+          "hash": "K3cEwd7xJm14a1I8Xw9LPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityModelingKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityModelingKind.html",
+          "hash": "w0owzIdp4N2kmqygF3oaRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityOperation.html",
+          "hash": "5gVPperpNRBCA5DKrHo0+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityOperationVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityOperationVariable.html",
+          "hash": "0hal3g8H7OhN7BFXlnc3vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityPathType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityPathType.html",
+          "hash": "XWG5Nb4lSRSoKGPTiwnpZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityProperty.html",
+          "hash": "OUw0MMobrld0q52IYF44Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityQualifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityQualifier.html",
+          "hash": "CnasQlBgOcv3ZmtLxU7RYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityReferable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityReferable.html",
+          "hash": "5+1VR9LPiqiDh31Q6vXfgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityReference.html",
+          "hash": "VVGcvIJ+o0jxrbTgKyQENQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityReferenceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityReferenceBase.html",
+          "hash": "cg9zByge5nuyFL5HzqFkBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityReferenceElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityReferenceElement.html",
+          "hash": "YuQbrmQ3uzpcZd9OG3j5Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityRelationshipElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityRelationshipElement.html",
+          "hash": "4yF4WW3XIHes+xZ365Z97g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntitySemanticId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntitySemanticId.html",
+          "hash": "h9sbQXB8E73UJeUPqY0D0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntitySubmodel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntitySubmodel.html",
+          "hash": "g3j2OGvpD5aEEnpFPBv1bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntitySubmodelElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntitySubmodelElement.html",
+          "hash": "puO4R9uu4JlQupvBtYTvPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntitySubmodelElementBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntitySubmodelElementBase.html",
+          "hash": "qDxlzUMXnVSqY65EOVDRDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntitySubmodelWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntitySubmodelWrapper.html",
+          "hash": "B/En/iAGuN0SKOShJ2H02Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaEntityView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaEntityView.html",
+          "hash": "dUzlH2wt8fDdSC2eEp9zpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaInterfaceAASIdentifiableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaInterfaceAASIdentifiableType.html",
+          "hash": "26P5N6+NQWcpQHkHiN5PBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaInterfaceAASReferableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaInterfaceAASReferableType.html",
+          "hash": "nAd1IpKUtLeFNH+32Vrxbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaNamespaceZeroEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaNamespaceZeroEntity.html",
+          "hash": "KaiP0RaJd4sAA5SMk4poWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaNamespaceZeroReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaNamespaceZeroReference.html",
+          "hash": "8UnL8mpOtIQpeog42sYx4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaNodeHelper.ModellingRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaNodeHelper.ModellingRule.html",
+          "hash": "r+ff6725wc9Fw3ht5PHVgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaNodeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaNodeHelper.html",
+          "hash": "LMWlp/mRwolrIvbw3yd+kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaPackageFileHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaPackageFileHandler.html",
+          "hash": "mu5AWJosgG8msCVIy77eDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaReferenceHasAasReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaReferenceHasAasReference.html",
+          "hash": "Ni9NIPwZ3f30kV8vTE0Sdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasUaUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasUaUtils.html",
+          "hash": "9Zvv9ajSmpxp7p0LV8PQKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasxUaServerOptions.JobType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasxUaServerOptions.JobType.html",
+          "hash": "1SK1/6pVYi2tq83wuko87g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.AasxUaServerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.AasxUaServerOptions.html",
+          "hash": "514qacRSw9ap33WU8wIb7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.SampleServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.SampleServer.html",
+          "hash": "kkxJ992bZTg8Ixv/9gx4fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasOpcUaServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasOpcUaServer.html",
+          "hash": "7T6p4VN/XH94//cZGA6tuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AasxAmlImExport.AasAmlMatcher.yml",
       "output": {
         ".html": {
@@ -1506,7 +2178,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPlugin.html",
-          "hash": "L4dvbiYysd0weiOfDJYNig=="
+          "hash": "epAgANLZ79VjeCdtt8w3QA=="
         }
       },
       "is_incremental": false,
@@ -1550,6 +2222,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AasxIntegrationBase.AasxPluginHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxIntegrationBase.AasxPluginHelper.html",
+          "hash": "zlsMj1GAhFh/lV+lTzqjhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AasxIntegrationBase.AasxPluginOptionSerialization.yml",
       "output": {
         ".html": {
@@ -1566,7 +2250,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginOptionsBase.html",
-          "hash": "H7AVfUHh0IYtLL6bDJsPTg=="
+          "hash": "JRKICxyVkQUHK+96dkwxaw=="
         }
       },
       "is_incremental": false,
@@ -1662,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginResultLicense.html",
-          "hash": "TQqD3nm/A4VZD2tyfKquoQ=="
+          "hash": "r6os74dVzTB2M3wpUIVlhQ=="
         }
       },
       "is_incremental": false,
@@ -1674,7 +2358,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginResultVisualExtension.html",
-          "hash": "HpT7Kitibp+1iaSAiVP8Vw=="
+          "hash": "5wZzom0QmZAh00rvI0zMQw=="
         }
       },
       "is_incremental": false,
@@ -1686,7 +2370,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginVisualElementExtension.html",
-          "hash": "Pid3BHry30lJ0+GWp6UMMg=="
+          "hash": "aBuw10PqEqqpy5E6URKFHA=="
         }
       },
       "is_incremental": false,
@@ -1711,6 +2395,18 @@
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxWpfBaseUtils.html",
           "hash": "RfTa2vlz3XPSmdYR+MqciA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxIntegrationBase.ApplicationMessageDlg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxIntegrationBase.ApplicationMessageDlg.html",
+          "hash": "c2hLl4Q7haK384BDj5GOEw=="
         }
       },
       "is_incremental": false,
@@ -1782,7 +2478,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.IAasxPluginInterface.html",
-          "hash": "xxjGkgkUesNoWKFG5Ggb0w=="
+          "hash": "lhWhz0x2RtHJmeL3L6ZJMA=="
         }
       },
       "is_incremental": false,
@@ -1938,7 +2634,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.html",
-          "hash": "inc94p2MsOQ6ZFC5R59O8A=="
+          "hash": "BQ0/nZx7Ev9UOA6J57Am7A=="
         }
       },
       "is_incremental": false,
@@ -2550,7 +3246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPackageExplorer.OptionsInformation.PluginDllInfo.html",
-          "hash": "n4OVmVBXRs/lkMOQA5S0aw=="
+          "hash": "HnPqljf3PnxjUxKsfL6dng=="
         }
       },
       "is_incremental": false,
@@ -2562,7 +3258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPackageExplorer.OptionsInformation.html",
-          "hash": "SevC5oREJz4G8n4D2fgmMg=="
+          "hash": "NpntDUtXWTYEgDFkv/L3Mg=="
         }
       },
       "is_incremental": false,
@@ -2586,7 +3282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPackageExplorer.Plugins.html",
-          "hash": "olr679rbkxSulqIVuks3RA=="
+          "hash": "3bzRpMG6YEMUEj92l/Xtfw=="
         }
       },
       "is_incremental": false,
@@ -3499,6 +4195,66 @@
         ".html": {
           "relative_path": "api/AasxPluginGenericForms.html",
           "hash": "r7THmpV+Z6txJBwsP65jKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxPluginMtpViewer.MtpViewerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxPluginMtpViewer.MtpViewerOptions.html",
+          "hash": "ARSlW+D53qCt3vPXPOHWZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxPluginMtpViewer.MtpViewerOptionsRecord.MtpRecordType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxPluginMtpViewer.MtpViewerOptionsRecord.MtpRecordType.html",
+          "hash": "gxPAC4fwvSXZ/QodtMSIIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxPluginMtpViewer.MtpViewerOptionsRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxPluginMtpViewer.MtpViewerOptionsRecord.html",
+          "hash": "B7E9GgIPnUHL1ukggCJ2dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxPluginMtpViewer.WpfMtpControlWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxPluginMtpViewer.WpfMtpControlWrapper.html",
+          "hash": "EVgwL7BzteE544irCVk0TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxPluginMtpViewer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxPluginMtpViewer.html",
+          "hash": "jSRV+4uTjIH8NQQjZYMvPg=="
         }
       },
       "is_incremental": false,
@@ -4531,6 +5287,42 @@
         ".html": {
           "relative_path": "api/AasxUANodesetImExport.html",
           "hash": "CxxuyfuAdauDl4lK2xQtIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxUaNetServer.ExitCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxUaNetServer.ExitCode.html",
+          "hash": "YEUkQTx+vLX6n2RnZPcjTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxUaNetServer.UaServerWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxUaNetServer.UaServerWrapper.html",
+          "hash": "MydLoN4OIQvSbGXx74c1Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxUaNetServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxUaNetServer.html",
+          "hash": "YUcRFdR3il3vKCkZgO2Z/w=="
         }
       },
       "is_incremental": false,
@@ -5737,6 +6529,918 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDiActiveElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDiActiveElement.html",
+          "hash": "ViVyosNDymqwdISL/fLdPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDiAnaMon.LimitBand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDiAnaMon.LimitBand.html",
+          "hash": "meMCYr7BSuDPwZnUP6va7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDiAnaMon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDiAnaMon.html",
+          "hash": "HigrZwKKEjvmhKkVXGxKJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDiAnaView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDiAnaView.html",
+          "hash": "jNs7AgZ+oQlTdui1MkXSLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDiBinView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDiBinView.html",
+          "hash": "n/mHUH0Hu2do/L6yu8+Ksw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDiDataAssembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDiDataAssembly.html",
+          "hash": "H0JfEux1rLYtCvxpQ99OUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDiIndicatorElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDiIndicatorElement.html",
+          "hash": "i/L0GkBQMvGMAvy8EjtTVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDiPIDCntl.OpState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDiPIDCntl.OpState.html",
+          "hash": "CMz4XpaL5dnpB5weueRbXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDiPIDCntl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDiPIDCntl.html",
+          "hash": "wBwvh04tTo92T8U/gPQIRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDynamicInstanceBase.UnitRec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDynamicInstanceBase.UnitRec.html",
+          "hash": "X4WrK4BrNHjdFIIkxoiBiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpDynamicInstanceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html",
+          "hash": "++/VYRm+lkXTrcEKeRv8gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpViewAnaMonTiny.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpViewAnaMonTiny.html",
+          "hash": "sZ/7qu9yt3y9nS1ntSYQcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpViewAnaViewLarge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpViewAnaViewLarge.html",
+          "hash": "jn8V/C95u/KyT38tunYlMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpViewAnaViewTiny.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpViewAnaViewTiny.html",
+          "hash": "koliUql1AoLCnVYCac75og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpViewBinViewLarge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpViewBinViewLarge.html",
+          "hash": "LcnMcbuLet45gj7zzZJUTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpViewBinViewTiny.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpViewBinViewTiny.html",
+          "hash": "qE5lg8gPaDSp2r6xkmj86Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.MtpViewPIDCntlTiny.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.MtpViewPIDCntlTiny.html",
+          "hash": "ynt6z6pjjoNTMG77rHpGHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.ObservableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.ObservableObject.html",
+          "hash": "+L8sqNSXsrCty1gxku809A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mtp.DynamicInstances.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mtp.DynamicInstances.html",
+          "hash": "VV41rWQOVurRxnbRYI5gFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Net46ConsoleServer.ApplicationMessageDlg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Net46ConsoleServer.ApplicationMessageDlg.html",
+          "hash": "hoRC9H8wlsR1CjWlY5uyOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Net46ConsoleServer.ExitCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Net46ConsoleServer.ExitCode.html",
+          "hash": "R9xqMvDuITNipFUuWn84KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Net46ConsoleServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Net46ConsoleServer.html",
+          "hash": "KjTJrOs3Nn0pl5QQkHpSgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Opc.Ua.Sample.CustomNodeManager2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Opc.Ua.Sample.CustomNodeManager2.html",
+          "hash": "Ja2+iRVqGJZzRamegv32sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Opc.Ua.Sample.DataChangeMonitoredItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Opc.Ua.Sample.DataChangeMonitoredItem.html",
+          "hash": "2AH9e4EIZ7VC33wUyHGc/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Opc.Ua.Sample.MonitoredItemQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Opc.Ua.Sample.MonitoredItemQueue.html",
+          "hash": "pcZ95hhJpt9Vsn1pSfZQ4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Opc.Ua.Sample.MonitoredNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Opc.Ua.Sample.MonitoredNode.html",
+          "hash": "hwu6Sn4igeHhd8RCEdKxtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Opc.Ua.Sample.SampleNodeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Opc.Ua.Sample.SampleNodeManager.html",
+          "hash": "/7ryDz2wXpvgw5hbi2c9EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Opc.Ua.Sample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Opc.Ua.Sample.html",
+          "hash": "LTWVi6Th5p6SEQmaOvxojA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SampleClient.ExitCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SampleClient.ExitCode.html",
+          "hash": "kiLpBJ8jOO1WJoSncCXm0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SampleClient.UASampleClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SampleClient.UASampleClient.html",
+          "hash": "Sa4mvmuPe0dABjjBLK/NNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SampleClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SampleClient.html",
+          "hash": "sHoVY0QHejo85PsLQL75Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.AasOpcUaClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.AasOpcUaClient.html",
+          "hash": "QXNCq9LHU/n8j22XvT7s3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.AasOpcUaClientStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.AasOpcUaClientStatus.html",
+          "hash": "6/pWCKk2aKfS9PRb/HNAVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.CanvasClickObjectBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.CanvasClickObjectBase.html",
+          "hash": "3Vde2ksfD2NTnh0zpgCVVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.CanvasClickObjectBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.CanvasClickObjectBox.html",
+          "hash": "jloTsxxP6gPIt+terYJpWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.CanvasClickObjectList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.CanvasClickObjectList.html",
+          "hash": "H5vc4MY72oDvuWn4X7pnxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa.html",
+          "hash": "RzxEL5Bi7g4NJ9n34Dbkqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.DataSources.IMtpDataSourceStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.DataSources.IMtpDataSourceStatus.html",
+          "hash": "H/OrcGGgcQShhZgV2tuuqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.DataSources.MtpDataSourceOpcUaItem.AccessType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.DataSources.MtpDataSourceOpcUaItem.AccessType.html",
+          "hash": "u9MrIJtT/1dkWSg/ScbQYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.DataSources.MtpDataSourceOpcUaItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.DataSources.MtpDataSourceOpcUaItem.html",
+          "hash": "K4b9Rwjfj8lhtFnpivmULg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.DataSources.MtpDataSourceOpcUaServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.DataSources.MtpDataSourceOpcUaServer.html",
+          "hash": "S8lghZf9KO/zNT8oKWxiKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.DataSources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.DataSources.html",
+          "hash": "fPYRgsxTiOenqxsDP7Wjzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpAmlHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpAmlHelper.html",
+          "hash": "sBn2OrDgZ0KHRGrcke900g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpData.MtpBaseObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpData.MtpBaseObject.html",
+          "hash": "rQ9XqjalvW+4gRt+VogYdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpData.MtpConnectionObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpData.MtpConnectionObject.html",
+          "hash": "+FPrJqiE3IET2a/y1+qGLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpData.MtpPicture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpData.MtpPicture.html",
+          "hash": "pvCxaFSGngiBRchi+hIEzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpData.MtpPortedObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpData.MtpPortedObject.html",
+          "hash": "UVU/bsWxiyZyO8V4QwZ4CQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpData.MtpTopologyObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpData.MtpTopologyObject.html",
+          "hash": "AS46oBT5p1dOcyeOuCVuuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpData.MtpVisualObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpData.MtpVisualObject.html",
+          "hash": "w2HFkMlBJ0mHFttlQYXcUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpData.html",
+          "hash": "mgrAdGN2Nhm9r1u4o3RFbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpDataSourceSubscriber.ChangeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpDataSourceSubscriber.ChangeType.html",
+          "hash": "9iTH+sc9vAGhA+sOGHPuJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpDataSourceSubscriber.SubscriberItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpDataSourceSubscriber.SubscriberItem.html",
+          "hash": "v+HMlRCLN4OYhP0SYWbLMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpDataSourceSubscriber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpDataSourceSubscriber.html",
+          "hash": "31drgCwIoC45SbM6k8r/lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpSymbol.SymbolPlaceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpSymbol.SymbolPlaceType.html",
+          "hash": "aCNThmEBLjY0L9AWxF1RTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpSymbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpSymbol.html",
+          "hash": "c1grz9nRroiwuQNyMEVJOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpSymbolLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpSymbolLib.html",
+          "hash": "IeV+Vf33xwZ9GKpa6c2cww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpSymbolMapRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpSymbolMapRecord.html",
+          "hash": "PxCLD3aPpkpLdFBXne/4xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpSymbolMapRecordList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpSymbolMapRecordList.html",
+          "hash": "T6P0+xH9sJo0Or1Y6oLFXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpVisuOpcUaClient.DetailItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpVisuOpcUaClient.DetailItem.html",
+          "hash": "cNDuKMrnnWPy6wSPUdmwnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpVisuOpcUaClient.DetailServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpVisuOpcUaClient.DetailServer.html",
+          "hash": "oofqY/6aoz4nmRRsHoTlfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpVisuOpcUaClient.ItemChangeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpVisuOpcUaClient.ItemChangeType.html",
+          "hash": "yCwk/eKIqOXtsps+7hNX6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpVisuOpcUaClient.ItemChangedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpVisuOpcUaClient.ItemChangedDelegate.html",
+          "hash": "9Xo906sKNU3AsOsNjx+9ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpVisuOpcUaClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpVisuOpcUaClient.html",
+          "hash": "w1Q/QYbSGMGu4rfnA0gBpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpVisuViewer.MtpObjectDoubleClickHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpVisuViewer.MtpObjectDoubleClickHandler.html",
+          "hash": "4nGDk7bIiZa67IStOJIyxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpVisuViewer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpVisuViewer.html",
+          "hash": "n6ZRpRIVkHABh1kLcfznTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpVisualObjectLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpVisualObjectLib.html",
+          "hash": "B7T0DIMwK8HujvpObgJybg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.MtpVisualObjectRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.MtpVisualObjectRecord.html",
+          "hash": "etRMlLl4n9XhoXzVsEb6fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.UIElementHelper.DrawToCanvasAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.UIElementHelper.DrawToCanvasAlignment.html",
+          "hash": "a/R1NRVizgmK5fiOmbD1GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.UIElementHelper.FontSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.UIElementHelper.FontSettings.html",
+          "hash": "RuhryAMZPWzmQc+A66UnhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.UIElementHelper.Transformation2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.UIElementHelper.Transformation2D.html",
+          "hash": "ReGJgOfCg/lXNW2mezdtQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.UIElementHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.UIElementHelper.html",
+          "hash": "ZrvikDWBLs9HWPjuh1+LcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpControl.html",
+          "hash": "NW65IktEWoLp11obwGJ99A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpVisuViewer.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpVisuViewer.App.html",
+          "hash": "8782l9VUnohrO4/ckxTOsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.html",
+          "hash": "IqfJdDGPdUl5NooNEDUZPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpVisuViewer.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpVisuViewer.MainWindow.html",
+          "hash": "TFWT5wzpQn7XYBH9dRS4Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WpfMtpVisuViewer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WpfMtpVisuViewer.html",
+          "hash": "wUfC89sQXsV0kT5yNeZKEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -5754,7 +7458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Tx77QUXLyMwJR9lpYL9g6w=="
+          "hash": "F7DJRKZVUemh2u0RBNREwQ=="
         }
       },
       "is_incremental": false,
@@ -5901,7 +7605,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 477,
+          "total_file_count": 619,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
