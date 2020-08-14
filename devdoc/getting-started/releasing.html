@@ -80,9 +80,16 @@
 <h1 id="releasing">Releasing</h1>
 
 <h2 id="versioning">Versioning</h2>
-<p>We version based on the date of the release (<em>e.g.</em>, <code>19-10-21</code>).
-The pre-releases are marked with <code>pre</code> (<em>e.g.</em>, <code>19-10-21.pre3</code>) and
-post-releases with <code>post</code> (<em>e.g.</em>, <code>19-10-21.post2</code>).</p>
+<p>We version based on the date of the release (<em>e.g.</em>, <code>2019-10-21</code>).
+The suffixes <code>alpha</code> and <code>beta</code> indicate the testing maturity of the release:</p>
+<ul>
+<li><code>Alpha</code> releases have not been manually tested (only automatic tests were
+performed).</li>
+<li><code>Beta</code> releases underwent only a bit of manual testing, but no thorough manual
+testing has been performed.</li>
+<li>A release without suffix implies that a couple of users tested the release and
+were satisfied with the quality of the software.</li>
+</ul>
 <p>While we admit that such a versioning scheme is uninformative with respect to
 number of new features, bugs fixed or critical changes, we found it too hard to
 come up with a versioning scheme for a GUI program such as ours that would be
@@ -90,15 +97,7 @@ neither misleading nor confusing. Schemes like <a href="https://semver.org">sema
 changes and extensions are well-defined. However, a breaking change in a GUI is
 not as easily defined and much more subjective (<em>e.g.</em>, a breaking change for
 one user is a minor improvement to another user).</p>
-<h2 id="artefacts">Artefacts</h2>
-<p>Before you can release, you need the following artefacts:</p>
-<ol>
-<li>Solution release build</li>
-<li>AASX samples and</li>
-<li>ecl@ss definitions.</li>
-</ol>
-<p>Once these are set, you can package the release.</p>
-<h3 id="build-solution-for-release">Build Solution for Release</h3>
+<h2 id="build-solution-for-release">Build Solution for Release</h2>
 <p>To build the solution for release, invoke:</p>
 <pre><code class="lang-powershell">.\src\BuildForRelease.ps1
 </code></pre>
@@ -106,24 +105,13 @@ one user is a minor improvement to another user).</p>
 <pre><code class="lang-powershell">.\src\BuildForRelease.ps1 -clean
 </code></pre>
 <p>This will produce the solution build in <code>artefacts/</code> directory.</p>
-<h3 id="aasx-samples">AASX Samples</h3>
-<p>Tha AASX samples live at <a href="http://admin-shell-io.com/samples/">http://admin-shell-io.com/samples/</a>. They are
-intentionally not included in the repository in order to avoid mangaing multiple
-sites.</p>
-<p>To download the samples to their expected directory, invoke:</p>
-<pre><code class="lang-powershell">.\src\DownloadSamples.ps1
+<h2 id="package-the-release">Package the Release</h2>
+<p>The release is now ready to be packaged. Call <code>PackageRelease.ps</code> with the
+desired version:</p>
+<pre><code class="lang-powershell">.\src\PackageRelease.ps1 -version 2020-08-14.alpha
 </code></pre>
-<h3 id="ecl-definitions">Ecl@ss Definitions</h3>
-<p>We can not check in ecl@ss definitions due to their restrictive license, but we
-need to include them in the release. Hence you need to manually copy them to
-<code>eclass/</code> directory.</p>
-<h3 id="package">Package</h3>
-<p>The release is now ready to be packaged. Call:</p>
-<pre><code class="lang-powershell">.\src\PackageRelease.ps1
-</code></pre>
-<p>Multiple release packages will be produced (small, with or without ecl@ss
+<p>Multiple release packages will be produced (with web browser integrated, small
 <em>etc</em>.).</p>
-<p>You can now go to Github, create a release and attach the files.</p>
 </article>
           </div>
           
