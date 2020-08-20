@@ -1070,9 +1070,14 @@ namespace AasxUANodesetImExport
                 string[] strings = str.Split(':');
                 if (strings.Length >= 2)
                 {
-                    str = strings[1];
+                    str = "";
+                    for (int i = 1; i < strings.Length; i++)
+                    {
+                        str += strings[i] + ":";
+                    }
                 }
             }
+            str = str.Substring(0, str.Length - 1);
             return str;
         }
     }

@@ -2034,7 +2034,8 @@ namespace AasxPackageExplorer
             else
             {
                 System.Windows.MessageBox.Show(
-                    "Mapping Types could not be found.", "Error", MessageBoxButton.OK);
+                    "Mapping Types could not be found. " +
+                    Path.Combine( System.IO.Path.GetDirectoryName( Directory.GetParent(workingDirectory).Parent.FullName), filename).ToString(), "Error", MessageBoxButton.OK);
             }
         }
     }
