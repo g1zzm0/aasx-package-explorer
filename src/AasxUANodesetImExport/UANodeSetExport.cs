@@ -100,20 +100,20 @@ namespace AasxUANodesetImExport
             refs.Add(CreateHasTypeDefinition("1:AASAssetAdministrationShellType"));
 
             //add ConceptDictionary
-            //refs.Add(CreateReference("HasComponent", CreateConceptDictionaryFolder(env.ConceptDescriptions)));
+            refs.Add(CreateReference("HasComponent", CreateConceptDictionaryFolder(env.ConceptDescriptions)));
 
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/AssetAdministrationShell"));
 
             //add Assets
             foreach (AdminShellV20.Asset asset in env.Assets)
             {
-                refs.Add(CreateReference("HasComponent", CreateAASAsset(asset)));
+                refs.Add(CreateReference("HasComponent", CreateAASAsset(asset, "3:http://admin-shell.io/aas/2/0/AssetAdministrationShell/asset")));
             }
 
             //add Submodels
             foreach (AdminShellV20.Submodel submodel in env.Submodels)
             {
-                string id = CreateAASSubmodel(submodel);
+                string id = CreateAASSubmodel(submodel, "3:http://admin-shell.io/aas/2/0/AssetAdministrationShell/submodels");
                 refs.Add(CreateReference("HasComponent", id));
             }
 
@@ -124,7 +124,7 @@ namespace AasxUANodesetImExport
                 {
                     foreach (AdminShellV20.View view in shell.views.views)
                     {
-                        refs.Add(CreateReference("HasComponent", CreateView(view)));
+                        refs.Add(CreateReference("HasComponent", CreateView(view, "3:http://admin-shell.io/aas/2/0/AssetAdministrationShell/views")));
                     }
                 }
 
@@ -138,22 +138,10 @@ namespace AasxUANodesetImExport
                     refs.Add(
                         CreateReference(
                             "HasProperty",
-                            CreateProperty(shell.idShort, "PropertyType", "idShort", "String")));
+                            CreateProperty(shell.idShort, "PropertyType", "idShort", "String", "")));
                 }
 
-                if (shell.identification != null)
-                {
-                    refs.Add(
-                        CreateReference(
-                            "HasComponent",
-                            CreateIdentifiableIdentification(
-                                shell.identification.id, shell.identification.idType)));
-                }
-
-                if (shell.administration != null)
-                {
-                    refs.Add(CreateReference("HasComponent", CreateIdentifiableAdministration(shell.administration.version, shell.administration.revision)));
-                }
+                if (shell.administration != null && shell.identification != null) refs.Add(CreateReference("HasInterface", CreateIdentifiable(shell.identification.id, shell.identification.idType, shell.administration.version, shell.administration.revision)));
 
                 if (shell.hasDataSpecification != null)
                 {
@@ -162,7 +150,7 @@ namespace AasxUANodesetImExport
 
                 if (shell.assetRef != null)
                 {
-                    refs.Add(CreateReference("HasComponent", CreateAssetRef(shell.assetRef)));
+                    refs.Add(CreateReference("HasComponent", CreateAssetRef(shell.assetRef, "")));
                 }
             }
 
@@ -172,7 +160,7 @@ namespace AasxUANodesetImExport
         }
 
 
-        private static string CreateAASSubmodel(AdminShellV20.Submodel submodel)
+        private static string CreateAASSubmodel(AdminShellV20.Submodel submodel, string dic)
         {
             UAObject sub = new UAObject();
             sub.NodeId = "ns=1;i=" + masterID.ToString();
@@ -181,20 +169,21 @@ namespace AasxUANodesetImExport
             List<Reference> refs = new List<Reference>();
             if (submodel.kind != null)
                 //refs.Add( CreateReference("HasProperty",CreateProperty(GetAASModelingKindDataType(submodel.kind.kind).ToString(), "PropertyType", "ModellingKind", "AASModelingKindDataType")));
-            
+
             refs.Add(CreateHasTypeDefinition("1:AASSubmodelType"));
             
-            if(!string.IsNullOrWhiteSpace(submodel.category)) refs.Add(CreateReference( "HasProperty", CreateProperty(submodel.category, "PropertyType", "Category", "String")));
+            if(!string.IsNullOrWhiteSpace(submodel.category)) refs.Add(CreateReference( "HasProperty", CreateProperty(submodel.category, "PropertyType", "Category", "String", "")));
 
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/Submodel"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             if (submodel.identification.idType == "IRI")
             {
-                refs.Add(CreateReference("HasDictionaryEntry", CreateIriConceptDescription(submodel.semanticId)));
+                refs.Add(CreateReference("HasDictionaryEntry", CreateIriConceptDescription(submodel.semanticId, "")));
             }
             else
             {
-                refs.Add(CreateReference("HasDictionaryEntry", CreateIrdiConceptDescription(submodel.semanticId)));
+                refs.Add(CreateReference("HasDictionaryEntry", CreateIrdiConceptDescription(submodel.semanticId, "")));
             }
 
 
@@ -230,14 +219,14 @@ namespace AasxUANodesetImExport
                 {
                     refs.Add(
                         CreateReference(
-                            "HasComponent", CreateAASQualifier(qualifier.type, qualifier.value, qualifier.valueType, qualifier.semanticId)));
+                            "HasComponent", CreateAASQualifier(qualifier.type, qualifier.value, qualifier.valueType, qualifier.semanticId , "3:http://admin-shell.io/aas/2/0/Submodel/qualifiers")));
                 }
             }
 
             //add Elements
             foreach (AdminShellV20.SubmodelElementWrapper element in submodel.submodelElements)
             {
-                string id = CreateSubmodelElement(element.submodelElement);
+                string id = CreateSubmodelElement(element.submodelElement, "3:http://admin-shell.io/aas/2/0/Submodel/submodelElements");
                 refs.Add(CreateReference("HasComponent", id));
             }
 
@@ -246,7 +235,7 @@ namespace AasxUANodesetImExport
             return sub.NodeId;
         }
 
-        private static string CreateProperty(string value, string type, string BrowseName, string datatype)
+        private static string CreateProperty(string value, string type, string BrowseName, string datatype, string dic)
         {
             //Creates a Property with a single Value
 
@@ -282,9 +271,10 @@ namespace AasxUANodesetImExport
 
 
 
-            prop.References = new Reference[1];
+            prop.References = new Reference[2];
 
             prop.References[0] = CreateHasTypeDefinition(type);
+            prop.References[1] = CreateHasDictionaryEntry(dic);
             root.Add((UANode)prop);
 
             return prop.NodeId;
@@ -319,7 +309,7 @@ namespace AasxUANodesetImExport
             return null;
         }
 
-        private static string CreateAASQualifier(string type, string value, string valueType, AdminShellV20.SemanticId semanticId)
+        private static string CreateAASQualifier(string type, string value, string valueType, AdminShellV20.SemanticId semanticId, string dic)
         {
             UAObject qual = new UAObject();
             qual.NodeId = "ns=1;i=" + masterID.ToString();
@@ -330,25 +320,26 @@ namespace AasxUANodesetImExport
             //map Qualifier Data
             refs.Add(CreateHasTypeDefinition("1:AASQualifierType"));
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/Qualifier"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             refs.Add(
-                CreateReference("HasProperty", CreateProperty(type, "PropertyType", "Type", "String")));
+                CreateReference("HasProperty", CreateProperty(type, "PropertyType", "Type", "String", "3:http://admin-shell.io/aas/2/0/Qualifier/type")));
             refs.Add(
                 CreateReference(
-                    "HasProperty", CreateProperty(value, "PropertyType", "Value", "BaseDataType")));
+                    "HasProperty", CreateProperty(value, "PropertyType", "Value", "BaseDataType", "3:http://admin-shell.io/aas/2/0/Qualifier/value")));
             refs.Add(
                 CreateReference(
-                    "HasProperty", CreateProperty(valueType, "PropertyType", "ValueType", "AASValueTypeDataType")));
+                    "HasProperty", CreateProperty(valueType, "PropertyType", "ValueType", "AASValueTypeDataType", "3:http://admin-shell.io/aas/2/0/Qualifier/valueType")));
 
             if (semanticId != null)
             {
                 if (type == "IRI")
                 {
-                    refs.Add(CreateReference("HasDictionaryEntry", CreateIriConceptDescription(semanticId)));
+                    refs.Add(CreateReference("HasDictionaryEntry", CreateIriConceptDescription(semanticId, "")));
                 }
                 else
                 {
-                    refs.Add(CreateReference("HasDictionaryEntry", CreateIrdiConceptDescription(semanticId)));
+                    refs.Add(CreateReference("HasDictionaryEntry", CreateIrdiConceptDescription(semanticId, "")));
                 }
             }
 
@@ -357,7 +348,7 @@ namespace AasxUANodesetImExport
             return qual.NodeId;
         }
 
-        private static string CreateSubmodelElement(AdminShellV20.SubmodelElement element)
+        private static string CreateSubmodelElement(AdminShellV20.SubmodelElement element, string dic)
         {
             UAObject elem = new UAObject();
             elem.NodeId = "ns=1;i=" + masterID.ToString();
@@ -365,28 +356,29 @@ namespace AasxUANodesetImExport
 
             List<Reference> refs = new List<Reference>();
 
-            if(!string.IsNullOrWhiteSpace(element.category)) refs.Add(CreateReference("HasProperty", CreateProperty(element.category, "PropertyType", "Category", "String")));
+            if(!string.IsNullOrWhiteSpace(element.category)) refs.Add(CreateReference("HasProperty", CreateProperty(element.category, "PropertyType", "Category", "String", "")));
 
-            refs.Add(CreateReference("HasComponent", CreateIriConceptDescription(element.semanticId)));
+            refs.Add(CreateReference("HasComponent", CreateIriConceptDescription(element.semanticId, "")));
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/SubmodelElement"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             //add Referable &
             //add Description if it exists
             if (element.description == null)
             {
-                refs.Add(CreateReference("HasInterface", CreateReferable(element.category, null)));
+                refs.Add(CreateReference("HasInterface", CreateReferable(element.category, null, "")));
             }
             else
             {
                 refs.Add(
                     CreateReference(
-                        "HasInterface", CreateReferable(element.category, element.description.langString)));
+                        "HasInterface", CreateReferable(element.category, element.description.langString, "")));
             }
 
             //add Kind if it exists
             if (element.kind != null)
                 //-> Anpassen
-                refs.Add(CreateReference("HasProperty", CreateProperty(GetAASModelingKindDataType(element.kind.kind).ToString(), "PropertyType", "ModelingKind", "AASKindDataType")));
+                refs.Add(CreateReference("HasProperty", CreateProperty(GetAASModelingKindDataType(element.kind.kind).ToString(), "PropertyType", "ModelingKind", "AASKindDataType", "3:http://admin-shell.io/aas/2/0/SubmodelElement/kind")));
 
 
             //add Qualifier if it exists
@@ -396,7 +388,7 @@ namespace AasxUANodesetImExport
                 {
                     refs.Add(
                         CreateReference(
-                            "HasComponent", CreateAASQualifier(qualifier.type, qualifier.value, qualifier.valueType, qualifier.semanticId)));
+                            "HasComponent", CreateAASQualifier(qualifier.type, qualifier.value, qualifier.valueType, qualifier.semanticId, "3:http://admin-shell.io/aas/2/0/ SubmodelElement/qualifiers")));
                 }
             }
            
@@ -483,12 +475,12 @@ namespace AasxUANodesetImExport
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/SubmodelElementCollection"));
             foreach (AdminShellV20.SubmodelElementWrapper elem in collection.value)
             {
-                refs.Add(CreateReference("HasComponent", CreateSubmodelElement(elem.submodelElement)));
+                refs.Add(CreateReference("HasComponent", CreateSubmodelElement(elem.submodelElement, "3:http://admin-shell.io/aas/2/0/SubmodelElementCollection/values")));
             }
             refs.Add(
                 CreateReference(
                     "HasProperty",
-                    CreateProperty( collection.allowDuplicates.ToString().ToLower(), "PropertyType", "AllowDublication", "Boolean")));
+                    CreateProperty( collection.allowDuplicates.ToString().ToLower(), "PropertyType", "AllowDublication", "Boolean", "3:http://admin-shell.io/aas/2/0/ SubmodelElementCollection/allowDuplicates")));
         }
 
         private static void CreatePropertyType(string value, AdminShellV20.Reference valueId, string valueType, List<Reference> refs)
@@ -497,25 +489,25 @@ namespace AasxUANodesetImExport
             refs.Add(
                 CreateReference(
                     "HasProperty",
-                    CreateProperty(value, "PropertyType", "Value", "BaseDataType")));
+                    CreateProperty(value, "PropertyType", "Value", "BaseDataType", "3:http://admin-shell.io/aas/2/0/Property/value")));
             if (valueId != null)
                 refs.Add(
                     CreateReference(
                         "HasComponent",
-                        CreateKeyProperty(valueId.Keys, "ValueId")));
-            refs.Add(CreateReference("HasProperty", CreateProperty(GetAASValueTypeDataType(valueType).ToString(), "PropertyType", "ValueType", "AASValueTypeDataType")));
+                        CreateKeyProperty(valueId.Keys, "ValueId", "3:http://admin-shell.io/aas/2/0/Property/valueId")));
+            refs.Add(CreateReference("HasProperty", CreateProperty(GetAASValueTypeDataType(valueType).ToString(), "PropertyType", "ValueType", "AASValueTypeDataType", "3:http://admin-shell.io/aas/2/0/Property/valueType")));
         }
 
         private static void CreateMultiLanguageProperty(MultiLanguageProperty value, List<Reference> refs)
         {
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/MultiLanguageProperty"));
-            refs.Add(CreateReference("HasProperty", CreateLocalizedTextProperty("Value", value.value.langString)));
+            refs.Add(CreateReference("HasProperty", CreateLocalizedTextProperty("Value", value.value.langString, "3:http://admin-shell.io/aas/2/0/ MultiLanguageProperty/value")));
 
             if (value.valueId != null)
                 refs.Add(
                     CreateReference(
                         "HasComponent",
-                        CreateKeyProperty(value.valueId.Keys, "ValueId")));
+                        CreateKeyProperty(value.valueId.Keys, "ValueId", "3:http://admin-shell.io/aas/2/0/MultiLanguageProperty/valueId")));
         }
 
         private static void CreateAASCapability(string value, List<Reference> refs)
@@ -524,7 +516,7 @@ namespace AasxUANodesetImExport
             refs.Add(
                 CreateReference(
                     "HasProperty",
-                    CreateProperty(value, "BaseVariableType", "Capability", "String")));
+                    CreateProperty(value, "BaseVariableType", "Capability", "String", "")));
         }
 
         private static string CreateAASOperation(List<AdminShellV20.OperationVariable> vin, List<AdminShellV20.OperationVariable> vout)
@@ -550,49 +542,49 @@ namespace AasxUANodesetImExport
             refs.Add(
                 CreateReference(
                     "HasComponent",
-                    CreateProperty(value, "FileType", "File", "String")));
+                    CreateProperty(value, "FileType", "File", "String", "3:http://admin-shell.io/aas/2/0/Blob/value")));
             refs.Add(
                 CreateReference(
                     "HasComponent",
-                    CreateProperty(mimeType, "PropertyType", "MimeType", "String")));
+                    CreateProperty(mimeType, "PropertyType", "MimeType", "String", "3:http://admin-shell.io/aas/2/0/Blob/mimeType")));
         }
 
         private static void CreateAASFile(string value, string mimeType, List<Reference> refs, string file = null)
         {
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/File"));
             refs.Add(CreateHasTypeDefinition("1:AASFileType"));
-            refs.Add(CreateReference("HasProperty", CreateProperty(value, "PropertyType", "Value", "String")));
-            refs.Add(CreateReference("HasProperty", CreateProperty(mimeType, "PropertyType", "MimeType", "String")));
+            refs.Add(CreateReference("HasProperty", CreateProperty(value, "PropertyType", "Value", "String", "3:http://admin-shell.io/aas/2/0/File/value")));
+            refs.Add(CreateReference("HasProperty", CreateProperty(mimeType, "PropertyType", "MimeType", "String", "3:http://admin-shell.io/aas/2/0/File/mimeType")));
             if (file != null)
-                refs.Add(CreateReference("HasComponent", CreateProperty(file, "FileType", "File", "String")));
+                refs.Add(CreateReference("HasComponent", CreateProperty(file, "FileType", "File", "String", "")));
         }
 
         private static void CreateAASRelationshipElement(RelationshipElement rela, List<Reference> refs)
         {
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/RelationshipElement"));
-            refs.Add(CreateReference("HasComponent", CreateReference(rela.first, "First")));
-            refs.Add(CreateReference("HasComponent", CreateReference(rela.second, "Second")));
+            refs.Add(CreateReference("HasComponent", CreateReference(rela.first, "First", "3:http://admin-shell.io/aas/2/0/RelationshipElement/first")));
+            refs.Add(CreateReference("HasComponent", CreateReference(rela.second, "Second", "3:http://admin-shell.io/aas/2/0/RelationshipElement/second")));
         }
 
         private static void CreateRangeElement(Range range, List<Reference> refs)
         {
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/Range"));
-            refs.Add(CreateReference("HasProperty", CreateProperty(GetAASValueTypeDataType(range.valueType).ToString(), "PropertyType", "ValueType", "AASValueTypeDataType")));
-            refs.Add(CreateReference("HasProperty", CreateProperty(range.min, "PropertyType", "Min", "BaseDataType")));
-            refs.Add(CreateReference("HasProperty", CreateProperty(range.max, "PropertyType", "Max", "BaseDataType")));
+            refs.Add(CreateReference("HasProperty", CreateProperty(GetAASValueTypeDataType(range.valueType).ToString(), "PropertyType", "ValueType", "AASValueTypeDataType", "3:http://admin-shell.io/aas/2/0/Range/valueType")));
+            refs.Add(CreateReference("HasProperty", CreateProperty(range.min, "PropertyType", "Min", "BaseDataType", "3:http://admin-shell.io/aas/2/0/Range/min")));
+            refs.Add(CreateReference("HasProperty", CreateProperty(range.max, "PropertyType", "Max", "BaseDataType", "3:http://admin-shell.io/aas/2/0/Range/max")));
         }
 
         private static void CreateReferenceElement(ReferenceElement value, List<Reference> refs)
         {
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/ReferenceElement"));
-            refs.Add(CreateReference("HasProperty", CreateKeyProperty(value.value.Keys, "Value")));
+            refs.Add(CreateReference("HasProperty", CreateKeyProperty(value.value.Keys, "Value", "3:http://admin-shell.io/aas/2/0/ReferenceElement/value")));
         }
 
         private static void CreateEntityElement(Entity en, List<Reference> refs)
         {
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/Entity"));
-            refs.Add(CreateReference("HasComponent", CreateReference(en.assetRef, "Asset")));
-            refs.Add(CreateReference("HasProperty", CreateProperty(GetAASEntityTypeDataType(en.entityType).ToString(), "PropertyType", "EntityType", "AASEntityTypeDataType")));
+            refs.Add(CreateReference("HasComponent", CreateReference(en.assetRef, "Asset", "3:http://admin-shell.io/aas/2/0/Entity/asset")));
+            refs.Add(CreateReference("HasProperty", CreateProperty(GetAASEntityTypeDataType(en.entityType).ToString(), "PropertyType", "EntityType", "AASEntityTypeDataType", "3:http://admin-shell.io/aas/2/0/Entity/entityType")));
         }
 
         private static Reference CreateHasTypeDefinition(string type)
@@ -671,16 +663,16 @@ namespace AasxUANodesetImExport
 
             //add Identification and Administration
             if (id != null || idtype != null)
-                refs.Add(CreateReference("HasProperty", CreateIdentifiableIdentification(id, idtype)));
+                refs.Add(CreateReference("HasProperty", CreateIdentifiableIdentification(id, idtype, "3:http://admin-shell.io/aas/2/0/Identifiable/identification")));
             if (version != null || revision != null)
-                refs.Add(CreateReference("HasProperty", CreateIdentifiableAdministration(version, revision)));
+                refs.Add(CreateReference("HasProperty", CreateIdentifiableAdministration(version, revision, "3:http://admin-shell.io/aas/2/0/ Identifiable/administration")));
 
             ident.References = refs.ToArray();
             root.Add((UANode)ident);
             return ident.NodeId;
         }
 
-        private static string CreateIdentifiableIdentification(string id, string idtype)
+        private static string CreateIdentifiableIdentification(string id, string idtype, string dic)
         {
             UAVariable ident = new UAVariable();
             ident.NodeId = "ns=1;i=" + masterID.ToString();
@@ -689,18 +681,19 @@ namespace AasxUANodesetImExport
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASIdentifierType"));
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/Identifier"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
-            refs.Add(CreateReference("HasProperty", CreateProperty(id, "PropertyType", "Id", "String")));
+            refs.Add(CreateReference("HasProperty", CreateProperty(id, "PropertyType", "Id", "String", "3:http://admin-shell.io/aas/2/0/Identifier/id")));
             refs.Add(
                 CreateReference(
-                    "HasProperty", CreateProperty(GetAASIdentifierTypeDataType(idtype).ToString(), "PropertyType", "IdType", "AASIdentifierTypeDataType")));
+                    "HasProperty", CreateProperty(GetAASIdentifierTypeDataType(idtype).ToString(), "PropertyType", "IdType", "AASIdentifierTypeDataType", "3:http://admin-shell.io/aas/2/0/Identifier/idType")));
 
             ident.References = refs.ToArray();
             root.Add((UANode)ident);
             return ident.NodeId;
         }
 
-        private static string CreateIdentifiableAdministration(string version, string revision)
+        private static string CreateIdentifiableAdministration(string version, string revision, string dic)
         {
             UAVariable ident = new UAVariable();
             ident.NodeId = "ns=1;i=" + masterID.ToString();
@@ -709,20 +702,21 @@ namespace AasxUANodesetImExport
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASAdministrativeInformationType"));
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/AdministrativeInformation"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             refs.Add(
                 CreateReference(
-                    "HasProperty", CreateProperty(version, "PropertyType", "Version", "String")));
+                    "HasProperty", CreateProperty(version, "PropertyType", "Version", "String", "3:http://admin-shell.io/aas/2/0/AdministrativeInformation/version")));
             refs.Add(
                 CreateReference(
-                    "HasProperty", CreateProperty(revision, "PropertyType", "Revision", "String")));
+                    "HasProperty", CreateProperty(revision, "PropertyType", "Revision", "String", "3:http://admin-shell.io/aas/2/0/AdministrativeInformation/version")));
 
             ident.References = refs.ToArray();
             root.Add((UANode)ident);
             return ident.NodeId;
         }
 
-        private static string CreateReferable(string category, List<AdminShellV20.LangStr> langstr)
+        private static string CreateReferable(string category, List<AdminShellV20.LangStr> langstr, string dic)
         {
             UAVariable ident = new UAVariable();
             ident.NodeId = "ns=1;i=" + masterID.ToString();
@@ -731,64 +725,21 @@ namespace AasxUANodesetImExport
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:IAASReferableType"));
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/Referable"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             if (langstr != null)
             {
-                refs.Add(CreateReference("HasProperty", CreateLocalizedTextProperty("Description", langstr)));
+                refs.Add(CreateReference("HasProperty", CreateLocalizedTextProperty("Description", langstr, "")));
             }
 
-            refs.Add(CreateReference("HasProperty", CreateProperty(GetAASCategoryDataType(category).ToString(), "PropertyType", "Category", "AASCategoryDataType")));
+            refs.Add(CreateReference("HasProperty", CreateProperty(GetAASCategoryDataType(category).ToString(), "PropertyType", "Category", "AASCategoryDataType", "3:http://admin-shell.io/aas/2/0/Referable/category")));
 
             ident.References = refs.ToArray();
             root.Add((UANode)ident);
             return ident.NodeId;
         }
 
-
-        private static string CreateKeyContainer(List<Key> keys, string name)
-        {
-            if (keys == null)
-                return null;
-
-            UAVariable ident = new UAVariable();
-            ident.NodeId = "ns=1;i=" + masterID.ToString();
-            ident.BrowseName = "1:" + name;
-            masterID++;
-            List<Reference> refs = new List<Reference>();
-            refs.Add(CreateHasTypeDefinition("1:AASReferenceType"));
-
-            foreach (AdminShellV20.Key key in keys)
-            {
-                refs.Add(
-                    CreateReference(
-                        "HasProperty", CreateKeyProperty(key, "Key")));
-            }
-
-            ident.References = refs.ToArray();
-            root.Add((UANode)ident);
-            return ident.NodeId;
-        }
-
-        private static string CreateKey(string idtype, string local, string type, string value)
-        {
-            UAVariable ident = new UAVariable();
-            ident.NodeId = "ns=1;i=" + masterID.ToString();
-            ident.BrowseName = "1:AASKey";
-            masterID++;
-            List<Reference> refs = new List<Reference>();
-            refs.Add(CreateHasTypeDefinition("1:AASKeyTypeDataType"));
-
-            refs.Add(CreateReference("HasProperty", CreateProperty(idtype, "BaseDataVariableType", "IdType", "String")));
-            refs.Add(CreateReference("HasProperty", CreateProperty(local, "BaseDataVariableType", "Local", "String")));
-            refs.Add(CreateReference("HasProperty", CreateProperty(type, "1:AASPropertyType", "Type", "String")));
-            refs.Add(CreateReference("HasProperty", CreateProperty(value, "BaseDataVariableType", "Value", "String")));
-
-            ident.References = refs.ToArray();
-            root.Add((UANode)ident);
-            return ident.NodeId;
-        }
-
-        private static string CreateAASAsset(AdminShellV20.Asset asset)
+        private static string CreateAASAsset(AdminShellV20.Asset asset, string dic)
         {
             UAVariable ident = new UAVariable();
             ident.NodeId = "ns=1;i=" + masterID.ToString();
@@ -797,67 +748,60 @@ namespace AasxUANodesetImExport
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASAssetType"));
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/Asset"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             if (asset.kind != null)
-                //refs.Add(CreateReference( "HasProperty", CreateProperty(GetAASAssetKindDataType(asset.kind.kind).ToString(), "PropertyType", "AssetKind", "AASAssetKindDataType")));
+                //refs.Add(CreateReference( "HasProperty", CreateProperty(GetAASAssetKindDataType(asset.kind.kind).ToString(), "PropertyType", "AssetKind", "AASAssetKindDataType", "3:http://admin-shell.io/aas/2/0/Asset/assetKind")));
 
-            //check if either administration or identification is null, 
-            // -> (because if identification were null, you could not access id or idType)
-            //then set accordingly
-            //if (asset.administration == null)
-            //{
-            //    refs.Add(
-            //        CreateReference(
-            //            "HasComponent",
-            //            CreateIdentifiable(asset.identification.id, asset.identification.idType, null, null)));
-            //}
-            //else if (asset.identification == null)
-            //{
-            //    refs.Add(
-            //        CreateReference(
-            //            "HasComponent",
-            //            CreateIdentifiable(null, null, asset.administration.version, asset.administration.revision)));
-            //}
-            //else
-            //{
-            //    refs.Add(
-            //        CreateReference(
-            //            "HasComponent",
-            //            CreateIdentifiable(
-            //                asset.identification.id, asset.identification.idType, asset.administration.version,
-            //                asset.administration.revision)));
-            //}
+                //check if either administration or identification is null, 
+                // -> (because if identification were null, you could not access id or idType)
+                //then set accordingly
+                //if (asset.administration == null)
+                //{
+                //    refs.Add(
+                //        CreateReference(
+                //            "HasComponent",
+                //            CreateIdentifiable(asset.identification.id, asset.identification.idType, null, null)));
+                //}
+                //else if (asset.identification == null)
+                //{
+                //    refs.Add(
+                //        CreateReference(
+                //            "HasComponent",
+                //            CreateIdentifiable(null, null, asset.administration.version, asset.administration.revision)));
+                //}
+                //else
+                //{
+                //    refs.Add(
+                //        CreateReference(
+                //            "HasComponent",
+                //            CreateIdentifiable(
+                //                asset.identification.id, asset.identification.idType, asset.administration.version,
+                //                asset.administration.revision)));
+                //}
 
-            if (asset.administration != null)
-            {
-                refs.Add(CreateReference("HasComponent", CreateIdentifiableAdministration(asset.administration.version, asset.administration.revision)));
-            }
 
-            if(asset.identification != null)
-            {
-                refs.Add(CreateReference("HasComponent", CreateIdentifiableIdentification(asset.identification.id, asset.identification.idType)));
-            }
 
-            if (asset.description == null)
-            {
-                refs.Add(CreateReference("HasComponent", CreateReferable(asset.category, null)));
-            }
-            else
-            {
-                refs.Add(
-                    CreateReference(
-                        "HasComponent", CreateReferable(asset.category, asset.description.langString)));
-            }
+                //if (asset.description == null)
+                //{
+                //    refs.Add(CreateReference("HasComponent", CreateReferable(asset.category, null, "")));
+                //}
+                //else
+                //{
+                //    refs.Add(
+                //        CreateReference(
+                //            "HasComponent", CreateReferable(asset.category, asset.description.langString)));
+                //}
+            if (asset.administration != null && asset.identification != null) refs.Add(CreateReference("HasInterface", CreateIdentifiable(asset.identification.id, asset.identification.idType, asset.administration.version, asset.administration.revision)));
 
-            refs.Add(CreateReference("HasProperty", CreateProperty(asset.category, "PropertyType", "Category", "String")));
+            refs.Add(CreateReference("HasProperty", CreateProperty(asset.category, "PropertyType", "Category", "String", "")));
             if (asset.description != null && asset.description.langString != null)
             {
-                refs.Add(CreateReference("HasProperty", CreateLocalizedTextProperty("Description", asset.description.langString)));
+                refs.Add(CreateReference("HasProperty", CreateLocalizedTextProperty("Description", asset.description.langString, "")));
             }
 
-            if(asset.assetIdentificationModelRef != null) refs.Add(CreateReference("HasComponent", CreateKeyProperty(asset.assetIdentificationModelRef.Keys, "AssetIdentificationModel")));
-            if(asset.billOfMaterialRef != null) refs.Add(CreateReference("HasComponent", CreateKeyProperty(asset.billOfMaterialRef.Keys, "BillOfMaterial")));
-            
+            if (asset.assetIdentificationModelRef != null) refs.Add(CreateReference("HasComponent", CreateKeyProperty(asset.assetIdentificationModelRef.Keys, "AssetIdentificationModel", "3:http://admin-shell.io/aas/2/0/Asset/assetIdentificationModel")));
+            if (asset.billOfMaterialRef != null) refs.Add(CreateReference("HasComponent", CreateKeyProperty(asset.billOfMaterialRef.Keys, "BillOfMaterial", "3:http://admin-shell.io/aas/2/0/Asset/billOfMaterial")));
 
             ident.References = refs.ToArray();
             root.Add((UANode)ident);
@@ -975,57 +919,61 @@ namespace AasxUANodesetImExport
             masterID++;
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASDataSpecificationIEC61360Type"));
-
             refs.Add(
                 CreateReference(
                     "HasProperty",
                     CreateProperty(
-                        "DataSpecificationIEC61360", "PropertyType", "DefaultInstanceBrowseName", "String")));
+                        "DataSpecificationIEC61360", "PropertyType", "DefaultInstanceBrowseName", "String", "")));
             refs.Add(
                 CreateReference(
                     "HasProperty",
-                    CreateProperty("DataSpecificationIEC61360", "PropertyType", "IdShort", "String")));
+                    CreateProperty("DataSpecificationIEC61360", "PropertyType", "IdShort", "String", "3:http://admin-shell.io/DataSpecification/idShort")));
             refs.Add(
                 CreateReference(
                     "HasProperty",
-                    CreateProperty(concept.category, "PropertyType", "Category", "String")));
+                    CreateProperty(GetAASCategoryDataType(concept.category).ToString(), "PropertyType", "Category", "AASCategoryDataType", "3:http://admin-shell.io/DataSpecification/category")));
 
             refs.Add(
                 CreateReference(
                     "HasProperty",
-                    CreateProperty(
-                        concept.GetIEC61360().GetHashCode().ToString(), "BaseVariableType", "Code", "String")));
-            refs.Add(
-                CreateReference(
-                    "HasProperty",
-                    CreateProperty(concept.GetIEC61360().dataType, "BaseVariableType", "DataType", "String")));
+                    CreateProperty(concept.GetIEC61360().dataType, "BaseVariableType", "DataType", "String", "3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/ DataSpecificationIEC61360/dataType")));
 
             refs.Add(
                 CreateReference(
                     "HasProperty",
-                    CreateLocalizedTextProperty("Definition", concept.GetIEC61360().definition.langString)));
+                    CreateLocalizedTextProperty("Definition", concept.GetIEC61360().definition.langString, "3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/ DataSpecificationIEC61360/definition")));
             refs.Add(
                 CreateReference(
                     "HasComponent",
-                    CreateLocalizedTextProperty("PreferredName", concept.GetIEC61360().preferredName.langString)));
+                    CreateLocalizedTextProperty("PreferredName", concept.GetIEC61360().preferredName.langString, "3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/ DataSpecificationIEC61360/preferredName")));
 
             refs.Add(
                 CreateReference(
                     "HasProperty",
                     CreateProperty(
-                        concept.GetIEC61360().shortName.ToString(), "BaseVariableType", "ShortName", "String")));
+                        concept.GetIEC61360().shortName.ToString(), "BaseVariableType", "ShortName", "String", "3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/ DataSpecificationIEC61360/shortName")));
             refs.Add(
                 CreateReference(
                     "HasProperty",
-                    CreateProperty(concept.GetIEC61360().symbol, "BaseVariableType", "Symbol", "String")));
+                    CreateProperty(concept.GetIEC61360().symbol, "BaseVariableType", "Symbol", "String", "3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/ DataSpecificationIEC61360/symbol")));
             refs.Add(
                 CreateReference(
                     "HasProperty",
-                    CreateProperty(concept.GetIEC61360().unit, "BaseVariableType", "Unit", "String")));
+                    CreateProperty(concept.GetIEC61360().unit, "BaseVariableType", "Unit", "String", "3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/ DataSpecificationIEC61360/unit")));
             refs.Add(
                 CreateReference(
                     "HasProperty",
-                    CreateProperty(concept.GetIEC61360().valueFormat, "BaseVariableType", "ValueFormat", "String")));
+                    CreateProperty(concept.GetIEC61360().valueFormat, "BaseVariableType", "ValueFormat", "String", "3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/ DataSpecificationIEC61360/valueFormat")));
+
+            refs.Add( CreateReference( "HasProperty",
+                    CreateProperty(concept.embeddedDataSpecification.dataSpecificationContent.dataSpecificationIEC61360.sourceOfDefinition, "BaseVariableType", "SourceOfDestination", "String", "3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/ DataSpecificationIEC61360/sourceOfDefinition")));
+
+            refs.Add(CreateReference("HasProperty",
+                    CreateProperty(concept.embeddedDataSpecification.dataSpecificationContent.dataSpecificationIEC61360.sourceOfDefinition, "BaseVariableType", "SourceOfDestination", "String", "3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/ DataSpecificationIEC61360/sourceOfDefinition")));
+
+            if(concept.embeddedDataSpecification.dataSpecificationContent.dataSpecificationIEC61360.unitId != null) refs.Add(CreateReference("HasComponent", CreateKeyProperty(concept.embeddedDataSpecification.dataSpecificationContent.dataSpecificationIEC61360.unitId.Keys, "UnitId", "3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/ DataSpecificationIEC61360/unitId")));
+
+            refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0"));
 
             ident.References = refs.ToArray();
             root.Add((UANode)ident);
@@ -1034,7 +982,7 @@ namespace AasxUANodesetImExport
 
         //Asset Creation
 
-        private static string CreateView(AdminShellV20.View view)
+        private static string CreateView(AdminShellV20.View view, string dic)
         {
             UAVariable var = new UAVariable();
             var.NodeId = "ns=1;i=" + masterID.ToString();
@@ -1043,10 +991,11 @@ namespace AasxUANodesetImExport
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASViewType"));
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/View"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             if (view.description != null)
             {
-                refs.Add(CreateReference("HasComponent", CreateReferable(view.category, view.description.langString)));
+                refs.Add(CreateReference("HasComponent", CreateReferable(view.category, view.description.langString, "")));
             }
 
             foreach (AdminShellV20.ContainedElementRef con in view.containedElements.reference)
@@ -1073,7 +1022,7 @@ namespace AasxUANodesetImExport
             {
                 refs.Add(
                     CreateReference(
-                        "HasProperty", CreateKeyProperty(key, "Key")));
+                        "HasProperty", CreateKeyProperty(key, "Key", "")));
             }
 
             obj.References = refs.ToArray();
@@ -1092,7 +1041,7 @@ namespace AasxUANodesetImExport
 
             foreach (AdminShellV20.Reference _ref in data.reference)
             {
-                refs.Add(CreateReference("HasComponent", CreateReference(_ref, "Reference")));
+                refs.Add(CreateReference("HasComponent", CreateReference(_ref, "Reference", "")));
             }
 
             obj.References = refs.ToArray();
@@ -1100,7 +1049,7 @@ namespace AasxUANodesetImExport
             return obj.NodeId;
         }
 
-        private static string CreateReference(AdminShellV20.Reference _ref, string name)
+        private static string CreateReference(AdminShellV20.Reference _ref, string name, string dic)
         {
             UAObject obj = new UAObject();
             obj.NodeId = "ns=1;i=" + masterID.ToString();
@@ -1109,12 +1058,13 @@ namespace AasxUANodesetImExport
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASReferenceType"));
             refs.Add(CreateHasDictionaryEntry("3:http://admin-shell.io/aas/2/0/Reference"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             foreach (AdminShellV20.Key key in _ref.Keys)
             {
                 refs.Add(
                     CreateReference(
-                        "HasComponent", CreateKeyProperty(key, "Key")));
+                        "HasComponent", CreateKeyProperty(key, "Key", "3:http://admin-shell.io/aas/2/0/Reference/keys")));
             }
 
             obj.References = refs.ToArray();
@@ -1122,7 +1072,7 @@ namespace AasxUANodesetImExport
             return obj.NodeId;
         }
 
-        private static string CreateAssetRef(AdminShellV20.AssetRef ass)
+        private static string CreateAssetRef(AdminShellV20.AssetRef ass, string dic)
         {
             UAObject obj = new UAObject();
             obj.NodeId = "ns=1;i=" + masterID.ToString();
@@ -1130,12 +1080,13 @@ namespace AasxUANodesetImExport
             masterID++;
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASReferenceType"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             foreach (AdminShellV20.Key key in ass.Keys)
             {
                 refs.Add(
                     CreateReference(
-                        "HasComponent", CreateKeyProperty(key, "Key")));
+                        "HasComponent", CreateKeyProperty(key, "Key", "")));
             }
 
             obj.References = refs.ToArray();
@@ -1156,7 +1107,7 @@ namespace AasxUANodesetImExport
             {
                 refs.Add(
                     CreateReference(
-                        "HasComponent", CreateKeyProperty(key, "Key")));
+                        "HasComponent", CreateKeyProperty(key, "Key", "")));
             }
 
             var.References = refs.ToArray();
@@ -1165,7 +1116,7 @@ namespace AasxUANodesetImExport
         }
 
 
-        private static string CreateIriConceptDescription(SemanticId sem)
+        private static string CreateIriConceptDescription(SemanticId sem, string dic)
         {
             if (sem == null)
                 return null;
@@ -1176,15 +1127,16 @@ namespace AasxUANodesetImExport
             masterID++;
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASIriConceptDescriptionType"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
-            refs.Add(CreateReference("IsCaseOf", CreateConceptDescription(sem.Keys)));
+            refs.Add(CreateReference("IsCaseOf", CreateConceptDescription(sem.Keys, "")));
 
             ident.References = refs.ToArray();
             root.Add((UANode)ident);
             return ident.NodeId;
         }
 
-        private static string CreateIrdiConceptDescription(SemanticId sem)
+        private static string CreateIrdiConceptDescription(SemanticId sem, string dic)
         {
             UAObject ident = new UAObject();
             ident.NodeId = "ns=1;i=" + masterID.ToString();
@@ -1192,15 +1144,16 @@ namespace AasxUANodesetImExport
             masterID++;
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASIrdiConceptDescriptionType"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
-            refs.Add(CreateReference("IsCaseOf", CreateConceptDescription(sem.Keys)));
+            refs.Add(CreateReference("IsCaseOf", CreateConceptDescription(sem.Keys, "")));
 
             ident.References = refs.ToArray();
             root.Add((UANode)ident);
             return ident.NodeId;
         }
 
-        private static string CreateConceptDescription(List<Key> keys)
+        private static string CreateConceptDescription(List<Key> keys, string dic)
         {
             UAObject ident = new UAObject();
             ident.NodeId = "ns=1;i=" + masterID.ToString();
@@ -1208,9 +1161,10 @@ namespace AasxUANodesetImExport
             masterID++;
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASReferenceType"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             //refs.Add(CreateReference("HasComponent", CreateKeyContainer(keys, "Keys")));
-            refs.Add(CreateReference("HasComponent", CreateKeyProperty(keys, "Keys")));
+            refs.Add(CreateReference("HasComponent", CreateKeyProperty(keys, "Keys", "")));
 
             ident.References = refs.ToArray();
             root.Add((UANode)ident);
@@ -1240,7 +1194,7 @@ namespace AasxUANodesetImExport
             return element;
         }
 
-        private static string CreateLocalizedTextProperty(string name, List<LangStr> list)
+        private static string CreateLocalizedTextProperty(string name, List<LangStr> list, string dic)
         {
             UAVariable prop = new UAVariable();
             prop.NodeId = "ns=1;i=" + masterID.ToString();
@@ -1250,8 +1204,9 @@ namespace AasxUANodesetImExport
 
             prop.Value = CreateLocalizedTextValue(list);
 
-            prop.References = new Reference[1];
+            prop.References = new Reference[2];
             prop.References[0] = CreateHasTypeDefinition("PropertyType");
+            prop.References[1] = CreateHasDictionaryEntry(dic);
 
             prop.ValueRank = 1;
             prop.ArrayDimensions = list.Count.ToString();
@@ -1309,7 +1264,7 @@ namespace AasxUANodesetImExport
             return element;
         }
 
-        private static string CreateKeyProperty(List<Key> keys, string name)
+        private static string CreateKeyProperty(List<Key> keys, string name, string dic)
         {
             UAVariable ident = new UAVariable();
             ident.NodeId = "ns=1;i=" + masterID.ToString();
@@ -1317,6 +1272,7 @@ namespace AasxUANodesetImExport
             masterID++;
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASKeyTypeDataType"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             ident.Value = CreateKeysValue(keys);
 
@@ -1325,7 +1281,7 @@ namespace AasxUANodesetImExport
             return ident.NodeId;
         }
 
-        private static string CreateKeyProperty(Key key, string name)
+        private static string CreateKeyProperty(Key key, string name, string dic)
         {
             UAVariable ident = new UAVariable();
             ident.NodeId = "ns=1;i=" + masterID.ToString();
@@ -1333,6 +1289,7 @@ namespace AasxUANodesetImExport
             masterID++;
             List<Reference> refs = new List<Reference>();
             refs.Add(CreateHasTypeDefinition("1:AASKeyTypeDataType"));
+            refs.Add(CreateHasDictionaryEntry(dic));
 
             ident.Value = (XmlElement)CreateKeyValue(key, new XmlDocument());
 
