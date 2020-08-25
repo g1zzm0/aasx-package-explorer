@@ -31,6 +31,67 @@
     ]
   },
   {
+    "path": "AasxCsharpLibrary\\AasxCompatibilityModels\\V10\\AdminShellV10.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (Michael Hoffmeister, 1970-01-01): in V1.0, shall be a list of embeddedDataSpecification",
+        "line": 1848,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Michael Hoffmeister, 1970-01-01): Qualifiers not working!",
+        "line": 2566,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Michael Hoffmeister, 1970-01-01): Operation",
+        "line": 2926,
+        "column": 28,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Michael Hoffmeister, 1970-01-01): use aasenv serialzers here!",
+        "line": 3905,
+        "column": 24,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Michael Hoffmeister, 1970-01-01): use aasenv serialzers here!",
+        "line": 3930,
+        "column": 28,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Michael Hoffmeister, 1970-01-01): use aasenv serialzers here!",
+        "line": 4037,
+        "column": 24,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Michael Hoffmeister, 1970-01-01): use aasenv serialzers here!",
+        "line": 4066,
+        "column": 28,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Michael Hoffmeister, 1970-01-01): use aasenv serialzers here!",
+        "line": 4093,
+        "column": 28,
+        "status": "ok"
+      }
+    ]
+  },
+  {
     "path": "AasxCsharpLibrary\\AdminShell.cs",
     "records": [
       {

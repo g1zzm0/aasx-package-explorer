@@ -44,6 +44,72 @@ Michael Hoffmeister,
     fill out 
     eds.hasDataSpecification by using outer attributes
 
+## AasxCsharpLibrary\AasxCompatibilityModels\V10\AdminShellV10.cs
+
+[Line 1849, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AasxCompatibilityModels/V10/AdminShellV10.cs#L1849
+), 
+Michael Hoffmeister,
+1970-01-01
+
+    in V1.0, shall be a list of embeddedDataSpecification
+
+[Line 2567, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AasxCompatibilityModels/V10/AdminShellV10.cs#L2567
+), 
+Michael Hoffmeister,
+1970-01-01
+
+    Qualifiers not working!
+
+[Line 2927, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AasxCompatibilityModels/V10/AdminShellV10.cs#L2927
+), 
+Michael Hoffmeister,
+1970-01-01
+
+    Operation
+
+[Line 3906, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AasxCompatibilityModels/V10/AdminShellV10.cs#L3906
+), 
+Michael Hoffmeister,
+1970-01-01
+
+    use aasenv serialzers here!
+
+[Line 3931, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AasxCompatibilityModels/V10/AdminShellV10.cs#L3931
+), 
+Michael Hoffmeister,
+1970-01-01
+
+    use aasenv serialzers here!
+
+[Line 4038, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AasxCompatibilityModels/V10/AdminShellV10.cs#L4038
+), 
+Michael Hoffmeister,
+1970-01-01
+
+    use aasenv serialzers here!
+
+[Line 4067, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AasxCompatibilityModels/V10/AdminShellV10.cs#L4067
+), 
+Michael Hoffmeister,
+1970-01-01
+
+    use aasenv serialzers here!
+
+[Line 4094, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AasxCompatibilityModels/V10/AdminShellV10.cs#L4094
+), 
+Michael Hoffmeister,
+1970-01-01
+
+    use aasenv serialzers here!
+
 ## AasxCsharpLibrary\AdminShell.cs
 
 [Line 3527, column 13](
