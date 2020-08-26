@@ -9220,12 +9220,12 @@ references:
   isSpec: "True"
   fullName: AasxDictionaryImport.Cdd.Class.GetEndpoint
   nameWithType: Class.GetEndpoint
-- uid: AasxDictionaryImport.Cdd.Class.GetIec61360Data
-  name: GetIec61360Data()
-  href: api/AasxDictionaryImport.Cdd.Class.html#AasxDictionaryImport_Cdd_Class_GetIec61360Data
-  commentId: M:AasxDictionaryImport.Cdd.Class.GetIec61360Data
-  fullName: AasxDictionaryImport.Cdd.Class.GetIec61360Data()
-  nameWithType: Class.GetIec61360Data()
+- uid: AasxDictionaryImport.Cdd.Class.GetIec61360Data(System.Boolean)
+  name: GetIec61360Data(Boolean)
+  href: api/AasxDictionaryImport.Cdd.Class.html#AasxDictionaryImport_Cdd_Class_GetIec61360Data_System_Boolean_
+  commentId: M:AasxDictionaryImport.Cdd.Class.GetIec61360Data(System.Boolean)
+  fullName: AasxDictionaryImport.Cdd.Class.GetIec61360Data(System.Boolean)
+  nameWithType: Class.GetIec61360Data(Boolean)
 - uid: AasxDictionaryImport.Cdd.Class.GetIec61360Data*
   name: GetIec61360Data
   href: api/AasxDictionaryImport.Cdd.Class.html#AasxDictionaryImport_Cdd_Class_GetIec61360Data_
@@ -9645,6 +9645,19 @@ references:
   isSpec: "True"
   fullName: AasxDictionaryImport.Cdd.DataSource.DataSource
   nameWithType: DataSource.DataSource
+- uid: AasxDictionaryImport.Cdd.DataSource.ImportAllAttributes
+  name: ImportAllAttributes
+  href: api/AasxDictionaryImport.Cdd.DataSource.html#AasxDictionaryImport_Cdd_DataSource_ImportAllAttributes
+  commentId: P:AasxDictionaryImport.Cdd.DataSource.ImportAllAttributes
+  fullName: AasxDictionaryImport.Cdd.DataSource.ImportAllAttributes
+  nameWithType: DataSource.ImportAllAttributes
+- uid: AasxDictionaryImport.Cdd.DataSource.ImportAllAttributes*
+  name: ImportAllAttributes
+  href: api/AasxDictionaryImport.Cdd.DataSource.html#AasxDictionaryImport_Cdd_DataSource_ImportAllAttributes_
+  commentId: Overload:AasxDictionaryImport.Cdd.DataSource.ImportAllAttributes
+  isSpec: "True"
+  fullName: AasxDictionaryImport.Cdd.DataSource.ImportAllAttributes
+  nameWithType: DataSource.ImportAllAttributes
 - uid: AasxDictionaryImport.Cdd.DataSource.Load
   name: Load()
   href: api/AasxDictionaryImport.Cdd.DataSource.html#AasxDictionaryImport_Cdd_DataSource_Load
@@ -9799,12 +9812,12 @@ references:
   isSpec: "True"
   fullName: AasxDictionaryImport.Cdd.Element.GetEndpoint
   nameWithType: Element.GetEndpoint
-- uid: AasxDictionaryImport.Cdd.Element.GetIec61360Data
-  name: GetIec61360Data()
-  href: api/AasxDictionaryImport.Cdd.Element.html#AasxDictionaryImport_Cdd_Element_GetIec61360Data
-  commentId: M:AasxDictionaryImport.Cdd.Element.GetIec61360Data
-  fullName: AasxDictionaryImport.Cdd.Element.GetIec61360Data()
-  nameWithType: Element.GetIec61360Data()
+- uid: AasxDictionaryImport.Cdd.Element.GetIec61360Data(System.Boolean)
+  name: GetIec61360Data(Boolean)
+  href: api/AasxDictionaryImport.Cdd.Element.html#AasxDictionaryImport_Cdd_Element_GetIec61360Data_System_Boolean_
+  commentId: M:AasxDictionaryImport.Cdd.Element.GetIec61360Data(System.Boolean)
+  fullName: AasxDictionaryImport.Cdd.Element.GetIec61360Data(System.Boolean)
+  nameWithType: Element.GetIec61360Data(Boolean)
 - uid: AasxDictionaryImport.Cdd.Element.GetIec61360Data*
   name: GetIec61360Data
   href: api/AasxDictionaryImport.Cdd.Element.html#AasxDictionaryImport_Cdd_Element_GetIec61360Data_
@@ -10518,12 +10531,12 @@ references:
   isSpec: "True"
   fullName: AasxDictionaryImport.Cdd.Property.GetEndpoint
   nameWithType: Property.GetEndpoint
-- uid: AasxDictionaryImport.Cdd.Property.GetIec61360Data
-  name: GetIec61360Data()
-  href: api/AasxDictionaryImport.Cdd.Property.html#AasxDictionaryImport_Cdd_Property_GetIec61360Data
-  commentId: M:AasxDictionaryImport.Cdd.Property.GetIec61360Data
-  fullName: AasxDictionaryImport.Cdd.Property.GetIec61360Data()
-  nameWithType: Property.GetIec61360Data()
+- uid: AasxDictionaryImport.Cdd.Property.GetIec61360Data(System.Boolean)
+  name: GetIec61360Data(Boolean)
+  href: api/AasxDictionaryImport.Cdd.Property.html#AasxDictionaryImport_Cdd_Property_GetIec61360Data_System_Boolean_
+  commentId: M:AasxDictionaryImport.Cdd.Property.GetIec61360Data(System.Boolean)
+  fullName: AasxDictionaryImport.Cdd.Property.GetIec61360Data(System.Boolean)
+  nameWithType: Property.GetIec61360Data(Boolean)
 - uid: AasxDictionaryImport.Cdd.Property.GetIec61360Data*
   name: GetIec61360Data
   href: api/AasxDictionaryImport.Cdd.Property.html#AasxDictionaryImport_Cdd_Property_GetIec61360Data_
