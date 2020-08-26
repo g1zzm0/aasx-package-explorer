@@ -144,6 +144,18 @@
     ]
   },
   {
+    "path": "AasxDictionaryImport.Tests\\Cdd\\TestModel.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (krahlro-sick, 2020-07-31): make sure that there are no duplicates",
+        "line": 561,
+        "column": 12,
+        "status": "ok"
+      }
+    ]
+  },
+  {
     "path": "AasxPluginUaNetClient\\UASampleClient.cs",
     "records": [
       {

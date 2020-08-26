@@ -162,6 +162,16 @@ Michael Hoffmeister,
 
     use a unified function to create a serializer
 
+## AasxDictionaryImport.Tests\Cdd\TestModel.cs
+
+[Line 562, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport.Tests/Cdd/TestModel.cs#L562
+), 
+krahlro-sick,
+2020-07-31
+
+    make sure that there are no duplicates
+
 ## AasxPluginUaNetClient\UASampleClient.cs
 
 [Line 1, column 1](
