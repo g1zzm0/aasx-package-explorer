@@ -9426,6 +9426,19 @@ references:
   isSpec: "True"
   fullName: AasxDictionaryImport.Cdd.ClassWrapper.GetDetails
   nameWithType: ClassWrapper.GetDetails
+- uid: AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  name: ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)
+  href: api/AasxDictionaryImport.Cdd.ClassWrapper.html#AasxDictionaryImport_Cdd_ClassWrapper_ImportSubmodelElementsInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_IManageSubmodelElements_
+  commentId: M:AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  fullName: AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  nameWithType: ClassWrapper.ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)
+- uid: AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelElementsInto*
+  name: ImportSubmodelElementsInto
+  href: api/AasxDictionaryImport.Cdd.ClassWrapper.html#AasxDictionaryImport_Cdd_ClassWrapper_ImportSubmodelElementsInto_
+  commentId: Overload:AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelElementsInto
+  isSpec: "True"
+  fullName: AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelElementsInto
+  nameWithType: ClassWrapper.ImportSubmodelElementsInto
 - uid: AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell)
   name: ImportSubmodelInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell)
   href: api/AasxDictionaryImport.Cdd.ClassWrapper.html#AasxDictionaryImport_Cdd_ClassWrapper_ImportSubmodelInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_
@@ -9516,6 +9529,19 @@ references:
   fullName.vb: AasxDictionaryImport.Cdd.Context.GetElement(Of T)(System.String)
   nameWithType: Context.GetElement<T>(String)
   nameWithType.vb: Context.GetElement(Of T)(String)
+- uid: AasxDictionaryImport.Cdd.Context.LoadSubmodelElements
+  name: LoadSubmodelElements()
+  href: api/AasxDictionaryImport.Cdd.Context.html#AasxDictionaryImport_Cdd_Context_LoadSubmodelElements
+  commentId: M:AasxDictionaryImport.Cdd.Context.LoadSubmodelElements
+  fullName: AasxDictionaryImport.Cdd.Context.LoadSubmodelElements()
+  nameWithType: Context.LoadSubmodelElements()
+- uid: AasxDictionaryImport.Cdd.Context.LoadSubmodelElements*
+  name: LoadSubmodelElements
+  href: api/AasxDictionaryImport.Cdd.Context.html#AasxDictionaryImport_Cdd_Context_LoadSubmodelElements_
+  commentId: Overload:AasxDictionaryImport.Cdd.Context.LoadSubmodelElements
+  isSpec: "True"
+  fullName: AasxDictionaryImport.Cdd.Context.LoadSubmodelElements
+  nameWithType: Context.LoadSubmodelElements
 - uid: AasxDictionaryImport.Cdd.Context.LoadSubmodels
   name: LoadSubmodels()
   href: api/AasxDictionaryImport.Cdd.Context.html#AasxDictionaryImport_Cdd_Context_LoadSubmodels
@@ -10628,6 +10654,19 @@ references:
   isSpec: "True"
   fullName: AasxDictionaryImport.Cdd.PropertyWrapper.Id
   nameWithType: PropertyWrapper.Id
+- uid: AasxDictionaryImport.Cdd.PropertyWrapper.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  name: ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)
+  href: api/AasxDictionaryImport.Cdd.PropertyWrapper.html#AasxDictionaryImport_Cdd_PropertyWrapper_ImportSubmodelElementsInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_IManageSubmodelElements_
+  commentId: M:AasxDictionaryImport.Cdd.PropertyWrapper.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  fullName: AasxDictionaryImport.Cdd.PropertyWrapper.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  nameWithType: PropertyWrapper.ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)
+- uid: AasxDictionaryImport.Cdd.PropertyWrapper.ImportSubmodelElementsInto*
+  name: ImportSubmodelElementsInto
+  href: api/AasxDictionaryImport.Cdd.PropertyWrapper.html#AasxDictionaryImport_Cdd_PropertyWrapper_ImportSubmodelElementsInto_
+  commentId: Overload:AasxDictionaryImport.Cdd.PropertyWrapper.ImportSubmodelElementsInto
+  isSpec: "True"
+  fullName: AasxDictionaryImport.Cdd.PropertyWrapper.ImportSubmodelElementsInto
+  nameWithType: PropertyWrapper.ImportSubmodelElementsInto
 - uid: AasxDictionaryImport.Cdd.PropertyWrapper.LoadChildren
   name: LoadChildren()
   href: api/AasxDictionaryImport.Cdd.PropertyWrapper.html#AasxDictionaryImport_Cdd_PropertyWrapper_LoadChildren
@@ -11276,6 +11315,19 @@ references:
   isSpec: "True"
   fullName: AasxDictionaryImport.Import.ImportSubmodel
   nameWithType: Import.ImportSubmodel
+- uid: AasxDictionaryImport.Import.ImportSubmodelElements(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  name: ImportSubmodelElements(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)
+  href: api/AasxDictionaryImport.Import.html#AasxDictionaryImport_Import_ImportSubmodelElements_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_IManageSubmodelElements_
+  commentId: M:AasxDictionaryImport.Import.ImportSubmodelElements(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  fullName: AasxDictionaryImport.Import.ImportSubmodelElements(AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  nameWithType: Import.ImportSubmodelElements(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)
+- uid: AasxDictionaryImport.Import.ImportSubmodelElements*
+  name: ImportSubmodelElements
+  href: api/AasxDictionaryImport.Import.html#AasxDictionaryImport_Import_ImportSubmodelElements_
+  commentId: Overload:AasxDictionaryImport.Import.ImportSubmodelElements
+  isSpec: "True"
+  fullName: AasxDictionaryImport.Import.ImportSubmodelElements
+  nameWithType: Import.ImportSubmodelElements
 - uid: AasxDictionaryImport.Model
   name: AasxDictionaryImport.Model
   href: api/AasxDictionaryImport.Model.html
@@ -11480,6 +11532,19 @@ references:
   isSpec: "True"
   fullName: AasxDictionaryImport.Model.ElementBase.Id
   nameWithType: ElementBase.Id
+- uid: AasxDictionaryImport.Model.ElementBase.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  name: ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)
+  href: api/AasxDictionaryImport.Model.ElementBase.html#AasxDictionaryImport_Model_ElementBase_ImportSubmodelElementsInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_IManageSubmodelElements_
+  commentId: M:AasxDictionaryImport.Model.ElementBase.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  fullName: AasxDictionaryImport.Model.ElementBase.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  nameWithType: ElementBase.ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)
+- uid: AasxDictionaryImport.Model.ElementBase.ImportSubmodelElementsInto*
+  name: ImportSubmodelElementsInto
+  href: api/AasxDictionaryImport.Model.ElementBase.html#AasxDictionaryImport_Model_ElementBase_ImportSubmodelElementsInto_
+  commentId: Overload:AasxDictionaryImport.Model.ElementBase.ImportSubmodelElementsInto
+  isSpec: "True"
+  fullName: AasxDictionaryImport.Model.ElementBase.ImportSubmodelElementsInto
+  nameWithType: ElementBase.ImportSubmodelElementsInto
 - uid: AasxDictionaryImport.Model.ElementBase.ImportSubmodelInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell)
   name: ImportSubmodelInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell)
   href: api/AasxDictionaryImport.Model.ElementBase.html#AasxDictionaryImport_Model_ElementBase_ImportSubmodelInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_
@@ -11695,6 +11760,19 @@ references:
   commentId: T:AasxDictionaryImport.Model.IDataContext
   fullName: AasxDictionaryImport.Model.IDataContext
   nameWithType: IDataContext
+- uid: AasxDictionaryImport.Model.IDataContext.LoadSubmodelElements
+  name: LoadSubmodelElements()
+  href: api/AasxDictionaryImport.Model.IDataContext.html#AasxDictionaryImport_Model_IDataContext_LoadSubmodelElements
+  commentId: M:AasxDictionaryImport.Model.IDataContext.LoadSubmodelElements
+  fullName: AasxDictionaryImport.Model.IDataContext.LoadSubmodelElements()
+  nameWithType: IDataContext.LoadSubmodelElements()
+- uid: AasxDictionaryImport.Model.IDataContext.LoadSubmodelElements*
+  name: LoadSubmodelElements
+  href: api/AasxDictionaryImport.Model.IDataContext.html#AasxDictionaryImport_Model_IDataContext_LoadSubmodelElements_
+  commentId: Overload:AasxDictionaryImport.Model.IDataContext.LoadSubmodelElements
+  isSpec: "True"
+  fullName: AasxDictionaryImport.Model.IDataContext.LoadSubmodelElements
+  nameWithType: IDataContext.LoadSubmodelElements
 - uid: AasxDictionaryImport.Model.IDataContext.LoadSubmodels
   name: LoadSubmodels()
   href: api/AasxDictionaryImport.Model.IDataContext.html#AasxDictionaryImport_Model_IDataContext_LoadSubmodels
@@ -11908,6 +11986,19 @@ references:
   isSpec: "True"
   fullName: AasxDictionaryImport.Model.IElement.Id
   nameWithType: IElement.Id
+- uid: AasxDictionaryImport.Model.IElement.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  name: ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)
+  href: api/AasxDictionaryImport.Model.IElement.html#AasxDictionaryImport_Model_IElement_ImportSubmodelElementsInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_IManageSubmodelElements_
+  commentId: M:AasxDictionaryImport.Model.IElement.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  fullName: AasxDictionaryImport.Model.IElement.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.IManageSubmodelElements)
+  nameWithType: IElement.ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)
+- uid: AasxDictionaryImport.Model.IElement.ImportSubmodelElementsInto*
+  name: ImportSubmodelElementsInto
+  href: api/AasxDictionaryImport.Model.IElement.html#AasxDictionaryImport_Model_IElement_ImportSubmodelElementsInto_
+  commentId: Overload:AasxDictionaryImport.Model.IElement.ImportSubmodelElementsInto
+  isSpec: "True"
+  fullName: AasxDictionaryImport.Model.IElement.ImportSubmodelElementsInto
+  nameWithType: IElement.ImportSubmodelElementsInto
 - uid: AasxDictionaryImport.Model.IElement.ImportSubmodelInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell)
   name: ImportSubmodelInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell)
   href: api/AasxDictionaryImport.Model.IElement.html#AasxDictionaryImport_Model_IElement_ImportSubmodelInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_
@@ -19857,6 +19948,19 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.MainWindow.CommandBinding_ImportSubmodel
   nameWithType: MainWindow.CommandBinding_ImportSubmodel
+- uid: AasxPackageExplorer.MainWindow.CommandBinding_ImportSubmodelElements
+  name: CommandBinding_ImportSubmodelElements()
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_CommandBinding_ImportSubmodelElements
+  commentId: M:AasxPackageExplorer.MainWindow.CommandBinding_ImportSubmodelElements
+  fullName: AasxPackageExplorer.MainWindow.CommandBinding_ImportSubmodelElements()
+  nameWithType: MainWindow.CommandBinding_ImportSubmodelElements()
+- uid: AasxPackageExplorer.MainWindow.CommandBinding_ImportSubmodelElements*
+  name: CommandBinding_ImportSubmodelElements
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_CommandBinding_ImportSubmodelElements_
+  commentId: Overload:AasxPackageExplorer.MainWindow.CommandBinding_ImportSubmodelElements
+  isSpec: "True"
+  fullName: AasxPackageExplorer.MainWindow.CommandBinding_ImportSubmodelElements
+  nameWithType: MainWindow.CommandBinding_ImportSubmodelElements
 - uid: AasxPackageExplorer.MainWindow.CommandBinding_MQTTPub
   name: CommandBinding_MQTTPub()
   href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_CommandBinding_MQTTPub

@@ -83,7 +83,7 @@
   
   <h1 id="AasxDictionaryImport_Import" data-uid="AasxDictionaryImport.Import" class="text-break">Class Import
   </h1>
-  <div class="markdown level0 summary"><p>A generic import dialog for submodels.</p>
+  <div class="markdown level0 summary"><p>A generic import dialog for submodels and submodel elements.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -128,7 +128,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AasxDictionaryImport_Import_ImportSubmodel_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_.md&amp;value=---%0Auid%3A%20AasxDictionaryImport.Import.ImportSubmodel(AdminShellNS.AdminShellV20.AdministrationShellEnv%2CAdminShellNS.AdminShellV20.AdministrationShell)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Import.cs/#L66">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Import.cs/#L67">View Source</a>
   </span>
   <a id="AasxDictionaryImport_Import_ImportSubmodel_" data-uid="AasxDictionaryImport.Import.ImportSubmodel*"></a>
   <h4 id="AasxDictionaryImport_Import_ImportSubmodel_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_" data-uid="AasxDictionaryImport.Import.ImportSubmodel(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell)">ImportSubmodel(AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell)</h4>
@@ -182,6 +182,64 @@ created</p>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AasxDictionaryImport_Import_ImportSubmodelElements_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_IManageSubmodelElements_.md&amp;value=---%0Auid%3A%20AasxDictionaryImport.Import.ImportSubmodelElements(AdminShellNS.AdminShellV20.AdministrationShellEnv%2CAdminShellNS.AdminShellV20.IManageSubmodelElements)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Import.cs/#L82">View Source</a>
+  </span>
+  <a id="AasxDictionaryImport_Import_ImportSubmodelElements_" data-uid="AasxDictionaryImport.Import.ImportSubmodelElements*"></a>
+  <h4 id="AasxDictionaryImport_Import_ImportSubmodelElements_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_IManageSubmodelElements_" data-uid="AasxDictionaryImport.Import.ImportSubmodelElements(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)">ImportSubmodelElements(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)</h4>
+  <div class="markdown level1 summary"><p>Shows the import dialog and allows the user to select data from a data provider implementation that is
+converted into AAS submodel elements (usually properties and collections) and imported into the given parent
+element (usually a submodel).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ImportSubmodelElements(AdminShellV20.AdministrationShellEnv env, AdminShellV20.IManageSubmodelElements parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdminShellNS.AdminShellV20.AdministrationShellEnv.html">AdminShellV20.AdministrationShellEnv</a></td>
+        <td><span class="parametername">env</span></td>
+        <td><p>The AAS environment to import into</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AdminShellNS.AdminShellV20.IManageSubmodelElements.html">AdminShellV20.IManageSubmodelElements</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>The parent element to import into</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if at least one submodel element was imported</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -193,7 +251,7 @@ created</p>
                     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AasxDictionaryImport_Import.md&amp;value=---%0Auid%3A%20AasxDictionaryImport.Import%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Import.cs/#L55" class="contribution-link">View Source</a>
+                    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Import.cs/#L56" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

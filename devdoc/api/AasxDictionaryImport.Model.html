@@ -110,9 +110,9 @@ of exceptions that could occur during the import.</p>
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="AasxDictionaryImport.Model.IDataContext.html">IDataContext</a></h4>
-      <section><p>A collection of elements stored in a data set as a tree.  The LoadSubmodels method can be used to retrieve those
-elements that correspond to AAS submodels, the first level of the tree.  If the data source contains undefined
-references, they will be ignored and recorded in the UnknownReferences collection.</p>
+      <section><p>A collection of elements stored in a data set as a tree.  The LoadSubmodels and LoadSubmodelElements methods can
+be used to retrieve the elements stored in this data set.  If the data source contains undefined references,
+they will be ignored and recorded in the UnknownReferences collection.</p>
 </section>
       <h4><a class="xref" href="AasxDictionaryImport.Model.IDataProvider.html">IDataProvider</a></h4>
       <section><p>Provides access to a data repository, for example IEC CDD or eCl@ss.  Implementations of this interface can be

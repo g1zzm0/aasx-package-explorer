@@ -171,7 +171,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AasxDictionaryImport_Cdd_ClassWrapper__ctor_AasxDictionaryImport_Cdd_Context_AasxDictionaryImport_Cdd_Class_AasxDictionaryImport_Model_IElement_.md&amp;value=---%0Auid%3A%20AasxDictionaryImport.Cdd.ClassWrapper.%23ctor(AasxDictionaryImport.Cdd.Context%2CAasxDictionaryImport.Cdd.Class%2CAasxDictionaryImport.Model.IElement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L222">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L245">View Source</a>
   </span>
   <a id="AasxDictionaryImport_Cdd_ClassWrapper__ctor_" data-uid="AasxDictionaryImport.Cdd.ClassWrapper.#ctor*"></a>
   <h4 id="AasxDictionaryImport_Cdd_ClassWrapper__ctor_AasxDictionaryImport_Cdd_Context_AasxDictionaryImport_Cdd_Class_AasxDictionaryImport_Model_IElement_" data-uid="AasxDictionaryImport.Cdd.ClassWrapper.#ctor(AasxDictionaryImport.Cdd.Context,AasxDictionaryImport.Cdd.Class,AasxDictionaryImport.Model.IElement)">ClassWrapper(Context, Class, IElement)</h4>
@@ -219,7 +219,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AasxDictionaryImport_Cdd_ClassWrapper_GetDetails.md&amp;value=---%0Auid%3A%20AasxDictionaryImport.Cdd.ClassWrapper.GetDetails%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L235">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L269">View Source</a>
   </span>
   <a id="AasxDictionaryImport_Cdd_ClassWrapper_GetDetails_" data-uid="AasxDictionaryImport.Cdd.ClassWrapper.GetDetails*"></a>
   <h4 id="AasxDictionaryImport_Cdd_ClassWrapper_GetDetails" data-uid="AasxDictionaryImport.Cdd.ClassWrapper.GetDetails">GetDetails()</h4>
@@ -252,10 +252,75 @@ include the ID and the name, typically as the first elements.</p>
   <div><span class="xref">AasxDictionaryImport.Cdd.ElementWrapper&lt;AasxDictionaryImport.Cdd.Class&gt;.GetDetails()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AasxDictionaryImport_Cdd_ClassWrapper_ImportSubmodelElementsInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_IManageSubmodelElements_.md&amp;value=---%0Auid%3A%20AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv%2CAdminShellNS.AdminShellV20.IManageSubmodelElements)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L258">View Source</a>
+  </span>
+  <a id="AasxDictionaryImport_Cdd_ClassWrapper_ImportSubmodelElementsInto_" data-uid="AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelElementsInto*"></a>
+  <h4 id="AasxDictionaryImport_Cdd_ClassWrapper_ImportSubmodelElementsInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_IManageSubmodelElements_" data-uid="AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelElementsInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.IManageSubmodelElements)">ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)</h4>
+  <div class="markdown level1 summary"><p>Converts this element into a AAS submodel element (i. e. a property or a collection) and adds it to the
+given parent element (typically a submodel).  If this element cannot be converted into a submodel element,
+this method returns false.</p>
+<p>
+Implementations of this method should check the IsSelected attribute both for this element and for all
+children.  Only those elements with IsSelected equals true should be imported.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv env, AdminShellV20.IManageSubmodelElements parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdminShellNS.AdminShellV20.AdministrationShellEnv.html">AdminShellV20.AdministrationShellEnv</a></td>
+        <td><span class="parametername">env</span></td>
+        <td><p>The admin shell environment for the import</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AdminShellNS.AdminShellV20.IManageSubmodelElements.html">AdminShellV20.IManageSubmodelElements</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>The parent element to add the submodel elements to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if the import was successful, or false if the import failed or
+if this element cannot be converted to an AAS submodel element</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AasxDictionaryImport.Model.ElementBase.html#AasxDictionaryImport_Model_ElementBase_ImportSubmodelElementsInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_IManageSubmodelElements_">ElementBase.ImportSubmodelElementsInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.IManageSubmodelElements)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AasxDictionaryImport_Cdd_ClassWrapper_ImportSubmodelInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_.md&amp;value=---%0Auid%3A%20AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelInto(AdminShellNS.AdminShellV20.AdministrationShellEnv%2CAdminShellNS.AdminShellV20.AdministrationShell)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L228">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L251">View Source</a>
   </span>
   <a id="AasxDictionaryImport_Cdd_ClassWrapper_ImportSubmodelInto_" data-uid="AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelInto*"></a>
   <h4 id="AasxDictionaryImport_Cdd_ClassWrapper_ImportSubmodelInto_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_" data-uid="AasxDictionaryImport.Cdd.ClassWrapper.ImportSubmodelInto(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell)">ImportSubmodelInto(AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell)</h4>
@@ -319,7 +384,7 @@ converted to an AAS submodel</p>
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AasxDictionaryImport_Cdd_ClassWrapper_LoadChildren.md&amp;value=---%0Auid%3A%20AasxDictionaryImport.Cdd.ClassWrapper.LoadChildren%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L243">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L277">View Source</a>
   </span>
   <a id="AasxDictionaryImport_Cdd_ClassWrapper_LoadChildren_" data-uid="AasxDictionaryImport.Cdd.ClassWrapper.LoadChildren*"></a>
   <h4 id="AasxDictionaryImport_Cdd_ClassWrapper_LoadChildren" data-uid="AasxDictionaryImport.Cdd.ClassWrapper.LoadChildren">LoadChildren()</h4>
@@ -361,7 +426,7 @@ converted to an AAS submodel</p>
                     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AasxDictionaryImport_Cdd_ClassWrapper.md&amp;value=---%0Auid%3A%20AasxDictionaryImport.Cdd.ClassWrapper%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L214" class="contribution-link">View Source</a>
+                    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Cdd/Model.cs/#L237" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
