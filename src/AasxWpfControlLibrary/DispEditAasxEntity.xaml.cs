@@ -605,7 +605,7 @@ namespace AasxPackageExplorer
                                                     mdo as AdminShell.AdministrationShell);
                                                 destAAS.assetRef = null;
                                                 if (copyRecursively)
-                                                    destAAS.assetRef = destAsset.GetReference();
+                                                    destAAS.assetRef = destAsset.GetAssetReference();
                                                 if (createNewIds)
                                                     destAAS.identification = new AdminShell.Identification(
                                                         AdminShell.Identification.IRI,
