@@ -360,16 +360,6 @@ MIHO,
 
     To be checked by Andreas. All applications have software certificates
 
-## AasxUaNetServer\UaServerWrapper.cs
-
-[Line 5, column 1](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/UaServerWrapper.cs#L5
-), 
-MIHO,
-2020-08-02
-
-    Andreas to check license!
-
 ## AasxUANodesetImExport\UANodeSet.cs
 
 [Line 20, column 1](
