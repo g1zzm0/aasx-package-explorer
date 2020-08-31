@@ -6,8 +6,6 @@
  * (https://github.com/ExcelDataReader/ExcelDataReader/blob/develop/LICENSE).
  */
 
-#nullable enable
-
 using System;
 using System.Collections.Generic;
 using System.Linq;

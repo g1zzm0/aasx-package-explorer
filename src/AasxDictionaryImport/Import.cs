@@ -6,8 +6,6 @@
  * (https://github.com/ExcelDataReader/ExcelDataReader/blob/develop/LICENSE).
  */
 
-#nullable enable
-
 using System;
 using System.Linq;
 using System.Windows.Input;
