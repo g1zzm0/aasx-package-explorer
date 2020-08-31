@@ -244,7 +244,7 @@ namespace AasxDictionaryImport
         /// <returns>The value for the given language, or an empty string</returns>
         public string Get(string lang)
         {
-            return _data.TryGetValue(lang, out string? value) ? value : string.Empty;
+            return _data.TryGetValue(lang, out string value) ? value : string.Empty;
         }
 
         /// <summary>
@@ -292,7 +292,7 @@ namespace AasxDictionaryImport
     /// </summary>
     public sealed class Iec61360Data
     {
-        private string? _idShort = null;
+        private string _idShort = null;
 
         /// <summary>
         /// The IRDI of this element.
@@ -351,7 +351,10 @@ namespace AasxDictionaryImport
         {
             get
             {
-                _idShort ??= GenerateIdShort();
+                if (_idShort == null)
+                {
+                    _idShort = GenerateIdShort();
+                }
                 return _idShort;
             }
         }

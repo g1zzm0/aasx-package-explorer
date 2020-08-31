@@ -172,7 +172,7 @@ namespace AasxDictionaryImport.Model
         /// <summary>
         /// The parent of this element or null if the element is a root element of the element tree.
         /// </summary>
-        IElement? Parent { get; }
+        IElement Parent { get; }
 
         /// <summary>
         /// The list of children of this element.  Implementations may use lazy loading for this list but should cache
@@ -237,7 +237,7 @@ namespace AasxDictionaryImport.Model
         /// Returns a URL that points to a web page with more information for this element (if available).
         /// </summary>
         /// <returns>A URL with more information for this element or null</returns>
-        Uri? GetDetailsUrl();
+        Uri GetDetailsUrl();
     }
 
     /// <summary>
@@ -267,7 +267,7 @@ namespace AasxDictionaryImport.Model
         }
 
         /// <inheritdoc/>
-        public bool Equals(UnknownReference? reference)
+        public bool Equals(UnknownReference reference)
         {
             return reference != null &&
                 Id.Equals(reference.Id) &&
@@ -371,7 +371,7 @@ namespace AasxDictionaryImport.Model
         public abstract string Name { get; }
 
         /// <inheritdoc/>
-        public virtual IElement? Parent { get; }
+        public virtual IElement Parent { get; }
 
         /// <inheritdoc/>
         public abstract ICollection<IElement> Children { get; }
@@ -379,7 +379,7 @@ namespace AasxDictionaryImport.Model
         /// <inheritdoc/>
         public virtual bool IsSelected { get; set; }
 
-        protected ElementBase(IDataSource dataSource, IElement? parent = null)
+        protected ElementBase(IDataSource dataSource, IElement parent = null)
         {
             DataSource = dataSource;
             Parent = parent;
@@ -389,7 +389,7 @@ namespace AasxDictionaryImport.Model
         public abstract Dictionary<string, string> GetDetails();
 
         /// <inheritdoc/>
-        public virtual Uri? GetDetailsUrl() => null;
+        public virtual Uri GetDetailsUrl() => null;
 
         /// <inheritdoc/>
         public virtual bool ImportSubmodelInto(AdminShellV20.AdministrationShellEnv env,
@@ -422,19 +422,22 @@ namespace AasxDictionaryImport.Model
     /// </summary>
     public abstract class LazyElementBase : ElementBase
     {
-        private ICollection<IElement>? _children;
+        private ICollection<IElement> _children;
 
         /// <inheritdoc/>
         public override ICollection<IElement> Children
         {
             get
             {
-                _children ??= LoadChildren();
+                if (_children == null)
+                {
+                    _children = LoadChildren();
+                }
                 return _children;
             }
         }
 
-        protected LazyElementBase(IDataSource dataSource, IElement? parent = null)
+        protected LazyElementBase(IDataSource dataSource, IElement parent = null)
             : base(dataSource, parent)
         {
         }
@@ -518,7 +521,7 @@ namespace AasxDictionaryImport.Model
         }
 
         /// <inheritdoc/>
-        public bool Equals(IDataSource? source)
+        public bool Equals(IDataSource source)
         {
             if (!(source is FileSystemDataSource ds))
                 return false;

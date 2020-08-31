@@ -63,9 +63,12 @@ namespace AasxDictionaryImport
         /// created</param>
         /// <returns>true if at least one submodel was imported</returns>
         public static bool ImportSubmodel(AdminShellV20.AdministrationShellEnv env,
-            AdminShellV20.AdministrationShell? adminShell = null)
+            AdminShellV20.AdministrationShell adminShell = null)
         {
-            adminShell ??= CreateAdminShell(env);
+            if (adminShell == null)
+            {
+                adminShell = CreateAdminShell(env);
+            }
             return PerformImport(ImportMode.Submodels, e => e.ImportSubmodelInto(env, adminShell));
         }
 

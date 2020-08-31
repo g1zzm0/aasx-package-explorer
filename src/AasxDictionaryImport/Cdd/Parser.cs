@@ -82,16 +82,19 @@ namespace AasxDictionaryImport.Cdd
         private List<T> ParseFile<T>(string filename) where T : Element
         {
 
-            using var stream = File.Open(filename, FileMode.Open, FileAccess.Read);
-            using var reader = ExcelReaderFactory.CreateReader(stream);
-
-            if (reader.FieldCount == 0)
+            using (var stream = File.Open(filename, FileMode.Open, FileAccess.Read))
             {
-                // no columns
-                return new List<T>();
-            }
+                using (var reader = ExcelReaderFactory.CreateReader(stream))
+                {
+                    if (reader.FieldCount == 0)
+                    {
+                        // no columns
+                        return new List<T>();
+                    }
 
-            return ParseFile<T>(reader);
+                    return ParseFile<T>(reader);
+                }
+            }
         }
 
         private List<T> ParseFile<T>(IExcelDataReader reader) where T : Element

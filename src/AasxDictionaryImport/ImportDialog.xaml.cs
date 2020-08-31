@@ -36,7 +36,7 @@ namespace AasxDictionaryImport
         public ISet<Model.IDataProvider> DataProviders = new HashSet<Model.IDataProvider> {
             new Cdd.DataProvider(),
         };
-        public Model.IDataContext? Context;
+        public Model.IDataContext Context;
         private readonly ObservableCollection<Model.IElement> _topLevelElements
             = new ObservableCollection<Model.IElement>();
         private readonly ObservableCollection<ElementWrapper> _detailsElements
@@ -90,15 +90,16 @@ namespace AasxDictionaryImport
             ButtonImport.IsEnabled = _detailsElements.Any(w => w.IsChecked != false);
         }
 
-        private string? GetImportDirectory()
+        private string GetImportDirectory()
         {
-            using var dialog = new System.Windows.Forms.FolderBrowserDialog
+            using (var dialog = new System.Windows.Forms.FolderBrowserDialog
+                {
+                    Description = "Select the import directory."
+                })
             {
-                Description = "Select the import directory."
-            };
-
-            return dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK
-                ? dialog.SelectedPath : null;
+                return dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK
+                    ? dialog.SelectedPath : null;
+            }
         }
 
         private void ApplyFilter()
@@ -235,7 +236,7 @@ namespace AasxDictionaryImport
 
         private void ViewItem_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            Model.IElement? element = null;
+            Model.IElement element = null;
 
             if (sender is TreeViewItem treeViewItem && treeViewItem.IsSelected)
                 element = (treeViewItem.DataContext as ElementWrapper)?.Element;
@@ -292,11 +293,11 @@ namespace AasxDictionaryImport
     {
         private bool? _isChecked = true;
 
-        public event PropertyChangedEventHandler? PropertyChanged;
+        public event PropertyChangedEventHandler PropertyChanged;
 
         public Model.IElement Element { get; }
 
-        public ElementWrapper? Parent { get; }
+        public ElementWrapper Parent { get; }
 
         public string Id => Element.Id;
 
@@ -312,7 +313,7 @@ namespace AasxDictionaryImport
 
         public List<ElementWrapper> Children { get; }
 
-        public ElementWrapper(Model.IElement element, ElementWrapper? parent = null)
+        public ElementWrapper(Model.IElement element, ElementWrapper parent = null)
         {
             Parent = parent;
             Element = element;

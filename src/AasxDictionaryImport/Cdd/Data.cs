@@ -92,7 +92,7 @@ namespace AasxDictionaryImport.Cdd
         /// extracted from the element code, assuming that it has the format "0112/2///{domain}#{id}".
         /// </summary>
         /// <returns>The IEC CDD domain for this element, or null if it can't be extracted</returns>
-        private string? GetDomain()
+        private string GetDomain()
         {
             var match = CodeRegex.Match(Code);
             if (!match.Success)
@@ -104,7 +104,7 @@ namespace AasxDictionaryImport.Cdd
         /// Returns the URL to the IEC CDD web page for this element, or null if the URL could not be determined.
         /// </summary>
         /// <returns>The URL for the IEC CDD web page for this element, or null if it could not be determined</returns>
-        public Uri? GetDetailsUrl()
+        public Uri GetDetailsUrl()
         {
             var baseUri = new Uri(BaseUrl);
             var domain = GetDomain();
@@ -201,7 +201,7 @@ namespace AasxDictionaryImport.Cdd
             Code = code;
         }
 
-        public T? Get(Context context)
+        public T Get(Context context)
         {
             return context.GetElement<T>(Code);
         }
@@ -288,7 +288,7 @@ namespace AasxDictionaryImport.Cdd
     // ReSharper disable once ClassNeverInstantiated.Global
     public class Property : Element
     {
-        private readonly DataType? _overrideDataType;
+        private readonly DataType _overrideDataType;
 
         public override string Code => GetString("MDC_P001_6");
 
@@ -358,7 +358,7 @@ namespace AasxDictionaryImport.Cdd
         private static readonly Regex TypeRegex = new Regex(@"^([^\(\)]+)(?:\((.+)\))?$");
         private static readonly Regex CompositeTypeRegex = new Regex(@"^(.*) OF (.*)$");
 
-        public virtual Reference<Class>? GetClassReference()
+        public virtual Reference<Class> GetClassReference()
         {
             return null;
         }
@@ -375,7 +375,7 @@ namespace AasxDictionaryImport.Cdd
             return ParseBasicType(s);
         }
 
-        private static Tuple<string, string[]>? ParseTypeNameArgs(string s)
+        private static Tuple<string, string[]> ParseTypeNameArgs(string s)
         {
             var match = TypeRegex.Match(s);
             if (!match.Success)
@@ -395,18 +395,36 @@ namespace AasxDictionaryImport.Cdd
         private static DataType ParseBasicType(string s)
         {
             var typeTuple = ParseTypeNameArgs(s);
-            DataType? dataType = null;
+            DataType dataType = null;
             if (typeTuple != null)
             {
                 var typeName = typeTuple.Item1;
                 var typeArgs = typeTuple.Item2;
 
-                dataType ??= SimpleType.ParseType(typeName, typeArgs);
-                dataType ??= EnumType.ParseType(typeName, typeArgs);
-                dataType ??= ClassInstanceType.ParseType(typeName, typeArgs);
-                dataType ??= ClassReferenceType.ParseType(typeName, typeArgs);
-                dataType ??= LargeObjectType.ParseType(typeName, typeArgs);
-                dataType ??= PlacementType.ParseType(typeName, typeArgs);
+                if (dataType == null)
+                {
+                    dataType = SimpleType.ParseType(typeName, typeArgs);
+                }
+                if (dataType == null)
+                {
+                    dataType = EnumType.ParseType(typeName, typeArgs);
+                }
+                if (dataType == null)
+                {
+                    dataType = ClassInstanceType.ParseType(typeName, typeArgs);
+                }
+                if (dataType == null)
+                {
+                    dataType = ClassReferenceType.ParseType(typeName, typeArgs);
+                }
+                if (dataType == null)
+                {
+                    dataType = LargeObjectType.ParseType(typeName, typeArgs);
+                }
+                if (dataType == null)
+                {
+                    dataType = PlacementType.ParseType(typeName, typeArgs);
+                }
             }
             return dataType ?? new UnknownType(s);
         }
@@ -414,14 +432,20 @@ namespace AasxDictionaryImport.Cdd
         private static DataType ParseCompositeType(string s, DataType subtype)
         {
             var typeTuple = ParseTypeNameArgs(s);
-            DataType? dataType = null;
+            DataType dataType = null;
             if (typeTuple != null)
             {
                 var typeName = typeTuple.Item1;
                 var typeArgs = typeTuple.Item2;
 
-                dataType ??= AggregateType.ParseType(typeName, typeArgs, subtype);
-                dataType ??= LevelType.ParseType(typeName, typeArgs, subtype);
+                if (dataType == null)
+                {
+                    dataType = AggregateType.ParseType(typeName, typeArgs, subtype);
+                }
+                if (dataType == null)
+                {
+                    dataType = LevelType.ParseType(typeName, typeArgs, subtype);
+                }
             }
             return dataType ?? new UnknownType(s);
         }
@@ -442,12 +466,12 @@ namespace AasxDictionaryImport.Cdd
             TypeValue = typeValue;
         }
 
-        public bool Equals(SimpleType? type)
+        public bool Equals(SimpleType type)
         {
             return type != null && type.TypeValue == TypeValue;
         }
 
-        public override bool Equals(object? o)
+        public override bool Equals(object o)
         {
             return Equals(o as SimpleType);
         }
@@ -457,7 +481,7 @@ namespace AasxDictionaryImport.Cdd
             return TypeValue.GetHashCode();
         }
 
-        public static SimpleType? ParseType(string typeName, string[] typeArgs)
+        public static SimpleType ParseType(string typeName, string[] typeArgs)
         {
             if (typeArgs.Length != 0)
                 return null;
@@ -509,7 +533,7 @@ namespace AasxDictionaryImport.Cdd
             ReferenceCode = referenceCode;
         }
 
-        public static EnumType? ParseType(string typeName, string[] typeArgs)
+        public static EnumType ParseType(string typeName, string[] typeArgs)
         {
             if (!typeName.StartsWith(EnumPrefix))
                 return null;
@@ -543,9 +567,9 @@ namespace AasxDictionaryImport.Cdd
             Class = new Reference<Class>(irdi);
         }
 
-        public override Reference<Class>? GetClassReference() => Class;
+        public override Reference<Class> GetClassReference() => Class;
 
-        public static ClassInstanceType? ParseType(string typeName, string[] typeArgs)
+        public static ClassInstanceType ParseType(string typeName, string[] typeArgs)
         {
             if (typeName == "CLASS_INSTANCE" && typeArgs.Length == 1)
             {
@@ -564,9 +588,9 @@ namespace AasxDictionaryImport.Cdd
             Class = new Reference<Class>(irdi);
         }
 
-        public override Reference<Class>? GetClassReference() => Class;
+        public override Reference<Class> GetClassReference() => Class;
 
-        public static ClassReferenceType? ParseType(string typeName, string[] typeArgs)
+        public static ClassReferenceType ParseType(string typeName, string[] typeArgs)
         {
             if (typeName == "CLASS_REFERENCE" && typeArgs.Length == 1)
             {
@@ -647,7 +671,7 @@ namespace AasxDictionaryImport.Cdd
             UpperBound = upperBound;
         }
 
-        public static AggregateType? ParseType(string typeName, string[] typeArgs, DataType subtype)
+        public static AggregateType ParseType(string typeName, string[] typeArgs, DataType subtype)
         {
             // We need at least the lower and upper bound as arguments.
             if (typeArgs.Length < 2)
@@ -704,7 +728,7 @@ namespace AasxDictionaryImport.Cdd
             Subtype = subtype;
         }
 
-        public static LevelType? ParseType(string typeName, string[] typeArgs, DataType subtype)
+        public static LevelType ParseType(string typeName, string[] typeArgs, DataType subtype)
         {
             if (typeName != "LEVEL")
                 return null;
@@ -752,7 +776,7 @@ namespace AasxDictionaryImport.Cdd
 
     public class LargeObjectType : DataType
     {
-        public static LargeObjectType? ParseType(string typeName, string[] typeArgs)
+        public static LargeObjectType ParseType(string typeName, string[] typeArgs)
         {
             if (typeName == "LOB")
                 return new LargeObjectType();
@@ -769,7 +793,7 @@ namespace AasxDictionaryImport.Cdd
             TypeValue = typeValue;
         }
 
-        public static PlacementType? ParseType(string typeName, string[] typeArgs)
+        public static PlacementType ParseType(string typeName, string[] typeArgs)
         {
             if (ParseTypeEnum(typeName, out Type type))
                 return new PlacementType(type);

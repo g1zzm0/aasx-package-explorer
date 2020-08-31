@@ -96,7 +96,7 @@ namespace AasxDictionaryImport.Cdd
             }
         }
 
-        private AdminShellV20.SubmodelElement? CreateSubmodelElement(Model.IElement e)
+        private AdminShellV20.SubmodelElement CreateSubmodelElement(Model.IElement e)
         {
             if (e is ClassWrapper cls)
                 return CreatePropertyCollection(cls.Element, cls.Children);
@@ -113,7 +113,7 @@ namespace AasxDictionaryImport.Cdd
             return collection;
         }
 
-        private AdminShellV20.SubmodelElement? CreatePropertySubmodelElement(PropertyWrapper wrapper)
+        private AdminShellV20.SubmodelElement CreatePropertySubmodelElement(PropertyWrapper wrapper)
         {
             var reference = wrapper.Element.DataType.GetClassReference();
             if (reference != null)

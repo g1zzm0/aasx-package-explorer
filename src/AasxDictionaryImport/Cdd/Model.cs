@@ -45,7 +45,7 @@ namespace AasxDictionaryImport.Cdd
     /// </summary>
     public class DataSource : Model.FileSystemDataSource
     {
-        private Context? _context;
+        private Context _context;
 
         /// <summary>
         /// Determines whether all available IEC CDD attributes should be imported into the AAS environment, or whether
@@ -70,7 +70,10 @@ namespace AasxDictionaryImport.Cdd
         /// <inheritdoc/>
         public override Model.IDataContext Load()
         {
-            _context ??= new Parser().Parse(this);
+            if (_context == null)
+            {
+                _context = new Parser().Parse(this);
+            }
             return _context;
         }
     }
@@ -117,7 +120,7 @@ namespace AasxDictionaryImport.Cdd
         /// <typeparam name="T">The type of the element to retrieve</typeparam>
         /// <param name="key">The code of thje element to retrieve</param>
         /// <returns>The requested element or null if the element could not be found</returns>
-        public T? GetElement<T>(string key) where T : Element
+        public T GetElement<T>(string key) where T : Element
         {
             if (key.Length == 0)
                 return null;
@@ -159,7 +162,7 @@ namespace AasxDictionaryImport.Cdd
             return elements;
         }
 
-        private static Model.IElement? CreateElementWrapper(Context context, Element element)
+        private static Model.IElement CreateElementWrapper(Context context, Element element)
         {
             if (element is Class cls)
                 return new ClassWrapper(context, cls, null);
@@ -201,7 +204,7 @@ namespace AasxDictionaryImport.Cdd
         /// <param name="context">The current data context</param>
         /// <param name="element">The wrapped IEC CDD element</param>
         /// <param name="parent">The parent element, or null if this is a top-level element</param>
-        protected ElementWrapper(Context context, T element, Model.IElement? parent = null)
+        protected ElementWrapper(Context context, T element, Model.IElement parent = null)
             : base(context.DataSource, parent)
         {
             Context = context;
@@ -222,7 +225,7 @@ namespace AasxDictionaryImport.Cdd
         }
 
         /// <inheritdoc/>
-        public override Uri? GetDetailsUrl() => Element.GetDetailsUrl();
+        public override Uri GetDetailsUrl() => Element.GetDetailsUrl();
 
         /// <inheritdoc/>
         public override string ToString() => Id;
@@ -246,7 +249,7 @@ namespace AasxDictionaryImport.Cdd
         /// <param name="context">The current data context</param>
         /// <param name="cls">The wrapped IEC CDD class</param>
         /// <param name="parent">The parent element, or null if this is a top-level element</param>
-        public ClassWrapper(Context context, Class cls, Model.IElement? parent = null)
+        public ClassWrapper(Context context, Class cls, Model.IElement parent = null)
             : base(context, cls, parent)
         {
         }
@@ -286,7 +289,7 @@ namespace AasxDictionaryImport.Cdd
     /// </summary>
     public class PropertyWrapper : ElementWrapper<Property>
     {
-        private readonly Class? _referenceClass;
+        private readonly Class _referenceClass;
 
         /// <inheritdoc/>
         public override string Id
@@ -316,10 +319,10 @@ namespace AasxDictionaryImport.Cdd
         /// <param name="context">The current data context</param>
         /// <param name="property">The wrapped IEC CDD property</param>
         /// <param name="parent">The parent element</param>
-        public PropertyWrapper(Context context, Property property, Model.IElement? parent)
+        public PropertyWrapper(Context context, Property property, Model.IElement parent)
             : base(context, property, parent)
         {
-            Reference<Class>? reference = property.DataType.GetClassReference();
+            Reference<Class> reference = property.DataType.GetClassReference();
             if (reference != null)
                 _referenceClass = reference.Get(context);
         }
