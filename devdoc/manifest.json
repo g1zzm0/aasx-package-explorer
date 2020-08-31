@@ -3654,7 +3654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPackageExplorer.MainWindow.html",
-          "hash": "ATSVoUg5f9fsUcpL6sBoVg=="
+          "hash": "3RCpKAU9F2IZ1dK6vnSgYQ=="
         }
       },
       "is_incremental": false,
@@ -4794,7 +4794,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPluginMtpViewer.WpfMtpControlWrapper.html",
-          "hash": "EVgwL7BzteE544irCVk0TQ=="
+          "hash": "Vc1dNavRrM9vqqasYRAgJg=="
         }
       },
       "is_incremental": false,
