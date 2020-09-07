@@ -303,6 +303,7 @@ namespace AdminShellNS
 
             public static string[] KeyElements = new string[] {
             "GlobalReference",
+            "FragmentReference",
             "AccessPermissionRule",
             "Asset",
             "AssetAdministrationShell",
@@ -381,6 +382,7 @@ namespace AdminShellNS
             // use this in list to designate the GlobalReference
             // Resharper disable MemberHidesStaticFromOuterClass
             public static string GlobalReference = "GlobalReference";
+            public static string FragmentReference = "FragmentReference";
             public static string ConceptDescription = "ConceptDescription";
             public static string SubmodelRef = "SubmodelRef";
             public static string Submodel = "Submodel";
@@ -389,18 +391,17 @@ namespace AdminShellNS
             // Resharper enable MemberHidesStaticFromOuterClass
 
             public static string[] IdentifierTypeNames = new string[] {
-                Identification.IdShort, "Custom", Identification.IRDI, Identification.IRI };
+                Identification.IdShort, "FragmentId", "Custom", Identification.IRDI, Identification.IRI };
 
-            public enum IdentifierType { IdShort = 0, Custom, IRDI, IRI };
+            public enum IdentifierType { IdShort = 0, FragementId, Custom, IRDI, IRI };
 
             public static string GetIdentifierTypeName(IdentifierType t)
             {
                 return IdentifierTypeNames[(int)t];
             }
 
-            public static string IRI = "IRI";
-            public static string IRDI = "IRDI";
             public static string Custom = "Custom";
+            public static string FragmentId = "FragmentId";
 
             // some helpers
 
