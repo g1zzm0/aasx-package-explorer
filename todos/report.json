@@ -5,7 +5,7 @@
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): If further data specifications exist (in future), add here",
-        "line": 861,
+        "line": 862,
         "column": 12,
         "status": "ok"
       }
@@ -96,15 +96,64 @@
     "records": [
       {
         "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-30): this does not prevent the corner case, that we could have\r\n                            * multiple dataSpecificationIEC61360 in this list, which would be an error",
+        "line": 1101,
+        "column": 24,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-27): According to spec, cardinality is [1..1][1..n]",
+        "line": 2747,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-27): According to spec, cardinality is [0..1][1..n]",
+        "line": 2751,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-27): According to spec, cardinality is [0..1][1..n]",
+        "line": 2782,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-09-01): In a version beyond V2.0.1, the following can be deleted",
+        "line": 3035,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-30): align wording of the member (\u0022embeddedDataSpecification\u0022) with the \r\n             * wording of the other entities (\u0022hasDataSpecification\u0022)",
+        "line": 3069,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-26): not very elegant, yet. Avoid temporary collection",
+        "line": 3700,
+        "column": 28,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): check, if Json has Qualifiers or not",
-        "line": 3526,
+        "line": 4299,
         "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-07-31): would be nice to use IEnumerateChildren for this ..",
-        "line": 4243,
+        "line": 5034,
         "column": 20,
         "status": "ok"
       }
@@ -130,15 +179,34 @@
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): use a unified function to create a serializer",
-        "line": 388,
-        "column": 24,
+        "line": 390,
+        "column": 20,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): use a unified function to create a serializer",
-        "line": 412,
-        "column": 24,
+        "line": 420,
+        "column": 20,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "AasxDictionaryImport.Tests\\Cdd\\TestImport.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (Robin, 2020-09-03): please check",
+        "line": 82,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Robin, 2020-09-03): please check",
+        "line": 98,
+        "column": 12,
         "status": "ok"
       }
     ]
@@ -150,6 +218,32 @@
         "prefix": "TODO",
         "suffix": " (krahlro-sick, 2020-07-31): make sure that there are no duplicates",
         "line": 561,
+        "column": 12,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "path": "AasxDictionaryImport\\Iec61360Utils.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (Robin, 2020-09-03): MIHO is not sure, if the data spec reference is correct; please check",
+        "line": 121,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Robin, 2020-09-03): MIHO is not sure, if the data spec reference is correct; please check",
+        "line": 137,
+        "column": 12,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (Robin, 2020-09-03): check this code",
+        "line": 153,
         "column": 12,
         "status": "ok"
       }
@@ -253,71 +347,85 @@
     "records": [
       {
         "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-29): The UA mapping needs to be overworked in order to comply the joint aligment with I4AAS",
+        "line": 10,
+        "column": 0,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-29): The UA mapping needs to be checked for the \u0022new\u0022 HasDataSpecification strcuture of V2.0.1",
+        "line": 11,
+        "column": 0,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-06): check (again) if reference to CDs is done are shall be done",
-        "line": 671,
+        "line": 674,
         "column": 20,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-06): not sure if to add these",
-        "line": 957,
+        "line": 960,
         "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-06): use the collection element of UA?",
-        "line": 1058,
+        "line": 1061,
         "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-06): decide to from where the name comes",
-        "line": 1369,
-        "column": 28,
-        "status": "ok"
-      },
-      {
-        "prefix": "TODO",
-        "suffix": " (MIHO, 2020-08-06): description: get \u0022en\u0022 version which is appropriate?",
         "line": 1372,
         "column": 28,
         "status": "ok"
       },
       {
         "prefix": "TODO",
-        "suffix": " (MIHO, 2020-08-06): parse UA data type out .. OK?",
+        "suffix": " (MIHO, 2020-08-06): description: get \u0022en\u0022 version which is appropriate?",
         "line": 1375,
         "column": 28,
         "status": "ok"
       },
       {
         "prefix": "TODO",
+        "suffix": " (MIHO, 2020-08-06): parse UA data type out .. OK?",
+        "line": 1378,
+        "column": 28,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-06): description: get \u0022en\u0022 version is appropriate?",
-        "line": 1384,
+        "line": 1387,
         "column": 32,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-06): this any better?",
-        "line": 1393,
+        "line": 1396,
         "column": 36,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-06): description: get \u0022en\u0022 version is appropriate?",
-        "line": 1397,
+        "line": 1400,
         "column": 36,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-06): check, if to make super classes for UriDictionaryEntryType?",
-        "line": 1732,
+        "line": 1735,
         "column": 12,
         "status": "ok"
       }
@@ -407,29 +515,29 @@
     "records": [
       {
         "prefix": "TODO",
-        "suffix": " (Michael Hoffmeister, 2020-08-01): add Sync to shortName",
-        "line": 2374,
-        "column": 24,
+        "suffix": " (MIHO, 2020-09-01): extend the lines below to cover also data spec. for units",
+        "line": 1444,
+        "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): Operation mssing here?",
-        "line": 2862,
-        "column": 36,
+        "line": 1795,
+        "column": 32,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): Operation mssing here?",
-        "line": 2884,
-        "column": 36,
+        "line": 1817,
+        "column": 32,
         "status": "ok"
       }
     ]
   },
   {
-    "path": "AasxWpfControlLibrary\\DispEditHelper.cs",
+    "path": "AasxWpfControlLibrary\\DispEditHelperBasics.cs",
     "records": [
       {
         "prefix": "TODO",

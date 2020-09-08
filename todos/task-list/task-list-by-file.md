@@ -1,7 +1,7 @@
 ﻿## AasxAmlImExport\AmlExport.cs
 
-[Line 862, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxAmlImExport/AmlExport.cs#L862
+[Line 863, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxAmlImExport/AmlExport.cs#L863
 ), 
 Michael Hoffmeister,
 2020-08-01
@@ -112,16 +112,74 @@ Michael Hoffmeister,
 
 ## AasxCsharpLibrary\AdminShell.cs
 
-[Line 3527, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3527
+[Line 1102, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L1102
+), 
+MIHO,
+2020-08-30
+
+    this does not prevent the corner case, that we could have
+    * multiple dataSpecificationIEC61360 in this list, which would be an error
+
+[Line 2748, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2748
+), 
+MIHO,
+2020-08-27
+
+    According to spec, cardinality is [1..1][1..n]
+
+[Line 2752, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2752
+), 
+MIHO,
+2020-08-27
+
+    According to spec, cardinality is [0..1][1..n]
+
+[Line 2783, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2783
+), 
+MIHO,
+2020-08-27
+
+    According to spec, cardinality is [0..1][1..n]
+
+[Line 3036, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3036
+), 
+MIHO,
+2020-09-01
+
+    In a version beyond V2.0.1, the following can be deleted
+
+[Line 3070, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3070
+), 
+MIHO,
+2020-08-30
+
+    align wording of the member ("embeddedDataSpecification") with the 
+    * wording of the other entities ("hasDataSpecification")
+
+[Line 3701, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3701
+), 
+MIHO,
+2020-08-26
+
+    not very elegant, yet. Avoid temporary collection
+
+[Line 4300, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4300
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     check, if Json has Qualifiers or not
 
-[Line 4244, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4244
+[Line 5035, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L5035
 ), 
 MIHO,
 2020-07-31
@@ -146,21 +204,39 @@ Michael Hoffmeister,
 
     use a unified function to create a serializer
 
-[Line 389, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L389
+[Line 391, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L391
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 413, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L413
+[Line 421, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L421
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
+
+## AasxDictionaryImport.Tests\Cdd\TestImport.cs
+
+[Line 83, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport.Tests/Cdd/TestImport.cs#L83
+), 
+Robin,
+2020-09-03
+
+    please check
+
+[Line 99, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport.Tests/Cdd/TestImport.cs#L99
+), 
+Robin,
+2020-09-03
+
+    please check
 
 ## AasxDictionaryImport.Tests\Cdd\TestModel.cs
 
@@ -171,6 +247,32 @@ krahlro-sick,
 2020-07-31
 
     make sure that there are no duplicates
+
+## AasxDictionaryImport\Iec61360Utils.cs
+
+[Line 122, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Iec61360Utils.cs#L122
+), 
+Robin,
+2020-09-03
+
+    MIHO is not sure, if the data spec reference is correct; please check
+
+[Line 138, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Iec61360Utils.cs#L138
+), 
+Robin,
+2020-09-03
+
+    MIHO is not sure, if the data spec reference is correct; please check
+
+[Line 154, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Iec61360Utils.cs#L154
+), 
+Robin,
+2020-09-03
+
+    check this code
 
 ## AasxPluginUaNetClient\UASampleClient.cs
 
@@ -260,37 +362,45 @@ MIHO,
 
 ## AasxUaNetServer\AasxServer\AasUaEntities.cs
 
-[Line 672, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L672
+[Line 11, column 1](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L11
+), 
+MIHO,
+2020-08-29
+
+    The UA mapping needs to be overworked in order to comply the joint aligment with I4AAS
+
+[Line 12, column 1](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L12
+), 
+MIHO,
+2020-08-29
+
+    The UA mapping needs to be checked for the "new" HasDataSpecification strcuture of V2.0.1
+
+[Line 675, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L675
 ), 
 MIHO,
 2020-08-06
 
     check (again) if reference to CDs is done are shall be done
 
-[Line 958, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L958
+[Line 961, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L961
 ), 
 MIHO,
 2020-08-06
 
     not sure if to add these
 
-[Line 1059, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1059
+[Line 1062, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1062
 ), 
 MIHO,
 2020-08-06
 
     use the collection element of UA?
-
-[Line 1370, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1370
-), 
-MIHO,
-2020-08-06
-
-    decide to from where the name comes
 
 [Line 1373, column 29](
 https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1373
@@ -298,7 +408,7 @@ https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNe
 MIHO,
 2020-08-06
 
-    description: get "en" version which is appropriate?
+    decide to from where the name comes
 
 [Line 1376, column 29](
 https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1376
@@ -306,34 +416,42 @@ https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNe
 MIHO,
 2020-08-06
 
+    description: get "en" version which is appropriate?
+
+[Line 1379, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1379
+), 
+MIHO,
+2020-08-06
+
     parse UA data type out .. OK?
 
-[Line 1385, column 33](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1385
+[Line 1388, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1388
 ), 
 MIHO,
 2020-08-06
 
     description: get "en" version is appropriate?
 
-[Line 1394, column 37](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1394
+[Line 1397, column 37](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1397
 ), 
 MIHO,
 2020-08-06
 
     this any better?
 
-[Line 1398, column 37](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1398
+[Line 1401, column 37](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1401
 ), 
 MIHO,
 2020-08-06
 
     description: get "en" version is appropriate?
 
-[Line 1733, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1733
+[Line 1736, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1736
 ), 
 MIHO,
 2020-08-06
@@ -410,34 +528,34 @@ MIHO,
 
 ## AasxWpfControlLibrary\DispEditAasxEntity.xaml.cs
 
-[Line 2375, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L2375
+[Line 1445, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1445
 ), 
-Michael Hoffmeister,
-2020-08-01
+MIHO,
+2020-09-01
 
-    add Sync to shortName
+    extend the lines below to cover also data spec. for units
 
-[Line 2863, column 37](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L2863
-), 
-Michael Hoffmeister,
-2020-08-01
-
-    Operation mssing here?
-
-[Line 2885, column 37](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L2885
+[Line 1796, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1796
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     Operation mssing here?
 
-## AasxWpfControlLibrary\DispEditHelper.cs
+[Line 1818, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1818
+), 
+Michael Hoffmeister,
+2020-08-01
+
+    Operation mssing here?
+
+## AasxWpfControlLibrary\DispEditHelperBasics.cs
 
 [Line 1161, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelper.cs#L1161
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1161
 ), 
 Michael Hoffmeister,
 2020-08-01
@@ -445,7 +563,7 @@ Michael Hoffmeister,
     possibly [Jump] button??
 
 [Line 1304, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelper.cs#L1304
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1304
 ), 
 Michael Hoffmeister,
 2020-08-01

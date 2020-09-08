@@ -94,7 +94,9 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="AdminShellNS.AdminShellV20.IValidateEntity.html">AdminShellV20.IValidateEntity</a></div>
     <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="AdminShellNS.AdminShellV20.IFindAllReferences.html">AdminShellV20.IFindAllReferences</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -184,7 +186,7 @@
   <h6><strong>Assembly</strong>: AasxCsharpLibrary.dll</h6>
   <h5 id="AdminShellNS_AdminShellV20_ConceptDescription_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ConceptDescription : AdminShellV20.Identifiable, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConceptDescription : AdminShellV20.Identifiable, AdminShellV20.IValidateEntity, IDisposable, AdminShellV20.IFindAllReferences</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -193,7 +195,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription__ctor.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2615">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3109">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription__ctor_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.#ctor*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription__ctor" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.#ctor">ConceptDescription()</h4>
@@ -208,7 +210,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription__ctor_AasxCompatibilityModels_AdminShellV10_ConceptDescription_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.%23ctor(AasxCompatibilityModels.AdminShellV10.ConceptDescription)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2632">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3126">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription__ctor_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.#ctor*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription__ctor_AasxCompatibilityModels_AdminShellV10_ConceptDescription_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.#ctor(AasxCompatibilityModels.AdminShellV10.ConceptDescription)">ConceptDescription(AdminShellV10.ConceptDescription)</h4>
@@ -240,7 +242,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription__ctor_AdminShellNS_AdminShellV20_ConceptDescription_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.%23ctor(AdminShellNS.AdminShellV20.ConceptDescription)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2617">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3111">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription__ctor_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.#ctor*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription__ctor_AdminShellNS_AdminShellV20_ConceptDescription_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.#ctor(AdminShellNS.AdminShellV20.ConceptDescription)">ConceptDescription(AdminShellV20.ConceptDescription)</h4>
@@ -274,16 +276,78 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_embeddedDataSpecification.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.embeddedDataSpecification%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2580">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3074">View Source</a>
   </span>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_embeddedDataSpecification" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.embeddedDataSpecification">embeddedDataSpecification</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AdminShellV20.EmbeddedDataSpecification embeddedDataSpecification</code></pre>
+    <pre><code class="lang-csharp hljs">public AdminShellV20.HasDataSpecification embeddedDataSpecification</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdminShellNS.AdminShellV20.HasDataSpecification.html">AdminShellV20.HasDataSpecification</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_IEC61360Content.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.IEC61360Content%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3229">View Source</a>
+  </span>
+  <a id="AdminShellNS_AdminShellV20_ConceptDescription_IEC61360Content_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.IEC61360Content*"></a>
+  <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_IEC61360Content" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.IEC61360Content">IEC61360Content</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AdminShellV20.DataSpecificationIEC61360 IEC61360Content { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdminShellNS.AdminShellV20.DataSpecificationIEC61360.html">AdminShellV20.DataSpecificationIEC61360</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_IEC61360DataSpec.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.IEC61360DataSpec%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3212">View Source</a>
+  </span>
+  <a id="AdminShellNS_AdminShellV20_ConceptDescription_IEC61360DataSpec_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.IEC61360DataSpec*"></a>
+  <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_IEC61360DataSpec" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.IEC61360DataSpec">IEC61360DataSpec</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AdminShellV20.EmbeddedDataSpecification IEC61360DataSpec { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -298,14 +362,12 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_IsCaseOf.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.IsCaseOf%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2605">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3099">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_IsCaseOf_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.IsCaseOf*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_IsCaseOf" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.IsCaseOf">IsCaseOf</h4>
@@ -335,7 +397,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_JsonEmbeddedDataSpecifications.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.JsonEmbeddedDataSpecifications%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2581">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3077">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_JsonEmbeddedDataSpecifications_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.JsonEmbeddedDataSpecifications*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_JsonEmbeddedDataSpecifications" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.JsonEmbeddedDataSpecifications">JsonEmbeddedDataSpecifications</h4>
@@ -365,7 +427,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_JsonModelType.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.JsonModelType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2568">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3052">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_JsonModelType_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.JsonModelType*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_JsonModelType" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.JsonModelType">JsonModelType</h4>
@@ -397,7 +459,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_AddIsCaseOf_AdminShellNS_AdminShellV20_Reference_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.AddIsCaseOf(AdminShellNS.AdminShellV20.Reference)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2759">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3299">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_AddIsCaseOf_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.AddIsCaseOf*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_AddIsCaseOf_AdminShellNS_AdminShellV20_Reference_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.AddIsCaseOf(AdminShellNS.AdminShellV20.Reference)">AddIsCaseOf(AdminShellV20.Reference)</h4>
@@ -429,7 +491,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_CreateNew.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.CreateNew%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2766">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3306">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_CreateNew_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.CreateNew*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_CreateNew" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.CreateNew">CreateNew()</h4>
@@ -459,7 +521,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_CreateNew_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.CreateNew(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2647">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3144">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_CreateNew_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.CreateNew*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_CreateNew_System_String_System_String_System_String_System_String_System_String_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.CreateNew(System.String,System.String,System.String,System.String,System.String)">CreateNew(String, String, String, String, String)</h4>
@@ -467,7 +529,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AdminShellV20.ConceptDescription CreateNew(string idType, string id, string version = null, string revision = null, string idShort = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static AdminShellV20.ConceptDescription CreateNew(string idShort, string idType, string id, string version = null, string revision = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -479,6 +541,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idShort</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">idType</span></td>
@@ -497,11 +564,6 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">revision</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">idShort</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -523,10 +585,40 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_FindAllReferences.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.FindAllReferences%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3364">View Source</a>
+  </span>
+  <a id="AdminShellNS_AdminShellV20_ConceptDescription_FindAllReferences_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.FindAllReferences*"></a>
+  <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_FindAllReferences" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.FindAllReferences">FindAllReferences()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;AdminShellV20.Reference&gt; FindAllReferences()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AdminShellNS.AdminShellV20.Reference.html">AdminShellV20.Reference</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_GetData.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.GetData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2576">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3060">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_GetData_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetData*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_GetData" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetData">GetData()</h4>
@@ -541,7 +633,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_GetDefaultPreferredName_System_String_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.GetDefaultPreferredName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2721">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3261">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_GetDefaultPreferredName_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetDefaultPreferredName*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_GetDefaultPreferredName_System_String_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetDefaultPreferredName(System.String)">GetDefaultPreferredName(String)</h4>
@@ -588,7 +680,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_GetDefaultShortName_System_String_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.GetDefaultShortName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2728">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3268">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_GetDefaultShortName_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetDefaultShortName*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_GetDefaultShortName_System_String_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetDefaultShortName(System.String)">GetDefaultShortName(String)</h4>
@@ -635,7 +727,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_GetElementName.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.GetElementName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2735">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3275">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_GetElementName_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetElementName*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_GetElementName" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetElementName">GetElementName()</h4>
@@ -664,40 +756,10 @@
   <div><a class="xref" href="AdminShellNS.AdminShellV20.Referable.html#AdminShellNS_AdminShellV20_Referable_GetElementName">AdminShellV20.Referable.GetElementName()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_GetGlobalDataSpecRef.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.GetGlobalDataSpecRef%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2679">View Source</a>
-  </span>
-  <a id="AdminShellNS_AdminShellV20_ConceptDescription_GetGlobalDataSpecRef_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetGlobalDataSpecRef*"></a>
-  <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_GetGlobalDataSpecRef" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetGlobalDataSpecRef">GetGlobalDataSpecRef()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AdminShellV20.Key GetGlobalDataSpecRef()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AdminShellNS.AdminShellV20.Key.html">AdminShellV20.Key</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_GetIEC61360.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.GetIEC61360%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2712">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3205">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_GetIEC61360_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetIEC61360*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_GetIEC61360" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetIEC61360">GetIEC61360()</h4>
@@ -727,7 +789,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_GetReference.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.GetReference%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2670">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3166">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_GetReference_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetReference*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_GetReference" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetReference">GetReference()</h4>
@@ -757,7 +819,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_GetSingleKey.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.GetSingleKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2665">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3161">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_GetSingleKey_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetSingleKey*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_GetSingleKey" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.GetSingleKey">GetSingleKey()</h4>
@@ -787,7 +849,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_SetIEC61360Spec_System_String___System_String_System_String_AdminShellNS_AdminShellV20_UnitId_System_String_System_String_System_String_System_String_System_String___.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.SetIEC61360Spec(System.String%5B%5D%2CSystem.String%2CSystem.String%2CAdminShellNS.AdminShellV20.UnitId%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2686">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3175">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_SetIEC61360Spec_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.SetIEC61360Spec*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_SetIEC61360Spec_System_String___System_String_System_String_AdminShellNS_AdminShellV20_UnitId_System_String_System_String_System_String_System_String_System_String___" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.SetIEC61360Spec(System.String[],System.String,System.String,AdminShellNS.AdminShellV20.UnitId,System.String,System.String,System.String,System.String,System.String[])">SetIEC61360Spec(String[], String, String, AdminShellV20.UnitId, String, String, String, String, String[])</h4>
@@ -859,7 +921,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_ToCaptionInfo.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.ToCaptionInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2740">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3280">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_ToCaptionInfo_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.ToCaptionInfo*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_ToCaptionInfo" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.ToCaptionInfo">ToCaptionInfo()</h4>
@@ -889,7 +951,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_ToString.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2753">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3293">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_ToString_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.ToString*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_ToString" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.ToString">ToString()</h4>
@@ -915,7 +977,41 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
+  <div><a class="xref" href="AdminShellNS.AdminShellV20.Identifiable.html#AdminShellNS_AdminShellV20_Identifiable_ToString">AdminShellV20.Identifiable.ToString()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_Validate_AdminShellNS_AasValidationRecordList_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.Validate(AdminShellNS.AasValidationRecordList)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3313">View Source</a>
+  </span>
+  <a id="AdminShellNS_AdminShellV20_ConceptDescription_Validate_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.Validate*"></a>
+  <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_Validate_AdminShellNS_AasValidationRecordList_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.Validate(AdminShellNS.AasValidationRecordList)">Validate(AasValidationRecordList)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Validate(AasValidationRecordList results)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdminShellNS.AasValidationRecordList.html">AasValidationRecordList</a></td>
+        <td><span class="parametername">results</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AdminShellNS.AdminShellV20.Referable.html#AdminShellNS_AdminShellV20_Referable_Validate_AdminShellNS_AasValidationRecordList_">AdminShellV20.Referable.Validate(AasValidationRecordList)</a></div>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
   <span class="small pull-right mobile-hide">
@@ -923,7 +1019,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription_System_IDisposable_Dispose.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription.System%23IDisposable%23Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2575">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3059">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_ConceptDescription_System_IDisposable_Dispose_" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.System#IDisposable#Dispose*"></a>
   <h4 id="AdminShellNS_AdminShellV20_ConceptDescription_System_IDisposable_Dispose" data-uid="AdminShellNS.AdminShellV20.ConceptDescription.System#IDisposable#Dispose">IDisposable.Dispose()</h4>
@@ -935,7 +1031,13 @@
   </div>
   <h3 id="implements">Implements</h3>
   <div>
+      <a class="xref" href="AdminShellNS.AdminShellV20.IValidateEntity.html">AdminShellV20.IValidateEntity</a>
+  </div>
+  <div>
       <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <a class="xref" href="AdminShellNS.AdminShellV20.IFindAllReferences.html">AdminShellV20.IFindAllReferences</a>
   </div>
 </article>
           </div>
@@ -948,7 +1050,7 @@
                     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_ConceptDescription.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.ConceptDescription%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L2565" class="contribution-link">View Source</a>
+                    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L3049" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
