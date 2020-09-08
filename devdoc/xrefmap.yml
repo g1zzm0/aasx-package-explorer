@@ -442,12 +442,12 @@ references:
   isSpec: "True"
   fullName: AasOpcUaServer.AasEntityBuilder.CreateAddDataType
   nameWithType: AasEntityBuilder.CreateAddDataType
-- uid: AasOpcUaServer.AasEntityBuilder.CreateAddFolder(NodeState,System.String)
-  name: CreateAddFolder(NodeState, String)
-  href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddFolder_NodeState_System_String_
-  commentId: M:AasOpcUaServer.AasEntityBuilder.CreateAddFolder(NodeState,System.String)
-  fullName: AasOpcUaServer.AasEntityBuilder.CreateAddFolder(NodeState, System.String)
-  nameWithType: AasEntityBuilder.CreateAddFolder(NodeState, String)
+- uid: AasOpcUaServer.AasEntityBuilder.CreateAddFolder(AasOpcUaServer.AasUaBaseEntity.CreateMode,NodeState,System.String)
+  name: CreateAddFolder(AasUaBaseEntity.CreateMode, NodeState, String)
+  href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddFolder_AasOpcUaServer_AasUaBaseEntity_CreateMode_NodeState_System_String_
+  commentId: M:AasOpcUaServer.AasEntityBuilder.CreateAddFolder(AasOpcUaServer.AasUaBaseEntity.CreateMode,NodeState,System.String)
+  fullName: AasOpcUaServer.AasEntityBuilder.CreateAddFolder(AasOpcUaServer.AasUaBaseEntity.CreateMode, NodeState, System.String)
+  nameWithType: AasEntityBuilder.CreateAddFolder(AasUaBaseEntity.CreateMode, NodeState, String)
 - uid: AasOpcUaServer.AasEntityBuilder.CreateAddFolder*
   name: CreateAddFolder
   href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddFolder_
@@ -468,15 +468,15 @@ references:
   isSpec: "True"
   fullName: AasOpcUaServer.AasEntityBuilder.CreateAddInstanceObjects
   nameWithType: AasEntityBuilder.CreateAddInstanceObjects
-- uid: AasOpcUaServer.AasEntityBuilder.CreateAddMethodState(NodeState,System.String,Argument[],Argument[],NodeId,NodeId,GenericMethodCalledEventHandler)
-  name: CreateAddMethodState(NodeState, String, Argument[], Argument[], NodeId, NodeId, GenericMethodCalledEventHandler)
-  href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddMethodState_NodeState_System_String_Argument___Argument___NodeId_NodeId_GenericMethodCalledEventHandler_
-  commentId: M:AasOpcUaServer.AasEntityBuilder.CreateAddMethodState(NodeState,System.String,Argument[],Argument[],NodeId,NodeId,GenericMethodCalledEventHandler)
-  name.vb: CreateAddMethodState(NodeState, String, Argument(), Argument(), NodeId, NodeId, GenericMethodCalledEventHandler)
-  fullName: AasOpcUaServer.AasEntityBuilder.CreateAddMethodState(NodeState, System.String, Argument[], Argument[], NodeId, NodeId, GenericMethodCalledEventHandler)
-  fullName.vb: AasOpcUaServer.AasEntityBuilder.CreateAddMethodState(NodeState, System.String, Argument(), Argument(), NodeId, NodeId, GenericMethodCalledEventHandler)
-  nameWithType: AasEntityBuilder.CreateAddMethodState(NodeState, String, Argument[], Argument[], NodeId, NodeId, GenericMethodCalledEventHandler)
-  nameWithType.vb: AasEntityBuilder.CreateAddMethodState(NodeState, String, Argument(), Argument(), NodeId, NodeId, GenericMethodCalledEventHandler)
+- uid: AasOpcUaServer.AasEntityBuilder.CreateAddMethodState(NodeState,AasOpcUaServer.AasUaBaseEntity.CreateMode,System.String,Argument[],Argument[],NodeId,NodeId,GenericMethodCalledEventHandler)
+  name: CreateAddMethodState(NodeState, AasUaBaseEntity.CreateMode, String, Argument[], Argument[], NodeId, NodeId, GenericMethodCalledEventHandler)
+  href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddMethodState_NodeState_AasOpcUaServer_AasUaBaseEntity_CreateMode_System_String_Argument___Argument___NodeId_NodeId_GenericMethodCalledEventHandler_
+  commentId: M:AasOpcUaServer.AasEntityBuilder.CreateAddMethodState(NodeState,AasOpcUaServer.AasUaBaseEntity.CreateMode,System.String,Argument[],Argument[],NodeId,NodeId,GenericMethodCalledEventHandler)
+  name.vb: CreateAddMethodState(NodeState, AasUaBaseEntity.CreateMode, String, Argument(), Argument(), NodeId, NodeId, GenericMethodCalledEventHandler)
+  fullName: AasOpcUaServer.AasEntityBuilder.CreateAddMethodState(NodeState, AasOpcUaServer.AasUaBaseEntity.CreateMode, System.String, Argument[], Argument[], NodeId, NodeId, GenericMethodCalledEventHandler)
+  fullName.vb: AasOpcUaServer.AasEntityBuilder.CreateAddMethodState(NodeState, AasOpcUaServer.AasUaBaseEntity.CreateMode, System.String, Argument(), Argument(), NodeId, NodeId, GenericMethodCalledEventHandler)
+  nameWithType: AasEntityBuilder.CreateAddMethodState(NodeState, AasUaBaseEntity.CreateMode, String, Argument[], Argument[], NodeId, NodeId, GenericMethodCalledEventHandler)
+  nameWithType.vb: AasEntityBuilder.CreateAddMethodState(NodeState, AasUaBaseEntity.CreateMode, String, Argument(), Argument(), NodeId, NodeId, GenericMethodCalledEventHandler)
 - uid: AasOpcUaServer.AasEntityBuilder.CreateAddMethodState*
   name: CreateAddMethodState
   href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddMethodState_
@@ -484,12 +484,12 @@ references:
   isSpec: "True"
   fullName: AasOpcUaServer.AasEntityBuilder.CreateAddMethodState
   nameWithType: AasEntityBuilder.CreateAddMethodState
-- uid: AasOpcUaServer.AasEntityBuilder.CreateAddObject(NodeState,System.String,NodeId,NodeId,AasOpcUaServer.AasUaNodeHelper.ModellingRule,System.String)
-  name: CreateAddObject(NodeState, String, NodeId, NodeId, AasUaNodeHelper.ModellingRule, String)
-  href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddObject_NodeState_System_String_NodeId_NodeId_AasOpcUaServer_AasUaNodeHelper_ModellingRule_System_String_
-  commentId: M:AasOpcUaServer.AasEntityBuilder.CreateAddObject(NodeState,System.String,NodeId,NodeId,AasOpcUaServer.AasUaNodeHelper.ModellingRule,System.String)
-  fullName: AasOpcUaServer.AasEntityBuilder.CreateAddObject(NodeState, System.String, NodeId, NodeId, AasOpcUaServer.AasUaNodeHelper.ModellingRule, System.String)
-  nameWithType: AasEntityBuilder.CreateAddObject(NodeState, String, NodeId, NodeId, AasUaNodeHelper.ModellingRule, String)
+- uid: AasOpcUaServer.AasEntityBuilder.CreateAddObject(NodeState,AasOpcUaServer.AasUaBaseEntity.CreateMode,System.String,NodeId,NodeId,AasOpcUaServer.AasUaNodeHelper.ModellingRule,System.String)
+  name: CreateAddObject(NodeState, AasUaBaseEntity.CreateMode, String, NodeId, NodeId, AasUaNodeHelper.ModellingRule, String)
+  href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddObject_NodeState_AasOpcUaServer_AasUaBaseEntity_CreateMode_System_String_NodeId_NodeId_AasOpcUaServer_AasUaNodeHelper_ModellingRule_System_String_
+  commentId: M:AasOpcUaServer.AasEntityBuilder.CreateAddObject(NodeState,AasOpcUaServer.AasUaBaseEntity.CreateMode,System.String,NodeId,NodeId,AasOpcUaServer.AasUaNodeHelper.ModellingRule,System.String)
+  fullName: AasOpcUaServer.AasEntityBuilder.CreateAddObject(NodeState, AasOpcUaServer.AasUaBaseEntity.CreateMode, System.String, NodeId, NodeId, AasOpcUaServer.AasUaNodeHelper.ModellingRule, System.String)
+  nameWithType: AasEntityBuilder.CreateAddObject(NodeState, AasUaBaseEntity.CreateMode, String, NodeId, NodeId, AasUaNodeHelper.ModellingRule, String)
 - uid: AasOpcUaServer.AasEntityBuilder.CreateAddObject*
   name: CreateAddObject
   href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddObject_
@@ -517,15 +517,15 @@ references:
   isSpec: "True"
   fullName: AasOpcUaServer.AasEntityBuilder.CreateAddPropertyState
   nameWithType: AasEntityBuilder.CreateAddPropertyState
-- uid: AasOpcUaServer.AasEntityBuilder.CreateAddPropertyState``1(NodeState,System.String,NodeId,``0,NodeId,NodeId,System.Int32,System.Boolean,AasOpcUaServer.AasUaNodeHelper.ModellingRule)
-  name: CreateAddPropertyState<T>(NodeState, String, NodeId, T, NodeId, NodeId, Int32, Boolean, AasUaNodeHelper.ModellingRule)
-  href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddPropertyState__1_NodeState_System_String_NodeId___0_NodeId_NodeId_System_Int32_System_Boolean_AasOpcUaServer_AasUaNodeHelper_ModellingRule_
-  commentId: M:AasOpcUaServer.AasEntityBuilder.CreateAddPropertyState``1(NodeState,System.String,NodeId,``0,NodeId,NodeId,System.Int32,System.Boolean,AasOpcUaServer.AasUaNodeHelper.ModellingRule)
-  name.vb: CreateAddPropertyState(Of T)(NodeState, String, NodeId, T, NodeId, NodeId, Int32, Boolean, AasUaNodeHelper.ModellingRule)
-  fullName: AasOpcUaServer.AasEntityBuilder.CreateAddPropertyState<T>(NodeState, System.String, NodeId, T, NodeId, NodeId, System.Int32, System.Boolean, AasOpcUaServer.AasUaNodeHelper.ModellingRule)
-  fullName.vb: AasOpcUaServer.AasEntityBuilder.CreateAddPropertyState(Of T)(NodeState, System.String, NodeId, T, NodeId, NodeId, System.Int32, System.Boolean, AasOpcUaServer.AasUaNodeHelper.ModellingRule)
-  nameWithType: AasEntityBuilder.CreateAddPropertyState<T>(NodeState, String, NodeId, T, NodeId, NodeId, Int32, Boolean, AasUaNodeHelper.ModellingRule)
-  nameWithType.vb: AasEntityBuilder.CreateAddPropertyState(Of T)(NodeState, String, NodeId, T, NodeId, NodeId, Int32, Boolean, AasUaNodeHelper.ModellingRule)
+- uid: AasOpcUaServer.AasEntityBuilder.CreateAddPropertyState``1(NodeState,AasOpcUaServer.AasUaBaseEntity.CreateMode,System.String,NodeId,``0,NodeId,NodeId,System.Int32,System.Boolean,AasOpcUaServer.AasUaNodeHelper.ModellingRule)
+  name: CreateAddPropertyState<T>(NodeState, AasUaBaseEntity.CreateMode, String, NodeId, T, NodeId, NodeId, Int32, Boolean, AasUaNodeHelper.ModellingRule)
+  href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddPropertyState__1_NodeState_AasOpcUaServer_AasUaBaseEntity_CreateMode_System_String_NodeId___0_NodeId_NodeId_System_Int32_System_Boolean_AasOpcUaServer_AasUaNodeHelper_ModellingRule_
+  commentId: M:AasOpcUaServer.AasEntityBuilder.CreateAddPropertyState``1(NodeState,AasOpcUaServer.AasUaBaseEntity.CreateMode,System.String,NodeId,``0,NodeId,NodeId,System.Int32,System.Boolean,AasOpcUaServer.AasUaNodeHelper.ModellingRule)
+  name.vb: CreateAddPropertyState(Of T)(NodeState, AasUaBaseEntity.CreateMode, String, NodeId, T, NodeId, NodeId, Int32, Boolean, AasUaNodeHelper.ModellingRule)
+  fullName: AasOpcUaServer.AasEntityBuilder.CreateAddPropertyState<T>(NodeState, AasOpcUaServer.AasUaBaseEntity.CreateMode, System.String, NodeId, T, NodeId, NodeId, System.Int32, System.Boolean, AasOpcUaServer.AasUaNodeHelper.ModellingRule)
+  fullName.vb: AasOpcUaServer.AasEntityBuilder.CreateAddPropertyState(Of T)(NodeState, AasOpcUaServer.AasUaBaseEntity.CreateMode, System.String, NodeId, T, NodeId, NodeId, System.Int32, System.Boolean, AasOpcUaServer.AasUaNodeHelper.ModellingRule)
+  nameWithType: AasEntityBuilder.CreateAddPropertyState<T>(NodeState, AasUaBaseEntity.CreateMode, String, NodeId, T, NodeId, NodeId, Int32, Boolean, AasUaNodeHelper.ModellingRule)
+  nameWithType.vb: AasEntityBuilder.CreateAddPropertyState(Of T)(NodeState, AasUaBaseEntity.CreateMode, String, NodeId, T, NodeId, NodeId, Int32, Boolean, AasUaNodeHelper.ModellingRule)
 - uid: AasOpcUaServer.AasEntityBuilder.CreateAddReferenceType(System.String,System.String,System.UInt32,System.Boolean,NodeId)
   name: CreateAddReferenceType(String, String, UInt32, Boolean, NodeId)
   href: api/AasOpcUaServer.AasEntityBuilder.html#AasOpcUaServer_AasEntityBuilder_CreateAddReferenceType_System_String_System_String_System_UInt32_System_Boolean_NodeId_
@@ -877,12 +877,12 @@ references:
   isSpec: "True"
   fullName: AasOpcUaServer.AasModeManager.LoadPredefinedNodes
   nameWithType: AasModeManager.LoadPredefinedNodes
-- uid: AasOpcUaServer.AasModeManager.New(ISystemContext,NodeState)
-  name: New(ISystemContext, NodeState)
-  href: api/AasOpcUaServer.AasModeManager.html#AasOpcUaServer_AasModeManager_New_ISystemContext_NodeState_
-  commentId: M:AasOpcUaServer.AasModeManager.New(ISystemContext,NodeState)
-  fullName: AasOpcUaServer.AasModeManager.New(ISystemContext, NodeState)
-  nameWithType: AasModeManager.New(ISystemContext, NodeState)
+- uid: AasOpcUaServer.AasModeManager.New(ISystemContext,AasOpcUaServer.AasUaBaseEntity.CreateMode,NodeState)
+  name: New(ISystemContext, AasUaBaseEntity.CreateMode, NodeState)
+  href: api/AasOpcUaServer.AasModeManager.html#AasOpcUaServer_AasModeManager_New_ISystemContext_AasOpcUaServer_AasUaBaseEntity_CreateMode_NodeState_
+  commentId: M:AasOpcUaServer.AasModeManager.New(ISystemContext,AasOpcUaServer.AasUaBaseEntity.CreateMode,NodeState)
+  fullName: AasOpcUaServer.AasModeManager.New(ISystemContext, AasOpcUaServer.AasUaBaseEntity.CreateMode, NodeState)
+  nameWithType: AasModeManager.New(ISystemContext, AasUaBaseEntity.CreateMode, NodeState)
 - uid: AasOpcUaServer.AasModeManager.New*
   name: New
   href: api/AasOpcUaServer.AasModeManager.html#AasOpcUaServer_AasModeManager_New_
@@ -890,12 +890,12 @@ references:
   isSpec: "True"
   fullName: AasOpcUaServer.AasModeManager.New
   nameWithType: AasModeManager.New
-- uid: AasOpcUaServer.AasModeManager.NewType(ISystemContext,NodeState,System.UInt32)
-  name: NewType(ISystemContext, NodeState, UInt32)
-  href: api/AasOpcUaServer.AasModeManager.html#AasOpcUaServer_AasModeManager_NewType_ISystemContext_NodeState_System_UInt32_
-  commentId: M:AasOpcUaServer.AasModeManager.NewType(ISystemContext,NodeState,System.UInt32)
-  fullName: AasOpcUaServer.AasModeManager.NewType(ISystemContext, NodeState, System.UInt32)
-  nameWithType: AasModeManager.NewType(ISystemContext, NodeState, UInt32)
+- uid: AasOpcUaServer.AasModeManager.NewType(ISystemContext,AasOpcUaServer.AasUaBaseEntity.CreateMode,NodeState,System.UInt32)
+  name: NewType(ISystemContext, AasUaBaseEntity.CreateMode, NodeState, UInt32)
+  href: api/AasOpcUaServer.AasModeManager.html#AasOpcUaServer_AasModeManager_NewType_ISystemContext_AasOpcUaServer_AasUaBaseEntity_CreateMode_NodeState_System_UInt32_
+  commentId: M:AasOpcUaServer.AasModeManager.NewType(ISystemContext,AasOpcUaServer.AasUaBaseEntity.CreateMode,NodeState,System.UInt32)
+  fullName: AasOpcUaServer.AasModeManager.NewType(ISystemContext, AasOpcUaServer.AasUaBaseEntity.CreateMode, NodeState, System.UInt32)
+  nameWithType: AasModeManager.NewType(ISystemContext, AasUaBaseEntity.CreateMode, NodeState, UInt32)
 - uid: AasOpcUaServer.AasModeManager.NewType*
   name: NewType
   href: api/AasOpcUaServer.AasModeManager.html#AasOpcUaServer_AasModeManager_NewType_
@@ -955,6 +955,19 @@ references:
   isSpec: "True"
   fullName: AasOpcUaServer.AasModeManager.OnSetMonitoringMode
   nameWithType: AasModeManager.OnSetMonitoringMode
+- uid: AasOpcUaServer.AasModeManager.SaveNodestateCollectionAsNodeSet2(ISystemContext,NodeStateCollection,System.IO.Stream,System.Boolean)
+  name: SaveNodestateCollectionAsNodeSet2(ISystemContext, NodeStateCollection, Stream, Boolean)
+  href: api/AasOpcUaServer.AasModeManager.html#AasOpcUaServer_AasModeManager_SaveNodestateCollectionAsNodeSet2_ISystemContext_NodeStateCollection_System_IO_Stream_System_Boolean_
+  commentId: M:AasOpcUaServer.AasModeManager.SaveNodestateCollectionAsNodeSet2(ISystemContext,NodeStateCollection,System.IO.Stream,System.Boolean)
+  fullName: AasOpcUaServer.AasModeManager.SaveNodestateCollectionAsNodeSet2(ISystemContext, NodeStateCollection, System.IO.Stream, System.Boolean)
+  nameWithType: AasModeManager.SaveNodestateCollectionAsNodeSet2(ISystemContext, NodeStateCollection, Stream, Boolean)
+- uid: AasOpcUaServer.AasModeManager.SaveNodestateCollectionAsNodeSet2*
+  name: SaveNodestateCollectionAsNodeSet2
+  href: api/AasOpcUaServer.AasModeManager.html#AasOpcUaServer_AasModeManager_SaveNodestateCollectionAsNodeSet2_
+  commentId: Overload:AasOpcUaServer.AasModeManager.SaveNodestateCollectionAsNodeSet2
+  isSpec: "True"
+  fullName: AasOpcUaServer.AasModeManager.SaveNodestateCollectionAsNodeSet2
+  nameWithType: AasModeManager.SaveNodestateCollectionAsNodeSet2
 - uid: AasOpcUaServer.AasUaBaseEntity
   name: AasUaBaseEntity
   href: api/AasOpcUaServer.AasUaBaseEntity.html

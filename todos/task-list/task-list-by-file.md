@@ -352,8 +352,8 @@ MIHO,
 
 ## AasxUaNetServer\AasxServer\AasEntityBuilder.cs
 
-[Line 270, column 33](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasEntityBuilder.cs#L270
+[Line 271, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasEntityBuilder.cs#L271
 ), 
 MIHO,
 2020-08-06
@@ -378,80 +378,80 @@ MIHO,
 
     The UA mapping needs to be checked for the "new" HasDataSpecification strcuture of V2.0.1
 
-[Line 675, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L675
+[Line 676, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L676
 ), 
 MIHO,
 2020-08-06
 
     check (again) if reference to CDs is done are shall be done
 
-[Line 961, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L961
+[Line 967, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L967
 ), 
 MIHO,
 2020-08-06
 
     not sure if to add these
 
-[Line 1062, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1062
+[Line 1068, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1068
 ), 
 MIHO,
 2020-08-06
 
     use the collection element of UA?
 
-[Line 1373, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1373
+[Line 1384, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1384
 ), 
 MIHO,
 2020-08-06
 
     decide to from where the name comes
 
-[Line 1376, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1376
+[Line 1387, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1387
 ), 
 MIHO,
 2020-08-06
 
     description: get "en" version which is appropriate?
 
-[Line 1379, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1379
+[Line 1390, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1390
 ), 
 MIHO,
 2020-08-06
 
     parse UA data type out .. OK?
 
-[Line 1388, column 33](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1388
+[Line 1399, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1399
 ), 
 MIHO,
 2020-08-06
 
     description: get "en" version is appropriate?
 
-[Line 1397, column 37](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1397
+[Line 1408, column 37](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1408
 ), 
 MIHO,
 2020-08-06
 
     this any better?
 
-[Line 1401, column 37](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1401
+[Line 1412, column 37](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1412
 ), 
 MIHO,
 2020-08-06
 
     description: get "en" version is appropriate?
 
-[Line 1736, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1736
+[Line 1756, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxUaNetServer/AasxServer/AasUaEntities.cs#L1756
 ), 
 MIHO,
 2020-08-06
