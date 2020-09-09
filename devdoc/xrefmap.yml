@@ -15619,6 +15619,22 @@ references:
   fullName.vb: AasxIntegrationBase.AasxWpfBaseUtils.FindChild(Of T)(System.Windows.DependencyObject, System.String)
   nameWithType: AasxWpfBaseUtils.FindChild<T>(DependencyObject, String)
   nameWithType.vb: AasxWpfBaseUtils.FindChild(Of T)(DependencyObject, String)
+- uid: AasxIntegrationBase.AasxWpfBaseUtils.FindChildLogicalTree*
+  name: FindChildLogicalTree
+  href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_FindChildLogicalTree_
+  commentId: Overload:AasxIntegrationBase.AasxWpfBaseUtils.FindChildLogicalTree
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasxWpfBaseUtils.FindChildLogicalTree
+  nameWithType: AasxWpfBaseUtils.FindChildLogicalTree
+- uid: AasxIntegrationBase.AasxWpfBaseUtils.FindChildLogicalTree``1(System.Windows.DependencyObject,System.String)
+  name: FindChildLogicalTree<T>(DependencyObject, String)
+  href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_FindChildLogicalTree__1_System_Windows_DependencyObject_System_String_
+  commentId: M:AasxIntegrationBase.AasxWpfBaseUtils.FindChildLogicalTree``1(System.Windows.DependencyObject,System.String)
+  name.vb: FindChildLogicalTree(Of T)(DependencyObject, String)
+  fullName: AasxIntegrationBase.AasxWpfBaseUtils.FindChildLogicalTree<T>(System.Windows.DependencyObject, System.String)
+  fullName.vb: AasxIntegrationBase.AasxWpfBaseUtils.FindChildLogicalTree(Of T)(System.Windows.DependencyObject, System.String)
+  nameWithType: AasxWpfBaseUtils.FindChildLogicalTree<T>(DependencyObject, String)
+  nameWithType.vb: AasxWpfBaseUtils.FindChildLogicalTree(Of T)(DependencyObject, String)
 - uid: AasxIntegrationBase.AasxWpfBaseUtils.LoadBitmapImageFromPackage(AdminShellNS.AdminShellPackageEnv,System.String)
   name: LoadBitmapImageFromPackage(AdminShellPackageEnv, String)
   href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_LoadBitmapImageFromPackage_AdminShellNS_AdminShellPackageEnv_System_String_
@@ -15873,6 +15889,19 @@ references:
   commentId: T:AasxIntegrationBase.Extensions
   fullName: AasxIntegrationBase.Extensions
   nameWithType: Extensions
+- uid: AasxIntegrationBase.Extensions.AddWithDelimiter(System.String,System.String,System.String)
+  name: AddWithDelimiter(String, String, String)
+  href: api/AasxIntegrationBase.Extensions.html#AasxIntegrationBase_Extensions_AddWithDelimiter_System_String_System_String_System_String_
+  commentId: M:AasxIntegrationBase.Extensions.AddWithDelimiter(System.String,System.String,System.String)
+  fullName: AasxIntegrationBase.Extensions.AddWithDelimiter(System.String, System.String, System.String)
+  nameWithType: Extensions.AddWithDelimiter(String, String, String)
+- uid: AasxIntegrationBase.Extensions.AddWithDelimiter*
+  name: AddWithDelimiter
+  href: api/AasxIntegrationBase.Extensions.html#AasxIntegrationBase_Extensions_AddWithDelimiter_
+  commentId: Overload:AasxIntegrationBase.Extensions.AddWithDelimiter
+  isSpec: "True"
+  fullName: AasxIntegrationBase.Extensions.AddWithDelimiter
+  nameWithType: Extensions.AddWithDelimiter
 - uid: AasxIntegrationBase.Extensions.HasContent(System.String)
   name: HasContent(String)
   href: api/AasxIntegrationBase.Extensions.html#AasxIntegrationBase_Extensions_HasContent_System_String_
@@ -15902,6 +15931,19 @@ references:
   isSpec: "True"
   fullName: AasxIntegrationBase.Extensions.SetIfNoContent
   nameWithType: Extensions.SetIfNoContent
+- uid: AasxIntegrationBase.Extensions.SubstringMax(System.String,System.Int32,System.Int32)
+  name: SubstringMax(String, Int32, Int32)
+  href: api/AasxIntegrationBase.Extensions.html#AasxIntegrationBase_Extensions_SubstringMax_System_String_System_Int32_System_Int32_
+  commentId: M:AasxIntegrationBase.Extensions.SubstringMax(System.String,System.Int32,System.Int32)
+  fullName: AasxIntegrationBase.Extensions.SubstringMax(System.String, System.Int32, System.Int32)
+  nameWithType: Extensions.SubstringMax(String, Int32, Int32)
+- uid: AasxIntegrationBase.Extensions.SubstringMax*
+  name: SubstringMax
+  href: api/AasxIntegrationBase.Extensions.html#AasxIntegrationBase_Extensions_SubstringMax_
+  commentId: Overload:AasxIntegrationBase.Extensions.SubstringMax
+  isSpec: "True"
+  fullName: AasxIntegrationBase.Extensions.SubstringMax
+  nameWithType: Extensions.SubstringMax
 - uid: AasxIntegrationBase.IAasxOnlineConnection
   name: IAasxOnlineConnection
   href: api/AasxIntegrationBase.IAasxOnlineConnection.html
@@ -17439,60 +17481,381 @@ references:
   commentId: N:AasxPackageExplorer
   fullName: AasxPackageExplorer
   nameWithType: AasxPackageExplorer
+- uid: AasxPackageExplorer.AasxFileRepoControl
+  name: AasxFileRepoControl
+  href: api/AasxPackageExplorer.AasxFileRepoControl.html
+  commentId: T:AasxPackageExplorer.AasxFileRepoControl
+  fullName: AasxPackageExplorer.AasxFileRepoControl
+  nameWithType: AasxFileRepoControl
+- uid: AasxPackageExplorer.AasxFileRepoControl.#ctor
+  name: AasxFileRepoControl()
+  href: api/AasxPackageExplorer.AasxFileRepoControl.html#AasxPackageExplorer_AasxFileRepoControl__ctor
+  commentId: M:AasxPackageExplorer.AasxFileRepoControl.#ctor
+  fullName: AasxPackageExplorer.AasxFileRepoControl.AasxFileRepoControl()
+  nameWithType: AasxFileRepoControl.AasxFileRepoControl()
+- uid: AasxPackageExplorer.AasxFileRepoControl.#ctor*
+  name: AasxFileRepoControl
+  href: api/AasxPackageExplorer.AasxFileRepoControl.html#AasxPackageExplorer_AasxFileRepoControl__ctor_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepoControl.#ctor
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepoControl.AasxFileRepoControl
+  nameWithType: AasxFileRepoControl.AasxFileRepoControl
+- uid: AasxPackageExplorer.AasxFileRepoControl.FileDoubleClick
+  name: FileDoubleClick
+  href: api/AasxPackageExplorer.AasxFileRepoControl.html#AasxPackageExplorer_AasxFileRepoControl_FileDoubleClick
+  commentId: E:AasxPackageExplorer.AasxFileRepoControl.FileDoubleClick
+  fullName: AasxPackageExplorer.AasxFileRepoControl.FileDoubleClick
+  nameWithType: AasxFileRepoControl.FileDoubleClick
+- uid: AasxPackageExplorer.AasxFileRepoControl.FileRepository
+  name: FileRepository
+  href: api/AasxPackageExplorer.AasxFileRepoControl.html#AasxPackageExplorer_AasxFileRepoControl_FileRepository
+  commentId: P:AasxPackageExplorer.AasxFileRepoControl.FileRepository
+  fullName: AasxPackageExplorer.AasxFileRepoControl.FileRepository
+  nameWithType: AasxFileRepoControl.FileRepository
+- uid: AasxPackageExplorer.AasxFileRepoControl.FileRepository*
+  name: FileRepository
+  href: api/AasxPackageExplorer.AasxFileRepoControl.html#AasxPackageExplorer_AasxFileRepoControl_FileRepository_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepoControl.FileRepository
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepoControl.FileRepository
+  nameWithType: AasxFileRepoControl.FileRepository
+- uid: AasxPackageExplorer.AasxFileRepoControl.QueryClick
+  name: QueryClick
+  href: api/AasxPackageExplorer.AasxFileRepoControl.html#AasxPackageExplorer_AasxFileRepoControl_QueryClick
+  commentId: E:AasxPackageExplorer.AasxFileRepoControl.QueryClick
+  fullName: AasxPackageExplorer.AasxFileRepoControl.QueryClick
+  nameWithType: AasxFileRepoControl.QueryClick
 - uid: AasxPackageExplorer.AasxFileRepository
   name: AasxFileRepository
   href: api/AasxPackageExplorer.AasxFileRepository.html
   commentId: T:AasxPackageExplorer.AasxFileRepository
   fullName: AasxPackageExplorer.AasxFileRepository
   nameWithType: AasxFileRepository
+- uid: AasxPackageExplorer.AasxFileRepository.Add(AasxPackageExplorer.AasxFileRepository.FileItem)
+  name: Add(AasxFileRepository.FileItem)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_Add_AasxPackageExplorer_AasxFileRepository_FileItem_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.Add(AasxPackageExplorer.AasxFileRepository.FileItem)
+  fullName: AasxPackageExplorer.AasxFileRepository.Add(AasxPackageExplorer.AasxFileRepository.FileItem)
+  nameWithType: AasxFileRepository.Add(AasxFileRepository.FileItem)
+- uid: AasxPackageExplorer.AasxFileRepository.Add*
+  name: Add
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_Add_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.Add
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.Add
+  nameWithType: AasxFileRepository.Add
+- uid: AasxPackageExplorer.AasxFileRepository.AddByAas(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,System.String)
+  name: AddByAas(AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, String)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_AddByAas_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_System_String_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.AddByAas(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,System.String)
+  fullName: AasxPackageExplorer.AasxFileRepository.AddByAas(AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, System.String)
+  nameWithType: AasxFileRepository.AddByAas(AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, String)
+- uid: AasxPackageExplorer.AasxFileRepository.AddByAas*
+  name: AddByAas
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_AddByAas_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.AddByAas
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.AddByAas
+  nameWithType: AasxFileRepository.AddByAas
+- uid: AasxPackageExplorer.AasxFileRepository.AddByAasxFn(System.String)
+  name: AddByAasxFn(String)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_AddByAasxFn_System_String_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.AddByAasxFn(System.String)
+  fullName: AasxPackageExplorer.AasxFileRepository.AddByAasxFn(System.String)
+  nameWithType: AasxFileRepository.AddByAasxFn(String)
+- uid: AasxPackageExplorer.AasxFileRepository.AddByAasxFn*
+  name: AddByAasxFn
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_AddByAasxFn_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.AddByAasxFn
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.AddByAasxFn
+  nameWithType: AasxFileRepository.AddByAasxFn
+- uid: AasxPackageExplorer.AasxFileRepository.CreateDemoData
+  name: CreateDemoData()
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_CreateDemoData
+  commentId: M:AasxPackageExplorer.AasxFileRepository.CreateDemoData
+  fullName: AasxPackageExplorer.AasxFileRepository.CreateDemoData()
+  nameWithType: AasxFileRepository.CreateDemoData()
+- uid: AasxPackageExplorer.AasxFileRepository.CreateDemoData*
+  name: CreateDemoData
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_CreateDemoData_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.CreateDemoData
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.CreateDemoData
+  nameWithType: AasxFileRepository.CreateDemoData
+- uid: AasxPackageExplorer.AasxFileRepository.DecreaseVisualTimeBy(System.Double)
+  name: DecreaseVisualTimeBy(Double)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_DecreaseVisualTimeBy_System_Double_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.DecreaseVisualTimeBy(System.Double)
+  fullName: AasxPackageExplorer.AasxFileRepository.DecreaseVisualTimeBy(System.Double)
+  nameWithType: AasxFileRepository.DecreaseVisualTimeBy(Double)
+- uid: AasxPackageExplorer.AasxFileRepository.DecreaseVisualTimeBy*
+  name: DecreaseVisualTimeBy
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_DecreaseVisualTimeBy_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.DecreaseVisualTimeBy
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.DecreaseVisualTimeBy
+  nameWithType: AasxFileRepository.DecreaseVisualTimeBy
+- uid: AasxPackageExplorer.AasxFileRepository.DefaultAnimationTime
+  name: DefaultAnimationTime
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_DefaultAnimationTime
+  commentId: F:AasxPackageExplorer.AasxFileRepository.DefaultAnimationTime
+  fullName: AasxPackageExplorer.AasxFileRepository.DefaultAnimationTime
+  nameWithType: AasxFileRepository.DefaultAnimationTime
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem
+  name: AasxFileRepository.FileItem
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html
+  commentId: T:AasxPackageExplorer.AasxFileRepository.FileItem
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem
+  nameWithType: AasxFileRepository.FileItem
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.#ctor
+  name: FileItem()
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem__ctor
+  commentId: M:AasxPackageExplorer.AasxFileRepository.FileItem.#ctor
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.FileItem()
+  nameWithType: AasxFileRepository.FileItem.FileItem()
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)
+  name: FileItem(String, String, String, String, String, String)
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem__ctor_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.FileItem.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.FileItem(System.String, System.String, System.String, System.String, System.String, System.String)
+  nameWithType: AasxFileRepository.FileItem.FileItem(String, String, String, String, String, String)
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.#ctor*
+  name: FileItem
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem__ctor_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.#ctor
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.FileItem
+  nameWithType: AasxFileRepository.FileItem.FileItem
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.AasId
+  name: AasId
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_AasId
+  commentId: P:AasxPackageExplorer.AasxFileRepository.FileItem.AasId
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.AasId
+  nameWithType: AasxFileRepository.FileItem.AasId
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.AasId*
+  name: AasId
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_AasId_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.AasId
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.AasId
+  nameWithType: AasxFileRepository.FileItem.AasId
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.AssetId
+  name: AssetId
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_AssetId
+  commentId: P:AasxPackageExplorer.AasxFileRepository.FileItem.AssetId
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.AssetId
+  nameWithType: AasxFileRepository.FileItem.AssetId
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.AssetId*
+  name: AssetId
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_AssetId_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.AssetId
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.AssetId
+  nameWithType: AasxFileRepository.FileItem.AssetId
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.CodeType2D
+  name: CodeType2D
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_CodeType2D
+  commentId: F:AasxPackageExplorer.AasxFileRepository.FileItem.CodeType2D
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.CodeType2D
+  nameWithType: AasxFileRepository.FileItem.CodeType2D
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.Description
+  name: Description
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_Description
+  commentId: P:AasxPackageExplorer.AasxFileRepository.FileItem.Description
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.Description
+  nameWithType: AasxFileRepository.FileItem.Description
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.Description*
+  name: Description
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_Description_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.Description
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.Description
+  nameWithType: AasxFileRepository.FileItem.Description
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.Filename
+  name: Filename
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_Filename
+  commentId: P:AasxPackageExplorer.AasxFileRepository.FileItem.Filename
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.Filename
+  nameWithType: AasxFileRepository.FileItem.Filename
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.Filename*
+  name: Filename
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_Filename_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.Filename
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.Filename
+  nameWithType: AasxFileRepository.FileItem.Filename
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.InfoFilename
+  name: InfoFilename
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_InfoFilename
+  commentId: P:AasxPackageExplorer.AasxFileRepository.FileItem.InfoFilename
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.InfoFilename
+  nameWithType: AasxFileRepository.FileItem.InfoFilename
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.InfoFilename*
+  name: InfoFilename
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_InfoFilename_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.InfoFilename
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.InfoFilename
+  nameWithType: AasxFileRepository.FileItem.InfoFilename
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.InfoIds
+  name: InfoIds
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_InfoIds
+  commentId: P:AasxPackageExplorer.AasxFileRepository.FileItem.InfoIds
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.InfoIds
+  nameWithType: AasxFileRepository.FileItem.InfoIds
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.InfoIds*
+  name: InfoIds
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_InfoIds_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.InfoIds
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.InfoIds
+  nameWithType: AasxFileRepository.FileItem.InfoIds
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.OnPropertyChanged(System.String)
+  name: OnPropertyChanged(String)
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_OnPropertyChanged_System_String_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.FileItem.OnPropertyChanged(System.String)
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.OnPropertyChanged(System.String)
+  nameWithType: AasxFileRepository.FileItem.OnPropertyChanged(String)
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_OnPropertyChanged_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.OnPropertyChanged
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.OnPropertyChanged
+  nameWithType: AasxFileRepository.FileItem.OnPropertyChanged
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.PropertyChanged
+  name: PropertyChanged
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_PropertyChanged
+  commentId: E:AasxPackageExplorer.AasxFileRepository.FileItem.PropertyChanged
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.PropertyChanged
+  nameWithType: AasxFileRepository.FileItem.PropertyChanged
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.Tag
+  name: Tag
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_Tag
+  commentId: P:AasxPackageExplorer.AasxFileRepository.FileItem.Tag
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.Tag
+  nameWithType: AasxFileRepository.FileItem.Tag
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.Tag*
+  name: Tag
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_Tag_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.Tag
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.Tag
+  nameWithType: AasxFileRepository.FileItem.Tag
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelBackground
+  name: VisualLabelBackground
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualLabelBackground
+  commentId: P:AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelBackground
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelBackground
+  nameWithType: AasxFileRepository.FileItem.VisualLabelBackground
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelBackground*
+  name: VisualLabelBackground
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualLabelBackground_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelBackground
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelBackground
+  nameWithType: AasxFileRepository.FileItem.VisualLabelBackground
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelText
+  name: VisualLabelText
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualLabelText
+  commentId: P:AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelText
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelText
+  nameWithType: AasxFileRepository.FileItem.VisualLabelText
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelText*
+  name: VisualLabelText
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualLabelText_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelText
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualLabelText
+  nameWithType: AasxFileRepository.FileItem.VisualLabelText
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualState
+  name: VisualState
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualState
+  commentId: F:AasxPackageExplorer.AasxFileRepository.FileItem.VisualState
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualState
+  nameWithType: AasxFileRepository.FileItem.VisualState
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum
+  name: AasxFileRepository.FileItem.VisualStateEnum
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.html
+  commentId: T:AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum
+  nameWithType: AasxFileRepository.FileItem.VisualStateEnum
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.Activated
+  name: Activated
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualStateEnum_Activated
+  commentId: F:AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.Activated
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.Activated
+  nameWithType: AasxFileRepository.FileItem.VisualStateEnum.Activated
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.Idle
+  name: Idle
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualStateEnum_Idle
+  commentId: F:AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.Idle
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.Idle
+  nameWithType: AasxFileRepository.FileItem.VisualStateEnum.Idle
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.ReadFrom
+  name: ReadFrom
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualStateEnum_ReadFrom
+  commentId: F:AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.ReadFrom
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.ReadFrom
+  nameWithType: AasxFileRepository.FileItem.VisualStateEnum.ReadFrom
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.WriteTo
+  name: WriteTo
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualStateEnum_WriteTo
+  commentId: F:AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.WriteTo
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum.WriteTo
+  nameWithType: AasxFileRepository.FileItem.VisualStateEnum.WriteTo
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualTime
+  name: VisualTime
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualTime
+  commentId: P:AasxPackageExplorer.AasxFileRepository.FileItem.VisualTime
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualTime
+  nameWithType: AasxFileRepository.FileItem.VisualTime
+- uid: AasxPackageExplorer.AasxFileRepository.FileItem.VisualTime*
+  name: VisualTime
+  href: api/AasxPackageExplorer.AasxFileRepository.FileItem.html#AasxPackageExplorer_AasxFileRepository_FileItem_VisualTime_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FileItem.VisualTime
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FileItem.VisualTime
+  nameWithType: AasxFileRepository.FileItem.VisualTime
 - uid: AasxPackageExplorer.AasxFileRepository.FileMap
-  name: AasxFileRepository.FileMap
-  href: api/AasxPackageExplorer.AasxFileRepository.FileMap.html
-  commentId: T:AasxPackageExplorer.AasxFileRepository.FileMap
+  name: FileMap
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_FileMap
+  commentId: F:AasxPackageExplorer.AasxFileRepository.FileMap
   fullName: AasxPackageExplorer.AasxFileRepository.FileMap
   nameWithType: AasxFileRepository.FileMap
-- uid: AasxPackageExplorer.AasxFileRepository.FileMap.assetId
-  name: assetId
-  href: api/AasxPackageExplorer.AasxFileRepository.FileMap.html#AasxPackageExplorer_AasxFileRepository_FileMap_assetId
-  commentId: F:AasxPackageExplorer.AasxFileRepository.FileMap.assetId
-  fullName: AasxPackageExplorer.AasxFileRepository.FileMap.assetId
-  nameWithType: AasxFileRepository.FileMap.assetId
-- uid: AasxPackageExplorer.AasxFileRepository.FileMap.code
-  name: code
-  href: api/AasxPackageExplorer.AasxFileRepository.FileMap.html#AasxPackageExplorer_AasxFileRepository_FileMap_code
-  commentId: F:AasxPackageExplorer.AasxFileRepository.FileMap.code
-  fullName: AasxPackageExplorer.AasxFileRepository.FileMap.code
-  nameWithType: AasxFileRepository.FileMap.code
-- uid: AasxPackageExplorer.AasxFileRepository.FileMap.description
-  name: description
-  href: api/AasxPackageExplorer.AasxFileRepository.FileMap.html#AasxPackageExplorer_AasxFileRepository_FileMap_description
-  commentId: F:AasxPackageExplorer.AasxFileRepository.FileMap.description
-  fullName: AasxPackageExplorer.AasxFileRepository.FileMap.description
-  nameWithType: AasxFileRepository.FileMap.description
-- uid: AasxPackageExplorer.AasxFileRepository.FileMap.fn
-  name: fn
-  href: api/AasxPackageExplorer.AasxFileRepository.FileMap.html#AasxPackageExplorer_AasxFileRepository_FileMap_fn
-  commentId: F:AasxPackageExplorer.AasxFileRepository.FileMap.fn
-  fullName: AasxPackageExplorer.AasxFileRepository.FileMap.fn
-  nameWithType: AasxFileRepository.FileMap.fn
-- uid: AasxPackageExplorer.AasxFileRepository.FileMap.link
-  name: link
-  href: api/AasxPackageExplorer.AasxFileRepository.FileMap.html#AasxPackageExplorer_AasxFileRepository_FileMap_link
-  commentId: F:AasxPackageExplorer.AasxFileRepository.FileMap.link
-  fullName: AasxPackageExplorer.AasxFileRepository.FileMap.link
-  nameWithType: AasxFileRepository.FileMap.link
-- uid: AasxPackageExplorer.AasxFileRepository.FileMap.tag
-  name: tag
-  href: api/AasxPackageExplorer.AasxFileRepository.FileMap.html#AasxPackageExplorer_AasxFileRepository_FileMap_tag
-  commentId: F:AasxPackageExplorer.AasxFileRepository.FileMap.tag
-  fullName: AasxPackageExplorer.AasxFileRepository.FileMap.tag
-  nameWithType: AasxFileRepository.FileMap.tag
-- uid: AasxPackageExplorer.AasxFileRepository.filemaps
-  name: filemaps
-  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_filemaps
-  commentId: F:AasxPackageExplorer.AasxFileRepository.filemaps
-  fullName: AasxPackageExplorer.AasxFileRepository.filemaps
-  nameWithType: AasxFileRepository.filemaps
+- uid: AasxPackageExplorer.AasxFileRepository.Filename
+  name: Filename
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_Filename
+  commentId: F:AasxPackageExplorer.AasxFileRepository.Filename
+  fullName: AasxPackageExplorer.AasxFileRepository.Filename
+  nameWithType: AasxFileRepository.Filename
+- uid: AasxPackageExplorer.AasxFileRepository.FindByAasId(System.String)
+  name: FindByAasId(String)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_FindByAasId_System_String_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.FindByAasId(System.String)
+  fullName: AasxPackageExplorer.AasxFileRepository.FindByAasId(System.String)
+  nameWithType: AasxFileRepository.FindByAasId(String)
+- uid: AasxPackageExplorer.AasxFileRepository.FindByAasId*
+  name: FindByAasId
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_FindByAasId_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FindByAasId
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FindByAasId
+  nameWithType: AasxFileRepository.FindByAasId
+- uid: AasxPackageExplorer.AasxFileRepository.FindByAssetId(System.String)
+  name: FindByAssetId(String)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_FindByAssetId_System_String_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.FindByAssetId(System.String)
+  fullName: AasxPackageExplorer.AasxFileRepository.FindByAssetId(System.String)
+  nameWithType: AasxFileRepository.FindByAssetId(String)
+- uid: AasxPackageExplorer.AasxFileRepository.FindByAssetId*
+  name: FindByAssetId
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_FindByAssetId_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.FindByAssetId
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.FindByAssetId
+  nameWithType: AasxFileRepository.FindByAssetId
 - uid: AasxPackageExplorer.AasxFileRepository.GenerateRepositoryFromFileNames(System.String[],System.String)
   name: GenerateRepositoryFromFileNames(String[], String)
   href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_GenerateRepositoryFromFileNames_System_String___System_String_
@@ -17509,6 +17872,19 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.AasxFileRepository.GenerateRepositoryFromFileNames
   nameWithType: AasxFileRepository.GenerateRepositoryFromFileNames
+- uid: AasxPackageExplorer.AasxFileRepository.GetFullFilename(AasxPackageExplorer.AasxFileRepository.FileItem)
+  name: GetFullFilename(AasxFileRepository.FileItem)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_GetFullFilename_AasxPackageExplorer_AasxFileRepository_FileItem_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.GetFullFilename(AasxPackageExplorer.AasxFileRepository.FileItem)
+  fullName: AasxPackageExplorer.AasxFileRepository.GetFullFilename(AasxPackageExplorer.AasxFileRepository.FileItem)
+  nameWithType: AasxFileRepository.GetFullFilename(AasxFileRepository.FileItem)
+- uid: AasxPackageExplorer.AasxFileRepository.GetFullFilename*
+  name: GetFullFilename
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_GetFullFilename_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.GetFullFilename
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.GetFullFilename
+  nameWithType: AasxFileRepository.GetFullFilename
 - uid: AasxPackageExplorer.AasxFileRepository.Load(System.String)
   name: Load(String)
   href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_Load_System_String_
@@ -17522,6 +17898,58 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.AasxFileRepository.Load
   nameWithType: AasxFileRepository.Load
+- uid: AasxPackageExplorer.AasxFileRepository.MakeFilenamesRelative
+  name: MakeFilenamesRelative()
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_MakeFilenamesRelative
+  commentId: M:AasxPackageExplorer.AasxFileRepository.MakeFilenamesRelative
+  fullName: AasxPackageExplorer.AasxFileRepository.MakeFilenamesRelative()
+  nameWithType: AasxFileRepository.MakeFilenamesRelative()
+- uid: AasxPackageExplorer.AasxFileRepository.MakeFilenamesRelative*
+  name: MakeFilenamesRelative
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_MakeFilenamesRelative_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.MakeFilenamesRelative
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.MakeFilenamesRelative
+  nameWithType: AasxFileRepository.MakeFilenamesRelative
+- uid: AasxPackageExplorer.AasxFileRepository.MoveDown(AasxPackageExplorer.AasxFileRepository.FileItem)
+  name: MoveDown(AasxFileRepository.FileItem)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_MoveDown_AasxPackageExplorer_AasxFileRepository_FileItem_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.MoveDown(AasxPackageExplorer.AasxFileRepository.FileItem)
+  fullName: AasxPackageExplorer.AasxFileRepository.MoveDown(AasxPackageExplorer.AasxFileRepository.FileItem)
+  nameWithType: AasxFileRepository.MoveDown(AasxFileRepository.FileItem)
+- uid: AasxPackageExplorer.AasxFileRepository.MoveDown*
+  name: MoveDown
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_MoveDown_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.MoveDown
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.MoveDown
+  nameWithType: AasxFileRepository.MoveDown
+- uid: AasxPackageExplorer.AasxFileRepository.MoveUp(AasxPackageExplorer.AasxFileRepository.FileItem)
+  name: MoveUp(AasxFileRepository.FileItem)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_MoveUp_AasxPackageExplorer_AasxFileRepository_FileItem_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.MoveUp(AasxPackageExplorer.AasxFileRepository.FileItem)
+  fullName: AasxPackageExplorer.AasxFileRepository.MoveUp(AasxPackageExplorer.AasxFileRepository.FileItem)
+  nameWithType: AasxFileRepository.MoveUp(AasxFileRepository.FileItem)
+- uid: AasxPackageExplorer.AasxFileRepository.MoveUp*
+  name: MoveUp
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_MoveUp_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.MoveUp
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.MoveUp
+  nameWithType: AasxFileRepository.MoveUp
+- uid: AasxPackageExplorer.AasxFileRepository.Remove(AasxPackageExplorer.AasxFileRepository.FileItem)
+  name: Remove(AasxFileRepository.FileItem)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_Remove_AasxPackageExplorer_AasxFileRepository_FileItem_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.Remove(AasxPackageExplorer.AasxFileRepository.FileItem)
+  fullName: AasxPackageExplorer.AasxFileRepository.Remove(AasxPackageExplorer.AasxFileRepository.FileItem)
+  nameWithType: AasxFileRepository.Remove(AasxFileRepository.FileItem)
+- uid: AasxPackageExplorer.AasxFileRepository.Remove*
+  name: Remove
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_Remove_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.Remove
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.Remove
+  nameWithType: AasxFileRepository.Remove
 - uid: AasxPackageExplorer.AasxFileRepository.SaveAs(System.String)
   name: SaveAs(String)
   href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_SaveAs_System_String_
@@ -17535,6 +17963,19 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.AasxFileRepository.SaveAs
   nameWithType: AasxFileRepository.SaveAs
+- uid: AasxPackageExplorer.AasxFileRepository.StartAnimation(AasxPackageExplorer.AasxFileRepository.FileItem,AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum)
+  name: StartAnimation(AasxFileRepository.FileItem, AasxFileRepository.FileItem.VisualStateEnum)
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_StartAnimation_AasxPackageExplorer_AasxFileRepository_FileItem_AasxPackageExplorer_AasxFileRepository_FileItem_VisualStateEnum_
+  commentId: M:AasxPackageExplorer.AasxFileRepository.StartAnimation(AasxPackageExplorer.AasxFileRepository.FileItem,AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum)
+  fullName: AasxPackageExplorer.AasxFileRepository.StartAnimation(AasxPackageExplorer.AasxFileRepository.FileItem, AasxPackageExplorer.AasxFileRepository.FileItem.VisualStateEnum)
+  nameWithType: AasxFileRepository.StartAnimation(AasxFileRepository.FileItem, AasxFileRepository.FileItem.VisualStateEnum)
+- uid: AasxPackageExplorer.AasxFileRepository.StartAnimation*
+  name: StartAnimation
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_StartAnimation_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.StartAnimation
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.StartAnimation
+  nameWithType: AasxFileRepository.StartAnimation
 - uid: AasxPackageExplorer.AasxPrintFunctions
   name: AasxPrintFunctions
   href: api/AasxPackageExplorer.AasxPrintFunctions.html
@@ -17587,12 +18028,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.AasxPrintFunctions.PrintCodeSheet
   nameWithType: AasxPrintFunctions.PrintCodeSheet
-- uid: AasxPackageExplorer.AasxPrintFunctions.PrintRepositoryCodeSheet(System.String,System.String)
-  name: PrintRepositoryCodeSheet(String, String)
-  href: api/AasxPackageExplorer.AasxPrintFunctions.html#AasxPackageExplorer_AasxPrintFunctions_PrintRepositoryCodeSheet_System_String_System_String_
-  commentId: M:AasxPackageExplorer.AasxPrintFunctions.PrintRepositoryCodeSheet(System.String,System.String)
-  fullName: AasxPackageExplorer.AasxPrintFunctions.PrintRepositoryCodeSheet(System.String, System.String)
-  nameWithType: AasxPrintFunctions.PrintRepositoryCodeSheet(String, String)
+- uid: AasxPackageExplorer.AasxPrintFunctions.PrintRepositoryCodeSheet(System.String,AasxPackageExplorer.AasxFileRepository,System.String)
+  name: PrintRepositoryCodeSheet(String, AasxFileRepository, String)
+  href: api/AasxPackageExplorer.AasxPrintFunctions.html#AasxPackageExplorer_AasxPrintFunctions_PrintRepositoryCodeSheet_System_String_AasxPackageExplorer_AasxFileRepository_System_String_
+  commentId: M:AasxPackageExplorer.AasxPrintFunctions.PrintRepositoryCodeSheet(System.String,AasxPackageExplorer.AasxFileRepository,System.String)
+  fullName: AasxPackageExplorer.AasxPrintFunctions.PrintRepositoryCodeSheet(System.String, AasxPackageExplorer.AasxFileRepository, System.String)
+  nameWithType: AasxPrintFunctions.PrintRepositoryCodeSheet(String, AasxFileRepository, String)
 - uid: AasxPackageExplorer.AasxPrintFunctions.PrintRepositoryCodeSheet*
   name: PrintRepositoryCodeSheet
   href: api/AasxPackageExplorer.AasxPrintFunctions.html#AasxPackageExplorer_AasxPrintFunctions_PrintRepositoryCodeSheet_
@@ -17850,6 +18291,19 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DiplayVisualAasxElements.Clear
   nameWithType: DiplayVisualAasxElements.Clear
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.Contains(AasxPackageExplorer.VisualElementGeneric)
+  name: Contains(VisualElementGeneric)
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_Contains_AasxPackageExplorer_VisualElementGeneric_
+  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.Contains(AasxPackageExplorer.VisualElementGeneric)
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.Contains(AasxPackageExplorer.VisualElementGeneric)
+  nameWithType: DiplayVisualAasxElements.Contains(VisualElementGeneric)
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.Contains*
+  name: Contains
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_Contains_
+  commentId: Overload:AasxPackageExplorer.DiplayVisualAasxElements.Contains
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.Contains
+  nameWithType: DiplayVisualAasxElements.Contains
 - uid: AasxPackageExplorer.DiplayVisualAasxElements.DisableSelectedItemChanged
   name: DisableSelectedItemChanged()
   href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_DisableSelectedItemChanged
@@ -17921,6 +18375,41 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DiplayVisualAasxElements.FilterLeafsOfVisualElements
   nameWithType: DiplayVisualAasxElements.FilterLeafsOfVisualElements
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.FindAllVisualElement
+  name: FindAllVisualElement()
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_FindAllVisualElement
+  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.FindAllVisualElement
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.FindAllVisualElement()
+  nameWithType: DiplayVisualAasxElements.FindAllVisualElement()
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.FindAllVisualElement(System.Predicate{AasxPackageExplorer.VisualElementGeneric})
+  name: FindAllVisualElement(Predicate<VisualElementGeneric>)
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_FindAllVisualElement_System_Predicate_AasxPackageExplorer_VisualElementGeneric__
+  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.FindAllVisualElement(System.Predicate{AasxPackageExplorer.VisualElementGeneric})
+  name.vb: FindAllVisualElement(Predicate(Of VisualElementGeneric))
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.FindAllVisualElement(System.Predicate<AasxPackageExplorer.VisualElementGeneric>)
+  fullName.vb: AasxPackageExplorer.DiplayVisualAasxElements.FindAllVisualElement(System.Predicate(Of AasxPackageExplorer.VisualElementGeneric))
+  nameWithType: DiplayVisualAasxElements.FindAllVisualElement(Predicate<VisualElementGeneric>)
+  nameWithType.vb: DiplayVisualAasxElements.FindAllVisualElement(Predicate(Of VisualElementGeneric))
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.FindAllVisualElement*
+  name: FindAllVisualElement
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_FindAllVisualElement_
+  commentId: Overload:AasxPackageExplorer.DiplayVisualAasxElements.FindAllVisualElement
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.FindAllVisualElement
+  nameWithType: DiplayVisualAasxElements.FindAllVisualElement
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.GetDefaultVisualElement
+  name: GetDefaultVisualElement()
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_GetDefaultVisualElement
+  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.GetDefaultVisualElement
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.GetDefaultVisualElement()
+  nameWithType: DiplayVisualAasxElements.GetDefaultVisualElement()
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.GetDefaultVisualElement*
+  name: GetDefaultVisualElement
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_GetDefaultVisualElement_
+  commentId: Overload:AasxPackageExplorer.DiplayVisualAasxElements.GetDefaultVisualElement
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.GetDefaultVisualElement
+  nameWithType: DiplayVisualAasxElements.GetDefaultVisualElement
 - uid: AasxPackageExplorer.DiplayVisualAasxElements.MultiSelect
   name: MultiSelect
   href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_MultiSelect
@@ -17956,12 +18445,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DiplayVisualAasxElements.Refresh
   nameWithType: DiplayVisualAasxElements.Refresh
-- uid: AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object)
-  name: SearchVisualElementOnMainDataObject(Object)
-  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_SearchVisualElementOnMainDataObject_System_Object_
-  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object)
-  fullName: AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object)
-  nameWithType: DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(Object)
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object,System.Boolean)
+  name: SearchVisualElementOnMainDataObject(Object, Boolean)
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_SearchVisualElementOnMainDataObject_System_Object_System_Boolean_
+  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object,System.Boolean)
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object, System.Boolean)
+  nameWithType: DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(Object, Boolean)
 - uid: AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject*
   name: SearchVisualElementOnMainDataObject
   href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_SearchVisualElementOnMainDataObject_
@@ -20214,6 +20703,19 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.MainWindow.CommandBinding_ExportTable
   nameWithType: MainWindow.CommandBinding_ExportTable
+- uid: AasxPackageExplorer.MainWindow.CommandBinding_FileRepoAll(System.String)
+  name: CommandBinding_FileRepoAll(String)
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_CommandBinding_FileRepoAll_System_String_
+  commentId: M:AasxPackageExplorer.MainWindow.CommandBinding_FileRepoAll(System.String)
+  fullName: AasxPackageExplorer.MainWindow.CommandBinding_FileRepoAll(System.String)
+  nameWithType: MainWindow.CommandBinding_FileRepoAll(String)
+- uid: AasxPackageExplorer.MainWindow.CommandBinding_FileRepoAll*
+  name: CommandBinding_FileRepoAll
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_CommandBinding_FileRepoAll_
+  commentId: Overload:AasxPackageExplorer.MainWindow.CommandBinding_FileRepoAll
+  isSpec: "True"
+  fullName: AasxPackageExplorer.MainWindow.CommandBinding_FileRepoAll
+  nameWithType: MainWindow.CommandBinding_FileRepoAll
 - uid: AasxPackageExplorer.MainWindow.CommandBinding_GenerateRepo
   name: CommandBinding_GenerateRepo()
   href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_CommandBinding_GenerateRepo
@@ -20656,6 +21158,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.MainWindow.StartFlyoverModal
   nameWithType: MainWindow.StartFlyoverModal
+- uid: AasxPackageExplorer.MainWindow.theFileRepository
+  name: theFileRepository
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_theFileRepository
+  commentId: F:AasxPackageExplorer.MainWindow.theFileRepository
+  fullName: AasxPackageExplorer.MainWindow.theFileRepository
+  nameWithType: MainWindow.theFileRepository
 - uid: AasxPackageExplorer.MainWindow.thePackageAux
   name: thePackageAux
   href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_thePackageAux
@@ -20668,6 +21176,19 @@ references:
   commentId: F:AasxPackageExplorer.MainWindow.thePackageEnv
   fullName: AasxPackageExplorer.MainWindow.thePackageEnv
   nameWithType: MainWindow.thePackageEnv
+- uid: AasxPackageExplorer.MainWindow.UiLoadFileRepository(System.String)
+  name: UiLoadFileRepository(String)
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiLoadFileRepository_System_String_
+  commentId: M:AasxPackageExplorer.MainWindow.UiLoadFileRepository(System.String)
+  fullName: AasxPackageExplorer.MainWindow.UiLoadFileRepository(System.String)
+  nameWithType: MainWindow.UiLoadFileRepository(String)
+- uid: AasxPackageExplorer.MainWindow.UiLoadFileRepository*
+  name: UiLoadFileRepository
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiLoadFileRepository_
+  commentId: Overload:AasxPackageExplorer.MainWindow.UiLoadFileRepository
+  isSpec: "True"
+  fullName: AasxPackageExplorer.MainWindow.UiLoadFileRepository
+  nameWithType: MainWindow.UiLoadFileRepository
 - uid: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(AdminShellNS.AdminShellPackageEnv@,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean)
   name: UiLoadPackageWithNew(ref AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean)
   href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiLoadPackageWithNew_AdminShellNS_AdminShellPackageEnv__AdminShellNS_AdminShellPackageEnv_System_String_System_Boolean_
@@ -20684,6 +21205,19 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew
   nameWithType: MainWindow.UiLoadPackageWithNew
+- uid: AasxPackageExplorer.MainWindow.UiSetFileRepository(AasxPackageExplorer.AasxFileRepository)
+  name: UiSetFileRepository(AasxFileRepository)
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiSetFileRepository_AasxPackageExplorer_AasxFileRepository_
+  commentId: M:AasxPackageExplorer.MainWindow.UiSetFileRepository(AasxPackageExplorer.AasxFileRepository)
+  fullName: AasxPackageExplorer.MainWindow.UiSetFileRepository(AasxPackageExplorer.AasxFileRepository)
+  nameWithType: MainWindow.UiSetFileRepository(AasxFileRepository)
+- uid: AasxPackageExplorer.MainWindow.UiSetFileRepository*
+  name: UiSetFileRepository
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiSetFileRepository_
+  commentId: Overload:AasxPackageExplorer.MainWindow.UiSetFileRepository
+  isSpec: "True"
+  fullName: AasxPackageExplorer.MainWindow.UiSetFileRepository
+  nameWithType: MainWindow.UiSetFileRepository
 - uid: AasxPackageExplorer.MainWindow.WpfStringAddWrapChars(System.String)
   name: WpfStringAddWrapChars(String)
   href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_WpfStringAddWrapChars_System_String_
@@ -21084,6 +21618,12 @@ references:
   commentId: F:AasxPackageExplorer.OptionsInformation.InternalBrowser
   fullName: AasxPackageExplorer.OptionsInformation.InternalBrowser
   nameWithType: OptionsInformation.InternalBrowser
+- uid: AasxPackageExplorer.OptionsInformation.LoadWithoutPrompt
+  name: LoadWithoutPrompt
+  href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_LoadWithoutPrompt
+  commentId: F:AasxPackageExplorer.OptionsInformation.LoadWithoutPrompt
+  fullName: AasxPackageExplorer.OptionsInformation.LoadWithoutPrompt
+  nameWithType: OptionsInformation.LoadWithoutPrompt
 - uid: AasxPackageExplorer.OptionsInformation.LogoFile
   name: LogoFile
   href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_LogoFile
@@ -22353,12 +22893,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.SelectFromRepositoryFlyout.ControlStart
   nameWithType: SelectFromRepositoryFlyout.ControlStart
-- uid: AasxPackageExplorer.SelectFromRepositoryFlyout.LoadAasxRepoFile(System.String)
-  name: LoadAasxRepoFile(String)
-  href: api/AasxPackageExplorer.SelectFromRepositoryFlyout.html#AasxPackageExplorer_SelectFromRepositoryFlyout_LoadAasxRepoFile_System_String_
-  commentId: M:AasxPackageExplorer.SelectFromRepositoryFlyout.LoadAasxRepoFile(System.String)
-  fullName: AasxPackageExplorer.SelectFromRepositoryFlyout.LoadAasxRepoFile(System.String)
-  nameWithType: SelectFromRepositoryFlyout.LoadAasxRepoFile(String)
+- uid: AasxPackageExplorer.SelectFromRepositoryFlyout.LoadAasxRepoFile(System.String,AasxPackageExplorer.AasxFileRepository)
+  name: LoadAasxRepoFile(String, AasxFileRepository)
+  href: api/AasxPackageExplorer.SelectFromRepositoryFlyout.html#AasxPackageExplorer_SelectFromRepositoryFlyout_LoadAasxRepoFile_System_String_AasxPackageExplorer_AasxFileRepository_
+  commentId: M:AasxPackageExplorer.SelectFromRepositoryFlyout.LoadAasxRepoFile(System.String,AasxPackageExplorer.AasxFileRepository)
+  fullName: AasxPackageExplorer.SelectFromRepositoryFlyout.LoadAasxRepoFile(System.String, AasxPackageExplorer.AasxFileRepository)
+  nameWithType: SelectFromRepositoryFlyout.LoadAasxRepoFile(String, AasxFileRepository)
 - uid: AasxPackageExplorer.SelectFromRepositoryFlyout.LoadAasxRepoFile*
   name: LoadAasxRepoFile
   href: api/AasxPackageExplorer.SelectFromRepositoryFlyout.html#AasxPackageExplorer_SelectFromRepositoryFlyout_LoadAasxRepoFile_
@@ -22366,12 +22906,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.SelectFromRepositoryFlyout.LoadAasxRepoFile
   nameWithType: SelectFromRepositoryFlyout.LoadAasxRepoFile
-- uid: AasxPackageExplorer.SelectFromRepositoryFlyout.ResultFilename
-  name: ResultFilename
-  href: api/AasxPackageExplorer.SelectFromRepositoryFlyout.html#AasxPackageExplorer_SelectFromRepositoryFlyout_ResultFilename
-  commentId: F:AasxPackageExplorer.SelectFromRepositoryFlyout.ResultFilename
-  fullName: AasxPackageExplorer.SelectFromRepositoryFlyout.ResultFilename
-  nameWithType: SelectFromRepositoryFlyout.ResultFilename
+- uid: AasxPackageExplorer.SelectFromRepositoryFlyout.ResultItem
+  name: ResultItem
+  href: api/AasxPackageExplorer.SelectFromRepositoryFlyout.html#AasxPackageExplorer_SelectFromRepositoryFlyout_ResultItem
+  commentId: F:AasxPackageExplorer.SelectFromRepositoryFlyout.ResultItem
+  fullName: AasxPackageExplorer.SelectFromRepositoryFlyout.ResultItem
+  nameWithType: SelectFromRepositoryFlyout.ResultItem
 - uid: AasxPackageExplorer.SelectQualifierPresetFlyout
   name: SelectQualifierPresetFlyout
   href: api/AasxPackageExplorer.SelectQualifierPresetFlyout.html
@@ -23463,6 +24003,28 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.VisualElementGeneric.CollectListOfTopLevelNodes
   nameWithType: VisualElementGeneric.CollectListOfTopLevelNodes
+- uid: AasxPackageExplorer.VisualElementGeneric.FindAllParents(System.Boolean)
+  name: FindAllParents(Boolean)
+  href: api/AasxPackageExplorer.VisualElementGeneric.html#AasxPackageExplorer_VisualElementGeneric_FindAllParents_System_Boolean_
+  commentId: M:AasxPackageExplorer.VisualElementGeneric.FindAllParents(System.Boolean)
+  fullName: AasxPackageExplorer.VisualElementGeneric.FindAllParents(System.Boolean)
+  nameWithType: VisualElementGeneric.FindAllParents(Boolean)
+- uid: AasxPackageExplorer.VisualElementGeneric.FindAllParents(System.Predicate{AasxPackageExplorer.VisualElementGeneric},System.Boolean)
+  name: FindAllParents(Predicate<VisualElementGeneric>, Boolean)
+  href: api/AasxPackageExplorer.VisualElementGeneric.html#AasxPackageExplorer_VisualElementGeneric_FindAllParents_System_Predicate_AasxPackageExplorer_VisualElementGeneric__System_Boolean_
+  commentId: M:AasxPackageExplorer.VisualElementGeneric.FindAllParents(System.Predicate{AasxPackageExplorer.VisualElementGeneric},System.Boolean)
+  name.vb: FindAllParents(Predicate(Of VisualElementGeneric), Boolean)
+  fullName: AasxPackageExplorer.VisualElementGeneric.FindAllParents(System.Predicate<AasxPackageExplorer.VisualElementGeneric>, System.Boolean)
+  fullName.vb: AasxPackageExplorer.VisualElementGeneric.FindAllParents(System.Predicate(Of AasxPackageExplorer.VisualElementGeneric), System.Boolean)
+  nameWithType: VisualElementGeneric.FindAllParents(Predicate<VisualElementGeneric>, Boolean)
+  nameWithType.vb: VisualElementGeneric.FindAllParents(Predicate(Of VisualElementGeneric), Boolean)
+- uid: AasxPackageExplorer.VisualElementGeneric.FindAllParents*
+  name: FindAllParents
+  href: api/AasxPackageExplorer.VisualElementGeneric.html#AasxPackageExplorer_VisualElementGeneric_FindAllParents_
+  commentId: Overload:AasxPackageExplorer.VisualElementGeneric.FindAllParents
+  isSpec: "True"
+  fullName: AasxPackageExplorer.VisualElementGeneric.FindAllParents
+  nameWithType: VisualElementGeneric.FindAllParents
 - uid: AasxPackageExplorer.VisualElementGeneric.ForAllDescendents(System.Action{AasxPackageExplorer.VisualElementGeneric})
   name: ForAllDescendents(Action<VisualElementGeneric>)
   href: api/AasxPackageExplorer.VisualElementGeneric.html#AasxPackageExplorer_VisualElementGeneric_ForAllDescendents_System_Action_AasxPackageExplorer_VisualElementGeneric__
@@ -23743,6 +24305,43 @@ references:
   commentId: E:AasxPackageExplorer.VisualElementHistoryControl.VisualElementRequested
   fullName: AasxPackageExplorer.VisualElementHistoryControl.VisualElementRequested
   nameWithType: VisualElementHistoryControl.VisualElementRequested
+- uid: AasxPackageExplorer.VisualElementHistoryItem
+  name: VisualElementHistoryItem
+  href: api/AasxPackageExplorer.VisualElementHistoryItem.html
+  commentId: T:AasxPackageExplorer.VisualElementHistoryItem
+  fullName: AasxPackageExplorer.VisualElementHistoryItem
+  nameWithType: VisualElementHistoryItem
+- uid: AasxPackageExplorer.VisualElementHistoryItem.#ctor(AasxPackageExplorer.VisualElementGeneric,AdminShellNS.AdminShellV20.Identification,AdminShellNS.AdminShellV20.Reference)
+  name: VisualElementHistoryItem(VisualElementGeneric, AdminShellV20.Identification, AdminShellV20.Reference)
+  href: api/AasxPackageExplorer.VisualElementHistoryItem.html#AasxPackageExplorer_VisualElementHistoryItem__ctor_AasxPackageExplorer_VisualElementGeneric_AdminShellNS_AdminShellV20_Identification_AdminShellNS_AdminShellV20_Reference_
+  commentId: M:AasxPackageExplorer.VisualElementHistoryItem.#ctor(AasxPackageExplorer.VisualElementGeneric,AdminShellNS.AdminShellV20.Identification,AdminShellNS.AdminShellV20.Reference)
+  fullName: AasxPackageExplorer.VisualElementHistoryItem.VisualElementHistoryItem(AasxPackageExplorer.VisualElementGeneric, AdminShellNS.AdminShellV20.Identification, AdminShellNS.AdminShellV20.Reference)
+  nameWithType: VisualElementHistoryItem.VisualElementHistoryItem(VisualElementGeneric, AdminShellV20.Identification, AdminShellV20.Reference)
+- uid: AasxPackageExplorer.VisualElementHistoryItem.#ctor*
+  name: VisualElementHistoryItem
+  href: api/AasxPackageExplorer.VisualElementHistoryItem.html#AasxPackageExplorer_VisualElementHistoryItem__ctor_
+  commentId: Overload:AasxPackageExplorer.VisualElementHistoryItem.#ctor
+  isSpec: "True"
+  fullName: AasxPackageExplorer.VisualElementHistoryItem.VisualElementHistoryItem
+  nameWithType: VisualElementHistoryItem.VisualElementHistoryItem
+- uid: AasxPackageExplorer.VisualElementHistoryItem.ReferableAasId
+  name: ReferableAasId
+  href: api/AasxPackageExplorer.VisualElementHistoryItem.html#AasxPackageExplorer_VisualElementHistoryItem_ReferableAasId
+  commentId: F:AasxPackageExplorer.VisualElementHistoryItem.ReferableAasId
+  fullName: AasxPackageExplorer.VisualElementHistoryItem.ReferableAasId
+  nameWithType: VisualElementHistoryItem.ReferableAasId
+- uid: AasxPackageExplorer.VisualElementHistoryItem.ReferableReference
+  name: ReferableReference
+  href: api/AasxPackageExplorer.VisualElementHistoryItem.html#AasxPackageExplorer_VisualElementHistoryItem_ReferableReference
+  commentId: F:AasxPackageExplorer.VisualElementHistoryItem.ReferableReference
+  fullName: AasxPackageExplorer.VisualElementHistoryItem.ReferableReference
+  nameWithType: VisualElementHistoryItem.ReferableReference
+- uid: AasxPackageExplorer.VisualElementHistoryItem.VisualElement
+  name: VisualElement
+  href: api/AasxPackageExplorer.VisualElementHistoryItem.html#AasxPackageExplorer_VisualElementHistoryItem_VisualElement
+  commentId: F:AasxPackageExplorer.VisualElementHistoryItem.VisualElement
+  fullName: AasxPackageExplorer.VisualElementHistoryItem.VisualElement
+  nameWithType: VisualElementHistoryItem.VisualElement
 - uid: AasxPackageExplorer.VisualElementOperationVariable
   name: VisualElementOperationVariable
   href: api/AasxPackageExplorer.VisualElementOperationVariable.html
@@ -32568,6 +33167,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellUtil.EvalToNonNullString
   nameWithType: AdminShellUtil.EvalToNonNullString
+- uid: AdminShellNS.AdminShellUtil.ExtractPascalCasingLetters(System.String)
+  name: ExtractPascalCasingLetters(String)
+  href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_ExtractPascalCasingLetters_System_String_
+  commentId: M:AdminShellNS.AdminShellUtil.ExtractPascalCasingLetters(System.String)
+  fullName: AdminShellNS.AdminShellUtil.ExtractPascalCasingLetters(System.String)
+  nameWithType: AdminShellUtil.ExtractPascalCasingLetters(String)
+- uid: AdminShellNS.AdminShellUtil.ExtractPascalCasingLetters*
+  name: ExtractPascalCasingLetters
+  href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_ExtractPascalCasingLetters_
+  commentId: Overload:AdminShellNS.AdminShellUtil.ExtractPascalCasingLetters
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellUtil.ExtractPascalCasingLetters
+  nameWithType: AdminShellUtil.ExtractPascalCasingLetters
 - uid: AdminShellNS.AdminShellUtil.FilterFriendlyName(System.String)
   name: FilterFriendlyName(String)
   href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_FilterFriendlyName_System_String_
@@ -33694,6 +34306,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Asset.FindAllReferences
   nameWithType: AdminShellV20.Asset.FindAllReferences
+- uid: AdminShellNS.AdminShellV20.Asset.GetAssetReference
+  name: GetAssetReference()
+  href: api/AdminShellNS.AdminShellV20.Asset.html#AdminShellNS_AdminShellV20_Asset_GetAssetReference
+  commentId: M:AdminShellNS.AdminShellV20.Asset.GetAssetReference
+  fullName: AdminShellNS.AdminShellV20.Asset.GetAssetReference()
+  nameWithType: AdminShellV20.Asset.GetAssetReference()
+- uid: AdminShellNS.AdminShellV20.Asset.GetAssetReference*
+  name: GetAssetReference
+  href: api/AdminShellNS.AdminShellV20.Asset.html#AdminShellNS_AdminShellV20_Asset_GetAssetReference_
+  commentId: Overload:AdminShellNS.AdminShellV20.Asset.GetAssetReference
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Asset.GetAssetReference
+  nameWithType: AdminShellV20.Asset.GetAssetReference
 - uid: AdminShellNS.AdminShellV20.Asset.GetElementName
   name: GetElementName()
   href: api/AdminShellNS.AdminShellV20.Asset.html#AdminShellNS_AdminShellV20_Asset_GetElementName
@@ -34615,6 +35240,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.ConceptDescription.FindAllReferences
   nameWithType: AdminShellV20.ConceptDescription.FindAllReferences
+- uid: AdminShellNS.AdminShellV20.ConceptDescription.GetCdReference
+  name: GetCdReference()
+  href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_GetCdReference
+  commentId: M:AdminShellNS.AdminShellV20.ConceptDescription.GetCdReference
+  fullName: AdminShellNS.AdminShellV20.ConceptDescription.GetCdReference()
+  nameWithType: AdminShellV20.ConceptDescription.GetCdReference()
+- uid: AdminShellNS.AdminShellV20.ConceptDescription.GetCdReference*
+  name: GetCdReference
+  href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_GetCdReference_
+  commentId: Overload:AdminShellNS.AdminShellV20.ConceptDescription.GetCdReference
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.ConceptDescription.GetCdReference
+  nameWithType: AdminShellV20.ConceptDescription.GetCdReference
 - uid: AdminShellNS.AdminShellV20.ConceptDescription.GetData
   name: GetData()
   href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_GetData
@@ -35632,19 +36270,6 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.EmbeddedDataSpecification
   nameWithType: AdminShellV20.EmbeddedDataSpecification.EmbeddedDataSpecification
-- uid: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.CompatHasDataSpecification
-  name: CompatHasDataSpecification
-  href: api/AdminShellNS.AdminShellV20.EmbeddedDataSpecification.html#AdminShellNS_AdminShellV20_EmbeddedDataSpecification_CompatHasDataSpecification
-  commentId: P:AdminShellNS.AdminShellV20.EmbeddedDataSpecification.CompatHasDataSpecification
-  fullName: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.CompatHasDataSpecification
-  nameWithType: AdminShellV20.EmbeddedDataSpecification.CompatHasDataSpecification
-- uid: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.CompatHasDataSpecification*
-  name: CompatHasDataSpecification
-  href: api/AdminShellNS.AdminShellV20.EmbeddedDataSpecification.html#AdminShellNS_AdminShellV20_EmbeddedDataSpecification_CompatHasDataSpecification_
-  commentId: Overload:AdminShellNS.AdminShellV20.EmbeddedDataSpecification.CompatHasDataSpecification
-  isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.CompatHasDataSpecification
-  nameWithType: AdminShellV20.EmbeddedDataSpecification.CompatHasDataSpecification
 - uid: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.CreateIEC61360WithContent
   name: CreateIEC61360WithContent()
   href: api/AdminShellNS.AdminShellV20.EmbeddedDataSpecification.html#AdminShellNS_AdminShellV20_EmbeddedDataSpecification_CreateIEC61360WithContent
@@ -36573,6 +37198,12 @@ references:
   commentId: F:AdminShellNS.AdminShellV20.Key.FragmentId
   fullName: AdminShellNS.AdminShellV20.Key.FragmentId
   nameWithType: AdminShellV20.Key.FragmentId
+- uid: AdminShellNS.AdminShellV20.Key.FragmentReference
+  name: FragmentReference
+  href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_FragmentReference
+  commentId: F:AdminShellNS.AdminShellV20.Key.FragmentReference
+  fullName: AdminShellNS.AdminShellV20.Key.FragmentReference
+  nameWithType: AdminShellV20.Key.FragmentReference
 - uid: AdminShellNS.AdminShellV20.Key.GetFromRef(AdminShellNS.AdminShellV20.Reference)
   name: GetFromRef(AdminShellV20.Reference)
   href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_GetFromRef_AdminShellNS_AdminShellV20_Reference_
@@ -36671,18 +37302,6 @@ references:
   commentId: F:AdminShellNS.AdminShellV20.Key.index
   fullName: AdminShellNS.AdminShellV20.Key.index
   nameWithType: AdminShellV20.Key.index
-- uid: AdminShellNS.AdminShellV20.Key.IRDI
-  name: IRDI
-  href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_IRDI
-  commentId: F:AdminShellNS.AdminShellV20.Key.IRDI
-  fullName: AdminShellNS.AdminShellV20.Key.IRDI
-  nameWithType: AdminShellV20.Key.IRDI
-- uid: AdminShellNS.AdminShellV20.Key.IRI
-  name: IRI
-  href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_IRI
-  commentId: F:AdminShellNS.AdminShellV20.Key.IRI
-  fullName: AdminShellNS.AdminShellV20.Key.IRI
-  nameWithType: AdminShellV20.Key.IRI
 - uid: AdminShellNS.AdminShellV20.Key.IsInKeyElements(System.String)
   name: IsInKeyElements(String)
   href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_IsInKeyElements_System_String_
