@@ -94,18 +94,21 @@ the feature branch in your forked repository. See <a href="https://help.github.c
 <p><strong>Continuous Integration</strong>. Github will run the continuous integration (CI) automatically through Github
 actions. The CI includes building the solution, running the test, inspecting
 the code <em>etc.</em> (see below the section &quot;Pre-merge Checks&quot;).</p>
-<p>Please note that running the Github actions consumes limited resources (we have only 2,000 minutes
-per month available for CI on our current Github plan). You can manually disable workflows
-by appending the following lines to the body of the pull request:</p>
+<p>Please note that running the Github actions consumes computational resources
+which is often unnecessary if you are certain that some checks are not needed.
+For example, there is no need to build the whole solution if you only make a
+minor change in a powershell Script unrelated to building.
+You can manually disable workflows by appending the following lines
+to the body of the pull request (corresponding to which checks you want to
+disable):</p>
 <ul>
 <li><code>The workflow build-test-inspect was intentionally skipped.</code></li>
 <li><code>The workflow check-style was intentionally skipped.</code></li>
 <li><code>The workflow check-release was intentionally skipped.</code></li>
 </ul>
-<p>For an example, see <a href="https://github.com/admin-shell-io/aasx-package-explorer/pull/94">this pull request</a>.</p>
 <h2 id="commit-messages">Commit Messages</h2>
 <p>The commit messages follow the guidelines from
-from <a href="https://chris.beams.io/posts/git-commit">https://chris.beams.io/posts/git-commit</a>:</p>
+<a href="https://chris.beams.io/posts/git-commit">https://chris.beams.io/posts/git-commit</a>:</p>
 <ul>
 <li>Separate subject from body with a blank line</li>
 <li>Limit the subject line to 50 characters</li>
@@ -116,6 +119,17 @@ from <a href="https://chris.beams.io/posts/git-commit">https://chris.beams.io/po
 <li>Use the body to explain <em>what</em> and <em>why</em> (instead of <em>how</em>)</li>
 </ul>
 <p>We automatically check the commit messages using <a href="https://github.com/mristin/opinionated-commit-message">opinionated-commit-message</a>.</p>
+<p>Here is an example commit message (from <a href="https://github.com/admin-shell-io/aasx-package-explorer/pull/208">this pull request</a>):</p>
+<pre><code>Make DownloadSamples.ps1 use default proxy
+
+Using the default proxy is necessary so that DownloadSamples.ps1 can
+operate on enterprise networks which restrict the network traffic
+through the proxy.
+
+The workflow build-test-inspect was intentionally skipped.
+The workflow check-style was intentionally skipped.
+The workflow check-release was intentionally skipped.
+</code></pre>
 <h2 id="large-binary-files">Large Binary Files</h2>
 <p>We use Git Large File Support (LFS) to handle binary files. Please do not forget
 to install Git-Lfs (<a href="https://git-lfs.github.com">https://git-lfs.github.com</a>) on your computer.</p>
