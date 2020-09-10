@@ -17437,12 +17437,12 @@ references:
   commentId: F:AasxOpenIdClient.OpenIDClient.outputDir
   fullName: AasxOpenIdClient.OpenIDClient.outputDir
   nameWithType: OpenIDClient.outputDir
-- uid: AasxOpenIdClient.OpenIDClient.Run(System.String,System.String)
-  name: Run(String, String)
-  href: api/AasxOpenIdClient.OpenIDClient.html#AasxOpenIdClient_OpenIDClient_Run_System_String_System_String_
-  commentId: M:AasxOpenIdClient.OpenIDClient.Run(System.String,System.String)
-  fullName: AasxOpenIdClient.OpenIDClient.Run(System.String, System.String)
-  nameWithType: OpenIDClient.Run(String, String)
+- uid: AasxOpenIdClient.OpenIDClient.Run(System.String,System.String,AasxIntegrationBase.IFlyoutProvider)
+  name: Run(String, String, IFlyoutProvider)
+  href: api/AasxOpenIdClient.OpenIDClient.html#AasxOpenIdClient_OpenIDClient_Run_System_String_System_String_AasxIntegrationBase_IFlyoutProvider_
+  commentId: M:AasxOpenIdClient.OpenIDClient.Run(System.String,System.String,AasxIntegrationBase.IFlyoutProvider)
+  fullName: AasxOpenIdClient.OpenIDClient.Run(System.String, System.String, AasxIntegrationBase.IFlyoutProvider)
+  nameWithType: OpenIDClient.Run(String, String, IFlyoutProvider)
 - uid: AasxOpenIdClient.OpenIDClient.Run*
   name: Run
   href: api/AasxOpenIdClient.OpenIDClient.html#AasxOpenIdClient_OpenIDClient_Run_
