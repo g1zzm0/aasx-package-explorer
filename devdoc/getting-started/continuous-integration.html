@@ -82,18 +82,40 @@
 <p>To establish confidence in the software as well as to continuously maintain
 the code quality, we provide scripts to run pre-merge checks on your local
 machine as well as Github workflows to run remotely.</p>
-<h2 id="running-checks-locally">Running Checks Locally</h2>
-<p>To run all the checks:</p>
-<pre><code class="lang-powershell">.src\Check.ps1
+<p>All the following scripts <em>should not</em> require any administration privilege.</p>
+<h2 id="building-for-debug">Building for Debug</h2>
+<p>To build the solution for debugging and testing, invoke:</p>
+<pre><code class="lang-powershell">.\src\BuildForDebug.ps1
 </code></pre>
-<p>To format the code in-place with <code>dotnet-format</code>:</p>
+<p>To clean the build, call:</p>
+<pre><code class="lang-powershell">.\src\BuildForDebug.ps1 -clean
+</code></pre>
+<h2 id="reformatting-code">Reformatting Code</h2>
+<p>We use <code>dontet-format</code> to automatically fix the formatting of
+the code to comply with the style guideline. To reformat the code in-place,
+call:</p>
 <pre><code class="lang-powershell">.\src\FormatCode.ps1
 </code></pre>
+<h2 id="generate-doctests">Generate Doctests</h2>
 <p>We use <a href="https://github.com/mristin/doctest-csharp">doctest-csharp</a> for <a href="https://en.wikipedia.org/wiki/Doctest">doctests</a>. To extract the doctests and generate
 the corresponding unit tests:</p>
 <pre><code class="lang-powershell">.\src\Doctest.ps1
 </code></pre>
-<p>To run all the unit tests:</p>
+<h2 id="licenses">Licenses</h2>
+<p>We maintain one file listing all the copyrights and licenses, <code>LICENSE.txt</code>.
+This license file needs to be replicated in each of the solution projects.</p>
+<p>If there are changes to <code>LICENSE.txt</code>, propagate it to the projects by calling
+the following script:</p>
+<p><code>.\src\CopyLicenses.txt</code></p>
+<h2 id="running-checks-locally">Running Checks Locally</h2>
+<p>We wrote the checks in separate scripts (<em>e.g.</em>, <code>src\CheckFormat.ps1</code>) and
+bundled them in one script, <code>src\Check.ps1</code>. If you want to run all the checks,
+simply call:</p>
+<pre><code class="lang-powershell">.\src\Check.ps1
+</code></pre>
+<p>The script <code>src\Check.ps1</code> will inform you which individual scripts were run. In
+case of failures, you can just run the last failing script.</p>
+<p>For example, if you only want to run the unit tests, call:</p>
 <pre><code class="lang-powershell">.\src\Test.ps1
 </code></pre>
 <h2 id="github-workflows">Github Workflows</h2>

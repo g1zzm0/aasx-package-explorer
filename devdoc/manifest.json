@@ -8198,23 +8198,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "getting-started/building-the-solution.md",
-      "output": {
-        ".html": {
-          "relative_path": "getting-started/building-the-solution.html",
-          "hash": "qN7bDJXKe2qhDu2q0vedAA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "getting-started/continuous-integration.md",
       "output": {
         ".html": {
           "relative_path": "getting-started/continuous-integration.html",
-          "hash": "iDKaAYkmEBXfSxK2J8g7bw=="
+          "hash": "xgyeJ8jrDHLMoLEsZqCJxw=="
         }
       },
       "is_incremental": false,
@@ -8226,7 +8214,19 @@
       "output": {
         ".html": {
           "relative_path": "getting-started/development-workflow.html",
-          "hash": "AcGWnuVpK+0357ZKHyypPQ=="
+          "hash": "JgCJa7wjafbKK7DG9BLroQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started/installing-the-dependencies.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started/installing-the-dependencies.html",
+          "hash": "Vp13jEhc7B1SbC3+FZMDYg=="
         }
       },
       "is_incremental": false,
@@ -8238,7 +8238,7 @@
       "output": {
         ".html": {
           "relative_path": "getting-started/intro.html",
-          "hash": "97ze2OUPIg9KEVi8ObxZlg=="
+          "hash": "ih4IVy9Z2ZTQjryCySzFFA=="
         }
       },
       "is_incremental": false,
@@ -8250,7 +8250,7 @@
       "output": {
         ".html": {
           "relative_path": "getting-started/licenses-and-copyrights.html",
-          "hash": "A6oJU1v/XEpawtOP3iqKpA=="
+          "hash": "lj4I/4mIiIutONjqNjgi5A=="
         }
       },
       "is_incremental": false,
@@ -8269,12 +8269,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Toc",
       "source_relative_path": "getting-started/toc.yml",
       "output": {
         ".html": {
           "relative_path": "getting-started/toc.html",
-          "hash": "4aFAj1DP8hTvD2B7fYBZRA=="
+          "hash": "9xdIcFs9WhN6OBwitBXuiA=="
         }
       },
       "is_incremental": false,

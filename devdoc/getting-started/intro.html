@@ -82,6 +82,113 @@
 <p>This series of articles help you set up and build the solution,
 explain you how to test and check your code contribution and
 finally how to properly submit it.</p>
+<p>If you don't like reading the documentation, just want to take a deep dive and
+start contributing, the following section &quot;Quick Start&quot; gives you a brief
+overview of how you can get your code in.</p>
+<h2 id="quick-start">Quick Start</h2>
+<p>This is a brief list of steps explaining how to submit your code contribution.</p>
+<h3 id="development-tools">Development Tools</h3>
+<ul>
+<li>Install the IDE of your choice, <em>e.g.</em>,
+<a href="https://visualstudio.microsoft.com/de/vs/community/">Visual Studio 2019 Community Edition</a>.</li>
+</ul>
+<h3 id="create-a-feature-branch">Create a feature branch</h3>
+<p><strong>If you are a member of <a href="https://github.com/admin-shell-io">admin-shell-io GitHub organization</a></strong>:</p>
+<ul>
+<li><p>Clone the Git repository:</p>
+<pre><code>git clone https://github.com/admin-shell-io/aasx-package-explorer
+</code></pre>
+</li>
+<li><p>Create your feature branch:</p>
+<pre><code>git checkout -b yourUsername/Add-some-new-feature
+</code></pre>
+<p>Please observe <a href="https://admin-shell-io.github.io/aasx-package-explorer/devdoc/getting-started/development-workflow.html#pull-requests">our guideline to naming the branches</a>
+(<code>{your-username}/{Describe-subject-of-the-commit}</code>).</p>
+</li>
+</ul>
+<p><strong>Otherwise</strong>:</p>
+<ul>
+<li><p>Make the fork of your repository (see <a href="https://guides.github.com/activities/forking/">this GitHub guide</a>)</p>
+</li>
+<li><p>Clone the Git repository:</p>
+<pre><code>git clone https://github.com/yourUsername/aasx-package-explorer
+</code></pre>
+</li>
+<li><p>Create your feature branch:</p>
+<pre><code>git checkout -b yourUsername/Add-some-new-feature
+</code></pre>
+</li>
+</ul>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li><p>Change to the directory of your repository. Execute in Powershell:</p>
+<pre><code>.\src\InstallSolutionDependencies.ps1
+</code></pre>
+</li>
+</ul>
+<h3 id="write-your-code">Write Your Code</h3>
+<ul>
+<li>Make your code changes.</li>
+<li>Do not forget to implement unit tests.</li>
+</ul>
+<h3 id="commit--push">Commit &amp; Push</h3>
+<ul>
+<li><p>Format your code to conform to the style guide:</p>
+<pre><code>.\src\FormatCode.ps1
+</code></pre>
+</li>
+<li><p>Add files that you would like in your pull request:</p>
+<pre><code>git add src/AasxSomeProject/SomeFile.cs
+</code></pre>
+</li>
+<li><p>Commit locally:</p>
+<pre><code>git commit
+</code></pre>
+<p>Please observe our <a href="https://admin-shell-io.github.io/aasx-package-explorer/devdoc/getting-started/development-workflow.html#commit-messages">guideline related to commit messages</a>:</p>
+<ol>
+<li>First line is a subject, max. 50 characters, starts with a verb in
+imperative mood</li>
+<li>Empty line</li>
+<li>Body, max. line width 72 characters, must not start with the first word of
+the subject</li>
+</ol>
+</li>
+<li><p>Run the pre-commit checks and make sure they all pass:</p>
+<pre><code>.\src\Check.ps1
+</code></pre>
+</li>
+<li><p>If needed, change your commit message:</p>
+<pre><code>git commit --amend
+</code></pre>
+</li>
+<li><p>Set the upstream of your branch:</p>
+<pre><code>git branch --set-upstream-to origin/yourUsername/Add-some-new-feature
+</code></pre>
+</li>
+<li><p>Push your changes:</p>
+<pre><code>git push
+</code></pre>
+</li>
+</ul>
+<h3 id="pull-request">Pull Request</h3>
+<ul>
+<li>Go to the <a href="https://github.com/admin-shell-io/aasx-package-explorer">aasx-package-explorer GitHub Repository</a> and
+create the pull request in the web interface.</li>
+<li>Have it reviewed, if necessary</li>
+<li>Make sure all the remote checks pass</li>
+<li>Sign Contributor License Agreement (CLA) on the page of your pull request.
+This needs to be done only once.</li>
+</ul>
+<h3 id="merge">Merge</h3>
+<p><strong>If you are a member of <a href="https://github.com/admin-shell-io">admin-shell-io GitHub organization</a></strong>:</p>
+<ul>
+<li>Squash &amp; Merge (see
+<a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request">this section of the GitHub documentation</a>)</li>
+</ul>
+<p><strong>Otherwise</strong>:</p>
+<ul>
+<li>Ask somebody from the organization to squash &amp; merge the pull request for you</li>
+</ul>
 </article>
           </div>
           
