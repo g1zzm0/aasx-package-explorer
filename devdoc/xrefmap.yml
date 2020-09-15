@@ -15436,6 +15436,18 @@ references:
   commentId: F:AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.filterEntities
   fullName: AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.filterEntities
   nameWithType: AasxPluginResultEventSelectAasEntity.filterEntities
+- uid: AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.showAuxPackage
+  name: showAuxPackage
+  href: api/AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.html#AasxIntegrationBase_AasxPluginResultEventSelectAasEntity_showAuxPackage
+  commentId: F:AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.showAuxPackage
+  fullName: AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.showAuxPackage
+  nameWithType: AasxPluginResultEventSelectAasEntity.showAuxPackage
+- uid: AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.showRepoFiles
+  name: showRepoFiles
+  href: api/AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.html#AasxIntegrationBase_AasxPluginResultEventSelectAasEntity_showRepoFiles
+  commentId: F:AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.showRepoFiles
+  fullName: AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.showRepoFiles
+  nameWithType: AasxPluginResultEventSelectAasEntity.showRepoFiles
 - uid: AasxIntegrationBase.AasxPluginResultLicense
   name: AasxPluginResultLicense
   href: api/AasxIntegrationBase.AasxPluginResultLicense.html
@@ -15558,45 +15570,6 @@ references:
   commentId: F:AasxIntegrationBase.AasxWpfBaseUtils.BrightPrintColors
   fullName: AasxIntegrationBase.AasxWpfBaseUtils.BrightPrintColors
   nameWithType: AasxWpfBaseUtils.BrightPrintColors
-- uid: AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringToArray(System.String)
-  name: CleanHereStringToArray(String)
-  href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_CleanHereStringToArray_System_String_
-  commentId: M:AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringToArray(System.String)
-  fullName: AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringToArray(System.String)
-  nameWithType: AasxWpfBaseUtils.CleanHereStringToArray(String)
-- uid: AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringToArray*
-  name: CleanHereStringToArray
-  href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_CleanHereStringToArray_
-  commentId: Overload:AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringToArray
-  isSpec: "True"
-  fullName: AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringToArray
-  nameWithType: AasxWpfBaseUtils.CleanHereStringToArray
-- uid: AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringWithNewlines(System.String,System.String)
-  name: CleanHereStringWithNewlines(String, String)
-  href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_CleanHereStringWithNewlines_System_String_System_String_
-  commentId: M:AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringWithNewlines(System.String,System.String)
-  fullName: AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringWithNewlines(System.String, System.String)
-  nameWithType: AasxWpfBaseUtils.CleanHereStringWithNewlines(String, String)
-- uid: AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringWithNewlines*
-  name: CleanHereStringWithNewlines
-  href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_CleanHereStringWithNewlines_
-  commentId: Overload:AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringWithNewlines
-  isSpec: "True"
-  fullName: AasxIntegrationBase.AasxWpfBaseUtils.CleanHereStringWithNewlines
-  nameWithType: AasxWpfBaseUtils.CleanHereStringWithNewlines
-- uid: AasxIntegrationBase.AasxWpfBaseUtils.CountHeadingSpaces(System.String)
-  name: CountHeadingSpaces(String)
-  href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_CountHeadingSpaces_System_String_
-  commentId: M:AasxIntegrationBase.AasxWpfBaseUtils.CountHeadingSpaces(System.String)
-  fullName: AasxIntegrationBase.AasxWpfBaseUtils.CountHeadingSpaces(System.String)
-  nameWithType: AasxWpfBaseUtils.CountHeadingSpaces(String)
-- uid: AasxIntegrationBase.AasxWpfBaseUtils.CountHeadingSpaces*
-  name: CountHeadingSpaces
-  href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_CountHeadingSpaces_
-  commentId: Overload:AasxIntegrationBase.AasxWpfBaseUtils.CountHeadingSpaces
-  isSpec: "True"
-  fullName: AasxIntegrationBase.AasxWpfBaseUtils.CountHeadingSpaces
-  nameWithType: AasxWpfBaseUtils.CountHeadingSpaces
 - uid: AasxIntegrationBase.AasxWpfBaseUtils.DarkPrintColors
   name: DarkPrintColors
   href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_DarkPrintColors
@@ -17911,6 +17884,19 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.AasxFileRepository.MakeFilenamesRelative
   nameWithType: AasxFileRepository.MakeFilenamesRelative
+- uid: AasxPackageExplorer.AasxFileRepository.MakeUpFakePackage
+  name: MakeUpFakePackage()
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_MakeUpFakePackage
+  commentId: M:AasxPackageExplorer.AasxFileRepository.MakeUpFakePackage
+  fullName: AasxPackageExplorer.AasxFileRepository.MakeUpFakePackage()
+  nameWithType: AasxFileRepository.MakeUpFakePackage()
+- uid: AasxPackageExplorer.AasxFileRepository.MakeUpFakePackage*
+  name: MakeUpFakePackage
+  href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_MakeUpFakePackage_
+  commentId: Overload:AasxPackageExplorer.AasxFileRepository.MakeUpFakePackage
+  isSpec: "True"
+  fullName: AasxPackageExplorer.AasxFileRepository.MakeUpFakePackage
+  nameWithType: AasxFileRepository.MakeUpFakePackage
 - uid: AasxPackageExplorer.AasxFileRepository.MoveDown(AasxPackageExplorer.AasxFileRepository.FileItem)
   name: MoveDown(AasxFileRepository.FileItem)
   href: api/AasxPackageExplorer.AasxFileRepository.html#AasxPackageExplorer_AasxFileRepository_MoveDown_AasxPackageExplorer_AasxFileRepository_FileItem_
@@ -18917,15 +18903,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperBasics.AddHintBubble
   nameWithType: DispEditHelperBasics.AddHintBubble
-- uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.String[],AdminShellNS.AdminShellV20.Key[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction)
-  name: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String[], AdminShellV20.Key[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction)
-  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyListKeys_System_Windows_Controls_StackPanel_System_String_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_AdminShellNS_AdminShellPackageEnv_System_String_System_Boolean_System_String___AdminShellNS_AdminShellV20_Key___System_Func_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_LambdaAction__AasxPackageExplorer_ModifyRepo_LambdaAction_
-  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.String[],AdminShellNS.AdminShellV20.Key[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction)
-  name.vb: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String(), AdminShellV20.Key(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction)
-  fullName: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.String[], AdminShellNS.AdminShellV20.Key[], System.Func<AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction>, AasxPackageExplorer.ModifyRepo.LambdaAction)
-  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.String(), AdminShellNS.AdminShellV20.Key(), System.Func(Of AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction), AasxPackageExplorer.ModifyRepo.LambdaAction)
-  nameWithType: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String[], AdminShellV20.Key[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction)
-  nameWithType.vb: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String(), AdminShellV20.Key(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction)
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.String[],AdminShellNS.AdminShellV20.Key[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction,AdminShellNS.AdminShellPackageEnv[])
+  name: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String[], AdminShellV20.Key[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction, AdminShellPackageEnv[])
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyListKeys_System_Windows_Controls_StackPanel_System_String_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_AdminShellNS_AdminShellPackageEnv_System_String_System_Boolean_System_String___AdminShellNS_AdminShellV20_Key___System_Func_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_LambdaAction__AasxPackageExplorer_ModifyRepo_LambdaAction_AdminShellNS_AdminShellPackageEnv___
+  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.String[],AdminShellNS.AdminShellV20.Key[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction,AdminShellNS.AdminShellPackageEnv[])
+  name.vb: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String(), AdminShellV20.Key(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction, AdminShellPackageEnv())
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.String[], AdminShellNS.AdminShellV20.Key[], System.Func<AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction>, AasxPackageExplorer.ModifyRepo.LambdaAction, AdminShellNS.AdminShellPackageEnv[])
+  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.String(), AdminShellNS.AdminShellV20.Key(), System.Func(Of AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction), AasxPackageExplorer.ModifyRepo.LambdaAction, AdminShellNS.AdminShellPackageEnv())
+  nameWithType: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String[], AdminShellV20.Key[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction, AdminShellPackageEnv[])
+  nameWithType.vb: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String(), AdminShellV20.Key(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction, AdminShellPackageEnv())
 - uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys*
   name: AddKeyListKeys
   href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyListKeys_
@@ -27088,6 +27074,19 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.AasxDefinitionBase.BuildLibrary
   nameWithType: AasxDefinitionBase.BuildLibrary
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.CreateSparseConceptDescription(System.String,System.String,System.String,System.String,System.String,AdminShellNS.AdminShellV20.Reference)
+  name: CreateSparseConceptDescription(String, String, String, String, String, AdminShellV20.Reference)
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_CreateSparseConceptDescription_System_String_System_String_System_String_System_String_System_String_AdminShellNS_AdminShellV20_Reference_
+  commentId: M:AasxPredefinedConcepts.AasxDefinitionBase.CreateSparseConceptDescription(System.String,System.String,System.String,System.String,System.String,AdminShellNS.AdminShellV20.Reference)
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.CreateSparseConceptDescription(System.String, System.String, System.String, System.String, System.String, AdminShellNS.AdminShellV20.Reference)
+  nameWithType: AasxDefinitionBase.CreateSparseConceptDescription(String, String, String, String, String, AdminShellV20.Reference)
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.CreateSparseConceptDescription*
+  name: CreateSparseConceptDescription
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_CreateSparseConceptDescription_
+  commentId: Overload:AasxPredefinedConcepts.AasxDefinitionBase.CreateSparseConceptDescription
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.CreateSparseConceptDescription
+  nameWithType: AasxDefinitionBase.CreateSparseConceptDescription
 - uid: AasxPredefinedConcepts.AasxDefinitionBase.LibraryEntry
   name: AasxDefinitionBase.LibraryEntry
   href: api/AasxPredefinedConcepts.AasxDefinitionBase.LibraryEntry.html
@@ -27438,6 +27437,91 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ExecuteOffer
   nameWithType: ConvertTechnicalDataToFlatProvider.ExecuteOffer
+- uid: AasxPredefinedConcepts.DefinitionsExperimental
+  name: DefinitionsExperimental
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.html
+  commentId: T:AasxPredefinedConcepts.DefinitionsExperimental
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental
+  nameWithType: DefinitionsExperimental
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations
+  name: DefinitionsExperimental.InteropRelations
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html
+  commentId: T:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations
+  nameWithType: DefinitionsExperimental.InteropRelations
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.#ctor(AasxPredefinedConcepts.AasxDefinitionBase)
+  name: InteropRelations(AasxDefinitionBase)
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations__ctor_AasxPredefinedConcepts_AasxDefinitionBase_
+  commentId: M:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.#ctor(AasxPredefinedConcepts.AasxDefinitionBase)
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.InteropRelations(AasxPredefinedConcepts.AasxDefinitionBase)
+  nameWithType: DefinitionsExperimental.InteropRelations.InteropRelations(AasxDefinitionBase)
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.#ctor*
+  name: InteropRelations
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations__ctor_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.InteropRelations
+  nameWithType: DefinitionsExperimental.InteropRelations.InteropRelations
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_ConnectorTubePipe
+  name: CD_ConnectorTubePipe
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations_CD_ConnectorTubePipe
+  commentId: F:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_ConnectorTubePipe
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_ConnectorTubePipe
+  nameWithType: DefinitionsExperimental.InteropRelations.CD_ConnectorTubePipe
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_ElectricSinglePoleConnection
+  name: CD_ElectricSinglePoleConnection
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations_CD_ElectricSinglePoleConnection
+  commentId: F:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_ElectricSinglePoleConnection
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_ElectricSinglePoleConnection
+  nameWithType: DefinitionsExperimental.InteropRelations.CD_ElectricSinglePoleConnection
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_EntityOfElectricalEngineering
+  name: CD_EntityOfElectricalEngineering
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations_CD_EntityOfElectricalEngineering
+  commentId: F:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_EntityOfElectricalEngineering
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_EntityOfElectricalEngineering
+  nameWithType: DefinitionsExperimental.InteropRelations.CD_EntityOfElectricalEngineering
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_EntityOfFluidicEngineering
+  name: CD_EntityOfFluidicEngineering
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations_CD_EntityOfFluidicEngineering
+  commentId: F:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_EntityOfFluidicEngineering
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_EntityOfFluidicEngineering
+  nameWithType: DefinitionsExperimental.InteropRelations.CD_EntityOfFluidicEngineering
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_FileToEntity
+  name: CD_FileToEntity
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations_CD_FileToEntity
+  commentId: F:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_FileToEntity
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_FileToEntity
+  nameWithType: DefinitionsExperimental.InteropRelations.CD_FileToEntity
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_FileToNavigateElement
+  name: CD_FileToNavigateElement
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations_CD_FileToNavigateElement
+  commentId: F:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_FileToNavigateElement
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_FileToNavigateElement
+  nameWithType: DefinitionsExperimental.InteropRelations.CD_FileToNavigateElement
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_IsPartOfForBOM
+  name: CD_IsPartOfForBOM
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations_CD_IsPartOfForBOM
+  commentId: F:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_IsPartOfForBOM
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_IsPartOfForBOM
+  nameWithType: DefinitionsExperimental.InteropRelations.CD_IsPartOfForBOM
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_TubePipeConnection
+  name: CD_TubePipeConnection
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations_CD_TubePipeConnection
+  commentId: F:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_TubePipeConnection
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_TubePipeConnection
+  nameWithType: DefinitionsExperimental.InteropRelations.CD_TubePipeConnection
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_TubePipeConnectionHydraulic
+  name: CD_TubePipeConnectionHydraulic
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations_CD_TubePipeConnectionHydraulic
+  commentId: F:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_TubePipeConnectionHydraulic
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_TubePipeConnectionHydraulic
+  nameWithType: DefinitionsExperimental.InteropRelations.CD_TubePipeConnectionHydraulic
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_TubePipeConnectionPneumatic
+  name: CD_TubePipeConnectionPneumatic
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations_CD_TubePipeConnectionPneumatic
+  commentId: F:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_TubePipeConnectionPneumatic
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.CD_TubePipeConnectionPneumatic
+  nameWithType: DefinitionsExperimental.InteropRelations.CD_TubePipeConnectionPneumatic
 - uid: AasxPredefinedConcepts.DefinitionsLanguages
   name: DefinitionsLanguages
   href: api/AasxPredefinedConcepts.DefinitionsLanguages.html
@@ -27450,6 +27534,73 @@ references:
   commentId: F:AasxPredefinedConcepts.DefinitionsLanguages.DefaultLanguages
   fullName: AasxPredefinedConcepts.DefinitionsLanguages.DefaultLanguages
   nameWithType: DefinitionsLanguages.DefaultLanguages
+- uid: AasxPredefinedConcepts.DefinitionsMTP
+  name: DefinitionsMTP
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.html
+  commentId: T:AasxPredefinedConcepts.DefinitionsMTP
+  fullName: AasxPredefinedConcepts.DefinitionsMTP
+  nameWithType: DefinitionsMTP
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage
+  name: DefinitionsMTP.ModuleTypePackage
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html
+  commentId: T:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage
+  nameWithType: DefinitionsMTP.ModuleTypePackage
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.#ctor(AasxPredefinedConcepts.AasxDefinitionBase)
+  name: ModuleTypePackage(AasxDefinitionBase)
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage__ctor_AasxPredefinedConcepts_AasxDefinitionBase_
+  commentId: M:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.#ctor(AasxPredefinedConcepts.AasxDefinitionBase)
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.ModuleTypePackage(AasxPredefinedConcepts.AasxDefinitionBase)
+  nameWithType: DefinitionsMTP.ModuleTypePackage.ModuleTypePackage(AasxDefinitionBase)
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.#ctor*
+  name: ModuleTypePackage
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage__ctor_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.ModuleTypePackage
+  nameWithType: DefinitionsMTP.ModuleTypePackage.ModuleTypePackage
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_Endpoint
+  name: CD_Endpoint
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_Endpoint
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_Endpoint
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_Endpoint
+  nameWithType: DefinitionsMTP.ModuleTypePackage.CD_Endpoint
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_MtpFile
+  name: CD_MtpFile
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_MtpFile
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_MtpFile
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_MtpFile
+  nameWithType: DefinitionsMTP.ModuleTypePackage.CD_MtpFile
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_MtpTypeSubmodel
+  name: CD_MtpTypeSubmodel
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_MtpTypeSubmodel
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_MtpTypeSubmodel
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_MtpTypeSubmodel
+  nameWithType: DefinitionsMTP.ModuleTypePackage.CD_MtpTypeSubmodel
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_SourceList
+  name: CD_SourceList
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_SourceList
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_SourceList
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_SourceList
+  nameWithType: DefinitionsMTP.ModuleTypePackage.CD_SourceList
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_SourceOpcUaServer
+  name: CD_SourceOpcUaServer
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_SourceOpcUaServer
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_SourceOpcUaServer
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_SourceOpcUaServer
+  nameWithType: DefinitionsMTP.ModuleTypePackage.CD_SourceOpcUaServer
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.SEM_MtpInstanceSubmodel
+  name: SEM_MtpInstanceSubmodel
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_SEM_MtpInstanceSubmodel
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.SEM_MtpInstanceSubmodel
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.SEM_MtpInstanceSubmodel
+  nameWithType: DefinitionsMTP.ModuleTypePackage.SEM_MtpInstanceSubmodel
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.SEM_MtpSubmodel
+  name: SEM_MtpSubmodel
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_SEM_MtpSubmodel
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.SEM_MtpSubmodel
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.SEM_MtpSubmodel
+  nameWithType: DefinitionsMTP.ModuleTypePackage.SEM_MtpSubmodel
 - uid: AasxPredefinedConcepts.DefinitionsVDI2770
   name: DefinitionsVDI2770
   href: api/AasxPredefinedConcepts.DefinitionsVDI2770.html
@@ -32839,12 +32990,12 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellPackageEnv.LoadFromAasEnvString
   nameWithType: AdminShellPackageEnv.LoadFromAasEnvString
-- uid: AdminShellNS.AdminShellPackageEnv.MakePackageFileAvailableAsTempFile(System.String)
-  name: MakePackageFileAvailableAsTempFile(String)
-  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_MakePackageFileAvailableAsTempFile_System_String_
-  commentId: M:AdminShellNS.AdminShellPackageEnv.MakePackageFileAvailableAsTempFile(System.String)
-  fullName: AdminShellNS.AdminShellPackageEnv.MakePackageFileAvailableAsTempFile(System.String)
-  nameWithType: AdminShellPackageEnv.MakePackageFileAvailableAsTempFile(String)
+- uid: AdminShellNS.AdminShellPackageEnv.MakePackageFileAvailableAsTempFile(System.String,System.Boolean)
+  name: MakePackageFileAvailableAsTempFile(String, Boolean)
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_MakePackageFileAvailableAsTempFile_System_String_System_Boolean_
+  commentId: M:AdminShellNS.AdminShellPackageEnv.MakePackageFileAvailableAsTempFile(System.String,System.Boolean)
+  fullName: AdminShellNS.AdminShellPackageEnv.MakePackageFileAvailableAsTempFile(System.String, System.Boolean)
+  nameWithType: AdminShellPackageEnv.MakePackageFileAvailableAsTempFile(String, Boolean)
 - uid: AdminShellNS.AdminShellPackageEnv.MakePackageFileAvailableAsTempFile*
   name: MakePackageFileAvailableAsTempFile
   href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_MakePackageFileAvailableAsTempFile_
@@ -33075,6 +33226,32 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellUtil.CheckSearchable
   nameWithType: AdminShellUtil.CheckSearchable
+- uid: AdminShellNS.AdminShellUtil.CleanHereStringToArray(System.String)
+  name: CleanHereStringToArray(String)
+  href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_CleanHereStringToArray_System_String_
+  commentId: M:AdminShellNS.AdminShellUtil.CleanHereStringToArray(System.String)
+  fullName: AdminShellNS.AdminShellUtil.CleanHereStringToArray(System.String)
+  nameWithType: AdminShellUtil.CleanHereStringToArray(String)
+- uid: AdminShellNS.AdminShellUtil.CleanHereStringToArray*
+  name: CleanHereStringToArray
+  href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_CleanHereStringToArray_
+  commentId: Overload:AdminShellNS.AdminShellUtil.CleanHereStringToArray
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellUtil.CleanHereStringToArray
+  nameWithType: AdminShellUtil.CleanHereStringToArray
+- uid: AdminShellNS.AdminShellUtil.CleanHereStringWithNewlines(System.String,System.String)
+  name: CleanHereStringWithNewlines(String, String)
+  href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_CleanHereStringWithNewlines_System_String_System_String_
+  commentId: M:AdminShellNS.AdminShellUtil.CleanHereStringWithNewlines(System.String,System.String)
+  fullName: AdminShellNS.AdminShellUtil.CleanHereStringWithNewlines(System.String, System.String)
+  nameWithType: AdminShellUtil.CleanHereStringWithNewlines(String, String)
+- uid: AdminShellNS.AdminShellUtil.CleanHereStringWithNewlines*
+  name: CleanHereStringWithNewlines
+  href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_CleanHereStringWithNewlines_
+  commentId: Overload:AdminShellNS.AdminShellUtil.CleanHereStringWithNewlines
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellUtil.CleanHereStringWithNewlines
+  nameWithType: AdminShellUtil.CleanHereStringWithNewlines
 - uid: AdminShellNS.AdminShellUtil.ComplyIdShort(System.String)
   name: ComplyIdShort(String)
   href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_ComplyIdShort_System_String_
@@ -33128,6 +33305,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellUtil.CorrectCasingForConstantStringArray
   nameWithType: AdminShellUtil.CorrectCasingForConstantStringArray
+- uid: AdminShellNS.AdminShellUtil.CountHeadingSpaces(System.String)
+  name: CountHeadingSpaces(String)
+  href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_CountHeadingSpaces_System_String_
+  commentId: M:AdminShellNS.AdminShellUtil.CountHeadingSpaces(System.String)
+  fullName: AdminShellNS.AdminShellUtil.CountHeadingSpaces(System.String)
+  nameWithType: AdminShellUtil.CountHeadingSpaces(String)
+- uid: AdminShellNS.AdminShellUtil.CountHeadingSpaces*
+  name: CountHeadingSpaces
+  href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_CountHeadingSpaces_
+  commentId: Overload:AdminShellNS.AdminShellUtil.CountHeadingSpaces
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellUtil.CountHeadingSpaces
+  nameWithType: AdminShellUtil.CountHeadingSpaces
 - uid: AdminShellNS.AdminShellUtil.EnumerateSearchable(AdminShellNS.AdminShellUtil.SearchResults,System.Object,System.String,System.Int32,AdminShellNS.AdminShellUtil.SearchOptions,System.Object)
   name: EnumerateSearchable(AdminShellUtil.SearchResults, Object, String, Int32, AdminShellUtil.SearchOptions, Object)
   href: api/AdminShellNS.AdminShellUtil.html#AdminShellNS_AdminShellUtil_EnumerateSearchable_AdminShellNS_AdminShellUtil_SearchResults_System_Object_System_String_System_Int32_AdminShellNS_AdminShellUtil_SearchOptions_System_Object_
@@ -33605,6 +33795,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AdministrationShell.GetElementName
   nameWithType: AdminShellV20.AdministrationShell.GetElementName
+- uid: AdminShellNS.AdminShellV20.AdministrationShell.GetReference
+  name: GetReference()
+  href: api/AdminShellNS.AdminShellV20.AdministrationShell.html#AdminShellNS_AdminShellV20_AdministrationShell_GetReference
+  commentId: M:AdminShellNS.AdminShellV20.AdministrationShell.GetReference
+  fullName: AdminShellNS.AdminShellV20.AdministrationShell.GetReference()
+  nameWithType: AdminShellV20.AdministrationShell.GetReference()
+- uid: AdminShellNS.AdminShellV20.AdministrationShell.GetReference*
+  name: GetReference
+  href: api/AdminShellNS.AdminShellV20.AdministrationShell.html#AdminShellNS_AdminShellV20_AdministrationShell_GetReference_
+  commentId: Overload:AdminShellNS.AdminShellV20.AdministrationShell.GetReference
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.AdministrationShell.GetReference
+  nameWithType: AdminShellV20.AdministrationShell.GetReference
 - uid: AdminShellNS.AdminShellV20.AdministrationShell.hasDataSpecification
   name: hasDataSpecification
   href: api/AdminShellNS.AdminShellV20.AdministrationShell.html#AdminShellNS_AdminShellV20_AdministrationShell_hasDataSpecification
@@ -33868,6 +34071,22 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAASwithSubmodel
   nameWithType: AdminShellV20.AdministrationShellEnv.FindAASwithSubmodel
+- uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllAAS(System.Predicate{AdminShellNS.AdminShellV20.AdministrationShell})
+  name: FindAllAAS(Predicate<AdminShellV20.AdministrationShell>)
+  href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_FindAllAAS_System_Predicate_AdminShellNS_AdminShellV20_AdministrationShell__
+  commentId: M:AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllAAS(System.Predicate{AdminShellNS.AdminShellV20.AdministrationShell})
+  name.vb: FindAllAAS(Predicate(Of AdminShellV20.AdministrationShell))
+  fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllAAS(System.Predicate<AdminShellNS.AdminShellV20.AdministrationShell>)
+  fullName.vb: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllAAS(System.Predicate(Of AdminShellNS.AdminShellV20.AdministrationShell))
+  nameWithType: AdminShellV20.AdministrationShellEnv.FindAllAAS(Predicate<AdminShellV20.AdministrationShell>)
+  nameWithType.vb: AdminShellV20.AdministrationShellEnv.FindAllAAS(Predicate(Of AdminShellV20.AdministrationShell))
+- uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllAAS*
+  name: FindAllAAS
+  href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_FindAllAAS_
+  commentId: Overload:AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllAAS
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllAAS
+  nameWithType: AdminShellV20.AdministrationShellEnv.FindAllAAS
 - uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllReferable
   name: FindAllReferable()
   href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_FindAllReferable
@@ -33932,6 +34151,22 @@ references:
   fullName.vb: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllSubmodelElements(Of T)(System.Predicate(Of T), AdminShellNS.AdminShellV20.AdministrationShell)
   nameWithType: AdminShellV20.AdministrationShellEnv.FindAllSubmodelElements<T>(Predicate<T>, AdminShellV20.AdministrationShell)
   nameWithType.vb: AdminShellV20.AdministrationShellEnv.FindAllSubmodelElements(Of T)(Predicate(Of T), AdminShellV20.AdministrationShell)
+- uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllSubmodelGroupedByAAS(System.Func{AdminShellNS.AdminShellV20.AdministrationShell,AdminShellNS.AdminShellV20.Submodel,System.Boolean})
+  name: FindAllSubmodelGroupedByAAS(Func<AdminShellV20.AdministrationShell, AdminShellV20.Submodel, Boolean>)
+  href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_FindAllSubmodelGroupedByAAS_System_Func_AdminShellNS_AdminShellV20_AdministrationShell_AdminShellNS_AdminShellV20_Submodel_System_Boolean__
+  commentId: M:AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllSubmodelGroupedByAAS(System.Func{AdminShellNS.AdminShellV20.AdministrationShell,AdminShellNS.AdminShellV20.Submodel,System.Boolean})
+  name.vb: FindAllSubmodelGroupedByAAS(Func(Of AdminShellV20.AdministrationShell, AdminShellV20.Submodel, Boolean))
+  fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllSubmodelGroupedByAAS(System.Func<AdminShellNS.AdminShellV20.AdministrationShell, AdminShellNS.AdminShellV20.Submodel, System.Boolean>)
+  fullName.vb: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllSubmodelGroupedByAAS(System.Func(Of AdminShellNS.AdminShellV20.AdministrationShell, AdminShellNS.AdminShellV20.Submodel, System.Boolean))
+  nameWithType: AdminShellV20.AdministrationShellEnv.FindAllSubmodelGroupedByAAS(Func<AdminShellV20.AdministrationShell, AdminShellV20.Submodel, Boolean>)
+  nameWithType.vb: AdminShellV20.AdministrationShellEnv.FindAllSubmodelGroupedByAAS(Func(Of AdminShellV20.AdministrationShell, AdminShellV20.Submodel, Boolean))
+- uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllSubmodelGroupedByAAS*
+  name: FindAllSubmodelGroupedByAAS
+  href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_FindAllSubmodelGroupedByAAS_
+  commentId: Overload:AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllSubmodelGroupedByAAS
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAllSubmodelGroupedByAAS
+  nameWithType: AdminShellV20.AdministrationShellEnv.FindAllSubmodelGroupedByAAS
 - uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindAsset(AdminShellNS.AdminShellV20.AssetRef)
   name: FindAsset(AdminShellV20.AssetRef)
   href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_FindAsset_AdminShellNS_AdminShellV20_AssetRef_
@@ -34779,6 +35014,15 @@ references:
   fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindAllSemanticIdAs(Of T)(AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.Key.MatchMode)
   nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindAllSemanticIdAs<T>(AdminShellV20.Key, AdminShellV20.Key.MatchMode)
   nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindAllSemanticIdAs(Of T)(AdminShellV20.Key, AdminShellV20.Key.MatchMode)
+- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindAllSemanticIdAs``1(AdminShellNS.AdminShellV20.Reference,AdminShellNS.AdminShellV20.Key.MatchMode)
+  name: FindAllSemanticIdAs<T>(AdminShellV20.Reference, AdminShellV20.Key.MatchMode)
+  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_FindAllSemanticIdAs__1_AdminShellNS_AdminShellV20_Reference_AdminShellNS_AdminShellV20_Key_MatchMode_
+  commentId: M:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindAllSemanticIdAs``1(AdminShellNS.AdminShellV20.Reference,AdminShellNS.AdminShellV20.Key.MatchMode)
+  name.vb: FindAllSemanticIdAs(Of T)(AdminShellV20.Reference, AdminShellV20.Key.MatchMode)
+  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindAllSemanticIdAs<T>(AdminShellNS.AdminShellV20.Reference, AdminShellNS.AdminShellV20.Key.MatchMode)
+  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindAllSemanticIdAs(Of T)(AdminShellNS.AdminShellV20.Reference, AdminShellNS.AdminShellV20.Key.MatchMode)
+  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindAllSemanticIdAs<T>(AdminShellV20.Reference, AdminShellV20.Key.MatchMode)
+  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindAllSemanticIdAs(Of T)(AdminShellV20.Reference, AdminShellV20.Key.MatchMode)
 - uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindDeep*
   name: FindDeep
   href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_FindDeep_
@@ -34868,6 +35112,15 @@ references:
   fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindFirstSemanticIdAs(Of T)(AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.Key.MatchMode)
   nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindFirstSemanticIdAs<T>(AdminShellV20.Key, AdminShellV20.Key.MatchMode)
   nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindFirstSemanticIdAs(Of T)(AdminShellV20.Key, AdminShellV20.Key.MatchMode)
+- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindFirstSemanticIdAs``1(AdminShellNS.AdminShellV20.Reference,AdminShellNS.AdminShellV20.Key.MatchMode)
+  name: FindFirstSemanticIdAs<T>(AdminShellV20.Reference, AdminShellV20.Key.MatchMode)
+  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_FindFirstSemanticIdAs__1_AdminShellNS_AdminShellV20_Reference_AdminShellNS_AdminShellV20_Key_MatchMode_
+  commentId: M:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindFirstSemanticIdAs``1(AdminShellNS.AdminShellV20.Reference,AdminShellNS.AdminShellV20.Key.MatchMode)
+  name.vb: FindFirstSemanticIdAs(Of T)(AdminShellV20.Reference, AdminShellV20.Key.MatchMode)
+  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindFirstSemanticIdAs<T>(AdminShellNS.AdminShellV20.Reference, AdminShellNS.AdminShellV20.Key.MatchMode)
+  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindFirstSemanticIdAs(Of T)(AdminShellNS.AdminShellV20.Reference, AdminShellNS.AdminShellV20.Key.MatchMode)
+  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.FindFirstSemanticIdAs<T>(AdminShellV20.Reference, AdminShellV20.Key.MatchMode)
+  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).FindFirstSemanticIdAs(Of T)(AdminShellV20.Reference, AdminShellV20.Key.MatchMode)
 - uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.FindSubModelElement(AdminShellNS.AdminShellV20.SubmodelElement)
   name: FindSubModelElement(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_FindSubModelElement_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -35202,6 +35455,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.ConceptDescription.AddIsCaseOf
   nameWithType: AdminShellV20.ConceptDescription.AddIsCaseOf
+- uid: AdminShellNS.AdminShellV20.ConceptDescription.CreateDataSpecWithContentIec61360
+  name: CreateDataSpecWithContentIec61360()
+  href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_CreateDataSpecWithContentIec61360
+  commentId: M:AdminShellNS.AdminShellV20.ConceptDescription.CreateDataSpecWithContentIec61360
+  fullName: AdminShellNS.AdminShellV20.ConceptDescription.CreateDataSpecWithContentIec61360()
+  nameWithType: AdminShellV20.ConceptDescription.CreateDataSpecWithContentIec61360()
+- uid: AdminShellNS.AdminShellV20.ConceptDescription.CreateDataSpecWithContentIec61360*
+  name: CreateDataSpecWithContentIec61360
+  href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_CreateDataSpecWithContentIec61360_
+  commentId: Overload:AdminShellNS.AdminShellV20.ConceptDescription.CreateDataSpecWithContentIec61360
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.ConceptDescription.CreateDataSpecWithContentIec61360
+  nameWithType: AdminShellV20.ConceptDescription.CreateDataSpecWithContentIec61360
 - uid: AdminShellNS.AdminShellV20.ConceptDescription.CreateNew
   name: CreateNew()
   href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_CreateNew
@@ -39305,6 +39571,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Reference.CreateNew
   nameWithType: AdminShellV20.Reference.CreateNew
+- uid: AdminShellNS.AdminShellV20.Reference.First
+  name: First
+  href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_First
+  commentId: P:AdminShellNS.AdminShellV20.Reference.First
+  fullName: AdminShellNS.AdminShellV20.Reference.First
+  nameWithType: AdminShellV20.Reference.First
+- uid: AdminShellNS.AdminShellV20.Reference.First*
+  name: First
+  href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_First_
+  commentId: Overload:AdminShellNS.AdminShellV20.Reference.First
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Reference.First
+  nameWithType: AdminShellV20.Reference.First
 - uid: AdminShellNS.AdminShellV20.Reference.GetAsExactlyOneKey
   name: GetAsExactlyOneKey()
   href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_GetAsExactlyOneKey
@@ -39386,6 +39665,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Reference.Keys
   nameWithType: AdminShellV20.Reference.Keys
+- uid: AdminShellNS.AdminShellV20.Reference.Last
+  name: Last
+  href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_Last
+  commentId: P:AdminShellNS.AdminShellV20.Reference.Last
+  fullName: AdminShellNS.AdminShellV20.Reference.Last
+  nameWithType: AdminShellV20.Reference.Last
+- uid: AdminShellNS.AdminShellV20.Reference.Last*
+  name: Last
+  href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_Last_
+  commentId: Overload:AdminShellNS.AdminShellV20.Reference.Last
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Reference.Last
+  nameWithType: AdminShellV20.Reference.Last
 - uid: AdminShellNS.AdminShellV20.Reference.ListOfValues(System.String)
   name: ListOfValues(String)
   href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_ListOfValues_System_String_
@@ -39914,6 +40206,22 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Submodel.FindAllReferences
   nameWithType: AdminShellV20.Submodel.FindAllReferences
+- uid: AdminShellNS.AdminShellV20.Submodel.FindDeep*
+  name: FindDeep
+  href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_FindDeep_
+  commentId: Overload:AdminShellNS.AdminShellV20.Submodel.FindDeep
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Submodel.FindDeep
+  nameWithType: AdminShellV20.Submodel.FindDeep
+- uid: AdminShellNS.AdminShellV20.Submodel.FindDeep``1(System.Predicate{``0})
+  name: FindDeep<T>(Predicate<T>)
+  href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_FindDeep__1_System_Predicate___0__
+  commentId: M:AdminShellNS.AdminShellV20.Submodel.FindDeep``1(System.Predicate{``0})
+  name.vb: FindDeep(Of T)(Predicate(Of T))
+  fullName: AdminShellNS.AdminShellV20.Submodel.FindDeep<T>(System.Predicate<T>)
+  fullName.vb: AdminShellNS.AdminShellV20.Submodel.FindDeep(Of T)(System.Predicate(Of T))
+  nameWithType: AdminShellV20.Submodel.FindDeep<T>(Predicate<T>)
+  nameWithType.vb: AdminShellV20.Submodel.FindDeep(Of T)(Predicate(Of T))
 - uid: AdminShellNS.AdminShellV20.Submodel.FindSubmodelElementWrapper(System.String)
   name: FindSubmodelElementWrapper(String)
   href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_FindSubmodelElementWrapper_System_String_
@@ -40190,6 +40498,22 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.SubmodelElement.AddQualifier
   nameWithType: AdminShellV20.SubmodelElement.AddQualifier
+- uid: AdminShellNS.AdminShellV20.SubmodelElement.CreateNew*
+  name: CreateNew
+  href: api/AdminShellNS.AdminShellV20.SubmodelElement.html#AdminShellNS_AdminShellV20_SubmodelElement_CreateNew_
+  commentId: Overload:AdminShellNS.AdminShellV20.SubmodelElement.CreateNew
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.SubmodelElement.CreateNew
+  nameWithType: AdminShellV20.SubmodelElement.CreateNew
+- uid: AdminShellNS.AdminShellV20.SubmodelElement.CreateNew``1(System.String,System.String,AdminShellNS.AdminShellV20.Reference)
+  name: CreateNew<T>(String, String, AdminShellV20.Reference)
+  href: api/AdminShellNS.AdminShellV20.SubmodelElement.html#AdminShellNS_AdminShellV20_SubmodelElement_CreateNew__1_System_String_System_String_AdminShellNS_AdminShellV20_Reference_
+  commentId: M:AdminShellNS.AdminShellV20.SubmodelElement.CreateNew``1(System.String,System.String,AdminShellNS.AdminShellV20.Reference)
+  name.vb: CreateNew(Of T)(String, String, AdminShellV20.Reference)
+  fullName: AdminShellNS.AdminShellV20.SubmodelElement.CreateNew<T>(System.String, System.String, AdminShellNS.AdminShellV20.Reference)
+  fullName.vb: AdminShellNS.AdminShellV20.SubmodelElement.CreateNew(Of T)(System.String, System.String, AdminShellNS.AdminShellV20.Reference)
+  nameWithType: AdminShellV20.SubmodelElement.CreateNew<T>(String, String, AdminShellV20.Reference)
+  nameWithType.vb: AdminShellV20.SubmodelElement.CreateNew(Of T)(String, String, AdminShellV20.Reference)
 - uid: AdminShellNS.AdminShellV20.SubmodelElement.CreateNewLogic(System.String,System.String,AdminShellNS.AdminShellV20.Key)
   name: CreateNewLogic(String, String, AdminShellV20.Key)
   href: api/AdminShellNS.AdminShellV20.SubmodelElement.html#AdminShellNS_AdminShellV20_SubmodelElement_CreateNewLogic_System_String_System_String_AdminShellNS_AdminShellV20_Key_

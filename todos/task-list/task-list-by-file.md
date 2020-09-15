@@ -112,8 +112,8 @@ Michael Hoffmeister,
 
 ## AasxCsharpLibrary\AdminShell.cs
 
-[Line 1102, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L1102
+[Line 1105, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L1105
 ), 
 MIHO,
 2020-08-30
@@ -121,32 +121,32 @@ MIHO,
     this does not prevent the corner case, that we could have
     * multiple dataSpecificationIEC61360 in this list, which would be an error
 
-[Line 2753, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2753
+[Line 2769, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2769
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [1..1][1..n]
 
-[Line 2757, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2757
+[Line 2773, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2773
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [0..1][1..n]
 
-[Line 2788, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2788
+[Line 2804, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2804
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [0..1][1..n]
 
-[Line 3063, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3063
+[Line 3079, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3079
 ), 
 MIHO,
 2020-08-30
@@ -154,24 +154,24 @@ MIHO,
     align wording of the member ("embeddedDataSpecification") with the 
     * wording of the other entities ("hasDataSpecification")
 
-[Line 3709, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3709
+[Line 3762, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3762
 ), 
 MIHO,
 2020-08-26
 
     not very elegant, yet. Avoid temporary collection
 
-[Line 4299, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4299
+[Line 4356, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4356
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     check, if Json has Qualifiers or not
 
-[Line 5034, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L5034
+[Line 5104, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L5104
 ), 
 MIHO,
 2020-07-31
@@ -510,8 +510,8 @@ Michael Hoffmeister,
 
 ## AasxWpfControlLibrary\AasxFileRepository.cs
 
-[Line 538, column 9](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/AasxFileRepository.cs#L538
+[Line 576, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/AasxFileRepository.cs#L576
 ), 
 MIHO,
 2020-08-05
@@ -556,16 +556,16 @@ Michael Hoffmeister,
 
 ## AasxWpfControlLibrary\DispEditHelperBasics.cs
 
-[Line 1161, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1161
+[Line 1162, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1162
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     possibly [Jump] button??
 
-[Line 1304, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1304
+[Line 1306, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1306
 ), 
 Michael Hoffmeister,
 2020-08-01
