@@ -91,6 +91,10 @@
     <div class="level1"><a class="xref" href="AdminShellNS.AdminShellV20.Reference.html">AdminShellV20.Reference</a></div>
     <div class="level2"><span class="xref">AdminShellV20.AssetRef</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AdminShellNS.AdminShellV20.IAasElement.html">AdminShellV20.IAasElement</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -157,6 +161,9 @@
       <a class="xref" href="AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_ListOfValues_System_String_">AdminShellV20.Reference.ListOfValues(String)</a>
     </div>
     <div>
+      <a class="xref" href="AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_GetElementName">AdminShellV20.Reference.GetElementName()</a>
+    </div>
+    <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
     <div>
@@ -182,7 +189,7 @@
   <h6><strong>Assembly</strong>: AasxCsharpLibrary.dll</h6>
   <h5 id="AdminShellNS_AdminShellV20_AssetRef_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AssetRef : AdminShellV20.Reference</code></pre>
+    <pre><code class="lang-csharp hljs">public class AssetRef : AdminShellV20.Reference, AdminShellV20.IAasElement</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -191,7 +198,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_AssetRef__ctor.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.AssetRef.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L849">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L874">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_AssetRef__ctor_" data-uid="AdminShellNS.AdminShellV20.AssetRef.#ctor*"></a>
   <h4 id="AdminShellNS_AdminShellV20_AssetRef__ctor" data-uid="AdminShellNS.AdminShellV20.AssetRef.#ctor">AssetRef()</h4>
@@ -206,7 +213,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_AssetRef__ctor_AasxCompatibilityModels_AdminShellV10_AssetRef_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.AssetRef.%23ctor(AasxCompatibilityModels.AdminShellV10.AssetRef)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L854">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L879">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_AssetRef__ctor_" data-uid="AdminShellNS.AdminShellV20.AssetRef.#ctor*"></a>
   <h4 id="AdminShellNS_AdminShellV20_AssetRef__ctor_AasxCompatibilityModels_AdminShellV10_AssetRef_" data-uid="AdminShellNS.AdminShellV20.AssetRef.#ctor(AasxCompatibilityModels.AdminShellV10.AssetRef)">AssetRef(AdminShellV10.AssetRef)</h4>
@@ -238,7 +245,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_AssetRef__ctor_AdminShellNS_AdminShellV20_AssetRef_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.AssetRef.%23ctor(AdminShellNS.AdminShellV20.AssetRef)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L851">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L876">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_AssetRef__ctor_" data-uid="AdminShellNS.AdminShellV20.AssetRef.#ctor*"></a>
   <h4 id="AdminShellNS_AdminShellV20_AssetRef__ctor_AdminShellNS_AdminShellV20_AssetRef_" data-uid="AdminShellNS.AdminShellV20.AssetRef.#ctor(AdminShellNS.AdminShellV20.AssetRef)">AssetRef(AdminShellV20.AssetRef)</h4>
@@ -270,7 +277,7 @@
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_AssetRef__ctor_AdminShellNS_AdminShellV20_Reference_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.AssetRef.%23ctor(AdminShellNS.AdminShellV20.Reference)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L857">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L882">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellV20_AssetRef__ctor_" data-uid="AdminShellNS.AdminShellV20.AssetRef.#ctor*"></a>
   <h4 id="AdminShellNS_AdminShellV20_AssetRef__ctor_AdminShellNS_AdminShellV20_Reference_" data-uid="AdminShellNS.AdminShellV20.AssetRef.#ctor(AdminShellNS.AdminShellV20.Reference)">AssetRef(AdminShellV20.Reference)</h4>
@@ -301,18 +308,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_AssetRef_GetElementName.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.AssetRef.GetElementName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_AssetRef_GetSelfDescription.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.AssetRef.GetSelfDescription%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L864">View Source</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L889">View Source</a>
   </span>
-  <a id="AdminShellNS_AdminShellV20_AssetRef_GetElementName_" data-uid="AdminShellNS.AdminShellV20.AssetRef.GetElementName*"></a>
-  <h4 id="AdminShellNS_AdminShellV20_AssetRef_GetElementName" data-uid="AdminShellNS.AdminShellV20.AssetRef.GetElementName">GetElementName()</h4>
+  <a id="AdminShellNS_AdminShellV20_AssetRef_GetSelfDescription_" data-uid="AdminShellNS.AdminShellV20.AssetRef.GetSelfDescription*"></a>
+  <h4 id="AdminShellNS_AdminShellV20_AssetRef_GetSelfDescription" data-uid="AdminShellNS.AdminShellV20.AssetRef.GetSelfDescription">GetSelfDescription()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string GetElementName()</code></pre>
+    <pre><code class="lang-csharp hljs">public override AdminShellV20.AasElementSelfDescription GetSelfDescription()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -324,13 +331,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="AdminShellNS.AdminShellV20.AasElementSelfDescription.html">AdminShellV20.AasElementSelfDescription</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_GetElementName">AdminShellV20.Reference.GetElementName()</a></div>
+  <div><a class="xref" href="AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_GetSelfDescription">AdminShellV20.Reference.GetSelfDescription()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AdminShellNS.AdminShellV20.IAasElement.html">AdminShellV20.IAasElement</a>
+  </div>
 </article>
           </div>
           
@@ -342,7 +353,7 @@
                     <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellV20_AssetRef.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellV20.AssetRef%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L844" class="contribution-link">View Source</a>
+                    <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs/#L869" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

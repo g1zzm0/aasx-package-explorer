@@ -33574,6 +33574,43 @@ references:
   commentId: T:AdminShellNS.AdminShellV20
   fullName: AdminShellNS.AdminShellV20
   nameWithType: AdminShellV20
+- uid: AdminShellNS.AdminShellV20.AasElementSelfDescription
+  name: AdminShellV20.AasElementSelfDescription
+  href: api/AdminShellNS.AdminShellV20.AasElementSelfDescription.html
+  commentId: T:AdminShellNS.AdminShellV20.AasElementSelfDescription
+  fullName: AdminShellNS.AdminShellV20.AasElementSelfDescription
+  nameWithType: AdminShellV20.AasElementSelfDescription
+- uid: AdminShellNS.AdminShellV20.AasElementSelfDescription.#ctor
+  name: AasElementSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.AasElementSelfDescription.html#AdminShellNS_AdminShellV20_AasElementSelfDescription__ctor
+  commentId: M:AdminShellNS.AdminShellV20.AasElementSelfDescription.#ctor
+  fullName: AdminShellNS.AdminShellV20.AasElementSelfDescription.AasElementSelfDescription()
+  nameWithType: AdminShellV20.AasElementSelfDescription.AasElementSelfDescription()
+- uid: AdminShellNS.AdminShellV20.AasElementSelfDescription.#ctor(System.String,System.String)
+  name: AasElementSelfDescription(String, String)
+  href: api/AdminShellNS.AdminShellV20.AasElementSelfDescription.html#AdminShellNS_AdminShellV20_AasElementSelfDescription__ctor_System_String_System_String_
+  commentId: M:AdminShellNS.AdminShellV20.AasElementSelfDescription.#ctor(System.String,System.String)
+  fullName: AdminShellNS.AdminShellV20.AasElementSelfDescription.AasElementSelfDescription(System.String, System.String)
+  nameWithType: AdminShellV20.AasElementSelfDescription.AasElementSelfDescription(String, String)
+- uid: AdminShellNS.AdminShellV20.AasElementSelfDescription.#ctor*
+  name: AasElementSelfDescription
+  href: api/AdminShellNS.AdminShellV20.AasElementSelfDescription.html#AdminShellNS_AdminShellV20_AasElementSelfDescription__ctor_
+  commentId: Overload:AdminShellNS.AdminShellV20.AasElementSelfDescription.#ctor
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.AasElementSelfDescription.AasElementSelfDescription
+  nameWithType: AdminShellV20.AasElementSelfDescription.AasElementSelfDescription
+- uid: AdminShellNS.AdminShellV20.AasElementSelfDescription.ElementAbbreviation
+  name: ElementAbbreviation
+  href: api/AdminShellNS.AdminShellV20.AasElementSelfDescription.html#AdminShellNS_AdminShellV20_AasElementSelfDescription_ElementAbbreviation
+  commentId: F:AdminShellNS.AdminShellV20.AasElementSelfDescription.ElementAbbreviation
+  fullName: AdminShellNS.AdminShellV20.AasElementSelfDescription.ElementAbbreviation
+  nameWithType: AdminShellV20.AasElementSelfDescription.ElementAbbreviation
+- uid: AdminShellNS.AdminShellV20.AasElementSelfDescription.ElementName
+  name: ElementName
+  href: api/AdminShellNS.AdminShellV20.AasElementSelfDescription.html#AdminShellNS_AdminShellV20_AasElementSelfDescription_ElementName
+  commentId: F:AdminShellNS.AdminShellV20.AasElementSelfDescription.ElementName
+  fullName: AdminShellNS.AdminShellV20.AasElementSelfDescription.ElementName
+  nameWithType: AdminShellV20.AasElementSelfDescription.ElementName
 - uid: AdminShellNS.AdminShellV20.Administration
   name: AdminShellV20.Administration
   href: api/AdminShellNS.AdminShellV20.Administration.html
@@ -33782,19 +33819,6 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AdministrationShell.FindSubmodelRef
   nameWithType: AdminShellV20.AdministrationShell.FindSubmodelRef
-- uid: AdminShellNS.AdminShellV20.AdministrationShell.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.AdministrationShell.html#AdminShellNS_AdminShellV20_AdministrationShell_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.AdministrationShell.GetElementName
-  fullName: AdminShellNS.AdminShellV20.AdministrationShell.GetElementName()
-  nameWithType: AdminShellV20.AdministrationShell.GetElementName()
-- uid: AdminShellNS.AdminShellV20.AdministrationShell.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.AdministrationShell.html#AdminShellNS_AdminShellV20_AdministrationShell_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.AdministrationShell.GetElementName
-  isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.AdministrationShell.GetElementName
-  nameWithType: AdminShellV20.AdministrationShell.GetElementName
 - uid: AdminShellNS.AdminShellV20.AdministrationShell.GetReference
   name: GetReference()
   href: api/AdminShellNS.AdminShellV20.AdministrationShell.html#AdminShellNS_AdminShellV20_AdministrationShell_GetReference
@@ -33808,6 +33832,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AdministrationShell.GetReference
   nameWithType: AdminShellV20.AdministrationShell.GetReference
+- uid: AdminShellNS.AdminShellV20.AdministrationShell.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.AdministrationShell.html#AdminShellNS_AdminShellV20_AdministrationShell_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.AdministrationShell.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.AdministrationShell.GetSelfDescription()
+  nameWithType: AdminShellV20.AdministrationShell.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.AdministrationShell.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.AdministrationShell.html#AdminShellNS_AdminShellV20_AdministrationShell_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.AdministrationShell.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.AdministrationShell.GetSelfDescription
+  nameWithType: AdminShellV20.AdministrationShell.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.AdministrationShell.hasDataSpecification
   name: hasDataSpecification
   href: api/AdminShellNS.AdminShellV20.AdministrationShell.html#AdminShellNS_AdminShellV20_AdministrationShell_hasDataSpecification
@@ -34427,19 +34464,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.EnumerateChildren
   nameWithType: AdminShellV20.AnnotatedRelationshipElement.EnumerateChildren
-- uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetElementName
-  fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetElementName()
-  nameWithType: AdminShellV20.AnnotatedRelationshipElement.GetElementName()
-- uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetElementName
+- uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetSelfDescription()
+  nameWithType: AdminShellV20.AnnotatedRelationshipElement.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetElementName
-  nameWithType: AdminShellV20.AnnotatedRelationshipElement.GetElementName
+  fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.GetSelfDescription
+  nameWithType: AdminShellV20.AnnotatedRelationshipElement.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.JsonAnotations
   name: JsonAnotations
   href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_JsonAnotations
@@ -34554,19 +34591,6 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Asset.GetAssetReference
   nameWithType: AdminShellV20.Asset.GetAssetReference
-- uid: AdminShellNS.AdminShellV20.Asset.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.Asset.html#AdminShellNS_AdminShellV20_Asset_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.Asset.GetElementName
-  fullName: AdminShellNS.AdminShellV20.Asset.GetElementName()
-  nameWithType: AdminShellV20.Asset.GetElementName()
-- uid: AdminShellNS.AdminShellV20.Asset.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.Asset.html#AdminShellNS_AdminShellV20_Asset_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.Asset.GetElementName
-  isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.Asset.GetElementName
-  nameWithType: AdminShellV20.Asset.GetElementName
 - uid: AdminShellNS.AdminShellV20.Asset.GetReference
   name: GetReference()
   href: api/AdminShellNS.AdminShellV20.Asset.html#AdminShellNS_AdminShellV20_Asset_GetReference
@@ -34580,6 +34604,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Asset.GetReference
   nameWithType: AdminShellV20.Asset.GetReference
+- uid: AdminShellNS.AdminShellV20.Asset.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Asset.html#AdminShellNS_AdminShellV20_Asset_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Asset.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Asset.GetSelfDescription()
+  nameWithType: AdminShellV20.Asset.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Asset.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Asset.html#AdminShellNS_AdminShellV20_Asset_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Asset.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Asset.GetSelfDescription
+  nameWithType: AdminShellV20.Asset.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Asset.hasDataSpecification
   name: hasDataSpecification
   href: api/AdminShellNS.AdminShellV20.Asset.html#AdminShellNS_AdminShellV20_Asset_hasDataSpecification
@@ -34681,19 +34718,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AssetAdministrationShellRef.AssetAdministrationShellRef
   nameWithType: AdminShellV20.AssetAdministrationShellRef.AssetAdministrationShellRef
-- uid: AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.AssetAdministrationShellRef.html#AdminShellNS_AdminShellV20_AssetAdministrationShellRef_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetElementName
-  fullName: AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetElementName()
-  nameWithType: AdminShellV20.AssetAdministrationShellRef.GetElementName()
-- uid: AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.AssetAdministrationShellRef.html#AdminShellNS_AdminShellV20_AssetAdministrationShellRef_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetElementName
+- uid: AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.AssetAdministrationShellRef.html#AdminShellNS_AdminShellV20_AssetAdministrationShellRef_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetSelfDescription()
+  nameWithType: AdminShellV20.AssetAdministrationShellRef.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.AssetAdministrationShellRef.html#AdminShellNS_AdminShellV20_AssetAdministrationShellRef_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetElementName
-  nameWithType: AdminShellV20.AssetAdministrationShellRef.GetElementName
+  fullName: AdminShellNS.AdminShellV20.AssetAdministrationShellRef.GetSelfDescription
+  nameWithType: AdminShellV20.AssetAdministrationShellRef.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.AssetKind
   name: AdminShellV20.AssetKind
   href: api/AdminShellNS.AdminShellV20.AssetKind.html
@@ -34826,19 +34863,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AssetRef.AssetRef
   nameWithType: AdminShellV20.AssetRef.AssetRef
-- uid: AdminShellNS.AdminShellV20.AssetRef.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.AssetRef.html#AdminShellNS_AdminShellV20_AssetRef_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.AssetRef.GetElementName
-  fullName: AdminShellNS.AdminShellV20.AssetRef.GetElementName()
-  nameWithType: AdminShellV20.AssetRef.GetElementName()
-- uid: AdminShellNS.AdminShellV20.AssetRef.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.AssetRef.html#AdminShellNS_AdminShellV20_AssetRef_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.AssetRef.GetElementName
+- uid: AdminShellNS.AdminShellV20.AssetRef.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.AssetRef.html#AdminShellNS_AdminShellV20_AssetRef_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.AssetRef.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.AssetRef.GetSelfDescription()
+  nameWithType: AdminShellV20.AssetRef.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.AssetRef.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.AssetRef.html#AdminShellNS_AdminShellV20_AssetRef_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.AssetRef.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.AssetRef.GetElementName
-  nameWithType: AdminShellV20.AssetRef.GetElementName
+  fullName: AdminShellNS.AdminShellV20.AssetRef.GetSelfDescription
+  nameWithType: AdminShellV20.AssetRef.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1
   name: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>
   href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html
@@ -35234,19 +35271,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.BasicEvent.CreateNew
   nameWithType: AdminShellV20.BasicEvent.CreateNew
-- uid: AdminShellNS.AdminShellV20.BasicEvent.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.BasicEvent.html#AdminShellNS_AdminShellV20_BasicEvent_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.BasicEvent.GetElementName
-  fullName: AdminShellNS.AdminShellV20.BasicEvent.GetElementName()
-  nameWithType: AdminShellV20.BasicEvent.GetElementName()
-- uid: AdminShellNS.AdminShellV20.BasicEvent.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.BasicEvent.html#AdminShellNS_AdminShellV20_BasicEvent_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.BasicEvent.GetElementName
+- uid: AdminShellNS.AdminShellV20.BasicEvent.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.BasicEvent.html#AdminShellNS_AdminShellV20_BasicEvent_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.BasicEvent.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.BasicEvent.GetSelfDescription()
+  nameWithType: AdminShellV20.BasicEvent.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.BasicEvent.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.BasicEvent.html#AdminShellNS_AdminShellV20_BasicEvent_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.BasicEvent.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.BasicEvent.GetElementName
-  nameWithType: AdminShellV20.BasicEvent.GetElementName
+  fullName: AdminShellNS.AdminShellV20.BasicEvent.GetSelfDescription
+  nameWithType: AdminShellV20.BasicEvent.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.BasicEvent.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.BasicEvent.html#AdminShellNS_AdminShellV20_BasicEvent_JsonModelType
@@ -35316,19 +35353,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Blob.CreateNew
   nameWithType: AdminShellV20.Blob.CreateNew
-- uid: AdminShellNS.AdminShellV20.Blob.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.Blob.html#AdminShellNS_AdminShellV20_Blob_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.Blob.GetElementName
-  fullName: AdminShellNS.AdminShellV20.Blob.GetElementName()
-  nameWithType: AdminShellV20.Blob.GetElementName()
-- uid: AdminShellNS.AdminShellV20.Blob.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.Blob.html#AdminShellNS_AdminShellV20_Blob_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.Blob.GetElementName
+- uid: AdminShellNS.AdminShellV20.Blob.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Blob.html#AdminShellNS_AdminShellV20_Blob_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Blob.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Blob.GetSelfDescription()
+  nameWithType: AdminShellV20.Blob.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Blob.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Blob.html#AdminShellNS_AdminShellV20_Blob_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Blob.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.Blob.GetElementName
-  nameWithType: AdminShellV20.Blob.GetElementName
+  fullName: AdminShellNS.AdminShellV20.Blob.GetSelfDescription
+  nameWithType: AdminShellV20.Blob.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Blob.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.Blob.html#AdminShellNS_AdminShellV20_Blob_JsonModelType
@@ -35398,19 +35435,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Capability.Capability
   nameWithType: AdminShellV20.Capability.Capability
-- uid: AdminShellNS.AdminShellV20.Capability.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.Capability.html#AdminShellNS_AdminShellV20_Capability_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.Capability.GetElementName
-  fullName: AdminShellNS.AdminShellV20.Capability.GetElementName()
-  nameWithType: AdminShellV20.Capability.GetElementName()
-- uid: AdminShellNS.AdminShellV20.Capability.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.Capability.html#AdminShellNS_AdminShellV20_Capability_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.Capability.GetElementName
+- uid: AdminShellNS.AdminShellV20.Capability.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Capability.html#AdminShellNS_AdminShellV20_Capability_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Capability.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Capability.GetSelfDescription()
+  nameWithType: AdminShellV20.Capability.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Capability.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Capability.html#AdminShellNS_AdminShellV20_Capability_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Capability.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.Capability.GetElementName
-  nameWithType: AdminShellV20.Capability.GetElementName
+  fullName: AdminShellNS.AdminShellV20.Capability.GetSelfDescription
+  nameWithType: AdminShellV20.Capability.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.ConceptDescription
   name: AdminShellV20.ConceptDescription
   href: api/AdminShellNS.AdminShellV20.ConceptDescription.html
@@ -35558,19 +35595,6 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.ConceptDescription.GetDefaultShortName
   nameWithType: AdminShellV20.ConceptDescription.GetDefaultShortName
-- uid: AdminShellNS.AdminShellV20.ConceptDescription.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.ConceptDescription.GetElementName
-  fullName: AdminShellNS.AdminShellV20.ConceptDescription.GetElementName()
-  nameWithType: AdminShellV20.ConceptDescription.GetElementName()
-- uid: AdminShellNS.AdminShellV20.ConceptDescription.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.ConceptDescription.GetElementName
-  isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.ConceptDescription.GetElementName
-  nameWithType: AdminShellV20.ConceptDescription.GetElementName
 - uid: AdminShellNS.AdminShellV20.ConceptDescription.GetIEC61360
   name: GetIEC61360()
   href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_GetIEC61360
@@ -35597,6 +35621,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.ConceptDescription.GetReference
   nameWithType: AdminShellV20.ConceptDescription.GetReference
+- uid: AdminShellNS.AdminShellV20.ConceptDescription.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.ConceptDescription.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.ConceptDescription.GetSelfDescription()
+  nameWithType: AdminShellV20.ConceptDescription.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.ConceptDescription.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.ConceptDescription.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.ConceptDescription.GetSelfDescription
+  nameWithType: AdminShellV20.ConceptDescription.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.ConceptDescription.GetSingleKey
   name: GetSingleKey()
   href: api/AdminShellNS.AdminShellV20.ConceptDescription.html#AdminShellNS_AdminShellV20_ConceptDescription_GetSingleKey
@@ -35791,19 +35828,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.ConceptDescriptionRef.CreateNew
   nameWithType: AdminShellV20.ConceptDescriptionRef.CreateNew
-- uid: AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.ConceptDescriptionRef.html#AdminShellNS_AdminShellV20_ConceptDescriptionRef_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetElementName
-  fullName: AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetElementName()
-  nameWithType: AdminShellV20.ConceptDescriptionRef.GetElementName()
-- uid: AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.ConceptDescriptionRef.html#AdminShellNS_AdminShellV20_ConceptDescriptionRef_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetElementName
+- uid: AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.ConceptDescriptionRef.html#AdminShellNS_AdminShellV20_ConceptDescriptionRef_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetSelfDescription()
+  nameWithType: AdminShellV20.ConceptDescriptionRef.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.ConceptDescriptionRef.html#AdminShellNS_AdminShellV20_ConceptDescriptionRef_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetElementName
-  nameWithType: AdminShellV20.ConceptDescriptionRef.GetElementName
+  fullName: AdminShellNS.AdminShellV20.ConceptDescriptionRef.GetSelfDescription
+  nameWithType: AdminShellV20.ConceptDescriptionRef.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.ConceptDescriptionRefs
   name: AdminShellV20.ConceptDescriptionRefs
   href: api/AdminShellNS.AdminShellV20.ConceptDescriptionRefs.html
@@ -35904,19 +35941,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.ConceptDictionary.CreateNew
   nameWithType: AdminShellV20.ConceptDictionary.CreateNew
-- uid: AdminShellNS.AdminShellV20.ConceptDictionary.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.ConceptDictionary.html#AdminShellNS_AdminShellV20_ConceptDictionary_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.ConceptDictionary.GetElementName
-  fullName: AdminShellNS.AdminShellV20.ConceptDictionary.GetElementName()
-  nameWithType: AdminShellV20.ConceptDictionary.GetElementName()
-- uid: AdminShellNS.AdminShellV20.ConceptDictionary.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.ConceptDictionary.html#AdminShellNS_AdminShellV20_ConceptDictionary_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.ConceptDictionary.GetElementName
+- uid: AdminShellNS.AdminShellV20.ConceptDictionary.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.ConceptDictionary.html#AdminShellNS_AdminShellV20_ConceptDictionary_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.ConceptDictionary.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.ConceptDictionary.GetSelfDescription()
+  nameWithType: AdminShellV20.ConceptDictionary.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.ConceptDictionary.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.ConceptDictionary.html#AdminShellNS_AdminShellV20_ConceptDictionary_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.ConceptDictionary.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.ConceptDictionary.GetElementName
-  nameWithType: AdminShellV20.ConceptDictionary.GetElementName
+  fullName: AdminShellNS.AdminShellV20.ConceptDictionary.GetSelfDescription
+  nameWithType: AdminShellV20.ConceptDictionary.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.ContainedElementRef
   name: AdminShellV20.ContainedElementRef
   href: api/AdminShellNS.AdminShellV20.ContainedElementRef.html
@@ -35961,19 +35998,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.ContainedElementRef.CreateNew
   nameWithType: AdminShellV20.ContainedElementRef.CreateNew
-- uid: AdminShellNS.AdminShellV20.ContainedElementRef.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.ContainedElementRef.html#AdminShellNS_AdminShellV20_ContainedElementRef_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.ContainedElementRef.GetElementName
-  fullName: AdminShellNS.AdminShellV20.ContainedElementRef.GetElementName()
-  nameWithType: AdminShellV20.ContainedElementRef.GetElementName()
-- uid: AdminShellNS.AdminShellV20.ContainedElementRef.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.ContainedElementRef.html#AdminShellNS_AdminShellV20_ContainedElementRef_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.ContainedElementRef.GetElementName
+- uid: AdminShellNS.AdminShellV20.ContainedElementRef.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.ContainedElementRef.html#AdminShellNS_AdminShellV20_ContainedElementRef_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.ContainedElementRef.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.ContainedElementRef.GetSelfDescription()
+  nameWithType: AdminShellV20.ContainedElementRef.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.ContainedElementRef.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.ContainedElementRef.html#AdminShellNS_AdminShellV20_ContainedElementRef_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.ContainedElementRef.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.ContainedElementRef.GetElementName
-  nameWithType: AdminShellV20.ContainedElementRef.GetElementName
+  fullName: AdminShellNS.AdminShellV20.ContainedElementRef.GetSelfDescription
+  nameWithType: AdminShellV20.ContainedElementRef.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.ContainedElements
   name: AdminShellV20.ContainedElements
   href: api/AdminShellNS.AdminShellV20.ContainedElements.html
@@ -36112,19 +36149,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.DataElement.DataElement
   nameWithType: AdminShellV20.DataElement.DataElement
-- uid: AdminShellNS.AdminShellV20.DataElement.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.DataElement.html#AdminShellNS_AdminShellV20_DataElement_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.DataElement.GetElementName
-  fullName: AdminShellNS.AdminShellV20.DataElement.GetElementName()
-  nameWithType: AdminShellV20.DataElement.GetElementName()
-- uid: AdminShellNS.AdminShellV20.DataElement.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.DataElement.html#AdminShellNS_AdminShellV20_DataElement_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.DataElement.GetElementName
+- uid: AdminShellNS.AdminShellV20.DataElement.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.DataElement.html#AdminShellNS_AdminShellV20_DataElement_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.DataElement.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.DataElement.GetSelfDescription()
+  nameWithType: AdminShellV20.DataElement.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.DataElement.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.DataElement.html#AdminShellNS_AdminShellV20_DataElement_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.DataElement.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.DataElement.GetElementName
-  nameWithType: AdminShellV20.DataElement.GetElementName
+  fullName: AdminShellNS.AdminShellV20.DataElement.GetSelfDescription
+  nameWithType: AdminShellV20.DataElement.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.DataElement.ValueType_BOOLEAN
   name: ValueType_BOOLEAN
   href: api/AdminShellNS.AdminShellV20.DataElement.html#AdminShellNS_AdminShellV20_DataElement_ValueType_BOOLEAN
@@ -36418,19 +36455,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.DataSpecificationRef.CreateNew
   nameWithType: AdminShellV20.DataSpecificationRef.CreateNew
-- uid: AdminShellNS.AdminShellV20.DataSpecificationRef.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.DataSpecificationRef.html#AdminShellNS_AdminShellV20_DataSpecificationRef_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.DataSpecificationRef.GetElementName
-  fullName: AdminShellNS.AdminShellV20.DataSpecificationRef.GetElementName()
-  nameWithType: AdminShellV20.DataSpecificationRef.GetElementName()
-- uid: AdminShellNS.AdminShellV20.DataSpecificationRef.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.DataSpecificationRef.html#AdminShellNS_AdminShellV20_DataSpecificationRef_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.DataSpecificationRef.GetElementName
+- uid: AdminShellNS.AdminShellV20.DataSpecificationRef.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.DataSpecificationRef.html#AdminShellNS_AdminShellV20_DataSpecificationRef_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.DataSpecificationRef.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.DataSpecificationRef.GetSelfDescription()
+  nameWithType: AdminShellV20.DataSpecificationRef.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.DataSpecificationRef.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.DataSpecificationRef.html#AdminShellNS_AdminShellV20_DataSpecificationRef_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.DataSpecificationRef.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.DataSpecificationRef.GetElementName
-  nameWithType: AdminShellV20.DataSpecificationRef.GetElementName
+  fullName: AdminShellNS.AdminShellV20.DataSpecificationRef.GetSelfDescription
+  nameWithType: AdminShellV20.DataSpecificationRef.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Description
   name: AdminShellV20.Description
   href: api/AdminShellNS.AdminShellV20.Description.html
@@ -36718,19 +36755,6 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Entity.FindSubmodelElementWrapper
   nameWithType: AdminShellV20.Entity.FindSubmodelElementWrapper
-- uid: AdminShellNS.AdminShellV20.Entity.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.Entity.html#AdminShellNS_AdminShellV20_Entity_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.Entity.GetElementName
-  fullName: AdminShellNS.AdminShellV20.Entity.GetElementName()
-  nameWithType: AdminShellV20.Entity.GetElementName()
-- uid: AdminShellNS.AdminShellV20.Entity.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.Entity.html#AdminShellNS_AdminShellV20_Entity_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.Entity.GetElementName
-  isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.Entity.GetElementName
-  nameWithType: AdminShellV20.Entity.GetElementName
 - uid: AdminShellNS.AdminShellV20.Entity.GetEntityType
   name: GetEntityType()
   href: api/AdminShellNS.AdminShellV20.Entity.html#AdminShellNS_AdminShellV20_Entity_GetEntityType
@@ -36744,6 +36768,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Entity.GetEntityType
   nameWithType: AdminShellV20.Entity.GetEntityType
+- uid: AdminShellNS.AdminShellV20.Entity.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Entity.html#AdminShellNS_AdminShellV20_Entity_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Entity.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Entity.GetSelfDescription()
+  nameWithType: AdminShellV20.Entity.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Entity.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Entity.html#AdminShellNS_AdminShellV20_Entity_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Entity.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Entity.GetSelfDescription
+  nameWithType: AdminShellV20.Entity.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Entity.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.Entity.html#AdminShellNS_AdminShellV20_Entity_JsonModelType
@@ -36839,19 +36876,6 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.File.CreateNew
   nameWithType: AdminShellV20.File.CreateNew
-- uid: AdminShellNS.AdminShellV20.File.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.File.html#AdminShellNS_AdminShellV20_File_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.File.GetElementName
-  fullName: AdminShellNS.AdminShellV20.File.GetElementName()
-  nameWithType: AdminShellV20.File.GetElementName()
-- uid: AdminShellNS.AdminShellV20.File.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.File.html#AdminShellNS_AdminShellV20_File_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.File.GetElementName
-  isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.File.GetElementName
-  nameWithType: AdminShellV20.File.GetElementName
 - uid: AdminShellNS.AdminShellV20.File.GetPopularMimeTypes
   name: GetPopularMimeTypes()
   href: api/AdminShellNS.AdminShellV20.File.html#AdminShellNS_AdminShellV20_File_GetPopularMimeTypes
@@ -36865,6 +36889,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.File.GetPopularMimeTypes
   nameWithType: AdminShellV20.File.GetPopularMimeTypes
+- uid: AdminShellNS.AdminShellV20.File.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.File.html#AdminShellNS_AdminShellV20_File_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.File.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.File.GetSelfDescription()
+  nameWithType: AdminShellV20.File.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.File.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.File.html#AdminShellNS_AdminShellV20_File_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.File.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.File.GetSelfDescription
+  nameWithType: AdminShellV20.File.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.File.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.File.html#AdminShellNS_AdminShellV20_File_JsonModelType
@@ -36982,6 +37019,38 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.HasDataSpecification.IEC61360Content
   nameWithType: AdminShellV20.HasDataSpecification.IEC61360Content
+- uid: AdminShellNS.AdminShellV20.IAasElement
+  name: AdminShellV20.IAasElement
+  href: api/AdminShellNS.AdminShellV20.IAasElement.html
+  commentId: T:AdminShellNS.AdminShellV20.IAasElement
+  fullName: AdminShellNS.AdminShellV20.IAasElement
+  nameWithType: AdminShellV20.IAasElement
+- uid: AdminShellNS.AdminShellV20.IAasElement.GetElementName
+  name: GetElementName()
+  href: api/AdminShellNS.AdminShellV20.IAasElement.html#AdminShellNS_AdminShellV20_IAasElement_GetElementName
+  commentId: M:AdminShellNS.AdminShellV20.IAasElement.GetElementName
+  fullName: AdminShellNS.AdminShellV20.IAasElement.GetElementName()
+  nameWithType: AdminShellV20.IAasElement.GetElementName()
+- uid: AdminShellNS.AdminShellV20.IAasElement.GetElementName*
+  name: GetElementName
+  href: api/AdminShellNS.AdminShellV20.IAasElement.html#AdminShellNS_AdminShellV20_IAasElement_GetElementName_
+  commentId: Overload:AdminShellNS.AdminShellV20.IAasElement.GetElementName
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.IAasElement.GetElementName
+  nameWithType: AdminShellV20.IAasElement.GetElementName
+- uid: AdminShellNS.AdminShellV20.IAasElement.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.IAasElement.html#AdminShellNS_AdminShellV20_IAasElement_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.IAasElement.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.IAasElement.GetSelfDescription()
+  nameWithType: AdminShellV20.IAasElement.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.IAasElement.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.IAasElement.html#AdminShellNS_AdminShellV20_IAasElement_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.IAasElement.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.IAasElement.GetSelfDescription
+  nameWithType: AdminShellV20.IAasElement.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Identifiable
   name: AdminShellV20.Identifiable
   href: api/AdminShellNS.AdminShellV20.Identifiable.html
@@ -38373,19 +38442,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.MultiLanguageProperty.CreateNew
   nameWithType: AdminShellV20.MultiLanguageProperty.CreateNew
-- uid: AdminShellNS.AdminShellV20.MultiLanguageProperty.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.MultiLanguageProperty.html#AdminShellNS_AdminShellV20_MultiLanguageProperty_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.MultiLanguageProperty.GetElementName
-  fullName: AdminShellNS.AdminShellV20.MultiLanguageProperty.GetElementName()
-  nameWithType: AdminShellV20.MultiLanguageProperty.GetElementName()
-- uid: AdminShellNS.AdminShellV20.MultiLanguageProperty.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.MultiLanguageProperty.html#AdminShellNS_AdminShellV20_MultiLanguageProperty_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.MultiLanguageProperty.GetElementName
+- uid: AdminShellNS.AdminShellV20.MultiLanguageProperty.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.MultiLanguageProperty.html#AdminShellNS_AdminShellV20_MultiLanguageProperty_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.MultiLanguageProperty.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.MultiLanguageProperty.GetSelfDescription()
+  nameWithType: AdminShellV20.MultiLanguageProperty.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.MultiLanguageProperty.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.MultiLanguageProperty.html#AdminShellNS_AdminShellV20_MultiLanguageProperty_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.MultiLanguageProperty.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.MultiLanguageProperty.GetElementName
-  nameWithType: AdminShellV20.MultiLanguageProperty.GetElementName
+  fullName: AdminShellNS.AdminShellV20.MultiLanguageProperty.GetSelfDescription
+  nameWithType: AdminShellV20.MultiLanguageProperty.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.MultiLanguageProperty.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.MultiLanguageProperty.html#AdminShellNS_AdminShellV20_MultiLanguageProperty_JsonModelType
@@ -38512,19 +38581,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Operation.EnumerateChildren
   nameWithType: AdminShellV20.Operation.EnumerateChildren
-- uid: AdminShellNS.AdminShellV20.Operation.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.Operation.html#AdminShellNS_AdminShellV20_Operation_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.Operation.GetElementName
-  fullName: AdminShellNS.AdminShellV20.Operation.GetElementName()
-  nameWithType: AdminShellV20.Operation.GetElementName()
-- uid: AdminShellNS.AdminShellV20.Operation.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.Operation.html#AdminShellNS_AdminShellV20_Operation_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.Operation.GetElementName
+- uid: AdminShellNS.AdminShellV20.Operation.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Operation.html#AdminShellNS_AdminShellV20_Operation_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Operation.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Operation.GetSelfDescription()
+  nameWithType: AdminShellV20.Operation.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Operation.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Operation.html#AdminShellNS_AdminShellV20_Operation_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Operation.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.Operation.GetElementName
-  nameWithType: AdminShellV20.Operation.GetElementName
+  fullName: AdminShellNS.AdminShellV20.Operation.GetSelfDescription
+  nameWithType: AdminShellV20.Operation.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Operation.GetWrappers(System.Collections.Generic.List{AdminShellNS.AdminShellV20.OperationVariable})
   name: GetWrappers(List<AdminShellV20.OperationVariable>)
   href: api/AdminShellNS.AdminShellV20.Operation.html#AdminShellNS_AdminShellV20_Operation_GetWrappers_System_Collections_Generic_List_AdminShellNS_AdminShellV20_OperationVariable__
@@ -38710,6 +38779,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.OperationVariable.GetElementName
   nameWithType: AdminShellV20.OperationVariable.GetElementName
+- uid: AdminShellNS.AdminShellV20.OperationVariable.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.OperationVariable.html#AdminShellNS_AdminShellV20_OperationVariable_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.OperationVariable.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.OperationVariable.GetSelfDescription()
+  nameWithType: AdminShellV20.OperationVariable.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.OperationVariable.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.OperationVariable.html#AdminShellNS_AdminShellV20_OperationVariable_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.OperationVariable.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.OperationVariable.GetSelfDescription
+  nameWithType: AdminShellV20.OperationVariable.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.OperationVariable.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.OperationVariable.html#AdminShellNS_AdminShellV20_OperationVariable_JsonModelType
@@ -38779,19 +38861,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Property.CreateNew
   nameWithType: AdminShellV20.Property.CreateNew
-- uid: AdminShellNS.AdminShellV20.Property.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.Property.html#AdminShellNS_AdminShellV20_Property_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.Property.GetElementName
-  fullName: AdminShellNS.AdminShellV20.Property.GetElementName()
-  nameWithType: AdminShellV20.Property.GetElementName()
-- uid: AdminShellNS.AdminShellV20.Property.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.Property.html#AdminShellNS_AdminShellV20_Property_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.Property.GetElementName
+- uid: AdminShellNS.AdminShellV20.Property.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Property.html#AdminShellNS_AdminShellV20_Property_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Property.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Property.GetSelfDescription()
+  nameWithType: AdminShellV20.Property.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Property.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Property.html#AdminShellNS_AdminShellV20_Property_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Property.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.Property.GetElementName
-  nameWithType: AdminShellV20.Property.GetElementName
+  fullName: AdminShellNS.AdminShellV20.Property.GetSelfDescription
+  nameWithType: AdminShellV20.Property.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Property.IsTrue
   name: IsTrue()
   href: api/AdminShellNS.AdminShellV20.Property.html#AdminShellNS_AdminShellV20_Property_IsTrue
@@ -38925,6 +39007,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Qualifier.GetElementName
   nameWithType: AdminShellV20.Qualifier.GetElementName
+- uid: AdminShellNS.AdminShellV20.Qualifier.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Qualifier.html#AdminShellNS_AdminShellV20_Qualifier_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Qualifier.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Qualifier.GetSelfDescription()
+  nameWithType: AdminShellV20.Qualifier.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Qualifier.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Qualifier.html#AdminShellNS_AdminShellV20_Qualifier_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Qualifier.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Qualifier.GetSelfDescription
+  nameWithType: AdminShellV20.Qualifier.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Qualifier.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.Qualifier.html#AdminShellNS_AdminShellV20_Qualifier_JsonModelType
@@ -39117,19 +39212,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Range.CreateNew
   nameWithType: AdminShellV20.Range.CreateNew
-- uid: AdminShellNS.AdminShellV20.Range.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.Range.html#AdminShellNS_AdminShellV20_Range_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.Range.GetElementName
-  fullName: AdminShellNS.AdminShellV20.Range.GetElementName()
-  nameWithType: AdminShellV20.Range.GetElementName()
-- uid: AdminShellNS.AdminShellV20.Range.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.Range.html#AdminShellNS_AdminShellV20_Range_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.Range.GetElementName
+- uid: AdminShellNS.AdminShellV20.Range.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Range.html#AdminShellNS_AdminShellV20_Range_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Range.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Range.GetSelfDescription()
+  nameWithType: AdminShellV20.Range.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Range.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Range.html#AdminShellNS_AdminShellV20_Range_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Range.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.Range.GetElementName
-  nameWithType: AdminShellV20.Range.GetElementName
+  fullName: AdminShellNS.AdminShellV20.Range.GetSelfDescription
+  nameWithType: AdminShellV20.Range.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Range.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.Range.html#AdminShellNS_AdminShellV20_Range_JsonModelType
@@ -39342,6 +39437,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Referable.GetFriendlyName
   nameWithType: AdminShellV20.Referable.GetFriendlyName
+- uid: AdminShellNS.AdminShellV20.Referable.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Referable.html#AdminShellNS_AdminShellV20_Referable_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Referable.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Referable.GetSelfDescription()
+  nameWithType: AdminShellV20.Referable.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Referable.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Referable.html#AdminShellNS_AdminShellV20_Referable_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Referable.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Referable.GetSelfDescription
+  nameWithType: AdminShellV20.Referable.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Referable.idShort
   name: idShort
   href: api/AdminShellNS.AdminShellV20.Referable.html#AdminShellNS_AdminShellV20_Referable_idShort
@@ -39610,6 +39718,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Reference.GetElementName
   nameWithType: AdminShellV20.Reference.GetElementName
+- uid: AdminShellNS.AdminShellV20.Reference.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Reference.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Reference.GetSelfDescription()
+  nameWithType: AdminShellV20.Reference.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Reference.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Reference.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Reference.GetSelfDescription
+  nameWithType: AdminShellV20.Reference.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Reference.IsEmpty
   name: IsEmpty
   href: api/AdminShellNS.AdminShellV20.Reference.html#AdminShellNS_AdminShellV20_Reference_IsEmpty
@@ -39829,19 +39950,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.ReferenceElement.CreateNew
   nameWithType: AdminShellV20.ReferenceElement.CreateNew
-- uid: AdminShellNS.AdminShellV20.ReferenceElement.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.ReferenceElement.html#AdminShellNS_AdminShellV20_ReferenceElement_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.ReferenceElement.GetElementName
-  fullName: AdminShellNS.AdminShellV20.ReferenceElement.GetElementName()
-  nameWithType: AdminShellV20.ReferenceElement.GetElementName()
-- uid: AdminShellNS.AdminShellV20.ReferenceElement.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.ReferenceElement.html#AdminShellNS_AdminShellV20_ReferenceElement_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.ReferenceElement.GetElementName
+- uid: AdminShellNS.AdminShellV20.ReferenceElement.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.ReferenceElement.html#AdminShellNS_AdminShellV20_ReferenceElement_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.ReferenceElement.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.ReferenceElement.GetSelfDescription()
+  nameWithType: AdminShellV20.ReferenceElement.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.ReferenceElement.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.ReferenceElement.html#AdminShellNS_AdminShellV20_ReferenceElement_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.ReferenceElement.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.ReferenceElement.GetElementName
-  nameWithType: AdminShellV20.ReferenceElement.GetElementName
+  fullName: AdminShellNS.AdminShellV20.ReferenceElement.GetSelfDescription
+  nameWithType: AdminShellV20.ReferenceElement.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.ReferenceElement.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.ReferenceElement.html#AdminShellNS_AdminShellV20_ReferenceElement_JsonModelType
@@ -39930,19 +40051,19 @@ references:
   commentId: F:AdminShellNS.AdminShellV20.RelationshipElement.first
   fullName: AdminShellNS.AdminShellV20.RelationshipElement.first
   nameWithType: AdminShellV20.RelationshipElement.first
-- uid: AdminShellNS.AdminShellV20.RelationshipElement.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.RelationshipElement.html#AdminShellNS_AdminShellV20_RelationshipElement_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.RelationshipElement.GetElementName
-  fullName: AdminShellNS.AdminShellV20.RelationshipElement.GetElementName()
-  nameWithType: AdminShellV20.RelationshipElement.GetElementName()
-- uid: AdminShellNS.AdminShellV20.RelationshipElement.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.RelationshipElement.html#AdminShellNS_AdminShellV20_RelationshipElement_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.RelationshipElement.GetElementName
+- uid: AdminShellNS.AdminShellV20.RelationshipElement.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.RelationshipElement.html#AdminShellNS_AdminShellV20_RelationshipElement_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.RelationshipElement.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.RelationshipElement.GetSelfDescription()
+  nameWithType: AdminShellV20.RelationshipElement.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.RelationshipElement.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.RelationshipElement.html#AdminShellNS_AdminShellV20_RelationshipElement_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.RelationshipElement.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.RelationshipElement.GetElementName
-  nameWithType: AdminShellV20.RelationshipElement.GetElementName
+  fullName: AdminShellNS.AdminShellV20.RelationshipElement.GetSelfDescription
+  nameWithType: AdminShellV20.RelationshipElement.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.RelationshipElement.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.RelationshipElement.html#AdminShellNS_AdminShellV20_RelationshipElement_JsonModelType
@@ -40248,19 +40369,6 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Submodel.GetData
   nameWithType: AdminShellV20.Submodel.GetData
-- uid: AdminShellNS.AdminShellV20.Submodel.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.Submodel.GetElementName
-  fullName: AdminShellNS.AdminShellV20.Submodel.GetElementName()
-  nameWithType: AdminShellV20.Submodel.GetElementName()
-- uid: AdminShellNS.AdminShellV20.Submodel.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.Submodel.GetElementName
-  isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.Submodel.GetElementName
-  nameWithType: AdminShellV20.Submodel.GetElementName
 - uid: AdminShellNS.AdminShellV20.Submodel.GetReference
   name: GetReference()
   href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_GetReference
@@ -40274,6 +40382,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Submodel.GetReference
   nameWithType: AdminShellV20.Submodel.GetReference
+- uid: AdminShellNS.AdminShellV20.Submodel.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.Submodel.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.Submodel.GetSelfDescription()
+  nameWithType: AdminShellV20.Submodel.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.Submodel.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.Submodel.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Submodel.GetSelfDescription
+  nameWithType: AdminShellV20.Submodel.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.Submodel.GetSemanticKey
   name: GetSemanticKey()
   href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_GetSemanticKey
@@ -40540,19 +40661,6 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.SubmodelElement.GetData
   nameWithType: AdminShellV20.SubmodelElement.GetData
-- uid: AdminShellNS.AdminShellV20.SubmodelElement.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.SubmodelElement.html#AdminShellNS_AdminShellV20_SubmodelElement_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.SubmodelElement.GetElementName
-  fullName: AdminShellNS.AdminShellV20.SubmodelElement.GetElementName()
-  nameWithType: AdminShellV20.SubmodelElement.GetElementName()
-- uid: AdminShellNS.AdminShellV20.SubmodelElement.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.SubmodelElement.html#AdminShellNS_AdminShellV20_SubmodelElement_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.SubmodelElement.GetElementName
-  isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.SubmodelElement.GetElementName
-  nameWithType: AdminShellV20.SubmodelElement.GetElementName
 - uid: AdminShellNS.AdminShellV20.SubmodelElement.GetReference
   name: GetReference()
   href: api/AdminShellNS.AdminShellV20.SubmodelElement.html#AdminShellNS_AdminShellV20_SubmodelElement_GetReference
@@ -40566,6 +40674,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.SubmodelElement.GetReference
   nameWithType: AdminShellV20.SubmodelElement.GetReference
+- uid: AdminShellNS.AdminShellV20.SubmodelElement.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.SubmodelElement.html#AdminShellNS_AdminShellV20_SubmodelElement_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.SubmodelElement.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.SubmodelElement.GetSelfDescription()
+  nameWithType: AdminShellV20.SubmodelElement.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.SubmodelElement.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.SubmodelElement.html#AdminShellNS_AdminShellV20_SubmodelElement_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.SubmodelElement.GetSelfDescription
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.SubmodelElement.GetSelfDescription
+  nameWithType: AdminShellV20.SubmodelElement.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.SubmodelElement.hasDataSpecification
   name: hasDataSpecification
   href: api/AdminShellNS.AdminShellV20.SubmodelElement.html#AdminShellNS_AdminShellV20_SubmodelElement_hasDataSpecification
@@ -40844,19 +40965,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.SubmodelElementCollection.FindFirstIdShort
   nameWithType: AdminShellV20.SubmodelElementCollection.FindFirstIdShort
-- uid: AdminShellNS.AdminShellV20.SubmodelElementCollection.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.SubmodelElementCollection.html#AdminShellNS_AdminShellV20_SubmodelElementCollection_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.SubmodelElementCollection.GetElementName
-  fullName: AdminShellNS.AdminShellV20.SubmodelElementCollection.GetElementName()
-  nameWithType: AdminShellV20.SubmodelElementCollection.GetElementName()
-- uid: AdminShellNS.AdminShellV20.SubmodelElementCollection.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.SubmodelElementCollection.html#AdminShellNS_AdminShellV20_SubmodelElementCollection_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.SubmodelElementCollection.GetElementName
+- uid: AdminShellNS.AdminShellV20.SubmodelElementCollection.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.SubmodelElementCollection.html#AdminShellNS_AdminShellV20_SubmodelElementCollection_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.SubmodelElementCollection.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.SubmodelElementCollection.GetSelfDescription()
+  nameWithType: AdminShellV20.SubmodelElementCollection.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.SubmodelElementCollection.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.SubmodelElementCollection.html#AdminShellNS_AdminShellV20_SubmodelElementCollection_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.SubmodelElementCollection.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.SubmodelElementCollection.GetElementName
-  nameWithType: AdminShellV20.SubmodelElementCollection.GetElementName
+  fullName: AdminShellNS.AdminShellV20.SubmodelElementCollection.GetSelfDescription
+  nameWithType: AdminShellV20.SubmodelElementCollection.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.SubmodelElementCollection.JsonModelType
   name: JsonModelType
   href: api/AdminShellNS.AdminShellV20.SubmodelElementCollection.html#AdminShellNS_AdminShellV20_SubmodelElementCollection_JsonModelType
@@ -41166,19 +41287,19 @@ references:
   fullName.vb: AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetAs(Of T)()
   nameWithType: AdminShellV20.SubmodelElementWrapper.GetAs<T>()
   nameWithType.vb: AdminShellV20.SubmodelElementWrapper.GetAs(Of T)()
-- uid: AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetFourDigitCode
-  name: GetFourDigitCode()
-  href: api/AdminShellNS.AdminShellV20.SubmodelElementWrapper.html#AdminShellNS_AdminShellV20_SubmodelElementWrapper_GetFourDigitCode
-  commentId: M:AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetFourDigitCode
-  fullName: AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetFourDigitCode()
-  nameWithType: AdminShellV20.SubmodelElementWrapper.GetFourDigitCode()
-- uid: AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetFourDigitCode*
-  name: GetFourDigitCode
-  href: api/AdminShellNS.AdminShellV20.SubmodelElementWrapper.html#AdminShellNS_AdminShellV20_SubmodelElementWrapper_GetFourDigitCode_
-  commentId: Overload:AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetFourDigitCode
+- uid: AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetElementAbbreviation
+  name: GetElementAbbreviation()
+  href: api/AdminShellNS.AdminShellV20.SubmodelElementWrapper.html#AdminShellNS_AdminShellV20_SubmodelElementWrapper_GetElementAbbreviation
+  commentId: M:AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetElementAbbreviation
+  fullName: AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetElementAbbreviation()
+  nameWithType: AdminShellV20.SubmodelElementWrapper.GetElementAbbreviation()
+- uid: AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetElementAbbreviation*
+  name: GetElementAbbreviation
+  href: api/AdminShellNS.AdminShellV20.SubmodelElementWrapper.html#AdminShellNS_AdminShellV20_SubmodelElementWrapper_GetElementAbbreviation_
+  commentId: Overload:AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetElementAbbreviation
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetFourDigitCode
-  nameWithType: AdminShellV20.SubmodelElementWrapper.GetFourDigitCode
+  fullName: AdminShellNS.AdminShellV20.SubmodelElementWrapper.GetElementAbbreviation
+  nameWithType: AdminShellV20.SubmodelElementWrapper.GetElementAbbreviation
 - uid: AdminShellNS.AdminShellV20.SubmodelElementWrapper.ListOfWrappersToListOfElems(System.Collections.Generic.List{AdminShellNS.AdminShellV20.SubmodelElementWrapper})
   name: ListOfWrappersToListOfElems(List<AdminShellV20.SubmodelElementWrapper>)
   href: api/AdminShellNS.AdminShellV20.SubmodelElementWrapper.html#AdminShellNS_AdminShellV20_SubmodelElementWrapper_ListOfWrappersToListOfElems_System_Collections_Generic_List_AdminShellNS_AdminShellV20_SubmodelElementWrapper__
@@ -41282,19 +41403,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.SubmodelRef.CreateNew
   nameWithType: AdminShellV20.SubmodelRef.CreateNew
-- uid: AdminShellNS.AdminShellV20.SubmodelRef.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.SubmodelRef.html#AdminShellNS_AdminShellV20_SubmodelRef_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.SubmodelRef.GetElementName
-  fullName: AdminShellNS.AdminShellV20.SubmodelRef.GetElementName()
-  nameWithType: AdminShellV20.SubmodelRef.GetElementName()
-- uid: AdminShellNS.AdminShellV20.SubmodelRef.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.SubmodelRef.html#AdminShellNS_AdminShellV20_SubmodelRef_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.SubmodelRef.GetElementName
+- uid: AdminShellNS.AdminShellV20.SubmodelRef.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.SubmodelRef.html#AdminShellNS_AdminShellV20_SubmodelRef_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.SubmodelRef.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.SubmodelRef.GetSelfDescription()
+  nameWithType: AdminShellV20.SubmodelRef.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.SubmodelRef.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.SubmodelRef.html#AdminShellNS_AdminShellV20_SubmodelRef_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.SubmodelRef.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.SubmodelRef.GetElementName
-  nameWithType: AdminShellV20.SubmodelRef.GetElementName
+  fullName: AdminShellNS.AdminShellV20.SubmodelRef.GetSelfDescription
+  nameWithType: AdminShellV20.SubmodelRef.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.TextSearchable
   name: AdminShellV20.TextSearchable
   href: api/AdminShellNS.AdminShellV20.TextSearchable.html
@@ -41538,19 +41659,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.View.CreateNew
   nameWithType: AdminShellV20.View.CreateNew
-- uid: AdminShellNS.AdminShellV20.View.GetElementName
-  name: GetElementName()
-  href: api/AdminShellNS.AdminShellV20.View.html#AdminShellNS_AdminShellV20_View_GetElementName
-  commentId: M:AdminShellNS.AdminShellV20.View.GetElementName
-  fullName: AdminShellNS.AdminShellV20.View.GetElementName()
-  nameWithType: AdminShellV20.View.GetElementName()
-- uid: AdminShellNS.AdminShellV20.View.GetElementName*
-  name: GetElementName
-  href: api/AdminShellNS.AdminShellV20.View.html#AdminShellNS_AdminShellV20_View_GetElementName_
-  commentId: Overload:AdminShellNS.AdminShellV20.View.GetElementName
+- uid: AdminShellNS.AdminShellV20.View.GetSelfDescription
+  name: GetSelfDescription()
+  href: api/AdminShellNS.AdminShellV20.View.html#AdminShellNS_AdminShellV20_View_GetSelfDescription
+  commentId: M:AdminShellNS.AdminShellV20.View.GetSelfDescription
+  fullName: AdminShellNS.AdminShellV20.View.GetSelfDescription()
+  nameWithType: AdminShellV20.View.GetSelfDescription()
+- uid: AdminShellNS.AdminShellV20.View.GetSelfDescription*
+  name: GetSelfDescription
+  href: api/AdminShellNS.AdminShellV20.View.html#AdminShellNS_AdminShellV20_View_GetSelfDescription_
+  commentId: Overload:AdminShellNS.AdminShellV20.View.GetSelfDescription
   isSpec: "True"
-  fullName: AdminShellNS.AdminShellV20.View.GetElementName
-  nameWithType: AdminShellV20.View.GetElementName
+  fullName: AdminShellNS.AdminShellV20.View.GetSelfDescription
+  nameWithType: AdminShellV20.View.GetSelfDescription
 - uid: AdminShellNS.AdminShellV20.View.hasDataSpecification
   name: hasDataSpecification
   href: api/AdminShellNS.AdminShellV20.View.html#AdminShellNS_AdminShellV20_View_hasDataSpecification
