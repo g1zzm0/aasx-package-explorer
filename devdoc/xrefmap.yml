@@ -32367,6 +32367,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AasSchemaValidation.GetSchemaResources
   nameWithType: AasSchemaValidation.GetSchemaResources
+- uid: AdminShellNS.AasSchemaValidation.NewXmlValidator
+  name: NewXmlValidator()
+  href: api/AdminShellNS.AasSchemaValidation.html#AdminShellNS_AasSchemaValidation_NewXmlValidator
+  commentId: M:AdminShellNS.AasSchemaValidation.NewXmlValidator
+  fullName: AdminShellNS.AasSchemaValidation.NewXmlValidator()
+  nameWithType: AasSchemaValidation.NewXmlValidator()
+- uid: AdminShellNS.AasSchemaValidation.NewXmlValidator*
+  name: NewXmlValidator
+  href: api/AdminShellNS.AasSchemaValidation.html#AdminShellNS_AasSchemaValidation_NewXmlValidator_
+  commentId: Overload:AdminShellNS.AasSchemaValidation.NewXmlValidator
+  isSpec: "True"
+  fullName: AdminShellNS.AasSchemaValidation.NewXmlValidator
+  nameWithType: AasSchemaValidation.NewXmlValidator
 - uid: AdminShellNS.AasSchemaValidation.SerializationFormat
   name: AasSchemaValidation.SerializationFormat
   href: api/AdminShellNS.AasSchemaValidation.SerializationFormat.html
@@ -41892,6 +41905,25 @@ references:
   fullName.vb: AdminShellNS.MultiValueDictionary(Of K, V).Item
   nameWithType: MultiValueDictionary<K, V>.Item
   nameWithType.vb: MultiValueDictionary(Of K, V).Item
+- uid: AdminShellNS.XmlValidator
+  name: XmlValidator
+  href: api/AdminShellNS.XmlValidator.html
+  commentId: T:AdminShellNS.XmlValidator
+  fullName: AdminShellNS.XmlValidator
+  nameWithType: XmlValidator
+- uid: AdminShellNS.XmlValidator.Validate(AdminShellNS.AasValidationRecordList,System.IO.Stream)
+  name: Validate(AasValidationRecordList, Stream)
+  href: api/AdminShellNS.XmlValidator.html#AdminShellNS_XmlValidator_Validate_AdminShellNS_AasValidationRecordList_System_IO_Stream_
+  commentId: M:AdminShellNS.XmlValidator.Validate(AdminShellNS.AasValidationRecordList,System.IO.Stream)
+  fullName: AdminShellNS.XmlValidator.Validate(AdminShellNS.AasValidationRecordList, System.IO.Stream)
+  nameWithType: XmlValidator.Validate(AasValidationRecordList, Stream)
+- uid: AdminShellNS.XmlValidator.Validate*
+  name: Validate
+  href: api/AdminShellNS.XmlValidator.html#AdminShellNS_XmlValidator_Validate_
+  commentId: Overload:AdminShellNS.XmlValidator.Validate
+  isSpec: "True"
+  fullName: AdminShellNS.XmlValidator.Validate
+  nameWithType: XmlValidator.Validate
 - uid: Microsoft.Msagl.WpfGraphControl
   name: Microsoft.Msagl.WpfGraphControl
   href: api/Microsoft.Msagl.WpfGraphControl.html
