@@ -36611,6 +36611,19 @@ references:
   commentId: F:AdminShellNS.AdminShellV20.EmbeddedDataSpecification.dataSpecificationContent
   fullName: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.dataSpecificationContent
   nameWithType: AdminShellV20.EmbeddedDataSpecification.dataSpecificationContent
+- uid: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.GetIEC61360
+  name: GetIEC61360()
+  href: api/AdminShellNS.AdminShellV20.EmbeddedDataSpecification.html#AdminShellNS_AdminShellV20_EmbeddedDataSpecification_GetIEC61360
+  commentId: M:AdminShellNS.AdminShellV20.EmbeddedDataSpecification.GetIEC61360
+  fullName: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.GetIEC61360()
+  nameWithType: AdminShellV20.EmbeddedDataSpecification.GetIEC61360()
+- uid: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.GetIEC61360*
+  name: GetIEC61360
+  href: api/AdminShellNS.AdminShellV20.EmbeddedDataSpecification.html#AdminShellNS_AdminShellV20_EmbeddedDataSpecification_GetIEC61360_
+  commentId: Overload:AdminShellNS.AdminShellV20.EmbeddedDataSpecification.GetIEC61360
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.GetIEC61360
+  nameWithType: AdminShellV20.EmbeddedDataSpecification.GetIEC61360
 - uid: AdminShellNS.AdminShellV20.EmbeddedDataSpecification.JsonWrongDataSpec61360
   name: JsonWrongDataSpec61360
   href: api/AdminShellNS.AdminShellV20.EmbeddedDataSpecification.html#AdminShellNS_AdminShellV20_EmbeddedDataSpecification_JsonWrongDataSpec61360
