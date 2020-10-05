@@ -13448,6 +13448,82 @@ references:
   commentId: F:AasxIntegrationBase.AasForms.FormDescReferable.PresetIdShort
   fullName: AasxIntegrationBase.AasForms.FormDescReferable.PresetIdShort
   nameWithType: FormDescReferable.PresetIdShort
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement
+  name: FormDescReferenceElement
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html
+  commentId: T:AasxIntegrationBase.AasForms.FormDescReferenceElement
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement
+  nameWithType: FormDescReferenceElement
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.#ctor
+  name: FormDescReferenceElement()
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement__ctor
+  commentId: M:AasxIntegrationBase.AasForms.FormDescReferenceElement.#ctor
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.FormDescReferenceElement()
+  nameWithType: FormDescReferenceElement.FormDescReferenceElement()
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.#ctor(AasxIntegrationBase.AasForms.FormDescReferenceElement)
+  name: FormDescReferenceElement(FormDescReferenceElement)
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement__ctor_AasxIntegrationBase_AasForms_FormDescReferenceElement_
+  commentId: M:AasxIntegrationBase.AasForms.FormDescReferenceElement.#ctor(AasxIntegrationBase.AasForms.FormDescReferenceElement)
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.FormDescReferenceElement(AasxIntegrationBase.AasForms.FormDescReferenceElement)
+  nameWithType: FormDescReferenceElement.FormDescReferenceElement(FormDescReferenceElement)
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.#ctor(System.String,AasxIntegrationBase.AasForms.FormMultiplicity,AdminShellNS.AdminShellV20.Key,System.String,System.String,System.Boolean,System.String)
+  name: FormDescReferenceElement(String, FormMultiplicity, AdminShellV20.Key, String, String, Boolean, String)
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement__ctor_System_String_AasxIntegrationBase_AasForms_FormMultiplicity_AdminShellNS_AdminShellV20_Key_System_String_System_String_System_Boolean_System_String_
+  commentId: M:AasxIntegrationBase.AasForms.FormDescReferenceElement.#ctor(System.String,AasxIntegrationBase.AasForms.FormMultiplicity,AdminShellNS.AdminShellV20.Key,System.String,System.String,System.Boolean,System.String)
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.FormDescReferenceElement(System.String, AasxIntegrationBase.AasForms.FormMultiplicity, AdminShellNS.AdminShellV20.Key, System.String, System.String, System.Boolean, System.String)
+  nameWithType: FormDescReferenceElement.FormDescReferenceElement(String, FormMultiplicity, AdminShellV20.Key, String, String, Boolean, String)
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.#ctor*
+  name: FormDescReferenceElement
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement__ctor_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormDescReferenceElement.#ctor
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.FormDescReferenceElement
+  nameWithType: FormDescReferenceElement.FormDescReferenceElement
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.Clone
+  name: Clone()
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement_Clone
+  commentId: M:AasxIntegrationBase.AasForms.FormDescReferenceElement.Clone
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.Clone()
+  nameWithType: FormDescReferenceElement.Clone()
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.Clone*
+  name: Clone
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement_Clone_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormDescReferenceElement.Clone
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.Clone
+  nameWithType: FormDescReferenceElement.Clone
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.CreateInstance(AasxIntegrationBase.AasForms.FormInstanceListOfSame,AdminShellNS.AdminShellV20.SubmodelElement)
+  name: CreateInstance(FormInstanceListOfSame, AdminShellV20.SubmodelElement)
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement_CreateInstance_AasxIntegrationBase_AasForms_FormInstanceListOfSame_AdminShellNS_AdminShellV20_SubmodelElement_
+  commentId: M:AasxIntegrationBase.AasForms.FormDescReferenceElement.CreateInstance(AasxIntegrationBase.AasForms.FormInstanceListOfSame,AdminShellNS.AdminShellV20.SubmodelElement)
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.CreateInstance(AasxIntegrationBase.AasForms.FormInstanceListOfSame, AdminShellNS.AdminShellV20.SubmodelElement)
+  nameWithType: FormDescReferenceElement.CreateInstance(FormInstanceListOfSame, AdminShellV20.SubmodelElement)
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.CreateInstance*
+  name: CreateInstance
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement_CreateInstance_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormDescReferenceElement.CreateInstance
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.CreateInstance
+  nameWithType: FormDescReferenceElement.CreateInstance
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.GenerateDefault
+  name: GenerateDefault()
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement_GenerateDefault
+  commentId: M:AasxIntegrationBase.AasForms.FormDescReferenceElement.GenerateDefault
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.GenerateDefault()
+  nameWithType: FormDescReferenceElement.GenerateDefault()
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.GenerateDefault*
+  name: GenerateDefault
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement_GenerateDefault_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormDescReferenceElement.GenerateDefault
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.GenerateDefault
+  nameWithType: FormDescReferenceElement.GenerateDefault
+- uid: AasxIntegrationBase.AasForms.FormDescReferenceElement.presetFilter
+  name: presetFilter
+  href: api/AasxIntegrationBase.AasForms.FormDescReferenceElement.html#AasxIntegrationBase_AasForms_FormDescReferenceElement_presetFilter
+  commentId: F:AasxIntegrationBase.AasForms.FormDescReferenceElement.presetFilter
+  fullName: AasxIntegrationBase.AasForms.FormDescReferenceElement.presetFilter
+  nameWithType: FormDescReferenceElement.presetFilter
 - uid: AasxIntegrationBase.AasForms.FormDescSubmodel
   name: FormDescSubmodel
   href: api/AasxIntegrationBase.AasForms.FormDescSubmodel.html
@@ -13776,6 +13852,12 @@ references:
   commentId: F:AasxIntegrationBase.AasForms.FormInstanceBase.subControl
   fullName: AasxIntegrationBase.AasForms.FormInstanceBase.subControl
   nameWithType: FormInstanceBase.subControl
+- uid: AasxIntegrationBase.AasForms.FormInstanceBase.subscribeForNextEventReturn
+  name: subscribeForNextEventReturn
+  href: api/AasxIntegrationBase.AasForms.FormInstanceBase.html#AasxIntegrationBase_AasForms_FormInstanceBase_subscribeForNextEventReturn
+  commentId: F:AasxIntegrationBase.AasForms.FormInstanceBase.subscribeForNextEventReturn
+  fullName: AasxIntegrationBase.AasForms.FormInstanceBase.subscribeForNextEventReturn
+  nameWithType: FormInstanceBase.subscribeForNextEventReturn
 - uid: AasxIntegrationBase.AasForms.FormInstanceBase.Touch
   name: Touch()
   href: api/AasxIntegrationBase.AasForms.FormInstanceBase.html#AasxIntegrationBase_AasForms_FormInstanceBase_Touch
@@ -14101,6 +14183,38 @@ references:
   isSpec: "True"
   fullName: AasxIntegrationBase.AasForms.FormInstanceProperty.ProcessSmeForRender
   nameWithType: FormInstanceProperty.ProcessSmeForRender
+- uid: AasxIntegrationBase.AasForms.FormInstanceReferenceElement
+  name: FormInstanceReferenceElement
+  href: api/AasxIntegrationBase.AasForms.FormInstanceReferenceElement.html
+  commentId: T:AasxIntegrationBase.AasForms.FormInstanceReferenceElement
+  fullName: AasxIntegrationBase.AasForms.FormInstanceReferenceElement
+  nameWithType: FormInstanceReferenceElement
+- uid: AasxIntegrationBase.AasForms.FormInstanceReferenceElement.#ctor(AasxIntegrationBase.AasForms.FormInstanceListOfSame,AasxIntegrationBase.AasForms.FormDescReferenceElement,AdminShellNS.AdminShellV20.SubmodelElement,System.Boolean)
+  name: FormInstanceReferenceElement(FormInstanceListOfSame, FormDescReferenceElement, AdminShellV20.SubmodelElement, Boolean)
+  href: api/AasxIntegrationBase.AasForms.FormInstanceReferenceElement.html#AasxIntegrationBase_AasForms_FormInstanceReferenceElement__ctor_AasxIntegrationBase_AasForms_FormInstanceListOfSame_AasxIntegrationBase_AasForms_FormDescReferenceElement_AdminShellNS_AdminShellV20_SubmodelElement_System_Boolean_
+  commentId: M:AasxIntegrationBase.AasForms.FormInstanceReferenceElement.#ctor(AasxIntegrationBase.AasForms.FormInstanceListOfSame,AasxIntegrationBase.AasForms.FormDescReferenceElement,AdminShellNS.AdminShellV20.SubmodelElement,System.Boolean)
+  fullName: AasxIntegrationBase.AasForms.FormInstanceReferenceElement.FormInstanceReferenceElement(AasxIntegrationBase.AasForms.FormInstanceListOfSame, AasxIntegrationBase.AasForms.FormDescReferenceElement, AdminShellNS.AdminShellV20.SubmodelElement, System.Boolean)
+  nameWithType: FormInstanceReferenceElement.FormInstanceReferenceElement(FormInstanceListOfSame, FormDescReferenceElement, AdminShellV20.SubmodelElement, Boolean)
+- uid: AasxIntegrationBase.AasForms.FormInstanceReferenceElement.#ctor*
+  name: FormInstanceReferenceElement
+  href: api/AasxIntegrationBase.AasForms.FormInstanceReferenceElement.html#AasxIntegrationBase_AasForms_FormInstanceReferenceElement__ctor_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormInstanceReferenceElement.#ctor
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormInstanceReferenceElement.FormInstanceReferenceElement
+  nameWithType: FormInstanceReferenceElement.FormInstanceReferenceElement
+- uid: AasxIntegrationBase.AasForms.FormInstanceReferenceElement.ProcessSmeForRender(AdminShellNS.AdminShellPackageEnv,System.Boolean,System.Boolean)
+  name: ProcessSmeForRender(AdminShellPackageEnv, Boolean, Boolean)
+  href: api/AasxIntegrationBase.AasForms.FormInstanceReferenceElement.html#AasxIntegrationBase_AasForms_FormInstanceReferenceElement_ProcessSmeForRender_AdminShellNS_AdminShellPackageEnv_System_Boolean_System_Boolean_
+  commentId: M:AasxIntegrationBase.AasForms.FormInstanceReferenceElement.ProcessSmeForRender(AdminShellNS.AdminShellPackageEnv,System.Boolean,System.Boolean)
+  fullName: AasxIntegrationBase.AasForms.FormInstanceReferenceElement.ProcessSmeForRender(AdminShellNS.AdminShellPackageEnv, System.Boolean, System.Boolean)
+  nameWithType: FormInstanceReferenceElement.ProcessSmeForRender(AdminShellPackageEnv, Boolean, Boolean)
+- uid: AasxIntegrationBase.AasForms.FormInstanceReferenceElement.ProcessSmeForRender*
+  name: ProcessSmeForRender
+  href: api/AasxIntegrationBase.AasForms.FormInstanceReferenceElement.html#AasxIntegrationBase_AasForms_FormInstanceReferenceElement_ProcessSmeForRender_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormInstanceReferenceElement.ProcessSmeForRender
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormInstanceReferenceElement.ProcessSmeForRender
+  nameWithType: FormInstanceReferenceElement.ProcessSmeForRender
 - uid: AasxIntegrationBase.AasForms.FormInstanceSubmodel
   name: FormInstanceSubmodel
   href: api/AasxIntegrationBase.AasForms.FormInstanceSubmodel.html
@@ -14826,6 +14940,100 @@ references:
   commentId: F:AasxIntegrationBase.AasForms.FormSubControlProperty.UpdateDisplayInCharge
   fullName: AasxIntegrationBase.AasForms.FormSubControlProperty.UpdateDisplayInCharge
   nameWithType: FormSubControlProperty.UpdateDisplayInCharge
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement
+  name: FormSubControlReferenceElement
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.html
+  commentId: T:AasxIntegrationBase.AasForms.FormSubControlReferenceElement
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement
+  nameWithType: FormSubControlReferenceElement
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.#ctor
+  name: FormSubControlReferenceElement()
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement__ctor
+  commentId: M:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.#ctor
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.FormSubControlReferenceElement()
+  nameWithType: FormSubControlReferenceElement.FormSubControlReferenceElement()
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.#ctor*
+  name: FormSubControlReferenceElement
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement__ctor_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.#ctor
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.FormSubControlReferenceElement
+  nameWithType: FormSubControlReferenceElement.FormSubControlReferenceElement
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext
+  name: FormSubControlReferenceElement.IndividualDataContext
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.html
+  commentId: T:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext
+  nameWithType: FormSubControlReferenceElement.IndividualDataContext
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.CreateDataContext(System.Object)
+  name: CreateDataContext(Object)
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement_IndividualDataContext_CreateDataContext_System_Object_
+  commentId: M:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.CreateDataContext(System.Object)
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.CreateDataContext(System.Object)
+  nameWithType: FormSubControlReferenceElement.IndividualDataContext.CreateDataContext(Object)
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.CreateDataContext*
+  name: CreateDataContext
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement_IndividualDataContext_CreateDataContext_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.CreateDataContext
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.CreateDataContext
+  nameWithType: FormSubControlReferenceElement.IndividualDataContext.CreateDataContext
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.desc
+  name: desc
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement_IndividualDataContext_desc
+  commentId: F:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.desc
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.desc
+  nameWithType: FormSubControlReferenceElement.IndividualDataContext.desc
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.instance
+  name: instance
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement_IndividualDataContext_instance
+  commentId: F:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.instance
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.instance
+  nameWithType: FormSubControlReferenceElement.IndividualDataContext.instance
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.refElem
+  name: refElem
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement_IndividualDataContext_refElem
+  commentId: F:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.refElem
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.refElem
+  nameWithType: FormSubControlReferenceElement.IndividualDataContext.refElem
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.UpdateDisplayInCharge
+  name: UpdateDisplayInCharge
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement_UpdateDisplayInCharge
+  commentId: F:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.UpdateDisplayInCharge
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.UpdateDisplayInCharge
+  nameWithType: FormSubControlReferenceElement.UpdateDisplayInCharge
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel
+  name: FormSubControlReferenceElement.ViewModel
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.html
+  commentId: T:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel
+  nameWithType: FormSubControlReferenceElement.ViewModel
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.InfoReference
+  name: InfoReference
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement_ViewModel_InfoReference
+  commentId: P:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.InfoReference
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.InfoReference
+  nameWithType: FormSubControlReferenceElement.ViewModel.InfoReference
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.InfoReference*
+  name: InfoReference
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement_ViewModel_InfoReference_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.InfoReference
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.InfoReference
+  nameWithType: FormSubControlReferenceElement.ViewModel.InfoReference
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.StoredReference
+  name: StoredReference
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement_ViewModel_StoredReference
+  commentId: P:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.StoredReference
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.StoredReference
+  nameWithType: FormSubControlReferenceElement.ViewModel.StoredReference
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.StoredReference*
+  name: StoredReference
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.html#AasxIntegrationBase_AasForms_FormSubControlReferenceElement_ViewModel_StoredReference_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.StoredReference
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferenceElement.ViewModel.StoredReference
+  nameWithType: FormSubControlReferenceElement.ViewModel.StoredReference
 - uid: AasxIntegrationBase.AasForms.FormSubControlSMEBase
   name: FormSubControlSMEBase
   href: api/AasxIntegrationBase.AasForms.FormSubControlSMEBase.html
@@ -15090,6 +15298,130 @@ references:
   isSpec: "True"
   fullName: AasxIntegrationBase.AasForms.IFormListOfDifferent.GetListOfDifferent
   nameWithType: IFormListOfDifferent.GetListOfDifferent
+- uid: AasxIntegrationBase.AasxLanguageHelper
+  name: AasxLanguageHelper
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html
+  commentId: T:AasxIntegrationBase.AasxLanguageHelper
+  fullName: AasxIntegrationBase.AasxLanguageHelper
+  nameWithType: AasxLanguageHelper
+- uid: AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromCountryCode(System.String)
+  name: FindLangEnumFromCountryCode(String)
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html#AasxIntegrationBase_AasxLanguageHelper_FindLangEnumFromCountryCode_System_String_
+  commentId: M:AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromCountryCode(System.String)
+  fullName: AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromCountryCode(System.String)
+  nameWithType: AasxLanguageHelper.FindLangEnumFromCountryCode(String)
+- uid: AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromCountryCode*
+  name: FindLangEnumFromCountryCode
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html#AasxIntegrationBase_AasxLanguageHelper_FindLangEnumFromCountryCode_
+  commentId: Overload:AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromCountryCode
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromCountryCode
+  nameWithType: AasxLanguageHelper.FindLangEnumFromCountryCode
+- uid: AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromLangCode(System.String)
+  name: FindLangEnumFromLangCode(String)
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html#AasxIntegrationBase_AasxLanguageHelper_FindLangEnumFromLangCode_System_String_
+  commentId: M:AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromLangCode(System.String)
+  fullName: AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromLangCode(System.String)
+  nameWithType: AasxLanguageHelper.FindLangEnumFromLangCode(String)
+- uid: AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromLangCode*
+  name: FindLangEnumFromLangCode
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html#AasxIntegrationBase_AasxLanguageHelper_FindLangEnumFromLangCode_
+  commentId: Overload:AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromLangCode
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasxLanguageHelper.FindLangEnumFromLangCode
+  nameWithType: AasxLanguageHelper.FindLangEnumFromLangCode
+- uid: AasxIntegrationBase.AasxLanguageHelper.GetCountryCodeFromEnum(AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  name: GetCountryCodeFromEnum(AasxLanguageHelper.LangEnum)
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html#AasxIntegrationBase_AasxLanguageHelper_GetCountryCodeFromEnum_AasxIntegrationBase_AasxLanguageHelper_LangEnum_
+  commentId: M:AasxIntegrationBase.AasxLanguageHelper.GetCountryCodeFromEnum(AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  fullName: AasxIntegrationBase.AasxLanguageHelper.GetCountryCodeFromEnum(AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  nameWithType: AasxLanguageHelper.GetCountryCodeFromEnum(AasxLanguageHelper.LangEnum)
+- uid: AasxIntegrationBase.AasxLanguageHelper.GetCountryCodeFromEnum*
+  name: GetCountryCodeFromEnum
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html#AasxIntegrationBase_AasxLanguageHelper_GetCountryCodeFromEnum_
+  commentId: Overload:AasxIntegrationBase.AasxLanguageHelper.GetCountryCodeFromEnum
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasxLanguageHelper.GetCountryCodeFromEnum
+  nameWithType: AasxLanguageHelper.GetCountryCodeFromEnum
+- uid: AasxIntegrationBase.AasxLanguageHelper.GetLangCodeFromEnum(AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  name: GetLangCodeFromEnum(AasxLanguageHelper.LangEnum)
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html#AasxIntegrationBase_AasxLanguageHelper_GetLangCodeFromEnum_AasxIntegrationBase_AasxLanguageHelper_LangEnum_
+  commentId: M:AasxIntegrationBase.AasxLanguageHelper.GetLangCodeFromEnum(AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  fullName: AasxIntegrationBase.AasxLanguageHelper.GetLangCodeFromEnum(AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  nameWithType: AasxLanguageHelper.GetLangCodeFromEnum(AasxLanguageHelper.LangEnum)
+- uid: AasxIntegrationBase.AasxLanguageHelper.GetLangCodeFromEnum*
+  name: GetLangCodeFromEnum
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html#AasxIntegrationBase_AasxLanguageHelper_GetLangCodeFromEnum_
+  commentId: Overload:AasxIntegrationBase.AasxLanguageHelper.GetLangCodeFromEnum
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasxLanguageHelper.GetLangCodeFromEnum
+  nameWithType: AasxLanguageHelper.GetLangCodeFromEnum
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnum
+  name: AasxLanguageHelper.LangEnum
+  href: api/AasxIntegrationBase.AasxLanguageHelper.LangEnum.html
+  commentId: T:AasxIntegrationBase.AasxLanguageHelper.LangEnum
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnum
+  nameWithType: AasxLanguageHelper.LangEnum
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnum.Any
+  name: Any
+  href: api/AasxIntegrationBase.AasxLanguageHelper.LangEnum.html#AasxIntegrationBase_AasxLanguageHelper_LangEnum_Any
+  commentId: F:AasxIntegrationBase.AasxLanguageHelper.LangEnum.Any
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnum.Any
+  nameWithType: AasxLanguageHelper.LangEnum.Any
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnum.CN
+  name: CN
+  href: api/AasxIntegrationBase.AasxLanguageHelper.LangEnum.html#AasxIntegrationBase_AasxLanguageHelper_LangEnum_CN
+  commentId: F:AasxIntegrationBase.AasxLanguageHelper.LangEnum.CN
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnum.CN
+  nameWithType: AasxLanguageHelper.LangEnum.CN
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnum.DE
+  name: DE
+  href: api/AasxIntegrationBase.AasxLanguageHelper.LangEnum.html#AasxIntegrationBase_AasxLanguageHelper_LangEnum_DE
+  commentId: F:AasxIntegrationBase.AasxLanguageHelper.LangEnum.DE
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnum.DE
+  nameWithType: AasxLanguageHelper.LangEnum.DE
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnum.EN
+  name: EN
+  href: api/AasxIntegrationBase.AasxLanguageHelper.LangEnum.html#AasxIntegrationBase_AasxLanguageHelper_LangEnum_EN
+  commentId: F:AasxIntegrationBase.AasxLanguageHelper.LangEnum.EN
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnum.EN
+  nameWithType: AasxLanguageHelper.LangEnum.EN
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnum.ES
+  name: ES
+  href: api/AasxIntegrationBase.AasxLanguageHelper.LangEnum.html#AasxIntegrationBase_AasxLanguageHelper_LangEnum_ES
+  commentId: F:AasxIntegrationBase.AasxLanguageHelper.LangEnum.ES
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnum.ES
+  nameWithType: AasxLanguageHelper.LangEnum.ES
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnum.FR
+  name: FR
+  href: api/AasxIntegrationBase.AasxLanguageHelper.LangEnum.html#AasxIntegrationBase_AasxLanguageHelper_LangEnum_FR
+  commentId: F:AasxIntegrationBase.AasxLanguageHelper.LangEnum.FR
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnum.FR
+  nameWithType: AasxLanguageHelper.LangEnum.FR
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnum.JP
+  name: JP
+  href: api/AasxIntegrationBase.AasxLanguageHelper.LangEnum.html#AasxIntegrationBase_AasxLanguageHelper_LangEnum_JP
+  commentId: F:AasxIntegrationBase.AasxLanguageHelper.LangEnum.JP
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnum.JP
+  nameWithType: AasxLanguageHelper.LangEnum.JP
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnum.KR
+  name: KR
+  href: api/AasxIntegrationBase.AasxLanguageHelper.LangEnum.html#AasxIntegrationBase_AasxLanguageHelper_LangEnum_KR
+  commentId: F:AasxIntegrationBase.AasxLanguageHelper.LangEnum.KR
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnum.KR
+  nameWithType: AasxLanguageHelper.LangEnum.KR
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnumToISO3166String
+  name: LangEnumToISO3166String
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html#AasxIntegrationBase_AasxLanguageHelper_LangEnumToISO3166String
+  commentId: F:AasxIntegrationBase.AasxLanguageHelper.LangEnumToISO3166String
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnumToISO3166String
+  nameWithType: AasxLanguageHelper.LangEnumToISO3166String
+- uid: AasxIntegrationBase.AasxLanguageHelper.LangEnumToISO639String
+  name: LangEnumToISO639String
+  href: api/AasxIntegrationBase.AasxLanguageHelper.html#AasxIntegrationBase_AasxLanguageHelper_LangEnumToISO639String
+  commentId: F:AasxIntegrationBase.AasxLanguageHelper.LangEnumToISO639String
+  fullName: AasxIntegrationBase.AasxLanguageHelper.LangEnumToISO639String
+  nameWithType: AasxLanguageHelper.LangEnumToISO639String
 - uid: AasxIntegrationBase.AasxPlugin
   name: AasxPlugin
   href: api/AasxIntegrationBase.AasxPlugin.html
@@ -19657,15 +19989,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityReferable
   nameWithType: DispEditHelperModules.DisplayOrEditEntityReferable
-- uid: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.SemanticId,System.Action{AdminShellNS.AdminShellV20.SemanticId},System.String,System.Boolean)
-  name: DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action<AdminShellV20.SemanticId>, String, Boolean)
-  href: api/AasxPackageExplorer.DispEditHelperModules.html#AasxPackageExplorer_DispEditHelperModules_DisplayOrEditEntitySemanticId_System_Windows_Controls_StackPanel_AdminShellNS_AdminShellV20_SemanticId_System_Action_AdminShellNS_AdminShellV20_SemanticId__System_String_System_Boolean_
-  commentId: M:AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.SemanticId,System.Action{AdminShellNS.AdminShellV20.SemanticId},System.String,System.Boolean)
-  name.vb: DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action(Of AdminShellV20.SemanticId), String, Boolean)
-  fullName: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.SemanticId, System.Action<AdminShellNS.AdminShellV20.SemanticId>, System.String, System.Boolean)
-  fullName.vb: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.SemanticId, System.Action(Of AdminShellNS.AdminShellV20.SemanticId), System.String, System.Boolean)
-  nameWithType: DispEditHelperModules.DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action<AdminShellV20.SemanticId>, String, Boolean)
-  nameWithType.vb: DispEditHelperModules.DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action(Of AdminShellV20.SemanticId), String, Boolean)
+- uid: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.SemanticId,System.Action{AdminShellNS.AdminShellV20.SemanticId},System.String,System.Boolean,System.String)
+  name: DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action<AdminShellV20.SemanticId>, String, Boolean, String)
+  href: api/AasxPackageExplorer.DispEditHelperModules.html#AasxPackageExplorer_DispEditHelperModules_DisplayOrEditEntitySemanticId_System_Windows_Controls_StackPanel_AdminShellNS_AdminShellV20_SemanticId_System_Action_AdminShellNS_AdminShellV20_SemanticId__System_String_System_Boolean_System_String_
+  commentId: M:AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.SemanticId,System.Action{AdminShellNS.AdminShellV20.SemanticId},System.String,System.Boolean,System.String)
+  name.vb: DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action(Of AdminShellV20.SemanticId), String, Boolean, String)
+  fullName: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.SemanticId, System.Action<AdminShellNS.AdminShellV20.SemanticId>, System.String, System.Boolean, System.String)
+  fullName.vb: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.SemanticId, System.Action(Of AdminShellNS.AdminShellV20.SemanticId), System.String, System.Boolean, System.String)
+  nameWithType: DispEditHelperModules.DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action<AdminShellV20.SemanticId>, String, Boolean, String)
+  nameWithType.vb: DispEditHelperModules.DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action(Of AdminShellV20.SemanticId), String, Boolean, String)
 - uid: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId*
   name: DisplayOrEditEntitySemanticId
   href: api/AasxPackageExplorer.DispEditHelperModules.html#AasxPackageExplorer_DispEditHelperModules_DisplayOrEditEntitySemanticId_
@@ -25133,6 +25465,42 @@ references:
   commentId: F:AasxPluginDocumentShelf.DocumentEntity.DigitalFile
   fullName: AasxPluginDocumentShelf.DocumentEntity.DigitalFile
   nameWithType: DocumentEntity.DigitalFile
+- uid: AasxPluginDocumentShelf.DocumentEntity.DocRelationType
+  name: DocumentEntity.DocRelationType
+  href: api/AasxPluginDocumentShelf.DocumentEntity.DocRelationType.html
+  commentId: T:AasxPluginDocumentShelf.DocumentEntity.DocRelationType
+  fullName: AasxPluginDocumentShelf.DocumentEntity.DocRelationType
+  nameWithType: DocumentEntity.DocRelationType
+- uid: AasxPluginDocumentShelf.DocumentEntity.DocRelationType.Affecting
+  name: Affecting
+  href: api/AasxPluginDocumentShelf.DocumentEntity.DocRelationType.html#AasxPluginDocumentShelf_DocumentEntity_DocRelationType_Affecting
+  commentId: F:AasxPluginDocumentShelf.DocumentEntity.DocRelationType.Affecting
+  fullName: AasxPluginDocumentShelf.DocumentEntity.DocRelationType.Affecting
+  nameWithType: DocumentEntity.DocRelationType.Affecting
+- uid: AasxPluginDocumentShelf.DocumentEntity.DocRelationType.BasedOn
+  name: BasedOn
+  href: api/AasxPluginDocumentShelf.DocumentEntity.DocRelationType.html#AasxPluginDocumentShelf_DocumentEntity_DocRelationType_BasedOn
+  commentId: F:AasxPluginDocumentShelf.DocumentEntity.DocRelationType.BasedOn
+  fullName: AasxPluginDocumentShelf.DocumentEntity.DocRelationType.BasedOn
+  nameWithType: DocumentEntity.DocRelationType.BasedOn
+- uid: AasxPluginDocumentShelf.DocumentEntity.DocRelationType.DocumentedEntity
+  name: DocumentedEntity
+  href: api/AasxPluginDocumentShelf.DocumentEntity.DocRelationType.html#AasxPluginDocumentShelf_DocumentEntity_DocRelationType_DocumentedEntity
+  commentId: F:AasxPluginDocumentShelf.DocumentEntity.DocRelationType.DocumentedEntity
+  fullName: AasxPluginDocumentShelf.DocumentEntity.DocRelationType.DocumentedEntity
+  nameWithType: DocumentEntity.DocRelationType.DocumentedEntity
+- uid: AasxPluginDocumentShelf.DocumentEntity.DocRelationType.RefersTo
+  name: RefersTo
+  href: api/AasxPluginDocumentShelf.DocumentEntity.DocRelationType.html#AasxPluginDocumentShelf_DocumentEntity_DocRelationType_RefersTo
+  commentId: F:AasxPluginDocumentShelf.DocumentEntity.DocRelationType.RefersTo
+  fullName: AasxPluginDocumentShelf.DocumentEntity.DocRelationType.RefersTo
+  nameWithType: DocumentEntity.DocRelationType.RefersTo
+- uid: AasxPluginDocumentShelf.DocumentEntity.DocRelationType.TranslationOf
+  name: TranslationOf
+  href: api/AasxPluginDocumentShelf.DocumentEntity.DocRelationType.html#AasxPluginDocumentShelf_DocumentEntity_DocRelationType_TranslationOf
+  commentId: F:AasxPluginDocumentShelf.DocumentEntity.DocRelationType.TranslationOf
+  fullName: AasxPluginDocumentShelf.DocumentEntity.DocRelationType.TranslationOf
+  nameWithType: DocumentEntity.DocRelationType.TranslationOf
 - uid: AasxPluginDocumentShelf.DocumentEntity.DocumentEntityEvent
   name: DocumentEntity.DocumentEntityEvent
   href: api/AasxPluginDocumentShelf.DocumentEntity.DocumentEntityEvent.html
@@ -25194,12 +25562,12 @@ references:
   isSpec: "True"
   fullName: AasxPluginDocumentShelf.DocumentEntity.RaiseDoubleClick
   nameWithType: DocumentEntity.RaiseDoubleClick
-- uid: AasxPluginDocumentShelf.DocumentEntity.RaiseMenuClick(System.String)
-  name: RaiseMenuClick(String)
-  href: api/AasxPluginDocumentShelf.DocumentEntity.html#AasxPluginDocumentShelf_DocumentEntity_RaiseMenuClick_System_String_
-  commentId: M:AasxPluginDocumentShelf.DocumentEntity.RaiseMenuClick(System.String)
-  fullName: AasxPluginDocumentShelf.DocumentEntity.RaiseMenuClick(System.String)
-  nameWithType: DocumentEntity.RaiseMenuClick(String)
+- uid: AasxPluginDocumentShelf.DocumentEntity.RaiseMenuClick(System.String,System.Object)
+  name: RaiseMenuClick(String, Object)
+  href: api/AasxPluginDocumentShelf.DocumentEntity.html#AasxPluginDocumentShelf_DocumentEntity_RaiseMenuClick_System_String_System_Object_
+  commentId: M:AasxPluginDocumentShelf.DocumentEntity.RaiseMenuClick(System.String,System.Object)
+  fullName: AasxPluginDocumentShelf.DocumentEntity.RaiseMenuClick(System.String, System.Object)
+  nameWithType: DocumentEntity.RaiseMenuClick(String, Object)
 - uid: AasxPluginDocumentShelf.DocumentEntity.RaiseMenuClick*
   name: RaiseMenuClick
   href: api/AasxPluginDocumentShelf.DocumentEntity.html#AasxPluginDocumentShelf_DocumentEntity_RaiseMenuClick_
@@ -25213,6 +25581,18 @@ references:
   commentId: F:AasxPluginDocumentShelf.DocumentEntity.ReferableHash
   fullName: AasxPluginDocumentShelf.DocumentEntity.ReferableHash
   nameWithType: DocumentEntity.ReferableHash
+- uid: AasxPluginDocumentShelf.DocumentEntity.Relations
+  name: Relations
+  href: api/AasxPluginDocumentShelf.DocumentEntity.html#AasxPluginDocumentShelf_DocumentEntity_Relations
+  commentId: F:AasxPluginDocumentShelf.DocumentEntity.Relations
+  fullName: AasxPluginDocumentShelf.DocumentEntity.Relations
+  nameWithType: DocumentEntity.Relations
+- uid: AasxPluginDocumentShelf.DocumentEntity.SmVersion
+  name: SmVersion
+  href: api/AasxPluginDocumentShelf.DocumentEntity.html#AasxPluginDocumentShelf_DocumentEntity_SmVersion
+  commentId: F:AasxPluginDocumentShelf.DocumentEntity.SmVersion
+  fullName: AasxPluginDocumentShelf.DocumentEntity.SmVersion
+  nameWithType: DocumentEntity.SmVersion
 - uid: AasxPluginDocumentShelf.DocumentEntity.SourceElementsDocument
   name: SourceElementsDocument
   href: api/AasxPluginDocumentShelf.DocumentEntity.html#AasxPluginDocumentShelf_DocumentEntity_SourceElementsDocument
@@ -25225,6 +25605,24 @@ references:
   commentId: F:AasxPluginDocumentShelf.DocumentEntity.SourceElementsDocumentVersion
   fullName: AasxPluginDocumentShelf.DocumentEntity.SourceElementsDocumentVersion
   nameWithType: DocumentEntity.SourceElementsDocumentVersion
+- uid: AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion
+  name: DocumentEntity.SubmodelVersion
+  href: api/AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion.html
+  commentId: T:AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion
+  fullName: AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion
+  nameWithType: DocumentEntity.SubmodelVersion
+- uid: AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion.Default
+  name: Default
+  href: api/AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion.html#AasxPluginDocumentShelf_DocumentEntity_SubmodelVersion_Default
+  commentId: F:AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion.Default
+  fullName: AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion.Default
+  nameWithType: DocumentEntity.SubmodelVersion.Default
+- uid: AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion.V11
+  name: V11
+  href: api/AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion.html#AasxPluginDocumentShelf_DocumentEntity_SubmodelVersion_V11
+  commentId: F:AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion.V11
+  fullName: AasxPluginDocumentShelf.DocumentEntity.SubmodelVersion.V11
+  nameWithType: DocumentEntity.SubmodelVersion.V11
 - uid: AasxPluginDocumentShelf.DocumentEntity.Title
   name: Title
   href: api/AasxPluginDocumentShelf.DocumentEntity.html#AasxPluginDocumentShelf_DocumentEntity_Title
@@ -25269,6 +25667,19 @@ references:
   isSpec: "True"
   fullName: AasxPluginDocumentShelf.DocumentShelfOptions.CreateVdi2770TemplateDesc
   nameWithType: DocumentShelfOptions.CreateVdi2770TemplateDesc
+- uid: AasxPluginDocumentShelf.DocumentShelfOptions.CreateVdi2770v11TemplateDesc
+  name: CreateVdi2770v11TemplateDesc()
+  href: api/AasxPluginDocumentShelf.DocumentShelfOptions.html#AasxPluginDocumentShelf_DocumentShelfOptions_CreateVdi2770v11TemplateDesc
+  commentId: M:AasxPluginDocumentShelf.DocumentShelfOptions.CreateVdi2770v11TemplateDesc
+  fullName: AasxPluginDocumentShelf.DocumentShelfOptions.CreateVdi2770v11TemplateDesc()
+  nameWithType: DocumentShelfOptions.CreateVdi2770v11TemplateDesc()
+- uid: AasxPluginDocumentShelf.DocumentShelfOptions.CreateVdi2770v11TemplateDesc*
+  name: CreateVdi2770v11TemplateDesc
+  href: api/AasxPluginDocumentShelf.DocumentShelfOptions.html#AasxPluginDocumentShelf_DocumentShelfOptions_CreateVdi2770v11TemplateDesc_
+  commentId: Overload:AasxPluginDocumentShelf.DocumentShelfOptions.CreateVdi2770v11TemplateDesc
+  isSpec: "True"
+  fullName: AasxPluginDocumentShelf.DocumentShelfOptions.CreateVdi2770v11TemplateDesc
+  nameWithType: DocumentShelfOptions.CreateVdi2770v11TemplateDesc
 - uid: AasxPluginDocumentShelf.DocumentShelfOptions.FormVdi2770
   name: FormVdi2770
   href: api/AasxPluginDocumentShelf.DocumentShelfOptions.html#AasxPluginDocumentShelf_DocumentShelfOptions_FormVdi2770
@@ -25445,6 +25856,38 @@ references:
   isSpec: "True"
   fullName: AasxPluginDocumentShelf.EnumBooleanConverter.ConvertBack
   nameWithType: EnumBooleanConverter.ConvertBack
+- uid: AasxPluginDocumentShelf.ListOfDocumentEntity
+  name: ListOfDocumentEntity
+  href: api/AasxPluginDocumentShelf.ListOfDocumentEntity.html
+  commentId: T:AasxPluginDocumentShelf.ListOfDocumentEntity
+  fullName: AasxPluginDocumentShelf.ListOfDocumentEntity
+  nameWithType: ListOfDocumentEntity
+- uid: AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV10(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Submodel,AasxPluginDocumentShelf.DocumentShelfOptions,System.String,System.Int32,AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  name: ParseSubmodelForV10(AdminShellPackageEnv, AdminShellV20.Submodel, DocumentShelfOptions, String, Int32, AasxLanguageHelper.LangEnum)
+  href: api/AasxPluginDocumentShelf.ListOfDocumentEntity.html#AasxPluginDocumentShelf_ListOfDocumentEntity_ParseSubmodelForV10_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_Submodel_AasxPluginDocumentShelf_DocumentShelfOptions_System_String_System_Int32_AasxIntegrationBase_AasxLanguageHelper_LangEnum_
+  commentId: M:AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV10(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Submodel,AasxPluginDocumentShelf.DocumentShelfOptions,System.String,System.Int32,AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  fullName: AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV10(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.Submodel, AasxPluginDocumentShelf.DocumentShelfOptions, System.String, System.Int32, AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  nameWithType: ListOfDocumentEntity.ParseSubmodelForV10(AdminShellPackageEnv, AdminShellV20.Submodel, DocumentShelfOptions, String, Int32, AasxLanguageHelper.LangEnum)
+- uid: AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV10*
+  name: ParseSubmodelForV10
+  href: api/AasxPluginDocumentShelf.ListOfDocumentEntity.html#AasxPluginDocumentShelf_ListOfDocumentEntity_ParseSubmodelForV10_
+  commentId: Overload:AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV10
+  isSpec: "True"
+  fullName: AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV10
+  nameWithType: ListOfDocumentEntity.ParseSubmodelForV10
+- uid: AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV11(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Submodel,AasxPredefinedConcepts.VDI2770v11,System.String,System.Int32,AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  name: ParseSubmodelForV11(AdminShellPackageEnv, AdminShellV20.Submodel, VDI2770v11, String, Int32, AasxLanguageHelper.LangEnum)
+  href: api/AasxPluginDocumentShelf.ListOfDocumentEntity.html#AasxPluginDocumentShelf_ListOfDocumentEntity_ParseSubmodelForV11_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_Submodel_AasxPredefinedConcepts_VDI2770v11_System_String_System_Int32_AasxIntegrationBase_AasxLanguageHelper_LangEnum_
+  commentId: M:AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV11(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Submodel,AasxPredefinedConcepts.VDI2770v11,System.String,System.Int32,AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  fullName: AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV11(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.Submodel, AasxPredefinedConcepts.VDI2770v11, System.String, System.Int32, AasxIntegrationBase.AasxLanguageHelper.LangEnum)
+  nameWithType: ListOfDocumentEntity.ParseSubmodelForV11(AdminShellPackageEnv, AdminShellV20.Submodel, VDI2770v11, String, Int32, AasxLanguageHelper.LangEnum)
+- uid: AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV11*
+  name: ParseSubmodelForV11
+  href: api/AasxPluginDocumentShelf.ListOfDocumentEntity.html#AasxPluginDocumentShelf_ListOfDocumentEntity_ParseSubmodelForV11_
+  commentId: Overload:AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV11
+  isSpec: "True"
+  fullName: AasxPluginDocumentShelf.ListOfDocumentEntity.ParseSubmodelForV11
+  nameWithType: ListOfDocumentEntity.ParseSubmodelForV11
 - uid: AasxPluginDocumentShelf.ShelfControl
   name: ShelfControl
   href: api/AasxPluginDocumentShelf.ShelfControl.html
@@ -25495,6 +25938,19 @@ references:
   commentId: F:AasxPluginDocumentShelf.ShelfControl.formInUpdateMode
   fullName: AasxPluginDocumentShelf.ShelfControl.formInUpdateMode
   nameWithType: ShelfControl.formInUpdateMode
+- uid: AasxPluginDocumentShelf.ShelfControl.HandleEventReturn(AasxIntegrationBase.AasxPluginEventReturnBase)
+  name: HandleEventReturn(AasxPluginEventReturnBase)
+  href: api/AasxPluginDocumentShelf.ShelfControl.html#AasxPluginDocumentShelf_ShelfControl_HandleEventReturn_AasxIntegrationBase_AasxPluginEventReturnBase_
+  commentId: M:AasxPluginDocumentShelf.ShelfControl.HandleEventReturn(AasxIntegrationBase.AasxPluginEventReturnBase)
+  fullName: AasxPluginDocumentShelf.ShelfControl.HandleEventReturn(AasxIntegrationBase.AasxPluginEventReturnBase)
+  nameWithType: ShelfControl.HandleEventReturn(AasxPluginEventReturnBase)
+- uid: AasxPluginDocumentShelf.ShelfControl.HandleEventReturn*
+  name: HandleEventReturn
+  href: api/AasxPluginDocumentShelf.ShelfControl.html#AasxPluginDocumentShelf_ShelfControl_HandleEventReturn_
+  commentId: Overload:AasxPluginDocumentShelf.ShelfControl.HandleEventReturn
+  isSpec: "True"
+  fullName: AasxPluginDocumentShelf.ShelfControl.HandleEventReturn
+  nameWithType: ShelfControl.HandleEventReturn
 - uid: AasxPluginDocumentShelf.ShelfControl.ResetCountryRadioButton(System.Windows.Controls.RadioButton,CountryFlag.CountryCode)
   name: ResetCountryRadioButton(RadioButton, CountryFlag.CountryCode)
   href: api/AasxPluginDocumentShelf.ShelfControl.html#AasxPluginDocumentShelf_ShelfControl_ResetCountryRadioButton_System_Windows_Controls_RadioButton_CountryFlag_CountryCode_
@@ -25533,72 +25989,6 @@ references:
   commentId: T:AasxPluginDocumentShelf.ShelfControl.ViewModel
   fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel
   nameWithType: ShelfControl.ViewModel
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection
-  name: ShelfControl.ViewModel.LanguageSelection
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.html
-  commentId: T:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection
-  nameWithType: ShelfControl.ViewModel.LanguageSelection
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.All
-  name: All
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.html#AasxPluginDocumentShelf_ShelfControl_ViewModel_LanguageSelection_All
-  commentId: F:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.All
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.All
-  nameWithType: ShelfControl.ViewModel.LanguageSelection.All
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.CN
-  name: CN
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.html#AasxPluginDocumentShelf_ShelfControl_ViewModel_LanguageSelection_CN
-  commentId: F:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.CN
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.CN
-  nameWithType: ShelfControl.ViewModel.LanguageSelection.CN
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.DE
-  name: DE
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.html#AasxPluginDocumentShelf_ShelfControl_ViewModel_LanguageSelection_DE
-  commentId: F:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.DE
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.DE
-  nameWithType: ShelfControl.ViewModel.LanguageSelection.DE
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.EN
-  name: EN
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.html#AasxPluginDocumentShelf_ShelfControl_ViewModel_LanguageSelection_EN
-  commentId: F:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.EN
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.EN
-  nameWithType: ShelfControl.ViewModel.LanguageSelection.EN
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.ES
-  name: ES
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.html#AasxPluginDocumentShelf_ShelfControl_ViewModel_LanguageSelection_ES
-  commentId: F:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.ES
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.ES
-  nameWithType: ShelfControl.ViewModel.LanguageSelection.ES
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.FR
-  name: FR
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.html#AasxPluginDocumentShelf_ShelfControl_ViewModel_LanguageSelection_FR
-  commentId: F:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.FR
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.FR
-  nameWithType: ShelfControl.ViewModel.LanguageSelection.FR
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.JP
-  name: JP
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.html#AasxPluginDocumentShelf_ShelfControl_ViewModel_LanguageSelection_JP
-  commentId: F:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.JP
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.JP
-  nameWithType: ShelfControl.ViewModel.LanguageSelection.JP
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.KR
-  name: KR
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.html#AasxPluginDocumentShelf_ShelfControl_ViewModel_LanguageSelection_KR
-  commentId: F:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.KR
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelection.KR
-  nameWithType: ShelfControl.ViewModel.LanguageSelection.KR
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelectionToISO3166String
-  name: LanguageSelectionToISO3166String
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.html#AasxPluginDocumentShelf_ShelfControl_ViewModel_LanguageSelectionToISO3166String
-  commentId: F:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelectionToISO3166String
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelectionToISO3166String
-  nameWithType: ShelfControl.ViewModel.LanguageSelectionToISO3166String
-- uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelectionToISO639String
-  name: LanguageSelectionToISO639String
-  href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.html#AasxPluginDocumentShelf_ShelfControl_ViewModel_LanguageSelectionToISO639String
-  commentId: F:AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelectionToISO639String
-  fullName: AasxPluginDocumentShelf.ShelfControl.ViewModel.LanguageSelectionToISO639String
-  nameWithType: ShelfControl.ViewModel.LanguageSelectionToISO639String
 - uid: AasxPluginDocumentShelf.ShelfControl.ViewModel.ListType
   name: ShelfControl.ViewModel.ListType
   href: api/AasxPluginDocumentShelf.ShelfControl.ViewModel.ListType.html
@@ -27061,6 +27451,25 @@ references:
   commentId: T:AasxPredefinedConcepts.AasxDefinitionBase
   fullName: AasxPredefinedConcepts.AasxDefinitionBase
   nameWithType: AasxDefinitionBase
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.#ctor
+  name: AasxDefinitionBase()
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase__ctor
+  commentId: M:AasxPredefinedConcepts.AasxDefinitionBase.#ctor
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.AasxDefinitionBase()
+  nameWithType: AasxDefinitionBase.AasxDefinitionBase()
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.#ctor(System.Reflection.Assembly,System.String)
+  name: AasxDefinitionBase(Assembly, String)
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase__ctor_System_Reflection_Assembly_System_String_
+  commentId: M:AasxPredefinedConcepts.AasxDefinitionBase.#ctor(System.Reflection.Assembly,System.String)
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.AasxDefinitionBase(System.Reflection.Assembly, System.String)
+  nameWithType: AasxDefinitionBase.AasxDefinitionBase(Assembly, String)
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.#ctor*
+  name: AasxDefinitionBase
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase__ctor_
+  commentId: Overload:AasxPredefinedConcepts.AasxDefinitionBase.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.AasxDefinitionBase
+  nameWithType: AasxDefinitionBase.AasxDefinitionBase
 - uid: AasxPredefinedConcepts.AasxDefinitionBase.BuildLibrary(System.Reflection.Assembly,System.String)
   name: BuildLibrary(Assembly, String)
   href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_BuildLibrary_System_Reflection_Assembly_System_String_
@@ -27087,6 +27496,19 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.AasxDefinitionBase.CreateSparseConceptDescription
   nameWithType: AasxDefinitionBase.CreateSparseConceptDescription
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.GetAllReferables
+  name: GetAllReferables()
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_GetAllReferables
+  commentId: M:AasxPredefinedConcepts.AasxDefinitionBase.GetAllReferables
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.GetAllReferables()
+  nameWithType: AasxDefinitionBase.GetAllReferables()
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.GetAllReferables*
+  name: GetAllReferables
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_GetAllReferables_
+  commentId: Overload:AasxPredefinedConcepts.AasxDefinitionBase.GetAllReferables
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.GetAllReferables
+  nameWithType: AasxDefinitionBase.GetAllReferables
 - uid: AasxPredefinedConcepts.AasxDefinitionBase.LibraryEntry
   name: AasxDefinitionBase.LibraryEntry
   href: api/AasxPredefinedConcepts.AasxDefinitionBase.LibraryEntry.html
@@ -27124,6 +27546,32 @@ references:
   commentId: F:AasxPredefinedConcepts.AasxDefinitionBase.LibraryEntry.name
   fullName: AasxPredefinedConcepts.AasxDefinitionBase.LibraryEntry.name
   nameWithType: AasxDefinitionBase.LibraryEntry.name
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.ReadLibrary(System.Reflection.Assembly,System.String)
+  name: ReadLibrary(Assembly, String)
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_ReadLibrary_System_Reflection_Assembly_System_String_
+  commentId: M:AasxPredefinedConcepts.AasxDefinitionBase.ReadLibrary(System.Reflection.Assembly,System.String)
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.ReadLibrary(System.Reflection.Assembly, System.String)
+  nameWithType: AasxDefinitionBase.ReadLibrary(Assembly, String)
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.ReadLibrary*
+  name: ReadLibrary
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_ReadLibrary_
+  commentId: Overload:AasxPredefinedConcepts.AasxDefinitionBase.ReadLibrary
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.ReadLibrary
+  nameWithType: AasxDefinitionBase.ReadLibrary
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection(System.Type,System.Boolean,System.Boolean)
+  name: RetrieveEntriesByReflection(Type, Boolean, Boolean)
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_RetrieveEntriesByReflection_System_Type_System_Boolean_System_Boolean_
+  commentId: M:AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection(System.Type,System.Boolean,System.Boolean)
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection(System.Type, System.Boolean, System.Boolean)
+  nameWithType: AasxDefinitionBase.RetrieveEntriesByReflection(Type, Boolean, Boolean)
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection*
+  name: RetrieveEntriesByReflection
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_RetrieveEntriesByReflection_
+  commentId: Overload:AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection
+  nameWithType: AasxDefinitionBase.RetrieveEntriesByReflection
 - uid: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntry(System.String)
   name: RetrieveEntry(String)
   href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_RetrieveEntry_System_String_
@@ -27153,12 +27601,24 @@ references:
   fullName.vb: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveReferable(Of T)(System.String)
   nameWithType: AasxDefinitionBase.RetrieveReferable<T>(String)
   nameWithType.vb: AasxDefinitionBase.RetrieveReferable(Of T)(String)
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveReferableForField
+  name: AasxDefinitionBase.RetrieveReferableForField
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.RetrieveReferableForField.html
+  commentId: T:AasxPredefinedConcepts.AasxDefinitionBase.RetrieveReferableForField
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveReferableForField
+  nameWithType: AasxDefinitionBase.RetrieveReferableForField
 - uid: AasxPredefinedConcepts.AasxDefinitionBase.theLibrary
   name: theLibrary
   href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_theLibrary
   commentId: F:AasxPredefinedConcepts.AasxDefinitionBase.theLibrary
   fullName: AasxPredefinedConcepts.AasxDefinitionBase.theLibrary
   nameWithType: AasxDefinitionBase.theLibrary
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.theReflectedReferables
+  name: theReflectedReferables
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_theReflectedReferables
+  commentId: F:AasxPredefinedConcepts.AasxDefinitionBase.theReflectedReferables
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.theReflectedReferables
+  nameWithType: AasxDefinitionBase.theReflectedReferables
 - uid: AasxPredefinedConcepts.Convert
   name: AasxPredefinedConcepts.Convert
   href: api/AasxPredefinedConcepts.Convert.html
@@ -27279,6 +27739,63 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToHsuProvider.ExecuteOffer
   nameWithType: ConvertDocumentationSg2ToHsuProvider.ExecuteOffer
+- uid: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider
+  name: ConvertDocumentationSg2ToV11Provider
+  href: api/AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.html
+  commentId: T:AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider
+  fullName: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider
+  nameWithType: ConvertDocumentationSg2ToV11Provider
+- uid: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.CheckForOffers(AdminShellNS.AdminShellV20.Referable)
+  name: CheckForOffers(AdminShellV20.Referable)
+  href: api/AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.html#AasxPredefinedConcepts_Convert_ConvertDocumentationSg2ToV11Provider_CheckForOffers_AdminShellNS_AdminShellV20_Referable_
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.CheckForOffers(AdminShellNS.AdminShellV20.Referable)
+  fullName: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.CheckForOffers(AdminShellNS.AdminShellV20.Referable)
+  nameWithType: ConvertDocumentationSg2ToV11Provider.CheckForOffers(AdminShellV20.Referable)
+- uid: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.CheckForOffers*
+  name: CheckForOffers
+  href: api/AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.html#AasxPredefinedConcepts_Convert_ConvertDocumentationSg2ToV11Provider_CheckForOffers_
+  commentId: Overload:AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.CheckForOffers
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.CheckForOffers
+  nameWithType: ConvertDocumentationSg2ToV11Provider.CheckForOffers
+- uid: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11
+  name: ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11
+  href: api/AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.html
+  commentId: T:AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11
+  fullName: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11
+  nameWithType: ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11
+- uid: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.#ctor
+  name: ConvertOfferDocumentationSg2ToV11()
+  href: api/AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.html#AasxPredefinedConcepts_Convert_ConvertDocumentationSg2ToV11Provider_ConvertOfferDocumentationSg2ToV11__ctor
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.#ctor
+  fullName: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.ConvertOfferDocumentationSg2ToV11()
+  nameWithType: ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.ConvertOfferDocumentationSg2ToV11()
+- uid: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.#ctor(AasxPredefinedConcepts.Convert.ConvertProviderBase,System.String)
+  name: ConvertOfferDocumentationSg2ToV11(ConvertProviderBase, String)
+  href: api/AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.html#AasxPredefinedConcepts_Convert_ConvertDocumentationSg2ToV11Provider_ConvertOfferDocumentationSg2ToV11__ctor_AasxPredefinedConcepts_Convert_ConvertProviderBase_System_String_
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.#ctor(AasxPredefinedConcepts.Convert.ConvertProviderBase,System.String)
+  fullName: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.ConvertOfferDocumentationSg2ToV11(AasxPredefinedConcepts.Convert.ConvertProviderBase, System.String)
+  nameWithType: ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.ConvertOfferDocumentationSg2ToV11(ConvertProviderBase, String)
+- uid: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.#ctor*
+  name: ConvertOfferDocumentationSg2ToV11
+  href: api/AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.html#AasxPredefinedConcepts_Convert_ConvertDocumentationSg2ToV11Provider_ConvertOfferDocumentationSg2ToV11__ctor_
+  commentId: Overload:AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.ConvertOfferDocumentationSg2ToV11
+  nameWithType: ConvertDocumentationSg2ToV11Provider.ConvertOfferDocumentationSg2ToV11.ConvertOfferDocumentationSg2ToV11
+- uid: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ExecuteOffer(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Referable,AasxPredefinedConcepts.Convert.ConvertOfferBase,System.Boolean,System.Boolean)
+  name: ExecuteOffer(AdminShellPackageEnv, AdminShellV20.Referable, ConvertOfferBase, Boolean, Boolean)
+  href: api/AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.html#AasxPredefinedConcepts_Convert_ConvertDocumentationSg2ToV11Provider_ExecuteOffer_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_Referable_AasxPredefinedConcepts_Convert_ConvertOfferBase_System_Boolean_System_Boolean_
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ExecuteOffer(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Referable,AasxPredefinedConcepts.Convert.ConvertOfferBase,System.Boolean,System.Boolean)
+  fullName: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ExecuteOffer(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.Referable, AasxPredefinedConcepts.Convert.ConvertOfferBase, System.Boolean, System.Boolean)
+  nameWithType: ConvertDocumentationSg2ToV11Provider.ExecuteOffer(AdminShellPackageEnv, AdminShellV20.Referable, ConvertOfferBase, Boolean, Boolean)
+- uid: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ExecuteOffer*
+  name: ExecuteOffer
+  href: api/AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.html#AasxPredefinedConcepts_Convert_ConvertDocumentationSg2ToV11Provider_ExecuteOffer_
+  commentId: Overload:AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ExecuteOffer
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.Convert.ConvertDocumentationSg2ToV11Provider.ExecuteOffer
+  nameWithType: ConvertDocumentationSg2ToV11Provider.ExecuteOffer
 - uid: AasxPredefinedConcepts.Convert.ConvertOfferBase
   name: ConvertOfferBase
   href: api/AasxPredefinedConcepts.Convert.ConvertOfferBase.html
@@ -27945,6 +28462,12 @@ references:
   commentId: F:AasxPredefinedConcepts.DefinitionsVDI2770.Vdi2770DocClass.TechnicalSpec
   fullName: AasxPredefinedConcepts.DefinitionsVDI2770.Vdi2770DocClass.TechnicalSpec
   nameWithType: DefinitionsVDI2770.Vdi2770DocClass.TechnicalSpec
+- uid: AasxPredefinedConcepts.DefinitionsVDI2770.Vdi2770Sys
+  name: Vdi2770Sys
+  href: api/AasxPredefinedConcepts.DefinitionsVDI2770.html#AasxPredefinedConcepts_DefinitionsVDI2770_Vdi2770Sys
+  commentId: F:AasxPredefinedConcepts.DefinitionsVDI2770.Vdi2770Sys
+  fullName: AasxPredefinedConcepts.DefinitionsVDI2770.Vdi2770Sys
+  nameWithType: DefinitionsVDI2770.Vdi2770Sys
 - uid: AasxPredefinedConcepts.DefinitionsZveiDigitalTypeplate
   name: DefinitionsZveiDigitalTypeplate
   href: api/AasxPredefinedConcepts.DefinitionsZveiDigitalTypeplate.html
@@ -28790,6 +29313,192 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.ExportPredefinedConcepts.Export
   nameWithType: ExportPredefinedConcepts.Export
+- uid: AasxPredefinedConcepts.VDI2770v11
+  name: VDI2770v11
+  href: api/AasxPredefinedConcepts.VDI2770v11.html
+  commentId: T:AasxPredefinedConcepts.VDI2770v11
+  fullName: AasxPredefinedConcepts.VDI2770v11
+  nameWithType: VDI2770v11
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_Affecting
+  name: CD_Affecting
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_Affecting
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_Affecting
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_Affecting
+  nameWithType: VDI2770v11.CD_Affecting
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_BasedOn
+  name: CD_BasedOn
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_BasedOn
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_BasedOn
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_BasedOn
+  nameWithType: VDI2770v11.CD_BasedOn
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_Comment
+  name: CD_Comment
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_Comment
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_Comment
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_Comment
+  nameWithType: VDI2770v11.CD_Comment
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_Date
+  name: CD_Date
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_Date
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_Date
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_Date
+  nameWithType: VDI2770v11.CD_Date
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DigitalFile
+  name: CD_DigitalFile
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DigitalFile
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DigitalFile
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DigitalFile
+  nameWithType: VDI2770v11.CD_DigitalFile
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_Document
+  name: CD_Document
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_Document
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_Document
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_Document
+  nameWithType: VDI2770v11.CD_Document
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassId
+  name: CD_DocumentClassId
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DocumentClassId
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassId
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassId
+  nameWithType: VDI2770v11.CD_DocumentClassId
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassification
+  name: CD_DocumentClassification
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DocumentClassification
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassification
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassification
+  nameWithType: VDI2770v11.CD_DocumentClassification
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassificationSystem
+  name: CD_DocumentClassificationSystem
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DocumentClassificationSystem
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassificationSystem
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassificationSystem
+  nameWithType: VDI2770v11.CD_DocumentClassificationSystem
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassName
+  name: CD_DocumentClassName
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DocumentClassName
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassName
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DocumentClassName
+  nameWithType: VDI2770v11.CD_DocumentClassName
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DocumentDomainId
+  name: CD_DocumentDomainId
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DocumentDomainId
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DocumentDomainId
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DocumentDomainId
+  nameWithType: VDI2770v11.CD_DocumentDomainId
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DocumentedEntity
+  name: CD_DocumentedEntity
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DocumentedEntity
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DocumentedEntity
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DocumentedEntity
+  nameWithType: VDI2770v11.CD_DocumentedEntity
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DocumentId
+  name: CD_DocumentId
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DocumentId
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DocumentId
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DocumentId
+  nameWithType: VDI2770v11.CD_DocumentId
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DocumentIdDomain
+  name: CD_DocumentIdDomain
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DocumentIdDomain
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DocumentIdDomain
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DocumentIdDomain
+  nameWithType: VDI2770v11.CD_DocumentIdDomain
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DocumentVersion
+  name: CD_DocumentVersion
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DocumentVersion
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DocumentVersion
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DocumentVersion
+  nameWithType: VDI2770v11.CD_DocumentVersion
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_DocumentVersionIdValue
+  name: CD_DocumentVersionIdValue
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_DocumentVersionIdValue
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_DocumentVersionIdValue
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_DocumentVersionIdValue
+  nameWithType: VDI2770v11.CD_DocumentVersionIdValue
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_Entity
+  name: CD_Entity
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_Entity
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_Entity
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_Entity
+  nameWithType: VDI2770v11.CD_Entity
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_KeyWords
+  name: CD_KeyWords
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_KeyWords
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_KeyWords
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_KeyWords
+  nameWithType: VDI2770v11.CD_KeyWords
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_Language
+  name: CD_Language
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_Language
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_Language
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_Language
+  nameWithType: VDI2770v11.CD_Language
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_LifeCycleStatusValue
+  name: CD_LifeCycleStatusValue
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_LifeCycleStatusValue
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_LifeCycleStatusValue
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_LifeCycleStatusValue
+  nameWithType: VDI2770v11.CD_LifeCycleStatusValue
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_OrganizationName
+  name: CD_OrganizationName
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_OrganizationName
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_OrganizationName
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_OrganizationName
+  nameWithType: VDI2770v11.CD_OrganizationName
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_OrganizationOfficialName
+  name: CD_OrganizationOfficialName
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_OrganizationOfficialName
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_OrganizationOfficialName
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_OrganizationOfficialName
+  nameWithType: VDI2770v11.CD_OrganizationOfficialName
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_PreviewFile
+  name: CD_PreviewFile
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_PreviewFile
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_PreviewFile
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_PreviewFile
+  nameWithType: VDI2770v11.CD_PreviewFile
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_RefersTo
+  name: CD_RefersTo
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_RefersTo
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_RefersTo
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_RefersTo
+  nameWithType: VDI2770v11.CD_RefersTo
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_Role
+  name: CD_Role
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_Role
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_Role
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_Role
+  nameWithType: VDI2770v11.CD_Role
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_Summary
+  name: CD_Summary
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_Summary
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_Summary
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_Summary
+  nameWithType: VDI2770v11.CD_Summary
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_Title
+  name: CD_Title
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_Title
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_Title
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_Title
+  nameWithType: VDI2770v11.CD_Title
+- uid: AasxPredefinedConcepts.VDI2770v11.CD_TranslationOf
+  name: CD_TranslationOf
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_TranslationOf
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.CD_TranslationOf
+  fullName: AasxPredefinedConcepts.VDI2770v11.CD_TranslationOf
+  nameWithType: VDI2770v11.CD_TranslationOf
+- uid: AasxPredefinedConcepts.VDI2770v11.SM_ManufacturerDocumentation
+  name: SM_ManufacturerDocumentation
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_SM_ManufacturerDocumentation
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.SM_ManufacturerDocumentation
+  fullName: AasxPredefinedConcepts.VDI2770v11.SM_ManufacturerDocumentation
+  nameWithType: VDI2770v11.SM_ManufacturerDocumentation
+- uid: AasxPredefinedConcepts.VDI2770v11.Static
+  name: Static
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_Static
+  commentId: F:AasxPredefinedConcepts.VDI2770v11.Static
+  fullName: AasxPredefinedConcepts.VDI2770v11.Static
+  nameWithType: VDI2770v11.Static
 - uid: AasxRestConsoleServer
   name: AasxRestConsoleServer
   href: api/AasxRestConsoleServer.html
@@ -33016,6 +33725,22 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellPackageEnv.MakePackageFileAvailableAsTempFile
   nameWithType: AdminShellPackageEnv.MakePackageFileAvailableAsTempFile
+- uid: AdminShellNS.AdminShellPackageEnv.PrepareSupplementaryFileParameters(System.String@,System.String@)
+  name: PrepareSupplementaryFileParameters(ref String, ref String)
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_PrepareSupplementaryFileParameters_System_String__System_String__
+  commentId: M:AdminShellNS.AdminShellPackageEnv.PrepareSupplementaryFileParameters(System.String@,System.String@)
+  name.vb: PrepareSupplementaryFileParameters(ByRef String, ByRef String)
+  fullName: AdminShellNS.AdminShellPackageEnv.PrepareSupplementaryFileParameters(ref System.String, ref System.String)
+  fullName.vb: AdminShellNS.AdminShellPackageEnv.PrepareSupplementaryFileParameters(ByRef System.String, ByRef System.String)
+  nameWithType: AdminShellPackageEnv.PrepareSupplementaryFileParameters(ref String, ref String)
+  nameWithType.vb: AdminShellPackageEnv.PrepareSupplementaryFileParameters(ByRef String, ByRef String)
+- uid: AdminShellNS.AdminShellPackageEnv.PrepareSupplementaryFileParameters*
+  name: PrepareSupplementaryFileParameters
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_PrepareSupplementaryFileParameters_
+  commentId: Overload:AdminShellNS.AdminShellPackageEnv.PrepareSupplementaryFileParameters
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellPackageEnv.PrepareSupplementaryFileParameters
+  nameWithType: AdminShellPackageEnv.PrepareSupplementaryFileParameters
 - uid: AdminShellNS.AdminShellPackageEnv.SaveAs(System.String,System.Boolean,AdminShellNS.AdminShellPackageEnv.SerializationFormat,System.IO.MemoryStream,System.Boolean)
   name: SaveAs(String, Boolean, AdminShellPackageEnv.SerializationFormat, MemoryStream, Boolean)
   href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_SaveAs_System_String_System_Boolean_AdminShellNS_AdminShellPackageEnv_SerializationFormat_System_IO_MemoryStream_System_Boolean_
@@ -37553,6 +38278,12 @@ references:
   commentId: F:AdminShellNS.AdminShellV20.Key.Custom
   fullName: AdminShellNS.AdminShellV20.Key.Custom
   nameWithType: AdminShellV20.Key.Custom
+- uid: AdminShellNS.AdminShellV20.Key.Entity
+  name: Entity
+  href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_Entity
+  commentId: F:AdminShellNS.AdminShellV20.Key.Entity
+  fullName: AdminShellNS.AdminShellV20.Key.Entity
+  nameWithType: AdminShellV20.Key.Entity
 - uid: AdminShellNS.AdminShellV20.Key.FragmentId
   name: FragmentId
   href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_FragmentId
@@ -40539,6 +41270,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Submodel.SetAllParents
   nameWithType: AdminShellV20.Submodel.SetAllParents
+- uid: AdminShellNS.AdminShellV20.Submodel.SmeForWrite
+  name: SmeForWrite
+  href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_SmeForWrite
+  commentId: P:AdminShellNS.AdminShellV20.Submodel.SmeForWrite
+  fullName: AdminShellNS.AdminShellV20.Submodel.SmeForWrite
+  nameWithType: AdminShellV20.Submodel.SmeForWrite
+- uid: AdminShellNS.AdminShellV20.Submodel.SmeForWrite*
+  name: SmeForWrite
+  href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_SmeForWrite_
+  commentId: Overload:AdminShellNS.AdminShellV20.Submodel.SmeForWrite
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Submodel.SmeForWrite
+  nameWithType: AdminShellV20.Submodel.SmeForWrite
 - uid: AdminShellNS.AdminShellV20.Submodel.submodelElements
   name: submodelElements
   href: api/AdminShellNS.AdminShellV20.Submodel.html#AdminShellNS_AdminShellV20_Submodel_submodelElements

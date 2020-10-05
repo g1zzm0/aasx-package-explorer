@@ -35,8 +35,29 @@
     "records": [
       {
         "prefix": "TODO",
+        "suffix": " (mristin, 2020-10-05): The class is unused since all its tests were disabled temporarily and\r\n    will be fixed in the near future.\r\n\r\n    Once the tests are enabled, please remove this Resharper directive.",
+        "line": 41,
+        "column": 4,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (mristin, 2020-10-05): This test has been temporary disabled so that we can merge in the branch\r\n        MIHO/EnhanceDocumentShelf. The test should be fixed in a future pull request and we will then re-enable it\r\n        again.\r\n\r\n        Please do not forget to remove the Resharper directive at the top of this class.\r\n\r\n        [TestCase(\u0022.xml\u0022)]\r\n\r\n        dead-csharp ignore this comment",
+        "line": 91,
+        "column": 8,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
+        "suffix": " (mristin, 2020-10-05): This test has been temporary disabled so that we can merge in the branch\r\n        MIHO/EnhanceDocumentShelf. The test should be fixed in a future pull request and we will then re-enable it\r\n        again.\r\n\r\n        Please do not forget to remove the Resharper directive at the top of this class.\r\n\r\n        [Test]\r\n\r\n        dead-csharp ignore this comment",
+        "line": 137,
+        "column": 8,
+        "status": "ok"
+      },
+      {
+        "prefix": "TODO",
         "suffix": " (mristin, 2020-09-17): Remove autofix once XSD and Aasx library in sync\r\n\r\n                          Package has been loaded, now we need to do an automatic check \u0026 fix.\r\n\r\n                          This is necessary as Aasx library is still not conform with the XSD AASX schema and breaks\r\n                          certain constraints (*e.g.*, the cardinality of langString = 1..*).",
-        "line": 134,
+        "line": 162,
         "column": 24,
         "status": "ok"
       }
@@ -109,56 +130,56 @@
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-30): this does not prevent the corner case, that we could have\r\n                            * multiple dataSpecificationIEC61360 in this list, which would be an error",
-        "line": 1132,
+        "line": 1133,
         "column": 24,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-27): According to spec, cardinality is [1..1][1..n]",
-        "line": 2803,
+        "line": 2804,
         "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-27): According to spec, cardinality is [0..1][1..n]",
-        "line": 2807,
+        "line": 2808,
         "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-27): According to spec, cardinality is [0..1][1..n]",
-        "line": 2838,
+        "line": 2839,
         "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-30): align wording of the member (\u0022embeddedDataSpecification\u0022) with the \r\n                * wording of the other entities (\u0022hasDataSpecification\u0022)",
-        "line": 3117,
+        "line": 3118,
         "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-08-26): not very elegant, yet. Avoid temporary collection",
-        "line": 3798,
+        "line": 3799,
         "column": 28,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): check, if Json has Qualifiers or not",
-        "line": 4392,
+        "line": 4393,
         "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-07-31): would be nice to use IEnumerateChildren for this ..",
-        "line": 5134,
+        "line": 5135,
         "column": 20,
         "status": "ok"
       }
@@ -170,28 +191,28 @@
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): use a unified function to create a serializer",
-        "line": 229,
+        "line": 230,
         "column": 24,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): use a unified function to create a serializer",
-        "line": 349,
+        "line": 350,
         "column": 20,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): use a unified function to create a serializer",
-        "line": 390,
+        "line": 391,
         "column": 20,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): use a unified function to create a serializer",
-        "line": 420,
+        "line": 421,
         "column": 20,
         "status": "ok"
       }
@@ -533,21 +554,21 @@
       {
         "prefix": "TODO",
         "suffix": " (MIHO, 2020-09-01): extend the lines below to cover also data spec. for units",
-        "line": 1444,
+        "line": 1446,
         "column": 12,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): Operation mssing here?",
-        "line": 1795,
+        "line": 1797,
         "column": 32,
         "status": "ok"
       },
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): Operation mssing here?",
-        "line": 1817,
+        "line": 1819,
         "column": 32,
         "status": "ok"
       }
