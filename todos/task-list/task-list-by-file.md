@@ -170,8 +170,8 @@ Michael Hoffmeister,
 
 ## AasxCsharpLibrary\AdminShell.cs
 
-[Line 1134, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L1134
+[Line 1139, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L1139
 ), 
 MIHO,
 2020-08-30
@@ -179,32 +179,32 @@ MIHO,
     this does not prevent the corner case, that we could have
     * multiple dataSpecificationIEC61360 in this list, which would be an error
 
-[Line 2805, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2805
+[Line 2810, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2810
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [1..1][1..n]
 
-[Line 2809, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2809
+[Line 2814, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2814
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [0..1][1..n]
 
-[Line 2840, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2840
+[Line 2845, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2845
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [0..1][1..n]
 
-[Line 3119, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3119
+[Line 3124, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3124
 ), 
 MIHO,
 2020-08-30
@@ -212,24 +212,24 @@ MIHO,
     align wording of the member ("embeddedDataSpecification") with the 
     * wording of the other entities ("hasDataSpecification")
 
-[Line 3800, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3800
+[Line 3805, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3805
 ), 
 MIHO,
 2020-08-26
 
     not very elegant, yet. Avoid temporary collection
 
-[Line 4394, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4394
+[Line 4454, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4454
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     check, if Json has Qualifiers or not
 
-[Line 5136, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L5136
+[Line 5196, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L5196
 ), 
 MIHO,
 2020-07-31
@@ -578,8 +578,8 @@ MIHO,
 
 ## AasxWpfControlLibrary\DiplayVisualAasxElements.xaml.cs
 
-[Line 665, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DiplayVisualAasxElements.xaml.cs#L665
+[Line 717, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DiplayVisualAasxElements.xaml.cs#L717
 ), 
 MIHO,
 2020-07-21
@@ -596,16 +596,16 @@ MIHO,
 
     extend the lines below to cover also data spec. for units
 
-[Line 1798, column 33](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1798
+[Line 1804, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1804
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     Operation mssing here?
 
-[Line 1820, column 33](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1820
+[Line 1826, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1826
 ), 
 Michael Hoffmeister,
 2020-08-01
@@ -614,16 +614,16 @@ Michael Hoffmeister,
 
 ## AasxWpfControlLibrary\DispEditHelperBasics.cs
 
-[Line 1162, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1162
+[Line 1165, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1165
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     possibly [Jump] button??
 
-[Line 1306, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1306
+[Line 1309, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1309
 ), 
 Michael Hoffmeister,
 2020-08-01
@@ -642,16 +642,16 @@ MIHO,
 
 ## WpfMtpControl\MtpAmlHelper.cs
 
-[Line 41, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/MtpAmlHelper.cs#L41
+[Line 42, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/MtpAmlHelper.cs#L42
 ), 
 MIHO,
 2020-08-03
 
     see equivalent function in AmlImport.cs; may be re-use
 
-[Line 192, column 41](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/MtpAmlHelper.cs#L192
+[Line 210, column 41](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/MtpAmlHelper.cs#L210
 ), 
 MIHO,
 2020-08-06
@@ -660,12 +660,40 @@ MIHO,
 
 ## WpfMtpControl\MtpVisuOpcUaClient.cs
 
-[Line 224, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/MtpVisuOpcUaClient.cs#L224
+[Line 233, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/MtpVisuOpcUaClient.cs#L233
 ), 
 MIHO,
 2020-08-06
 
     remove this, if not required anymore
+
+## WpfMtpControl\UiElementHelper.cs
+
+[Line 406, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/UiElementHelper.cs#L406
+), 
+MICHA,
+2020-10-04
+
+    check if font is set correctly ..
+
+[Line 407, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpControl/UiElementHelper.cs#L407
+), 
+MICHA,
+2020-10-04
+
+    seems, that for Textblock the alignement DOES NOT WORK!
+
+## WpfMtpVisuViewer\MainWindow.xaml.cs
+
+[Line 70, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/WpfMtpVisuViewer/MainWindow.xaml.cs#L70
+), 
+MIHO,
+2020-09-18
+
+    remove this test code
 
 

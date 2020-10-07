@@ -15953,6 +15953,22 @@ references:
   isSpec: "True"
   fullName: AasxIntegrationBase.AasxWpfBaseUtils.LoadBitmapImageFromPackage
   nameWithType: AasxWpfBaseUtils.LoadBitmapImageFromPackage
+- uid: AasxIntegrationBase.AasxWpfBaseUtils.LogicalTreeFindAllChildsWithRegexTag*
+  name: LogicalTreeFindAllChildsWithRegexTag
+  href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_LogicalTreeFindAllChildsWithRegexTag_
+  commentId: Overload:AasxIntegrationBase.AasxWpfBaseUtils.LogicalTreeFindAllChildsWithRegexTag
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasxWpfBaseUtils.LogicalTreeFindAllChildsWithRegexTag
+  nameWithType: AasxWpfBaseUtils.LogicalTreeFindAllChildsWithRegexTag
+- uid: AasxIntegrationBase.AasxWpfBaseUtils.LogicalTreeFindAllChildsWithRegexTag``1(System.Windows.DependencyObject,System.String)
+  name: LogicalTreeFindAllChildsWithRegexTag<T>(DependencyObject, String)
+  href: api/AasxIntegrationBase.AasxWpfBaseUtils.html#AasxIntegrationBase_AasxWpfBaseUtils_LogicalTreeFindAllChildsWithRegexTag__1_System_Windows_DependencyObject_System_String_
+  commentId: M:AasxIntegrationBase.AasxWpfBaseUtils.LogicalTreeFindAllChildsWithRegexTag``1(System.Windows.DependencyObject,System.String)
+  name.vb: LogicalTreeFindAllChildsWithRegexTag(Of T)(DependencyObject, String)
+  fullName: AasxIntegrationBase.AasxWpfBaseUtils.LogicalTreeFindAllChildsWithRegexTag<T>(System.Windows.DependencyObject, System.String)
+  fullName.vb: AasxIntegrationBase.AasxWpfBaseUtils.LogicalTreeFindAllChildsWithRegexTag(Of T)(System.Windows.DependencyObject, System.String)
+  nameWithType: AasxWpfBaseUtils.LogicalTreeFindAllChildsWithRegexTag<T>(DependencyObject, String)
+  nameWithType.vb: AasxWpfBaseUtils.LogicalTreeFindAllChildsWithRegexTag(Of T)(DependencyObject, String)
 - uid: AasxIntegrationBase.AasxWpfBaseUtils.StoredPrintColors
   name: AasxWpfBaseUtils.StoredPrintColors
   href: api/AasxIntegrationBase.AasxWpfBaseUtils.StoredPrintColors.html
@@ -18763,12 +18779,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DiplayVisualAasxElements.Refresh
   nameWithType: DiplayVisualAasxElements.Refresh
-- uid: AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object,System.Boolean)
-  name: SearchVisualElementOnMainDataObject(Object, Boolean)
-  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_SearchVisualElementOnMainDataObject_System_Object_System_Boolean_
-  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object,System.Boolean)
-  fullName: AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object, System.Boolean)
-  nameWithType: DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(Object, Boolean)
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object,System.Boolean,AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation)
+  name: SearchVisualElementOnMainDataObject(Object, Boolean, DiplayVisualAasxElements.SupplementaryReferenceInformation)
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_SearchVisualElementOnMainDataObject_System_Object_System_Boolean_AasxPackageExplorer_DiplayVisualAasxElements_SupplementaryReferenceInformation_
+  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object,System.Boolean,AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation)
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(System.Object, System.Boolean, AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation)
+  nameWithType: DiplayVisualAasxElements.SearchVisualElementOnMainDataObject(Object, Boolean, DiplayVisualAasxElements.SupplementaryReferenceInformation)
 - uid: AasxPackageExplorer.DiplayVisualAasxElements.SearchVisualElementOnMainDataObject*
   name: SearchVisualElementOnMainDataObject
   href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_SearchVisualElementOnMainDataObject_
@@ -18795,6 +18811,37 @@ references:
   commentId: E:AasxPackageExplorer.DiplayVisualAasxElements.SelectedItemChanged
   fullName: AasxPackageExplorer.DiplayVisualAasxElements.SelectedItemChanged
   nameWithType: DiplayVisualAasxElements.SelectedItemChanged
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.StripSupplementaryReferenceInformation(AdminShellNS.AdminShellV20.Reference)
+  name: StripSupplementaryReferenceInformation(AdminShellV20.Reference)
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_StripSupplementaryReferenceInformation_AdminShellNS_AdminShellV20_Reference_
+  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.StripSupplementaryReferenceInformation(AdminShellNS.AdminShellV20.Reference)
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.StripSupplementaryReferenceInformation(AdminShellNS.AdminShellV20.Reference)
+  nameWithType: DiplayVisualAasxElements.StripSupplementaryReferenceInformation(AdminShellV20.Reference)
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.StripSupplementaryReferenceInformation*
+  name: StripSupplementaryReferenceInformation
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_StripSupplementaryReferenceInformation_
+  commentId: Overload:AasxPackageExplorer.DiplayVisualAasxElements.StripSupplementaryReferenceInformation
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.StripSupplementaryReferenceInformation
+  nameWithType: DiplayVisualAasxElements.StripSupplementaryReferenceInformation
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation
+  name: DiplayVisualAasxElements.SupplementaryReferenceInformation
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation.html
+  commentId: T:AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation
+  nameWithType: DiplayVisualAasxElements.SupplementaryReferenceInformation
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation.CleanReference
+  name: CleanReference
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation.html#AasxPackageExplorer_DiplayVisualAasxElements_SupplementaryReferenceInformation_CleanReference
+  commentId: F:AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation.CleanReference
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation.CleanReference
+  nameWithType: DiplayVisualAasxElements.SupplementaryReferenceInformation.CleanReference
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation.SearchPluginTag
+  name: SearchPluginTag
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation.html#AasxPackageExplorer_DiplayVisualAasxElements_SupplementaryReferenceInformation_SearchPluginTag
+  commentId: F:AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation.SearchPluginTag
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.SupplementaryReferenceInformation.SearchPluginTag
+  nameWithType: DiplayVisualAasxElements.SupplementaryReferenceInformation.SearchPluginTag
 - uid: AasxPackageExplorer.DiplayVisualAasxElements.Test
   name: Test()
   href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_Test
@@ -21494,6 +21541,19 @@ references:
   commentId: F:AasxPackageExplorer.MainWindow.thePackageEnv
   fullName: AasxPackageExplorer.MainWindow.thePackageEnv
   nameWithType: MainWindow.thePackageEnv
+- uid: AasxPackageExplorer.MainWindow.UiCheckIfActivateLoadedNavTo
+  name: UiCheckIfActivateLoadedNavTo()
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiCheckIfActivateLoadedNavTo
+  commentId: M:AasxPackageExplorer.MainWindow.UiCheckIfActivateLoadedNavTo
+  fullName: AasxPackageExplorer.MainWindow.UiCheckIfActivateLoadedNavTo()
+  nameWithType: MainWindow.UiCheckIfActivateLoadedNavTo()
+- uid: AasxPackageExplorer.MainWindow.UiCheckIfActivateLoadedNavTo*
+  name: UiCheckIfActivateLoadedNavTo
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiCheckIfActivateLoadedNavTo_
+  commentId: Overload:AasxPackageExplorer.MainWindow.UiCheckIfActivateLoadedNavTo
+  isSpec: "True"
+  fullName: AasxPackageExplorer.MainWindow.UiCheckIfActivateLoadedNavTo
+  nameWithType: MainWindow.UiCheckIfActivateLoadedNavTo
 - uid: AasxPackageExplorer.MainWindow.UiLoadFileRepository(System.String)
   name: UiLoadFileRepository(String)
   href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiLoadFileRepository_System_String_
@@ -21507,15 +21567,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.MainWindow.UiLoadFileRepository
   nameWithType: MainWindow.UiLoadFileRepository
-- uid: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(AdminShellNS.AdminShellPackageEnv@,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean)
-  name: UiLoadPackageWithNew(ref AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean)
-  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiLoadPackageWithNew_AdminShellNS_AdminShellPackageEnv__AdminShellNS_AdminShellPackageEnv_System_String_System_Boolean_
-  commentId: M:AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(AdminShellNS.AdminShellPackageEnv@,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean)
-  name.vb: UiLoadPackageWithNew(ByRef AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean)
-  fullName: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(ref AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean)
-  fullName.vb: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(ByRef AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean)
-  nameWithType: MainWindow.UiLoadPackageWithNew(ref AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean)
-  nameWithType.vb: MainWindow.UiLoadPackageWithNew(ByRef AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean)
+- uid: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(AdminShellNS.AdminShellPackageEnv@,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.Boolean)
+  name: UiLoadPackageWithNew(ref AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean, Boolean)
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiLoadPackageWithNew_AdminShellNS_AdminShellPackageEnv__AdminShellNS_AdminShellPackageEnv_System_String_System_Boolean_System_Boolean_
+  commentId: M:AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(AdminShellNS.AdminShellPackageEnv@,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.Boolean)
+  name.vb: UiLoadPackageWithNew(ByRef AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean, Boolean)
+  fullName: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(ref AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.Boolean)
+  fullName.vb: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(ByRef AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.Boolean)
+  nameWithType: MainWindow.UiLoadPackageWithNew(ref AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean, Boolean)
+  nameWithType.vb: MainWindow.UiLoadPackageWithNew(ByRef AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean, Boolean)
 - uid: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew*
   name: UiLoadPackageWithNew
   href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiLoadPackageWithNew_
@@ -24604,6 +24664,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.VisualElementHistoryControl.Clear
   nameWithType: VisualElementHistoryControl.Clear
+- uid: AasxPackageExplorer.VisualElementHistoryControl.HomeRequested
+  name: HomeRequested
+  href: api/AasxPackageExplorer.VisualElementHistoryControl.html#AasxPackageExplorer_VisualElementHistoryControl_HomeRequested
+  commentId: E:AasxPackageExplorer.VisualElementHistoryControl.HomeRequested
+  fullName: AasxPackageExplorer.VisualElementHistoryControl.HomeRequested
+  nameWithType: VisualElementHistoryControl.HomeRequested
 - uid: AasxPackageExplorer.VisualElementHistoryControl.Push(AasxPackageExplorer.VisualElementGeneric)
   name: Push(VisualElementGeneric)
   href: api/AasxPackageExplorer.VisualElementHistoryControl.html#AasxPackageExplorer_VisualElementHistoryControl_Push_AasxPackageExplorer_VisualElementGeneric_
@@ -26799,6 +26865,112 @@ references:
   commentId: F:AasxPluginGenericForms.GenericFormsOptionsRecord.FormTitle
   fullName: AasxPluginGenericForms.GenericFormsOptionsRecord.FormTitle
   nameWithType: GenericFormsOptionsRecord.FormTitle
+- uid: AasxPluginImageMap
+  name: AasxPluginImageMap
+  href: api/AasxPluginImageMap.html
+  commentId: N:AasxPluginImageMap
+  fullName: AasxPluginImageMap
+  nameWithType: AasxPluginImageMap
+- uid: AasxPluginImageMap.ImageMapControl
+  name: ImageMapControl
+  href: api/AasxPluginImageMap.ImageMapControl.html
+  commentId: T:AasxPluginImageMap.ImageMapControl
+  fullName: AasxPluginImageMap.ImageMapControl
+  nameWithType: ImageMapControl
+- uid: AasxPluginImageMap.ImageMapControl.#ctor
+  name: ImageMapControl()
+  href: api/AasxPluginImageMap.ImageMapControl.html#AasxPluginImageMap_ImageMapControl__ctor
+  commentId: M:AasxPluginImageMap.ImageMapControl.#ctor
+  fullName: AasxPluginImageMap.ImageMapControl.ImageMapControl()
+  nameWithType: ImageMapControl.ImageMapControl()
+- uid: AasxPluginImageMap.ImageMapControl.#ctor*
+  name: ImageMapControl
+  href: api/AasxPluginImageMap.ImageMapControl.html#AasxPluginImageMap_ImageMapControl__ctor_
+  commentId: Overload:AasxPluginImageMap.ImageMapControl.#ctor
+  isSpec: "True"
+  fullName: AasxPluginImageMap.ImageMapControl.ImageMapControl
+  nameWithType: ImageMapControl.ImageMapControl
+- uid: AasxPluginImageMap.ImageMapControl.clickedCoordinates
+  name: clickedCoordinates
+  href: api/AasxPluginImageMap.ImageMapControl.html#AasxPluginImageMap_ImageMapControl_clickedCoordinates
+  commentId: F:AasxPluginImageMap.ImageMapControl.clickedCoordinates
+  fullName: AasxPluginImageMap.ImageMapControl.clickedCoordinates
+  nameWithType: ImageMapControl.clickedCoordinates
+- uid: AasxPluginImageMap.ImageMapControl.FillWithWpfControls(AasxIntegrationBase.LogInstance,System.Object,System.Object,AasxPluginImageMap.ImageMapOptions,AasxIntegrationBase.PluginEventStack,System.Object)
+  name: FillWithWpfControls(LogInstance, Object, Object, ImageMapOptions, PluginEventStack, Object)
+  href: api/AasxPluginImageMap.ImageMapControl.html#AasxPluginImageMap_ImageMapControl_FillWithWpfControls_AasxIntegrationBase_LogInstance_System_Object_System_Object_AasxPluginImageMap_ImageMapOptions_AasxIntegrationBase_PluginEventStack_System_Object_
+  commentId: M:AasxPluginImageMap.ImageMapControl.FillWithWpfControls(AasxIntegrationBase.LogInstance,System.Object,System.Object,AasxPluginImageMap.ImageMapOptions,AasxIntegrationBase.PluginEventStack,System.Object)
+  fullName: AasxPluginImageMap.ImageMapControl.FillWithWpfControls(AasxIntegrationBase.LogInstance, System.Object, System.Object, AasxPluginImageMap.ImageMapOptions, AasxIntegrationBase.PluginEventStack, System.Object)
+  nameWithType: ImageMapControl.FillWithWpfControls(LogInstance, Object, Object, ImageMapOptions, PluginEventStack, Object)
+- uid: AasxPluginImageMap.ImageMapControl.FillWithWpfControls*
+  name: FillWithWpfControls
+  href: api/AasxPluginImageMap.ImageMapControl.html#AasxPluginImageMap_ImageMapControl_FillWithWpfControls_
+  commentId: Overload:AasxPluginImageMap.ImageMapControl.FillWithWpfControls
+  isSpec: "True"
+  fullName: AasxPluginImageMap.ImageMapControl.FillWithWpfControls
+  nameWithType: ImageMapControl.FillWithWpfControls
+- uid: AasxPluginImageMap.ImageMapControl.RegionColors
+  name: RegionColors
+  href: api/AasxPluginImageMap.ImageMapControl.html#AasxPluginImageMap_ImageMapControl_RegionColors
+  commentId: F:AasxPluginImageMap.ImageMapControl.RegionColors
+  fullName: AasxPluginImageMap.ImageMapControl.RegionColors
+  nameWithType: ImageMapControl.RegionColors
+- uid: AasxPluginImageMap.ImageMapControl.Start(AasxIntegrationBase.LogInstance,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Submodel,AasxPluginImageMap.ImageMapOptions,AasxIntegrationBase.PluginEventStack)
+  name: Start(LogInstance, AdminShellPackageEnv, AdminShellV20.Submodel, ImageMapOptions, PluginEventStack)
+  href: api/AasxPluginImageMap.ImageMapControl.html#AasxPluginImageMap_ImageMapControl_Start_AasxIntegrationBase_LogInstance_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_Submodel_AasxPluginImageMap_ImageMapOptions_AasxIntegrationBase_PluginEventStack_
+  commentId: M:AasxPluginImageMap.ImageMapControl.Start(AasxIntegrationBase.LogInstance,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Submodel,AasxPluginImageMap.ImageMapOptions,AasxIntegrationBase.PluginEventStack)
+  fullName: AasxPluginImageMap.ImageMapControl.Start(AasxIntegrationBase.LogInstance, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.Submodel, AasxPluginImageMap.ImageMapOptions, AasxIntegrationBase.PluginEventStack)
+  nameWithType: ImageMapControl.Start(LogInstance, AdminShellPackageEnv, AdminShellV20.Submodel, ImageMapOptions, PluginEventStack)
+- uid: AasxPluginImageMap.ImageMapControl.Start*
+  name: Start
+  href: api/AasxPluginImageMap.ImageMapControl.html#AasxPluginImageMap_ImageMapControl_Start_
+  commentId: Overload:AasxPluginImageMap.ImageMapControl.Start
+  isSpec: "True"
+  fullName: AasxPluginImageMap.ImageMapControl.Start
+  nameWithType: ImageMapControl.Start
+- uid: AasxPluginImageMap.ImageMapControl.ViewModel
+  name: ImageMapControl.ViewModel
+  href: api/AasxPluginImageMap.ImageMapControl.ViewModel.html
+  commentId: T:AasxPluginImageMap.ImageMapControl.ViewModel
+  fullName: AasxPluginImageMap.ImageMapControl.ViewModel
+  nameWithType: ImageMapControl.ViewModel
+- uid: AasxPluginImageMap.ImageMapOptions
+  name: ImageMapOptions
+  href: api/AasxPluginImageMap.ImageMapOptions.html
+  commentId: T:AasxPluginImageMap.ImageMapOptions
+  fullName: AasxPluginImageMap.ImageMapOptions
+  nameWithType: ImageMapOptions
+- uid: AasxPluginImageMap.ImageMapOptions.CreateDefault
+  name: CreateDefault()
+  href: api/AasxPluginImageMap.ImageMapOptions.html#AasxPluginImageMap_ImageMapOptions_CreateDefault
+  commentId: M:AasxPluginImageMap.ImageMapOptions.CreateDefault
+  fullName: AasxPluginImageMap.ImageMapOptions.CreateDefault()
+  nameWithType: ImageMapOptions.CreateDefault()
+- uid: AasxPluginImageMap.ImageMapOptions.CreateDefault*
+  name: CreateDefault
+  href: api/AasxPluginImageMap.ImageMapOptions.html#AasxPluginImageMap_ImageMapOptions_CreateDefault_
+  commentId: Overload:AasxPluginImageMap.ImageMapOptions.CreateDefault
+  isSpec: "True"
+  fullName: AasxPluginImageMap.ImageMapOptions.CreateDefault
+  nameWithType: ImageMapOptions.CreateDefault
+- uid: AasxPluginImageMap.ImageMapOptions.Records
+  name: Records
+  href: api/AasxPluginImageMap.ImageMapOptions.html#AasxPluginImageMap_ImageMapOptions_Records
+  commentId: F:AasxPluginImageMap.ImageMapOptions.Records
+  fullName: AasxPluginImageMap.ImageMapOptions.Records
+  nameWithType: ImageMapOptions.Records
+- uid: AasxPluginImageMap.ImageMapOptionsOptionsRecord
+  name: ImageMapOptionsOptionsRecord
+  href: api/AasxPluginImageMap.ImageMapOptionsOptionsRecord.html
+  commentId: T:AasxPluginImageMap.ImageMapOptionsOptionsRecord
+  fullName: AasxPluginImageMap.ImageMapOptionsOptionsRecord
+  nameWithType: ImageMapOptionsOptionsRecord
+- uid: AasxPluginImageMap.ImageMapOptionsOptionsRecord.AllowSubmodelSemanticId
+  name: AllowSubmodelSemanticId
+  href: api/AasxPluginImageMap.ImageMapOptionsOptionsRecord.html#AasxPluginImageMap_ImageMapOptionsOptionsRecord_AllowSubmodelSemanticId
+  commentId: F:AasxPluginImageMap.ImageMapOptionsOptionsRecord.AllowSubmodelSemanticId
+  fullName: AasxPluginImageMap.ImageMapOptionsOptionsRecord.AllowSubmodelSemanticId
+  nameWithType: ImageMapOptionsOptionsRecord.AllowSubmodelSemanticId
 - uid: AasxPluginMtpViewer
   name: AasxPluginMtpViewer
   href: api/AasxPluginMtpViewer.html
@@ -26836,6 +27008,12 @@ references:
   commentId: F:AasxPluginMtpViewer.MtpViewerOptions.SymbolMappings
   fullName: AasxPluginMtpViewer.MtpViewerOptions.SymbolMappings
   nameWithType: MtpViewerOptions.SymbolMappings
+- uid: AasxPluginMtpViewer.MtpViewerOptions.VisuOptions
+  name: VisuOptions
+  href: api/AasxPluginMtpViewer.MtpViewerOptions.html#AasxPluginMtpViewer_MtpViewerOptions_VisuOptions
+  commentId: F:AasxPluginMtpViewer.MtpViewerOptions.VisuOptions
+  fullName: AasxPluginMtpViewer.MtpViewerOptions.VisuOptions
+  nameWithType: MtpViewerOptions.VisuOptions
 - uid: AasxPluginMtpViewer.MtpViewerOptionsRecord
   name: MtpViewerOptionsRecord
   href: api/AasxPluginMtpViewer.MtpViewerOptionsRecord.html
@@ -26891,12 +27069,18 @@ references:
   isSpec: "True"
   fullName: AasxPluginMtpViewer.WpfMtpControlWrapper.WpfMtpControlWrapper
   nameWithType: WpfMtpControlWrapper.WpfMtpControlWrapper
-- uid: AasxPluginMtpViewer.WpfMtpControlWrapper.FillWithWpfControls(System.Object,System.Object,AasxPluginMtpViewer.MtpViewerOptions,AasxIntegrationBase.PluginEventStack,System.Object)
-  name: FillWithWpfControls(Object, Object, MtpViewerOptions, PluginEventStack, Object)
-  href: api/AasxPluginMtpViewer.WpfMtpControlWrapper.html#AasxPluginMtpViewer_WpfMtpControlWrapper_FillWithWpfControls_System_Object_System_Object_AasxPluginMtpViewer_MtpViewerOptions_AasxIntegrationBase_PluginEventStack_System_Object_
-  commentId: M:AasxPluginMtpViewer.WpfMtpControlWrapper.FillWithWpfControls(System.Object,System.Object,AasxPluginMtpViewer.MtpViewerOptions,AasxIntegrationBase.PluginEventStack,System.Object)
-  fullName: AasxPluginMtpViewer.WpfMtpControlWrapper.FillWithWpfControls(System.Object, System.Object, AasxPluginMtpViewer.MtpViewerOptions, AasxIntegrationBase.PluginEventStack, System.Object)
-  nameWithType: WpfMtpControlWrapper.FillWithWpfControls(Object, Object, MtpViewerOptions, PluginEventStack, Object)
+- uid: AasxPluginMtpViewer.WpfMtpControlWrapper.client
+  name: client
+  href: api/AasxPluginMtpViewer.WpfMtpControlWrapper.html#AasxPluginMtpViewer_WpfMtpControlWrapper_client
+  commentId: F:AasxPluginMtpViewer.WpfMtpControlWrapper.client
+  fullName: AasxPluginMtpViewer.WpfMtpControlWrapper.client
+  nameWithType: WpfMtpControlWrapper.client
+- uid: AasxPluginMtpViewer.WpfMtpControlWrapper.FillWithWpfControls(System.Object,System.Object,AasxPluginMtpViewer.MtpViewerOptions,AasxIntegrationBase.PluginEventStack,AasxIntegrationBase.LogInstance,System.Object)
+  name: FillWithWpfControls(Object, Object, MtpViewerOptions, PluginEventStack, LogInstance, Object)
+  href: api/AasxPluginMtpViewer.WpfMtpControlWrapper.html#AasxPluginMtpViewer_WpfMtpControlWrapper_FillWithWpfControls_System_Object_System_Object_AasxPluginMtpViewer_MtpViewerOptions_AasxIntegrationBase_PluginEventStack_AasxIntegrationBase_LogInstance_System_Object_
+  commentId: M:AasxPluginMtpViewer.WpfMtpControlWrapper.FillWithWpfControls(System.Object,System.Object,AasxPluginMtpViewer.MtpViewerOptions,AasxIntegrationBase.PluginEventStack,AasxIntegrationBase.LogInstance,System.Object)
+  fullName: AasxPluginMtpViewer.WpfMtpControlWrapper.FillWithWpfControls(System.Object, System.Object, AasxPluginMtpViewer.MtpViewerOptions, AasxIntegrationBase.PluginEventStack, AasxIntegrationBase.LogInstance, System.Object)
+  nameWithType: WpfMtpControlWrapper.FillWithWpfControls(Object, Object, MtpViewerOptions, PluginEventStack, LogInstance, Object)
 - uid: AasxPluginMtpViewer.WpfMtpControlWrapper.FillWithWpfControls*
   name: FillWithWpfControls
   href: api/AasxPluginMtpViewer.WpfMtpControlWrapper.html#AasxPluginMtpViewer_WpfMtpControlWrapper_FillWithWpfControls_
@@ -26904,12 +27088,12 @@ references:
   isSpec: "True"
   fullName: AasxPluginMtpViewer.WpfMtpControlWrapper.FillWithWpfControls
   nameWithType: WpfMtpControlWrapper.FillWithWpfControls
-- uid: AasxPluginMtpViewer.WpfMtpControlWrapper.Start(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Submodel,AasxPluginMtpViewer.MtpViewerOptions,AasxIntegrationBase.PluginEventStack)
-  name: Start(AdminShellPackageEnv, AdminShellV20.Submodel, MtpViewerOptions, PluginEventStack)
-  href: api/AasxPluginMtpViewer.WpfMtpControlWrapper.html#AasxPluginMtpViewer_WpfMtpControlWrapper_Start_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_Submodel_AasxPluginMtpViewer_MtpViewerOptions_AasxIntegrationBase_PluginEventStack_
-  commentId: M:AasxPluginMtpViewer.WpfMtpControlWrapper.Start(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Submodel,AasxPluginMtpViewer.MtpViewerOptions,AasxIntegrationBase.PluginEventStack)
-  fullName: AasxPluginMtpViewer.WpfMtpControlWrapper.Start(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.Submodel, AasxPluginMtpViewer.MtpViewerOptions, AasxIntegrationBase.PluginEventStack)
-  nameWithType: WpfMtpControlWrapper.Start(AdminShellPackageEnv, AdminShellV20.Submodel, MtpViewerOptions, PluginEventStack)
+- uid: AasxPluginMtpViewer.WpfMtpControlWrapper.Start(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Submodel,AasxPluginMtpViewer.MtpViewerOptions,AasxIntegrationBase.PluginEventStack,AasxIntegrationBase.LogInstance)
+  name: Start(AdminShellPackageEnv, AdminShellV20.Submodel, MtpViewerOptions, PluginEventStack, LogInstance)
+  href: api/AasxPluginMtpViewer.WpfMtpControlWrapper.html#AasxPluginMtpViewer_WpfMtpControlWrapper_Start_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_Submodel_AasxPluginMtpViewer_MtpViewerOptions_AasxIntegrationBase_PluginEventStack_AasxIntegrationBase_LogInstance_
+  commentId: M:AasxPluginMtpViewer.WpfMtpControlWrapper.Start(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Submodel,AasxPluginMtpViewer.MtpViewerOptions,AasxIntegrationBase.PluginEventStack,AasxIntegrationBase.LogInstance)
+  fullName: AasxPluginMtpViewer.WpfMtpControlWrapper.Start(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.Submodel, AasxPluginMtpViewer.MtpViewerOptions, AasxIntegrationBase.PluginEventStack, AasxIntegrationBase.LogInstance)
+  nameWithType: WpfMtpControlWrapper.Start(AdminShellPackageEnv, AdminShellV20.Submodel, MtpViewerOptions, PluginEventStack, LogInstance)
 - uid: AasxPluginMtpViewer.WpfMtpControlWrapper.Start*
   name: Start
   href: api/AasxPluginMtpViewer.WpfMtpControlWrapper.html#AasxPluginMtpViewer_WpfMtpControlWrapper_Start_
@@ -26917,6 +27101,12 @@ references:
   isSpec: "True"
   fullName: AasxPluginMtpViewer.WpfMtpControlWrapper.Start
   nameWithType: WpfMtpControlWrapper.Start
+- uid: AasxPluginMtpViewer.WpfMtpControlWrapper.thePreLoadInfo
+  name: thePreLoadInfo
+  href: api/AasxPluginMtpViewer.WpfMtpControlWrapper.html#AasxPluginMtpViewer_WpfMtpControlWrapper_thePreLoadInfo
+  commentId: F:AasxPluginMtpViewer.WpfMtpControlWrapper.thePreLoadInfo
+  fullName: AasxPluginMtpViewer.WpfMtpControlWrapper.thePreLoadInfo
+  nameWithType: WpfMtpControlWrapper.thePreLoadInfo
 - uid: AasxPluginTechnicalData
   name: AasxPluginTechnicalData
   href: api/AasxPluginTechnicalData.html
@@ -28082,6 +28272,12 @@ references:
   commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_Endpoint
   fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_Endpoint
   nameWithType: DefinitionsMTP.ModuleTypePackage.CD_Endpoint
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_IdentifierRenaming
+  name: CD_IdentifierRenaming
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_IdentifierRenaming
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_IdentifierRenaming
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_IdentifierRenaming
+  nameWithType: DefinitionsMTP.ModuleTypePackage.CD_IdentifierRenaming
 - uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_MtpFile
   name: CD_MtpFile
   href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_MtpFile
@@ -28094,6 +28290,24 @@ references:
   commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_MtpTypeSubmodel
   fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_MtpTypeSubmodel
   nameWithType: DefinitionsMTP.ModuleTypePackage.CD_MtpTypeSubmodel
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_NamespaceRenaming
+  name: CD_NamespaceRenaming
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_NamespaceRenaming
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_NamespaceRenaming
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_NamespaceRenaming
+  nameWithType: DefinitionsMTP.ModuleTypePackage.CD_NamespaceRenaming
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_RenamingNewText
+  name: CD_RenamingNewText
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_RenamingNewText
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_RenamingNewText
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_RenamingNewText
+  nameWithType: DefinitionsMTP.ModuleTypePackage.CD_RenamingNewText
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_RenamingOldText
+  name: CD_RenamingOldText
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_RenamingOldText
+  commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_RenamingOldText
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_RenamingOldText
+  nameWithType: DefinitionsMTP.ModuleTypePackage.CD_RenamingOldText
 - uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.CD_SourceList
   name: CD_SourceList
   href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage_CD_SourceList
@@ -28118,6 +28332,37 @@ references:
   commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.SEM_MtpSubmodel
   fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.SEM_MtpSubmodel
   nameWithType: DefinitionsMTP.ModuleTypePackage.SEM_MtpSubmodel
+- uid: AasxPredefinedConcepts.DefinitionsPackageExplorer
+  name: DefinitionsPackageExplorer
+  href: api/AasxPredefinedConcepts.DefinitionsPackageExplorer.html
+  commentId: T:AasxPredefinedConcepts.DefinitionsPackageExplorer
+  fullName: AasxPredefinedConcepts.DefinitionsPackageExplorer
+  nameWithType: DefinitionsPackageExplorer
+- uid: AasxPredefinedConcepts.DefinitionsPackageExplorer.#ctor
+  name: DefinitionsPackageExplorer()
+  href: api/AasxPredefinedConcepts.DefinitionsPackageExplorer.html#AasxPredefinedConcepts_DefinitionsPackageExplorer__ctor
+  commentId: M:AasxPredefinedConcepts.DefinitionsPackageExplorer.#ctor
+  fullName: AasxPredefinedConcepts.DefinitionsPackageExplorer.DefinitionsPackageExplorer()
+  nameWithType: DefinitionsPackageExplorer.DefinitionsPackageExplorer()
+- uid: AasxPredefinedConcepts.DefinitionsPackageExplorer.#ctor*
+  name: DefinitionsPackageExplorer
+  href: api/AasxPredefinedConcepts.DefinitionsPackageExplorer.html#AasxPredefinedConcepts_DefinitionsPackageExplorer__ctor_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPackageExplorer.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPackageExplorer.DefinitionsPackageExplorer
+  nameWithType: DefinitionsPackageExplorer.DefinitionsPackageExplorer
+- uid: AasxPredefinedConcepts.DefinitionsPackageExplorer.CD_AasxLoadedNavigateTo
+  name: CD_AasxLoadedNavigateTo
+  href: api/AasxPredefinedConcepts.DefinitionsPackageExplorer.html#AasxPredefinedConcepts_DefinitionsPackageExplorer_CD_AasxLoadedNavigateTo
+  commentId: F:AasxPredefinedConcepts.DefinitionsPackageExplorer.CD_AasxLoadedNavigateTo
+  fullName: AasxPredefinedConcepts.DefinitionsPackageExplorer.CD_AasxLoadedNavigateTo
+  nameWithType: DefinitionsPackageExplorer.CD_AasxLoadedNavigateTo
+- uid: AasxPredefinedConcepts.DefinitionsPackageExplorer.Static
+  name: Static
+  href: api/AasxPredefinedConcepts.DefinitionsPackageExplorer.html#AasxPredefinedConcepts_DefinitionsPackageExplorer_Static
+  commentId: F:AasxPredefinedConcepts.DefinitionsPackageExplorer.Static
+  fullName: AasxPredefinedConcepts.DefinitionsPackageExplorer.Static
+  nameWithType: DefinitionsPackageExplorer.Static
 - uid: AasxPredefinedConcepts.DefinitionsVDI2770
   name: DefinitionsVDI2770
   href: api/AasxPredefinedConcepts.DefinitionsVDI2770.html
@@ -29313,6 +29558,73 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.ExportPredefinedConcepts.Export
   nameWithType: ExportPredefinedConcepts.Export
+- uid: AasxPredefinedConcepts.ImageMap
+  name: ImageMap
+  href: api/AasxPredefinedConcepts.ImageMap.html
+  commentId: T:AasxPredefinedConcepts.ImageMap
+  fullName: AasxPredefinedConcepts.ImageMap
+  nameWithType: ImageMap
+- uid: AasxPredefinedConcepts.ImageMap.#ctor
+  name: ImageMap()
+  href: api/AasxPredefinedConcepts.ImageMap.html#AasxPredefinedConcepts_ImageMap__ctor
+  commentId: M:AasxPredefinedConcepts.ImageMap.#ctor
+  fullName: AasxPredefinedConcepts.ImageMap.ImageMap()
+  nameWithType: ImageMap.ImageMap()
+- uid: AasxPredefinedConcepts.ImageMap.#ctor*
+  name: ImageMap
+  href: api/AasxPredefinedConcepts.ImageMap.html#AasxPredefinedConcepts_ImageMap__ctor_
+  commentId: Overload:AasxPredefinedConcepts.ImageMap.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.ImageMap.ImageMap
+  nameWithType: ImageMap.ImageMap
+- uid: AasxPredefinedConcepts.ImageMap.CD_EntityOfImageMap
+  name: CD_EntityOfImageMap
+  href: api/AasxPredefinedConcepts.ImageMap.html#AasxPredefinedConcepts_ImageMap_CD_EntityOfImageMap
+  commentId: F:AasxPredefinedConcepts.ImageMap.CD_EntityOfImageMap
+  fullName: AasxPredefinedConcepts.ImageMap.CD_EntityOfImageMap
+  nameWithType: ImageMap.CD_EntityOfImageMap
+- uid: AasxPredefinedConcepts.ImageMap.CD_ImageFile
+  name: CD_ImageFile
+  href: api/AasxPredefinedConcepts.ImageMap.html#AasxPredefinedConcepts_ImageMap_CD_ImageFile
+  commentId: F:AasxPredefinedConcepts.ImageMap.CD_ImageFile
+  fullName: AasxPredefinedConcepts.ImageMap.CD_ImageFile
+  nameWithType: ImageMap.CD_ImageFile
+- uid: AasxPredefinedConcepts.ImageMap.CD_NavigateTo
+  name: CD_NavigateTo
+  href: api/AasxPredefinedConcepts.ImageMap.html#AasxPredefinedConcepts_ImageMap_CD_NavigateTo
+  commentId: F:AasxPredefinedConcepts.ImageMap.CD_NavigateTo
+  fullName: AasxPredefinedConcepts.ImageMap.CD_NavigateTo
+  nameWithType: ImageMap.CD_NavigateTo
+- uid: AasxPredefinedConcepts.ImageMap.CD_RegionCircle
+  name: CD_RegionCircle
+  href: api/AasxPredefinedConcepts.ImageMap.html#AasxPredefinedConcepts_ImageMap_CD_RegionCircle
+  commentId: F:AasxPredefinedConcepts.ImageMap.CD_RegionCircle
+  fullName: AasxPredefinedConcepts.ImageMap.CD_RegionCircle
+  nameWithType: ImageMap.CD_RegionCircle
+- uid: AasxPredefinedConcepts.ImageMap.CD_RegionPolygon
+  name: CD_RegionPolygon
+  href: api/AasxPredefinedConcepts.ImageMap.html#AasxPredefinedConcepts_ImageMap_CD_RegionPolygon
+  commentId: F:AasxPredefinedConcepts.ImageMap.CD_RegionPolygon
+  fullName: AasxPredefinedConcepts.ImageMap.CD_RegionPolygon
+  nameWithType: ImageMap.CD_RegionPolygon
+- uid: AasxPredefinedConcepts.ImageMap.CD_RegionRect
+  name: CD_RegionRect
+  href: api/AasxPredefinedConcepts.ImageMap.html#AasxPredefinedConcepts_ImageMap_CD_RegionRect
+  commentId: F:AasxPredefinedConcepts.ImageMap.CD_RegionRect
+  fullName: AasxPredefinedConcepts.ImageMap.CD_RegionRect
+  nameWithType: ImageMap.CD_RegionRect
+- uid: AasxPredefinedConcepts.ImageMap.SEM_ImageMapSubmodel
+  name: SEM_ImageMapSubmodel
+  href: api/AasxPredefinedConcepts.ImageMap.html#AasxPredefinedConcepts_ImageMap_SEM_ImageMapSubmodel
+  commentId: F:AasxPredefinedConcepts.ImageMap.SEM_ImageMapSubmodel
+  fullName: AasxPredefinedConcepts.ImageMap.SEM_ImageMapSubmodel
+  nameWithType: ImageMap.SEM_ImageMapSubmodel
+- uid: AasxPredefinedConcepts.ImageMap.Static
+  name: Static
+  href: api/AasxPredefinedConcepts.ImageMap.html#AasxPredefinedConcepts_ImageMap_Static
+  commentId: F:AasxPredefinedConcepts.ImageMap.Static
+  fullName: AasxPredefinedConcepts.ImageMap.Static
+  nameWithType: ImageMap.Static
 - uid: AasxPredefinedConcepts.VDI2770v11
   name: VDI2770v11
   href: api/AasxPredefinedConcepts.VDI2770v11.html
@@ -33573,6 +33885,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellPackageEnv.Filename
   nameWithType: AdminShellPackageEnv.Filename
+- uid: AdminShellNS.AdminShellPackageEnv.GetByteArrayFromUriOrLocalPackage(System.String)
+  name: GetByteArrayFromUriOrLocalPackage(String)
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetByteArrayFromUriOrLocalPackage_System_String_
+  commentId: M:AdminShellNS.AdminShellPackageEnv.GetByteArrayFromUriOrLocalPackage(System.String)
+  fullName: AdminShellNS.AdminShellPackageEnv.GetByteArrayFromUriOrLocalPackage(System.String)
+  nameWithType: AdminShellPackageEnv.GetByteArrayFromUriOrLocalPackage(String)
+- uid: AdminShellNS.AdminShellPackageEnv.GetByteArrayFromUriOrLocalPackage*
+  name: GetByteArrayFromUriOrLocalPackage
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetByteArrayFromUriOrLocalPackage_
+  commentId: Overload:AdminShellNS.AdminShellPackageEnv.GetByteArrayFromUriOrLocalPackage
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellPackageEnv.GetByteArrayFromUriOrLocalPackage
+  nameWithType: AdminShellPackageEnv.GetByteArrayFromUriOrLocalPackage
 - uid: AdminShellNS.AdminShellPackageEnv.GetListOfSupplementaryFiles
   name: GetListOfSupplementaryFiles()
   href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetListOfSupplementaryFiles
@@ -33621,6 +33946,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellPackageEnv.GetLocalThumbnailStream
   nameWithType: AdminShellPackageEnv.GetLocalThumbnailStream
+- uid: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String)
+  name: GetStreamFromUriOrLocalPackage(String)
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetStreamFromUriOrLocalPackage_System_String_
+  commentId: M:AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String)
+  fullName: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String)
+  nameWithType: AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(String)
+- uid: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage*
+  name: GetStreamFromUriOrLocalPackage
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetStreamFromUriOrLocalPackage_
+  commentId: Overload:AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage
+  nameWithType: AdminShellPackageEnv.GetStreamFromUriOrLocalPackage
 - uid: AdminShellNS.AdminShellPackageEnv.GetStreamSizeFromPackage(System.String)
   name: GetStreamSizeFromPackage(String)
   href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetStreamSizeFromPackage_System_String_
@@ -35020,12 +35358,12 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindFirstSubmodelBySemanticId
   nameWithType: AdminShellV20.AdministrationShellEnv.FindFirstSubmodelBySemanticId
-- uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindReferableByReference(AdminShellNS.AdminShellV20.Reference,System.Int32)
-  name: FindReferableByReference(AdminShellV20.Reference, Int32)
-  href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_FindReferableByReference_AdminShellNS_AdminShellV20_Reference_System_Int32_
-  commentId: M:AdminShellNS.AdminShellV20.AdministrationShellEnv.FindReferableByReference(AdminShellNS.AdminShellV20.Reference,System.Int32)
-  fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindReferableByReference(AdminShellNS.AdminShellV20.Reference, System.Int32)
-  nameWithType: AdminShellV20.AdministrationShellEnv.FindReferableByReference(AdminShellV20.Reference, Int32)
+- uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindReferableByReference(AdminShellNS.AdminShellV20.Reference,System.Int32,System.Boolean)
+  name: FindReferableByReference(AdminShellV20.Reference, Int32, Boolean)
+  href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_FindReferableByReference_AdminShellNS_AdminShellV20_Reference_System_Int32_System_Boolean_
+  commentId: M:AdminShellNS.AdminShellV20.AdministrationShellEnv.FindReferableByReference(AdminShellNS.AdminShellV20.Reference,System.Int32,System.Boolean)
+  fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindReferableByReference(AdminShellNS.AdminShellV20.Reference, System.Int32, System.Boolean)
+  nameWithType: AdminShellV20.AdministrationShellEnv.FindReferableByReference(AdminShellV20.Reference, Int32, Boolean)
 - uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.FindReferableByReference*
   name: FindReferableByReference
   href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_FindReferableByReference_
@@ -38521,6 +38859,19 @@ references:
   commentId: F:AdminShellNS.AdminShellV20.Key.SubmodelRef
   fullName: AdminShellNS.AdminShellV20.Key.SubmodelRef
   nameWithType: AdminShellV20.Key.SubmodelRef
+- uid: AdminShellNS.AdminShellV20.Key.ToId
+  name: ToId()
+  href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_ToId
+  commentId: M:AdminShellNS.AdminShellV20.Key.ToId
+  fullName: AdminShellNS.AdminShellV20.Key.ToId()
+  nameWithType: AdminShellV20.Key.ToId()
+- uid: AdminShellNS.AdminShellV20.Key.ToId*
+  name: ToId
+  href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_ToId_
+  commentId: Overload:AdminShellNS.AdminShellV20.Key.ToId
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Key.ToId
+  nameWithType: AdminShellV20.Key.ToId
 - uid: AdminShellNS.AdminShellV20.Key.ToString(System.Int32)
   name: ToString(Int32)
   href: api/AdminShellNS.AdminShellV20.Key.html#AdminShellNS_AdminShellV20_Key_ToString_System_Int32_
@@ -44045,6 +44396,19 @@ references:
   isSpec: "True"
   fullName: Mtp.DynamicInstances.MtpDiAnaView.ValueScaleLowLimit
   nameWithType: MtpDiAnaView.ValueScaleLowLimit
+- uid: Mtp.DynamicInstances.MtpDiAnaView.ValueText
+  name: ValueText
+  href: api/Mtp.DynamicInstances.MtpDiAnaView.html#Mtp_DynamicInstances_MtpDiAnaView_ValueText
+  commentId: P:Mtp.DynamicInstances.MtpDiAnaView.ValueText
+  fullName: Mtp.DynamicInstances.MtpDiAnaView.ValueText
+  nameWithType: MtpDiAnaView.ValueText
+- uid: Mtp.DynamicInstances.MtpDiAnaView.ValueText*
+  name: ValueText
+  href: api/Mtp.DynamicInstances.MtpDiAnaView.html#Mtp_DynamicInstances_MtpDiAnaView_ValueText_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiAnaView.ValueText
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiAnaView.ValueText
+  nameWithType: MtpDiAnaView.ValueText
 - uid: Mtp.DynamicInstances.MtpDiAnaView.ValueUnit
   name: ValueUnit
   href: api/Mtp.DynamicInstances.MtpDiAnaView.html#Mtp_DynamicInstances_MtpDiAnaView_ValueUnit
@@ -44071,6 +44435,183 @@ references:
   isSpec: "True"
   fullName: Mtp.DynamicInstances.MtpDiAnaView.ValueUnitText
   nameWithType: MtpDiAnaView.ValueUnitText
+- uid: Mtp.DynamicInstances.MtpDiBinDrive
+  name: MtpDiBinDrive
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html
+  commentId: T:Mtp.DynamicInstances.MtpDiBinDrive
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive
+  nameWithType: MtpDiBinDrive
+- uid: Mtp.DynamicInstances.MtpDiBinDrive.#ctor
+  name: MtpDiBinDrive()
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html#Mtp_DynamicInstances_MtpDiBinDrive__ctor
+  commentId: M:Mtp.DynamicInstances.MtpDiBinDrive.#ctor
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive.MtpDiBinDrive()
+  nameWithType: MtpDiBinDrive.MtpDiBinDrive()
+- uid: Mtp.DynamicInstances.MtpDiBinDrive.#ctor*
+  name: MtpDiBinDrive
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html#Mtp_DynamicInstances_MtpDiBinDrive__ctor_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiBinDrive.#ctor
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive.MtpDiBinDrive
+  nameWithType: MtpDiBinDrive.MtpDiBinDrive
+- uid: Mtp.DynamicInstances.MtpDiBinDrive.CreateVisualObject(System.Double,System.Double)
+  name: CreateVisualObject(Double, Double)
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html#Mtp_DynamicInstances_MtpDiBinDrive_CreateVisualObject_System_Double_System_Double_
+  commentId: M:Mtp.DynamicInstances.MtpDiBinDrive.CreateVisualObject(System.Double,System.Double)
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive.CreateVisualObject(System.Double, System.Double)
+  nameWithType: MtpDiBinDrive.CreateVisualObject(Double, Double)
+- uid: Mtp.DynamicInstances.MtpDiBinDrive.CreateVisualObject*
+  name: CreateVisualObject
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html#Mtp_DynamicInstances_MtpDiBinDrive_CreateVisualObject_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiBinDrive.CreateVisualObject
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive.CreateVisualObject
+  nameWithType: MtpDiBinDrive.CreateVisualObject
+- uid: Mtp.DynamicInstances.MtpDiBinDrive.ForwardCtrl
+  name: ForwardCtrl
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html#Mtp_DynamicInstances_MtpDiBinDrive_ForwardCtrl
+  commentId: F:Mtp.DynamicInstances.MtpDiBinDrive.ForwardCtrl
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive.ForwardCtrl
+  nameWithType: MtpDiBinDrive.ForwardCtrl
+- uid: Mtp.DynamicInstances.MtpDiBinDrive.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  name: PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html#Mtp_DynamicInstances_MtpDiBinDrive_PopulateFromAml_System_String_InternalElementType_WpfMtpControl_MtpDataSourceSubscriber_
+  commentId: M:Mtp.DynamicInstances.MtpDiBinDrive.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive.PopulateFromAml(System.String, InternalElementType, WpfMtpControl.MtpDataSourceSubscriber)
+  nameWithType: MtpDiBinDrive.PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+- uid: Mtp.DynamicInstances.MtpDiBinDrive.PopulateFromAml*
+  name: PopulateFromAml
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html#Mtp_DynamicInstances_MtpDiBinDrive_PopulateFromAml_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiBinDrive.PopulateFromAml
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive.PopulateFromAml
+  nameWithType: MtpDiBinDrive.PopulateFromAml
+- uid: Mtp.DynamicInstances.MtpDiBinDrive.RedrawSymbol(WpfMtpControl.MtpVisuOptions)
+  name: RedrawSymbol(MtpVisuOptions)
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html#Mtp_DynamicInstances_MtpDiBinDrive_RedrawSymbol_WpfMtpControl_MtpVisuOptions_
+  commentId: M:Mtp.DynamicInstances.MtpDiBinDrive.RedrawSymbol(WpfMtpControl.MtpVisuOptions)
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive.RedrawSymbol(WpfMtpControl.MtpVisuOptions)
+  nameWithType: MtpDiBinDrive.RedrawSymbol(MtpVisuOptions)
+- uid: Mtp.DynamicInstances.MtpDiBinDrive.RedrawSymbol*
+  name: RedrawSymbol
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html#Mtp_DynamicInstances_MtpDiBinDrive_RedrawSymbol_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiBinDrive.RedrawSymbol
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive.RedrawSymbol
+  nameWithType: MtpDiBinDrive.RedrawSymbol
+- uid: Mtp.DynamicInstances.MtpDiBinDrive.ReverseCtrl
+  name: ReverseCtrl
+  href: api/Mtp.DynamicInstances.MtpDiBinDrive.html#Mtp_DynamicInstances_MtpDiBinDrive_ReverseCtrl
+  commentId: F:Mtp.DynamicInstances.MtpDiBinDrive.ReverseCtrl
+  fullName: Mtp.DynamicInstances.MtpDiBinDrive.ReverseCtrl
+  nameWithType: MtpDiBinDrive.ReverseCtrl
+- uid: Mtp.DynamicInstances.MtpDiBinMon
+  name: MtpDiBinMon
+  href: api/Mtp.DynamicInstances.MtpDiBinMon.html
+  commentId: T:Mtp.DynamicInstances.MtpDiBinMon
+  fullName: Mtp.DynamicInstances.MtpDiBinMon
+  nameWithType: MtpDiBinMon
+- uid: Mtp.DynamicInstances.MtpDiBinMon.EnableFlutterRecog
+  name: EnableFlutterRecog
+  href: api/Mtp.DynamicInstances.MtpDiBinMon.html#Mtp_DynamicInstances_MtpDiBinMon_EnableFlutterRecog
+  commentId: F:Mtp.DynamicInstances.MtpDiBinMon.EnableFlutterRecog
+  fullName: Mtp.DynamicInstances.MtpDiBinMon.EnableFlutterRecog
+  nameWithType: MtpDiBinMon.EnableFlutterRecog
+- uid: Mtp.DynamicInstances.MtpDiBinMon.FlutterCounts
+  name: FlutterCounts
+  href: api/Mtp.DynamicInstances.MtpDiBinMon.html#Mtp_DynamicInstances_MtpDiBinMon_FlutterCounts
+  commentId: F:Mtp.DynamicInstances.MtpDiBinMon.FlutterCounts
+  fullName: Mtp.DynamicInstances.MtpDiBinMon.FlutterCounts
+  nameWithType: MtpDiBinMon.FlutterCounts
+- uid: Mtp.DynamicInstances.MtpDiBinMon.FlutterIsActive
+  name: FlutterIsActive
+  href: api/Mtp.DynamicInstances.MtpDiBinMon.html#Mtp_DynamicInstances_MtpDiBinMon_FlutterIsActive
+  commentId: F:Mtp.DynamicInstances.MtpDiBinMon.FlutterIsActive
+  fullName: Mtp.DynamicInstances.MtpDiBinMon.FlutterIsActive
+  nameWithType: MtpDiBinMon.FlutterIsActive
+- uid: Mtp.DynamicInstances.MtpDiBinMon.FlutterTimeInterval
+  name: FlutterTimeInterval
+  href: api/Mtp.DynamicInstances.MtpDiBinMon.html#Mtp_DynamicInstances_MtpDiBinMon_FlutterTimeInterval
+  commentId: F:Mtp.DynamicInstances.MtpDiBinMon.FlutterTimeInterval
+  fullName: Mtp.DynamicInstances.MtpDiBinMon.FlutterTimeInterval
+  nameWithType: MtpDiBinMon.FlutterTimeInterval
+- uid: Mtp.DynamicInstances.MtpDiBinMon.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  name: PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+  href: api/Mtp.DynamicInstances.MtpDiBinMon.html#Mtp_DynamicInstances_MtpDiBinMon_PopulateFromAml_System_String_InternalElementType_WpfMtpControl_MtpDataSourceSubscriber_
+  commentId: M:Mtp.DynamicInstances.MtpDiBinMon.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  fullName: Mtp.DynamicInstances.MtpDiBinMon.PopulateFromAml(System.String, InternalElementType, WpfMtpControl.MtpDataSourceSubscriber)
+  nameWithType: MtpDiBinMon.PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+- uid: Mtp.DynamicInstances.MtpDiBinMon.PopulateFromAml*
+  name: PopulateFromAml
+  href: api/Mtp.DynamicInstances.MtpDiBinMon.html#Mtp_DynamicInstances_MtpDiBinMon_PopulateFromAml_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiBinMon.PopulateFromAml
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiBinMon.PopulateFromAml
+  nameWithType: MtpDiBinMon.PopulateFromAml
+- uid: Mtp.DynamicInstances.MtpDiBinValve
+  name: MtpDiBinValve
+  href: api/Mtp.DynamicInstances.MtpDiBinValve.html
+  commentId: T:Mtp.DynamicInstances.MtpDiBinValve
+  fullName: Mtp.DynamicInstances.MtpDiBinValve
+  nameWithType: MtpDiBinValve
+- uid: Mtp.DynamicInstances.MtpDiBinValve.#ctor
+  name: MtpDiBinValve()
+  href: api/Mtp.DynamicInstances.MtpDiBinValve.html#Mtp_DynamicInstances_MtpDiBinValve__ctor
+  commentId: M:Mtp.DynamicInstances.MtpDiBinValve.#ctor
+  fullName: Mtp.DynamicInstances.MtpDiBinValve.MtpDiBinValve()
+  nameWithType: MtpDiBinValve.MtpDiBinValve()
+- uid: Mtp.DynamicInstances.MtpDiBinValve.#ctor*
+  name: MtpDiBinValve
+  href: api/Mtp.DynamicInstances.MtpDiBinValve.html#Mtp_DynamicInstances_MtpDiBinValve__ctor_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiBinValve.#ctor
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiBinValve.MtpDiBinValve
+  nameWithType: MtpDiBinValve.MtpDiBinValve
+- uid: Mtp.DynamicInstances.MtpDiBinValve.CreateVisualObject(System.Double,System.Double)
+  name: CreateVisualObject(Double, Double)
+  href: api/Mtp.DynamicInstances.MtpDiBinValve.html#Mtp_DynamicInstances_MtpDiBinValve_CreateVisualObject_System_Double_System_Double_
+  commentId: M:Mtp.DynamicInstances.MtpDiBinValve.CreateVisualObject(System.Double,System.Double)
+  fullName: Mtp.DynamicInstances.MtpDiBinValve.CreateVisualObject(System.Double, System.Double)
+  nameWithType: MtpDiBinValve.CreateVisualObject(Double, Double)
+- uid: Mtp.DynamicInstances.MtpDiBinValve.CreateVisualObject*
+  name: CreateVisualObject
+  href: api/Mtp.DynamicInstances.MtpDiBinValve.html#Mtp_DynamicInstances_MtpDiBinValve_CreateVisualObject_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiBinValve.CreateVisualObject
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiBinValve.CreateVisualObject
+  nameWithType: MtpDiBinValve.CreateVisualObject
+- uid: Mtp.DynamicInstances.MtpDiBinValve.Ctrl
+  name: Ctrl
+  href: api/Mtp.DynamicInstances.MtpDiBinValve.html#Mtp_DynamicInstances_MtpDiBinValve_Ctrl
+  commentId: F:Mtp.DynamicInstances.MtpDiBinValve.Ctrl
+  fullName: Mtp.DynamicInstances.MtpDiBinValve.Ctrl
+  nameWithType: MtpDiBinValve.Ctrl
+- uid: Mtp.DynamicInstances.MtpDiBinValve.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  name: PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+  href: api/Mtp.DynamicInstances.MtpDiBinValve.html#Mtp_DynamicInstances_MtpDiBinValve_PopulateFromAml_System_String_InternalElementType_WpfMtpControl_MtpDataSourceSubscriber_
+  commentId: M:Mtp.DynamicInstances.MtpDiBinValve.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  fullName: Mtp.DynamicInstances.MtpDiBinValve.PopulateFromAml(System.String, InternalElementType, WpfMtpControl.MtpDataSourceSubscriber)
+  nameWithType: MtpDiBinValve.PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+- uid: Mtp.DynamicInstances.MtpDiBinValve.PopulateFromAml*
+  name: PopulateFromAml
+  href: api/Mtp.DynamicInstances.MtpDiBinValve.html#Mtp_DynamicInstances_MtpDiBinValve_PopulateFromAml_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiBinValve.PopulateFromAml
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiBinValve.PopulateFromAml
+  nameWithType: MtpDiBinValve.PopulateFromAml
+- uid: Mtp.DynamicInstances.MtpDiBinValve.RedrawSymbol(WpfMtpControl.MtpVisuOptions)
+  name: RedrawSymbol(MtpVisuOptions)
+  href: api/Mtp.DynamicInstances.MtpDiBinValve.html#Mtp_DynamicInstances_MtpDiBinValve_RedrawSymbol_WpfMtpControl_MtpVisuOptions_
+  commentId: M:Mtp.DynamicInstances.MtpDiBinValve.RedrawSymbol(WpfMtpControl.MtpVisuOptions)
+  fullName: Mtp.DynamicInstances.MtpDiBinValve.RedrawSymbol(WpfMtpControl.MtpVisuOptions)
+  nameWithType: MtpDiBinValve.RedrawSymbol(MtpVisuOptions)
+- uid: Mtp.DynamicInstances.MtpDiBinValve.RedrawSymbol*
+  name: RedrawSymbol
+  href: api/Mtp.DynamicInstances.MtpDiBinValve.html#Mtp_DynamicInstances_MtpDiBinValve_RedrawSymbol_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiBinValve.RedrawSymbol
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiBinValve.RedrawSymbol
+  nameWithType: MtpDiBinValve.RedrawSymbol
 - uid: Mtp.DynamicInstances.MtpDiBinView
   name: MtpDiBinView
   href: api/Mtp.DynamicInstances.MtpDiBinView.html
@@ -44291,6 +44832,343 @@ references:
   isSpec: "True"
   fullName: Mtp.DynamicInstances.MtpDiDataAssembly.TagName
   nameWithType: MtpDiDataAssembly.TagName
+- uid: Mtp.DynamicInstances.MtpDiDIntMon
+  name: MtpDiDIntMon
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html
+  commentId: T:Mtp.DynamicInstances.MtpDiDIntMon
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon
+  nameWithType: MtpDiDIntMon
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.Band
+  name: Band
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_Band
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.Band
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.Band
+  nameWithType: MtpDiDIntMon.Band
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.BandAlarm
+  name: BandAlarm
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_BandAlarm
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.BandAlarm
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.BandAlarm
+  nameWithType: MtpDiDIntMon.BandAlarm
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.BandNone
+  name: BandNone
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_BandNone
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.BandNone
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.BandNone
+  nameWithType: MtpDiDIntMon.BandNone
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.BandTolerance
+  name: BandTolerance
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_BandTolerance
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.BandTolerance
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.BandTolerance
+  nameWithType: MtpDiDIntMon.BandTolerance
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.BandWarning
+  name: BandWarning
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_BandWarning
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.BandWarning
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.BandWarning
+  nameWithType: MtpDiDIntMon.BandWarning
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.CreateVisualObject(System.Double,System.Double)
+  name: CreateVisualObject(Double, Double)
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_CreateVisualObject_System_Double_System_Double_
+  commentId: M:Mtp.DynamicInstances.MtpDiDIntMon.CreateVisualObject(System.Double,System.Double)
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.CreateVisualObject(System.Double, System.Double)
+  nameWithType: MtpDiDIntMon.CreateVisualObject(Double, Double)
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.CreateVisualObject*
+  name: CreateVisualObject
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_CreateVisualObject_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntMon.CreateVisualObject
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.CreateVisualObject
+  nameWithType: MtpDiDIntMon.CreateVisualObject
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.Demo(System.Int32)
+  name: Demo(Int32)
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_Demo_System_Int32_
+  commentId: M:Mtp.DynamicInstances.MtpDiDIntMon.Demo(System.Int32)
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.Demo(System.Int32)
+  nameWithType: MtpDiDIntMon.Demo(Int32)
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.Demo*
+  name: Demo
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_Demo_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntMon.Demo
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.Demo
+  nameWithType: MtpDiDIntMon.Demo
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand
+  name: MtpDiDIntMon.LimitBand
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html
+  commentId: T:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand
+  nameWithType: MtpDiDIntMon.LimitBand
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.#ctor
+  name: LimitBand()
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand__ctor
+  commentId: M:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.#ctor
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitBand()
+  nameWithType: MtpDiDIntMon.LimitBand.LimitBand()
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.#ctor(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: LimitBand(Int32, Int32, Boolean, Boolean, Boolean, Boolean)
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand__ctor_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.#ctor(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitBand(System.Int32, System.Int32, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: MtpDiDIntMon.LimitBand.LimitBand(Int32, Int32, Boolean, Boolean, Boolean, Boolean)
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.#ctor*
+  name: LimitBand
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand__ctor_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.#ctor
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitBand
+  nameWithType: MtpDiDIntMon.LimitBand.LimitBand
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.EvalValueForLimitViolation(System.Int32)
+  name: EvalValueForLimitViolation(Int32)
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand_EvalValueForLimitViolation_System_Int32_
+  commentId: M:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.EvalValueForLimitViolation(System.Int32)
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.EvalValueForLimitViolation(System.Int32)
+  nameWithType: MtpDiDIntMon.LimitBand.EvalValueForLimitViolation(Int32)
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.EvalValueForLimitViolation*
+  name: EvalValueForLimitViolation
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand_EvalValueForLimitViolation_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.EvalValueForLimitViolation
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.EvalValueForLimitViolation
+  nameWithType: MtpDiDIntMon.LimitBand.EvalValueForLimitViolation
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitActiveHigh
+  name: LimitActiveHigh
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand_LimitActiveHigh
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitActiveHigh
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitActiveHigh
+  nameWithType: MtpDiDIntMon.LimitBand.LimitActiveHigh
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitActiveLow
+  name: LimitActiveLow
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand_LimitActiveLow
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitActiveLow
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitActiveLow
+  nameWithType: MtpDiDIntMon.LimitBand.LimitActiveLow
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitEnableHigh
+  name: LimitEnableHigh
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand_LimitEnableHigh
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitEnableHigh
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitEnableHigh
+  nameWithType: MtpDiDIntMon.LimitBand.LimitEnableHigh
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitEnableLow
+  name: LimitEnableLow
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand_LimitEnableLow
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitEnableLow
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitEnableLow
+  nameWithType: MtpDiDIntMon.LimitBand.LimitEnableLow
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitValueHigh
+  name: LimitValueHigh
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand_LimitValueHigh
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitValueHigh
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitValueHigh
+  nameWithType: MtpDiDIntMon.LimitBand.LimitValueHigh
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitValueLow
+  name: LimitValueLow
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.html#Mtp_DynamicInstances_MtpDiDIntMon_LimitBand_LimitValueLow
+  commentId: F:Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitValueLow
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.LimitBand.LimitValueLow
+  nameWithType: MtpDiDIntMon.LimitBand.LimitValueLow
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  name: PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_PopulateFromAml_System_String_InternalElementType_WpfMtpControl_MtpDataSourceSubscriber_
+  commentId: M:Mtp.DynamicInstances.MtpDiDIntMon.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.PopulateFromAml(System.String, InternalElementType, WpfMtpControl.MtpDataSourceSubscriber)
+  nameWithType: MtpDiDIntMon.PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.PopulateFromAml*
+  name: PopulateFromAml
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_PopulateFromAml_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntMon.PopulateFromAml
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.PopulateFromAml
+  nameWithType: MtpDiDIntMon.PopulateFromAml
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.Value
+  name: Value
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_Value
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntMon.Value
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.Value
+  nameWithType: MtpDiDIntMon.Value
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.Value*
+  name: Value
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_Value_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntMon.Value
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.Value
+  nameWithType: MtpDiDIntMon.Value
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBand
+  name: ViolatedBand
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_ViolatedBand
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBand
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBand
+  nameWithType: MtpDiDIntMon.ViolatedBand
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBand*
+  name: ViolatedBand
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_ViolatedBand_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBand
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBand
+  nameWithType: MtpDiDIntMon.ViolatedBand
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandBrush
+  name: ViolatedBandBrush
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_ViolatedBandBrush
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandBrush
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandBrush
+  nameWithType: MtpDiDIntMon.ViolatedBandBrush
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandBrush*
+  name: ViolatedBandBrush
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_ViolatedBandBrush_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandBrush
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandBrush
+  nameWithType: MtpDiDIntMon.ViolatedBandBrush
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandText
+  name: ViolatedBandText
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_ViolatedBandText
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandText
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandText
+  nameWithType: MtpDiDIntMon.ViolatedBandText
+- uid: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandText*
+  name: ViolatedBandText
+  href: api/Mtp.DynamicInstances.MtpDiDIntMon.html#Mtp_DynamicInstances_MtpDiDIntMon_ViolatedBandText_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandText
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntMon.ViolatedBandText
+  nameWithType: MtpDiDIntMon.ViolatedBandText
+- uid: Mtp.DynamicInstances.MtpDiDIntView
+  name: MtpDiDIntView
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html
+  commentId: T:Mtp.DynamicInstances.MtpDiDIntView
+  fullName: Mtp.DynamicInstances.MtpDiDIntView
+  nameWithType: MtpDiDIntView
+- uid: Mtp.DynamicInstances.MtpDiDIntView.CreateVisualObject(System.Double,System.Double)
+  name: CreateVisualObject(Double, Double)
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_CreateVisualObject_System_Double_System_Double_
+  commentId: M:Mtp.DynamicInstances.MtpDiDIntView.CreateVisualObject(System.Double,System.Double)
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.CreateVisualObject(System.Double, System.Double)
+  nameWithType: MtpDiDIntView.CreateVisualObject(Double, Double)
+- uid: Mtp.DynamicInstances.MtpDiDIntView.CreateVisualObject*
+  name: CreateVisualObject
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_CreateVisualObject_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntView.CreateVisualObject
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.CreateVisualObject
+  nameWithType: MtpDiDIntView.CreateVisualObject
+- uid: Mtp.DynamicInstances.MtpDiDIntView.Demo(System.Int32)
+  name: Demo(Int32)
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_Demo_System_Int32_
+  commentId: M:Mtp.DynamicInstances.MtpDiDIntView.Demo(System.Int32)
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.Demo(System.Int32)
+  nameWithType: MtpDiDIntView.Demo(Int32)
+- uid: Mtp.DynamicInstances.MtpDiDIntView.Demo*
+  name: Demo
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_Demo_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntView.Demo
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.Demo
+  nameWithType: MtpDiDIntView.Demo
+- uid: Mtp.DynamicInstances.MtpDiDIntView.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  name: PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_PopulateFromAml_System_String_InternalElementType_WpfMtpControl_MtpDataSourceSubscriber_
+  commentId: M:Mtp.DynamicInstances.MtpDiDIntView.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.PopulateFromAml(System.String, InternalElementType, WpfMtpControl.MtpDataSourceSubscriber)
+  nameWithType: MtpDiDIntView.PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+- uid: Mtp.DynamicInstances.MtpDiDIntView.PopulateFromAml*
+  name: PopulateFromAml
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_PopulateFromAml_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntView.PopulateFromAml
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.PopulateFromAml
+  nameWithType: MtpDiDIntView.PopulateFromAml
+- uid: Mtp.DynamicInstances.MtpDiDIntView.Value
+  name: Value
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_Value
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntView.Value
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.Value
+  nameWithType: MtpDiDIntView.Value
+- uid: Mtp.DynamicInstances.MtpDiDIntView.Value*
+  name: Value
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_Value_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntView.Value
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.Value
+  nameWithType: MtpDiDIntView.Value
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValuePercent
+  name: ValuePercent
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValuePercent
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntView.ValuePercent
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValuePercent
+  nameWithType: MtpDiDIntView.ValuePercent
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValuePercent*
+  name: ValuePercent
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValuePercent_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntView.ValuePercent
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValuePercent
+  nameWithType: MtpDiDIntView.ValuePercent
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValueScaleHighLimit
+  name: ValueScaleHighLimit
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValueScaleHighLimit
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntView.ValueScaleHighLimit
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValueScaleHighLimit
+  nameWithType: MtpDiDIntView.ValueScaleHighLimit
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValueScaleHighLimit*
+  name: ValueScaleHighLimit
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValueScaleHighLimit_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntView.ValueScaleHighLimit
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValueScaleHighLimit
+  nameWithType: MtpDiDIntView.ValueScaleHighLimit
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValueScaleLowLimit
+  name: ValueScaleLowLimit
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValueScaleLowLimit
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntView.ValueScaleLowLimit
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValueScaleLowLimit
+  nameWithType: MtpDiDIntView.ValueScaleLowLimit
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValueScaleLowLimit*
+  name: ValueScaleLowLimit
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValueScaleLowLimit_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntView.ValueScaleLowLimit
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValueScaleLowLimit
+  nameWithType: MtpDiDIntView.ValueScaleLowLimit
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValueText
+  name: ValueText
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValueText
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntView.ValueText
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValueText
+  nameWithType: MtpDiDIntView.ValueText
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValueText*
+  name: ValueText
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValueText_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntView.ValueText
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValueText
+  nameWithType: MtpDiDIntView.ValueText
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValueUnit
+  name: ValueUnit
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValueUnit
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntView.ValueUnit
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValueUnit
+  nameWithType: MtpDiDIntView.ValueUnit
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValueUnit*
+  name: ValueUnit
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValueUnit_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntView.ValueUnit
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValueUnit
+  nameWithType: MtpDiDIntView.ValueUnit
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValueUnitText
+  name: ValueUnitText
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValueUnitText
+  commentId: P:Mtp.DynamicInstances.MtpDiDIntView.ValueUnitText
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValueUnitText
+  nameWithType: MtpDiDIntView.ValueUnitText
+- uid: Mtp.DynamicInstances.MtpDiDIntView.ValueUnitText*
+  name: ValueUnitText
+  href: api/Mtp.DynamicInstances.MtpDiDIntView.html#Mtp_DynamicInstances_MtpDiDIntView_ValueUnitText_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiDIntView.ValueUnitText
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiDIntView.ValueUnitText
+  nameWithType: MtpDiDIntView.ValueUnitText
 - uid: Mtp.DynamicInstances.MtpDiIndicatorElement
   name: MtpDiIndicatorElement
   href: api/Mtp.DynamicInstances.MtpDiIndicatorElement.html
@@ -44336,6 +45214,37 @@ references:
   isSpec: "True"
   fullName: Mtp.DynamicInstances.MtpDiIndicatorElement.WorstQualityCodeText
   nameWithType: MtpDiIndicatorElement.WorstQualityCodeText
+- uid: Mtp.DynamicInstances.MtpDiMonBinValve
+  name: MtpDiMonBinValve
+  href: api/Mtp.DynamicInstances.MtpDiMonBinValve.html
+  commentId: T:Mtp.DynamicInstances.MtpDiMonBinValve
+  fullName: Mtp.DynamicInstances.MtpDiMonBinValve
+  nameWithType: MtpDiMonBinValve
+- uid: Mtp.DynamicInstances.MtpDiMonBinValve.ErrorActiveDynamic
+  name: ErrorActiveDynamic
+  href: api/Mtp.DynamicInstances.MtpDiMonBinValve.html#Mtp_DynamicInstances_MtpDiMonBinValve_ErrorActiveDynamic
+  commentId: F:Mtp.DynamicInstances.MtpDiMonBinValve.ErrorActiveDynamic
+  fullName: Mtp.DynamicInstances.MtpDiMonBinValve.ErrorActiveDynamic
+  nameWithType: MtpDiMonBinValve.ErrorActiveDynamic
+- uid: Mtp.DynamicInstances.MtpDiMonBinValve.ErrorActiveStatic
+  name: ErrorActiveStatic
+  href: api/Mtp.DynamicInstances.MtpDiMonBinValve.html#Mtp_DynamicInstances_MtpDiMonBinValve_ErrorActiveStatic
+  commentId: F:Mtp.DynamicInstances.MtpDiMonBinValve.ErrorActiveStatic
+  fullName: Mtp.DynamicInstances.MtpDiMonBinValve.ErrorActiveStatic
+  nameWithType: MtpDiMonBinValve.ErrorActiveStatic
+- uid: Mtp.DynamicInstances.MtpDiMonBinValve.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  name: PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+  href: api/Mtp.DynamicInstances.MtpDiMonBinValve.html#Mtp_DynamicInstances_MtpDiMonBinValve_PopulateFromAml_System_String_InternalElementType_WpfMtpControl_MtpDataSourceSubscriber_
+  commentId: M:Mtp.DynamicInstances.MtpDiMonBinValve.PopulateFromAml(System.String,InternalElementType,WpfMtpControl.MtpDataSourceSubscriber)
+  fullName: Mtp.DynamicInstances.MtpDiMonBinValve.PopulateFromAml(System.String, InternalElementType, WpfMtpControl.MtpDataSourceSubscriber)
+  nameWithType: MtpDiMonBinValve.PopulateFromAml(String, InternalElementType, MtpDataSourceSubscriber)
+- uid: Mtp.DynamicInstances.MtpDiMonBinValve.PopulateFromAml*
+  name: PopulateFromAml
+  href: api/Mtp.DynamicInstances.MtpDiMonBinValve.html#Mtp_DynamicInstances_MtpDiMonBinValve_PopulateFromAml_
+  commentId: Overload:Mtp.DynamicInstances.MtpDiMonBinValve.PopulateFromAml
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDiMonBinValve.PopulateFromAml
+  nameWithType: MtpDiMonBinValve.PopulateFromAml
 - uid: Mtp.DynamicInstances.MtpDiPIDCntl
   name: MtpDiPIDCntl
   href: api/Mtp.DynamicInstances.MtpDiPIDCntl.html
@@ -44488,6 +45397,19 @@ references:
   isSpec: "True"
   fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.CreateVisualObject
   nameWithType: MtpDynamicInstanceBase.CreateVisualObject
+- uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.DemandRedrawOnTick
+  name: DemandRedrawOnTick()
+  href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_DemandRedrawOnTick
+  commentId: M:Mtp.DynamicInstances.MtpDynamicInstanceBase.DemandRedrawOnTick
+  fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.DemandRedrawOnTick()
+  nameWithType: MtpDynamicInstanceBase.DemandRedrawOnTick()
+- uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.DemandRedrawOnTick*
+  name: DemandRedrawOnTick
+  href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_DemandRedrawOnTick_
+  commentId: Overload:Mtp.DynamicInstances.MtpDynamicInstanceBase.DemandRedrawOnTick
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.DemandRedrawOnTick
+  nameWithType: MtpDynamicInstanceBase.DemandRedrawOnTick
 - uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.Demo(System.Int32)
   name: Demo(Int32)
   href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_Demo_System_Int32_
@@ -44501,6 +45423,12 @@ references:
   isSpec: "True"
   fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.Demo
   nameWithType: MtpDynamicInstanceBase.Demo
+- uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.DrawSymbolAsWell
+  name: DrawSymbolAsWell
+  href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_DrawSymbolAsWell
+  commentId: F:Mtp.DynamicInstances.MtpDynamicInstanceBase.DrawSymbolAsWell
+  fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.DrawSymbolAsWell
+  nameWithType: MtpDynamicInstanceBase.DrawSymbolAsWell
 - uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.FindUnitById(System.Int32)
   name: FindUnitById(Int32)
   href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_FindUnitById_System_Int32_
@@ -44553,6 +45481,51 @@ references:
   isSpec: "True"
   fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.PopulateFromAml
   nameWithType: MtpDynamicInstanceBase.PopulateFromAml
+- uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.RedrawSymbol(WpfMtpControl.MtpVisuOptions)
+  name: RedrawSymbol(MtpVisuOptions)
+  href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_RedrawSymbol_WpfMtpControl_MtpVisuOptions_
+  commentId: M:Mtp.DynamicInstances.MtpDynamicInstanceBase.RedrawSymbol(WpfMtpControl.MtpVisuOptions)
+  fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.RedrawSymbol(WpfMtpControl.MtpVisuOptions)
+  nameWithType: MtpDynamicInstanceBase.RedrawSymbol(MtpVisuOptions)
+- uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.RedrawSymbol*
+  name: RedrawSymbol
+  href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_RedrawSymbol_
+  commentId: Overload:Mtp.DynamicInstances.MtpDynamicInstanceBase.RedrawSymbol
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.RedrawSymbol
+  nameWithType: MtpDynamicInstanceBase.RedrawSymbol
+- uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.SymbolElement
+  name: SymbolElement
+  href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_SymbolElement
+  commentId: F:Mtp.DynamicInstances.MtpDynamicInstanceBase.SymbolElement
+  fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.SymbolElement
+  nameWithType: MtpDynamicInstanceBase.SymbolElement
+- uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.SymbolSetStateColor(System.Windows.Media.Brush)
+  name: SymbolSetStateColor(Brush)
+  href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_SymbolSetStateColor_System_Windows_Media_Brush_
+  commentId: M:Mtp.DynamicInstances.MtpDynamicInstanceBase.SymbolSetStateColor(System.Windows.Media.Brush)
+  fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.SymbolSetStateColor(System.Windows.Media.Brush)
+  nameWithType: MtpDynamicInstanceBase.SymbolSetStateColor(Brush)
+- uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.SymbolSetStateColor*
+  name: SymbolSetStateColor
+  href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_SymbolSetStateColor_
+  commentId: Overload:Mtp.DynamicInstances.MtpDynamicInstanceBase.SymbolSetStateColor
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.SymbolSetStateColor
+  nameWithType: MtpDynamicInstanceBase.SymbolSetStateColor
+- uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.Tick(WpfMtpControl.MtpVisuOptions)
+  name: Tick(MtpVisuOptions)
+  href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_Tick_WpfMtpControl_MtpVisuOptions_
+  commentId: M:Mtp.DynamicInstances.MtpDynamicInstanceBase.Tick(WpfMtpControl.MtpVisuOptions)
+  fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.Tick(WpfMtpControl.MtpVisuOptions)
+  nameWithType: MtpDynamicInstanceBase.Tick(MtpVisuOptions)
+- uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.Tick*
+  name: Tick
+  href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.html#Mtp_DynamicInstances_MtpDynamicInstanceBase_Tick_
+  commentId: Overload:Mtp.DynamicInstances.MtpDynamicInstanceBase.Tick
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpDynamicInstanceBase.Tick
+  nameWithType: MtpDynamicInstanceBase.Tick
 - uid: Mtp.DynamicInstances.MtpDynamicInstanceBase.UnitRec
   name: MtpDynamicInstanceBase.UnitRec
   href: api/Mtp.DynamicInstances.MtpDynamicInstanceBase.UnitRec.html
@@ -44653,6 +45626,44 @@ references:
   isSpec: "True"
   fullName: Mtp.DynamicInstances.MtpViewAnaViewTiny.MtpViewAnaViewTiny
   nameWithType: MtpViewAnaViewTiny.MtpViewAnaViewTiny
+- uid: Mtp.DynamicInstances.MtpViewBinDrive
+  name: MtpViewBinDrive
+  href: api/Mtp.DynamicInstances.MtpViewBinDrive.html
+  commentId: T:Mtp.DynamicInstances.MtpViewBinDrive
+  fullName: Mtp.DynamicInstances.MtpViewBinDrive
+  nameWithType: MtpViewBinDrive
+- uid: Mtp.DynamicInstances.MtpViewBinDrive.#ctor
+  name: MtpViewBinDrive()
+  href: api/Mtp.DynamicInstances.MtpViewBinDrive.html#Mtp_DynamicInstances_MtpViewBinDrive__ctor
+  commentId: M:Mtp.DynamicInstances.MtpViewBinDrive.#ctor
+  fullName: Mtp.DynamicInstances.MtpViewBinDrive.MtpViewBinDrive()
+  nameWithType: MtpViewBinDrive.MtpViewBinDrive()
+- uid: Mtp.DynamicInstances.MtpViewBinDrive.#ctor*
+  name: MtpViewBinDrive
+  href: api/Mtp.DynamicInstances.MtpViewBinDrive.html#Mtp_DynamicInstances_MtpViewBinDrive__ctor_
+  commentId: Overload:Mtp.DynamicInstances.MtpViewBinDrive.#ctor
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpViewBinDrive.MtpViewBinDrive
+  nameWithType: MtpViewBinDrive.MtpViewBinDrive
+- uid: Mtp.DynamicInstances.MtpViewBinValve
+  name: MtpViewBinValve
+  href: api/Mtp.DynamicInstances.MtpViewBinValve.html
+  commentId: T:Mtp.DynamicInstances.MtpViewBinValve
+  fullName: Mtp.DynamicInstances.MtpViewBinValve
+  nameWithType: MtpViewBinValve
+- uid: Mtp.DynamicInstances.MtpViewBinValve.#ctor
+  name: MtpViewBinValve()
+  href: api/Mtp.DynamicInstances.MtpViewBinValve.html#Mtp_DynamicInstances_MtpViewBinValve__ctor
+  commentId: M:Mtp.DynamicInstances.MtpViewBinValve.#ctor
+  fullName: Mtp.DynamicInstances.MtpViewBinValve.MtpViewBinValve()
+  nameWithType: MtpViewBinValve.MtpViewBinValve()
+- uid: Mtp.DynamicInstances.MtpViewBinValve.#ctor*
+  name: MtpViewBinValve
+  href: api/Mtp.DynamicInstances.MtpViewBinValve.html#Mtp_DynamicInstances_MtpViewBinValve__ctor_
+  commentId: Overload:Mtp.DynamicInstances.MtpViewBinValve.#ctor
+  isSpec: "True"
+  fullName: Mtp.DynamicInstances.MtpViewBinValve.MtpViewBinValve
+  nameWithType: MtpViewBinValve.MtpViewBinValve
 - uid: Mtp.DynamicInstances.MtpViewBinViewLarge
   name: MtpViewBinViewLarge
   href: api/Mtp.DynamicInstances.MtpViewBinViewLarge.html
@@ -47667,6 +48678,12 @@ references:
   commentId: F:WpfMtpControl.AasOpcUaClientStatus.ErrorNoKeepAlive
   fullName: WpfMtpControl.AasOpcUaClientStatus.ErrorNoKeepAlive
   nameWithType: AasOpcUaClientStatus.ErrorNoKeepAlive
+- uid: WpfMtpControl.AasOpcUaClientStatus.ErrorReadConfigFile
+  name: ErrorReadConfigFile
+  href: api/WpfMtpControl.AasOpcUaClientStatus.html#WpfMtpControl_AasOpcUaClientStatus_ErrorReadConfigFile
+  commentId: F:WpfMtpControl.AasOpcUaClientStatus.ErrorReadConfigFile
+  fullName: WpfMtpControl.AasOpcUaClientStatus.ErrorReadConfigFile
+  nameWithType: AasOpcUaClientStatus.ErrorReadConfigFile
 - uid: WpfMtpControl.AasOpcUaClientStatus.ErrorRunning
   name: ErrorRunning
   href: api/WpfMtpControl.AasOpcUaClientStatus.html#WpfMtpControl_AasOpcUaClientStatus_ErrorRunning
@@ -47931,6 +48948,62 @@ references:
   isSpec: "True"
   fullName: WpfMtpControl.DataSources.IMtpDataSourceStatus.ViewDetails
   nameWithType: IMtpDataSourceStatus.ViewDetails
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping
+  name: MtpDataSourceOpcUaEndpointMapping
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.html
+  commentId: T:WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping
+  nameWithType: MtpDataSourceOpcUaEndpointMapping
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.#ctor
+  name: MtpDataSourceOpcUaEndpointMapping()
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaEndpointMapping__ctor
+  commentId: M:WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.#ctor
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.MtpDataSourceOpcUaEndpointMapping()
+  nameWithType: MtpDataSourceOpcUaEndpointMapping.MtpDataSourceOpcUaEndpointMapping()
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.#ctor(System.String,System.String,System.String)
+  name: MtpDataSourceOpcUaEndpointMapping(String, String, String)
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaEndpointMapping__ctor_System_String_System_String_System_String_
+  commentId: M:WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.#ctor(System.String,System.String,System.String)
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.MtpDataSourceOpcUaEndpointMapping(System.String, System.String, System.String)
+  nameWithType: MtpDataSourceOpcUaEndpointMapping.MtpDataSourceOpcUaEndpointMapping(String, String, String)
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.#ctor*
+  name: MtpDataSourceOpcUaEndpointMapping
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaEndpointMapping__ctor_
+  commentId: Overload:WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.#ctor
+  isSpec: "True"
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.MtpDataSourceOpcUaEndpointMapping
+  nameWithType: MtpDataSourceOpcUaEndpointMapping.MtpDataSourceOpcUaEndpointMapping
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.ForId
+  name: ForId
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaEndpointMapping_ForId
+  commentId: F:WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.ForId
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.ForId
+  nameWithType: MtpDataSourceOpcUaEndpointMapping.ForId
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.ForName
+  name: ForName
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaEndpointMapping_ForName
+  commentId: F:WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.ForName
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.ForName
+  nameWithType: MtpDataSourceOpcUaEndpointMapping.ForName
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.IsValid
+  name: IsValid
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaEndpointMapping_IsValid
+  commentId: P:WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.IsValid
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.IsValid
+  nameWithType: MtpDataSourceOpcUaEndpointMapping.IsValid
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.IsValid*
+  name: IsValid
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaEndpointMapping_IsValid_
+  commentId: Overload:WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.IsValid
+  isSpec: "True"
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.IsValid
+  nameWithType: MtpDataSourceOpcUaEndpointMapping.IsValid
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.NewEndpoint
+  name: NewEndpoint
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaEndpointMapping_NewEndpoint
+  commentId: F:WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.NewEndpoint
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaEndpointMapping.NewEndpoint
+  nameWithType: MtpDataSourceOpcUaEndpointMapping.NewEndpoint
 - uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaItem
   name: MtpDataSourceOpcUaItem
   href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaItem.html
@@ -47991,6 +49064,30 @@ references:
   commentId: F:WpfMtpControl.DataSources.MtpDataSourceOpcUaItem.Namespace
   fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaItem.Namespace
   nameWithType: MtpDataSourceOpcUaItem.Namespace
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo
+  name: MtpDataSourceOpcUaPreLoadInfo
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.html
+  commentId: T:WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo
+  nameWithType: MtpDataSourceOpcUaPreLoadInfo
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.EndpointMapping
+  name: EndpointMapping
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaPreLoadInfo_EndpointMapping
+  commentId: F:WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.EndpointMapping
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.EndpointMapping
+  nameWithType: MtpDataSourceOpcUaPreLoadInfo.EndpointMapping
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.IdentifierRenaming
+  name: IdentifierRenaming
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaPreLoadInfo_IdentifierRenaming
+  commentId: F:WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.IdentifierRenaming
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.IdentifierRenaming
+  nameWithType: MtpDataSourceOpcUaPreLoadInfo.IdentifierRenaming
+- uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.NamespaceRenaming
+  name: NamespaceRenaming
+  href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.html#WpfMtpControl_DataSources_MtpDataSourceOpcUaPreLoadInfo_NamespaceRenaming
+  commentId: F:WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.NamespaceRenaming
+  fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo.NamespaceRenaming
+  nameWithType: MtpDataSourceOpcUaPreLoadInfo.NamespaceRenaming
 - uid: WpfMtpControl.DataSources.MtpDataSourceOpcUaServer
   name: MtpDataSourceOpcUaServer
   href: api/WpfMtpControl.DataSources.MtpDataSourceOpcUaServer.html
@@ -48015,6 +49112,69 @@ references:
   commentId: F:WpfMtpControl.DataSources.MtpDataSourceOpcUaServer.User
   fullName: WpfMtpControl.DataSources.MtpDataSourceOpcUaServer.User
   nameWithType: MtpDataSourceOpcUaServer.User
+- uid: WpfMtpControl.DataSources.MtpDataSourceStringReplacement
+  name: MtpDataSourceStringReplacement
+  href: api/WpfMtpControl.DataSources.MtpDataSourceStringReplacement.html
+  commentId: T:WpfMtpControl.DataSources.MtpDataSourceStringReplacement
+  fullName: WpfMtpControl.DataSources.MtpDataSourceStringReplacement
+  nameWithType: MtpDataSourceStringReplacement
+- uid: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.#ctor
+  name: MtpDataSourceStringReplacement()
+  href: api/WpfMtpControl.DataSources.MtpDataSourceStringReplacement.html#WpfMtpControl_DataSources_MtpDataSourceStringReplacement__ctor
+  commentId: M:WpfMtpControl.DataSources.MtpDataSourceStringReplacement.#ctor
+  fullName: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.MtpDataSourceStringReplacement()
+  nameWithType: MtpDataSourceStringReplacement.MtpDataSourceStringReplacement()
+- uid: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.#ctor(System.String,System.String)
+  name: MtpDataSourceStringReplacement(String, String)
+  href: api/WpfMtpControl.DataSources.MtpDataSourceStringReplacement.html#WpfMtpControl_DataSources_MtpDataSourceStringReplacement__ctor_System_String_System_String_
+  commentId: M:WpfMtpControl.DataSources.MtpDataSourceStringReplacement.#ctor(System.String,System.String)
+  fullName: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.MtpDataSourceStringReplacement(System.String, System.String)
+  nameWithType: MtpDataSourceStringReplacement.MtpDataSourceStringReplacement(String, String)
+- uid: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.#ctor*
+  name: MtpDataSourceStringReplacement
+  href: api/WpfMtpControl.DataSources.MtpDataSourceStringReplacement.html#WpfMtpControl_DataSources_MtpDataSourceStringReplacement__ctor_
+  commentId: Overload:WpfMtpControl.DataSources.MtpDataSourceStringReplacement.#ctor
+  isSpec: "True"
+  fullName: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.MtpDataSourceStringReplacement
+  nameWithType: MtpDataSourceStringReplacement.MtpDataSourceStringReplacement
+- uid: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.DoReplacement(System.String)
+  name: DoReplacement(String)
+  href: api/WpfMtpControl.DataSources.MtpDataSourceStringReplacement.html#WpfMtpControl_DataSources_MtpDataSourceStringReplacement_DoReplacement_System_String_
+  commentId: M:WpfMtpControl.DataSources.MtpDataSourceStringReplacement.DoReplacement(System.String)
+  fullName: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.DoReplacement(System.String)
+  nameWithType: MtpDataSourceStringReplacement.DoReplacement(String)
+- uid: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.DoReplacement*
+  name: DoReplacement
+  href: api/WpfMtpControl.DataSources.MtpDataSourceStringReplacement.html#WpfMtpControl_DataSources_MtpDataSourceStringReplacement_DoReplacement_
+  commentId: Overload:WpfMtpControl.DataSources.MtpDataSourceStringReplacement.DoReplacement
+  isSpec: "True"
+  fullName: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.DoReplacement
+  nameWithType: MtpDataSourceStringReplacement.DoReplacement
+- uid: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.IsValid
+  name: IsValid
+  href: api/WpfMtpControl.DataSources.MtpDataSourceStringReplacement.html#WpfMtpControl_DataSources_MtpDataSourceStringReplacement_IsValid
+  commentId: P:WpfMtpControl.DataSources.MtpDataSourceStringReplacement.IsValid
+  fullName: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.IsValid
+  nameWithType: MtpDataSourceStringReplacement.IsValid
+- uid: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.IsValid*
+  name: IsValid
+  href: api/WpfMtpControl.DataSources.MtpDataSourceStringReplacement.html#WpfMtpControl_DataSources_MtpDataSourceStringReplacement_IsValid_
+  commentId: Overload:WpfMtpControl.DataSources.MtpDataSourceStringReplacement.IsValid
+  isSpec: "True"
+  fullName: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.IsValid
+  nameWithType: MtpDataSourceStringReplacement.IsValid
+- uid: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.NewText
+  name: NewText
+  href: api/WpfMtpControl.DataSources.MtpDataSourceStringReplacement.html#WpfMtpControl_DataSources_MtpDataSourceStringReplacement_NewText
+  commentId: F:WpfMtpControl.DataSources.MtpDataSourceStringReplacement.NewText
+  fullName: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.NewText
+  nameWithType: MtpDataSourceStringReplacement.NewText
+- uid: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.OldText
+  name: OldText
+  href: api/WpfMtpControl.DataSources.MtpDataSourceStringReplacement.html#WpfMtpControl_DataSources_MtpDataSourceStringReplacement_OldText
+  commentId: F:WpfMtpControl.DataSources.MtpDataSourceStringReplacement.OldText
+  fullName: WpfMtpControl.DataSources.MtpDataSourceStringReplacement.OldText
+  nameWithType: MtpDataSourceStringReplacement.OldText
 - uid: WpfMtpControl.MtpAmlHelper
   name: MtpAmlHelper
   href: api/WpfMtpControl.MtpAmlHelper.html
@@ -48088,12 +49248,12 @@ references:
   isSpec: "True"
   fullName: WpfMtpControl.MtpAmlHelper.ConvertStringToDoubleArray
   nameWithType: MtpAmlHelper.ConvertStringToDoubleArray
-- uid: WpfMtpControl.MtpAmlHelper.CreateDataSources(WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,CAEXFileType)
-  name: CreateDataSources(IMtpDataSourceFactoryOpcUa, CAEXFileType)
-  href: api/WpfMtpControl.MtpAmlHelper.html#WpfMtpControl_MtpAmlHelper_CreateDataSources_WpfMtpControl_DataSources_IMtpDataSourceFactoryOpcUa_CAEXFileType_
-  commentId: M:WpfMtpControl.MtpAmlHelper.CreateDataSources(WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,CAEXFileType)
-  fullName: WpfMtpControl.MtpAmlHelper.CreateDataSources(WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa, CAEXFileType)
-  nameWithType: MtpAmlHelper.CreateDataSources(IMtpDataSourceFactoryOpcUa, CAEXFileType)
+- uid: WpfMtpControl.MtpAmlHelper.CreateDataSources(WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo,CAEXFileType)
+  name: CreateDataSources(IMtpDataSourceFactoryOpcUa, MtpDataSourceOpcUaPreLoadInfo, CAEXFileType)
+  href: api/WpfMtpControl.MtpAmlHelper.html#WpfMtpControl_MtpAmlHelper_CreateDataSources_WpfMtpControl_DataSources_IMtpDataSourceFactoryOpcUa_WpfMtpControl_DataSources_MtpDataSourceOpcUaPreLoadInfo_CAEXFileType_
+  commentId: M:WpfMtpControl.MtpAmlHelper.CreateDataSources(WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo,CAEXFileType)
+  fullName: WpfMtpControl.MtpAmlHelper.CreateDataSources(WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa, WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo, CAEXFileType)
+  nameWithType: MtpAmlHelper.CreateDataSources(IMtpDataSourceFactoryOpcUa, MtpDataSourceOpcUaPreLoadInfo, CAEXFileType)
 - uid: WpfMtpControl.MtpAmlHelper.CreateDataSources*
   name: CreateDataSources
   href: api/WpfMtpControl.MtpAmlHelper.html#WpfMtpControl_MtpAmlHelper_CreateDataSources_
@@ -48224,12 +49384,12 @@ references:
   commentId: T:WpfMtpControl.MtpData
   fullName: WpfMtpControl.MtpData
   nameWithType: MtpData
-- uid: WpfMtpControl.MtpData.LoadAmlOrMtp(WpfMtpControl.MtpVisualObjectLib,WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,WpfMtpControl.MtpDataSourceSubscriber,System.String,WpfMtpControl.MtpSymbolMapRecordList)
-  name: LoadAmlOrMtp(MtpVisualObjectLib, IMtpDataSourceFactoryOpcUa, MtpDataSourceSubscriber, String, MtpSymbolMapRecordList)
-  href: api/WpfMtpControl.MtpData.html#WpfMtpControl_MtpData_LoadAmlOrMtp_WpfMtpControl_MtpVisualObjectLib_WpfMtpControl_DataSources_IMtpDataSourceFactoryOpcUa_WpfMtpControl_MtpDataSourceSubscriber_System_String_WpfMtpControl_MtpSymbolMapRecordList_
-  commentId: M:WpfMtpControl.MtpData.LoadAmlOrMtp(WpfMtpControl.MtpVisualObjectLib,WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,WpfMtpControl.MtpDataSourceSubscriber,System.String,WpfMtpControl.MtpSymbolMapRecordList)
-  fullName: WpfMtpControl.MtpData.LoadAmlOrMtp(WpfMtpControl.MtpVisualObjectLib, WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa, WpfMtpControl.MtpDataSourceSubscriber, System.String, WpfMtpControl.MtpSymbolMapRecordList)
-  nameWithType: MtpData.LoadAmlOrMtp(MtpVisualObjectLib, IMtpDataSourceFactoryOpcUa, MtpDataSourceSubscriber, String, MtpSymbolMapRecordList)
+- uid: WpfMtpControl.MtpData.LoadAmlOrMtp(WpfMtpControl.MtpVisualObjectLib,WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo,WpfMtpControl.MtpDataSourceSubscriber,System.String,WpfMtpControl.MtpSymbolMapRecordList)
+  name: LoadAmlOrMtp(MtpVisualObjectLib, IMtpDataSourceFactoryOpcUa, MtpDataSourceOpcUaPreLoadInfo, MtpDataSourceSubscriber, String, MtpSymbolMapRecordList)
+  href: api/WpfMtpControl.MtpData.html#WpfMtpControl_MtpData_LoadAmlOrMtp_WpfMtpControl_MtpVisualObjectLib_WpfMtpControl_DataSources_IMtpDataSourceFactoryOpcUa_WpfMtpControl_DataSources_MtpDataSourceOpcUaPreLoadInfo_WpfMtpControl_MtpDataSourceSubscriber_System_String_WpfMtpControl_MtpSymbolMapRecordList_
+  commentId: M:WpfMtpControl.MtpData.LoadAmlOrMtp(WpfMtpControl.MtpVisualObjectLib,WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo,WpfMtpControl.MtpDataSourceSubscriber,System.String,WpfMtpControl.MtpSymbolMapRecordList)
+  fullName: WpfMtpControl.MtpData.LoadAmlOrMtp(WpfMtpControl.MtpVisualObjectLib, WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa, WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo, WpfMtpControl.MtpDataSourceSubscriber, System.String, WpfMtpControl.MtpSymbolMapRecordList)
+  nameWithType: MtpData.LoadAmlOrMtp(MtpVisualObjectLib, IMtpDataSourceFactoryOpcUa, MtpDataSourceOpcUaPreLoadInfo, MtpDataSourceSubscriber, String, MtpSymbolMapRecordList)
 - uid: WpfMtpControl.MtpData.LoadAmlOrMtp*
   name: LoadAmlOrMtp
   href: api/WpfMtpControl.MtpData.html#WpfMtpControl_MtpData_LoadAmlOrMtp_
@@ -48237,12 +49397,12 @@ references:
   isSpec: "True"
   fullName: WpfMtpControl.MtpData.LoadAmlOrMtp
   nameWithType: MtpData.LoadAmlOrMtp
-- uid: WpfMtpControl.MtpData.LoadStream(WpfMtpControl.MtpVisualObjectLib,WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,WpfMtpControl.MtpDataSourceSubscriber,System.IO.Stream,WpfMtpControl.MtpSymbolMapRecordList)
-  name: LoadStream(MtpVisualObjectLib, IMtpDataSourceFactoryOpcUa, MtpDataSourceSubscriber, Stream, MtpSymbolMapRecordList)
-  href: api/WpfMtpControl.MtpData.html#WpfMtpControl_MtpData_LoadStream_WpfMtpControl_MtpVisualObjectLib_WpfMtpControl_DataSources_IMtpDataSourceFactoryOpcUa_WpfMtpControl_MtpDataSourceSubscriber_System_IO_Stream_WpfMtpControl_MtpSymbolMapRecordList_
-  commentId: M:WpfMtpControl.MtpData.LoadStream(WpfMtpControl.MtpVisualObjectLib,WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,WpfMtpControl.MtpDataSourceSubscriber,System.IO.Stream,WpfMtpControl.MtpSymbolMapRecordList)
-  fullName: WpfMtpControl.MtpData.LoadStream(WpfMtpControl.MtpVisualObjectLib, WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa, WpfMtpControl.MtpDataSourceSubscriber, System.IO.Stream, WpfMtpControl.MtpSymbolMapRecordList)
-  nameWithType: MtpData.LoadStream(MtpVisualObjectLib, IMtpDataSourceFactoryOpcUa, MtpDataSourceSubscriber, Stream, MtpSymbolMapRecordList)
+- uid: WpfMtpControl.MtpData.LoadStream(WpfMtpControl.MtpVisualObjectLib,WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo,WpfMtpControl.MtpDataSourceSubscriber,System.IO.Stream,WpfMtpControl.MtpSymbolMapRecordList)
+  name: LoadStream(MtpVisualObjectLib, IMtpDataSourceFactoryOpcUa, MtpDataSourceOpcUaPreLoadInfo, MtpDataSourceSubscriber, Stream, MtpSymbolMapRecordList)
+  href: api/WpfMtpControl.MtpData.html#WpfMtpControl_MtpData_LoadStream_WpfMtpControl_MtpVisualObjectLib_WpfMtpControl_DataSources_IMtpDataSourceFactoryOpcUa_WpfMtpControl_DataSources_MtpDataSourceOpcUaPreLoadInfo_WpfMtpControl_MtpDataSourceSubscriber_System_IO_Stream_WpfMtpControl_MtpSymbolMapRecordList_
+  commentId: M:WpfMtpControl.MtpData.LoadStream(WpfMtpControl.MtpVisualObjectLib,WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa,WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo,WpfMtpControl.MtpDataSourceSubscriber,System.IO.Stream,WpfMtpControl.MtpSymbolMapRecordList)
+  fullName: WpfMtpControl.MtpData.LoadStream(WpfMtpControl.MtpVisualObjectLib, WpfMtpControl.DataSources.IMtpDataSourceFactoryOpcUa, WpfMtpControl.DataSources.MtpDataSourceOpcUaPreLoadInfo, WpfMtpControl.MtpDataSourceSubscriber, System.IO.Stream, WpfMtpControl.MtpSymbolMapRecordList)
+  nameWithType: MtpData.LoadStream(MtpVisualObjectLib, IMtpDataSourceFactoryOpcUa, MtpDataSourceOpcUaPreLoadInfo, MtpDataSourceSubscriber, Stream, MtpSymbolMapRecordList)
 - uid: WpfMtpControl.MtpData.LoadStream*
   name: LoadStream
   href: api/WpfMtpControl.MtpData.html#WpfMtpControl_MtpData_LoadStream_
@@ -49250,12 +50410,19 @@ references:
   isSpec: "True"
   fullName: WpfMtpControl.MtpVisuOpcUaClient.DetailServer.Tick
   nameWithType: MtpVisuOpcUaClient.DetailServer.Tick
-- uid: WpfMtpControl.MtpVisuOpcUaClient.DetailServer.uaClient
-  name: uaClient
-  href: api/WpfMtpControl.MtpVisuOpcUaClient.DetailServer.html#WpfMtpControl_MtpVisuOpcUaClient_DetailServer_uaClient
-  commentId: F:WpfMtpControl.MtpVisuOpcUaClient.DetailServer.uaClient
-  fullName: WpfMtpControl.MtpVisuOpcUaClient.DetailServer.uaClient
-  nameWithType: MtpVisuOpcUaClient.DetailServer.uaClient
+- uid: WpfMtpControl.MtpVisuOpcUaClient.DetailServer.UaClient
+  name: UaClient
+  href: api/WpfMtpControl.MtpVisuOpcUaClient.DetailServer.html#WpfMtpControl_MtpVisuOpcUaClient_DetailServer_UaClient
+  commentId: P:WpfMtpControl.MtpVisuOpcUaClient.DetailServer.UaClient
+  fullName: WpfMtpControl.MtpVisuOpcUaClient.DetailServer.UaClient
+  nameWithType: MtpVisuOpcUaClient.DetailServer.UaClient
+- uid: WpfMtpControl.MtpVisuOpcUaClient.DetailServer.UaClient*
+  name: UaClient
+  href: api/WpfMtpControl.MtpVisuOpcUaClient.DetailServer.html#WpfMtpControl_MtpVisuOpcUaClient_DetailServer_UaClient_
+  commentId: Overload:WpfMtpControl.MtpVisuOpcUaClient.DetailServer.UaClient
+  isSpec: "True"
+  fullName: WpfMtpControl.MtpVisuOpcUaClient.DetailServer.UaClient
+  nameWithType: MtpVisuOpcUaClient.DetailServer.UaClient
 - uid: WpfMtpControl.MtpVisuOpcUaClient.GetStatus
   name: GetStatus()
   href: api/WpfMtpControl.MtpVisuOpcUaClient.html#WpfMtpControl_MtpVisuOpcUaClient_GetStatus
@@ -49325,6 +50492,85 @@ references:
   isSpec: "True"
   fullName: WpfMtpControl.MtpVisuOpcUaClient.ViewDetails
   nameWithType: MtpVisuOpcUaClient.ViewDetails
+- uid: WpfMtpControl.MtpVisuOptions
+  name: MtpVisuOptions
+  href: api/WpfMtpControl.MtpVisuOptions.html
+  commentId: T:WpfMtpControl.MtpVisuOptions
+  fullName: WpfMtpControl.MtpVisuOptions
+  nameWithType: MtpVisuOptions
+- uid: WpfMtpControl.MtpVisuOptions.Background
+  name: Background
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_Background
+  commentId: F:WpfMtpControl.MtpVisuOptions.Background
+  fullName: WpfMtpControl.MtpVisuOptions.Background
+  nameWithType: MtpVisuOptions.Background
+- uid: WpfMtpControl.MtpVisuOptions.BackgroundBrush
+  name: BackgroundBrush
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_BackgroundBrush
+  commentId: F:WpfMtpControl.MtpVisuOptions.BackgroundBrush
+  fullName: WpfMtpControl.MtpVisuOptions.BackgroundBrush
+  nameWithType: MtpVisuOptions.BackgroundBrush
+- uid: WpfMtpControl.MtpVisuOptions.Prepare
+  name: Prepare()
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_Prepare
+  commentId: M:WpfMtpControl.MtpVisuOptions.Prepare
+  fullName: WpfMtpControl.MtpVisuOptions.Prepare()
+  nameWithType: MtpVisuOptions.Prepare()
+- uid: WpfMtpControl.MtpVisuOptions.Prepare*
+  name: Prepare
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_Prepare_
+  commentId: Overload:WpfMtpControl.MtpVisuOptions.Prepare
+  isSpec: "True"
+  fullName: WpfMtpControl.MtpVisuOptions.Prepare
+  nameWithType: MtpVisuOptions.Prepare
+- uid: WpfMtpControl.MtpVisuOptions.StateColorActive
+  name: StateColorActive
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_StateColorActive
+  commentId: F:WpfMtpControl.MtpVisuOptions.StateColorActive
+  fullName: WpfMtpControl.MtpVisuOptions.StateColorActive
+  nameWithType: MtpVisuOptions.StateColorActive
+- uid: WpfMtpControl.MtpVisuOptions.StateColorActiveBrush
+  name: StateColorActiveBrush
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_StateColorActiveBrush
+  commentId: F:WpfMtpControl.MtpVisuOptions.StateColorActiveBrush
+  fullName: WpfMtpControl.MtpVisuOptions.StateColorActiveBrush
+  nameWithType: MtpVisuOptions.StateColorActiveBrush
+- uid: WpfMtpControl.MtpVisuOptions.StateColorForward
+  name: StateColorForward
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_StateColorForward
+  commentId: F:WpfMtpControl.MtpVisuOptions.StateColorForward
+  fullName: WpfMtpControl.MtpVisuOptions.StateColorForward
+  nameWithType: MtpVisuOptions.StateColorForward
+- uid: WpfMtpControl.MtpVisuOptions.StateColorForwardBrush
+  name: StateColorForwardBrush
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_StateColorForwardBrush
+  commentId: F:WpfMtpControl.MtpVisuOptions.StateColorForwardBrush
+  fullName: WpfMtpControl.MtpVisuOptions.StateColorForwardBrush
+  nameWithType: MtpVisuOptions.StateColorForwardBrush
+- uid: WpfMtpControl.MtpVisuOptions.StateColorNonActive
+  name: StateColorNonActive
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_StateColorNonActive
+  commentId: F:WpfMtpControl.MtpVisuOptions.StateColorNonActive
+  fullName: WpfMtpControl.MtpVisuOptions.StateColorNonActive
+  nameWithType: MtpVisuOptions.StateColorNonActive
+- uid: WpfMtpControl.MtpVisuOptions.StateColorNonActiveBrush
+  name: StateColorNonActiveBrush
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_StateColorNonActiveBrush
+  commentId: F:WpfMtpControl.MtpVisuOptions.StateColorNonActiveBrush
+  fullName: WpfMtpControl.MtpVisuOptions.StateColorNonActiveBrush
+  nameWithType: MtpVisuOptions.StateColorNonActiveBrush
+- uid: WpfMtpControl.MtpVisuOptions.StateColorReverse
+  name: StateColorReverse
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_StateColorReverse
+  commentId: F:WpfMtpControl.MtpVisuOptions.StateColorReverse
+  fullName: WpfMtpControl.MtpVisuOptions.StateColorReverse
+  nameWithType: MtpVisuOptions.StateColorReverse
+- uid: WpfMtpControl.MtpVisuOptions.StateColorReverseBrush
+  name: StateColorReverseBrush
+  href: api/WpfMtpControl.MtpVisuOptions.html#WpfMtpControl_MtpVisuOptions_StateColorReverseBrush
+  commentId: F:WpfMtpControl.MtpVisuOptions.StateColorReverseBrush
+  fullName: WpfMtpControl.MtpVisuOptions.StateColorReverseBrush
+  nameWithType: MtpVisuOptions.StateColorReverseBrush
 - uid: WpfMtpControl.MtpVisuViewer
   name: MtpVisuViewer
   href: api/WpfMtpControl.MtpVisuViewer.html
@@ -49521,6 +50767,12 @@ references:
   isSpec: "True"
   fullName: WpfMtpControl.MtpVisuViewer.SetPicture
   nameWithType: MtpVisuViewer.SetPicture
+- uid: WpfMtpControl.MtpVisuViewer.VisuOptions
+  name: VisuOptions
+  href: api/WpfMtpControl.MtpVisuViewer.html#WpfMtpControl_MtpVisuViewer_VisuOptions
+  commentId: F:WpfMtpControl.MtpVisuViewer.VisuOptions
+  fullName: WpfMtpControl.MtpVisuViewer.VisuOptions
+  nameWithType: MtpVisuViewer.VisuOptions
 - uid: WpfMtpControl.MtpVisuViewer.ZoomToFitCanvas
   name: ZoomToFitCanvas()
   href: api/WpfMtpControl.MtpVisuViewer.html#WpfMtpControl_MtpVisuViewer_ZoomToFitCanvas
@@ -49711,19 +50963,6 @@ references:
   isSpec: "True"
   fullName: WpfMtpControl.UIElementHelper.FindBestFitForFieldOfPoints
   nameWithType: UIElementHelper.FindBestFitForFieldOfPoints
-- uid: WpfMtpControl.UIElementHelper.FindIndexedTags(System.Windows.DependencyObject,System.String,System.Boolean)
-  name: FindIndexedTags(DependencyObject, String, Boolean)
-  href: api/WpfMtpControl.UIElementHelper.html#WpfMtpControl_UIElementHelper_FindIndexedTags_System_Windows_DependencyObject_System_String_System_Boolean_
-  commentId: M:WpfMtpControl.UIElementHelper.FindIndexedTags(System.Windows.DependencyObject,System.String,System.Boolean)
-  fullName: WpfMtpControl.UIElementHelper.FindIndexedTags(System.Windows.DependencyObject, System.String, System.Boolean)
-  nameWithType: UIElementHelper.FindIndexedTags(DependencyObject, String, Boolean)
-- uid: WpfMtpControl.UIElementHelper.FindIndexedTags*
-  name: FindIndexedTags
-  href: api/WpfMtpControl.UIElementHelper.html#WpfMtpControl_UIElementHelper_FindIndexedTags_
-  commentId: Overload:WpfMtpControl.UIElementHelper.FindIndexedTags
-  isSpec: "True"
-  fullName: WpfMtpControl.UIElementHelper.FindIndexedTags
-  nameWithType: UIElementHelper.FindIndexedTags
 - uid: WpfMtpControl.UIElementHelper.FindLabelWithText(System.Windows.DependencyObject,System.String)
   name: FindLabelWithText(DependencyObject, String)
   href: api/WpfMtpControl.UIElementHelper.html#WpfMtpControl_UIElementHelper_FindLabelWithText_System_Windows_DependencyObject_System_String_
@@ -49737,6 +50976,19 @@ references:
   isSpec: "True"
   fullName: WpfMtpControl.UIElementHelper.FindLabelWithText
   nameWithType: UIElementHelper.FindLabelWithText
+- uid: WpfMtpControl.UIElementHelper.FindNozzlesViaTags(System.Windows.DependencyObject,System.String,System.Boolean)
+  name: FindNozzlesViaTags(DependencyObject, String, Boolean)
+  href: api/WpfMtpControl.UIElementHelper.html#WpfMtpControl_UIElementHelper_FindNozzlesViaTags_System_Windows_DependencyObject_System_String_System_Boolean_
+  commentId: M:WpfMtpControl.UIElementHelper.FindNozzlesViaTags(System.Windows.DependencyObject,System.String,System.Boolean)
+  fullName: WpfMtpControl.UIElementHelper.FindNozzlesViaTags(System.Windows.DependencyObject, System.String, System.Boolean)
+  nameWithType: UIElementHelper.FindNozzlesViaTags(DependencyObject, String, Boolean)
+- uid: WpfMtpControl.UIElementHelper.FindNozzlesViaTags*
+  name: FindNozzlesViaTags
+  href: api/WpfMtpControl.UIElementHelper.html#WpfMtpControl_UIElementHelper_FindNozzlesViaTags_
+  commentId: Overload:WpfMtpControl.UIElementHelper.FindNozzlesViaTags
+  isSpec: "True"
+  fullName: WpfMtpControl.UIElementHelper.FindNozzlesViaTags
+  nameWithType: UIElementHelper.FindNozzlesViaTags
 - uid: WpfMtpControl.UIElementHelper.FontSettings
   name: UIElementHelper.FontSettings
   href: api/WpfMtpControl.UIElementHelper.FontSettings.html
@@ -49926,12 +51178,24 @@ references:
   commentId: T:WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions
   fullName: WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions
   nameWithType: MainWindow.MtpViewerStandaloneOptions
+- uid: WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.PreLoadInfo
+  name: PreLoadInfo
+  href: api/WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.html#WpfMtpVisuViewer_MainWindow_MtpViewerStandaloneOptions_PreLoadInfo
+  commentId: F:WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.PreLoadInfo
+  fullName: WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.PreLoadInfo
+  nameWithType: MainWindow.MtpViewerStandaloneOptions.PreLoadInfo
 - uid: WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.SymbolMappings
   name: SymbolMappings
   href: api/WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.html#WpfMtpVisuViewer_MainWindow_MtpViewerStandaloneOptions_SymbolMappings
   commentId: F:WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.SymbolMappings
   fullName: WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.SymbolMappings
   nameWithType: MainWindow.MtpViewerStandaloneOptions.SymbolMappings
+- uid: WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.VisuOptions
+  name: VisuOptions
+  href: api/WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.html#WpfMtpVisuViewer_MainWindow_MtpViewerStandaloneOptions_VisuOptions
+  commentId: F:WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.VisuOptions
+  fullName: WpfMtpVisuViewer.MainWindow.MtpViewerStandaloneOptions.VisuOptions
+  nameWithType: MainWindow.MtpViewerStandaloneOptions.VisuOptions
 - uid: WpfMtpVisuViewer.MainWindow.SetMessage(System.String,System.Object[])
   name: SetMessage(String, Object[])
   href: api/WpfMtpVisuViewer.MainWindow.html#WpfMtpVisuViewer_MainWindow_SetMessage_System_String_System_Object___
@@ -49948,9 +51212,40 @@ references:
   isSpec: "True"
   fullName: WpfMtpVisuViewer.MainWindow.SetMessage
   nameWithType: MainWindow.SetMessage
-- uid: WpfMtpVisuViewer.MainWindow.textOpcUaClient
-  name: textOpcUaClient
-  href: api/WpfMtpVisuViewer.MainWindow.html#WpfMtpVisuViewer_MainWindow_textOpcUaClient
-  commentId: F:WpfMtpVisuViewer.MainWindow.textOpcUaClient
-  fullName: WpfMtpVisuViewer.MainWindow.textOpcUaClient
-  nameWithType: MainWindow.textOpcUaClient
+- uid: WpfMtpVisuViewer.MainWindow.testOpcUaClient
+  name: testOpcUaClient
+  href: api/WpfMtpVisuViewer.MainWindow.html#WpfMtpVisuViewer_MainWindow_testOpcUaClient
+  commentId: F:WpfMtpVisuViewer.MainWindow.testOpcUaClient
+  fullName: WpfMtpVisuViewer.MainWindow.testOpcUaClient
+  nameWithType: MainWindow.testOpcUaClient
+- uid: WpfXamlTool
+  name: WpfXamlTool
+  href: api/WpfXamlTool.html
+  commentId: N:WpfXamlTool
+  fullName: WpfXamlTool
+  nameWithType: WpfXamlTool
+- uid: WpfXamlTool.App
+  name: App
+  href: api/WpfXamlTool.App.html
+  commentId: T:WpfXamlTool.App
+  fullName: WpfXamlTool.App
+  nameWithType: App
+- uid: WpfXamlTool.MainWindow
+  name: MainWindow
+  href: api/WpfXamlTool.MainWindow.html
+  commentId: T:WpfXamlTool.MainWindow
+  fullName: WpfXamlTool.MainWindow
+  nameWithType: MainWindow
+- uid: WpfXamlTool.MainWindow.#ctor
+  name: MainWindow()
+  href: api/WpfXamlTool.MainWindow.html#WpfXamlTool_MainWindow__ctor
+  commentId: M:WpfXamlTool.MainWindow.#ctor
+  fullName: WpfXamlTool.MainWindow.MainWindow()
+  nameWithType: MainWindow.MainWindow()
+- uid: WpfXamlTool.MainWindow.#ctor*
+  name: MainWindow
+  href: api/WpfXamlTool.MainWindow.html#WpfXamlTool_MainWindow__ctor_
+  commentId: Overload:WpfXamlTool.MainWindow.#ctor
+  isSpec: "True"
+  fullName: WpfXamlTool.MainWindow.MainWindow
+  nameWithType: MainWindow.MainWindow
