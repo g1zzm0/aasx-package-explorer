@@ -30916,6 +30916,527 @@ references:
   commentId: N:AasxToolkit
   fullName: AasxToolkit
   nameWithType: AasxToolkit
+- uid: AasxToolkit.Cli
+  name: Cli
+  href: api/AasxToolkit.Cli.html
+  commentId: T:AasxToolkit.Cli
+  fullName: AasxToolkit.Cli
+  nameWithType: Cli
+- uid: AasxToolkit.Cli.Arg
+  name: Cli.Arg
+  href: api/AasxToolkit.Cli.Arg.html
+  commentId: T:AasxToolkit.Cli.Arg
+  fullName: AasxToolkit.Cli.Arg
+  nameWithType: Cli.Arg
+- uid: AasxToolkit.Cli.Arg.#ctor(System.String,System.String)
+  name: Arg(String, String)
+  href: api/AasxToolkit.Cli.Arg.html#AasxToolkit_Cli_Arg__ctor_System_String_System_String_
+  commentId: M:AasxToolkit.Cli.Arg.#ctor(System.String,System.String)
+  fullName: AasxToolkit.Cli.Arg.Arg(System.String, System.String)
+  nameWithType: Cli.Arg.Arg(String, String)
+- uid: AasxToolkit.Cli.Arg.#ctor*
+  name: Arg
+  href: api/AasxToolkit.Cli.Arg.html#AasxToolkit_Cli_Arg__ctor_
+  commentId: Overload:AasxToolkit.Cli.Arg.#ctor
+  isSpec: "True"
+  fullName: AasxToolkit.Cli.Arg.Arg
+  nameWithType: Cli.Arg.Arg
+- uid: AasxToolkit.Cli.Arg.Description
+  name: Description
+  href: api/AasxToolkit.Cli.Arg.html#AasxToolkit_Cli_Arg_Description
+  commentId: F:AasxToolkit.Cli.Arg.Description
+  fullName: AasxToolkit.Cli.Arg.Description
+  nameWithType: Cli.Arg.Description
+- uid: AasxToolkit.Cli.Arg.Name
+  name: Name
+  href: api/AasxToolkit.Cli.Arg.html#AasxToolkit_Cli_Arg_Name
+  commentId: F:AasxToolkit.Cli.Arg.Name
+  fullName: AasxToolkit.Cli.Arg.Name
+  nameWithType: Cli.Arg.Name
+- uid: AasxToolkit.Cli.Command
+  name: Cli.Command
+  href: api/AasxToolkit.Cli.Command.html
+  commentId: T:AasxToolkit.Cli.Command
+  fullName: AasxToolkit.Cli.Command
+  nameWithType: Cli.Command
+- uid: AasxToolkit.Cli.Command.#ctor(System.String,System.String,System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.Arg},AasxToolkit.Cli.ParseFunction)
+  name: Command(String, String, IReadOnlyList<Cli.Arg>, Cli.ParseFunction)
+  href: api/AasxToolkit.Cli.Command.html#AasxToolkit_Cli_Command__ctor_System_String_System_String_System_Collections_Generic_IReadOnlyList_AasxToolkit_Cli_Arg__AasxToolkit_Cli_ParseFunction_
+  commentId: M:AasxToolkit.Cli.Command.#ctor(System.String,System.String,System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.Arg},AasxToolkit.Cli.ParseFunction)
+  name.vb: Command(String, String, IReadOnlyList(Of Cli.Arg), Cli.ParseFunction)
+  fullName: AasxToolkit.Cli.Command.Command(System.String, System.String, System.Collections.Generic.IReadOnlyList<AasxToolkit.Cli.Arg>, AasxToolkit.Cli.ParseFunction)
+  fullName.vb: AasxToolkit.Cli.Command.Command(System.String, System.String, System.Collections.Generic.IReadOnlyList(Of AasxToolkit.Cli.Arg), AasxToolkit.Cli.ParseFunction)
+  nameWithType: Cli.Command.Command(String, String, IReadOnlyList<Cli.Arg>, Cli.ParseFunction)
+  nameWithType.vb: Cli.Command.Command(String, String, IReadOnlyList(Of Cli.Arg), Cli.ParseFunction)
+- uid: AasxToolkit.Cli.Command.#ctor*
+  name: Command
+  href: api/AasxToolkit.Cli.Command.html#AasxToolkit_Cli_Command__ctor_
+  commentId: Overload:AasxToolkit.Cli.Command.#ctor
+  isSpec: "True"
+  fullName: AasxToolkit.Cli.Command.Command
+  nameWithType: Cli.Command.Command
+- uid: AasxToolkit.Cli.Command.Arguments
+  name: Arguments
+  href: api/AasxToolkit.Cli.Command.html#AasxToolkit_Cli_Command_Arguments
+  commentId: F:AasxToolkit.Cli.Command.Arguments
+  fullName: AasxToolkit.Cli.Command.Arguments
+  nameWithType: Cli.Command.Arguments
+- uid: AasxToolkit.Cli.Command.Description
+  name: Description
+  href: api/AasxToolkit.Cli.Command.html#AasxToolkit_Cli_Command_Description
+  commentId: F:AasxToolkit.Cli.Command.Description
+  fullName: AasxToolkit.Cli.Command.Description
+  nameWithType: Cli.Command.Description
+- uid: AasxToolkit.Cli.Command.Name
+  name: Name
+  href: api/AasxToolkit.Cli.Command.html#AasxToolkit_Cli_Command_Name
+  commentId: F:AasxToolkit.Cli.Command.Name
+  fullName: AasxToolkit.Cli.Command.Name
+  nameWithType: Cli.Command.Name
+- uid: AasxToolkit.Cli.Command.Parse
+  name: Parse
+  href: api/AasxToolkit.Cli.Command.html#AasxToolkit_Cli_Command_Parse
+  commentId: F:AasxToolkit.Cli.Command.Parse
+  fullName: AasxToolkit.Cli.Command.Parse
+  nameWithType: Cli.Command.Parse
+- uid: AasxToolkit.Cli.CommandLine
+  name: Cli.CommandLine
+  href: api/AasxToolkit.Cli.CommandLine.html
+  commentId: T:AasxToolkit.Cli.CommandLine
+  fullName: AasxToolkit.Cli.CommandLine
+  nameWithType: Cli.CommandLine
+- uid: AasxToolkit.Cli.CommandLine.Commands
+  name: Commands
+  href: api/AasxToolkit.Cli.CommandLine.html#AasxToolkit_Cli_CommandLine_Commands
+  commentId: F:AasxToolkit.Cli.CommandLine.Commands
+  fullName: AasxToolkit.Cli.CommandLine.Commands
+  nameWithType: Cli.CommandLine.Commands
+- uid: AasxToolkit.Cli.CommandLine.Description
+  name: Description
+  href: api/AasxToolkit.Cli.CommandLine.html#AasxToolkit_Cli_CommandLine_Description
+  commentId: F:AasxToolkit.Cli.CommandLine.Description
+  fullName: AasxToolkit.Cli.CommandLine.Description
+  nameWithType: Cli.CommandLine.Description
+- uid: AasxToolkit.Cli.CommandLine.Name
+  name: Name
+  href: api/AasxToolkit.Cli.CommandLine.html#AasxToolkit_Cli_CommandLine_Name
+  commentId: F:AasxToolkit.Cli.CommandLine.Name
+  fullName: AasxToolkit.Cli.CommandLine.Name
+  nameWithType: Cli.CommandLine.Name
+- uid: AasxToolkit.Cli.DeclareCommandLine(System.String,System.String,System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.Command})
+  name: DeclareCommandLine(String, String, IReadOnlyList<Cli.Command>)
+  href: api/AasxToolkit.Cli.html#AasxToolkit_Cli_DeclareCommandLine_System_String_System_String_System_Collections_Generic_IReadOnlyList_AasxToolkit_Cli_Command__
+  commentId: M:AasxToolkit.Cli.DeclareCommandLine(System.String,System.String,System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.Command})
+  name.vb: DeclareCommandLine(String, String, IReadOnlyList(Of Cli.Command))
+  fullName: AasxToolkit.Cli.DeclareCommandLine(System.String, System.String, System.Collections.Generic.IReadOnlyList<AasxToolkit.Cli.Command>)
+  fullName.vb: AasxToolkit.Cli.DeclareCommandLine(System.String, System.String, System.Collections.Generic.IReadOnlyList(Of AasxToolkit.Cli.Command))
+  nameWithType: Cli.DeclareCommandLine(String, String, IReadOnlyList<Cli.Command>)
+  nameWithType.vb: Cli.DeclareCommandLine(String, String, IReadOnlyList(Of Cli.Command))
+- uid: AasxToolkit.Cli.DeclareCommandLine*
+  name: DeclareCommandLine
+  href: api/AasxToolkit.Cli.html#AasxToolkit_Cli_DeclareCommandLine_
+  commentId: Overload:AasxToolkit.Cli.DeclareCommandLine
+  isSpec: "True"
+  fullName: AasxToolkit.Cli.DeclareCommandLine
+  nameWithType: Cli.DeclareCommandLine
+- uid: AasxToolkit.Cli.FormatParsingErrors(System.Collections.Generic.IReadOnlyList{System.String},System.Int32,System.Collections.Generic.IReadOnlyList{System.String})
+  name: FormatParsingErrors(IReadOnlyList<String>, Int32, IReadOnlyList<String>)
+  href: api/AasxToolkit.Cli.html#AasxToolkit_Cli_FormatParsingErrors_System_Collections_Generic_IReadOnlyList_System_String__System_Int32_System_Collections_Generic_IReadOnlyList_System_String__
+  commentId: M:AasxToolkit.Cli.FormatParsingErrors(System.Collections.Generic.IReadOnlyList{System.String},System.Int32,System.Collections.Generic.IReadOnlyList{System.String})
+  name.vb: FormatParsingErrors(IReadOnlyList(Of String), Int32, IReadOnlyList(Of String))
+  fullName: AasxToolkit.Cli.FormatParsingErrors(System.Collections.Generic.IReadOnlyList<System.String>, System.Int32, System.Collections.Generic.IReadOnlyList<System.String>)
+  fullName.vb: AasxToolkit.Cli.FormatParsingErrors(System.Collections.Generic.IReadOnlyList(Of System.String), System.Int32, System.Collections.Generic.IReadOnlyList(Of System.String))
+  nameWithType: Cli.FormatParsingErrors(IReadOnlyList<String>, Int32, IReadOnlyList<String>)
+  nameWithType.vb: Cli.FormatParsingErrors(IReadOnlyList(Of String), Int32, IReadOnlyList(Of String))
+- uid: AasxToolkit.Cli.FormatParsingErrors*
+  name: FormatParsingErrors
+  href: api/AasxToolkit.Cli.html#AasxToolkit_Cli_FormatParsingErrors_
+  commentId: Overload:AasxToolkit.Cli.FormatParsingErrors
+  isSpec: "True"
+  fullName: AasxToolkit.Cli.FormatParsingErrors
+  nameWithType: Cli.FormatParsingErrors
+- uid: AasxToolkit.Cli.GenerateUsageMessage(AasxToolkit.Cli.CommandLine)
+  name: GenerateUsageMessage(Cli.CommandLine)
+  href: api/AasxToolkit.Cli.html#AasxToolkit_Cli_GenerateUsageMessage_AasxToolkit_Cli_CommandLine_
+  commentId: M:AasxToolkit.Cli.GenerateUsageMessage(AasxToolkit.Cli.CommandLine)
+  fullName: AasxToolkit.Cli.GenerateUsageMessage(AasxToolkit.Cli.CommandLine)
+  nameWithType: Cli.GenerateUsageMessage(Cli.CommandLine)
+- uid: AasxToolkit.Cli.GenerateUsageMessage*
+  name: GenerateUsageMessage
+  href: api/AasxToolkit.Cli.html#AasxToolkit_Cli_GenerateUsageMessage_
+  commentId: Overload:AasxToolkit.Cli.GenerateUsageMessage
+  isSpec: "True"
+  fullName: AasxToolkit.Cli.GenerateUsageMessage
+  nameWithType: Cli.GenerateUsageMessage
+- uid: AasxToolkit.Cli.IInstruction
+  name: Cli.IInstruction
+  href: api/AasxToolkit.Cli.IInstruction.html
+  commentId: T:AasxToolkit.Cli.IInstruction
+  fullName: AasxToolkit.Cli.IInstruction
+  nameWithType: Cli.IInstruction
+- uid: AasxToolkit.Cli.Indentation
+  name: Cli.Indentation
+  href: api/AasxToolkit.Cli.Indentation.html
+  commentId: T:AasxToolkit.Cli.Indentation
+  fullName: AasxToolkit.Cli.Indentation
+  nameWithType: Cli.Indentation
+- uid: AasxToolkit.Cli.Indentation.Indent(System.String,System.String)
+  name: Indent(String, String)
+  href: api/AasxToolkit.Cli.Indentation.html#AasxToolkit_Cli_Indentation_Indent_System_String_System_String_
+  commentId: M:AasxToolkit.Cli.Indentation.Indent(System.String,System.String)
+  fullName: AasxToolkit.Cli.Indentation.Indent(System.String, System.String)
+  nameWithType: Cli.Indentation.Indent(String, String)
+- uid: AasxToolkit.Cli.Indentation.Indent*
+  name: Indent
+  href: api/AasxToolkit.Cli.Indentation.html#AasxToolkit_Cli_Indentation_Indent_
+  commentId: Overload:AasxToolkit.Cli.Indentation.Indent
+  isSpec: "True"
+  fullName: AasxToolkit.Cli.Indentation.Indent
+  nameWithType: Cli.Indentation.Indent
+- uid: AasxToolkit.Cli.ParseFunction
+  name: Cli.ParseFunction
+  href: api/AasxToolkit.Cli.ParseFunction.html
+  commentId: T:AasxToolkit.Cli.ParseFunction
+  fullName: AasxToolkit.Cli.ParseFunction
+  nameWithType: Cli.ParseFunction
+- uid: AasxToolkit.Cli.ParseInstructions(AasxToolkit.Cli.CommandLine,System.Collections.Generic.IReadOnlyList{System.String})
+  name: ParseInstructions(Cli.CommandLine, IReadOnlyList<String>)
+  href: api/AasxToolkit.Cli.html#AasxToolkit_Cli_ParseInstructions_AasxToolkit_Cli_CommandLine_System_Collections_Generic_IReadOnlyList_System_String__
+  commentId: M:AasxToolkit.Cli.ParseInstructions(AasxToolkit.Cli.CommandLine,System.Collections.Generic.IReadOnlyList{System.String})
+  name.vb: ParseInstructions(Cli.CommandLine, IReadOnlyList(Of String))
+  fullName: AasxToolkit.Cli.ParseInstructions(AasxToolkit.Cli.CommandLine, System.Collections.Generic.IReadOnlyList<System.String>)
+  fullName.vb: AasxToolkit.Cli.ParseInstructions(AasxToolkit.Cli.CommandLine, System.Collections.Generic.IReadOnlyList(Of System.String))
+  nameWithType: Cli.ParseInstructions(Cli.CommandLine, IReadOnlyList<String>)
+  nameWithType.vb: Cli.ParseInstructions(Cli.CommandLine, IReadOnlyList(Of String))
+- uid: AasxToolkit.Cli.ParseInstructions*
+  name: ParseInstructions
+  href: api/AasxToolkit.Cli.html#AasxToolkit_Cli_ParseInstructions_
+  commentId: Overload:AasxToolkit.Cli.ParseInstructions
+  isSpec: "True"
+  fullName: AasxToolkit.Cli.ParseInstructions
+  nameWithType: Cli.ParseInstructions
+- uid: AasxToolkit.Cli.Parsing
+  name: Cli.Parsing
+  href: api/AasxToolkit.Cli.Parsing.html
+  commentId: T:AasxToolkit.Cli.Parsing
+  fullName: AasxToolkit.Cli.Parsing
+  nameWithType: Cli.Parsing
+- uid: AasxToolkit.Cli.Parsing.#ctor(AasxToolkit.Cli.IInstruction)
+  name: Parsing(Cli.IInstruction)
+  href: api/AasxToolkit.Cli.Parsing.html#AasxToolkit_Cli_Parsing__ctor_AasxToolkit_Cli_IInstruction_
+  commentId: M:AasxToolkit.Cli.Parsing.#ctor(AasxToolkit.Cli.IInstruction)
+  fullName: AasxToolkit.Cli.Parsing.Parsing(AasxToolkit.Cli.IInstruction)
+  nameWithType: Cli.Parsing.Parsing(Cli.IInstruction)
+- uid: AasxToolkit.Cli.Parsing.#ctor(System.Collections.Generic.IReadOnlyList{System.String})
+  name: Parsing(IReadOnlyList<String>)
+  href: api/AasxToolkit.Cli.Parsing.html#AasxToolkit_Cli_Parsing__ctor_System_Collections_Generic_IReadOnlyList_System_String__
+  commentId: M:AasxToolkit.Cli.Parsing.#ctor(System.Collections.Generic.IReadOnlyList{System.String})
+  name.vb: Parsing(IReadOnlyList(Of String))
+  fullName: AasxToolkit.Cli.Parsing.Parsing(System.Collections.Generic.IReadOnlyList<System.String>)
+  fullName.vb: AasxToolkit.Cli.Parsing.Parsing(System.Collections.Generic.IReadOnlyList(Of System.String))
+  nameWithType: Cli.Parsing.Parsing(IReadOnlyList<String>)
+  nameWithType.vb: Cli.Parsing.Parsing(IReadOnlyList(Of String))
+- uid: AasxToolkit.Cli.Parsing.#ctor*
+  name: Parsing
+  href: api/AasxToolkit.Cli.Parsing.html#AasxToolkit_Cli_Parsing__ctor_
+  commentId: Overload:AasxToolkit.Cli.Parsing.#ctor
+  isSpec: "True"
+  fullName: AasxToolkit.Cli.Parsing.Parsing
+  nameWithType: Cli.Parsing.Parsing
+- uid: AasxToolkit.Cli.Parsing.Errors
+  name: Errors
+  href: api/AasxToolkit.Cli.Parsing.html#AasxToolkit_Cli_Parsing_Errors
+  commentId: F:AasxToolkit.Cli.Parsing.Errors
+  fullName: AasxToolkit.Cli.Parsing.Errors
+  nameWithType: Cli.Parsing.Errors
+- uid: AasxToolkit.Cli.Parsing.Instruction
+  name: Instruction
+  href: api/AasxToolkit.Cli.Parsing.html#AasxToolkit_Cli_Parsing_Instruction
+  commentId: F:AasxToolkit.Cli.Parsing.Instruction
+  fullName: AasxToolkit.Cli.Parsing.Instruction
+  nameWithType: Cli.Parsing.Instruction
+- uid: AasxToolkit.Cli.ParsingOfInstructions
+  name: Cli.ParsingOfInstructions
+  href: api/AasxToolkit.Cli.ParsingOfInstructions.html
+  commentId: T:AasxToolkit.Cli.ParsingOfInstructions
+  fullName: AasxToolkit.Cli.ParsingOfInstructions
+  nameWithType: Cli.ParsingOfInstructions
+- uid: AasxToolkit.Cli.ParsingOfInstructions.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.IInstruction})
+  name: ParsingOfInstructions(Int32, IReadOnlyList<Cli.IInstruction>)
+  href: api/AasxToolkit.Cli.ParsingOfInstructions.html#AasxToolkit_Cli_ParsingOfInstructions__ctor_System_Int32_System_Collections_Generic_IReadOnlyList_AasxToolkit_Cli_IInstruction__
+  commentId: M:AasxToolkit.Cli.ParsingOfInstructions.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.IInstruction})
+  name.vb: ParsingOfInstructions(Int32, IReadOnlyList(Of Cli.IInstruction))
+  fullName: AasxToolkit.Cli.ParsingOfInstructions.ParsingOfInstructions(System.Int32, System.Collections.Generic.IReadOnlyList<AasxToolkit.Cli.IInstruction>)
+  fullName.vb: AasxToolkit.Cli.ParsingOfInstructions.ParsingOfInstructions(System.Int32, System.Collections.Generic.IReadOnlyList(Of AasxToolkit.Cli.IInstruction))
+  nameWithType: Cli.ParsingOfInstructions.ParsingOfInstructions(Int32, IReadOnlyList<Cli.IInstruction>)
+  nameWithType.vb: Cli.ParsingOfInstructions.ParsingOfInstructions(Int32, IReadOnlyList(Of Cli.IInstruction))
+- uid: AasxToolkit.Cli.ParsingOfInstructions.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{System.String})
+  name: ParsingOfInstructions(Int32, IReadOnlyList<String>)
+  href: api/AasxToolkit.Cli.ParsingOfInstructions.html#AasxToolkit_Cli_ParsingOfInstructions__ctor_System_Int32_System_Collections_Generic_IReadOnlyList_System_String__
+  commentId: M:AasxToolkit.Cli.ParsingOfInstructions.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{System.String})
+  name.vb: ParsingOfInstructions(Int32, IReadOnlyList(Of String))
+  fullName: AasxToolkit.Cli.ParsingOfInstructions.ParsingOfInstructions(System.Int32, System.Collections.Generic.IReadOnlyList<System.String>)
+  fullName.vb: AasxToolkit.Cli.ParsingOfInstructions.ParsingOfInstructions(System.Int32, System.Collections.Generic.IReadOnlyList(Of System.String))
+  nameWithType: Cli.ParsingOfInstructions.ParsingOfInstructions(Int32, IReadOnlyList<String>)
+  nameWithType.vb: Cli.ParsingOfInstructions.ParsingOfInstructions(Int32, IReadOnlyList(Of String))
+- uid: AasxToolkit.Cli.ParsingOfInstructions.#ctor*
+  name: ParsingOfInstructions
+  href: api/AasxToolkit.Cli.ParsingOfInstructions.html#AasxToolkit_Cli_ParsingOfInstructions__ctor_
+  commentId: Overload:AasxToolkit.Cli.ParsingOfInstructions.#ctor
+  isSpec: "True"
+  fullName: AasxToolkit.Cli.ParsingOfInstructions.ParsingOfInstructions
+  nameWithType: Cli.ParsingOfInstructions.ParsingOfInstructions
+- uid: AasxToolkit.Cli.ParsingOfInstructions.AcceptedArgs
+  name: AcceptedArgs
+  href: api/AasxToolkit.Cli.ParsingOfInstructions.html#AasxToolkit_Cli_ParsingOfInstructions_AcceptedArgs
+  commentId: F:AasxToolkit.Cli.ParsingOfInstructions.AcceptedArgs
+  fullName: AasxToolkit.Cli.ParsingOfInstructions.AcceptedArgs
+  nameWithType: Cli.ParsingOfInstructions.AcceptedArgs
+- uid: AasxToolkit.Cli.ParsingOfInstructions.Errors
+  name: Errors
+  href: api/AasxToolkit.Cli.ParsingOfInstructions.html#AasxToolkit_Cli_ParsingOfInstructions_Errors
+  commentId: F:AasxToolkit.Cli.ParsingOfInstructions.Errors
+  fullName: AasxToolkit.Cli.ParsingOfInstructions.Errors
+  nameWithType: Cli.ParsingOfInstructions.Errors
+- uid: AasxToolkit.Cli.ParsingOfInstructions.Instructions
+  name: Instructions
+  href: api/AasxToolkit.Cli.ParsingOfInstructions.html#AasxToolkit_Cli_ParsingOfInstructions_Instructions
+  commentId: F:AasxToolkit.Cli.ParsingOfInstructions.Instructions
+  fullName: AasxToolkit.Cli.ParsingOfInstructions.Instructions
+  nameWithType: Cli.ParsingOfInstructions.Instructions
+- uid: AasxToolkit.Execution
+  name: Execution
+  href: api/AasxToolkit.Execution.html
+  commentId: T:AasxToolkit.Execution
+  fullName: AasxToolkit.Execution
+  nameWithType: Execution
+- uid: AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.IInstruction})
+  name: Execute(IReadOnlyList<Cli.IInstruction>)
+  href: api/AasxToolkit.Execution.html#AasxToolkit_Execution_Execute_System_Collections_Generic_IReadOnlyList_AasxToolkit_Cli_IInstruction__
+  commentId: M:AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.IInstruction})
+  name.vb: Execute(IReadOnlyList(Of Cli.IInstruction))
+  fullName: AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList<AasxToolkit.Cli.IInstruction>)
+  fullName.vb: AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList(Of AasxToolkit.Cli.IInstruction))
+  nameWithType: Execution.Execute(IReadOnlyList<Cli.IInstruction>)
+  nameWithType.vb: Execution.Execute(IReadOnlyList(Of Cli.IInstruction))
+- uid: AasxToolkit.Execution.Execute*
+  name: Execute
+  href: api/AasxToolkit.Execution.html#AasxToolkit_Execution_Execute_
+  commentId: Overload:AasxToolkit.Execution.Execute
+  isSpec: "True"
+  fullName: AasxToolkit.Execution.Execute
+  nameWithType: Execution.Execute
+- uid: AasxToolkit.Generate
+  name: Generate
+  href: api/AasxToolkit.Generate.html
+  commentId: T:AasxToolkit.Generate
+  fullName: AasxToolkit.Generate
+  nameWithType: Generate
+- uid: AasxToolkit.Generate.CreateStochasticViewOnSubmodels(AdminShellNS.AdminShellV20.Submodel[],System.String)
+  name: CreateStochasticViewOnSubmodels(AdminShellV20.Submodel[], String)
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateStochasticViewOnSubmodels_AdminShellNS_AdminShellV20_Submodel___System_String_
+  commentId: M:AasxToolkit.Generate.CreateStochasticViewOnSubmodels(AdminShellNS.AdminShellV20.Submodel[],System.String)
+  name.vb: CreateStochasticViewOnSubmodels(AdminShellV20.Submodel(), String)
+  fullName: AasxToolkit.Generate.CreateStochasticViewOnSubmodels(AdminShellNS.AdminShellV20.Submodel[], System.String)
+  fullName.vb: AasxToolkit.Generate.CreateStochasticViewOnSubmodels(AdminShellNS.AdminShellV20.Submodel(), System.String)
+  nameWithType: Generate.CreateStochasticViewOnSubmodels(AdminShellV20.Submodel[], String)
+  nameWithType.vb: Generate.CreateStochasticViewOnSubmodels(AdminShellV20.Submodel(), String)
+- uid: AasxToolkit.Generate.CreateStochasticViewOnSubmodels*
+  name: CreateStochasticViewOnSubmodels
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateStochasticViewOnSubmodels_
+  commentId: Overload:AasxToolkit.Generate.CreateStochasticViewOnSubmodels
+  isSpec: "True"
+  fullName: AasxToolkit.Generate.CreateStochasticViewOnSubmodels
+  nameWithType: Generate.CreateStochasticViewOnSubmodels
+- uid: AasxToolkit.Generate.CreateSubmodelBOMforAssetStructure(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  name: CreateSubmodelBOMforAssetStructure(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelBOMforAssetStructure_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
+  commentId: M:AasxToolkit.Generate.CreateSubmodelBOMforAssetStructure(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  fullName: AasxToolkit.Generate.CreateSubmodelBOMforAssetStructure(AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  nameWithType: Generate.CreateSubmodelBOMforAssetStructure(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+- uid: AasxToolkit.Generate.CreateSubmodelBOMforAssetStructure*
+  name: CreateSubmodelBOMforAssetStructure
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelBOMforAssetStructure_
+  commentId: Overload:AasxToolkit.Generate.CreateSubmodelBOMforAssetStructure
+  isSpec: "True"
+  fullName: AasxToolkit.Generate.CreateSubmodelBOMforAssetStructure
+  nameWithType: Generate.CreateSubmodelBOMforAssetStructure
+- uid: AasxToolkit.Generate.CreateSubmodelBOMforECAD(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  name: CreateSubmodelBOMforECAD(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelBOMforECAD_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
+  commentId: M:AasxToolkit.Generate.CreateSubmodelBOMforECAD(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  fullName: AasxToolkit.Generate.CreateSubmodelBOMforECAD(AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  nameWithType: Generate.CreateSubmodelBOMforECAD(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+- uid: AasxToolkit.Generate.CreateSubmodelBOMforECAD*
+  name: CreateSubmodelBOMforECAD
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelBOMforECAD_
+  commentId: Overload:AasxToolkit.Generate.CreateSubmodelBOMforECAD
+  isSpec: "True"
+  fullName: AasxToolkit.Generate.CreateSubmodelBOMforECAD
+  nameWithType: Generate.CreateSubmodelBOMforECAD
+- uid: AasxToolkit.Generate.CreateSubmodelCad(AasxToolkit.Generate.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  name: CreateSubmodelCad(Generate.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelCad_AasxToolkit_Generate_InputFilePrefs_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
+  commentId: M:AasxToolkit.Generate.CreateSubmodelCad(AasxToolkit.Generate.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  fullName: AasxToolkit.Generate.CreateSubmodelCad(AasxToolkit.Generate.InputFilePrefs, AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  nameWithType: Generate.CreateSubmodelCad(Generate.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+- uid: AasxToolkit.Generate.CreateSubmodelCad*
+  name: CreateSubmodelCad
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelCad_
+  commentId: Overload:AasxToolkit.Generate.CreateSubmodelCad
+  isSpec: "True"
+  fullName: AasxToolkit.Generate.CreateSubmodelCad
+  nameWithType: Generate.CreateSubmodelCad
+- uid: AasxToolkit.Generate.CreateSubmodelDatasheet(AasxToolkit.Generate.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  name: CreateSubmodelDatasheet(Generate.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelDatasheet_AasxToolkit_Generate_InputFilePrefs_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
+  commentId: M:AasxToolkit.Generate.CreateSubmodelDatasheet(AasxToolkit.Generate.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  fullName: AasxToolkit.Generate.CreateSubmodelDatasheet(AasxToolkit.Generate.InputFilePrefs, AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  nameWithType: Generate.CreateSubmodelDatasheet(Generate.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+- uid: AasxToolkit.Generate.CreateSubmodelDatasheet*
+  name: CreateSubmodelDatasheet
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelDatasheet_
+  commentId: Overload:AasxToolkit.Generate.CreateSubmodelDatasheet
+  isSpec: "True"
+  fullName: AasxToolkit.Generate.CreateSubmodelDatasheet
+  nameWithType: Generate.CreateSubmodelDatasheet
+- uid: AasxToolkit.Generate.CreateSubmodelDocumentationBasedOnVDI2770(AasxToolkit.Generate.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  name: CreateSubmodelDocumentationBasedOnVDI2770(Generate.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelDocumentationBasedOnVDI2770_AasxToolkit_Generate_InputFilePrefs_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
+  commentId: M:AasxToolkit.Generate.CreateSubmodelDocumentationBasedOnVDI2770(AasxToolkit.Generate.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  fullName: AasxToolkit.Generate.CreateSubmodelDocumentationBasedOnVDI2770(AasxToolkit.Generate.InputFilePrefs, AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  nameWithType: Generate.CreateSubmodelDocumentationBasedOnVDI2770(Generate.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+- uid: AasxToolkit.Generate.CreateSubmodelDocumentationBasedOnVDI2770*
+  name: CreateSubmodelDocumentationBasedOnVDI2770
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelDocumentationBasedOnVDI2770_
+  commentId: Overload:AasxToolkit.Generate.CreateSubmodelDocumentationBasedOnVDI2770
+  isSpec: "True"
+  fullName: AasxToolkit.Generate.CreateSubmodelDocumentationBasedOnVDI2770
+  nameWithType: Generate.CreateSubmodelDocumentationBasedOnVDI2770
+- uid: AasxToolkit.Generate.CreateSubmodelEnergyMode(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  name: CreateSubmodelEnergyMode(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelEnergyMode_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
+  commentId: M:AasxToolkit.Generate.CreateSubmodelEnergyMode(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  fullName: AasxToolkit.Generate.CreateSubmodelEnergyMode(AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  nameWithType: Generate.CreateSubmodelEnergyMode(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+- uid: AasxToolkit.Generate.CreateSubmodelEnergyMode*
+  name: CreateSubmodelEnergyMode
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelEnergyMode_
+  commentId: Overload:AasxToolkit.Generate.CreateSubmodelEnergyMode
+  isSpec: "True"
+  fullName: AasxToolkit.Generate.CreateSubmodelEnergyMode
+  nameWithType: Generate.CreateSubmodelEnergyMode
+- uid: AasxToolkit.Generate.CreateSubmodelVariousSingleItems(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  name: CreateSubmodelVariousSingleItems(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelVariousSingleItems_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
+  commentId: M:AasxToolkit.Generate.CreateSubmodelVariousSingleItems(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  fullName: AasxToolkit.Generate.CreateSubmodelVariousSingleItems(AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
+  nameWithType: Generate.CreateSubmodelVariousSingleItems(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
+- uid: AasxToolkit.Generate.CreateSubmodelVariousSingleItems*
+  name: CreateSubmodelVariousSingleItems
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_CreateSubmodelVariousSingleItems_
+  commentId: Overload:AasxToolkit.Generate.CreateSubmodelVariousSingleItems
+  isSpec: "True"
+  fullName: AasxToolkit.Generate.CreateSubmodelVariousSingleItems
+  nameWithType: Generate.CreateSubmodelVariousSingleItems
+- uid: AasxToolkit.Generate.GeneratePackage(System.String)
+  name: GeneratePackage(String)
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_GeneratePackage_System_String_
+  commentId: M:AasxToolkit.Generate.GeneratePackage(System.String)
+  fullName: AasxToolkit.Generate.GeneratePackage(System.String)
+  nameWithType: Generate.GeneratePackage(String)
+- uid: AasxToolkit.Generate.GeneratePackage*
+  name: GeneratePackage
+  href: api/AasxToolkit.Generate.html#AasxToolkit_Generate_GeneratePackage_
+  commentId: Overload:AasxToolkit.Generate.GeneratePackage
+  isSpec: "True"
+  fullName: AasxToolkit.Generate.GeneratePackage
+  nameWithType: Generate.GeneratePackage
+- uid: AasxToolkit.Generate.InputFilePrefs
+  name: Generate.InputFilePrefs
+  href: api/AasxToolkit.Generate.InputFilePrefs.html
+  commentId: T:AasxToolkit.Generate.InputFilePrefs
+  fullName: AasxToolkit.Generate.InputFilePrefs
+  nameWithType: Generate.InputFilePrefs
+- uid: AasxToolkit.Generate.InputFilePrefs.FileRec
+  name: Generate.InputFilePrefs.FileRec
+  href: api/AasxToolkit.Generate.InputFilePrefs.FileRec.html
+  commentId: T:AasxToolkit.Generate.InputFilePrefs.FileRec
+  fullName: AasxToolkit.Generate.InputFilePrefs.FileRec
+  nameWithType: Generate.InputFilePrefs.FileRec
+- uid: AasxToolkit.Generate.InputFilePrefs.FileRec.args
+  name: args
+  href: api/AasxToolkit.Generate.InputFilePrefs.FileRec.html#AasxToolkit_Generate_InputFilePrefs_FileRec_args
+  commentId: F:AasxToolkit.Generate.InputFilePrefs.FileRec.args
+  fullName: AasxToolkit.Generate.InputFilePrefs.FileRec.args
+  nameWithType: Generate.InputFilePrefs.FileRec.args
+- uid: AasxToolkit.Generate.InputFilePrefs.FileRec.fn
+  name: fn
+  href: api/AasxToolkit.Generate.InputFilePrefs.FileRec.html#AasxToolkit_Generate_InputFilePrefs_FileRec_fn
+  commentId: F:AasxToolkit.Generate.InputFilePrefs.FileRec.fn
+  fullName: AasxToolkit.Generate.InputFilePrefs.FileRec.fn
+  nameWithType: Generate.InputFilePrefs.FileRec.fn
+- uid: AasxToolkit.Generate.InputFilePrefs.FileRec.submodel
+  name: submodel
+  href: api/AasxToolkit.Generate.InputFilePrefs.FileRec.html#AasxToolkit_Generate_InputFilePrefs_FileRec_submodel
+  commentId: F:AasxToolkit.Generate.InputFilePrefs.FileRec.submodel
+  fullName: AasxToolkit.Generate.InputFilePrefs.FileRec.submodel
+  nameWithType: Generate.InputFilePrefs.FileRec.submodel
+- uid: AasxToolkit.Generate.InputFilePrefs.FileRec.targetdir
+  name: targetdir
+  href: api/AasxToolkit.Generate.InputFilePrefs.FileRec.html#AasxToolkit_Generate_InputFilePrefs_FileRec_targetdir
+  commentId: F:AasxToolkit.Generate.InputFilePrefs.FileRec.targetdir
+  fullName: AasxToolkit.Generate.InputFilePrefs.FileRec.targetdir
+  nameWithType: Generate.InputFilePrefs.FileRec.targetdir
+- uid: AasxToolkit.Generate.InputFilePrefs.filerecs
+  name: filerecs
+  href: api/AasxToolkit.Generate.InputFilePrefs.html#AasxToolkit_Generate_InputFilePrefs_filerecs
+  commentId: F:AasxToolkit.Generate.InputFilePrefs.filerecs
+  fullName: AasxToolkit.Generate.InputFilePrefs.filerecs
+  nameWithType: Generate.InputFilePrefs.filerecs
+- uid: AasxToolkit.Generate.InputFilePrefs.FindFileRecFn(System.String)
+  name: FindFileRecFn(String)
+  href: api/AasxToolkit.Generate.InputFilePrefs.html#AasxToolkit_Generate_InputFilePrefs_FindFileRecFn_System_String_
+  commentId: M:AasxToolkit.Generate.InputFilePrefs.FindFileRecFn(System.String)
+  fullName: AasxToolkit.Generate.InputFilePrefs.FindFileRecFn(System.String)
+  nameWithType: Generate.InputFilePrefs.FindFileRecFn(String)
+- uid: AasxToolkit.Generate.InputFilePrefs.FindFileRecFn*
+  name: FindFileRecFn
+  href: api/AasxToolkit.Generate.InputFilePrefs.html#AasxToolkit_Generate_InputFilePrefs_FindFileRecFn_
+  commentId: Overload:AasxToolkit.Generate.InputFilePrefs.FindFileRecFn
+  isSpec: "True"
+  fullName: AasxToolkit.Generate.InputFilePrefs.FindFileRecFn
+  nameWithType: Generate.InputFilePrefs.FindFileRecFn
+- uid: AasxToolkit.Generate.InputFilePrefs.WebRec
+  name: Generate.InputFilePrefs.WebRec
+  href: api/AasxToolkit.Generate.InputFilePrefs.WebRec.html
+  commentId: T:AasxToolkit.Generate.InputFilePrefs.WebRec
+  fullName: AasxToolkit.Generate.InputFilePrefs.WebRec
+  nameWithType: Generate.InputFilePrefs.WebRec
+- uid: AasxToolkit.Generate.InputFilePrefs.WebRec.args
+  name: args
+  href: api/AasxToolkit.Generate.InputFilePrefs.WebRec.html#AasxToolkit_Generate_InputFilePrefs_WebRec_args
+  commentId: F:AasxToolkit.Generate.InputFilePrefs.WebRec.args
+  fullName: AasxToolkit.Generate.InputFilePrefs.WebRec.args
+  nameWithType: Generate.InputFilePrefs.WebRec.args
+- uid: AasxToolkit.Generate.InputFilePrefs.WebRec.submodel
+  name: submodel
+  href: api/AasxToolkit.Generate.InputFilePrefs.WebRec.html#AasxToolkit_Generate_InputFilePrefs_WebRec_submodel
+  commentId: F:AasxToolkit.Generate.InputFilePrefs.WebRec.submodel
+  fullName: AasxToolkit.Generate.InputFilePrefs.WebRec.submodel
+  nameWithType: Generate.InputFilePrefs.WebRec.submodel
+- uid: AasxToolkit.Generate.InputFilePrefs.WebRec.url
+  name: url
+  href: api/AasxToolkit.Generate.InputFilePrefs.WebRec.html#AasxToolkit_Generate_InputFilePrefs_WebRec_url
+  commentId: F:AasxToolkit.Generate.InputFilePrefs.WebRec.url
+  fullName: AasxToolkit.Generate.InputFilePrefs.WebRec.url
+  nameWithType: Generate.InputFilePrefs.WebRec.url
+- uid: AasxToolkit.Generate.InputFilePrefs.webrecs
+  name: webrecs
+  href: api/AasxToolkit.Generate.InputFilePrefs.html#AasxToolkit_Generate_InputFilePrefs_webrecs
+  commentId: F:AasxToolkit.Generate.InputFilePrefs.webrecs
+  fullName: AasxToolkit.Generate.InputFilePrefs.webrecs
+  nameWithType: Generate.InputFilePrefs.webrecs
 - uid: AasxToolkit.IriIdentifierRepository
   name: IriIdentifierRepository
   href: api/AasxToolkit.IriIdentifierRepository.html
@@ -31098,237 +31619,38 @@ references:
   commentId: T:AasxToolkit.Program
   fullName: AasxToolkit.Program
   nameWithType: Program
-- uid: AasxToolkit.Program.CreateStochasticViewOnSubmodels(AdminShellNS.AdminShellV20.Submodel[],System.String)
-  name: CreateStochasticViewOnSubmodels(AdminShellV20.Submodel[], String)
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateStochasticViewOnSubmodels_AdminShellNS_AdminShellV20_Submodel___System_String_
-  commentId: M:AasxToolkit.Program.CreateStochasticViewOnSubmodels(AdminShellNS.AdminShellV20.Submodel[],System.String)
-  name.vb: CreateStochasticViewOnSubmodels(AdminShellV20.Submodel(), String)
-  fullName: AasxToolkit.Program.CreateStochasticViewOnSubmodels(AdminShellNS.AdminShellV20.Submodel[], System.String)
-  fullName.vb: AasxToolkit.Program.CreateStochasticViewOnSubmodels(AdminShellNS.AdminShellV20.Submodel(), System.String)
-  nameWithType: Program.CreateStochasticViewOnSubmodels(AdminShellV20.Submodel[], String)
-  nameWithType.vb: Program.CreateStochasticViewOnSubmodels(AdminShellV20.Submodel(), String)
-- uid: AasxToolkit.Program.CreateStochasticViewOnSubmodels*
-  name: CreateStochasticViewOnSubmodels
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateStochasticViewOnSubmodels_
-  commentId: Overload:AasxToolkit.Program.CreateStochasticViewOnSubmodels
+- uid: AasxToolkit.Program.Main(System.String[])
+  name: Main(String[])
+  href: api/AasxToolkit.Program.html#AasxToolkit_Program_Main_System_String___
+  commentId: M:AasxToolkit.Program.Main(System.String[])
+  name.vb: Main(String())
+  fullName: AasxToolkit.Program.Main(System.String[])
+  fullName.vb: AasxToolkit.Program.Main(System.String())
+  nameWithType: Program.Main(String[])
+  nameWithType.vb: Program.Main(String())
+- uid: AasxToolkit.Program.Main*
+  name: Main
+  href: api/AasxToolkit.Program.html#AasxToolkit_Program_Main_
+  commentId: Overload:AasxToolkit.Program.Main
   isSpec: "True"
-  fullName: AasxToolkit.Program.CreateStochasticViewOnSubmodels
-  nameWithType: Program.CreateStochasticViewOnSubmodels
-- uid: AasxToolkit.Program.CreateSubmodelBOMforAssetStructure(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  name: CreateSubmodelBOMforAssetStructure(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelBOMforAssetStructure_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
-  commentId: M:AasxToolkit.Program.CreateSubmodelBOMforAssetStructure(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  fullName: AasxToolkit.Program.CreateSubmodelBOMforAssetStructure(AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  nameWithType: Program.CreateSubmodelBOMforAssetStructure(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-- uid: AasxToolkit.Program.CreateSubmodelBOMforAssetStructure*
-  name: CreateSubmodelBOMforAssetStructure
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelBOMforAssetStructure_
-  commentId: Overload:AasxToolkit.Program.CreateSubmodelBOMforAssetStructure
+  fullName: AasxToolkit.Program.Main
+  nameWithType: Program.Main
+- uid: AasxToolkit.Program.MainWithExitCode(System.String[])
+  name: MainWithExitCode(String[])
+  href: api/AasxToolkit.Program.html#AasxToolkit_Program_MainWithExitCode_System_String___
+  commentId: M:AasxToolkit.Program.MainWithExitCode(System.String[])
+  name.vb: MainWithExitCode(String())
+  fullName: AasxToolkit.Program.MainWithExitCode(System.String[])
+  fullName.vb: AasxToolkit.Program.MainWithExitCode(System.String())
+  nameWithType: Program.MainWithExitCode(String[])
+  nameWithType.vb: Program.MainWithExitCode(String())
+- uid: AasxToolkit.Program.MainWithExitCode*
+  name: MainWithExitCode
+  href: api/AasxToolkit.Program.html#AasxToolkit_Program_MainWithExitCode_
+  commentId: Overload:AasxToolkit.Program.MainWithExitCode
   isSpec: "True"
-  fullName: AasxToolkit.Program.CreateSubmodelBOMforAssetStructure
-  nameWithType: Program.CreateSubmodelBOMforAssetStructure
-- uid: AasxToolkit.Program.CreateSubmodelBOMforECAD(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  name: CreateSubmodelBOMforECAD(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelBOMforECAD_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
-  commentId: M:AasxToolkit.Program.CreateSubmodelBOMforECAD(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  fullName: AasxToolkit.Program.CreateSubmodelBOMforECAD(AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  nameWithType: Program.CreateSubmodelBOMforECAD(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-- uid: AasxToolkit.Program.CreateSubmodelBOMforECAD*
-  name: CreateSubmodelBOMforECAD
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelBOMforECAD_
-  commentId: Overload:AasxToolkit.Program.CreateSubmodelBOMforECAD
-  isSpec: "True"
-  fullName: AasxToolkit.Program.CreateSubmodelBOMforECAD
-  nameWithType: Program.CreateSubmodelBOMforECAD
-- uid: AasxToolkit.Program.CreateSubmodelCad(AasxToolkit.Program.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  name: CreateSubmodelCad(Program.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelCad_AasxToolkit_Program_InputFilePrefs_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
-  commentId: M:AasxToolkit.Program.CreateSubmodelCad(AasxToolkit.Program.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  fullName: AasxToolkit.Program.CreateSubmodelCad(AasxToolkit.Program.InputFilePrefs, AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  nameWithType: Program.CreateSubmodelCad(Program.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-- uid: AasxToolkit.Program.CreateSubmodelCad*
-  name: CreateSubmodelCad
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelCad_
-  commentId: Overload:AasxToolkit.Program.CreateSubmodelCad
-  isSpec: "True"
-  fullName: AasxToolkit.Program.CreateSubmodelCad
-  nameWithType: Program.CreateSubmodelCad
-- uid: AasxToolkit.Program.CreateSubmodelDatasheet(AasxToolkit.Program.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  name: CreateSubmodelDatasheet(Program.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelDatasheet_AasxToolkit_Program_InputFilePrefs_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
-  commentId: M:AasxToolkit.Program.CreateSubmodelDatasheet(AasxToolkit.Program.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  fullName: AasxToolkit.Program.CreateSubmodelDatasheet(AasxToolkit.Program.InputFilePrefs, AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  nameWithType: Program.CreateSubmodelDatasheet(Program.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-- uid: AasxToolkit.Program.CreateSubmodelDatasheet*
-  name: CreateSubmodelDatasheet
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelDatasheet_
-  commentId: Overload:AasxToolkit.Program.CreateSubmodelDatasheet
-  isSpec: "True"
-  fullName: AasxToolkit.Program.CreateSubmodelDatasheet
-  nameWithType: Program.CreateSubmodelDatasheet
-- uid: AasxToolkit.Program.CreateSubmodelDocumentationBasedOnVDI2770(AasxToolkit.Program.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  name: CreateSubmodelDocumentationBasedOnVDI2770(Program.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelDocumentationBasedOnVDI2770_AasxToolkit_Program_InputFilePrefs_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
-  commentId: M:AasxToolkit.Program.CreateSubmodelDocumentationBasedOnVDI2770(AasxToolkit.Program.InputFilePrefs,AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  fullName: AasxToolkit.Program.CreateSubmodelDocumentationBasedOnVDI2770(AasxToolkit.Program.InputFilePrefs, AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  nameWithType: Program.CreateSubmodelDocumentationBasedOnVDI2770(Program.InputFilePrefs, IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-- uid: AasxToolkit.Program.CreateSubmodelDocumentationBasedOnVDI2770*
-  name: CreateSubmodelDocumentationBasedOnVDI2770
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelDocumentationBasedOnVDI2770_
-  commentId: Overload:AasxToolkit.Program.CreateSubmodelDocumentationBasedOnVDI2770
-  isSpec: "True"
-  fullName: AasxToolkit.Program.CreateSubmodelDocumentationBasedOnVDI2770
-  nameWithType: Program.CreateSubmodelDocumentationBasedOnVDI2770
-- uid: AasxToolkit.Program.CreateSubmodelEnergyMode(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  name: CreateSubmodelEnergyMode(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelEnergyMode_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
-  commentId: M:AasxToolkit.Program.CreateSubmodelEnergyMode(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  fullName: AasxToolkit.Program.CreateSubmodelEnergyMode(AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  nameWithType: Program.CreateSubmodelEnergyMode(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-- uid: AasxToolkit.Program.CreateSubmodelEnergyMode*
-  name: CreateSubmodelEnergyMode
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelEnergyMode_
-  commentId: Overload:AasxToolkit.Program.CreateSubmodelEnergyMode
-  isSpec: "True"
-  fullName: AasxToolkit.Program.CreateSubmodelEnergyMode
-  nameWithType: Program.CreateSubmodelEnergyMode
-- uid: AasxToolkit.Program.CreateSubmodelVariousSingleItems(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  name: CreateSubmodelVariousSingleItems(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelVariousSingleItems_AasxToolkit_IriIdentifierRepository_AdminShellNS_AdminShellV20_AdministrationShellEnv_
-  commentId: M:AasxToolkit.Program.CreateSubmodelVariousSingleItems(AasxToolkit.IriIdentifierRepository,AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  fullName: AasxToolkit.Program.CreateSubmodelVariousSingleItems(AasxToolkit.IriIdentifierRepository, AdminShellNS.AdminShellV20.AdministrationShellEnv)
-  nameWithType: Program.CreateSubmodelVariousSingleItems(IriIdentifierRepository, AdminShellV20.AdministrationShellEnv)
-- uid: AasxToolkit.Program.CreateSubmodelVariousSingleItems*
-  name: CreateSubmodelVariousSingleItems
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_CreateSubmodelVariousSingleItems_
-  commentId: Overload:AasxToolkit.Program.CreateSubmodelVariousSingleItems
-  isSpec: "True"
-  fullName: AasxToolkit.Program.CreateSubmodelVariousSingleItems
-  nameWithType: Program.CreateSubmodelVariousSingleItems
-- uid: AasxToolkit.Program.GeneratePackage(System.String)
-  name: GeneratePackage(String)
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_GeneratePackage_System_String_
-  commentId: M:AasxToolkit.Program.GeneratePackage(System.String)
-  fullName: AasxToolkit.Program.GeneratePackage(System.String)
-  nameWithType: Program.GeneratePackage(String)
-- uid: AasxToolkit.Program.GeneratePackage*
-  name: GeneratePackage
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_GeneratePackage_
-  commentId: Overload:AasxToolkit.Program.GeneratePackage
-  isSpec: "True"
-  fullName: AasxToolkit.Program.GeneratePackage
-  nameWithType: Program.GeneratePackage
-- uid: AasxToolkit.Program.InputFilePrefs
-  name: Program.InputFilePrefs
-  href: api/AasxToolkit.Program.InputFilePrefs.html
-  commentId: T:AasxToolkit.Program.InputFilePrefs
-  fullName: AasxToolkit.Program.InputFilePrefs
-  nameWithType: Program.InputFilePrefs
-- uid: AasxToolkit.Program.InputFilePrefs.FileRec
-  name: Program.InputFilePrefs.FileRec
-  href: api/AasxToolkit.Program.InputFilePrefs.FileRec.html
-  commentId: T:AasxToolkit.Program.InputFilePrefs.FileRec
-  fullName: AasxToolkit.Program.InputFilePrefs.FileRec
-  nameWithType: Program.InputFilePrefs.FileRec
-- uid: AasxToolkit.Program.InputFilePrefs.FileRec.args
-  name: args
-  href: api/AasxToolkit.Program.InputFilePrefs.FileRec.html#AasxToolkit_Program_InputFilePrefs_FileRec_args
-  commentId: F:AasxToolkit.Program.InputFilePrefs.FileRec.args
-  fullName: AasxToolkit.Program.InputFilePrefs.FileRec.args
-  nameWithType: Program.InputFilePrefs.FileRec.args
-- uid: AasxToolkit.Program.InputFilePrefs.FileRec.fn
-  name: fn
-  href: api/AasxToolkit.Program.InputFilePrefs.FileRec.html#AasxToolkit_Program_InputFilePrefs_FileRec_fn
-  commentId: F:AasxToolkit.Program.InputFilePrefs.FileRec.fn
-  fullName: AasxToolkit.Program.InputFilePrefs.FileRec.fn
-  nameWithType: Program.InputFilePrefs.FileRec.fn
-- uid: AasxToolkit.Program.InputFilePrefs.FileRec.submodel
-  name: submodel
-  href: api/AasxToolkit.Program.InputFilePrefs.FileRec.html#AasxToolkit_Program_InputFilePrefs_FileRec_submodel
-  commentId: F:AasxToolkit.Program.InputFilePrefs.FileRec.submodel
-  fullName: AasxToolkit.Program.InputFilePrefs.FileRec.submodel
-  nameWithType: Program.InputFilePrefs.FileRec.submodel
-- uid: AasxToolkit.Program.InputFilePrefs.FileRec.targetdir
-  name: targetdir
-  href: api/AasxToolkit.Program.InputFilePrefs.FileRec.html#AasxToolkit_Program_InputFilePrefs_FileRec_targetdir
-  commentId: F:AasxToolkit.Program.InputFilePrefs.FileRec.targetdir
-  fullName: AasxToolkit.Program.InputFilePrefs.FileRec.targetdir
-  nameWithType: Program.InputFilePrefs.FileRec.targetdir
-- uid: AasxToolkit.Program.InputFilePrefs.filerecs
-  name: filerecs
-  href: api/AasxToolkit.Program.InputFilePrefs.html#AasxToolkit_Program_InputFilePrefs_filerecs
-  commentId: F:AasxToolkit.Program.InputFilePrefs.filerecs
-  fullName: AasxToolkit.Program.InputFilePrefs.filerecs
-  nameWithType: Program.InputFilePrefs.filerecs
-- uid: AasxToolkit.Program.InputFilePrefs.FindFileRecFn(System.String)
-  name: FindFileRecFn(String)
-  href: api/AasxToolkit.Program.InputFilePrefs.html#AasxToolkit_Program_InputFilePrefs_FindFileRecFn_System_String_
-  commentId: M:AasxToolkit.Program.InputFilePrefs.FindFileRecFn(System.String)
-  fullName: AasxToolkit.Program.InputFilePrefs.FindFileRecFn(System.String)
-  nameWithType: Program.InputFilePrefs.FindFileRecFn(String)
-- uid: AasxToolkit.Program.InputFilePrefs.FindFileRecFn*
-  name: FindFileRecFn
-  href: api/AasxToolkit.Program.InputFilePrefs.html#AasxToolkit_Program_InputFilePrefs_FindFileRecFn_
-  commentId: Overload:AasxToolkit.Program.InputFilePrefs.FindFileRecFn
-  isSpec: "True"
-  fullName: AasxToolkit.Program.InputFilePrefs.FindFileRecFn
-  nameWithType: Program.InputFilePrefs.FindFileRecFn
-- uid: AasxToolkit.Program.InputFilePrefs.WebRec
-  name: Program.InputFilePrefs.WebRec
-  href: api/AasxToolkit.Program.InputFilePrefs.WebRec.html
-  commentId: T:AasxToolkit.Program.InputFilePrefs.WebRec
-  fullName: AasxToolkit.Program.InputFilePrefs.WebRec
-  nameWithType: Program.InputFilePrefs.WebRec
-- uid: AasxToolkit.Program.InputFilePrefs.WebRec.args
-  name: args
-  href: api/AasxToolkit.Program.InputFilePrefs.WebRec.html#AasxToolkit_Program_InputFilePrefs_WebRec_args
-  commentId: F:AasxToolkit.Program.InputFilePrefs.WebRec.args
-  fullName: AasxToolkit.Program.InputFilePrefs.WebRec.args
-  nameWithType: Program.InputFilePrefs.WebRec.args
-- uid: AasxToolkit.Program.InputFilePrefs.WebRec.submodel
-  name: submodel
-  href: api/AasxToolkit.Program.InputFilePrefs.WebRec.html#AasxToolkit_Program_InputFilePrefs_WebRec_submodel
-  commentId: F:AasxToolkit.Program.InputFilePrefs.WebRec.submodel
-  fullName: AasxToolkit.Program.InputFilePrefs.WebRec.submodel
-  nameWithType: Program.InputFilePrefs.WebRec.submodel
-- uid: AasxToolkit.Program.InputFilePrefs.WebRec.url
-  name: url
-  href: api/AasxToolkit.Program.InputFilePrefs.WebRec.html#AasxToolkit_Program_InputFilePrefs_WebRec_url
-  commentId: F:AasxToolkit.Program.InputFilePrefs.WebRec.url
-  fullName: AasxToolkit.Program.InputFilePrefs.WebRec.url
-  nameWithType: Program.InputFilePrefs.WebRec.url
-- uid: AasxToolkit.Program.InputFilePrefs.webrecs
-  name: webrecs
-  href: api/AasxToolkit.Program.InputFilePrefs.html#AasxToolkit_Program_InputFilePrefs_webrecs
-  commentId: F:AasxToolkit.Program.InputFilePrefs.webrecs
-  fullName: AasxToolkit.Program.InputFilePrefs.webrecs
-  nameWithType: Program.InputFilePrefs.webrecs
-- uid: AasxToolkit.Program.Test4
-  name: Test4()
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_Test4
-  commentId: M:AasxToolkit.Program.Test4
-  fullName: AasxToolkit.Program.Test4()
-  nameWithType: Program.Test4()
-- uid: AasxToolkit.Program.Test4*
-  name: Test4
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_Test4_
-  commentId: Overload:AasxToolkit.Program.Test4
-  isSpec: "True"
-  fullName: AasxToolkit.Program.Test4
-  nameWithType: Program.Test4
-- uid: AasxToolkit.Program.TestSerialize(AdminShellNS.AdminShellPackageEnv)
-  name: TestSerialize(AdminShellPackageEnv)
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_TestSerialize_AdminShellNS_AdminShellPackageEnv_
-  commentId: M:AasxToolkit.Program.TestSerialize(AdminShellNS.AdminShellPackageEnv)
-  fullName: AasxToolkit.Program.TestSerialize(AdminShellNS.AdminShellPackageEnv)
-  nameWithType: Program.TestSerialize(AdminShellPackageEnv)
-- uid: AasxToolkit.Program.TestSerialize*
-  name: TestSerialize
-  href: api/AasxToolkit.Program.html#AasxToolkit_Program_TestSerialize_
-  commentId: Overload:AasxToolkit.Program.TestSerialize
-  isSpec: "True"
-  fullName: AasxToolkit.Program.TestSerialize
-  nameWithType: Program.TestSerialize
+  fullName: AasxToolkit.Program.MainWithExitCode
+  nameWithType: Program.MainWithExitCode
 - uid: AasxUaNetServer
   name: AasxUaNetServer
   href: api/AasxUaNetServer.html

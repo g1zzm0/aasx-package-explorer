@@ -87,6 +87,53 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
+      <h4><a class="xref" href="AasxToolkit.Cli.html">Cli</a></h4>
+      <section><p>Handles the command-line interface.</p>
+<p>The handling of the command-line arguments was separated in three phases:</p>
+<ul>
+<li>Command declaration: the interface is specified <emph>in a declarative manner</emph></li>,
+<li>Instruction parsing: the actual command-line arguments are parsed into <emph>instructions</emph> and</li>
+<li>Execution: the chain of instructions is finally executed, one instruction at the time.</li>  
+</ul>
+<p>Think of the process as a mapping: commands -&gt; instructions -&gt; execution.</p>
+<p>Declarative specification allows for better readability. Even without the help message, we aim to make it
+obvious how the program should be invoked by just looking at the code.</p>
+<p>The decoupling of parsing to a separate phase let us encapsulate all the low-level details into this module and
+test them in separation.</p>
+<p>By introducing <emph>instructions</emph> as units of execution, the code can be easily reused.
+For example, different commands can be parsed into the same instruction with different parameters.</p>
+<p>The execution phase allows us to nicely share the context <emph>between</emph> the execution of the individual
+instructions and return pre-emptively from the execution loop, if necessary.</p>
+</section>
+      <h4><a class="xref" href="AasxToolkit.Cli.Arg.html">Cli.Arg</a></h4>
+      <section><p>Declares an argument of a command.</p>
+</section>
+      <h4><a class="xref" href="AasxToolkit.Cli.Command.html">Cli.Command</a></h4>
+      <section><p>Declares a command of the program.</p>
+</section>
+      <h4><a class="xref" href="AasxToolkit.Cli.CommandLine.html">Cli.CommandLine</a></h4>
+      <section><p>Declares how the command-line arguments should be handled.</p>
+</section>
+      <h4><a class="xref" href="AasxToolkit.Cli.Indentation.html">Cli.Indentation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AasxToolkit.Cli.Parsing.html">Cli.Parsing</a></h4>
+      <section><p>Represents a parsing of a command as specified on the command-line.</p>
+</section>
+      <h4><a class="xref" href="AasxToolkit.Cli.ParsingOfInstructions.html">Cli.ParsingOfInstructions</a></h4>
+      <section><p>Represents a parsing of the command-line arguments into the instructions.</p>
+</section>
+      <h4><a class="xref" href="AasxToolkit.Execution.html">Execution</a></h4>
+      <section><p>This module handles the execution of the instructions parsed from the command line.
+Please see <a class="xref" href="AasxToolkit.Cli.html">Cli</a> for the overall design.</p>
+</section>
+      <h4><a class="xref" href="AasxToolkit.Generate.html">Generate</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AasxToolkit.Generate.InputFilePrefs.html">Generate.InputFilePrefs</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AasxToolkit.Generate.InputFilePrefs.FileRec.html">Generate.InputFilePrefs.FileRec</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AasxToolkit.Generate.InputFilePrefs.WebRec.html">Generate.InputFilePrefs.WebRec</a></h4>
+      <section></section>
       <h4><a class="xref" href="AasxToolkit.IriIdentifierRepository.html">IriIdentifierRepository</a></h4>
       <section></section>
       <h4><a class="xref" href="AasxToolkit.IriIdentifierRepository.Entry.html">IriIdentifierRepository.Entry</a></h4>
@@ -97,11 +144,14 @@
       <section></section>
       <h4><a class="xref" href="AasxToolkit.Program.html">Program</a></h4>
       <section></section>
-      <h4><a class="xref" href="AasxToolkit.Program.InputFilePrefs.html">Program.InputFilePrefs</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AasxToolkit.Program.InputFilePrefs.FileRec.html">Program.InputFilePrefs.FileRec</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AasxToolkit.Program.InputFilePrefs.WebRec.html">Program.InputFilePrefs.WebRec</a></h4>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="AasxToolkit.Cli.IInstruction.html">Cli.IInstruction</a></h4>
+      <section><p>Represents a single instruction to the program.</p>
+</section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="AasxToolkit.Cli.ParseFunction.html">Cli.ParseFunction</a></h4>
       <section></section>
 </article>
           </div>

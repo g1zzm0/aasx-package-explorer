@@ -5750,6 +5750,174 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Cli.Arg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Cli.Arg.html",
+          "hash": "E/2UJpqh9Qu+guvrKUIAdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Cli.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Cli.Command.html",
+          "hash": "271ppv3vgtlIhAu5YntVPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Cli.CommandLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Cli.CommandLine.html",
+          "hash": "YchmW82+wXlDTnW6j+R/LA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Cli.IInstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Cli.IInstruction.html",
+          "hash": "QWFNpRYMe4ulD8x4cXCj/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Cli.Indentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Cli.Indentation.html",
+          "hash": "BU/BxVFlLdPRu14e5QIE7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Cli.ParseFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Cli.ParseFunction.html",
+          "hash": "3dVx30m+DsdQlgVCE++u0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Cli.Parsing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Cli.Parsing.html",
+          "hash": "OjMfTBieNxGzsI2tHisPSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Cli.ParsingOfInstructions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Cli.ParsingOfInstructions.html",
+          "hash": "cfpx2MNjRO72u63411qxXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Cli.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Cli.html",
+          "hash": "aRtAY2WvmB7Bt/HBRm6KPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Execution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Execution.html",
+          "hash": "mPeJZuDuMmv6i4Uex+nlWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Generate.InputFilePrefs.FileRec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Generate.InputFilePrefs.FileRec.html",
+          "hash": "mMwfMqZIwbYSnUaXoqmWRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Generate.InputFilePrefs.WebRec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Generate.InputFilePrefs.WebRec.html",
+          "hash": "I0o8DzipyNIgdjMkuBXt0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Generate.InputFilePrefs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Generate.InputFilePrefs.html",
+          "hash": "q3qD4dnEfyMpmHON8SGaqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxToolkit.Generate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxToolkit.Generate.html",
+          "hash": "Wrda87HGUMOC5+X1VJnTGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AasxToolkit.IriIdentifierRepository.Entry.yml",
       "output": {
         ".html": {
@@ -5798,47 +5966,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/AasxToolkit.Program.InputFilePrefs.FileRec.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxToolkit.Program.InputFilePrefs.FileRec.html",
-          "hash": "79IZS6uuypnGw4qHlYdjtw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AasxToolkit.Program.InputFilePrefs.WebRec.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxToolkit.Program.InputFilePrefs.WebRec.html",
-          "hash": "0w6FI7wR4CwoTxUdpVCKVw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AasxToolkit.Program.InputFilePrefs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AasxToolkit.Program.InputFilePrefs.html",
-          "hash": "+GaDz+JH/YjvC+9aqkUIzQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/AasxToolkit.Program.yml",
       "output": {
         ".html": {
           "relative_path": "api/AasxToolkit.Program.html",
-          "hash": "5iPEgPYFfPeJCqz2U5JGWw=="
+          "hash": "e0Dt4hEv2n0qGQALlu/kBA=="
         }
       },
       "is_incremental": false,
@@ -5850,7 +5982,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxToolkit.html",
-          "hash": "Ih0u4J9Od4sjp+xCfe8L7A=="
+          "hash": "iI4CeaA6hFol1CY4eMxBGQ=="
         }
       },
       "is_incremental": false,
@@ -8718,7 +8850,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "WKhesZhxmfyDBbPQ1isRLw=="
+          "hash": "pIg8WCsd9SWwMJGouMUWtw=="
         }
       },
       "is_incremental": false,
@@ -8923,7 +9055,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 724,
+          "total_file_count": 735,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
