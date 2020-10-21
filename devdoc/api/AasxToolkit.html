@@ -104,6 +104,17 @@ test them in separation.</p>
 For example, different commands can be parsed into the same instruction with different parameters.</p>
 <p>The execution phase allows us to nicely share the context <emph>between</emph> the execution of the individual
 instructions and return pre-emptively from the execution loop, if necessary.</p>
+<p>To add a new command-instruction-execution to the program, follow these steps:</p>
+<ol>
+<li>Start by conceptualizing what data your instruction needs. Write it down by writing a class
+    implementing <a class="xref" href="AasxToolkit.Cli.IInstruction.html">Cli.IInstruction</a> and put it in <span class="xref">AasxToolkit.Instruction</span>.</li>
+<li>Add the command to <a class="xref" href="AasxToolkit.Program.html">Program</a>. Provide parse function that translates command-line arguments
+    into your instruction.</li>
+<li>Implement the execution of your instruction by adding a case corresponding to your instruction to
+    the switch in <a class="xref" href="AasxToolkit.Execution.html">Execution</a>.</li>
+<li>Write the corresponding unit tests. Depending on the complexity, you might need to test the parsing and
+    execution in isolation.</li>
+</ol>
 </section>
       <h4><a class="xref" href="AasxToolkit.Cli.Arg.html">Cli.Arg</a></h4>
       <section><p>Declares an argument of a command.</p>
