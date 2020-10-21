@@ -614,16 +614,16 @@ Michael Hoffmeister,
 
 ## AasxWpfControlLibrary\DispEditHelperBasics.cs
 
-[Line 1165, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1165
+[Line 1166, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1166
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     possibly [Jump] button??
 
-[Line 1309, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1309
+[Line 1335, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1335
 ), 
 Michael Hoffmeister,
 2020-08-01

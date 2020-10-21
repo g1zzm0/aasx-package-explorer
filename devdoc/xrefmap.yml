@@ -15202,15 +15202,15 @@ references:
   isSpec: "True"
   fullName: AasxIntegrationBase.AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir
   nameWithType: AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir
-- uid: AasxIntegrationBase.AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir``1(System.String,System.Reflection.Assembly,JsonSerializerSettings)
-  name: TryLoadAdditionalOptionsFromAssemblyDir<T>(String, Assembly, JsonSerializerSettings)
-  href: api/AasxIntegrationBase.AasxPluginOptionsBase.html#AasxIntegrationBase_AasxPluginOptionsBase_TryLoadAdditionalOptionsFromAssemblyDir__1_System_String_System_Reflection_Assembly_JsonSerializerSettings_
-  commentId: M:AasxIntegrationBase.AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir``1(System.String,System.Reflection.Assembly,JsonSerializerSettings)
-  name.vb: TryLoadAdditionalOptionsFromAssemblyDir(Of T)(String, Assembly, JsonSerializerSettings)
-  fullName: AasxIntegrationBase.AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir<T>(System.String, System.Reflection.Assembly, JsonSerializerSettings)
-  fullName.vb: AasxIntegrationBase.AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir(Of T)(System.String, System.Reflection.Assembly, JsonSerializerSettings)
-  nameWithType: AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir<T>(String, Assembly, JsonSerializerSettings)
-  nameWithType.vb: AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir(Of T)(String, Assembly, JsonSerializerSettings)
+- uid: AasxIntegrationBase.AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir``1(System.String,System.Reflection.Assembly,JsonSerializerSettings,AasxIntegrationBase.LogInstance)
+  name: TryLoadAdditionalOptionsFromAssemblyDir<T>(String, Assembly, JsonSerializerSettings, LogInstance)
+  href: api/AasxIntegrationBase.AasxPluginOptionsBase.html#AasxIntegrationBase_AasxPluginOptionsBase_TryLoadAdditionalOptionsFromAssemblyDir__1_System_String_System_Reflection_Assembly_JsonSerializerSettings_AasxIntegrationBase_LogInstance_
+  commentId: M:AasxIntegrationBase.AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir``1(System.String,System.Reflection.Assembly,JsonSerializerSettings,AasxIntegrationBase.LogInstance)
+  name.vb: TryLoadAdditionalOptionsFromAssemblyDir(Of T)(String, Assembly, JsonSerializerSettings, LogInstance)
+  fullName: AasxIntegrationBase.AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir<T>(System.String, System.Reflection.Assembly, JsonSerializerSettings, AasxIntegrationBase.LogInstance)
+  fullName.vb: AasxIntegrationBase.AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir(Of T)(System.String, System.Reflection.Assembly, JsonSerializerSettings, AasxIntegrationBase.LogInstance)
+  nameWithType: AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir<T>(String, Assembly, JsonSerializerSettings, LogInstance)
+  nameWithType.vb: AasxPluginOptionsBase.TryLoadAdditionalOptionsFromAssemblyDir(Of T)(String, Assembly, JsonSerializerSettings, LogInstance)
 - uid: AasxIntegrationBase.AasxPluginOptionSerialization
   name: AasxPluginOptionSerialization
   href: api/AasxIntegrationBase.AasxPluginOptionSerialization.html
@@ -18863,15 +18863,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperBasics.AddHintBubble
   nameWithType: DispEditHelperBasics.AddHintBubble
-- uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.String[],AdminShellNS.AdminShellV20.Key[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction,AdminShellNS.AdminShellPackageEnv[])
-  name: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String[], AdminShellV20.Key[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction, AdminShellPackageEnv[])
-  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyListKeys_System_Windows_Controls_StackPanel_System_String_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_AdminShellNS_AdminShellPackageEnv_System_String_System_Boolean_System_String___AdminShellNS_AdminShellV20_Key___System_Func_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_LambdaAction__AasxPackageExplorer_ModifyRepo_LambdaAction_AdminShellNS_AdminShellPackageEnv___
-  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.String[],AdminShellNS.AdminShellV20.Key[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction,AdminShellNS.AdminShellPackageEnv[])
-  name.vb: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String(), AdminShellV20.Key(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction, AdminShellPackageEnv())
-  fullName: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.String[], AdminShellNS.AdminShellV20.Key[], System.Func<AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction>, AasxPackageExplorer.ModifyRepo.LambdaAction, AdminShellNS.AdminShellPackageEnv[])
-  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.String(), AdminShellNS.AdminShellV20.Key(), System.Func(Of AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction), AasxPackageExplorer.ModifyRepo.LambdaAction, AdminShellNS.AdminShellPackageEnv())
-  nameWithType: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String[], AdminShellV20.Key[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction, AdminShellPackageEnv[])
-  nameWithType.vb: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, String(), AdminShellV20.Key(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction, AdminShellPackageEnv())
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.Boolean,System.String[],AdminShellNS.AdminShellV20.Key[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction,AdminShellNS.AdminShellPackageEnv[])
+  name: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, Boolean, String[], AdminShellV20.Key[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction, AdminShellPackageEnv[])
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyListKeys_System_Windows_Controls_StackPanel_System_String_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_AdminShellNS_AdminShellPackageEnv_System_String_System_Boolean_System_Boolean_System_String___AdminShellNS_AdminShellV20_Key___System_Func_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_LambdaAction__AasxPackageExplorer_ModifyRepo_LambdaAction_AdminShellNS_AdminShellPackageEnv___
+  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.Boolean,System.String[],AdminShellNS.AdminShellV20.Key[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction,AdminShellNS.AdminShellPackageEnv[])
+  name.vb: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, Boolean, String(), AdminShellV20.Key(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction, AdminShellPackageEnv())
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.Boolean, System.String[], AdminShellNS.AdminShellV20.Key[], System.Func<AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction>, AasxPackageExplorer.ModifyRepo.LambdaAction, AdminShellNS.AdminShellPackageEnv[])
+  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.Boolean, System.String(), AdminShellNS.AdminShellV20.Key(), System.Func(Of AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction), AasxPackageExplorer.ModifyRepo.LambdaAction, AdminShellNS.AdminShellPackageEnv())
+  nameWithType: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, Boolean, String[], AdminShellV20.Key[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction, AdminShellPackageEnv[])
+  nameWithType.vb: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, Boolean, String(), AdminShellV20.Key(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction, AdminShellPackageEnv())
 - uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys*
   name: AddKeyListKeys
   href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyListKeys_
@@ -22801,6 +22801,81 @@ references:
   commentId: F:AasxPackageExplorer.SelectFromListFlyoutItem.Text
   fullName: AasxPackageExplorer.SelectFromListFlyoutItem.Text
   nameWithType: SelectFromListFlyoutItem.Text
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout
+  name: SelectFromReferablesPoolFlyout
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html
+  commentId: T:AasxPackageExplorer.SelectFromReferablesPoolFlyout
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout
+  nameWithType: SelectFromReferablesPoolFlyout
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.#ctor
+  name: SelectFromReferablesPoolFlyout()
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout__ctor
+  commentId: M:AasxPackageExplorer.SelectFromReferablesPoolFlyout.#ctor
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.SelectFromReferablesPoolFlyout()
+  nameWithType: SelectFromReferablesPoolFlyout.SelectFromReferablesPoolFlyout()
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.#ctor*
+  name: SelectFromReferablesPoolFlyout
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout__ctor_
+  commentId: Overload:AasxPackageExplorer.SelectFromReferablesPoolFlyout.#ctor
+  isSpec: "True"
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.SelectFromReferablesPoolFlyout
+  nameWithType: SelectFromReferablesPoolFlyout.SelectFromReferablesPoolFlyout
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.Caption
+  name: Caption
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout_Caption
+  commentId: F:AasxPackageExplorer.SelectFromReferablesPoolFlyout.Caption
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.Caption
+  nameWithType: SelectFromReferablesPoolFlyout.Caption
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlClosed
+  name: ControlClosed
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout_ControlClosed
+  commentId: E:AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlClosed
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlClosed
+  nameWithType: SelectFromReferablesPoolFlyout.ControlClosed
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlPreviewKeyDown(System.Windows.Input.KeyEventArgs)
+  name: ControlPreviewKeyDown(KeyEventArgs)
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout_ControlPreviewKeyDown_System_Windows_Input_KeyEventArgs_
+  commentId: M:AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlPreviewKeyDown(System.Windows.Input.KeyEventArgs)
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlPreviewKeyDown(System.Windows.Input.KeyEventArgs)
+  nameWithType: SelectFromReferablesPoolFlyout.ControlPreviewKeyDown(KeyEventArgs)
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlPreviewKeyDown*
+  name: ControlPreviewKeyDown
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout_ControlPreviewKeyDown_
+  commentId: Overload:AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlPreviewKeyDown
+  isSpec: "True"
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlPreviewKeyDown
+  nameWithType: SelectFromReferablesPoolFlyout.ControlPreviewKeyDown
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlStart
+  name: ControlStart()
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout_ControlStart
+  commentId: M:AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlStart
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlStart()
+  nameWithType: SelectFromReferablesPoolFlyout.ControlStart()
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlStart*
+  name: ControlStart
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout_ControlStart_
+  commentId: Overload:AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlStart
+  isSpec: "True"
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ControlStart
+  nameWithType: SelectFromReferablesPoolFlyout.ControlStart
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.DataSourcePools
+  name: DataSourcePools
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout_DataSourcePools
+  commentId: F:AasxPackageExplorer.SelectFromReferablesPoolFlyout.DataSourcePools
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.DataSourcePools
+  nameWithType: SelectFromReferablesPoolFlyout.DataSourcePools
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ResultIndex
+  name: ResultIndex
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout_ResultIndex
+  commentId: F:AasxPackageExplorer.SelectFromReferablesPoolFlyout.ResultIndex
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ResultIndex
+  nameWithType: SelectFromReferablesPoolFlyout.ResultIndex
+- uid: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ResultItem
+  name: ResultItem
+  href: api/AasxPackageExplorer.SelectFromReferablesPoolFlyout.html#AasxPackageExplorer_SelectFromReferablesPoolFlyout_ResultItem
+  commentId: F:AasxPackageExplorer.SelectFromReferablesPoolFlyout.ResultItem
+  fullName: AasxPackageExplorer.SelectFromReferablesPoolFlyout.ResultItem
+  nameWithType: SelectFromReferablesPoolFlyout.ResultItem
 - uid: AasxPackageExplorer.SelectFromRepositoryFlyout
   name: SelectFromRepositoryFlyout
   href: api/AasxPackageExplorer.SelectFromRepositoryFlyout.html
@@ -26713,12 +26788,12 @@ references:
   isSpec: "True"
   fullName: AasxPluginTechnicalData.TechDataFooterControl.TechDataFooterControl
   nameWithType: TechDataFooterControl.TechDataFooterControl
-- uid: AasxPluginTechnicalData.TechDataFooterControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs,System.String,AdminShellNS.AdminShellV20.Submodel)
-  name: SetContents(AdminShellPackageEnv, DefinitionsZveiTechnicalData.SetOfDefs, String, AdminShellV20.Submodel)
-  href: api/AasxPluginTechnicalData.TechDataFooterControl.html#AasxPluginTechnicalData_TechDataFooterControl_SetContents_AdminShellNS_AdminShellPackageEnv_AasxPredefinedConcepts_DefinitionsZveiTechnicalData_SetOfDefs_System_String_AdminShellNS_AdminShellV20_Submodel_
-  commentId: M:AasxPluginTechnicalData.TechDataFooterControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs,System.String,AdminShellNS.AdminShellV20.Submodel)
-  fullName: AasxPluginTechnicalData.TechDataFooterControl.SetContents(AdminShellNS.AdminShellPackageEnv, AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs, System.String, AdminShellNS.AdminShellV20.Submodel)
-  nameWithType: TechDataFooterControl.SetContents(AdminShellPackageEnv, DefinitionsZveiTechnicalData.SetOfDefs, String, AdminShellV20.Submodel)
+- uid: AasxPluginTechnicalData.TechDataFooterControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData,System.String,AdminShellNS.AdminShellV20.Submodel)
+  name: SetContents(AdminShellPackageEnv, ConceptModelZveiTechnicalData, String, AdminShellV20.Submodel)
+  href: api/AasxPluginTechnicalData.TechDataFooterControl.html#AasxPluginTechnicalData_TechDataFooterControl_SetContents_AdminShellNS_AdminShellPackageEnv_AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_System_String_AdminShellNS_AdminShellV20_Submodel_
+  commentId: M:AasxPluginTechnicalData.TechDataFooterControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData,System.String,AdminShellNS.AdminShellV20.Submodel)
+  fullName: AasxPluginTechnicalData.TechDataFooterControl.SetContents(AdminShellNS.AdminShellPackageEnv, AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData, System.String, AdminShellNS.AdminShellV20.Submodel)
+  nameWithType: TechDataFooterControl.SetContents(AdminShellPackageEnv, ConceptModelZveiTechnicalData, String, AdminShellV20.Submodel)
 - uid: AasxPluginTechnicalData.TechDataFooterControl.SetContents*
   name: SetContents
   href: api/AasxPluginTechnicalData.TechDataFooterControl.html#AasxPluginTechnicalData_TechDataFooterControl_SetContents_
@@ -26847,12 +26922,12 @@ references:
   isSpec: "True"
   fullName: AasxPluginTechnicalData.TechDataHeaderControl.ProductImageRecord.ImgData
   nameWithType: TechDataHeaderControl.ProductImageRecord.ImgData
-- uid: AasxPluginTechnicalData.TechDataHeaderControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs,System.String,AdminShellNS.AdminShellV20.Submodel)
-  name: SetContents(AdminShellPackageEnv, DefinitionsZveiTechnicalData.SetOfDefs, String, AdminShellV20.Submodel)
-  href: api/AasxPluginTechnicalData.TechDataHeaderControl.html#AasxPluginTechnicalData_TechDataHeaderControl_SetContents_AdminShellNS_AdminShellPackageEnv_AasxPredefinedConcepts_DefinitionsZveiTechnicalData_SetOfDefs_System_String_AdminShellNS_AdminShellV20_Submodel_
-  commentId: M:AasxPluginTechnicalData.TechDataHeaderControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs,System.String,AdminShellNS.AdminShellV20.Submodel)
-  fullName: AasxPluginTechnicalData.TechDataHeaderControl.SetContents(AdminShellNS.AdminShellPackageEnv, AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs, System.String, AdminShellNS.AdminShellV20.Submodel)
-  nameWithType: TechDataHeaderControl.SetContents(AdminShellPackageEnv, DefinitionsZveiTechnicalData.SetOfDefs, String, AdminShellV20.Submodel)
+- uid: AasxPluginTechnicalData.TechDataHeaderControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData,System.String,AdminShellNS.AdminShellV20.Submodel)
+  name: SetContents(AdminShellPackageEnv, ConceptModelZveiTechnicalData, String, AdminShellV20.Submodel)
+  href: api/AasxPluginTechnicalData.TechDataHeaderControl.html#AasxPluginTechnicalData_TechDataHeaderControl_SetContents_AdminShellNS_AdminShellPackageEnv_AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_System_String_AdminShellNS_AdminShellV20_Submodel_
+  commentId: M:AasxPluginTechnicalData.TechDataHeaderControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData,System.String,AdminShellNS.AdminShellV20.Submodel)
+  fullName: AasxPluginTechnicalData.TechDataHeaderControl.SetContents(AdminShellNS.AdminShellPackageEnv, AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData, System.String, AdminShellNS.AdminShellV20.Submodel)
+  nameWithType: TechDataHeaderControl.SetContents(AdminShellPackageEnv, ConceptModelZveiTechnicalData, String, AdminShellV20.Submodel)
 - uid: AasxPluginTechnicalData.TechDataHeaderControl.SetContents*
   name: SetContents
   href: api/AasxPluginTechnicalData.TechDataHeaderControl.html#AasxPluginTechnicalData_TechDataHeaderControl_SetContents_
@@ -26879,12 +26954,12 @@ references:
   isSpec: "True"
   fullName: AasxPluginTechnicalData.TechDataPropertiesControl.TechDataPropertiesControl
   nameWithType: TechDataPropertiesControl.TechDataPropertiesControl
-- uid: AasxPluginTechnicalData.TechDataPropertiesControl.CreateFlowDocument(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs,System.String,AdminShellNS.AdminShellV20.Submodel)
-  name: CreateFlowDocument(AdminShellPackageEnv, DefinitionsZveiTechnicalData.SetOfDefs, String, AdminShellV20.Submodel)
-  href: api/AasxPluginTechnicalData.TechDataPropertiesControl.html#AasxPluginTechnicalData_TechDataPropertiesControl_CreateFlowDocument_AdminShellNS_AdminShellPackageEnv_AasxPredefinedConcepts_DefinitionsZveiTechnicalData_SetOfDefs_System_String_AdminShellNS_AdminShellV20_Submodel_
-  commentId: M:AasxPluginTechnicalData.TechDataPropertiesControl.CreateFlowDocument(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs,System.String,AdminShellNS.AdminShellV20.Submodel)
-  fullName: AasxPluginTechnicalData.TechDataPropertiesControl.CreateFlowDocument(AdminShellNS.AdminShellPackageEnv, AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs, System.String, AdminShellNS.AdminShellV20.Submodel)
-  nameWithType: TechDataPropertiesControl.CreateFlowDocument(AdminShellPackageEnv, DefinitionsZveiTechnicalData.SetOfDefs, String, AdminShellV20.Submodel)
+- uid: AasxPluginTechnicalData.TechDataPropertiesControl.CreateFlowDocument(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData,System.String,AdminShellNS.AdminShellV20.Submodel)
+  name: CreateFlowDocument(AdminShellPackageEnv, ConceptModelZveiTechnicalData, String, AdminShellV20.Submodel)
+  href: api/AasxPluginTechnicalData.TechDataPropertiesControl.html#AasxPluginTechnicalData_TechDataPropertiesControl_CreateFlowDocument_AdminShellNS_AdminShellPackageEnv_AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_System_String_AdminShellNS_AdminShellV20_Submodel_
+  commentId: M:AasxPluginTechnicalData.TechDataPropertiesControl.CreateFlowDocument(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData,System.String,AdminShellNS.AdminShellV20.Submodel)
+  fullName: AasxPluginTechnicalData.TechDataPropertiesControl.CreateFlowDocument(AdminShellNS.AdminShellPackageEnv, AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData, System.String, AdminShellNS.AdminShellV20.Submodel)
+  nameWithType: TechDataPropertiesControl.CreateFlowDocument(AdminShellPackageEnv, ConceptModelZveiTechnicalData, String, AdminShellV20.Submodel)
 - uid: AasxPluginTechnicalData.TechDataPropertiesControl.CreateFlowDocument*
   name: CreateFlowDocument
   href: api/AasxPluginTechnicalData.TechDataPropertiesControl.html#AasxPluginTechnicalData_TechDataPropertiesControl_CreateFlowDocument_
@@ -26892,12 +26967,12 @@ references:
   isSpec: "True"
   fullName: AasxPluginTechnicalData.TechDataPropertiesControl.CreateFlowDocument
   nameWithType: TechDataPropertiesControl.CreateFlowDocument
-- uid: AasxPluginTechnicalData.TechDataPropertiesControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs,System.String,AdminShellNS.AdminShellV20.Submodel)
-  name: SetContents(AdminShellPackageEnv, DefinitionsZveiTechnicalData.SetOfDefs, String, AdminShellV20.Submodel)
-  href: api/AasxPluginTechnicalData.TechDataPropertiesControl.html#AasxPluginTechnicalData_TechDataPropertiesControl_SetContents_AdminShellNS_AdminShellPackageEnv_AasxPredefinedConcepts_DefinitionsZveiTechnicalData_SetOfDefs_System_String_AdminShellNS_AdminShellV20_Submodel_
-  commentId: M:AasxPluginTechnicalData.TechDataPropertiesControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs,System.String,AdminShellNS.AdminShellV20.Submodel)
-  fullName: AasxPluginTechnicalData.TechDataPropertiesControl.SetContents(AdminShellNS.AdminShellPackageEnv, AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs, System.String, AdminShellNS.AdminShellV20.Submodel)
-  nameWithType: TechDataPropertiesControl.SetContents(AdminShellPackageEnv, DefinitionsZveiTechnicalData.SetOfDefs, String, AdminShellV20.Submodel)
+- uid: AasxPluginTechnicalData.TechDataPropertiesControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData,System.String,AdminShellNS.AdminShellV20.Submodel)
+  name: SetContents(AdminShellPackageEnv, ConceptModelZveiTechnicalData, String, AdminShellV20.Submodel)
+  href: api/AasxPluginTechnicalData.TechDataPropertiesControl.html#AasxPluginTechnicalData_TechDataPropertiesControl_SetContents_AdminShellNS_AdminShellPackageEnv_AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_System_String_AdminShellNS_AdminShellV20_Submodel_
+  commentId: M:AasxPluginTechnicalData.TechDataPropertiesControl.SetContents(AdminShellNS.AdminShellPackageEnv,AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData,System.String,AdminShellNS.AdminShellV20.Submodel)
+  fullName: AasxPluginTechnicalData.TechDataPropertiesControl.SetContents(AdminShellNS.AdminShellPackageEnv, AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData, System.String, AdminShellNS.AdminShellV20.Submodel)
+  nameWithType: TechDataPropertiesControl.SetContents(AdminShellPackageEnv, ConceptModelZveiTechnicalData, String, AdminShellV20.Submodel)
 - uid: AasxPluginTechnicalData.TechDataPropertiesControl.SetContents*
   name: SetContents
   href: api/AasxPluginTechnicalData.TechDataPropertiesControl.html#AasxPluginTechnicalData_TechDataPropertiesControl_SetContents_
@@ -26905,12 +26980,12 @@ references:
   isSpec: "True"
   fullName: AasxPluginTechnicalData.TechDataPropertiesControl.SetContents
   nameWithType: TechDataPropertiesControl.SetContents
-- uid: AasxPluginTechnicalData.TechDataPropertiesControl.TableAddPropertyRows_Recurse(AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs,System.String,AdminShellNS.AdminShellPackageEnv,System.Windows.Documents.Table,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,System.Int32)
-  name: TableAddPropertyRows_Recurse(DefinitionsZveiTechnicalData.SetOfDefs, String, AdminShellPackageEnv, Table, AdminShellV20.SubmodelElementWrapperCollection, Int32)
-  href: api/AasxPluginTechnicalData.TechDataPropertiesControl.html#AasxPluginTechnicalData_TechDataPropertiesControl_TableAddPropertyRows_Recurse_AasxPredefinedConcepts_DefinitionsZveiTechnicalData_SetOfDefs_System_String_AdminShellNS_AdminShellPackageEnv_System_Windows_Documents_Table_AdminShellNS_AdminShellV20_SubmodelElementWrapperCollection_System_Int32_
-  commentId: M:AasxPluginTechnicalData.TechDataPropertiesControl.TableAddPropertyRows_Recurse(AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs,System.String,AdminShellNS.AdminShellPackageEnv,System.Windows.Documents.Table,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,System.Int32)
-  fullName: AasxPluginTechnicalData.TechDataPropertiesControl.TableAddPropertyRows_Recurse(AasxPredefinedConcepts.DefinitionsZveiTechnicalData.SetOfDefs, System.String, AdminShellNS.AdminShellPackageEnv, System.Windows.Documents.Table, AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, System.Int32)
-  nameWithType: TechDataPropertiesControl.TableAddPropertyRows_Recurse(DefinitionsZveiTechnicalData.SetOfDefs, String, AdminShellPackageEnv, Table, AdminShellV20.SubmodelElementWrapperCollection, Int32)
+- uid: AasxPluginTechnicalData.TechDataPropertiesControl.TableAddPropertyRows_Recurse(AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData,System.String,AdminShellNS.AdminShellPackageEnv,System.Windows.Documents.Table,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,System.Int32)
+  name: TableAddPropertyRows_Recurse(ConceptModelZveiTechnicalData, String, AdminShellPackageEnv, Table, AdminShellV20.SubmodelElementWrapperCollection, Int32)
+  href: api/AasxPluginTechnicalData.TechDataPropertiesControl.html#AasxPluginTechnicalData_TechDataPropertiesControl_TableAddPropertyRows_Recurse_AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_System_String_AdminShellNS_AdminShellPackageEnv_System_Windows_Documents_Table_AdminShellNS_AdminShellV20_SubmodelElementWrapperCollection_System_Int32_
+  commentId: M:AasxPluginTechnicalData.TechDataPropertiesControl.TableAddPropertyRows_Recurse(AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData,System.String,AdminShellNS.AdminShellPackageEnv,System.Windows.Documents.Table,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,System.Int32)
+  fullName: AasxPluginTechnicalData.TechDataPropertiesControl.TableAddPropertyRows_Recurse(AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData, System.String, AdminShellNS.AdminShellPackageEnv, System.Windows.Documents.Table, AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, System.Int32)
+  nameWithType: TechDataPropertiesControl.TableAddPropertyRows_Recurse(ConceptModelZveiTechnicalData, String, AdminShellPackageEnv, Table, AdminShellV20.SubmodelElementWrapperCollection, Int32)
 - uid: AasxPluginTechnicalData.TechDataPropertiesControl.TableAddPropertyRows_Recurse*
   name: TableAddPropertyRows_Recurse
   href: api/AasxPluginTechnicalData.TechDataPropertiesControl.html#AasxPluginTechnicalData_TechDataPropertiesControl_TableAddPropertyRows_Recurse_
@@ -27241,6 +27316,19 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.AasxDefinitionBase.AasxDefinitionBase
   nameWithType: AasxDefinitionBase.AasxDefinitionBase
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.AddEntriesByReflection(System.Type,System.Boolean,System.Boolean)
+  name: AddEntriesByReflection(Type, Boolean, Boolean)
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_AddEntriesByReflection_System_Type_System_Boolean_System_Boolean_
+  commentId: M:AasxPredefinedConcepts.AasxDefinitionBase.AddEntriesByReflection(System.Type,System.Boolean,System.Boolean)
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.AddEntriesByReflection(System.Type, System.Boolean, System.Boolean)
+  nameWithType: AasxDefinitionBase.AddEntriesByReflection(Type, Boolean, Boolean)
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.AddEntriesByReflection*
+  name: AddEntriesByReflection
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_AddEntriesByReflection_
+  commentId: Overload:AasxPredefinedConcepts.AasxDefinitionBase.AddEntriesByReflection
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.AddEntriesByReflection
+  nameWithType: AasxDefinitionBase.AddEntriesByReflection
 - uid: AasxPredefinedConcepts.AasxDefinitionBase.BuildLibrary(System.Reflection.Assembly,System.String)
   name: BuildLibrary(Assembly, String)
   href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_BuildLibrary_System_Reflection_Assembly_System_String_
@@ -27267,6 +27355,12 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.AasxDefinitionBase.CreateSparseConceptDescription
   nameWithType: AasxDefinitionBase.CreateSparseConceptDescription
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.DomainInfo
+  name: DomainInfo
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_DomainInfo
+  commentId: F:AasxPredefinedConcepts.AasxDefinitionBase.DomainInfo
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.DomainInfo
+  nameWithType: AasxDefinitionBase.DomainInfo
 - uid: AasxPredefinedConcepts.AasxDefinitionBase.GetAllReferables
   name: GetAllReferables()
   href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_GetAllReferables
@@ -27330,19 +27424,19 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.AasxDefinitionBase.ReadLibrary
   nameWithType: AasxDefinitionBase.ReadLibrary
-- uid: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection(System.Type,System.Boolean,System.Boolean)
-  name: RetrieveEntriesByReflection(Type, Boolean, Boolean)
-  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_RetrieveEntriesByReflection_System_Type_System_Boolean_System_Boolean_
-  commentId: M:AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection(System.Type,System.Boolean,System.Boolean)
-  fullName: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection(System.Type, System.Boolean, System.Boolean)
-  nameWithType: AasxDefinitionBase.RetrieveEntriesByReflection(Type, Boolean, Boolean)
-- uid: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection*
-  name: RetrieveEntriesByReflection
-  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_RetrieveEntriesByReflection_
-  commentId: Overload:AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesFromLibraryByReflection(System.Type,System.Boolean,System.Boolean)
+  name: RetrieveEntriesFromLibraryByReflection(Type, Boolean, Boolean)
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_RetrieveEntriesFromLibraryByReflection_System_Type_System_Boolean_System_Boolean_
+  commentId: M:AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesFromLibraryByReflection(System.Type,System.Boolean,System.Boolean)
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesFromLibraryByReflection(System.Type, System.Boolean, System.Boolean)
+  nameWithType: AasxDefinitionBase.RetrieveEntriesFromLibraryByReflection(Type, Boolean, Boolean)
+- uid: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesFromLibraryByReflection*
+  name: RetrieveEntriesFromLibraryByReflection
+  href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_RetrieveEntriesFromLibraryByReflection_
+  commentId: Overload:AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesFromLibraryByReflection
   isSpec: "True"
-  fullName: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesByReflection
-  nameWithType: AasxDefinitionBase.RetrieveEntriesByReflection
+  fullName: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntriesFromLibraryByReflection
+  nameWithType: AasxDefinitionBase.RetrieveEntriesFromLibraryByReflection
 - uid: AasxPredefinedConcepts.AasxDefinitionBase.RetrieveEntry(System.String)
   name: RetrieveEntry(String)
   href: api/AasxPredefinedConcepts.AasxDefinitionBase.html#AasxPredefinedConcepts_AasxDefinitionBase_RetrieveEntry_System_String_
@@ -27390,6 +27484,213 @@ references:
   commentId: F:AasxPredefinedConcepts.AasxDefinitionBase.theReflectedReferables
   fullName: AasxPredefinedConcepts.AasxDefinitionBase.theReflectedReferables
   nameWithType: AasxDefinitionBase.theReflectedReferables
+- uid: AasxPredefinedConcepts.ConceptModel
+  name: AasxPredefinedConcepts.ConceptModel
+  href: api/AasxPredefinedConcepts.ConceptModel.html
+  commentId: N:AasxPredefinedConcepts.ConceptModel
+  fullName: AasxPredefinedConcepts.ConceptModel
+  nameWithType: AasxPredefinedConcepts.ConceptModel
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData
+  name: ConceptModelZveiTechnicalData
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html
+  commentId: T:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData
+  nameWithType: ConceptModelZveiTechnicalData
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.#ctor
+  name: ConceptModelZveiTechnicalData()
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData__ctor
+  commentId: M:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.#ctor
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.ConceptModelZveiTechnicalData()
+  nameWithType: ConceptModelZveiTechnicalData.ConceptModelZveiTechnicalData()
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.#ctor(AdminShellNS.AdminShellV20.Submodel)
+  name: ConceptModelZveiTechnicalData(AdminShellV20.Submodel)
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData__ctor_AdminShellNS_AdminShellV20_Submodel_
+  commentId: M:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.#ctor(AdminShellNS.AdminShellV20.Submodel)
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.ConceptModelZveiTechnicalData(AdminShellNS.AdminShellV20.Submodel)
+  nameWithType: ConceptModelZveiTechnicalData.ConceptModelZveiTechnicalData(AdminShellV20.Submodel)
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.#ctor*
+  name: ConceptModelZveiTechnicalData
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData__ctor_
+  commentId: Overload:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.ConceptModelZveiTechnicalData
+  nameWithType: ConceptModelZveiTechnicalData.ConceptModelZveiTechnicalData
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.ActiveVersion
+  name: ActiveVersion
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_ActiveVersion
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.ActiveVersion
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.ActiveVersion
+  nameWithType: ConceptModelZveiTechnicalData.ActiveVersion
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ClassificationSystemVersion
+  name: CD_ClassificationSystemVersion
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ClassificationSystemVersion
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ClassificationSystemVersion
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ClassificationSystemVersion
+  nameWithType: ConceptModelZveiTechnicalData.CD_ClassificationSystemVersion
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_FurtherInformation
+  name: CD_FurtherInformation
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_FurtherInformation
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_FurtherInformation
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_FurtherInformation
+  nameWithType: ConceptModelZveiTechnicalData.CD_FurtherInformation
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_GeneralInformation
+  name: CD_GeneralInformation
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_GeneralInformation
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_GeneralInformation
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_GeneralInformation
+  nameWithType: ConceptModelZveiTechnicalData.CD_GeneralInformation
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_MainSection
+  name: CD_MainSection
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_MainSection
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_MainSection
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_MainSection
+  nameWithType: ConceptModelZveiTechnicalData.CD_MainSection
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerLogo
+  name: CD_ManufacturerLogo
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ManufacturerLogo
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerLogo
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerLogo
+  nameWithType: ConceptModelZveiTechnicalData.CD_ManufacturerLogo
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerName
+  name: CD_ManufacturerName
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ManufacturerName
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerName
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerName
+  nameWithType: ConceptModelZveiTechnicalData.CD_ManufacturerName
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerOrderCode
+  name: CD_ManufacturerOrderCode
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ManufacturerOrderCode
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerOrderCode
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerOrderCode
+  nameWithType: ConceptModelZveiTechnicalData.CD_ManufacturerOrderCode
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerPartNumber
+  name: CD_ManufacturerPartNumber
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ManufacturerPartNumber
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerPartNumber
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerPartNumber
+  nameWithType: ConceptModelZveiTechnicalData.CD_ManufacturerPartNumber
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerProductDesignation
+  name: CD_ManufacturerProductDesignation
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ManufacturerProductDesignation
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerProductDesignation
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ManufacturerProductDesignation
+  nameWithType: ConceptModelZveiTechnicalData.CD_ManufacturerProductDesignation
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassId
+  name: CD_ProductClassId
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ProductClassId
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassId
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassId
+  nameWithType: ConceptModelZveiTechnicalData.CD_ProductClassId
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassificationItem
+  name: CD_ProductClassificationItem
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ProductClassificationItem
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassificationItem
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassificationItem
+  nameWithType: ConceptModelZveiTechnicalData.CD_ProductClassificationItem
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassifications
+  name: CD_ProductClassifications
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ProductClassifications
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassifications
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassifications
+  nameWithType: ConceptModelZveiTechnicalData.CD_ProductClassifications
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassificationSystem
+  name: CD_ProductClassificationSystem
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ProductClassificationSystem
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassificationSystem
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductClassificationSystem
+  nameWithType: ConceptModelZveiTechnicalData.CD_ProductClassificationSystem
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductImage
+  name: CD_ProductImage
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ProductImage
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductImage
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ProductImage
+  nameWithType: ConceptModelZveiTechnicalData.CD_ProductImage
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_SemanticIdNotAvailable
+  name: CD_SemanticIdNotAvailable
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_SemanticIdNotAvailable
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_SemanticIdNotAvailable
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_SemanticIdNotAvailable
+  nameWithType: ConceptModelZveiTechnicalData.CD_SemanticIdNotAvailable
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_SubSection
+  name: CD_SubSection
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_SubSection
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_SubSection
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_SubSection
+  nameWithType: ConceptModelZveiTechnicalData.CD_SubSection
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_TechnicalProperties
+  name: CD_TechnicalProperties
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_TechnicalProperties
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_TechnicalProperties
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_TechnicalProperties
+  nameWithType: ConceptModelZveiTechnicalData.CD_TechnicalProperties
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_TextStatement
+  name: CD_TextStatement
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_TextStatement
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_TextStatement
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_TextStatement
+  nameWithType: ConceptModelZveiTechnicalData.CD_TextStatement
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ValidDate
+  name: CD_ValidDate
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_CD_ValidDate
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ValidDate
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.CD_ValidDate
+  nameWithType: ConceptModelZveiTechnicalData.CD_ValidDate
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromSubmodel(AdminShellNS.AdminShellV20.Submodel)
+  name: InitFromSubmodel(AdminShellV20.Submodel)
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_InitFromSubmodel_AdminShellNS_AdminShellV20_Submodel_
+  commentId: M:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromSubmodel(AdminShellNS.AdminShellV20.Submodel)
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromSubmodel(AdminShellNS.AdminShellV20.Submodel)
+  nameWithType: ConceptModelZveiTechnicalData.InitFromSubmodel(AdminShellV20.Submodel)
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromSubmodel*
+  name: InitFromSubmodel
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_InitFromSubmodel_
+  commentId: Overload:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromSubmodel
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromSubmodel
+  nameWithType: ConceptModelZveiTechnicalData.InitFromSubmodel
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromVersion(AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version)
+  name: InitFromVersion(ConceptModelZveiTechnicalData.Version)
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_InitFromVersion_AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_Version_
+  commentId: M:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromVersion(AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version)
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromVersion(AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version)
+  nameWithType: ConceptModelZveiTechnicalData.InitFromVersion(ConceptModelZveiTechnicalData.Version)
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromVersion*
+  name: InitFromVersion
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_InitFromVersion_
+  commentId: Overload:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromVersion
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.InitFromVersion
+  nameWithType: ConceptModelZveiTechnicalData.InitFromVersion
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.SM_TechnicalData
+  name: SM_TechnicalData
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_SM_TechnicalData
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.SM_TechnicalData
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.SM_TechnicalData
+  nameWithType: ConceptModelZveiTechnicalData.SM_TechnicalData
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version
+  name: ConceptModelZveiTechnicalData.Version
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.html
+  commentId: T:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version
+  nameWithType: ConceptModelZveiTechnicalData.Version
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.Unknown
+  name: Unknown
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_Version_Unknown
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.Unknown
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.Unknown
+  nameWithType: ConceptModelZveiTechnicalData.Version.Unknown
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.V1_0
+  name: V1_0
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_Version_V1_0
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.V1_0
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.V1_0
+  nameWithType: ConceptModelZveiTechnicalData.Version.V1_0
+- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.V1_1
+  name: V1_1
+  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData_Version_V1_1
+  commentId: F:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.V1_1
+  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.Version.V1_1
+  nameWithType: ConceptModelZveiTechnicalData.Version.V1_1
 - uid: AasxPredefinedConcepts.Convert
   name: AasxPredefinedConcepts.Convert
   href: api/AasxPredefinedConcepts.Convert.html
@@ -27725,6 +28026,63 @@ references:
   isSpec: "True"
   fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataToFlatProvider.ExecuteOffer
   nameWithType: ConvertTechnicalDataToFlatProvider.ExecuteOffer
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider
+  name: ConvertTechnicalDataV10ToV11Provider
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.html
+  commentId: T:AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider
+  nameWithType: ConvertTechnicalDataV10ToV11Provider
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.CheckForOffers(AdminShellNS.AdminShellV20.Referable)
+  name: CheckForOffers(AdminShellV20.Referable)
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataV10ToV11Provider_CheckForOffers_AdminShellNS_AdminShellV20_Referable_
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.CheckForOffers(AdminShellNS.AdminShellV20.Referable)
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.CheckForOffers(AdminShellNS.AdminShellV20.Referable)
+  nameWithType: ConvertTechnicalDataV10ToV11Provider.CheckForOffers(AdminShellV20.Referable)
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.CheckForOffers*
+  name: CheckForOffers
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataV10ToV11Provider_CheckForOffers_
+  commentId: Overload:AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.CheckForOffers
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.CheckForOffers
+  nameWithType: ConvertTechnicalDataV10ToV11Provider.CheckForOffers
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11
+  name: ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.html
+  commentId: T:AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11
+  nameWithType: ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.#ctor
+  name: ConvertOfferTechnicalDataV10ToV11()
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataV10ToV11Provider_ConvertOfferTechnicalDataV10ToV11__ctor
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.#ctor
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.ConvertOfferTechnicalDataV10ToV11()
+  nameWithType: ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.ConvertOfferTechnicalDataV10ToV11()
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.#ctor(AasxPredefinedConcepts.Convert.ConvertProviderBase,System.String)
+  name: ConvertOfferTechnicalDataV10ToV11(ConvertProviderBase, String)
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataV10ToV11Provider_ConvertOfferTechnicalDataV10ToV11__ctor_AasxPredefinedConcepts_Convert_ConvertProviderBase_System_String_
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.#ctor(AasxPredefinedConcepts.Convert.ConvertProviderBase,System.String)
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.ConvertOfferTechnicalDataV10ToV11(AasxPredefinedConcepts.Convert.ConvertProviderBase, System.String)
+  nameWithType: ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.ConvertOfferTechnicalDataV10ToV11(ConvertProviderBase, String)
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.#ctor*
+  name: ConvertOfferTechnicalDataV10ToV11
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataV10ToV11Provider_ConvertOfferTechnicalDataV10ToV11__ctor_
+  commentId: Overload:AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.ConvertOfferTechnicalDataV10ToV11
+  nameWithType: ConvertTechnicalDataV10ToV11Provider.ConvertOfferTechnicalDataV10ToV11.ConvertOfferTechnicalDataV10ToV11
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ExecuteOffer(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Referable,AasxPredefinedConcepts.Convert.ConvertOfferBase,System.Boolean,System.Boolean)
+  name: ExecuteOffer(AdminShellPackageEnv, AdminShellV20.Referable, ConvertOfferBase, Boolean, Boolean)
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataV10ToV11Provider_ExecuteOffer_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_Referable_AasxPredefinedConcepts_Convert_ConvertOfferBase_System_Boolean_System_Boolean_
+  commentId: M:AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ExecuteOffer(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.Referable,AasxPredefinedConcepts.Convert.ConvertOfferBase,System.Boolean,System.Boolean)
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ExecuteOffer(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.Referable, AasxPredefinedConcepts.Convert.ConvertOfferBase, System.Boolean, System.Boolean)
+  nameWithType: ConvertTechnicalDataV10ToV11Provider.ExecuteOffer(AdminShellPackageEnv, AdminShellV20.Referable, ConvertOfferBase, Boolean, Boolean)
+- uid: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ExecuteOffer*
+  name: ExecuteOffer
+  href: api/AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.html#AasxPredefinedConcepts_Convert_ConvertTechnicalDataV10ToV11Provider_ExecuteOffer_
+  commentId: Overload:AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ExecuteOffer
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.Convert.ConvertTechnicalDataV10ToV11Provider.ExecuteOffer
+  nameWithType: ConvertTechnicalDataV10ToV11Provider.ExecuteOffer
 - uid: AasxPredefinedConcepts.DefinitionsExperimental
   name: DefinitionsExperimental
   href: api/AasxPredefinedConcepts.DefinitionsExperimental.html
@@ -27737,12 +28095,12 @@ references:
   commentId: T:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations
   fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations
   nameWithType: DefinitionsExperimental.InteropRelations
-- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.#ctor(AasxPredefinedConcepts.AasxDefinitionBase)
-  name: InteropRelations(AasxDefinitionBase)
-  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations__ctor_AasxPredefinedConcepts_AasxDefinitionBase_
-  commentId: M:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.#ctor(AasxPredefinedConcepts.AasxDefinitionBase)
-  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.InteropRelations(AasxPredefinedConcepts.AasxDefinitionBase)
-  nameWithType: DefinitionsExperimental.InteropRelations.InteropRelations(AasxDefinitionBase)
+- uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.#ctor
+  name: InteropRelations()
+  href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations__ctor
+  commentId: M:AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.#ctor
+  fullName: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.InteropRelations()
+  nameWithType: DefinitionsExperimental.InteropRelations.InteropRelations()
 - uid: AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.#ctor*
   name: InteropRelations
   href: api/AasxPredefinedConcepts.DefinitionsExperimental.InteropRelations.html#AasxPredefinedConcepts_DefinitionsExperimental_InteropRelations__ctor_
@@ -27834,12 +28192,12 @@ references:
   commentId: T:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage
   fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage
   nameWithType: DefinitionsMTP.ModuleTypePackage
-- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.#ctor(AasxPredefinedConcepts.AasxDefinitionBase)
-  name: ModuleTypePackage(AasxDefinitionBase)
-  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage__ctor_AasxPredefinedConcepts_AasxDefinitionBase_
-  commentId: M:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.#ctor(AasxPredefinedConcepts.AasxDefinitionBase)
-  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.ModuleTypePackage(AasxPredefinedConcepts.AasxDefinitionBase)
-  nameWithType: DefinitionsMTP.ModuleTypePackage.ModuleTypePackage(AasxDefinitionBase)
+- uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.#ctor
+  name: ModuleTypePackage()
+  href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage__ctor
+  commentId: M:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.#ctor
+  fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.ModuleTypePackage()
+  nameWithType: DefinitionsMTP.ModuleTypePackage.ModuleTypePackage()
 - uid: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.#ctor*
   name: ModuleTypePackage
   href: api/AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.html#AasxPredefinedConcepts_DefinitionsMTP_ModuleTypePackage__ctor_
@@ -27913,37 +28271,265 @@ references:
   commentId: F:AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.SEM_MtpSubmodel
   fullName: AasxPredefinedConcepts.DefinitionsMTP.ModuleTypePackage.SEM_MtpSubmodel
   nameWithType: DefinitionsMTP.ModuleTypePackage.SEM_MtpSubmodel
-- uid: AasxPredefinedConcepts.DefinitionsPackageExplorer
-  name: DefinitionsPackageExplorer
-  href: api/AasxPredefinedConcepts.DefinitionsPackageExplorer.html
-  commentId: T:AasxPredefinedConcepts.DefinitionsPackageExplorer
-  fullName: AasxPredefinedConcepts.DefinitionsPackageExplorer
-  nameWithType: DefinitionsPackageExplorer
-- uid: AasxPredefinedConcepts.DefinitionsPackageExplorer.#ctor
-  name: DefinitionsPackageExplorer()
-  href: api/AasxPredefinedConcepts.DefinitionsPackageExplorer.html#AasxPredefinedConcepts_DefinitionsPackageExplorer__ctor
-  commentId: M:AasxPredefinedConcepts.DefinitionsPackageExplorer.#ctor
-  fullName: AasxPredefinedConcepts.DefinitionsPackageExplorer.DefinitionsPackageExplorer()
-  nameWithType: DefinitionsPackageExplorer.DefinitionsPackageExplorer()
-- uid: AasxPredefinedConcepts.DefinitionsPackageExplorer.#ctor*
-  name: DefinitionsPackageExplorer
-  href: api/AasxPredefinedConcepts.DefinitionsPackageExplorer.html#AasxPredefinedConcepts_DefinitionsPackageExplorer__ctor_
-  commentId: Overload:AasxPredefinedConcepts.DefinitionsPackageExplorer.#ctor
+- uid: AasxPredefinedConcepts.DefinitionsPool
+  name: DefinitionsPool
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html
+  commentId: T:AasxPredefinedConcepts.DefinitionsPool
+  fullName: AasxPredefinedConcepts.DefinitionsPool
+  nameWithType: DefinitionsPool
+- uid: AasxPredefinedConcepts.DefinitionsPool.Add(AasxPredefinedConcepts.DefinitionsPoolEntityBase)
+  name: Add(DefinitionsPoolEntityBase)
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_Add_AasxPredefinedConcepts_DefinitionsPoolEntityBase_
+  commentId: M:AasxPredefinedConcepts.DefinitionsPool.Add(AasxPredefinedConcepts.DefinitionsPoolEntityBase)
+  fullName: AasxPredefinedConcepts.DefinitionsPool.Add(AasxPredefinedConcepts.DefinitionsPoolEntityBase)
+  nameWithType: DefinitionsPool.Add(DefinitionsPoolEntityBase)
+- uid: AasxPredefinedConcepts.DefinitionsPool.Add*
+  name: Add
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_Add_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPool.Add
   isSpec: "True"
-  fullName: AasxPredefinedConcepts.DefinitionsPackageExplorer.DefinitionsPackageExplorer
-  nameWithType: DefinitionsPackageExplorer.DefinitionsPackageExplorer
-- uid: AasxPredefinedConcepts.DefinitionsPackageExplorer.CD_AasxLoadedNavigateTo
-  name: CD_AasxLoadedNavigateTo
-  href: api/AasxPredefinedConcepts.DefinitionsPackageExplorer.html#AasxPredefinedConcepts_DefinitionsPackageExplorer_CD_AasxLoadedNavigateTo
-  commentId: F:AasxPredefinedConcepts.DefinitionsPackageExplorer.CD_AasxLoadedNavigateTo
-  fullName: AasxPredefinedConcepts.DefinitionsPackageExplorer.CD_AasxLoadedNavigateTo
-  nameWithType: DefinitionsPackageExplorer.CD_AasxLoadedNavigateTo
-- uid: AasxPredefinedConcepts.DefinitionsPackageExplorer.Static
+  fullName: AasxPredefinedConcepts.DefinitionsPool.Add
+  nameWithType: DefinitionsPool.Add
+- uid: AasxPredefinedConcepts.DefinitionsPool.Clear
+  name: Clear()
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_Clear
+  commentId: M:AasxPredefinedConcepts.DefinitionsPool.Clear
+  fullName: AasxPredefinedConcepts.DefinitionsPool.Clear()
+  nameWithType: DefinitionsPool.Clear()
+- uid: AasxPredefinedConcepts.DefinitionsPool.Clear*
+  name: Clear
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_Clear_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPool.Clear
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPool.Clear
+  nameWithType: DefinitionsPool.Clear
+- uid: AasxPredefinedConcepts.DefinitionsPool.GetDomains
+  name: GetDomains()
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_GetDomains
+  commentId: M:AasxPredefinedConcepts.DefinitionsPool.GetDomains
+  fullName: AasxPredefinedConcepts.DefinitionsPool.GetDomains()
+  nameWithType: DefinitionsPool.GetDomains()
+- uid: AasxPredefinedConcepts.DefinitionsPool.GetDomains*
+  name: GetDomains
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_GetDomains_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPool.GetDomains
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPool.GetDomains
+  nameWithType: DefinitionsPool.GetDomains
+- uid: AasxPredefinedConcepts.DefinitionsPool.GetEntitiesForDomain(System.String)
+  name: GetEntitiesForDomain(String)
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_GetEntitiesForDomain_System_String_
+  commentId: M:AasxPredefinedConcepts.DefinitionsPool.GetEntitiesForDomain(System.String)
+  fullName: AasxPredefinedConcepts.DefinitionsPool.GetEntitiesForDomain(System.String)
+  nameWithType: DefinitionsPool.GetEntitiesForDomain(String)
+- uid: AasxPredefinedConcepts.DefinitionsPool.GetEntitiesForDomain*
+  name: GetEntitiesForDomain
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_GetEntitiesForDomain_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPool.GetEntitiesForDomain
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPool.GetEntitiesForDomain
+  nameWithType: DefinitionsPool.GetEntitiesForDomain
+- uid: AasxPredefinedConcepts.DefinitionsPool.IndexDefinitions(AasxPredefinedConcepts.AasxDefinitionBase)
+  name: IndexDefinitions(AasxDefinitionBase)
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_IndexDefinitions_AasxPredefinedConcepts_AasxDefinitionBase_
+  commentId: M:AasxPredefinedConcepts.DefinitionsPool.IndexDefinitions(AasxPredefinedConcepts.AasxDefinitionBase)
+  fullName: AasxPredefinedConcepts.DefinitionsPool.IndexDefinitions(AasxPredefinedConcepts.AasxDefinitionBase)
+  nameWithType: DefinitionsPool.IndexDefinitions(AasxDefinitionBase)
+- uid: AasxPredefinedConcepts.DefinitionsPool.IndexDefinitions*
+  name: IndexDefinitions
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_IndexDefinitions_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPool.IndexDefinitions
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPool.IndexDefinitions
+  nameWithType: DefinitionsPool.IndexDefinitions
+- uid: AasxPredefinedConcepts.DefinitionsPool.IndexReferables(System.String,System.Collections.Generic.IEnumerable{AdminShellNS.AdminShellV20.Referable})
+  name: IndexReferables(String, IEnumerable<AdminShellV20.Referable>)
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_IndexReferables_System_String_System_Collections_Generic_IEnumerable_AdminShellNS_AdminShellV20_Referable__
+  commentId: M:AasxPredefinedConcepts.DefinitionsPool.IndexReferables(System.String,System.Collections.Generic.IEnumerable{AdminShellNS.AdminShellV20.Referable})
+  name.vb: IndexReferables(String, IEnumerable(Of AdminShellV20.Referable))
+  fullName: AasxPredefinedConcepts.DefinitionsPool.IndexReferables(System.String, System.Collections.Generic.IEnumerable<AdminShellNS.AdminShellV20.Referable>)
+  fullName.vb: AasxPredefinedConcepts.DefinitionsPool.IndexReferables(System.String, System.Collections.Generic.IEnumerable(Of AdminShellNS.AdminShellV20.Referable))
+  nameWithType: DefinitionsPool.IndexReferables(String, IEnumerable<AdminShellV20.Referable>)
+  nameWithType.vb: DefinitionsPool.IndexReferables(String, IEnumerable(Of AdminShellV20.Referable))
+- uid: AasxPredefinedConcepts.DefinitionsPool.IndexReferables*
+  name: IndexReferables
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_IndexReferables_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPool.IndexReferables
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPool.IndexReferables
+  nameWithType: DefinitionsPool.IndexReferables
+- uid: AasxPredefinedConcepts.DefinitionsPool.Static
   name: Static
-  href: api/AasxPredefinedConcepts.DefinitionsPackageExplorer.html#AasxPredefinedConcepts_DefinitionsPackageExplorer_Static
-  commentId: F:AasxPredefinedConcepts.DefinitionsPackageExplorer.Static
-  fullName: AasxPredefinedConcepts.DefinitionsPackageExplorer.Static
-  nameWithType: DefinitionsPackageExplorer.Static
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_Static
+  commentId: P:AasxPredefinedConcepts.DefinitionsPool.Static
+  fullName: AasxPredefinedConcepts.DefinitionsPool.Static
+  nameWithType: DefinitionsPool.Static
+- uid: AasxPredefinedConcepts.DefinitionsPool.Static*
+  name: Static
+  href: api/AasxPredefinedConcepts.DefinitionsPool.html#AasxPredefinedConcepts_DefinitionsPool_Static_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPool.Static
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPool.Static
+  nameWithType: DefinitionsPool.Static
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase
+  name: DefinitionsPoolEntityBase
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html
+  commentId: T:AasxPredefinedConcepts.DefinitionsPoolEntityBase
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase
+  nameWithType: DefinitionsPoolEntityBase
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.#ctor
+  name: DefinitionsPoolEntityBase()
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase__ctor
+  commentId: M:AasxPredefinedConcepts.DefinitionsPoolEntityBase.#ctor
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DefinitionsPoolEntityBase()
+  nameWithType: DefinitionsPoolEntityBase.DefinitionsPoolEntityBase()
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.#ctor(System.String)
+  name: DefinitionsPoolEntityBase(String)
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase__ctor_System_String_
+  commentId: M:AasxPredefinedConcepts.DefinitionsPoolEntityBase.#ctor(System.String)
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DefinitionsPoolEntityBase(System.String)
+  nameWithType: DefinitionsPoolEntityBase.DefinitionsPoolEntityBase(String)
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.#ctor*
+  name: DefinitionsPoolEntityBase
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase__ctor_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPoolEntityBase.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DefinitionsPoolEntityBase
+  nameWithType: DefinitionsPoolEntityBase.DefinitionsPoolEntityBase
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayDomain
+  name: DisplayDomain
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase_DisplayDomain
+  commentId: P:AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayDomain
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayDomain
+  nameWithType: DefinitionsPoolEntityBase.DisplayDomain
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayDomain*
+  name: DisplayDomain
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase_DisplayDomain_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayDomain
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayDomain
+  nameWithType: DefinitionsPoolEntityBase.DisplayDomain
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayId
+  name: DisplayId
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase_DisplayId
+  commentId: P:AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayId
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayId
+  nameWithType: DefinitionsPoolEntityBase.DisplayId
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayId*
+  name: DisplayId
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase_DisplayId_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayId
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayId
+  nameWithType: DefinitionsPoolEntityBase.DisplayId
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayName
+  name: DisplayName
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase_DisplayName
+  commentId: P:AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayName
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayName
+  nameWithType: DefinitionsPoolEntityBase.DisplayName
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayName*
+  name: DisplayName
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase_DisplayName_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayName
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayName
+  nameWithType: DefinitionsPoolEntityBase.DisplayName
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayType
+  name: DisplayType
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase_DisplayType
+  commentId: P:AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayType
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayType
+  nameWithType: DefinitionsPoolEntityBase.DisplayType
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayType*
+  name: DisplayType
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase_DisplayType_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayType
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.DisplayType
+  nameWithType: DefinitionsPoolEntityBase.DisplayType
+- uid: AasxPredefinedConcepts.DefinitionsPoolEntityBase.Domain
+  name: Domain
+  href: api/AasxPredefinedConcepts.DefinitionsPoolEntityBase.html#AasxPredefinedConcepts_DefinitionsPoolEntityBase_Domain
+  commentId: F:AasxPredefinedConcepts.DefinitionsPoolEntityBase.Domain
+  fullName: AasxPredefinedConcepts.DefinitionsPoolEntityBase.Domain
+  nameWithType: DefinitionsPoolEntityBase.Domain
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity
+  name: DefinitionsPoolReferableEntity
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html
+  commentId: T:AasxPredefinedConcepts.DefinitionsPoolReferableEntity
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity
+  nameWithType: DefinitionsPoolReferableEntity
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.#ctor
+  name: DefinitionsPoolReferableEntity()
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity__ctor
+  commentId: M:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.#ctor
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DefinitionsPoolReferableEntity()
+  nameWithType: DefinitionsPoolReferableEntity.DefinitionsPoolReferableEntity()
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.#ctor(AdminShellNS.AdminShellV20.Referable,System.String,System.String)
+  name: DefinitionsPoolReferableEntity(AdminShellV20.Referable, String, String)
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity__ctor_AdminShellNS_AdminShellV20_Referable_System_String_System_String_
+  commentId: M:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.#ctor(AdminShellNS.AdminShellV20.Referable,System.String,System.String)
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DefinitionsPoolReferableEntity(AdminShellNS.AdminShellV20.Referable, System.String, System.String)
+  nameWithType: DefinitionsPoolReferableEntity.DefinitionsPoolReferableEntity(AdminShellV20.Referable, String, String)
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.#ctor*
+  name: DefinitionsPoolReferableEntity
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity__ctor_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DefinitionsPoolReferableEntity
+  nameWithType: DefinitionsPoolReferableEntity.DefinitionsPoolReferableEntity
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayId
+  name: DisplayId
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity_DisplayId
+  commentId: P:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayId
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayId
+  nameWithType: DefinitionsPoolReferableEntity.DisplayId
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayId*
+  name: DisplayId
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity_DisplayId_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayId
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayId
+  nameWithType: DefinitionsPoolReferableEntity.DisplayId
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayName
+  name: DisplayName
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity_DisplayName
+  commentId: P:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayName
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayName
+  nameWithType: DefinitionsPoolReferableEntity.DisplayName
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayName*
+  name: DisplayName
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity_DisplayName_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayName
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayName
+  nameWithType: DefinitionsPoolReferableEntity.DisplayName
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayType
+  name: DisplayType
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity_DisplayType
+  commentId: P:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayType
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayType
+  nameWithType: DefinitionsPoolReferableEntity.DisplayType
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayType*
+  name: DisplayType
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity_DisplayType_
+  commentId: Overload:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayType
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.DisplayType
+  nameWithType: DefinitionsPoolReferableEntity.DisplayType
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.Name
+  name: Name
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity_Name
+  commentId: F:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.Name
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.Name
+  nameWithType: DefinitionsPoolReferableEntity.Name
+- uid: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.Ref
+  name: Ref
+  href: api/AasxPredefinedConcepts.DefinitionsPoolReferableEntity.html#AasxPredefinedConcepts_DefinitionsPoolReferableEntity_Ref
+  commentId: F:AasxPredefinedConcepts.DefinitionsPoolReferableEntity.Ref
+  fullName: AasxPredefinedConcepts.DefinitionsPoolReferableEntity.Ref
+  nameWithType: DefinitionsPoolReferableEntity.Ref
 - uid: AasxPredefinedConcepts.DefinitionsVDI2770
   name: DefinitionsVDI2770
   href: api/AasxPredefinedConcepts.DefinitionsVDI2770.html
@@ -29206,12 +29792,56 @@ references:
   commentId: F:AasxPredefinedConcepts.ImageMap.Static
   fullName: AasxPredefinedConcepts.ImageMap.Static
   nameWithType: ImageMap.Static
+- uid: AasxPredefinedConcepts.PackageExplorer
+  name: PackageExplorer
+  href: api/AasxPredefinedConcepts.PackageExplorer.html
+  commentId: T:AasxPredefinedConcepts.PackageExplorer
+  fullName: AasxPredefinedConcepts.PackageExplorer
+  nameWithType: PackageExplorer
+- uid: AasxPredefinedConcepts.PackageExplorer.#ctor
+  name: PackageExplorer()
+  href: api/AasxPredefinedConcepts.PackageExplorer.html#AasxPredefinedConcepts_PackageExplorer__ctor
+  commentId: M:AasxPredefinedConcepts.PackageExplorer.#ctor
+  fullName: AasxPredefinedConcepts.PackageExplorer.PackageExplorer()
+  nameWithType: PackageExplorer.PackageExplorer()
+- uid: AasxPredefinedConcepts.PackageExplorer.#ctor*
+  name: PackageExplorer
+  href: api/AasxPredefinedConcepts.PackageExplorer.html#AasxPredefinedConcepts_PackageExplorer__ctor_
+  commentId: Overload:AasxPredefinedConcepts.PackageExplorer.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.PackageExplorer.PackageExplorer
+  nameWithType: PackageExplorer.PackageExplorer
+- uid: AasxPredefinedConcepts.PackageExplorer.CD_AasxLoadedNavigateTo
+  name: CD_AasxLoadedNavigateTo
+  href: api/AasxPredefinedConcepts.PackageExplorer.html#AasxPredefinedConcepts_PackageExplorer_CD_AasxLoadedNavigateTo
+  commentId: F:AasxPredefinedConcepts.PackageExplorer.CD_AasxLoadedNavigateTo
+  fullName: AasxPredefinedConcepts.PackageExplorer.CD_AasxLoadedNavigateTo
+  nameWithType: PackageExplorer.CD_AasxLoadedNavigateTo
+- uid: AasxPredefinedConcepts.PackageExplorer.Static
+  name: Static
+  href: api/AasxPredefinedConcepts.PackageExplorer.html#AasxPredefinedConcepts_PackageExplorer_Static
+  commentId: F:AasxPredefinedConcepts.PackageExplorer.Static
+  fullName: AasxPredefinedConcepts.PackageExplorer.Static
+  nameWithType: PackageExplorer.Static
 - uid: AasxPredefinedConcepts.VDI2770v11
   name: VDI2770v11
   href: api/AasxPredefinedConcepts.VDI2770v11.html
   commentId: T:AasxPredefinedConcepts.VDI2770v11
   fullName: AasxPredefinedConcepts.VDI2770v11
   nameWithType: VDI2770v11
+- uid: AasxPredefinedConcepts.VDI2770v11.#ctor
+  name: VDI2770v11()
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11__ctor
+  commentId: M:AasxPredefinedConcepts.VDI2770v11.#ctor
+  fullName: AasxPredefinedConcepts.VDI2770v11.VDI2770v11()
+  nameWithType: VDI2770v11.VDI2770v11()
+- uid: AasxPredefinedConcepts.VDI2770v11.#ctor*
+  name: VDI2770v11
+  href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11__ctor_
+  commentId: Overload:AasxPredefinedConcepts.VDI2770v11.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.VDI2770v11.VDI2770v11
+  nameWithType: VDI2770v11.VDI2770v11
 - uid: AasxPredefinedConcepts.VDI2770v11.CD_Affecting
   name: CD_Affecting
   href: api/AasxPredefinedConcepts.VDI2770v11.html#AasxPredefinedConcepts_VDI2770v11_CD_Affecting
@@ -29392,6 +30022,151 @@ references:
   commentId: F:AasxPredefinedConcepts.VDI2770v11.Static
   fullName: AasxPredefinedConcepts.VDI2770v11.Static
   nameWithType: VDI2770v11.Static
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11
+  name: ZveiTechnicalDataV11
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html
+  commentId: T:AasxPredefinedConcepts.ZveiTechnicalDataV11
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11
+  nameWithType: ZveiTechnicalDataV11
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.#ctor
+  name: ZveiTechnicalDataV11()
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11__ctor
+  commentId: M:AasxPredefinedConcepts.ZveiTechnicalDataV11.#ctor
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.ZveiTechnicalDataV11()
+  nameWithType: ZveiTechnicalDataV11.ZveiTechnicalDataV11()
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.#ctor*
+  name: ZveiTechnicalDataV11
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11__ctor_
+  commentId: Overload:AasxPredefinedConcepts.ZveiTechnicalDataV11.#ctor
+  isSpec: "True"
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.ZveiTechnicalDataV11
+  nameWithType: ZveiTechnicalDataV11.ZveiTechnicalDataV11
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ClassificationSystemVersion
+  name: CD_ClassificationSystemVersion
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ClassificationSystemVersion
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ClassificationSystemVersion
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ClassificationSystemVersion
+  nameWithType: ZveiTechnicalDataV11.CD_ClassificationSystemVersion
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_FurtherInformation
+  name: CD_FurtherInformation
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_FurtherInformation
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_FurtherInformation
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_FurtherInformation
+  nameWithType: ZveiTechnicalDataV11.CD_FurtherInformation
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_GeneralInformation
+  name: CD_GeneralInformation
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_GeneralInformation
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_GeneralInformation
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_GeneralInformation
+  nameWithType: ZveiTechnicalDataV11.CD_GeneralInformation
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_MainSection
+  name: CD_MainSection
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_MainSection
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_MainSection
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_MainSection
+  nameWithType: ZveiTechnicalDataV11.CD_MainSection
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerLogo
+  name: CD_ManufacturerLogo
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ManufacturerLogo
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerLogo
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerLogo
+  nameWithType: ZveiTechnicalDataV11.CD_ManufacturerLogo
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerName
+  name: CD_ManufacturerName
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ManufacturerName
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerName
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerName
+  nameWithType: ZveiTechnicalDataV11.CD_ManufacturerName
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerOrderCode
+  name: CD_ManufacturerOrderCode
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ManufacturerOrderCode
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerOrderCode
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerOrderCode
+  nameWithType: ZveiTechnicalDataV11.CD_ManufacturerOrderCode
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerPartNumber
+  name: CD_ManufacturerPartNumber
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ManufacturerPartNumber
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerPartNumber
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerPartNumber
+  nameWithType: ZveiTechnicalDataV11.CD_ManufacturerPartNumber
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerProductDesignation
+  name: CD_ManufacturerProductDesignation
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ManufacturerProductDesignation
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerProductDesignation
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ManufacturerProductDesignation
+  nameWithType: ZveiTechnicalDataV11.CD_ManufacturerProductDesignation
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassId
+  name: CD_ProductClassId
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ProductClassId
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassId
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassId
+  nameWithType: ZveiTechnicalDataV11.CD_ProductClassId
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassificationItem
+  name: CD_ProductClassificationItem
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ProductClassificationItem
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassificationItem
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassificationItem
+  nameWithType: ZveiTechnicalDataV11.CD_ProductClassificationItem
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassifications
+  name: CD_ProductClassifications
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ProductClassifications
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassifications
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassifications
+  nameWithType: ZveiTechnicalDataV11.CD_ProductClassifications
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassificationSystem
+  name: CD_ProductClassificationSystem
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ProductClassificationSystem
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassificationSystem
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductClassificationSystem
+  nameWithType: ZveiTechnicalDataV11.CD_ProductClassificationSystem
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductImage
+  name: CD_ProductImage
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ProductImage
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductImage
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ProductImage
+  nameWithType: ZveiTechnicalDataV11.CD_ProductImage
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_SemanticIdNotAvailable
+  name: CD_SemanticIdNotAvailable
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_SemanticIdNotAvailable
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_SemanticIdNotAvailable
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_SemanticIdNotAvailable
+  nameWithType: ZveiTechnicalDataV11.CD_SemanticIdNotAvailable
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_SubSection
+  name: CD_SubSection
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_SubSection
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_SubSection
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_SubSection
+  nameWithType: ZveiTechnicalDataV11.CD_SubSection
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_TechnicalProperties
+  name: CD_TechnicalProperties
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_TechnicalProperties
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_TechnicalProperties
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_TechnicalProperties
+  nameWithType: ZveiTechnicalDataV11.CD_TechnicalProperties
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_TextStatement
+  name: CD_TextStatement
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_TextStatement
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_TextStatement
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_TextStatement
+  nameWithType: ZveiTechnicalDataV11.CD_TextStatement
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ValidDate
+  name: CD_ValidDate
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_CD_ValidDate
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ValidDate
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.CD_ValidDate
+  nameWithType: ZveiTechnicalDataV11.CD_ValidDate
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.SM_TechnicalData
+  name: SM_TechnicalData
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_SM_TechnicalData
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.SM_TechnicalData
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.SM_TechnicalData
+  nameWithType: ZveiTechnicalDataV11.SM_TechnicalData
+- uid: AasxPredefinedConcepts.ZveiTechnicalDataV11.Static
+  name: Static
+  href: api/AasxPredefinedConcepts.ZveiTechnicalDataV11.html#AasxPredefinedConcepts_ZveiTechnicalDataV11_Static
+  commentId: F:AasxPredefinedConcepts.ZveiTechnicalDataV11.Static
+  fullName: AasxPredefinedConcepts.ZveiTechnicalDataV11.Static
+  nameWithType: ZveiTechnicalDataV11.Static
 - uid: AasxRestConsoleServer
   name: AasxRestConsoleServer
   href: api/AasxRestConsoleServer.html
@@ -36342,6 +37117,60 @@ references:
   fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CheckIdShortIsUnique
   nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CheckIdShortIsUnique
   nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CheckIdShortIsUnique
+- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyManySMEbyCopy*
+  name: CopyManySMEbyCopy
+  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_CopyManySMEbyCopy_
+  commentId: Overload:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyManySMEbyCopy
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyManySMEbyCopy
+  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyManySMEbyCopy
+  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyManySMEbyCopy
+  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyManySMEbyCopy
+- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyManySMEbyCopy``1(AdminShellNS.AdminShellV20.ConceptDescription,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellV20.ConceptDescription,System.Boolean,System.Action{``0},AdminShellNS.AdminShellV20.Key.MatchMode)
+  name: CopyManySMEbyCopy<T>(AdminShellV20.ConceptDescription, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.ConceptDescription, Boolean, Action<T>, AdminShellV20.Key.MatchMode)
+  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_CopyManySMEbyCopy__1_AdminShellNS_AdminShellV20_ConceptDescription_AdminShellNS_AdminShellV20_SubmodelElementWrapperCollection_AdminShellNS_AdminShellV20_ConceptDescription_System_Boolean_System_Action___0__AdminShellNS_AdminShellV20_Key_MatchMode_
+  commentId: M:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyManySMEbyCopy``1(AdminShellNS.AdminShellV20.ConceptDescription,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellV20.ConceptDescription,System.Boolean,System.Action{``0},AdminShellNS.AdminShellV20.Key.MatchMode)
+  name.vb: CopyManySMEbyCopy(Of T)(AdminShellV20.ConceptDescription, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.ConceptDescription, Boolean, Action(Of T), AdminShellV20.Key.MatchMode)
+  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyManySMEbyCopy<T>(AdminShellNS.AdminShellV20.ConceptDescription, AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, AdminShellNS.AdminShellV20.ConceptDescription, System.Boolean, System.Action<T>, AdminShellNS.AdminShellV20.Key.MatchMode)
+  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyManySMEbyCopy(Of T)(AdminShellNS.AdminShellV20.ConceptDescription, AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, AdminShellNS.AdminShellV20.ConceptDescription, System.Boolean, System.Action(Of T), AdminShellNS.AdminShellV20.Key.MatchMode)
+  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyManySMEbyCopy<T>(AdminShellV20.ConceptDescription, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.ConceptDescription, Boolean, Action<T>, AdminShellV20.Key.MatchMode)
+  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyManySMEbyCopy(Of T)(AdminShellV20.ConceptDescription, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.ConceptDescription, Boolean, Action(Of T), AdminShellV20.Key.MatchMode)
+- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyManySMEbyCopy``1(AdminShellNS.AdminShellV20.Key,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellV20.Key,AdminShellNS.AdminShellV20.ConceptDescription,System.Action{``0},AdminShellNS.AdminShellV20.Key.MatchMode)
+  name: CopyManySMEbyCopy<T>(AdminShellV20.Key, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.Key, AdminShellV20.ConceptDescription, Action<T>, AdminShellV20.Key.MatchMode)
+  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_CopyManySMEbyCopy__1_AdminShellNS_AdminShellV20_Key_AdminShellNS_AdminShellV20_SubmodelElementWrapperCollection_AdminShellNS_AdminShellV20_Key_AdminShellNS_AdminShellV20_ConceptDescription_System_Action___0__AdminShellNS_AdminShellV20_Key_MatchMode_
+  commentId: M:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyManySMEbyCopy``1(AdminShellNS.AdminShellV20.Key,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellV20.Key,AdminShellNS.AdminShellV20.ConceptDescription,System.Action{``0},AdminShellNS.AdminShellV20.Key.MatchMode)
+  name.vb: CopyManySMEbyCopy(Of T)(AdminShellV20.Key, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.Key, AdminShellV20.ConceptDescription, Action(Of T), AdminShellV20.Key.MatchMode)
+  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyManySMEbyCopy<T>(AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.ConceptDescription, System.Action<T>, AdminShellNS.AdminShellV20.Key.MatchMode)
+  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyManySMEbyCopy(Of T)(AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.ConceptDescription, System.Action(Of T), AdminShellNS.AdminShellV20.Key.MatchMode)
+  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyManySMEbyCopy<T>(AdminShellV20.Key, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.Key, AdminShellV20.ConceptDescription, Action<T>, AdminShellV20.Key.MatchMode)
+  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyManySMEbyCopy(Of T)(AdminShellV20.Key, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.Key, AdminShellV20.ConceptDescription, Action(Of T), AdminShellV20.Key.MatchMode)
+- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyOneSMEbyCopy*
+  name: CopyOneSMEbyCopy
+  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_CopyOneSMEbyCopy_
+  commentId: Overload:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyOneSMEbyCopy
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyOneSMEbyCopy
+  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyOneSMEbyCopy
+  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyOneSMEbyCopy
+  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyOneSMEbyCopy
+- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyOneSMEbyCopy``1(AdminShellNS.AdminShellV20.ConceptDescription,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellV20.ConceptDescription,System.Boolean,System.Action{``0},AdminShellNS.AdminShellV20.Key.MatchMode,System.Boolean)
+  name: CopyOneSMEbyCopy<T>(AdminShellV20.ConceptDescription, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.ConceptDescription, Boolean, Action<T>, AdminShellV20.Key.MatchMode, Boolean)
+  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_CopyOneSMEbyCopy__1_AdminShellNS_AdminShellV20_ConceptDescription_AdminShellNS_AdminShellV20_SubmodelElementWrapperCollection_AdminShellNS_AdminShellV20_ConceptDescription_System_Boolean_System_Action___0__AdminShellNS_AdminShellV20_Key_MatchMode_System_Boolean_
+  commentId: M:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyOneSMEbyCopy``1(AdminShellNS.AdminShellV20.ConceptDescription,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellV20.ConceptDescription,System.Boolean,System.Action{``0},AdminShellNS.AdminShellV20.Key.MatchMode,System.Boolean)
+  name.vb: CopyOneSMEbyCopy(Of T)(AdminShellV20.ConceptDescription, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.ConceptDescription, Boolean, Action(Of T), AdminShellV20.Key.MatchMode, Boolean)
+  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyOneSMEbyCopy<T>(AdminShellNS.AdminShellV20.ConceptDescription, AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, AdminShellNS.AdminShellV20.ConceptDescription, System.Boolean, System.Action<T>, AdminShellNS.AdminShellV20.Key.MatchMode, System.Boolean)
+  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyOneSMEbyCopy(Of T)(AdminShellNS.AdminShellV20.ConceptDescription, AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, AdminShellNS.AdminShellV20.ConceptDescription, System.Boolean, System.Action(Of T), AdminShellNS.AdminShellV20.Key.MatchMode, System.Boolean)
+  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyOneSMEbyCopy<T>(AdminShellV20.ConceptDescription, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.ConceptDescription, Boolean, Action<T>, AdminShellV20.Key.MatchMode, Boolean)
+  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyOneSMEbyCopy(Of T)(AdminShellV20.ConceptDescription, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.ConceptDescription, Boolean, Action(Of T), AdminShellV20.Key.MatchMode, Boolean)
+- uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyOneSMEbyCopy``1(AdminShellNS.AdminShellV20.Key,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellV20.Key,AdminShellNS.AdminShellV20.ConceptDescription,System.Action{``0},AdminShellNS.AdminShellV20.Key.MatchMode,System.Boolean)
+  name: CopyOneSMEbyCopy<T>(AdminShellV20.Key, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.Key, AdminShellV20.ConceptDescription, Action<T>, AdminShellV20.Key.MatchMode, Boolean)
+  href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_CopyOneSMEbyCopy__1_AdminShellNS_AdminShellV20_Key_AdminShellNS_AdminShellV20_SubmodelElementWrapperCollection_AdminShellNS_AdminShellV20_Key_AdminShellNS_AdminShellV20_ConceptDescription_System_Action___0__AdminShellNS_AdminShellV20_Key_MatchMode_System_Boolean_
+  commentId: M:AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CopyOneSMEbyCopy``1(AdminShellNS.AdminShellV20.Key,AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellV20.Key,AdminShellNS.AdminShellV20.ConceptDescription,System.Action{``0},AdminShellNS.AdminShellV20.Key.MatchMode,System.Boolean)
+  name.vb: CopyOneSMEbyCopy(Of T)(AdminShellV20.Key, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.Key, AdminShellV20.ConceptDescription, Action(Of T), AdminShellV20.Key.MatchMode, Boolean)
+  fullName: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyOneSMEbyCopy<T>(AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.ConceptDescription, System.Action<T>, AdminShellNS.AdminShellV20.Key.MatchMode, System.Boolean)
+  fullName.vb: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyOneSMEbyCopy(Of T)(AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, AdminShellNS.AdminShellV20.Key, AdminShellNS.AdminShellV20.ConceptDescription, System.Action(Of T), AdminShellNS.AdminShellV20.Key.MatchMode, System.Boolean)
+  nameWithType: AdminShellV20.BaseSubmodelElementWrapperCollection<ELEMT>.CopyOneSMEbyCopy<T>(AdminShellV20.Key, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.Key, AdminShellV20.ConceptDescription, Action<T>, AdminShellV20.Key.MatchMode, Boolean)
+  nameWithType.vb: AdminShellV20.BaseSubmodelElementWrapperCollection(Of ELEMT).CopyOneSMEbyCopy(Of T)(AdminShellV20.Key, AdminShellV20.SubmodelElementWrapperCollection, AdminShellV20.Key, AdminShellV20.ConceptDescription, Action(Of T), AdminShellV20.Key.MatchMode, Boolean)
 - uid: AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection`1.CreateSMEForCD*
   name: CreateSMEForCD
   href: api/AdminShellNS.AdminShellV20.BaseSubmodelElementWrapperCollection-1.html#AdminShellNS_AdminShellV20_BaseSubmodelElementWrapperCollection_1_CreateSMEForCD_
@@ -39904,6 +40733,12 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.MultiLanguageProperty.Set(AdminShellNS.AdminShellV20.LangStr)
   fullName: AdminShellNS.AdminShellV20.MultiLanguageProperty.Set(AdminShellNS.AdminShellV20.LangStr)
   nameWithType: AdminShellV20.MultiLanguageProperty.Set(AdminShellV20.LangStr)
+- uid: AdminShellNS.AdminShellV20.MultiLanguageProperty.Set(AdminShellNS.AdminShellV20.LangStringSet)
+  name: Set(AdminShellV20.LangStringSet)
+  href: api/AdminShellNS.AdminShellV20.MultiLanguageProperty.html#AdminShellNS_AdminShellV20_MultiLanguageProperty_Set_AdminShellNS_AdminShellV20_LangStringSet_
+  commentId: M:AdminShellNS.AdminShellV20.MultiLanguageProperty.Set(AdminShellNS.AdminShellV20.LangStringSet)
+  fullName: AdminShellNS.AdminShellV20.MultiLanguageProperty.Set(AdminShellNS.AdminShellV20.LangStringSet)
+  nameWithType: AdminShellV20.MultiLanguageProperty.Set(AdminShellV20.LangStringSet)
 - uid: AdminShellNS.AdminShellV20.MultiLanguageProperty.Set(AdminShellNS.AdminShellV20.ListOfLangStr)
   name: Set(AdminShellV20.ListOfLangStr)
   href: api/AdminShellNS.AdminShellV20.MultiLanguageProperty.html#AdminShellNS_AdminShellV20_MultiLanguageProperty_Set_AdminShellNS_AdminShellV20_ListOfLangStr_
