@@ -36573,12 +36573,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.#ctor
   fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.AnnotatedRelationshipElement()
   nameWithType: AdminShellV20.AnnotatedRelationshipElement.AnnotatedRelationshipElement()
-- uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.#ctor(AdminShellNS.AdminShellV20.AnnotatedRelationshipElement)
-  name: AnnotatedRelationshipElement(AdminShellV20.AnnotatedRelationshipElement)
-  href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement__ctor_AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_
-  commentId: M:AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.#ctor(AdminShellNS.AdminShellV20.AnnotatedRelationshipElement)
-  fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.AnnotatedRelationshipElement(AdminShellNS.AdminShellV20.AnnotatedRelationshipElement)
-  nameWithType: AdminShellV20.AnnotatedRelationshipElement.AnnotatedRelationshipElement(AdminShellV20.AnnotatedRelationshipElement)
 - uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: AnnotatedRelationshipElement(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -37466,12 +37460,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.BasicEvent.#ctor
   fullName: AdminShellNS.AdminShellV20.BasicEvent.BasicEvent()
   nameWithType: AdminShellV20.BasicEvent.BasicEvent()
-- uid: AdminShellNS.AdminShellV20.BasicEvent.#ctor(AdminShellNS.AdminShellV20.BasicEvent)
-  name: BasicEvent(AdminShellV20.BasicEvent)
-  href: api/AdminShellNS.AdminShellV20.BasicEvent.html#AdminShellNS_AdminShellV20_BasicEvent__ctor_AdminShellNS_AdminShellV20_BasicEvent_
-  commentId: M:AdminShellNS.AdminShellV20.BasicEvent.#ctor(AdminShellNS.AdminShellV20.BasicEvent)
-  fullName: AdminShellNS.AdminShellV20.BasicEvent.BasicEvent(AdminShellNS.AdminShellV20.BasicEvent)
-  nameWithType: AdminShellV20.BasicEvent.BasicEvent(AdminShellV20.BasicEvent)
 - uid: AdminShellNS.AdminShellV20.BasicEvent.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: BasicEvent(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.BasicEvent.html#AdminShellNS_AdminShellV20_BasicEvent__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -37548,12 +37536,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.Blob.#ctor(AasxCompatibilityModels.AdminShellV10.Blob)
   fullName: AdminShellNS.AdminShellV20.Blob.Blob(AasxCompatibilityModels.AdminShellV10.Blob)
   nameWithType: AdminShellV20.Blob.Blob(AdminShellV10.Blob)
-- uid: AdminShellNS.AdminShellV20.Blob.#ctor(AdminShellNS.AdminShellV20.Blob)
-  name: Blob(AdminShellV20.Blob)
-  href: api/AdminShellNS.AdminShellV20.Blob.html#AdminShellNS_AdminShellV20_Blob__ctor_AdminShellNS_AdminShellV20_Blob_
-  commentId: M:AdminShellNS.AdminShellV20.Blob.#ctor(AdminShellNS.AdminShellV20.Blob)
-  fullName: AdminShellNS.AdminShellV20.Blob.Blob(AdminShellNS.AdminShellV20.Blob)
-  nameWithType: AdminShellV20.Blob.Blob(AdminShellV20.Blob)
 - uid: AdminShellNS.AdminShellV20.Blob.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: Blob(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.Blob.html#AdminShellNS_AdminShellV20_Blob__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -37643,12 +37625,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.Capability.#ctor
   fullName: AdminShellNS.AdminShellV20.Capability.Capability()
   nameWithType: AdminShellV20.Capability.Capability()
-- uid: AdminShellNS.AdminShellV20.Capability.#ctor(AdminShellNS.AdminShellV20.Capability)
-  name: Capability(AdminShellV20.Capability)
-  href: api/AdminShellNS.AdminShellV20.Capability.html#AdminShellNS_AdminShellV20_Capability__ctor_AdminShellNS_AdminShellV20_Capability_
-  commentId: M:AdminShellNS.AdminShellV20.Capability.#ctor(AdminShellNS.AdminShellV20.Capability)
-  fullName: AdminShellNS.AdminShellV20.Capability.Capability(AdminShellNS.AdminShellV20.Capability)
-  nameWithType: AdminShellV20.Capability.Capability(AdminShellV20.Capability)
 - uid: AdminShellNS.AdminShellV20.Capability.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: Capability(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.Capability.html#AdminShellNS_AdminShellV20_Capability__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -38863,12 +38839,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.Entity.#ctor
   fullName: AdminShellNS.AdminShellV20.Entity.Entity()
   nameWithType: AdminShellV20.Entity.Entity()
-- uid: AdminShellNS.AdminShellV20.Entity.#ctor(AdminShellNS.AdminShellV20.Entity)
-  name: Entity(AdminShellV20.Entity)
-  href: api/AdminShellNS.AdminShellV20.Entity.html#AdminShellNS_AdminShellV20_Entity__ctor_AdminShellNS_AdminShellV20_Entity_
-  commentId: M:AdminShellNS.AdminShellV20.Entity.#ctor(AdminShellNS.AdminShellV20.Entity)
-  fullName: AdminShellNS.AdminShellV20.Entity.Entity(AdminShellNS.AdminShellV20.Entity)
-  nameWithType: AdminShellV20.Entity.Entity(AdminShellV20.Entity)
 - uid: AdminShellNS.AdminShellV20.Entity.#ctor(AdminShellNS.AdminShellV20.Entity.EntityTypeEnum,System.String,AdminShellNS.AdminShellV20.AssetRef)
   name: Entity(AdminShellV20.Entity.EntityTypeEnum, String, AdminShellV20.AssetRef)
   href: api/AdminShellNS.AdminShellV20.Entity.html#AdminShellNS_AdminShellV20_Entity__ctor_AdminShellNS_AdminShellV20_Entity_EntityTypeEnum_System_String_AdminShellNS_AdminShellV20_AssetRef_
@@ -39084,12 +39054,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.File.#ctor(AasxCompatibilityModels.AdminShellV10.File)
   fullName: AdminShellNS.AdminShellV20.File.File(AasxCompatibilityModels.AdminShellV10.File)
   nameWithType: AdminShellV20.File.File(AdminShellV10.File)
-- uid: AdminShellNS.AdminShellV20.File.#ctor(AdminShellNS.AdminShellV20.File)
-  name: File(AdminShellV20.File)
-  href: api/AdminShellNS.AdminShellV20.File.html#AdminShellNS_AdminShellV20_File__ctor_AdminShellNS_AdminShellV20_File_
-  commentId: M:AdminShellNS.AdminShellV20.File.#ctor(AdminShellNS.AdminShellV20.File)
-  fullName: AdminShellNS.AdminShellV20.File.File(AdminShellNS.AdminShellV20.File)
-  nameWithType: AdminShellV20.File.File(AdminShellV20.File)
 - uid: AdminShellNS.AdminShellV20.File.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: File(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.File.html#AdminShellNS_AdminShellV20_File__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -40669,12 +40633,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.MultiLanguageProperty.#ctor
   fullName: AdminShellNS.AdminShellV20.MultiLanguageProperty.MultiLanguageProperty()
   nameWithType: AdminShellV20.MultiLanguageProperty.MultiLanguageProperty()
-- uid: AdminShellNS.AdminShellV20.MultiLanguageProperty.#ctor(AdminShellNS.AdminShellV20.MultiLanguageProperty)
-  name: MultiLanguageProperty(AdminShellV20.MultiLanguageProperty)
-  href: api/AdminShellNS.AdminShellV20.MultiLanguageProperty.html#AdminShellNS_AdminShellV20_MultiLanguageProperty__ctor_AdminShellNS_AdminShellV20_MultiLanguageProperty_
-  commentId: M:AdminShellNS.AdminShellV20.MultiLanguageProperty.#ctor(AdminShellNS.AdminShellV20.MultiLanguageProperty)
-  fullName: AdminShellNS.AdminShellV20.MultiLanguageProperty.MultiLanguageProperty(AdminShellNS.AdminShellV20.MultiLanguageProperty)
-  nameWithType: AdminShellV20.MultiLanguageProperty.MultiLanguageProperty(AdminShellV20.MultiLanguageProperty)
 - uid: AdminShellNS.AdminShellV20.MultiLanguageProperty.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: MultiLanguageProperty(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.MultiLanguageProperty.html#AdminShellNS_AdminShellV20_MultiLanguageProperty__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -40801,12 +40759,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.Operation.#ctor(AasxCompatibilityModels.AdminShellV10.Operation)
   fullName: AdminShellNS.AdminShellV20.Operation.Operation(AasxCompatibilityModels.AdminShellV10.Operation)
   nameWithType: AdminShellV20.Operation.Operation(AdminShellV10.Operation)
-- uid: AdminShellNS.AdminShellV20.Operation.#ctor(AdminShellNS.AdminShellV20.Operation)
-  name: Operation(AdminShellV20.Operation)
-  href: api/AdminShellNS.AdminShellV20.Operation.html#AdminShellNS_AdminShellV20_Operation__ctor_AdminShellNS_AdminShellV20_Operation_
-  commentId: M:AdminShellNS.AdminShellV20.Operation.#ctor(AdminShellNS.AdminShellV20.Operation)
-  fullName: AdminShellNS.AdminShellV20.Operation.Operation(AdminShellNS.AdminShellV20.Operation)
-  nameWithType: AdminShellV20.Operation.Operation(AdminShellV20.Operation)
 - uid: AdminShellNS.AdminShellV20.Operation.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: Operation(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.Operation.html#AdminShellNS_AdminShellV20_Operation__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -41094,12 +41046,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.Property.#ctor(AasxCompatibilityModels.AdminShellV10.Property)
   fullName: AdminShellNS.AdminShellV20.Property.Property(AasxCompatibilityModels.AdminShellV10.Property)
   nameWithType: AdminShellV20.Property.Property(AdminShellV10.Property)
-- uid: AdminShellNS.AdminShellV20.Property.#ctor(AdminShellNS.AdminShellV20.Property)
-  name: Property(AdminShellV20.Property)
-  href: api/AdminShellNS.AdminShellV20.Property.html#AdminShellNS_AdminShellV20_Property__ctor_AdminShellNS_AdminShellV20_Property_
-  commentId: M:AdminShellNS.AdminShellV20.Property.#ctor(AdminShellNS.AdminShellV20.Property)
-  fullName: AdminShellNS.AdminShellV20.Property.Property(AdminShellNS.AdminShellV20.Property)
-  nameWithType: AdminShellV20.Property.Property(AdminShellV20.Property)
 - uid: AdminShellNS.AdminShellV20.Property.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: Property(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.Property.html#AdminShellNS_AdminShellV20_Property__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -41445,12 +41391,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.Range.#ctor
   fullName: AdminShellNS.AdminShellV20.Range.Range()
   nameWithType: AdminShellV20.Range.Range()
-- uid: AdminShellNS.AdminShellV20.Range.#ctor(AdminShellNS.AdminShellV20.Range)
-  name: Range(AdminShellV20.Range)
-  href: api/AdminShellNS.AdminShellV20.Range.html#AdminShellNS_AdminShellV20_Range__ctor_AdminShellNS_AdminShellV20_Range_
-  commentId: M:AdminShellNS.AdminShellV20.Range.#ctor(AdminShellNS.AdminShellV20.Range)
-  fullName: AdminShellNS.AdminShellV20.Range.Range(AdminShellNS.AdminShellV20.Range)
-  nameWithType: AdminShellV20.Range.Range(AdminShellV20.Range)
 - uid: AdminShellNS.AdminShellV20.Range.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: Range(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.Range.html#AdminShellNS_AdminShellV20_Range__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -42183,12 +42123,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.ReferenceElement.#ctor(AasxCompatibilityModels.AdminShellV10.ReferenceElement)
   fullName: AdminShellNS.AdminShellV20.ReferenceElement.ReferenceElement(AasxCompatibilityModels.AdminShellV10.ReferenceElement)
   nameWithType: AdminShellV20.ReferenceElement.ReferenceElement(AdminShellV10.ReferenceElement)
-- uid: AdminShellNS.AdminShellV20.ReferenceElement.#ctor(AdminShellNS.AdminShellV20.ReferenceElement)
-  name: ReferenceElement(AdminShellV20.ReferenceElement)
-  href: api/AdminShellNS.AdminShellV20.ReferenceElement.html#AdminShellNS_AdminShellV20_ReferenceElement__ctor_AdminShellNS_AdminShellV20_ReferenceElement_
-  commentId: M:AdminShellNS.AdminShellV20.ReferenceElement.#ctor(AdminShellNS.AdminShellV20.ReferenceElement)
-  fullName: AdminShellNS.AdminShellV20.ReferenceElement.ReferenceElement(AdminShellNS.AdminShellV20.ReferenceElement)
-  nameWithType: AdminShellV20.ReferenceElement.ReferenceElement(AdminShellV20.ReferenceElement)
 - uid: AdminShellNS.AdminShellV20.ReferenceElement.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: ReferenceElement(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.ReferenceElement.html#AdminShellNS_AdminShellV20_ReferenceElement__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -42278,12 +42212,6 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.RelationshipElement.#ctor(AasxCompatibilityModels.AdminShellV10.RelationshipElement)
   fullName: AdminShellNS.AdminShellV20.RelationshipElement.RelationshipElement(AasxCompatibilityModels.AdminShellV10.RelationshipElement)
   nameWithType: AdminShellV20.RelationshipElement.RelationshipElement(AdminShellV10.RelationshipElement)
-- uid: AdminShellNS.AdminShellV20.RelationshipElement.#ctor(AdminShellNS.AdminShellV20.RelationshipElement)
-  name: RelationshipElement(AdminShellV20.RelationshipElement)
-  href: api/AdminShellNS.AdminShellV20.RelationshipElement.html#AdminShellNS_AdminShellV20_RelationshipElement__ctor_AdminShellNS_AdminShellV20_RelationshipElement_
-  commentId: M:AdminShellNS.AdminShellV20.RelationshipElement.#ctor(AdminShellNS.AdminShellV20.RelationshipElement)
-  fullName: AdminShellNS.AdminShellV20.RelationshipElement.RelationshipElement(AdminShellNS.AdminShellV20.RelationshipElement)
-  nameWithType: AdminShellV20.RelationshipElement.RelationshipElement(AdminShellV20.RelationshipElement)
 - uid: AdminShellNS.AdminShellV20.RelationshipElement.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
   name: RelationshipElement(AdminShellV20.SubmodelElement)
   href: api/AdminShellNS.AdminShellV20.RelationshipElement.html#AdminShellNS_AdminShellV20_RelationshipElement__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
@@ -43121,18 +43049,12 @@ references:
   commentId: M:AdminShellNS.AdminShellV20.SubmodelElementCollection.#ctor(AasxCompatibilityModels.AdminShellV10.SubmodelElementCollection,System.Boolean)
   fullName: AdminShellNS.AdminShellV20.SubmodelElementCollection.SubmodelElementCollection(AasxCompatibilityModels.AdminShellV10.SubmodelElementCollection, System.Boolean)
   nameWithType: AdminShellV20.SubmodelElementCollection.SubmodelElementCollection(AdminShellV10.SubmodelElementCollection, Boolean)
-- uid: AdminShellNS.AdminShellV20.SubmodelElementCollection.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
-  name: SubmodelElementCollection(AdminShellV20.SubmodelElement)
-  href: api/AdminShellNS.AdminShellV20.SubmodelElementCollection.html#AdminShellNS_AdminShellV20_SubmodelElementCollection__ctor_AdminShellNS_AdminShellV20_SubmodelElement_
-  commentId: M:AdminShellNS.AdminShellV20.SubmodelElementCollection.#ctor(AdminShellNS.AdminShellV20.SubmodelElement)
-  fullName: AdminShellNS.AdminShellV20.SubmodelElementCollection.SubmodelElementCollection(AdminShellNS.AdminShellV20.SubmodelElement)
-  nameWithType: AdminShellV20.SubmodelElementCollection.SubmodelElementCollection(AdminShellV20.SubmodelElement)
-- uid: AdminShellNS.AdminShellV20.SubmodelElementCollection.#ctor(AdminShellNS.AdminShellV20.SubmodelElementCollection,System.Boolean)
-  name: SubmodelElementCollection(AdminShellV20.SubmodelElementCollection, Boolean)
-  href: api/AdminShellNS.AdminShellV20.SubmodelElementCollection.html#AdminShellNS_AdminShellV20_SubmodelElementCollection__ctor_AdminShellNS_AdminShellV20_SubmodelElementCollection_System_Boolean_
-  commentId: M:AdminShellNS.AdminShellV20.SubmodelElementCollection.#ctor(AdminShellNS.AdminShellV20.SubmodelElementCollection,System.Boolean)
-  fullName: AdminShellNS.AdminShellV20.SubmodelElementCollection.SubmodelElementCollection(AdminShellNS.AdminShellV20.SubmodelElementCollection, System.Boolean)
-  nameWithType: AdminShellV20.SubmodelElementCollection.SubmodelElementCollection(AdminShellV20.SubmodelElementCollection, Boolean)
+- uid: AdminShellNS.AdminShellV20.SubmodelElementCollection.#ctor(AdminShellNS.AdminShellV20.SubmodelElement,System.Boolean)
+  name: SubmodelElementCollection(AdminShellV20.SubmodelElement, Boolean)
+  href: api/AdminShellNS.AdminShellV20.SubmodelElementCollection.html#AdminShellNS_AdminShellV20_SubmodelElementCollection__ctor_AdminShellNS_AdminShellV20_SubmodelElement_System_Boolean_
+  commentId: M:AdminShellNS.AdminShellV20.SubmodelElementCollection.#ctor(AdminShellNS.AdminShellV20.SubmodelElement,System.Boolean)
+  fullName: AdminShellNS.AdminShellV20.SubmodelElementCollection.SubmodelElementCollection(AdminShellNS.AdminShellV20.SubmodelElement, System.Boolean)
+  nameWithType: AdminShellV20.SubmodelElementCollection.SubmodelElementCollection(AdminShellV20.SubmodelElement, Boolean)
 - uid: AdminShellNS.AdminShellV20.SubmodelElementCollection.#ctor*
   name: SubmodelElementCollection
   href: api/AdminShellNS.AdminShellV20.SubmodelElementCollection.html#AdminShellNS_AdminShellV20_SubmodelElementCollection__ctor_
