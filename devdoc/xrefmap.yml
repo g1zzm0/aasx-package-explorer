@@ -2920,6 +2920,18 @@ references:
   commentId: F:AasxAmlImExport.AmlConst.Attributes.DataSpecificationRef
   fullName: AasxAmlImExport.AmlConst.Attributes.DataSpecificationRef
   nameWithType: AmlConst.Attributes.DataSpecificationRef
+- uid: AasxAmlImExport.AmlConst.Attributes.Entity_asset
+  name: Entity_asset
+  href: api/AasxAmlImExport.AmlConst.Attributes.html#AasxAmlImExport_AmlConst_Attributes_Entity_asset
+  commentId: F:AasxAmlImExport.AmlConst.Attributes.Entity_asset
+  fullName: AasxAmlImExport.AmlConst.Attributes.Entity_asset
+  nameWithType: AmlConst.Attributes.Entity_asset
+- uid: AasxAmlImExport.AmlConst.Attributes.Entity_entityType
+  name: Entity_entityType
+  href: api/AasxAmlImExport.AmlConst.Attributes.html#AasxAmlImExport_AmlConst_Attributes_Entity_entityType
+  commentId: F:AasxAmlImExport.AmlConst.Attributes.Entity_entityType
+  fullName: AasxAmlImExport.AmlConst.Attributes.Entity_entityType
+  nameWithType: AmlConst.Attributes.Entity_entityType
 - uid: AasxAmlImExport.AmlConst.Attributes.File_MimeType
   name: File_MimeType
   href: api/AasxAmlImExport.AmlConst.Attributes.html#AasxAmlImExport_AmlConst_Attributes_File_MimeType
@@ -2956,6 +2968,18 @@ references:
   commentId: F:AasxAmlImExport.AmlConst.Attributes.Identification_idType
   fullName: AasxAmlImExport.AmlConst.Attributes.Identification_idType
   nameWithType: AmlConst.Attributes.Identification_idType
+- uid: AasxAmlImExport.AmlConst.Attributes.MultiLanguageProperty_Value
+  name: MultiLanguageProperty_Value
+  href: api/AasxAmlImExport.AmlConst.Attributes.html#AasxAmlImExport_AmlConst_Attributes_MultiLanguageProperty_Value
+  commentId: F:AasxAmlImExport.AmlConst.Attributes.MultiLanguageProperty_Value
+  fullName: AasxAmlImExport.AmlConst.Attributes.MultiLanguageProperty_Value
+  nameWithType: AmlConst.Attributes.MultiLanguageProperty_Value
+- uid: AasxAmlImExport.AmlConst.Attributes.MultiLanguageProperty_ValueId
+  name: MultiLanguageProperty_ValueId
+  href: api/AasxAmlImExport.AmlConst.Attributes.html#AasxAmlImExport_AmlConst_Attributes_MultiLanguageProperty_ValueId
+  commentId: F:AasxAmlImExport.AmlConst.Attributes.MultiLanguageProperty_ValueId
+  fullName: AasxAmlImExport.AmlConst.Attributes.MultiLanguageProperty_ValueId
+  nameWithType: AmlConst.Attributes.MultiLanguageProperty_ValueId
 - uid: AasxAmlImExport.AmlConst.Attributes.Property_Value
   name: Property_Value
   href: api/AasxAmlImExport.AmlConst.Attributes.html#AasxAmlImExport_AmlConst_Attributes_Property_Value
@@ -2992,6 +3016,18 @@ references:
   commentId: F:AasxAmlImExport.AmlConst.Attributes.Qualifer_ValueId
   fullName: AasxAmlImExport.AmlConst.Attributes.Qualifer_ValueId
   nameWithType: AmlConst.Attributes.Qualifer_ValueId
+- uid: AasxAmlImExport.AmlConst.Attributes.Range_Max
+  name: Range_Max
+  href: api/AasxAmlImExport.AmlConst.Attributes.html#AasxAmlImExport_AmlConst_Attributes_Range_Max
+  commentId: F:AasxAmlImExport.AmlConst.Attributes.Range_Max
+  fullName: AasxAmlImExport.AmlConst.Attributes.Range_Max
+  nameWithType: AmlConst.Attributes.Range_Max
+- uid: AasxAmlImExport.AmlConst.Attributes.Range_Min
+  name: Range_Min
+  href: api/AasxAmlImExport.AmlConst.Attributes.html#AasxAmlImExport_AmlConst_Attributes_Range_Min
+  commentId: F:AasxAmlImExport.AmlConst.Attributes.Range_Min
+  fullName: AasxAmlImExport.AmlConst.Attributes.Range_Min
+  nameWithType: AmlConst.Attributes.Range_Min
 - uid: AasxAmlImExport.AmlConst.Attributes.Referable_Category
   name: Referable_Category
   href: api/AasxAmlImExport.AmlConst.Attributes.html#AasxAmlImExport_AmlConst_Attributes_Referable_Category
@@ -3184,6 +3220,18 @@ references:
   commentId: F:AasxAmlImExport.AmlConst.Roles.Submodel
   fullName: AasxAmlImExport.AmlConst.Roles.Submodel
   nameWithType: AmlConst.Roles.Submodel
+- uid: AasxAmlImExport.AmlConst.Roles.SubmodelElement_AnnotatedRelationship
+  name: SubmodelElement_AnnotatedRelationship
+  href: api/AasxAmlImExport.AmlConst.Roles.html#AasxAmlImExport_AmlConst_Roles_SubmodelElement_AnnotatedRelationship
+  commentId: F:AasxAmlImExport.AmlConst.Roles.SubmodelElement_AnnotatedRelationship
+  fullName: AasxAmlImExport.AmlConst.Roles.SubmodelElement_AnnotatedRelationship
+  nameWithType: AmlConst.Roles.SubmodelElement_AnnotatedRelationship
+- uid: AasxAmlImExport.AmlConst.Roles.SubmodelElement_Entity
+  name: SubmodelElement_Entity
+  href: api/AasxAmlImExport.AmlConst.Roles.html#AasxAmlImExport_AmlConst_Roles_SubmodelElement_Entity
+  commentId: F:AasxAmlImExport.AmlConst.Roles.SubmodelElement_Entity
+  fullName: AasxAmlImExport.AmlConst.Roles.SubmodelElement_Entity
+  nameWithType: AmlConst.Roles.SubmodelElement_Entity
 - uid: AasxAmlImExport.AmlConst.Roles.SubmodelElement_Header
   name: SubmodelElement_Header
   href: api/AasxAmlImExport.AmlConst.Roles.html#AasxAmlImExport_AmlConst_Roles_SubmodelElement_Header
@@ -36586,6 +36634,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.AnnotatedRelationshipElement
   nameWithType: AdminShellV20.AnnotatedRelationshipElement.AnnotatedRelationshipElement
+- uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Add(AdminShellNS.AdminShellV20.SubmodelElement)
+  name: Add(AdminShellV20.SubmodelElement)
+  href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_Add_AdminShellNS_AdminShellV20_SubmodelElement_
+  commentId: M:AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Add(AdminShellNS.AdminShellV20.SubmodelElement)
+  fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Add(AdminShellNS.AdminShellV20.SubmodelElement)
+  nameWithType: AdminShellV20.AnnotatedRelationshipElement.Add(AdminShellV20.SubmodelElement)
+- uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Add*
+  name: Add
+  href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_Add_
+  commentId: Overload:AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Add
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Add
+  nameWithType: AdminShellV20.AnnotatedRelationshipElement.Add
 - uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.AddChild(AdminShellNS.AdminShellV20.SubmodelElementWrapper)
   name: AddChild(AdminShellV20.SubmodelElementWrapper)
   href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_AddChild_AdminShellNS_AdminShellV20_SubmodelElementWrapper_
@@ -36670,6 +36731,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.JsonModelType
   nameWithType: AdminShellV20.AnnotatedRelationshipElement.JsonModelType
+- uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Remove(AdminShellNS.AdminShellV20.SubmodelElement)
+  name: Remove(AdminShellV20.SubmodelElement)
+  href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_Remove_AdminShellNS_AdminShellV20_SubmodelElement_
+  commentId: M:AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Remove(AdminShellNS.AdminShellV20.SubmodelElement)
+  fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Remove(AdminShellNS.AdminShellV20.SubmodelElement)
+  nameWithType: AdminShellV20.AnnotatedRelationshipElement.Remove(AdminShellV20.SubmodelElement)
+- uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Remove*
+  name: Remove
+  href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_Remove_
+  commentId: Overload:AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Remove
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Remove
+  nameWithType: AdminShellV20.AnnotatedRelationshipElement.Remove
 - uid: AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.Set(AdminShellNS.AdminShellV20.Reference,AdminShellNS.AdminShellV20.Reference)
   name: Set(AdminShellV20.Reference, AdminShellV20.Reference)
   href: api/AdminShellNS.AdminShellV20.AnnotatedRelationshipElement.html#AdminShellNS_AdminShellV20_AnnotatedRelationshipElement_Set_AdminShellNS_AdminShellV20_Reference_AdminShellNS_AdminShellV20_Reference_

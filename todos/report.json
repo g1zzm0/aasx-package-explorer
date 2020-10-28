@@ -5,7 +5,7 @@
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): If further data specifications exist (in future), add here",
-        "line": 862,
+        "line": 879,
         "column": 12,
         "status": "ok"
       }
@@ -24,7 +24,7 @@
       {
         "prefix": "TODO",
         "suffix": " (Michael Hoffmeister, 2020-08-01): fill out \r\n                                             eds.hasDataSpecification by using outer attributes",
-        "line": 1331,
+        "line": 1443,
         "column": 44,
         "status": "ok"
       }

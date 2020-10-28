@@ -1,7 +1,7 @@
 ﻿## AasxAmlImExport\AmlExport.cs
 
-[Line 863, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxAmlImExport/AmlExport.cs#L863
+[Line 880, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxAmlImExport/AmlExport.cs#L880
 ), 
 Michael Hoffmeister,
 2020-08-01
@@ -35,8 +35,8 @@ MIHO,
       2.Wird die SystemUnitClass als Internal Elementinstanziiert werden die verwendeten Rollen
         jeweils als RoleRequirement zugewiesen (in CAEX3 sind mehrere RoleReuqirements nun erlaubt)
 
-[Line 1332, column 45](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxAmlImExport/AmlImport.cs#L1332
+[Line 1444, column 45](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxAmlImExport/AmlImport.cs#L1444
 ), 
 Michael Hoffmeister,
 2020-08-01
