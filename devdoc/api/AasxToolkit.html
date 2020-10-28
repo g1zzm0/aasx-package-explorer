@@ -107,7 +107,7 @@ instructions and return pre-emptively from the execution loop, if necessary.</p>
 <p>To add a new command-instruction-execution to the program, follow these steps:</p>
 <ol>
 <li>Start by conceptualizing what data your instruction needs. Write it down by writing a class
-    implementing <a class="xref" href="AasxToolkit.Cli.IInstruction.html">Cli.IInstruction</a> and put it in <span class="xref">AasxToolkit.Instruction</span>.</li>
+    implementing <a class="xref" href="AasxToolkit.Instruction.IInstruction.html">IInstruction</a> and put it in <a class="xref" href="AasxToolkit.Instruction.html">AasxToolkit.Instruction</a>.</li>
 <li>Add the command to <a class="xref" href="AasxToolkit.Program.html">Program</a>. Provide parse function that translates command-line arguments
     into your instruction.</li>
 <li>Implement the execution of your instruction by adding a case corresponding to your instruction to
@@ -155,11 +155,6 @@ Please see <a class="xref" href="AasxToolkit.Cli.html">Cli</a> for the overall d
       <section></section>
       <h4><a class="xref" href="AasxToolkit.Program.html">Program</a></h4>
       <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="AasxToolkit.Cli.IInstruction.html">Cli.IInstruction</a></h4>
-      <section><p>Represents a single instruction to the program.</p>
-</section>
     <h3 id="delegates">Delegates
   </h3>
       <h4><a class="xref" href="AasxToolkit.Cli.ParseFunction.html">Cli.ParseFunction</a></h4>

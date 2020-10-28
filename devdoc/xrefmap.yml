@@ -31885,12 +31885,6 @@ references:
   isSpec: "True"
   fullName: AasxToolkit.Cli.GenerateUsageMessage
   nameWithType: Cli.GenerateUsageMessage
-- uid: AasxToolkit.Cli.IInstruction
-  name: Cli.IInstruction
-  href: api/AasxToolkit.Cli.IInstruction.html
-  commentId: T:AasxToolkit.Cli.IInstruction
-  fullName: AasxToolkit.Cli.IInstruction
-  nameWithType: Cli.IInstruction
 - uid: AasxToolkit.Cli.Indentation
   name: Cli.Indentation
   href: api/AasxToolkit.Cli.Indentation.html
@@ -31938,12 +31932,12 @@ references:
   commentId: T:AasxToolkit.Cli.Parsing
   fullName: AasxToolkit.Cli.Parsing
   nameWithType: Cli.Parsing
-- uid: AasxToolkit.Cli.Parsing.#ctor(AasxToolkit.Cli.IInstruction)
-  name: Parsing(Cli.IInstruction)
-  href: api/AasxToolkit.Cli.Parsing.html#AasxToolkit_Cli_Parsing__ctor_AasxToolkit_Cli_IInstruction_
-  commentId: M:AasxToolkit.Cli.Parsing.#ctor(AasxToolkit.Cli.IInstruction)
-  fullName: AasxToolkit.Cli.Parsing.Parsing(AasxToolkit.Cli.IInstruction)
-  nameWithType: Cli.Parsing.Parsing(Cli.IInstruction)
+- uid: AasxToolkit.Cli.Parsing.#ctor(AasxToolkit.Instruction.IInstruction)
+  name: Parsing(IInstruction)
+  href: api/AasxToolkit.Cli.Parsing.html#AasxToolkit_Cli_Parsing__ctor_AasxToolkit_Instruction_IInstruction_
+  commentId: M:AasxToolkit.Cli.Parsing.#ctor(AasxToolkit.Instruction.IInstruction)
+  fullName: AasxToolkit.Cli.Parsing.Parsing(AasxToolkit.Instruction.IInstruction)
+  nameWithType: Cli.Parsing.Parsing(IInstruction)
 - uid: AasxToolkit.Cli.Parsing.#ctor(System.Collections.Generic.IReadOnlyList{System.String})
   name: Parsing(IReadOnlyList<String>)
   href: api/AasxToolkit.Cli.Parsing.html#AasxToolkit_Cli_Parsing__ctor_System_Collections_Generic_IReadOnlyList_System_String__
@@ -31978,15 +31972,15 @@ references:
   commentId: T:AasxToolkit.Cli.ParsingOfInstructions
   fullName: AasxToolkit.Cli.ParsingOfInstructions
   nameWithType: Cli.ParsingOfInstructions
-- uid: AasxToolkit.Cli.ParsingOfInstructions.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.IInstruction})
-  name: ParsingOfInstructions(Int32, IReadOnlyList<Cli.IInstruction>)
-  href: api/AasxToolkit.Cli.ParsingOfInstructions.html#AasxToolkit_Cli_ParsingOfInstructions__ctor_System_Int32_System_Collections_Generic_IReadOnlyList_AasxToolkit_Cli_IInstruction__
-  commentId: M:AasxToolkit.Cli.ParsingOfInstructions.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.IInstruction})
-  name.vb: ParsingOfInstructions(Int32, IReadOnlyList(Of Cli.IInstruction))
-  fullName: AasxToolkit.Cli.ParsingOfInstructions.ParsingOfInstructions(System.Int32, System.Collections.Generic.IReadOnlyList<AasxToolkit.Cli.IInstruction>)
-  fullName.vb: AasxToolkit.Cli.ParsingOfInstructions.ParsingOfInstructions(System.Int32, System.Collections.Generic.IReadOnlyList(Of AasxToolkit.Cli.IInstruction))
-  nameWithType: Cli.ParsingOfInstructions.ParsingOfInstructions(Int32, IReadOnlyList<Cli.IInstruction>)
-  nameWithType.vb: Cli.ParsingOfInstructions.ParsingOfInstructions(Int32, IReadOnlyList(Of Cli.IInstruction))
+- uid: AasxToolkit.Cli.ParsingOfInstructions.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{AasxToolkit.Instruction.IInstruction})
+  name: ParsingOfInstructions(Int32, IReadOnlyList<IInstruction>)
+  href: api/AasxToolkit.Cli.ParsingOfInstructions.html#AasxToolkit_Cli_ParsingOfInstructions__ctor_System_Int32_System_Collections_Generic_IReadOnlyList_AasxToolkit_Instruction_IInstruction__
+  commentId: M:AasxToolkit.Cli.ParsingOfInstructions.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{AasxToolkit.Instruction.IInstruction})
+  name.vb: ParsingOfInstructions(Int32, IReadOnlyList(Of IInstruction))
+  fullName: AasxToolkit.Cli.ParsingOfInstructions.ParsingOfInstructions(System.Int32, System.Collections.Generic.IReadOnlyList<AasxToolkit.Instruction.IInstruction>)
+  fullName.vb: AasxToolkit.Cli.ParsingOfInstructions.ParsingOfInstructions(System.Int32, System.Collections.Generic.IReadOnlyList(Of AasxToolkit.Instruction.IInstruction))
+  nameWithType: Cli.ParsingOfInstructions.ParsingOfInstructions(Int32, IReadOnlyList<IInstruction>)
+  nameWithType.vb: Cli.ParsingOfInstructions.ParsingOfInstructions(Int32, IReadOnlyList(Of IInstruction))
 - uid: AasxToolkit.Cli.ParsingOfInstructions.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{System.String})
   name: ParsingOfInstructions(Int32, IReadOnlyList<String>)
   href: api/AasxToolkit.Cli.ParsingOfInstructions.html#AasxToolkit_Cli_ParsingOfInstructions__ctor_System_Int32_System_Collections_Generic_IReadOnlyList_System_String__
@@ -32027,15 +32021,15 @@ references:
   commentId: T:AasxToolkit.Execution
   fullName: AasxToolkit.Execution
   nameWithType: Execution
-- uid: AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.IInstruction})
-  name: Execute(IReadOnlyList<Cli.IInstruction>)
-  href: api/AasxToolkit.Execution.html#AasxToolkit_Execution_Execute_System_Collections_Generic_IReadOnlyList_AasxToolkit_Cli_IInstruction__
-  commentId: M:AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList{AasxToolkit.Cli.IInstruction})
-  name.vb: Execute(IReadOnlyList(Of Cli.IInstruction))
-  fullName: AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList<AasxToolkit.Cli.IInstruction>)
-  fullName.vb: AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList(Of AasxToolkit.Cli.IInstruction))
-  nameWithType: Execution.Execute(IReadOnlyList<Cli.IInstruction>)
-  nameWithType.vb: Execution.Execute(IReadOnlyList(Of Cli.IInstruction))
+- uid: AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList{AasxToolkit.Instruction.IInstruction})
+  name: Execute(IReadOnlyList<IInstruction>)
+  href: api/AasxToolkit.Execution.html#AasxToolkit_Execution_Execute_System_Collections_Generic_IReadOnlyList_AasxToolkit_Instruction_IInstruction__
+  commentId: M:AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList{AasxToolkit.Instruction.IInstruction})
+  name.vb: Execute(IReadOnlyList(Of IInstruction))
+  fullName: AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList<AasxToolkit.Instruction.IInstruction>)
+  fullName.vb: AasxToolkit.Execution.Execute(System.Collections.Generic.IReadOnlyList(Of AasxToolkit.Instruction.IInstruction))
+  nameWithType: Execution.Execute(IReadOnlyList<IInstruction>)
+  nameWithType.vb: Execution.Execute(IReadOnlyList(Of IInstruction))
 - uid: AasxToolkit.Execution.Execute*
   name: Execute
   href: api/AasxToolkit.Execution.html#AasxToolkit_Execution_Execute_
@@ -32254,6 +32248,174 @@ references:
   commentId: F:AasxToolkit.Generate.InputFilePrefs.webrecs
   fullName: AasxToolkit.Generate.InputFilePrefs.webrecs
   nameWithType: Generate.InputFilePrefs.webrecs
+- uid: AasxToolkit.Instruction
+  name: AasxToolkit.Instruction
+  href: api/AasxToolkit.Instruction.html
+  commentId: N:AasxToolkit.Instruction
+  fullName: AasxToolkit.Instruction
+  nameWithType: AasxToolkit.Instruction
+- uid: AasxToolkit.Instruction.CheckAndFix
+  name: CheckAndFix
+  href: api/AasxToolkit.Instruction.CheckAndFix.html
+  commentId: T:AasxToolkit.Instruction.CheckAndFix
+  fullName: AasxToolkit.Instruction.CheckAndFix
+  nameWithType: CheckAndFix
+- uid: AasxToolkit.Instruction.CheckAndFix.#ctor(System.Boolean)
+  name: CheckAndFix(Boolean)
+  href: api/AasxToolkit.Instruction.CheckAndFix.html#AasxToolkit_Instruction_CheckAndFix__ctor_System_Boolean_
+  commentId: M:AasxToolkit.Instruction.CheckAndFix.#ctor(System.Boolean)
+  fullName: AasxToolkit.Instruction.CheckAndFix.CheckAndFix(System.Boolean)
+  nameWithType: CheckAndFix.CheckAndFix(Boolean)
+- uid: AasxToolkit.Instruction.CheckAndFix.#ctor*
+  name: CheckAndFix
+  href: api/AasxToolkit.Instruction.CheckAndFix.html#AasxToolkit_Instruction_CheckAndFix__ctor_
+  commentId: Overload:AasxToolkit.Instruction.CheckAndFix.#ctor
+  isSpec: "True"
+  fullName: AasxToolkit.Instruction.CheckAndFix.CheckAndFix
+  nameWithType: CheckAndFix.CheckAndFix
+- uid: AasxToolkit.Instruction.CheckAndFix.ShouldFix
+  name: ShouldFix
+  href: api/AasxToolkit.Instruction.CheckAndFix.html#AasxToolkit_Instruction_CheckAndFix_ShouldFix
+  commentId: F:AasxToolkit.Instruction.CheckAndFix.ShouldFix
+  fullName: AasxToolkit.Instruction.CheckAndFix.ShouldFix
+  nameWithType: CheckAndFix.ShouldFix
+- uid: AasxToolkit.Instruction.ExportTemplate
+  name: ExportTemplate
+  href: api/AasxToolkit.Instruction.ExportTemplate.html
+  commentId: T:AasxToolkit.Instruction.ExportTemplate
+  fullName: AasxToolkit.Instruction.ExportTemplate
+  nameWithType: ExportTemplate
+- uid: AasxToolkit.Instruction.ExportTemplate.#ctor(System.String)
+  name: ExportTemplate(String)
+  href: api/AasxToolkit.Instruction.ExportTemplate.html#AasxToolkit_Instruction_ExportTemplate__ctor_System_String_
+  commentId: M:AasxToolkit.Instruction.ExportTemplate.#ctor(System.String)
+  fullName: AasxToolkit.Instruction.ExportTemplate.ExportTemplate(System.String)
+  nameWithType: ExportTemplate.ExportTemplate(String)
+- uid: AasxToolkit.Instruction.ExportTemplate.#ctor*
+  name: ExportTemplate
+  href: api/AasxToolkit.Instruction.ExportTemplate.html#AasxToolkit_Instruction_ExportTemplate__ctor_
+  commentId: Overload:AasxToolkit.Instruction.ExportTemplate.#ctor
+  isSpec: "True"
+  fullName: AasxToolkit.Instruction.ExportTemplate.ExportTemplate
+  nameWithType: ExportTemplate.ExportTemplate
+- uid: AasxToolkit.Instruction.ExportTemplate.Path
+  name: Path
+  href: api/AasxToolkit.Instruction.ExportTemplate.html#AasxToolkit_Instruction_ExportTemplate_Path
+  commentId: F:AasxToolkit.Instruction.ExportTemplate.Path
+  fullName: AasxToolkit.Instruction.ExportTemplate.Path
+  nameWithType: ExportTemplate.Path
+- uid: AasxToolkit.Instruction.Generate
+  name: Generate
+  href: api/AasxToolkit.Instruction.Generate.html
+  commentId: T:AasxToolkit.Instruction.Generate
+  fullName: AasxToolkit.Instruction.Generate
+  nameWithType: Generate
+- uid: AasxToolkit.Instruction.Generate.#ctor(System.String)
+  name: Generate(String)
+  href: api/AasxToolkit.Instruction.Generate.html#AasxToolkit_Instruction_Generate__ctor_System_String_
+  commentId: M:AasxToolkit.Instruction.Generate.#ctor(System.String)
+  fullName: AasxToolkit.Instruction.Generate.Generate(System.String)
+  nameWithType: Generate.Generate(String)
+- uid: AasxToolkit.Instruction.Generate.#ctor*
+  name: Generate
+  href: api/AasxToolkit.Instruction.Generate.html#AasxToolkit_Instruction_Generate__ctor_
+  commentId: Overload:AasxToolkit.Instruction.Generate.#ctor
+  isSpec: "True"
+  fullName: AasxToolkit.Instruction.Generate.Generate
+  nameWithType: Generate.Generate
+- uid: AasxToolkit.Instruction.Generate.JsonInitFile
+  name: JsonInitFile
+  href: api/AasxToolkit.Instruction.Generate.html#AasxToolkit_Instruction_Generate_JsonInitFile
+  commentId: F:AasxToolkit.Instruction.Generate.JsonInitFile
+  fullName: AasxToolkit.Instruction.Generate.JsonInitFile
+  nameWithType: Generate.JsonInitFile
+- uid: AasxToolkit.Instruction.IInstruction
+  name: IInstruction
+  href: api/AasxToolkit.Instruction.IInstruction.html
+  commentId: T:AasxToolkit.Instruction.IInstruction
+  fullName: AasxToolkit.Instruction.IInstruction
+  nameWithType: IInstruction
+- uid: AasxToolkit.Instruction.Load
+  name: Load
+  href: api/AasxToolkit.Instruction.Load.html
+  commentId: T:AasxToolkit.Instruction.Load
+  fullName: AasxToolkit.Instruction.Load
+  nameWithType: Load
+- uid: AasxToolkit.Instruction.Load.#ctor(System.String)
+  name: Load(String)
+  href: api/AasxToolkit.Instruction.Load.html#AasxToolkit_Instruction_Load__ctor_System_String_
+  commentId: M:AasxToolkit.Instruction.Load.#ctor(System.String)
+  fullName: AasxToolkit.Instruction.Load.Load(System.String)
+  nameWithType: Load.Load(String)
+- uid: AasxToolkit.Instruction.Load.#ctor*
+  name: Load
+  href: api/AasxToolkit.Instruction.Load.html#AasxToolkit_Instruction_Load__ctor_
+  commentId: Overload:AasxToolkit.Instruction.Load.#ctor
+  isSpec: "True"
+  fullName: AasxToolkit.Instruction.Load.Load
+  nameWithType: Load.Load
+- uid: AasxToolkit.Instruction.Load.Path
+  name: Path
+  href: api/AasxToolkit.Instruction.Load.html#AasxToolkit_Instruction_Load_Path
+  commentId: F:AasxToolkit.Instruction.Load.Path
+  fullName: AasxToolkit.Instruction.Load.Path
+  nameWithType: Load.Path
+- uid: AasxToolkit.Instruction.Save
+  name: Save
+  href: api/AasxToolkit.Instruction.Save.html
+  commentId: T:AasxToolkit.Instruction.Save
+  fullName: AasxToolkit.Instruction.Save
+  nameWithType: Save
+- uid: AasxToolkit.Instruction.Save.#ctor(System.String)
+  name: Save(String)
+  href: api/AasxToolkit.Instruction.Save.html#AasxToolkit_Instruction_Save__ctor_System_String_
+  commentId: M:AasxToolkit.Instruction.Save.#ctor(System.String)
+  fullName: AasxToolkit.Instruction.Save.Save(System.String)
+  nameWithType: Save.Save(String)
+- uid: AasxToolkit.Instruction.Save.#ctor*
+  name: Save
+  href: api/AasxToolkit.Instruction.Save.html#AasxToolkit_Instruction_Save__ctor_
+  commentId: Overload:AasxToolkit.Instruction.Save.#ctor
+  isSpec: "True"
+  fullName: AasxToolkit.Instruction.Save.Save
+  nameWithType: Save.Save
+- uid: AasxToolkit.Instruction.Save.Path
+  name: Path
+  href: api/AasxToolkit.Instruction.Save.html#AasxToolkit_Instruction_Save_Path
+  commentId: F:AasxToolkit.Instruction.Save.Path
+  fullName: AasxToolkit.Instruction.Save.Path
+  nameWithType: Save.Path
+- uid: AasxToolkit.Instruction.Test
+  name: Test
+  href: api/AasxToolkit.Instruction.Test.html
+  commentId: T:AasxToolkit.Instruction.Test
+  fullName: AasxToolkit.Instruction.Test
+  nameWithType: Test
+- uid: AasxToolkit.Instruction.Validate
+  name: Validate
+  href: api/AasxToolkit.Instruction.Validate.html
+  commentId: T:AasxToolkit.Instruction.Validate
+  fullName: AasxToolkit.Instruction.Validate
+  nameWithType: Validate
+- uid: AasxToolkit.Instruction.Validate.#ctor(System.String)
+  name: Validate(String)
+  href: api/AasxToolkit.Instruction.Validate.html#AasxToolkit_Instruction_Validate__ctor_System_String_
+  commentId: M:AasxToolkit.Instruction.Validate.#ctor(System.String)
+  fullName: AasxToolkit.Instruction.Validate.Validate(System.String)
+  nameWithType: Validate.Validate(String)
+- uid: AasxToolkit.Instruction.Validate.#ctor*
+  name: Validate
+  href: api/AasxToolkit.Instruction.Validate.html#AasxToolkit_Instruction_Validate__ctor_
+  commentId: Overload:AasxToolkit.Instruction.Validate.#ctor
+  isSpec: "True"
+  fullName: AasxToolkit.Instruction.Validate.Validate
+  nameWithType: Validate.Validate
+- uid: AasxToolkit.Instruction.Validate.Path
+  name: Path
+  href: api/AasxToolkit.Instruction.Validate.html#AasxToolkit_Instruction_Validate_Path
+  commentId: F:AasxToolkit.Instruction.Validate.Path
+  fullName: AasxToolkit.Instruction.Validate.Path
+  nameWithType: Validate.Path
 - uid: AasxToolkit.IriIdentifierRepository
   name: IriIdentifierRepository
   href: api/AasxToolkit.IriIdentifierRepository.html
