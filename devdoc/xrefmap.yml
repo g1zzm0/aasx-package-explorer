@@ -27544,12 +27544,6 @@ references:
   commentId: T:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData
   fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData
   nameWithType: ConceptModelZveiTechnicalData
-- uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.#ctor
-  name: ConceptModelZveiTechnicalData()
-  href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData__ctor
-  commentId: M:AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.#ctor
-  fullName: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.ConceptModelZveiTechnicalData()
-  nameWithType: ConceptModelZveiTechnicalData.ConceptModelZveiTechnicalData()
 - uid: AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.#ctor(AdminShellNS.AdminShellV20.Submodel)
   name: ConceptModelZveiTechnicalData(AdminShellV20.Submodel)
   href: api/AasxPredefinedConcepts.ConceptModel.ConceptModelZveiTechnicalData.html#AasxPredefinedConcepts_ConceptModel_ConceptModelZveiTechnicalData__ctor_AdminShellNS_AdminShellV20_Submodel_
