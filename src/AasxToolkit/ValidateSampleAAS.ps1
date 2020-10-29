@@ -19,7 +19,13 @@ function Main
 {
     Get-ChildItem -File -Path ..\..\..\..\sample-aasx -Filter *.aasx | Foreach-Object {
 		# Write-Host "$($_.Fullname)"
+
 		$cmd = ".\AasxToolkit.exe load `"$($_.Fullname)`" check+fix save sample.xml validate sample.xml"
+		Write-Host ""
+		Write-Host -ForegroundColor Yellow "Executing: $cmd"
+		Invoke-Expression $cmd
+
+		$cmd = ".\AasxToolkit.exe load `"$($_.Fullname)`" check+fix save sample.json validate sample.json"
 		Write-Host ""
 		Write-Host -ForegroundColor Yellow "Executing: $cmd"
 		Invoke-Expression $cmd
