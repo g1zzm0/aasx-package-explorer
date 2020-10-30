@@ -90,35 +90,11 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">AdminShellUtil</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AdminShellNS.html">AdminShellNS</a></h6>
   <h6><strong>Assembly</strong>: AasxCsharpLibrary.dll</h6>
   <h5 id="AdminShellNS_AdminShellUtil_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class AdminShellUtil</code></pre>
+    <pre><code class="lang-csharp hljs">public static class AdminShellUtil : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -176,13 +152,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellUtil_CheckSearchable_AdminShellNS_AdminShellUtil_SearchResults_AdminShellNS_AdminShellUtil_SearchOptions_System_String_System_Object_System_Reflection_MemberInfo_System_Object_System_Object_System_Func_System_Int32__.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellUtil.CheckSearchable(AdminShellNS.AdminShellUtil.SearchResults%2CAdminShellNS.AdminShellUtil.SearchOptions%2CSystem.String%2CSystem.Object%2CSystem.Reflection.MemberInfo%2CSystem.Object%2CSystem.Object%2CSystem.Func%7BSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellUtil_CheckSearchable_AdminShellNS_AdminShellUtil_SearchResults_AdminShellNS_AdminShellUtil_SearchOptions_System_String_System_Object_MemberInfo_System_Object_System_Object_Func_System_Int32__.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellUtil.CheckSearchable(AdminShellNS.AdminShellUtil.SearchResults%2CAdminShellNS.AdminShellUtil.SearchOptions%2CSystem.String%2CSystem.Object%2CMemberInfo%2CSystem.Object%2CSystem.Object%2CFunc%7BSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellUtil.cs/#L327">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellUtil_CheckSearchable_" data-uid="AdminShellNS.AdminShellUtil.CheckSearchable*"></a>
-  <h4 id="AdminShellNS_AdminShellUtil_CheckSearchable_AdminShellNS_AdminShellUtil_SearchResults_AdminShellNS_AdminShellUtil_SearchOptions_System_String_System_Object_System_Reflection_MemberInfo_System_Object_System_Object_System_Func_System_Int32__" data-uid="AdminShellNS.AdminShellUtil.CheckSearchable(AdminShellNS.AdminShellUtil.SearchResults,AdminShellNS.AdminShellUtil.SearchOptions,System.String,System.Object,System.Reflection.MemberInfo,System.Object,System.Object,System.Func{System.Int32})">CheckSearchable(AdminShellUtil.SearchResults, AdminShellUtil.SearchOptions, String, Object, MemberInfo, Object, Object, Func&lt;Int32&gt;)</h4>
+  <h4 id="AdminShellNS_AdminShellUtil_CheckSearchable_AdminShellNS_AdminShellUtil_SearchResults_AdminShellNS_AdminShellUtil_SearchOptions_System_String_System_Object_MemberInfo_System_Object_System_Object_Func_System_Int32__" data-uid="AdminShellNS.AdminShellUtil.CheckSearchable(AdminShellNS.AdminShellUtil.SearchResults,AdminShellNS.AdminShellUtil.SearchOptions,System.String,System.Object,MemberInfo,System.Object,System.Object,Func{System.Int32})">CheckSearchable(AdminShellUtil.SearchResults, AdminShellUtil.SearchOptions, String, Object, MemberInfo, Object, Object, Func&lt;Int32&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -220,7 +196,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Reflection.MemberInfo</span></td>
+        <td><span class="xref">MemberInfo</span></td>
         <td><span class="parametername">mi</span></td>
         <td></td>
       </tr>
@@ -235,7 +211,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">Func</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td><span class="parametername">getMemberHash</span></td>
         <td></td>
       </tr>
@@ -853,13 +829,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellUtil_ShortLocation_System_Exception_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellUtil.ShortLocation(System.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/admin-shell-io/aasx-package-explorer/new/master/apiSpec/new?filename=AdminShellNS_AdminShellUtil_ShortLocation_Exception_.md&amp;value=---%0Auid%3A%20AdminShellNS.AdminShellUtil.ShortLocation(Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellUtil.cs/#L169">View Source</a>
   </span>
   <a id="AdminShellNS_AdminShellUtil_ShortLocation_" data-uid="AdminShellNS.AdminShellUtil.ShortLocation*"></a>
-  <h4 id="AdminShellNS_AdminShellUtil_ShortLocation_System_Exception_" data-uid="AdminShellNS.AdminShellUtil.ShortLocation(System.Exception)">ShortLocation(Exception)</h4>
+  <h4 id="AdminShellNS_AdminShellUtil_ShortLocation_Exception_" data-uid="AdminShellNS.AdminShellUtil.ShortLocation(Exception)">ShortLocation(Exception)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -877,7 +853,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
+        <td><span class="xref">Exception</span></td>
         <td><span class="parametername">ex</span></td>
         <td></td>
       </tr>

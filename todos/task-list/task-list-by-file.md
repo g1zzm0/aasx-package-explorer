@@ -588,24 +588,24 @@ MIHO,
 
 ## AasxWpfControlLibrary\DispEditAasxEntity.xaml.cs
 
-[Line 1447, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1447
+[Line 1450, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1450
 ), 
 MIHO,
 2020-09-01
 
     extend the lines below to cover also data spec. for units
 
-[Line 1804, column 33](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1804
+[Line 1807, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1807
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     Operation mssing here?
 
-[Line 1826, column 33](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1826
+[Line 1829, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1829
 ), 
 Michael Hoffmeister,
 2020-08-01
