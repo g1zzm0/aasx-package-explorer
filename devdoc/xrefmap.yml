@@ -18224,19 +18224,6 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.BrowserContainer.CanHandleFileNameExtension
   nameWithType: BrowserContainer.CanHandleFileNameExtension
-- uid: AasxPackageExplorer.BrowserContainer.CropImage(System.Drawing.Bitmap,System.Drawing.Rectangle)
-  name: CropImage(Bitmap, Rectangle)
-  href: api/AasxPackageExplorer.BrowserContainer.html#AasxPackageExplorer_BrowserContainer_CropImage_System_Drawing_Bitmap_System_Drawing_Rectangle_
-  commentId: M:AasxPackageExplorer.BrowserContainer.CropImage(System.Drawing.Bitmap,System.Drawing.Rectangle)
-  fullName: AasxPackageExplorer.BrowserContainer.CropImage(System.Drawing.Bitmap, System.Drawing.Rectangle)
-  nameWithType: BrowserContainer.CropImage(Bitmap, Rectangle)
-- uid: AasxPackageExplorer.BrowserContainer.CropImage*
-  name: CropImage
-  href: api/AasxPackageExplorer.BrowserContainer.html#AasxPackageExplorer_BrowserContainer_CropImage_
-  commentId: Overload:AasxPackageExplorer.BrowserContainer.CropImage
-  isSpec: "True"
-  fullName: AasxPackageExplorer.BrowserContainer.CropImage
-  nameWithType: BrowserContainer.CropImage
 - uid: AasxPackageExplorer.BrowserContainer.GoToContentBrowserAddress(System.String)
   name: GoToContentBrowserAddress(String)
   href: api/AasxPackageExplorer.BrowserContainer.html#AasxPackageExplorer_BrowserContainer_GoToContentBrowserAddress_System_String_
@@ -18263,19 +18250,6 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.BrowserContainer.Start
   nameWithType: BrowserContainer.Start
-- uid: AasxPackageExplorer.BrowserContainer.StartOffscreenRender(System.String)
-  name: StartOffscreenRender(String)
-  href: api/AasxPackageExplorer.BrowserContainer.html#AasxPackageExplorer_BrowserContainer_StartOffscreenRender_System_String_
-  commentId: M:AasxPackageExplorer.BrowserContainer.StartOffscreenRender(System.String)
-  fullName: AasxPackageExplorer.BrowserContainer.StartOffscreenRender(System.String)
-  nameWithType: BrowserContainer.StartOffscreenRender(String)
-- uid: AasxPackageExplorer.BrowserContainer.StartOffscreenRender*
-  name: StartOffscreenRender
-  href: api/AasxPackageExplorer.BrowserContainer.html#AasxPackageExplorer_BrowserContainer_StartOffscreenRender_
-  commentId: Overload:AasxPackageExplorer.BrowserContainer.StartOffscreenRender
-  isSpec: "True"
-  fullName: AasxPackageExplorer.BrowserContainer.StartOffscreenRender
-  nameWithType: BrowserContainer.StartOffscreenRender
 - uid: AasxPackageExplorer.BrowserContainer.ZoomLevel
   name: ZoomLevel
   href: api/AasxPackageExplorer.BrowserContainer.html#AasxPackageExplorer_BrowserContainer_ZoomLevel
