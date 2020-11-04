@@ -177,6 +177,40 @@ documentation how to set up a RUNSETTINGS file.</p>
   &lt;/EnvironmentVariables&gt;
 &lt;/RunSettings&gt;
 </code></pre>
+<h3 id="gui-tests">GUI Tests</h3>
+<p>Analogous to unit tests, we provide GUI tests (a.k.a. function tests) based on
+<a href="https://github.com/FlaUI/FlaUI">FlaUI</a>.
+Such test projects are marked with <code>.GuiTests</code> suffix.</p>
+<p>Mind that the tests run against the executables released in
+<code>artefacts\build\Debug</code> directory. This means that building the executables
+in your IDE will have no effect on GUI tests (unless you manually set the target
+for the binaries to <code>artefacts\build\Debug</code>). Please always double-check that
+you built your binaries with <code>src\BuildForDebug.ps1</code> to avoid unnecessary
+confusion.</p>
+<p>Some of the GUI tests, similarly to unit tests, depend on sample AASX files
+which need to be downloaded with <code>src\DownloadSamples.ps1</code> before the tests can
+run. Once you built for debug and obtained the samples, you are all set to
+automatically test the GUIs.</p>
+<p>To run all the GUI tests, call:</p>
+<pre><code class="lang-powershell">.\src\TestGui.ps1
+</code></pre>
+<p>Similar to unit tests, you can list the tests:</p>
+<pre><code class="lang-powershell">.\src\Test.ps1 -Explore
+</code></pre>
+<p>, execute a single test:</p>
+<pre><code class="lang-powershell">.\src\TestGui.ps1 `
+    -Test AasxPackageExplorer.GuiTests.TestBasic.Test_application_start
+</code></pre>
+<p>or a group of tests sharing a common prefix:</p>
+<pre><code class="lang-powershell">.\src\TestGui.ps1 `
+    -Test AasxPackageExplorer.GuiTests
+</code></pre>
+<p>GUI tests are not executed automatically on the remote
+CI servers. First, it is more often than difficult to run GUI tests on headless
+remote servers, so it would put a high maintenance burden. Second, GUI tests
+take too long and depend on timeouts which are often not controllable
+and reproducible enough. In particular, timeouts depend on the server load and
+hence can vary greatly.</p>
 <h2 id="github-workflows">Github Workflows</h2>
 <p>Github Actions allow for running continuous integration on Github servers.
 For a general introduction, see <a href="https://docs.github.com/en/actions">Github's documentation on Actions</a>.</p>
