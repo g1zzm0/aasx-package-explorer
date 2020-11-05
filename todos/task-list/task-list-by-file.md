@@ -238,32 +238,32 @@ MIHO,
 
 ## AasxCsharpLibrary\AdminShellPackageEnv.cs
 
-[Line 234, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L234
+[Line 231, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L231
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 360, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L360
+[Line 351, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L351
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 404, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L404
+[Line 392, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L392
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 439, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L439
+[Line 422, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L422
 ), 
 Michael Hoffmeister,
 2020-08-01

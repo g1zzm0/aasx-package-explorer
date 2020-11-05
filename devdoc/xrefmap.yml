@@ -35768,6 +35768,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellPackageEnv.GetLocalThumbnailStream
   nameWithType: AdminShellPackageEnv.GetLocalThumbnailStream
+- uid: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String)
+  name: GetStreamFromUriOrLocalPackage(String)
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetStreamFromUriOrLocalPackage_System_String_
+  commentId: M:AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String)
+  fullName: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String)
+  nameWithType: AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(String)
+- uid: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage*
+  name: GetStreamFromUriOrLocalPackage
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetStreamFromUriOrLocalPackage_
+  commentId: Overload:AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage
+  nameWithType: AdminShellPackageEnv.GetStreamFromUriOrLocalPackage
 - uid: AdminShellNS.AdminShellPackageEnv.GetStreamSizeFromPackage(System.String)
   name: GetStreamSizeFromPackage(String)
   href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetStreamSizeFromPackage_System_String_
