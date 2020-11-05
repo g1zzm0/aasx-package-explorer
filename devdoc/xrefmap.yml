@@ -21960,7 +21960,14 @@ references:
 - uid: AasxPackageExplorer.OptionsInformation.PrefVersion
   name: PrefVersion
   href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_PrefVersion
-  commentId: F:AasxPackageExplorer.OptionsInformation.PrefVersion
+  commentId: P:AasxPackageExplorer.OptionsInformation.PrefVersion
+  fullName: AasxPackageExplorer.OptionsInformation.PrefVersion
+  nameWithType: OptionsInformation.PrefVersion
+- uid: AasxPackageExplorer.OptionsInformation.PrefVersion*
+  name: PrefVersion
+  href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_PrefVersion_
+  commentId: Overload:AasxPackageExplorer.OptionsInformation.PrefVersion
+  isSpec: "True"
   fullName: AasxPackageExplorer.OptionsInformation.PrefVersion
   nameWithType: OptionsInformation.PrefVersion
 - uid: AasxPackageExplorer.OptionsInformation.QualifiersFile
