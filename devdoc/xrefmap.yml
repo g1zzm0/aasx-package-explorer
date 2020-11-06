@@ -13818,12 +13818,12 @@ references:
   isSpec: "True"
   fullName: AasxIntegrationBase.AasForms.FormInstanceSubmodel.FormInstanceSubmodel
   nameWithType: FormInstanceSubmodel.FormInstanceSubmodel
-- uid: AasxIntegrationBase.AasForms.FormInstanceSubmodel.AddOrUpdateDifferentElementsToCollection(AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellPackageEnv,System.Boolean)
-  name: AddOrUpdateDifferentElementsToCollection(AdminShellV20.SubmodelElementWrapperCollection, AdminShellPackageEnv, Boolean)
-  href: api/AasxIntegrationBase.AasForms.FormInstanceSubmodel.html#AasxIntegrationBase_AasForms_FormInstanceSubmodel_AddOrUpdateDifferentElementsToCollection_AdminShellNS_AdminShellV20_SubmodelElementWrapperCollection_AdminShellNS_AdminShellPackageEnv_System_Boolean_
-  commentId: M:AasxIntegrationBase.AasForms.FormInstanceSubmodel.AddOrUpdateDifferentElementsToCollection(AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellPackageEnv,System.Boolean)
-  fullName: AasxIntegrationBase.AasForms.FormInstanceSubmodel.AddOrUpdateDifferentElementsToCollection(AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, AdminShellNS.AdminShellPackageEnv, System.Boolean)
-  nameWithType: FormInstanceSubmodel.AddOrUpdateDifferentElementsToCollection(AdminShellV20.SubmodelElementWrapperCollection, AdminShellPackageEnv, Boolean)
+- uid: AasxIntegrationBase.AasForms.FormInstanceSubmodel.AddOrUpdateDifferentElementsToCollection(AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellPackageEnv,System.Boolean,System.Boolean)
+  name: AddOrUpdateDifferentElementsToCollection(AdminShellV20.SubmodelElementWrapperCollection, AdminShellPackageEnv, Boolean, Boolean)
+  href: api/AasxIntegrationBase.AasForms.FormInstanceSubmodel.html#AasxIntegrationBase_AasForms_FormInstanceSubmodel_AddOrUpdateDifferentElementsToCollection_AdminShellNS_AdminShellV20_SubmodelElementWrapperCollection_AdminShellNS_AdminShellPackageEnv_System_Boolean_System_Boolean_
+  commentId: M:AasxIntegrationBase.AasForms.FormInstanceSubmodel.AddOrUpdateDifferentElementsToCollection(AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection,AdminShellNS.AdminShellPackageEnv,System.Boolean,System.Boolean)
+  fullName: AasxIntegrationBase.AasForms.FormInstanceSubmodel.AddOrUpdateDifferentElementsToCollection(AdminShellNS.AdminShellV20.SubmodelElementWrapperCollection, AdminShellNS.AdminShellPackageEnv, System.Boolean, System.Boolean)
+  nameWithType: FormInstanceSubmodel.AddOrUpdateDifferentElementsToCollection(AdminShellV20.SubmodelElementWrapperCollection, AdminShellPackageEnv, Boolean, Boolean)
 - uid: AasxIntegrationBase.AasForms.FormInstanceSubmodel.AddOrUpdateDifferentElementsToCollection*
   name: AddOrUpdateDifferentElementsToCollection
   href: api/AasxIntegrationBase.AasForms.FormInstanceSubmodel.html#AasxIntegrationBase_AasForms_FormInstanceSubmodel_AddOrUpdateDifferentElementsToCollection_
@@ -13844,6 +13844,19 @@ references:
   isSpec: "True"
   fullName: AasxIntegrationBase.AasForms.FormInstanceSubmodel.GetListOfDifferent
   nameWithType: FormInstanceSubmodel.GetListOfDifferent
+- uid: AasxIntegrationBase.AasForms.FormInstanceSubmodel.InitReferable(AasxIntegrationBase.AasForms.FormDescSubmodel,AdminShellNS.AdminShellV20.Submodel)
+  name: InitReferable(FormDescSubmodel, AdminShellV20.Submodel)
+  href: api/AasxIntegrationBase.AasForms.FormInstanceSubmodel.html#AasxIntegrationBase_AasForms_FormInstanceSubmodel_InitReferable_AasxIntegrationBase_AasForms_FormDescSubmodel_AdminShellNS_AdminShellV20_Submodel_
+  commentId: M:AasxIntegrationBase.AasForms.FormInstanceSubmodel.InitReferable(AasxIntegrationBase.AasForms.FormDescSubmodel,AdminShellNS.AdminShellV20.Submodel)
+  fullName: AasxIntegrationBase.AasForms.FormInstanceSubmodel.InitReferable(AasxIntegrationBase.AasForms.FormDescSubmodel, AdminShellNS.AdminShellV20.Submodel)
+  nameWithType: FormInstanceSubmodel.InitReferable(FormDescSubmodel, AdminShellV20.Submodel)
+- uid: AasxIntegrationBase.AasForms.FormInstanceSubmodel.InitReferable*
+  name: InitReferable
+  href: api/AasxIntegrationBase.AasForms.FormInstanceSubmodel.html#AasxIntegrationBase_AasForms_FormInstanceSubmodel_InitReferable_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormInstanceSubmodel.InitReferable
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormInstanceSubmodel.InitReferable
+  nameWithType: FormInstanceSubmodel.InitReferable
 - uid: AasxIntegrationBase.AasForms.FormInstanceSubmodel.PairInstances
   name: PairInstances
   href: api/AasxIntegrationBase.AasForms.FormInstanceSubmodel.html#AasxIntegrationBase_AasForms_FormInstanceSubmodel_PairInstances
@@ -13863,6 +13876,18 @@ references:
   isSpec: "True"
   fullName: AasxIntegrationBase.AasForms.FormInstanceSubmodel.PresetInstancesBasedOnSource
   nameWithType: FormInstanceSubmodel.PresetInstancesBasedOnSource
+- uid: AasxIntegrationBase.AasForms.FormInstanceSubmodel.sm
+  name: sm
+  href: api/AasxIntegrationBase.AasForms.FormInstanceSubmodel.html#AasxIntegrationBase_AasForms_FormInstanceSubmodel_sm
+  commentId: F:AasxIntegrationBase.AasForms.FormInstanceSubmodel.sm
+  fullName: AasxIntegrationBase.AasForms.FormInstanceSubmodel.sm
+  nameWithType: FormInstanceSubmodel.sm
+- uid: AasxIntegrationBase.AasForms.FormInstanceSubmodel.sourceSM
+  name: sourceSM
+  href: api/AasxIntegrationBase.AasForms.FormInstanceSubmodel.html#AasxIntegrationBase_AasForms_FormInstanceSubmodel_sourceSM
+  commentId: F:AasxIntegrationBase.AasForms.FormInstanceSubmodel.sourceSM
+  fullName: AasxIntegrationBase.AasForms.FormInstanceSubmodel.sourceSM
+  nameWithType: FormInstanceSubmodel.sourceSM
 - uid: AasxIntegrationBase.AasForms.FormInstanceSubmodelElement
   name: FormInstanceSubmodelElement
   href: api/AasxIntegrationBase.AasForms.FormInstanceSubmodelElement.html
@@ -14583,6 +14608,94 @@ references:
   commentId: F:AasxIntegrationBase.AasForms.FormSubControlProperty.UpdateDisplayInCharge
   fullName: AasxIntegrationBase.AasForms.FormSubControlProperty.UpdateDisplayInCharge
   nameWithType: FormSubControlProperty.UpdateDisplayInCharge
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes
+  name: FormSubControlReferableAttributes
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.html
+  commentId: T:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes
+  nameWithType: FormSubControlReferableAttributes
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.#ctor
+  name: FormSubControlReferableAttributes()
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes__ctor
+  commentId: M:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.#ctor
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.FormSubControlReferableAttributes()
+  nameWithType: FormSubControlReferableAttributes.FormSubControlReferableAttributes()
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.#ctor*
+  name: FormSubControlReferableAttributes
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes__ctor_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.#ctor
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.FormSubControlReferableAttributes
+  nameWithType: FormSubControlReferableAttributes.FormSubControlReferableAttributes
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext
+  name: FormSubControlReferableAttributes.IndividualDataContext
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.html
+  commentId: T:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext
+  nameWithType: FormSubControlReferableAttributes.IndividualDataContext
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.CreateDataContext(System.Object)
+  name: CreateDataContext(Object)
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes_IndividualDataContext_CreateDataContext_System_Object_
+  commentId: M:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.CreateDataContext(System.Object)
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.CreateDataContext(System.Object)
+  nameWithType: FormSubControlReferableAttributes.IndividualDataContext.CreateDataContext(Object)
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.CreateDataContext*
+  name: CreateDataContext
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes_IndividualDataContext_CreateDataContext_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.CreateDataContext
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.CreateDataContext
+  nameWithType: FormSubControlReferableAttributes.IndividualDataContext.CreateDataContext
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.desc
+  name: desc
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes_IndividualDataContext_desc
+  commentId: F:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.desc
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.desc
+  nameWithType: FormSubControlReferableAttributes.IndividualDataContext.desc
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.instance
+  name: instance
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes_IndividualDataContext_instance
+  commentId: F:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.instance
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.instance
+  nameWithType: FormSubControlReferableAttributes.IndividualDataContext.instance
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.rf
+  name: rf
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes_IndividualDataContext_rf
+  commentId: F:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.rf
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.rf
+  nameWithType: FormSubControlReferableAttributes.IndividualDataContext.rf
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.InitializeComponent
+  name: InitializeComponent()
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes_InitializeComponent
+  commentId: M:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.InitializeComponent
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.InitializeComponent()
+  nameWithType: FormSubControlReferableAttributes.InitializeComponent()
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.InitializeComponent*
+  name: InitializeComponent
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes_InitializeComponent_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.InitializeComponent
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.InitializeComponent
+  nameWithType: FormSubControlReferableAttributes.InitializeComponent
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.UpdateDisplay
+  name: UpdateDisplay()
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes_UpdateDisplay
+  commentId: M:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.UpdateDisplay
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.UpdateDisplay()
+  nameWithType: FormSubControlReferableAttributes.UpdateDisplay()
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.UpdateDisplay*
+  name: UpdateDisplay
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes_UpdateDisplay_
+  commentId: Overload:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.UpdateDisplay
+  isSpec: "True"
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.UpdateDisplay
+  nameWithType: FormSubControlReferableAttributes.UpdateDisplay
+- uid: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.UpdateDisplayInCharge
+  name: UpdateDisplayInCharge
+  href: api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.html#AasxIntegrationBase_AasForms_FormSubControlReferableAttributes_UpdateDisplayInCharge
+  commentId: F:AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.UpdateDisplayInCharge
+  fullName: AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.UpdateDisplayInCharge
+  nameWithType: FormSubControlReferableAttributes.UpdateDisplayInCharge
 - uid: AasxIntegrationBase.AasForms.FormSubControlReferenceElement
   name: FormSubControlReferenceElement
   href: api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.html
@@ -15462,6 +15575,24 @@ references:
   commentId: F:AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.showRepoFiles
   fullName: AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.showRepoFiles
   nameWithType: AasxPluginResultEventSelectAasEntity.showRepoFiles
+- uid: AasxIntegrationBase.AasxPluginResultGenerateSubmodel
+  name: AasxPluginResultGenerateSubmodel
+  href: api/AasxIntegrationBase.AasxPluginResultGenerateSubmodel.html
+  commentId: T:AasxIntegrationBase.AasxPluginResultGenerateSubmodel
+  fullName: AasxIntegrationBase.AasxPluginResultGenerateSubmodel
+  nameWithType: AasxPluginResultGenerateSubmodel
+- uid: AasxIntegrationBase.AasxPluginResultGenerateSubmodel.cds
+  name: cds
+  href: api/AasxIntegrationBase.AasxPluginResultGenerateSubmodel.html#AasxIntegrationBase_AasxPluginResultGenerateSubmodel_cds
+  commentId: F:AasxIntegrationBase.AasxPluginResultGenerateSubmodel.cds
+  fullName: AasxIntegrationBase.AasxPluginResultGenerateSubmodel.cds
+  nameWithType: AasxPluginResultGenerateSubmodel.cds
+- uid: AasxIntegrationBase.AasxPluginResultGenerateSubmodel.sm
+  name: sm
+  href: api/AasxIntegrationBase.AasxPluginResultGenerateSubmodel.html#AasxIntegrationBase_AasxPluginResultGenerateSubmodel_sm
+  commentId: F:AasxIntegrationBase.AasxPluginResultGenerateSubmodel.sm
+  fullName: AasxIntegrationBase.AasxPluginResultGenerateSubmodel.sm
+  nameWithType: AasxPluginResultGenerateSubmodel.sm
 - uid: AasxIntegrationBase.AasxPluginResultLicense
   name: AasxPluginResultLicense
   href: api/AasxIntegrationBase.AasxPluginResultLicense.html
@@ -26964,6 +27095,19 @@ references:
   commentId: F:AasxPluginGenericForms.GenericFormsControl.formInUpdateMode
   fullName: AasxPluginGenericForms.GenericFormsControl.formInUpdateMode
   nameWithType: GenericFormsControl.formInUpdateMode
+- uid: AasxPluginGenericForms.GenericFormsControl.HandleEventReturn(AasxIntegrationBase.AasxPluginEventReturnBase)
+  name: HandleEventReturn(AasxPluginEventReturnBase)
+  href: api/AasxPluginGenericForms.GenericFormsControl.html#AasxPluginGenericForms_GenericFormsControl_HandleEventReturn_AasxIntegrationBase_AasxPluginEventReturnBase_
+  commentId: M:AasxPluginGenericForms.GenericFormsControl.HandleEventReturn(AasxIntegrationBase.AasxPluginEventReturnBase)
+  fullName: AasxPluginGenericForms.GenericFormsControl.HandleEventReturn(AasxIntegrationBase.AasxPluginEventReturnBase)
+  nameWithType: GenericFormsControl.HandleEventReturn(AasxPluginEventReturnBase)
+- uid: AasxPluginGenericForms.GenericFormsControl.HandleEventReturn*
+  name: HandleEventReturn
+  href: api/AasxPluginGenericForms.GenericFormsControl.html#AasxPluginGenericForms_GenericFormsControl_HandleEventReturn_
+  commentId: Overload:AasxPluginGenericForms.GenericFormsControl.HandleEventReturn
+  isSpec: "True"
+  fullName: AasxPluginGenericForms.GenericFormsControl.HandleEventReturn
+  nameWithType: GenericFormsControl.HandleEventReturn
 - uid: AasxPluginGenericForms.GenericFormsControl.InitializeComponent
   name: InitializeComponent()
   href: api/AasxPluginGenericForms.GenericFormsControl.html#AasxPluginGenericForms_GenericFormsControl_InitializeComponent

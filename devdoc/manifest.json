@@ -2142,7 +2142,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.AasFormUtils.html",
-          "hash": "tiPEl9/d6+7lMQX4BvfysQ=="
+          "hash": "oVGRx93o1keiJMoxU+UyCQ=="
         }
       },
       "is_incremental": false,
@@ -2298,7 +2298,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceFile.html",
-          "hash": "GJtZGeJXjL34yHsJwAWFqg=="
+          "hash": "lNYV+vnTm+Cu+aIlbwkmZQ=="
         }
       },
       "is_incremental": false,
@@ -2346,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceMultiLangProp.html",
-          "hash": "Dyy/T2j5nKko6cBG13Kb0g=="
+          "hash": "zrHGdyeo8s0Rkl9pSK8VHA=="
         }
       },
       "is_incremental": false,
@@ -2358,7 +2358,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceProperty.html",
-          "hash": "PtPcL+9ivxc1lCExG0ptlQ=="
+          "hash": "3lUqhgqDtwB0wKIwaZopHA=="
         }
       },
       "is_incremental": false,
@@ -2370,7 +2370,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceReferenceElement.html",
-          "hash": "6pSBlJaXxMoRHa+kj9pAag=="
+          "hash": "Ut94xj0eJFqtwOYjwDeN/Q=="
         }
       },
       "is_incremental": false,
@@ -2382,7 +2382,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceSubmodel.html",
-          "hash": "c6rEOGHdmY8V6xXzmr8lyw=="
+          "hash": "dMzRbAsMVMoIOUT0JoiZiQ=="
         }
       },
       "is_incremental": false,
@@ -2394,7 +2394,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceSubmodelElement.html",
-          "hash": "zd4s3C4N+qXHSiQzz6t0IA=="
+          "hash": "eXgLMwS+Eq8HuCXolnJViA=="
         }
       },
       "is_incremental": false,
@@ -2406,7 +2406,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormInstanceSubmodelElementCollection.html",
-          "hash": "Xz9igJPizz0o33xG10bqMg=="
+          "hash": "o8eS+hX3gscrinx8Vpy1+w=="
         }
       },
       "is_incremental": false,
@@ -2430,7 +2430,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormListOfDifferentControl.html",
-          "hash": "mj/ZgIwAY5HwUVjVcNfUQA=="
+          "hash": "juPbdMuoYyvFbHic4zF4dA=="
         }
       },
       "is_incremental": false,
@@ -2534,6 +2534,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.IndividualDataContext.html",
+          "hash": "Swv1n+vbGj6HULXNrhvAPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxIntegrationBase.AasForms.FormSubControlReferableAttributes.html",
+          "hash": "n3hcGvrbG6qJ26sQW5ofug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AasxIntegrationBase.AasForms.FormSubControlReferenceElement.IndividualDataContext.yml",
       "output": {
         ".html": {
@@ -2586,7 +2610,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.FormSubControlSMEBase.html",
-          "hash": "zeMNIlME+T2Gtn0SrV3M8Q=="
+          "hash": "WmC7V8UnR/hxlcidYzp/xQ=="
         }
       },
       "is_incremental": false,
@@ -2670,7 +2694,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasForms.html",
-          "hash": "lvo1fba4H0gGdhQ78TzPIw=="
+          "hash": "JZWzeuIV7WmRVoSdJAieyw=="
         }
       },
       "is_incremental": false,
@@ -2730,7 +2754,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginEventReturnBase.html",
-          "hash": "Ii/ak0uJqTjR3Jh386QVPA=="
+          "hash": "y+k4qO6EC8zHGZJ2BGXkwg=="
         }
       },
       "is_incremental": false,
@@ -2742,7 +2766,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginEventReturnSelectAasEntity.html",
-          "hash": "vb+PYuZwiKfX4VOpTI5PEQ=="
+          "hash": "JnjSK19uBDqBCRLet+5phg=="
         }
       },
       "is_incremental": false,
@@ -2790,7 +2814,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginResultBase.html",
-          "hash": "SMfcC2WGiDYYU9m5IrutMA=="
+          "hash": "D6FEzEPkpdcWBvIqSBdyAQ=="
         }
       },
       "is_incremental": false,
@@ -2814,7 +2838,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginResultEventBase.html",
-          "hash": "lqw0wQbstenSx9UC85sMTQ=="
+          "hash": "rZAdkTBAHqkmoGbspQoAcw=="
         }
       },
       "is_incremental": false,
@@ -2826,7 +2850,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginResultEventDisplayContentFile.html",
-          "hash": "21TvGJqFCinljb++n+N42Q=="
+          "hash": "8vmVnsD2uueEDsg6o7msZQ=="
         }
       },
       "is_incremental": false,
@@ -2838,7 +2862,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginResultEventNavigateToReference.html",
-          "hash": "FM5yhpXI7DN9ckG5sXlDVg=="
+          "hash": "sC1qLzoOJTX0JUlUNxbfsA=="
         }
       },
       "is_incremental": false,
@@ -2850,7 +2874,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginResultEventRedrawAllElements.html",
-          "hash": "kJvkPu25oUWovubVmHYnhA=="
+          "hash": "0xV6QRSzwu9EkiJcqjRYOA=="
         }
       },
       "is_incremental": false,
@@ -2862,7 +2886,19 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginResultEventSelectAasEntity.html",
-          "hash": "8YZ8hB/ynZYMZr5xRNgYAg=="
+          "hash": "FK4f4+6nqcc/DO44X/TnOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AasxIntegrationBase.AasxPluginResultGenerateSubmodel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AasxIntegrationBase.AasxPluginResultGenerateSubmodel.html",
+          "hash": "ErC73uGZNQ6BXBC64Krqyg=="
         }
       },
       "is_incremental": false,
@@ -2874,7 +2910,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginResultLicense.html",
-          "hash": "ooIqAYgRSxn1vh7kfKxSXg=="
+          "hash": "fgeeUfRqKGShx31kM2TFdA=="
         }
       },
       "is_incremental": false,
@@ -2886,7 +2922,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginResultVisualExtension.html",
-          "hash": "yt6bDI9QXqaRowQKfkdXXQ=="
+          "hash": "XQP6es/wSmTbtsiwGkgFYA=="
         }
       },
       "is_incremental": false,
@@ -2898,7 +2934,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.AasxPluginVisualElementExtension.html",
-          "hash": "yJC/j80Hyf+1wykEeS5Kgg=="
+          "hash": "K1rUf2o+try49pqPGT81Rg=="
         }
       },
       "is_incremental": false,
@@ -3006,7 +3042,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.IAasxPluginInterface.html",
-          "hash": "cOQ2c33pLk9yAAPKEAMLVg=="
+          "hash": "FrETZbmUNlLGalirh7AC7Q=="
         }
       },
       "is_incremental": false,
@@ -3162,7 +3198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxIntegrationBase.html",
-          "hash": "1jfNj2hcErEA67hQFEF4fA=="
+          "hash": "DcTkNLJuDc5j/ac17mGRGQ=="
         }
       },
       "is_incremental": false,
@@ -3690,7 +3726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPackageExplorer.MainWindow.html",
-          "hash": "M5RfwBU97l7Tx+7bpCTZ3A=="
+          "hash": "njg+oMZzt6SmyIQMCW7YKg=="
         }
       },
       "is_incremental": false,
@@ -4818,7 +4854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AasxPluginGenericForms.GenericFormsControl.html",
-          "hash": "3edQYkQilEm9GbgSZGpj0g=="
+          "hash": "LWuf68zIdhc/qDZZbTkhBA=="
         }
       },
       "is_incremental": false,
@@ -9066,7 +9102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "oGpc4BELyXNH7XyeNN7slg=="
+          "hash": "RtCo1eA7IGclfmSl0TWRGQ=="
         }
       },
       "is_incremental": false,
@@ -9271,7 +9307,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 753,
+          "total_file_count": 756,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
