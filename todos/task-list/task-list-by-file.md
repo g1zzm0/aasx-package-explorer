@@ -170,8 +170,8 @@ Michael Hoffmeister,
 
 ## AasxCsharpLibrary\AdminShell.cs
 
-[Line 1144, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L1144
+[Line 1145, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L1145
 ), 
 MIHO,
 2020-08-30
@@ -179,32 +179,32 @@ MIHO,
     this does not prevent the corner case, that we could have
     * multiple dataSpecificationIEC61360 in this list, which would be an error
 
-[Line 2815, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2815
+[Line 2884, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2884
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [1..1][1..n]
 
-[Line 2819, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2819
+[Line 2888, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2888
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [0..1][1..n]
 
-[Line 2850, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2850
+[Line 2919, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2919
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [0..1][1..n]
 
-[Line 3129, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3129
+[Line 3198, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3198
 ), 
 MIHO,
 2020-08-30
@@ -212,24 +212,24 @@ MIHO,
     align wording of the member ("embeddedDataSpecification") with the 
     * wording of the other entities ("hasDataSpecification")
 
-[Line 3810, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3810
+[Line 3883, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3883
 ), 
 MIHO,
 2020-08-26
 
     not very elegant, yet. Avoid temporary collection
 
-[Line 4459, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4459
+[Line 4553, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4553
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     check, if Json has Qualifiers or not
 
-[Line 5201, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L5201
+[Line 5295, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L5295
 ), 
 MIHO,
 2020-07-31
@@ -238,37 +238,48 @@ MIHO,
 
 ## AasxCsharpLibrary\AdminShellPackageEnv.cs
 
-[Line 231, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L231
+[Line 244, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L244
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 351, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L351
+[Line 364, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L364
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 392, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L392
+[Line 405, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L405
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 422, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L422
+[Line 435, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L435
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
+
+## AasxCsharpLibrary\AdminShellUtil.cs
+
+[Line 186, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellUtil.cs#L186
+), 
+MIHO,
+2020-11-12
+
+    replace with Regex for multi language. Ideally have Exception messages
+    always as English.
 
 ## AasxDictionaryImport.Tests\Cdd\TestImport.cs
 
@@ -578,8 +589,8 @@ MIHO,
 
 ## AasxWpfControlLibrary\DiplayVisualAasxElements.xaml.cs
 
-[Line 717, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DiplayVisualAasxElements.xaml.cs#L717
+[Line 730, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DiplayVisualAasxElements.xaml.cs#L730
 ), 
 MIHO,
 2020-07-21
@@ -588,47 +599,49 @@ MIHO,
 
 ## AasxWpfControlLibrary\DispEditAasxEntity.xaml.cs
 
-[Line 1450, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1450
+[Line 1564, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1564
 ), 
 MIHO,
 2020-09-01
 
     extend the lines below to cover also data spec. for units
 
-[Line 1807, column 33](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1807
-), 
-Michael Hoffmeister,
-2020-08-01
-
-    Operation mssing here?
-
-[Line 1829, column 33](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1829
-), 
-Michael Hoffmeister,
-2020-08-01
-
-    Operation mssing here?
-
 ## AasxWpfControlLibrary\DispEditHelperBasics.cs
 
-[Line 1166, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1166
+[Line 1308, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1308
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     possibly [Jump] button??
 
-[Line 1335, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1335
+[Line 1488, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1488
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     Needs to be revisited
+
+## AasxWpfControlLibrary\DispEditHelperCopyPaste.cs
+
+[Line 228, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperCopyPaste.cs#L228
+), 
+Michael Hoffmeister,
+2020-08-01
+
+    Operation mssing here?
+
+[Line 250, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperCopyPaste.cs#L250
+), 
+Michael Hoffmeister,
+2020-08-01
+
+    Operation mssing here?
 
 ## AasxWpfControlLibrary\VisualAasxElements.cs
 

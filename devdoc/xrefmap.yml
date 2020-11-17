@@ -18641,15 +18641,12 @@ references:
   commentId: F:AasxPackageExplorer.DiplayVisualAasxElements.MultiSelect
   fullName: AasxPackageExplorer.DiplayVisualAasxElements.MultiSelect
   nameWithType: DiplayVisualAasxElements.MultiSelect
-- uid: AasxPackageExplorer.DiplayVisualAasxElements.RebuildAasxElements(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[],System.Boolean,System.String)
-  name: RebuildAasxElements(AdminShellV20.AdministrationShellEnv, AdminShellPackageEnv, AdminShellPackageEnv[], Boolean, String)
-  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_RebuildAasxElements_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellPackageEnv___System_Boolean_System_String_
-  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.RebuildAasxElements(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[],System.Boolean,System.String)
-  name.vb: RebuildAasxElements(AdminShellV20.AdministrationShellEnv, AdminShellPackageEnv, AdminShellPackageEnv(), Boolean, String)
-  fullName: AasxPackageExplorer.DiplayVisualAasxElements.RebuildAasxElements(AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv[], System.Boolean, System.String)
-  fullName.vb: AasxPackageExplorer.DiplayVisualAasxElements.RebuildAasxElements(AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv(), System.Boolean, System.String)
-  nameWithType: DiplayVisualAasxElements.RebuildAasxElements(AdminShellV20.AdministrationShellEnv, AdminShellPackageEnv, AdminShellPackageEnv[], Boolean, String)
-  nameWithType.vb: DiplayVisualAasxElements.RebuildAasxElements(AdminShellV20.AdministrationShellEnv, AdminShellPackageEnv, AdminShellPackageEnv(), Boolean, String)
+- uid: AasxPackageExplorer.DiplayVisualAasxElements.RebuildAasxElements(AasxWpfControlLibrary.PackageCentral,AasxWpfControlLibrary.PackageCentral.Selector,System.Boolean,System.String)
+  name: RebuildAasxElements(PackageCentral, PackageCentral.Selector, Boolean, String)
+  href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_RebuildAasxElements_AasxWpfControlLibrary_PackageCentral_AasxWpfControlLibrary_PackageCentral_Selector_System_Boolean_System_String_
+  commentId: M:AasxPackageExplorer.DiplayVisualAasxElements.RebuildAasxElements(AasxWpfControlLibrary.PackageCentral,AasxWpfControlLibrary.PackageCentral.Selector,System.Boolean,System.String)
+  fullName: AasxPackageExplorer.DiplayVisualAasxElements.RebuildAasxElements(AasxWpfControlLibrary.PackageCentral, AasxWpfControlLibrary.PackageCentral.Selector, System.Boolean, System.String)
+  nameWithType: DiplayVisualAasxElements.RebuildAasxElements(PackageCentral, PackageCentral.Selector, Boolean, String)
 - uid: AasxPackageExplorer.DiplayVisualAasxElements.RebuildAasxElements*
   name: RebuildAasxElements
   href: api/AasxPackageExplorer.DiplayVisualAasxElements.html#AasxPackageExplorer_DiplayVisualAasxElements_RebuildAasxElements_
@@ -18856,15 +18853,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.ClearHighlight
   nameWithType: DispEditAasxEntity.ClearHighlight
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAas(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name: DisplayOrEditAasEntityAas(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityAas_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAas(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name.vb: DisplayOrEditAasEntityAas(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAas(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAas(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
-  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityAas(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityAas(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAas(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name: DisplayOrEditAasEntityAas(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityAas_AasxWpfControlLibrary_PackageCentral_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAas(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name.vb: DisplayOrEditAasEntityAas(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAas(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
+  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAas(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
+  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityAas(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityAas(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAas*
   name: DisplayOrEditAasEntityAas
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityAas_
@@ -18872,15 +18869,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAas
   nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityAas
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AasxPackageExplorer.VisualElementEnvironmentItem.ItemType,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name: DisplayOrEditAasEntityAasEnv(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, VisualElementEnvironmentItem.ItemType, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityAasEnv_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_AdministrationShellEnv_AasxPackageExplorer_VisualElementEnvironmentItem_ItemType_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AasxPackageExplorer.VisualElementEnvironmentItem.ItemType,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name.vb: DisplayOrEditAasEntityAasEnv(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, VisualElementEnvironmentItem.ItemType, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AasxPackageExplorer.VisualElementEnvironmentItem.ItemType, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AasxPackageExplorer.VisualElementEnvironmentItem.ItemType, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
-  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, VisualElementEnvironmentItem.ItemType, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, VisualElementEnvironmentItem.ItemType, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AasxPackageExplorer.VisualElementEnvironmentItem.ItemType,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name: DisplayOrEditAasEntityAasEnv(PackageCentral, AdminShellV20.AdministrationShellEnv, VisualElementEnvironmentItem.ItemType, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityAasEnv_AasxWpfControlLibrary_PackageCentral_AdminShellNS_AdminShellV20_AdministrationShellEnv_AasxPackageExplorer_VisualElementEnvironmentItem_ItemType_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AasxPackageExplorer.VisualElementEnvironmentItem.ItemType,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name.vb: DisplayOrEditAasEntityAasEnv(PackageCentral, AdminShellV20.AdministrationShellEnv, VisualElementEnvironmentItem.ItemType, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AasxPackageExplorer.VisualElementEnvironmentItem.ItemType, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
+  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AasxPackageExplorer.VisualElementEnvironmentItem.ItemType, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
+  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(PackageCentral, AdminShellV20.AdministrationShellEnv, VisualElementEnvironmentItem.ItemType, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityAasEnv(PackageCentral, AdminShellV20.AdministrationShellEnv, VisualElementEnvironmentItem.ItemType, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAasEnv*
   name: DisplayOrEditAasEntityAasEnv
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityAasEnv_
@@ -18888,15 +18885,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAasEnv
   nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityAasEnv
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAsset(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Asset,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean,System.Boolean)
-  name: DisplayOrEditAasEntityAsset(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Asset, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean, Boolean)
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityAsset_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_Asset_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_System_Boolean_
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAsset(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Asset,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean,System.Boolean)
-  name.vb: DisplayOrEditAasEntityAsset(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Asset, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean, Boolean)
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAsset(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Asset, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean, System.Boolean)
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAsset(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Asset, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean, System.Boolean)
-  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityAsset(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Asset, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean, Boolean)
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityAsset(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Asset, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean, Boolean)
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAsset(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Asset,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean,System.Boolean)
+  name: DisplayOrEditAasEntityAsset(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Asset, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean, Boolean)
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityAsset_AasxWpfControlLibrary_PackageCentral_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_Asset_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_System_Boolean_
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAsset(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Asset,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean,System.Boolean)
+  name.vb: DisplayOrEditAasEntityAsset(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Asset, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean, Boolean)
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAsset(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Asset, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean, System.Boolean)
+  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAsset(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Asset, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean, System.Boolean)
+  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityAsset(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Asset, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean, Boolean)
+  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityAsset(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Asset, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean, Boolean)
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAsset*
   name: DisplayOrEditAasEntityAsset
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityAsset_
@@ -18904,15 +18901,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityAsset
   nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityAsset
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.ConceptDescription,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean,System.Boolean)
-  name: DisplayOrEditAasEntityConceptDescription(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.ConceptDescription, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean, Boolean)
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityConceptDescription_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_Referable_AdminShellNS_AdminShellV20_ConceptDescription_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_System_Boolean_
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.ConceptDescription,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean,System.Boolean)
-  name.vb: DisplayOrEditAasEntityConceptDescription(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.ConceptDescription, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean, Boolean)
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.ConceptDescription, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean, System.Boolean)
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.ConceptDescription, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean, System.Boolean)
-  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.ConceptDescription, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean, Boolean)
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.ConceptDescription, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean, Boolean)
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.ConceptDescription,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean,System.Boolean)
+  name: DisplayOrEditAasEntityConceptDescription(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.ConceptDescription, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean, Boolean)
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityConceptDescription_AasxWpfControlLibrary_PackageCentral_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_Referable_AdminShellNS_AdminShellV20_ConceptDescription_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_System_Boolean_
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.ConceptDescription,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean,System.Boolean)
+  name.vb: DisplayOrEditAasEntityConceptDescription(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.ConceptDescription, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean, Boolean)
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.ConceptDescription, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean, System.Boolean)
+  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.ConceptDescription, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean, System.Boolean)
+  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.ConceptDescription, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean, Boolean)
+  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.ConceptDescription, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean, Boolean)
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription*
   name: DisplayOrEditAasEntityConceptDescription
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityConceptDescription_
@@ -18920,15 +18917,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription
   nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityConceptDescription
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.OperationVariable,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name: DisplayOrEditAasEntityOperationVariable(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.OperationVariable, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityOperationVariable_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_Referable_AdminShellNS_AdminShellV20_OperationVariable_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.OperationVariable,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name.vb: DisplayOrEditAasEntityOperationVariable(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.OperationVariable, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.OperationVariable, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.OperationVariable, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
-  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.OperationVariable, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.OperationVariable, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.OperationVariable,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name: DisplayOrEditAasEntityOperationVariable(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.OperationVariable, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityOperationVariable_AasxWpfControlLibrary_PackageCentral_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_Referable_AdminShellNS_AdminShellV20_OperationVariable_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.OperationVariable,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name.vb: DisplayOrEditAasEntityOperationVariable(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.OperationVariable, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.OperationVariable, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
+  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.OperationVariable, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
+  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.OperationVariable, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.OperationVariable, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable*
   name: DisplayOrEditAasEntityOperationVariable
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityOperationVariable_
@@ -18936,15 +18933,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable
   nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityOperationVariable
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.SubmodelElementWrapper,AdminShellNS.AdminShellV20.SubmodelElement,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name: DisplayOrEditAasEntitySubmodelElement(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntitySubmodelElement_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_Referable_AdminShellNS_AdminShellV20_SubmodelElementWrapper_AdminShellNS_AdminShellV20_SubmodelElement_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.SubmodelElementWrapper,AdminShellNS.AdminShellV20.SubmodelElement,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name.vb: DisplayOrEditAasEntitySubmodelElement(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.SubmodelElementWrapper, AdminShellNS.AdminShellV20.SubmodelElement, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.SubmodelElementWrapper, AdminShellNS.AdminShellV20.SubmodelElement, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
-  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.SubmodelElementWrapper,AdminShellNS.AdminShellV20.SubmodelElement,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name: DisplayOrEditAasEntitySubmodelElement(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntitySubmodelElement_AasxWpfControlLibrary_PackageCentral_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_Referable_AdminShellNS_AdminShellV20_SubmodelElementWrapper_AdminShellNS_AdminShellV20_SubmodelElement_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.SubmodelElementWrapper,AdminShellNS.AdminShellV20.SubmodelElement,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name.vb: DisplayOrEditAasEntitySubmodelElement(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.SubmodelElementWrapper, AdminShellNS.AdminShellV20.SubmodelElement, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
+  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.SubmodelElementWrapper, AdminShellNS.AdminShellV20.SubmodelElement, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
+  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement*
   name: DisplayOrEditAasEntitySubmodelElement
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntitySubmodelElement_
@@ -18952,15 +18949,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement
   nameWithType: DispEditAasxEntity.DisplayOrEditAasEntitySubmodelElement
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,AdminShellNS.AdminShellV20.SubmodelRef,AdminShellNS.AdminShellV20.Submodel,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name: DisplayOrEditAasEntitySubmodelOrRef(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.SubmodelRef, AdminShellV20.Submodel, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntitySubmodelOrRef_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_AdminShellNS_AdminShellV20_SubmodelRef_AdminShellNS_AdminShellV20_Submodel_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,AdminShellNS.AdminShellV20.SubmodelRef,AdminShellNS.AdminShellV20.Submodel,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name.vb: DisplayOrEditAasEntitySubmodelOrRef(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.SubmodelRef, AdminShellV20.Submodel, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, AdminShellNS.AdminShellV20.SubmodelRef, AdminShellNS.AdminShellV20.Submodel, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, AdminShellNS.AdminShellV20.SubmodelRef, AdminShellNS.AdminShellV20.Submodel, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
-  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.SubmodelRef, AdminShellV20.Submodel, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.SubmodelRef, AdminShellV20.Submodel, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,AdminShellNS.AdminShellV20.SubmodelRef,AdminShellNS.AdminShellV20.Submodel,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name: DisplayOrEditAasEntitySubmodelOrRef(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.SubmodelRef, AdminShellV20.Submodel, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntitySubmodelOrRef_AasxWpfControlLibrary_PackageCentral_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_AdminShellNS_AdminShellV20_SubmodelRef_AdminShellNS_AdminShellV20_Submodel_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,AdminShellNS.AdminShellV20.SubmodelRef,AdminShellNS.AdminShellV20.Submodel,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name.vb: DisplayOrEditAasEntitySubmodelOrRef(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.SubmodelRef, AdminShellV20.Submodel, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, AdminShellNS.AdminShellV20.SubmodelRef, AdminShellNS.AdminShellV20.Submodel, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
+  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, AdminShellNS.AdminShellV20.SubmodelRef, AdminShellNS.AdminShellV20.Submodel, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
+  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.SubmodelRef, AdminShellV20.Submodel, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.SubmodelRef, AdminShellV20.Submodel, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef*
   name: DisplayOrEditAasEntitySubmodelOrRef
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntitySubmodelOrRef_
@@ -18968,15 +18965,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef
   nameWithType: DispEditAasxEntity.DisplayOrEditAasEntitySubmodelOrRef
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageSupplementaryFile,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][])
-  name: DisplayOrEditAasEntitySupplementaryFile(AdminShellPackageEnv, AdminShellPackageSupplementaryFile, Boolean, ModifyRepo, StackPanel, Brush[][])
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntitySupplementaryFile_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellPackageSupplementaryFile_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageSupplementaryFile,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][])
-  name.vb: DisplayOrEditAasEntitySupplementaryFile(AdminShellPackageEnv, AdminShellPackageSupplementaryFile, Boolean, ModifyRepo, StackPanel, Brush()())
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageSupplementaryFile, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][])
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageSupplementaryFile, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()())
-  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(AdminShellPackageEnv, AdminShellPackageSupplementaryFile, Boolean, ModifyRepo, StackPanel, Brush[][])
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(AdminShellPackageEnv, AdminShellPackageSupplementaryFile, Boolean, ModifyRepo, StackPanel, Brush()())
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellPackageSupplementaryFile,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][])
+  name: DisplayOrEditAasEntitySupplementaryFile(PackageCentral, AdminShellPackageSupplementaryFile, Boolean, ModifyRepo, StackPanel, Brush[][])
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntitySupplementaryFile_AasxWpfControlLibrary_PackageCentral_AdminShellNS_AdminShellPackageSupplementaryFile_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellPackageSupplementaryFile,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][])
+  name.vb: DisplayOrEditAasEntitySupplementaryFile(PackageCentral, AdminShellPackageSupplementaryFile, Boolean, ModifyRepo, StackPanel, Brush()())
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellPackageSupplementaryFile, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][])
+  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellPackageSupplementaryFile, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()())
+  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(PackageCentral, AdminShellPackageSupplementaryFile, Boolean, ModifyRepo, StackPanel, Brush[][])
+  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile(PackageCentral, AdminShellPackageSupplementaryFile, Boolean, ModifyRepo, StackPanel, Brush()())
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile*
   name: DisplayOrEditAasEntitySupplementaryFile
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntitySupplementaryFile_
@@ -18984,15 +18981,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile
   nameWithType: DispEditAasxEntity.DisplayOrEditAasEntitySupplementaryFile
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityView(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,AdminShellNS.AdminShellV20.View,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name: DisplayOrEditAasEntityView(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.View, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityView_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_AdminShellNS_AdminShellV20_View_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityView(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,AdminShellNS.AdminShellV20.View,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
-  name.vb: DisplayOrEditAasEntityView(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.View, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityView(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, AdminShellNS.AdminShellV20.View, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityView(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, AdminShellNS.AdminShellV20.View, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
-  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityView(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.View, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityView(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.View, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityView(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,AdminShellNS.AdminShellV20.View,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name: DisplayOrEditAasEntityView(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.View, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityView_AasxWpfControlLibrary_PackageCentral_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_AdministrationShell_AdminShellNS_AdminShellV20_View_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____System_Boolean_
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityView(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.AdministrationShell,AdminShellNS.AdminShellV20.View,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][],System.Boolean)
+  name.vb: DisplayOrEditAasEntityView(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.View, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityView(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, AdminShellNS.AdminShellV20.View, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][], System.Boolean)
+  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityView(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.AdministrationShell, AdminShellNS.AdminShellV20.View, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()(), System.Boolean)
+  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityView(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.View, Boolean, ModifyRepo, StackPanel, Brush[][], Boolean)
+  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityView(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.AdministrationShell, AdminShellV20.View, Boolean, ModifyRepo, StackPanel, Brush()(), Boolean)
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityView*
   name: DisplayOrEditAasEntityView
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityView_
@@ -19000,15 +18997,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityView
   nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityView
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityViewReference(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.View,AdminShellNS.AdminShellV20.ContainedElementRef,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][])
-  name: DisplayOrEditAasEntityViewReference(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.View, AdminShellV20.ContainedElementRef, Boolean, ModifyRepo, StackPanel, Brush[][])
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityViewReference_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_View_AdminShellNS_AdminShellV20_ContainedElementRef_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityViewReference(AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.View,AdminShellNS.AdminShellV20.ContainedElementRef,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][])
-  name.vb: DisplayOrEditAasEntityViewReference(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.View, AdminShellV20.ContainedElementRef, Boolean, ModifyRepo, StackPanel, Brush()())
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityViewReference(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.View, AdminShellNS.AdminShellV20.ContainedElementRef, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][])
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityViewReference(AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.View, AdminShellNS.AdminShellV20.ContainedElementRef, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()())
-  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityViewReference(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.View, AdminShellV20.ContainedElementRef, Boolean, ModifyRepo, StackPanel, Brush[][])
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityViewReference(AdminShellPackageEnv, AdminShellV20.AdministrationShellEnv, AdminShellV20.View, AdminShellV20.ContainedElementRef, Boolean, ModifyRepo, StackPanel, Brush()())
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityViewReference(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.View,AdminShellNS.AdminShellV20.ContainedElementRef,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][])
+  name: DisplayOrEditAasEntityViewReference(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.View, AdminShellV20.ContainedElementRef, Boolean, ModifyRepo, StackPanel, Brush[][])
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityViewReference_AasxWpfControlLibrary_PackageCentral_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_View_AdminShellNS_AdminShellV20_ContainedElementRef_System_Boolean_AasxPackageExplorer_ModifyRepo_System_Windows_Controls_StackPanel_System_Windows_Media_Brush_____
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityViewReference(AasxWpfControlLibrary.PackageCentral,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.View,AdminShellNS.AdminShellV20.ContainedElementRef,System.Boolean,AasxPackageExplorer.ModifyRepo,System.Windows.Controls.StackPanel,System.Windows.Media.Brush[][])
+  name.vb: DisplayOrEditAasEntityViewReference(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.View, AdminShellV20.ContainedElementRef, Boolean, ModifyRepo, StackPanel, Brush()())
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityViewReference(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.View, AdminShellNS.AdminShellV20.ContainedElementRef, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush[][])
+  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityViewReference(AasxWpfControlLibrary.PackageCentral, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.View, AdminShellNS.AdminShellV20.ContainedElementRef, System.Boolean, AasxPackageExplorer.ModifyRepo, System.Windows.Controls.StackPanel, System.Windows.Media.Brush()())
+  nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityViewReference(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.View, AdminShellV20.ContainedElementRef, Boolean, ModifyRepo, StackPanel, Brush[][])
+  nameWithType.vb: DispEditAasxEntity.DisplayOrEditAasEntityViewReference(PackageCentral, AdminShellV20.AdministrationShellEnv, AdminShellV20.View, AdminShellV20.ContainedElementRef, Boolean, ModifyRepo, StackPanel, Brush()())
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityViewReference*
   name: DisplayOrEditAasEntityViewReference
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditAasEntityViewReference_
@@ -19016,15 +19013,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditAasEntityViewReference
   nameWithType: DispEditAasxEntity.DisplayOrEditAasEntityViewReference
-- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditVisualAasxElement(AdminShellNS.AdminShellPackageEnv,AasxPackageExplorer.VisualElementGeneric,System.Boolean,System.Boolean,AdminShellNS.AdminShellPackageEnv[],AasxIntegrationBase.IFlyoutProvider,AasxPackageExplorer.DispEditHighlight.HighlightFieldInfo)
-  name: DisplayOrEditVisualAasxElement(AdminShellPackageEnv, VisualElementGeneric, Boolean, Boolean, AdminShellPackageEnv[], IFlyoutProvider, DispEditHighlight.HighlightFieldInfo)
-  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditVisualAasxElement_AdminShellNS_AdminShellPackageEnv_AasxPackageExplorer_VisualElementGeneric_System_Boolean_System_Boolean_AdminShellNS_AdminShellPackageEnv___AasxIntegrationBase_IFlyoutProvider_AasxPackageExplorer_DispEditHighlight_HighlightFieldInfo_
-  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditVisualAasxElement(AdminShellNS.AdminShellPackageEnv,AasxPackageExplorer.VisualElementGeneric,System.Boolean,System.Boolean,AdminShellNS.AdminShellPackageEnv[],AasxIntegrationBase.IFlyoutProvider,AasxPackageExplorer.DispEditHighlight.HighlightFieldInfo)
-  name.vb: DisplayOrEditVisualAasxElement(AdminShellPackageEnv, VisualElementGeneric, Boolean, Boolean, AdminShellPackageEnv(), IFlyoutProvider, DispEditHighlight.HighlightFieldInfo)
-  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditVisualAasxElement(AdminShellNS.AdminShellPackageEnv, AasxPackageExplorer.VisualElementGeneric, System.Boolean, System.Boolean, AdminShellNS.AdminShellPackageEnv[], AasxIntegrationBase.IFlyoutProvider, AasxPackageExplorer.DispEditHighlight.HighlightFieldInfo)
-  fullName.vb: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditVisualAasxElement(AdminShellNS.AdminShellPackageEnv, AasxPackageExplorer.VisualElementGeneric, System.Boolean, System.Boolean, AdminShellNS.AdminShellPackageEnv(), AasxIntegrationBase.IFlyoutProvider, AasxPackageExplorer.DispEditHighlight.HighlightFieldInfo)
-  nameWithType: DispEditAasxEntity.DisplayOrEditVisualAasxElement(AdminShellPackageEnv, VisualElementGeneric, Boolean, Boolean, AdminShellPackageEnv[], IFlyoutProvider, DispEditHighlight.HighlightFieldInfo)
-  nameWithType.vb: DispEditAasxEntity.DisplayOrEditVisualAasxElement(AdminShellPackageEnv, VisualElementGeneric, Boolean, Boolean, AdminShellPackageEnv(), IFlyoutProvider, DispEditHighlight.HighlightFieldInfo)
+- uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditVisualAasxElement(AasxWpfControlLibrary.PackageCentral,AasxPackageExplorer.VisualElementGeneric,System.Boolean,System.Boolean,AasxIntegrationBase.IFlyoutProvider,AasxPackageExplorer.DispEditHighlight.HighlightFieldInfo)
+  name: DisplayOrEditVisualAasxElement(PackageCentral, VisualElementGeneric, Boolean, Boolean, IFlyoutProvider, DispEditHighlight.HighlightFieldInfo)
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditVisualAasxElement_AasxWpfControlLibrary_PackageCentral_AasxPackageExplorer_VisualElementGeneric_System_Boolean_System_Boolean_AasxIntegrationBase_IFlyoutProvider_AasxPackageExplorer_DispEditHighlight_HighlightFieldInfo_
+  commentId: M:AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditVisualAasxElement(AasxWpfControlLibrary.PackageCentral,AasxPackageExplorer.VisualElementGeneric,System.Boolean,System.Boolean,AasxIntegrationBase.IFlyoutProvider,AasxPackageExplorer.DispEditHighlight.HighlightFieldInfo)
+  fullName: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditVisualAasxElement(AasxWpfControlLibrary.PackageCentral, AasxPackageExplorer.VisualElementGeneric, System.Boolean, System.Boolean, AasxIntegrationBase.IFlyoutProvider, AasxPackageExplorer.DispEditHighlight.HighlightFieldInfo)
+  nameWithType: DispEditAasxEntity.DisplayOrEditVisualAasxElement(PackageCentral, VisualElementGeneric, Boolean, Boolean, IFlyoutProvider, DispEditHighlight.HighlightFieldInfo)
 - uid: AasxPackageExplorer.DispEditAasxEntity.DisplayOrEditVisualAasxElement*
   name: DisplayOrEditVisualAasxElement
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_DisplayOrEditVisualAasxElement_
@@ -19063,6 +19057,30 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditAasxEntity.InitializeComponent
   nameWithType: DispEditAasxEntity.InitializeComponent
+- uid: AasxPackageExplorer.DispEditAasxEntity.uploadAssistance
+  name: uploadAssistance
+  href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_uploadAssistance
+  commentId: F:AasxPackageExplorer.DispEditAasxEntity.uploadAssistance
+  fullName: AasxPackageExplorer.DispEditAasxEntity.uploadAssistance
+  nameWithType: DispEditAasxEntity.uploadAssistance
+- uid: AasxPackageExplorer.DispEditAasxEntity.UploadAssistance
+  name: DispEditAasxEntity.UploadAssistance
+  href: api/AasxPackageExplorer.DispEditAasxEntity.UploadAssistance.html
+  commentId: T:AasxPackageExplorer.DispEditAasxEntity.UploadAssistance
+  fullName: AasxPackageExplorer.DispEditAasxEntity.UploadAssistance
+  nameWithType: DispEditAasxEntity.UploadAssistance
+- uid: AasxPackageExplorer.DispEditAasxEntity.UploadAssistance.SourcePath
+  name: SourcePath
+  href: api/AasxPackageExplorer.DispEditAasxEntity.UploadAssistance.html#AasxPackageExplorer_DispEditAasxEntity_UploadAssistance_SourcePath
+  commentId: F:AasxPackageExplorer.DispEditAasxEntity.UploadAssistance.SourcePath
+  fullName: AasxPackageExplorer.DispEditAasxEntity.UploadAssistance.SourcePath
+  nameWithType: DispEditAasxEntity.UploadAssistance.SourcePath
+- uid: AasxPackageExplorer.DispEditAasxEntity.UploadAssistance.TargetPath
+  name: TargetPath
+  href: api/AasxPackageExplorer.DispEditAasxEntity.UploadAssistance.html#AasxPackageExplorer_DispEditAasxEntity_UploadAssistance_TargetPath
+  commentId: F:AasxPackageExplorer.DispEditAasxEntity.UploadAssistance.TargetPath
+  fullName: AasxPackageExplorer.DispEditAasxEntity.UploadAssistance.TargetPath
+  nameWithType: DispEditAasxEntity.UploadAssistance.TargetPath
 - uid: AasxPackageExplorer.DispEditAasxEntity.WishForOutsideAction
   name: WishForOutsideAction
   href: api/AasxPackageExplorer.DispEditAasxEntity.html#AasxPackageExplorer_DispEditAasxEntity_WishForOutsideAction
@@ -19186,15 +19204,31 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperBasics.AddHintBubble
   nameWithType: DispEditHelperBasics.AddHintBubble
-- uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.Boolean,System.String[],AdminShellNS.AdminShellV20.Key[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction,AdminShellNS.AdminShellPackageEnv[])
-  name: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, Boolean, String[], AdminShellV20.Key[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction, AdminShellPackageEnv[])
-  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyListKeys_System_Windows_Controls_StackPanel_System_String_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_AdminShellNS_AdminShellPackageEnv_System_String_System_Boolean_System_Boolean_System_String___AdminShellNS_AdminShellV20_Key___System_Func_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_LambdaAction__AasxPackageExplorer_ModifyRepo_LambdaAction_AdminShellNS_AdminShellPackageEnv___
-  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.Boolean,System.String[],AdminShellNS.AdminShellV20.Key[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction,AdminShellNS.AdminShellPackageEnv[])
-  name.vb: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, Boolean, String(), AdminShellV20.Key(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction, AdminShellPackageEnv())
-  fullName: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.Boolean, System.String[], AdminShellNS.AdminShellV20.Key[], System.Func<AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction>, AasxPackageExplorer.ModifyRepo.LambdaAction, AdminShellNS.AdminShellPackageEnv[])
-  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.Boolean, System.String(), AdminShellNS.AdminShellV20.Key(), System.Func(Of AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction), AasxPackageExplorer.ModifyRepo.LambdaAction, AdminShellNS.AdminShellPackageEnv())
-  nameWithType: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, Boolean, String[], AdminShellV20.Key[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction, AdminShellPackageEnv[])
-  nameWithType.vb: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, AdminShellPackageEnv, String, Boolean, Boolean, String(), AdminShellV20.Key(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction, AdminShellPackageEnv())
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyDropTarget(System.Windows.Controls.StackPanel,System.String,System.String,System.String,AasxPackageExplorer.ModifyRepo,System.Func{System.Object,AasxPackageExplorer.ModifyRepo.LambdaAction},System.Int32)
+  name: AddKeyDropTarget(StackPanel, String, String, String, ModifyRepo, Func<Object, ModifyRepo.LambdaAction>, Int32)
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyDropTarget_System_Windows_Controls_StackPanel_System_String_System_String_System_String_AasxPackageExplorer_ModifyRepo_System_Func_System_Object_AasxPackageExplorer_ModifyRepo_LambdaAction__System_Int32_
+  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddKeyDropTarget(System.Windows.Controls.StackPanel,System.String,System.String,System.String,AasxPackageExplorer.ModifyRepo,System.Func{System.Object,AasxPackageExplorer.ModifyRepo.LambdaAction},System.Int32)
+  name.vb: AddKeyDropTarget(StackPanel, String, String, String, ModifyRepo, Func(Of Object, ModifyRepo.LambdaAction), Int32)
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddKeyDropTarget(System.Windows.Controls.StackPanel, System.String, System.String, System.String, AasxPackageExplorer.ModifyRepo, System.Func<System.Object, AasxPackageExplorer.ModifyRepo.LambdaAction>, System.Int32)
+  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.AddKeyDropTarget(System.Windows.Controls.StackPanel, System.String, System.String, System.String, AasxPackageExplorer.ModifyRepo, System.Func(Of System.Object, AasxPackageExplorer.ModifyRepo.LambdaAction), System.Int32)
+  nameWithType: DispEditHelperBasics.AddKeyDropTarget(StackPanel, String, String, String, ModifyRepo, Func<Object, ModifyRepo.LambdaAction>, Int32)
+  nameWithType.vb: DispEditHelperBasics.AddKeyDropTarget(StackPanel, String, String, String, ModifyRepo, Func(Of Object, ModifyRepo.LambdaAction), Int32)
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyDropTarget*
+  name: AddKeyDropTarget
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyDropTarget_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperBasics.AddKeyDropTarget
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddKeyDropTarget
+  nameWithType: DispEditHelperBasics.AddKeyDropTarget
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AasxWpfControlLibrary.PackageCentral,AasxWpfControlLibrary.PackageCentral.Selector,System.String,System.Boolean,System.Boolean,System.String[],AdminShellNS.AdminShellV20.KeyList[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction)
+  name: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, PackageCentral, PackageCentral.Selector, String, Boolean, Boolean, String[], AdminShellV20.KeyList[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction)
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyListKeys_System_Windows_Controls_StackPanel_System_String_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_AasxWpfControlLibrary_PackageCentral_AasxWpfControlLibrary_PackageCentral_Selector_System_String_System_Boolean_System_Boolean_System_String___AdminShellNS_AdminShellV20_KeyList___System_Func_AdminShellNS_AdminShellV20_KeyList_AasxPackageExplorer_ModifyRepo_LambdaAction__AasxPackageExplorer_ModifyRepo_LambdaAction_
+  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel,System.String,AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo,AasxWpfControlLibrary.PackageCentral,AasxWpfControlLibrary.PackageCentral.Selector,System.String,System.Boolean,System.Boolean,System.String[],AdminShellNS.AdminShellV20.KeyList[],System.Func{AdminShellNS.AdminShellV20.KeyList,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction)
+  name.vb: AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, PackageCentral, PackageCentral.Selector, String, Boolean, Boolean, String(), AdminShellV20.KeyList(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction)
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AasxWpfControlLibrary.PackageCentral, AasxWpfControlLibrary.PackageCentral.Selector, System.String, System.Boolean, System.Boolean, System.String[], AdminShellNS.AdminShellV20.KeyList[], System.Func<AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction>, AasxPackageExplorer.ModifyRepo.LambdaAction)
+  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys(System.Windows.Controls.StackPanel, System.String, AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo, AasxWpfControlLibrary.PackageCentral, AasxWpfControlLibrary.PackageCentral.Selector, System.String, System.Boolean, System.Boolean, System.String(), AdminShellNS.AdminShellV20.KeyList(), System.Func(Of AdminShellNS.AdminShellV20.KeyList, AasxPackageExplorer.ModifyRepo.LambdaAction), AasxPackageExplorer.ModifyRepo.LambdaAction)
+  nameWithType: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, PackageCentral, PackageCentral.Selector, String, Boolean, Boolean, String[], AdminShellV20.KeyList[], Func<AdminShellV20.KeyList, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction)
+  nameWithType.vb: DispEditHelperBasics.AddKeyListKeys(StackPanel, String, AdminShellV20.KeyList, ModifyRepo, PackageCentral, PackageCentral.Selector, String, Boolean, Boolean, String(), AdminShellV20.KeyList(), Func(Of AdminShellV20.KeyList, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction)
 - uid: AasxPackageExplorer.DispEditHelperBasics.AddKeyListKeys*
   name: AddKeyListKeys
   href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddKeyListKeys_
@@ -19311,6 +19345,35 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperBasics.AddSmallComboBoxTo
   nameWithType: DispEditHelperBasics.AddSmallComboBoxTo
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddSmallContextMenuItemTo(System.Windows.Controls.Grid,System.Int32,System.Int32,System.String,AasxPackageExplorer.ModifyRepo,System.String[],System.Func{System.Object,AasxPackageExplorer.ModifyRepo.LambdaAction},System.Windows.Thickness,System.Windows.Thickness,System.Windows.Media.Brush,System.Windows.Media.Brush)
+  name: AddSmallContextMenuItemTo(Grid, Int32, Int32, String, ModifyRepo, String[], Func<Object, ModifyRepo.LambdaAction>, Thickness, Thickness, Brush, Brush)
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSmallContextMenuItemTo_System_Windows_Controls_Grid_System_Int32_System_Int32_System_String_AasxPackageExplorer_ModifyRepo_System_String___System_Func_System_Object_AasxPackageExplorer_ModifyRepo_LambdaAction__System_Windows_Thickness_System_Windows_Thickness_System_Windows_Media_Brush_System_Windows_Media_Brush_
+  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddSmallContextMenuItemTo(System.Windows.Controls.Grid,System.Int32,System.Int32,System.String,AasxPackageExplorer.ModifyRepo,System.String[],System.Func{System.Object,AasxPackageExplorer.ModifyRepo.LambdaAction},System.Windows.Thickness,System.Windows.Thickness,System.Windows.Media.Brush,System.Windows.Media.Brush)
+  name.vb: AddSmallContextMenuItemTo(Grid, Int32, Int32, String, ModifyRepo, String(), Func(Of Object, ModifyRepo.LambdaAction), Thickness, Thickness, Brush, Brush)
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddSmallContextMenuItemTo(System.Windows.Controls.Grid, System.Int32, System.Int32, System.String, AasxPackageExplorer.ModifyRepo, System.String[], System.Func<System.Object, AasxPackageExplorer.ModifyRepo.LambdaAction>, System.Windows.Thickness, System.Windows.Thickness, System.Windows.Media.Brush, System.Windows.Media.Brush)
+  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.AddSmallContextMenuItemTo(System.Windows.Controls.Grid, System.Int32, System.Int32, System.String, AasxPackageExplorer.ModifyRepo, System.String(), System.Func(Of System.Object, AasxPackageExplorer.ModifyRepo.LambdaAction), System.Windows.Thickness, System.Windows.Thickness, System.Windows.Media.Brush, System.Windows.Media.Brush)
+  nameWithType: DispEditHelperBasics.AddSmallContextMenuItemTo(Grid, Int32, Int32, String, ModifyRepo, String[], Func<Object, ModifyRepo.LambdaAction>, Thickness, Thickness, Brush, Brush)
+  nameWithType.vb: DispEditHelperBasics.AddSmallContextMenuItemTo(Grid, Int32, Int32, String, ModifyRepo, String(), Func(Of Object, ModifyRepo.LambdaAction), Thickness, Thickness, Brush, Brush)
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddSmallContextMenuItemTo*
+  name: AddSmallContextMenuItemTo
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSmallContextMenuItemTo_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperBasics.AddSmallContextMenuItemTo
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddSmallContextMenuItemTo
+  nameWithType: DispEditHelperBasics.AddSmallContextMenuItemTo
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddSmallDropBoxTo(System.Windows.Controls.Grid,System.Int32,System.Int32,System.Windows.Thickness,System.Windows.Thickness,System.String,System.Windows.Media.Brush,System.Windows.Media.Brush,System.Windows.Thickness,System.Int32)
+  name: AddSmallDropBoxTo(Grid, Int32, Int32, Thickness, Thickness, String, Brush, Brush, Thickness, Int32)
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSmallDropBoxTo_System_Windows_Controls_Grid_System_Int32_System_Int32_System_Windows_Thickness_System_Windows_Thickness_System_String_System_Windows_Media_Brush_System_Windows_Media_Brush_System_Windows_Thickness_System_Int32_
+  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddSmallDropBoxTo(System.Windows.Controls.Grid,System.Int32,System.Int32,System.Windows.Thickness,System.Windows.Thickness,System.String,System.Windows.Media.Brush,System.Windows.Media.Brush,System.Windows.Thickness,System.Int32)
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddSmallDropBoxTo(System.Windows.Controls.Grid, System.Int32, System.Int32, System.Windows.Thickness, System.Windows.Thickness, System.String, System.Windows.Media.Brush, System.Windows.Media.Brush, System.Windows.Thickness, System.Int32)
+  nameWithType: DispEditHelperBasics.AddSmallDropBoxTo(Grid, Int32, Int32, Thickness, Thickness, String, Brush, Brush, Thickness, Int32)
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddSmallDropBoxTo*
+  name: AddSmallDropBoxTo
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSmallDropBoxTo_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperBasics.AddSmallDropBoxTo
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddSmallDropBoxTo
+  nameWithType: DispEditHelperBasics.AddSmallDropBoxTo
 - uid: AasxPackageExplorer.DispEditHelperBasics.AddSmallGrid(System.Int32,System.Int32,System.String[],System.Windows.Thickness)
   name: AddSmallGrid(Int32, Int32, String[], Thickness)
   href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSmallGrid_System_Int32_System_Int32_System_String___System_Windows_Thickness_
@@ -19327,6 +19390,22 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperBasics.AddSmallGrid
   nameWithType: DispEditHelperBasics.AddSmallGrid
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddSmallGridTo(System.Windows.Controls.Grid,System.Int32,System.Int32,System.Int32,System.Int32,System.String[],System.Windows.Thickness)
+  name: AddSmallGridTo(Grid, Int32, Int32, Int32, Int32, String[], Thickness)
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSmallGridTo_System_Windows_Controls_Grid_System_Int32_System_Int32_System_Int32_System_Int32_System_String___System_Windows_Thickness_
+  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddSmallGridTo(System.Windows.Controls.Grid,System.Int32,System.Int32,System.Int32,System.Int32,System.String[],System.Windows.Thickness)
+  name.vb: AddSmallGridTo(Grid, Int32, Int32, Int32, Int32, String(), Thickness)
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddSmallGridTo(System.Windows.Controls.Grid, System.Int32, System.Int32, System.Int32, System.Int32, System.String[], System.Windows.Thickness)
+  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.AddSmallGridTo(System.Windows.Controls.Grid, System.Int32, System.Int32, System.Int32, System.Int32, System.String(), System.Windows.Thickness)
+  nameWithType: DispEditHelperBasics.AddSmallGridTo(Grid, Int32, Int32, Int32, Int32, String[], Thickness)
+  nameWithType.vb: DispEditHelperBasics.AddSmallGridTo(Grid, Int32, Int32, Int32, Int32, String(), Thickness)
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddSmallGridTo*
+  name: AddSmallGridTo
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSmallGridTo_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperBasics.AddSmallGridTo
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddSmallGridTo
+  nameWithType: DispEditHelperBasics.AddSmallGridTo
 - uid: AasxPackageExplorer.DispEditHelperBasics.AddSmallLabelTo(System.Windows.Controls.Grid,System.Int32,System.Int32,System.Windows.Thickness,System.Windows.Thickness,System.String,System.Windows.Media.Brush,System.Windows.Media.Brush,System.Boolean)
   name: AddSmallLabelTo(Grid, Int32, Int32, Thickness, Thickness, String, Brush, Brush, Boolean)
   href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSmallLabelTo_System_Windows_Controls_Grid_System_Int32_System_Int32_System_Windows_Thickness_System_Windows_Thickness_System_String_System_Windows_Media_Brush_System_Windows_Media_Brush_System_Boolean_
@@ -19382,6 +19461,22 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperBasics.AddSmallWrapPanelTo
   nameWithType: DispEditHelperBasics.AddSmallWrapPanelTo
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddSubGrid(System.Windows.Controls.StackPanel,System.String,System.Int32,System.Int32,System.String[],System.Windows.Thickness)
+  name: AddSubGrid(StackPanel, String, Int32, Int32, String[], Thickness)
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSubGrid_System_Windows_Controls_StackPanel_System_String_System_Int32_System_Int32_System_String___System_Windows_Thickness_
+  commentId: M:AasxPackageExplorer.DispEditHelperBasics.AddSubGrid(System.Windows.Controls.StackPanel,System.String,System.Int32,System.Int32,System.String[],System.Windows.Thickness)
+  name.vb: AddSubGrid(StackPanel, String, Int32, Int32, String(), Thickness)
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddSubGrid(System.Windows.Controls.StackPanel, System.String, System.Int32, System.Int32, System.String[], System.Windows.Thickness)
+  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.AddSubGrid(System.Windows.Controls.StackPanel, System.String, System.Int32, System.Int32, System.String(), System.Windows.Thickness)
+  nameWithType: DispEditHelperBasics.AddSubGrid(StackPanel, String, Int32, Int32, String[], Thickness)
+  nameWithType.vb: DispEditHelperBasics.AddSubGrid(StackPanel, String, Int32, Int32, String(), Thickness)
+- uid: AasxPackageExplorer.DispEditHelperBasics.AddSubGrid*
+  name: AddSubGrid
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSubGrid_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperBasics.AddSubGrid
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperBasics.AddSubGrid
+  nameWithType: DispEditHelperBasics.AddSubGrid
 - uid: AasxPackageExplorer.DispEditHelperBasics.AddSubStackPanel(System.Windows.Controls.StackPanel,System.String)
   name: AddSubStackPanel(StackPanel, String)
   href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_AddSubStackPanel_System_Windows_Controls_StackPanel_System_String_
@@ -19395,12 +19490,6 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperBasics.AddSubStackPanel
   nameWithType: DispEditHelperBasics.AddSubStackPanel
-- uid: AasxPackageExplorer.DispEditHelperBasics.auxPackages
-  name: auxPackages
-  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_auxPackages
-  commentId: F:AasxPackageExplorer.DispEditHelperBasics.auxPackages
-  fullName: AasxPackageExplorer.DispEditHelperBasics.auxPackages
-  nameWithType: DispEditHelperBasics.auxPackages
 - uid: AasxPackageExplorer.DispEditHelperBasics.ClearHighlights
   name: ClearHighlights()
   href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_ClearHighlights
@@ -19585,12 +19674,12 @@ references:
   fullName.vb: AasxPackageExplorer.DispEditHelperBasics.MoveElementInListUpwards(Of T)(System.Collections.Generic.List(Of T), T)
   nameWithType: DispEditHelperBasics.MoveElementInListUpwards<T>(List<T>, T)
   nameWithType.vb: DispEditHelperBasics.MoveElementInListUpwards(Of T)(List(Of T), T)
-- uid: AasxPackageExplorer.DispEditHelperBasics.package
-  name: package
-  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_package
-  commentId: F:AasxPackageExplorer.DispEditHelperBasics.package
-  fullName: AasxPackageExplorer.DispEditHelperBasics.package
-  nameWithType: DispEditHelperBasics.package
+- uid: AasxPackageExplorer.DispEditHelperBasics.packages
+  name: packages
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_packages
+  commentId: F:AasxPackageExplorer.DispEditHelperBasics.packages
+  fullName: AasxPackageExplorer.DispEditHelperBasics.packages
+  nameWithType: DispEditHelperBasics.packages
 - uid: AasxPackageExplorer.DispEditHelperBasics.QualifierHelper(System.Windows.Controls.StackPanel,AasxPackageExplorer.ModifyRepo,System.Collections.Generic.List{AdminShellNS.AdminShellV20.Qualifier})
   name: QualifierHelper(StackPanel, ModifyRepo, List<AdminShellV20.Qualifier>)
   href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_QualifierHelper_System_Windows_Controls_StackPanel_AasxPackageExplorer_ModifyRepo_System_Collections_Generic_List_AdminShellNS_AdminShellV20_Qualifier__
@@ -19671,15 +19760,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperBasics.SmartRefactorSme
   nameWithType: DispEditHelperBasics.SmartRefactorSme
-- uid: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityKeys(AdminShellNS.AdminShellV20.AdministrationShellEnv,System.String,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[])
-  name: SmartSelectAasEntityKeys(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv[])
-  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_SmartSelectAasEntityKeys_AdminShellNS_AdminShellV20_AdministrationShellEnv_System_String_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellPackageEnv___
-  commentId: M:AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityKeys(AdminShellNS.AdminShellV20.AdministrationShellEnv,System.String,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[])
-  name.vb: SmartSelectAasEntityKeys(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv())
-  fullName: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityKeys(AdminShellNS.AdminShellV20.AdministrationShellEnv, System.String, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv[])
-  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityKeys(AdminShellNS.AdminShellV20.AdministrationShellEnv, System.String, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv())
-  nameWithType: DispEditHelperBasics.SmartSelectAasEntityKeys(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv[])
-  nameWithType.vb: DispEditHelperBasics.SmartSelectAasEntityKeys(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv())
+- uid: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityKeys(AasxWpfControlLibrary.PackageCentral,AasxWpfControlLibrary.PackageCentral.Selector,System.String)
+  name: SmartSelectAasEntityKeys(PackageCentral, PackageCentral.Selector, String)
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_SmartSelectAasEntityKeys_AasxWpfControlLibrary_PackageCentral_AasxWpfControlLibrary_PackageCentral_Selector_System_String_
+  commentId: M:AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityKeys(AasxWpfControlLibrary.PackageCentral,AasxWpfControlLibrary.PackageCentral.Selector,System.String)
+  fullName: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityKeys(AasxWpfControlLibrary.PackageCentral, AasxWpfControlLibrary.PackageCentral.Selector, System.String)
+  nameWithType: DispEditHelperBasics.SmartSelectAasEntityKeys(PackageCentral, PackageCentral.Selector, String)
 - uid: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityKeys*
   name: SmartSelectAasEntityKeys
   href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_SmartSelectAasEntityKeys_
@@ -19687,15 +19773,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityKeys
   nameWithType: DispEditHelperBasics.SmartSelectAasEntityKeys
-- uid: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityVisualElement(AdminShellNS.AdminShellV20.AdministrationShellEnv,System.String,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[])
-  name: SmartSelectAasEntityVisualElement(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv[])
-  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_SmartSelectAasEntityVisualElement_AdminShellNS_AdminShellV20_AdministrationShellEnv_System_String_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellPackageEnv___
-  commentId: M:AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityVisualElement(AdminShellNS.AdminShellV20.AdministrationShellEnv,System.String,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[])
-  name.vb: SmartSelectAasEntityVisualElement(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv())
-  fullName: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityVisualElement(AdminShellNS.AdminShellV20.AdministrationShellEnv, System.String, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv[])
-  fullName.vb: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityVisualElement(AdminShellNS.AdminShellV20.AdministrationShellEnv, System.String, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv())
-  nameWithType: DispEditHelperBasics.SmartSelectAasEntityVisualElement(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv[])
-  nameWithType.vb: DispEditHelperBasics.SmartSelectAasEntityVisualElement(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv())
+- uid: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityVisualElement(AasxWpfControlLibrary.PackageCentral,AasxWpfControlLibrary.PackageCentral.Selector,System.String)
+  name: SmartSelectAasEntityVisualElement(PackageCentral, PackageCentral.Selector, String)
+  href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_SmartSelectAasEntityVisualElement_AasxWpfControlLibrary_PackageCentral_AasxWpfControlLibrary_PackageCentral_Selector_System_String_
+  commentId: M:AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityVisualElement(AasxWpfControlLibrary.PackageCentral,AasxWpfControlLibrary.PackageCentral.Selector,System.String)
+  fullName: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityVisualElement(AasxWpfControlLibrary.PackageCentral, AasxWpfControlLibrary.PackageCentral.Selector, System.String)
+  nameWithType: DispEditHelperBasics.SmartSelectAasEntityVisualElement(PackageCentral, PackageCentral.Selector, String)
 - uid: AasxPackageExplorer.DispEditHelperBasics.SmartSelectAasEntityVisualElement*
   name: SmartSelectAasEntityVisualElement
   href: api/AasxPackageExplorer.DispEditHelperBasics.html#AasxPackageExplorer_DispEditHelperBasics_SmartSelectAasEntityVisualElement_
@@ -19725,6 +19808,248 @@ references:
   commentId: F:AasxPackageExplorer.DispEditHelperBasics.standardFirstColWidth
   fullName: AasxPackageExplorer.DispEditHelperBasics.standardFirstColWidth
   nameWithType: DispEditHelperBasics.standardFirstColWidth
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste
+  name: DispEditHelperCopyPaste
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.html
+  commentId: T:AasxPackageExplorer.DispEditHelperCopyPaste
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste
+  nameWithType: DispEditHelperCopyPaste
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer
+  name: DispEditHelperCopyPaste.CopyPasteBuffer
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.html
+  commentId: T:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer
+  nameWithType: DispEditHelperCopyPaste.CopyPasteBuffer
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.Clear
+  name: Clear()
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_Clear
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.Clear
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.Clear()
+  nameWithType: DispEditHelperCopyPaste.CopyPasteBuffer.Clear()
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.Clear*
+  name: Clear
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_Clear_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.Clear
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.Clear
+  nameWithType: DispEditHelperCopyPaste.CopyPasteBuffer.Clear
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.duplicate
+  name: duplicate
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_duplicate
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.duplicate
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.duplicate
+  nameWithType: DispEditHelperCopyPaste.CopyPasteBuffer.duplicate
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.item
+  name: item
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_item
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.item
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.item
+  nameWithType: DispEditHelperCopyPaste.CopyPasteBuffer.item
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.PreparePresetsForListKeys(AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer,System.String)
+  name: PreparePresetsForListKeys(DispEditHelperCopyPaste.CopyPasteBuffer, String)
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_PreparePresetsForListKeys_AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_System_String_
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.PreparePresetsForListKeys(AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer,System.String)
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.PreparePresetsForListKeys(AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer, System.String)
+  nameWithType: DispEditHelperCopyPaste.CopyPasteBuffer.PreparePresetsForListKeys(DispEditHelperCopyPaste.CopyPasteBuffer, String)
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.PreparePresetsForListKeys*
+  name: PreparePresetsForListKeys
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_PreparePresetsForListKeys_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.PreparePresetsForListKeys
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.PreparePresetsForListKeys
+  nameWithType: DispEditHelperCopyPaste.CopyPasteBuffer.PreparePresetsForListKeys
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.valid
+  name: valid
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_valid
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.valid
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer.valid
+  nameWithType: DispEditHelperCopyPaste.CopyPasteBuffer.valid
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemBase
+  name: DispEditHelperCopyPaste.CopyPasteItemBase
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemBase.html
+  commentId: T:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemBase
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemBase
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemBase
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable
+  name: DispEditHelperCopyPaste.CopyPasteItemIdentifiable
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.html
+  commentId: T:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemIdentifiable
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.#ctor
+  name: CopyPasteItemIdentifiable()
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemIdentifiable__ctor
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.#ctor
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.CopyPasteItemIdentifiable()
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemIdentifiable.CopyPasteItemIdentifiable()
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.#ctor(System.Object,AdminShellNS.AdminShellV20.Identifiable)
+  name: CopyPasteItemIdentifiable(Object, AdminShellV20.Identifiable)
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemIdentifiable__ctor_System_Object_AdminShellNS_AdminShellV20_Identifiable_
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.#ctor(System.Object,AdminShellNS.AdminShellV20.Identifiable)
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.CopyPasteItemIdentifiable(System.Object, AdminShellNS.AdminShellV20.Identifiable)
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemIdentifiable.CopyPasteItemIdentifiable(Object, AdminShellV20.Identifiable)
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.#ctor*
+  name: CopyPasteItemIdentifiable
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemIdentifiable__ctor_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.#ctor
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.CopyPasteItemIdentifiable
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemIdentifiable.CopyPasteItemIdentifiable
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.entity
+  name: entity
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemIdentifiable_entity
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.entity
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.entity
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemIdentifiable.entity
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.parentContainer
+  name: parentContainer
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemIdentifiable_parentContainer
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.parentContainer
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemIdentifiable.parentContainer
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemIdentifiable.parentContainer
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME
+  name: DispEditHelperCopyPaste.CopyPasteItemSME
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.html
+  commentId: T:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSME
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.#ctor
+  name: CopyPasteItemSME()
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSME__ctor
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.#ctor
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.CopyPasteItemSME()
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSME.CopyPasteItemSME()
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.#ctor(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.SubmodelElementWrapper,AdminShellNS.AdminShellV20.SubmodelElement)
+  name: CopyPasteItemSME(AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement)
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSME__ctor_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_Referable_AdminShellNS_AdminShellV20_SubmodelElementWrapper_AdminShellNS_AdminShellV20_SubmodelElement_
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.#ctor(AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.SubmodelElementWrapper,AdminShellNS.AdminShellV20.SubmodelElement)
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.CopyPasteItemSME(AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.SubmodelElementWrapper, AdminShellNS.AdminShellV20.SubmodelElement)
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSME.CopyPasteItemSME(AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement)
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.#ctor*
+  name: CopyPasteItemSME
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSME__ctor_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.#ctor
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.CopyPasteItemSME
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSME.CopyPasteItemSME
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.env
+  name: env
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSME_env
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.env
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.env
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSME.env
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.parentContainer
+  name: parentContainer
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSME_parentContainer
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.parentContainer
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.parentContainer
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSME.parentContainer
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.sme
+  name: sme
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSME_sme
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.sme
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.sme
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSME.sme
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.wrapper
+  name: wrapper
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSME_wrapper
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.wrapper
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSME.wrapper
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSME.wrapper
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel
+  name: DispEditHelperCopyPaste.CopyPasteItemSubmodel
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.html
+  commentId: T:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSubmodel
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.#ctor
+  name: CopyPasteItemSubmodel()
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSubmodel__ctor
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.#ctor
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.CopyPasteItemSubmodel()
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSubmodel.CopyPasteItemSubmodel()
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.#ctor(System.Object,System.Object,AdminShellNS.AdminShellV20.SubmodelRef,AdminShellNS.AdminShellV20.Submodel)
+  name: CopyPasteItemSubmodel(Object, Object, AdminShellV20.SubmodelRef, AdminShellV20.Submodel)
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSubmodel__ctor_System_Object_System_Object_AdminShellNS_AdminShellV20_SubmodelRef_AdminShellNS_AdminShellV20_Submodel_
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.#ctor(System.Object,System.Object,AdminShellNS.AdminShellV20.SubmodelRef,AdminShellNS.AdminShellV20.Submodel)
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.CopyPasteItemSubmodel(System.Object, System.Object, AdminShellNS.AdminShellV20.SubmodelRef, AdminShellNS.AdminShellV20.Submodel)
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSubmodel.CopyPasteItemSubmodel(Object, Object, AdminShellV20.SubmodelRef, AdminShellV20.Submodel)
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.#ctor*
+  name: CopyPasteItemSubmodel
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSubmodel__ctor_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.#ctor
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.CopyPasteItemSubmodel
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSubmodel.CopyPasteItemSubmodel
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.entity
+  name: entity
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSubmodel_entity
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.entity
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.entity
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSubmodel.entity
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.parentContainer
+  name: parentContainer
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSubmodel_parentContainer
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.parentContainer
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.parentContainer
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSubmodel.parentContainer
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.sm
+  name: sm
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSubmodel_sm
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.sm
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.sm
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSubmodel.sm
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.smref
+  name: smref
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.html#AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteItemSubmodel_smref
+  commentId: F:AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.smref
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteItemSubmodel.smref
+  nameWithType: DispEditHelperCopyPaste.CopyPasteItemSubmodel.smref
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.DispPlainIdentifiableCutCopyPasteHelper*
+  name: DispPlainIdentifiableCutCopyPasteHelper
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.html#AasxPackageExplorer_DispEditHelperCopyPaste_DispPlainIdentifiableCutCopyPasteHelper_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperCopyPaste.DispPlainIdentifiableCutCopyPasteHelper
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.DispPlainIdentifiableCutCopyPasteHelper
+  nameWithType: DispEditHelperCopyPaste.DispPlainIdentifiableCutCopyPasteHelper
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.DispPlainIdentifiableCutCopyPasteHelper``1(System.Windows.Controls.Panel,AasxPackageExplorer.ModifyRepo,AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer,System.Collections.Generic.List{``0},``0,System.Func{``0,``0},System.String)
+  name: DispPlainIdentifiableCutCopyPasteHelper<T>(Panel, ModifyRepo, DispEditHelperCopyPaste.CopyPasteBuffer, List<T>, T, Func<T, T>, String)
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.html#AasxPackageExplorer_DispEditHelperCopyPaste_DispPlainIdentifiableCutCopyPasteHelper__1_System_Windows_Controls_Panel_AasxPackageExplorer_ModifyRepo_AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_System_Collections_Generic_List___0____0_System_Func___0___0__System_String_
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.DispPlainIdentifiableCutCopyPasteHelper``1(System.Windows.Controls.Panel,AasxPackageExplorer.ModifyRepo,AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer,System.Collections.Generic.List{``0},``0,System.Func{``0,``0},System.String)
+  name.vb: DispPlainIdentifiableCutCopyPasteHelper(Of T)(Panel, ModifyRepo, DispEditHelperCopyPaste.CopyPasteBuffer, List(Of T), T, Func(Of T, T), String)
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.DispPlainIdentifiableCutCopyPasteHelper<T>(System.Windows.Controls.Panel, AasxPackageExplorer.ModifyRepo, AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer, System.Collections.Generic.List<T>, T, System.Func<T, T>, System.String)
+  fullName.vb: AasxPackageExplorer.DispEditHelperCopyPaste.DispPlainIdentifiableCutCopyPasteHelper(Of T)(System.Windows.Controls.Panel, AasxPackageExplorer.ModifyRepo, AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer, System.Collections.Generic.List(Of T), T, System.Func(Of T, T), System.String)
+  nameWithType: DispEditHelperCopyPaste.DispPlainIdentifiableCutCopyPasteHelper<T>(Panel, ModifyRepo, DispEditHelperCopyPaste.CopyPasteBuffer, List<T>, T, Func<T, T>, String)
+  nameWithType.vb: DispEditHelperCopyPaste.DispPlainIdentifiableCutCopyPasteHelper(Of T)(Panel, ModifyRepo, DispEditHelperCopyPaste.CopyPasteBuffer, List(Of T), T, Func(Of T, T), String)
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.DispSmeCutCopyPasteHelper(System.Windows.Controls.Panel,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer,AdminShellNS.AdminShellV20.SubmodelElementWrapper,AdminShellNS.AdminShellV20.SubmodelElement,System.String)
+  name: DispSmeCutCopyPasteHelper(Panel, ModifyRepo, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, DispEditHelperCopyPaste.CopyPasteBuffer, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement, String)
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.html#AasxPackageExplorer_DispEditHelperCopyPaste_DispSmeCutCopyPasteHelper_System_Windows_Controls_Panel_AasxPackageExplorer_ModifyRepo_AdminShellNS_AdminShellV20_AdministrationShellEnv_AdminShellNS_AdminShellV20_Referable_AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_AdminShellNS_AdminShellV20_SubmodelElementWrapper_AdminShellNS_AdminShellV20_SubmodelElement_System_String_
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.DispSmeCutCopyPasteHelper(System.Windows.Controls.Panel,AasxPackageExplorer.ModifyRepo,AdminShellNS.AdminShellV20.AdministrationShellEnv,AdminShellNS.AdminShellV20.Referable,AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer,AdminShellNS.AdminShellV20.SubmodelElementWrapper,AdminShellNS.AdminShellV20.SubmodelElement,System.String)
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.DispSmeCutCopyPasteHelper(System.Windows.Controls.Panel, AasxPackageExplorer.ModifyRepo, AdminShellNS.AdminShellV20.AdministrationShellEnv, AdminShellNS.AdminShellV20.Referable, AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer, AdminShellNS.AdminShellV20.SubmodelElementWrapper, AdminShellNS.AdminShellV20.SubmodelElement, System.String)
+  nameWithType: DispEditHelperCopyPaste.DispSmeCutCopyPasteHelper(Panel, ModifyRepo, AdminShellV20.AdministrationShellEnv, AdminShellV20.Referable, DispEditHelperCopyPaste.CopyPasteBuffer, AdminShellV20.SubmodelElementWrapper, AdminShellV20.SubmodelElement, String)
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.DispSmeCutCopyPasteHelper*
+  name: DispSmeCutCopyPasteHelper
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.html#AasxPackageExplorer_DispEditHelperCopyPaste_DispSmeCutCopyPasteHelper_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperCopyPaste.DispSmeCutCopyPasteHelper
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.DispSmeCutCopyPasteHelper
+  nameWithType: DispEditHelperCopyPaste.DispSmeCutCopyPasteHelper
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.DispSubmodelCutCopyPasteHelper*
+  name: DispSubmodelCutCopyPasteHelper
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.html#AasxPackageExplorer_DispEditHelperCopyPaste_DispSubmodelCutCopyPasteHelper_
+  commentId: Overload:AasxPackageExplorer.DispEditHelperCopyPaste.DispSubmodelCutCopyPasteHelper
+  isSpec: "True"
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.DispSubmodelCutCopyPasteHelper
+  nameWithType: DispEditHelperCopyPaste.DispSubmodelCutCopyPasteHelper
+- uid: AasxPackageExplorer.DispEditHelperCopyPaste.DispSubmodelCutCopyPasteHelper``1(System.Windows.Controls.Panel,AasxPackageExplorer.ModifyRepo,AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer,System.Collections.Generic.List{``0},``0,System.Func{``0,``0},AdminShellNS.AdminShellV20.SubmodelRef,AdminShellNS.AdminShellV20.Submodel,System.String)
+  name: DispSubmodelCutCopyPasteHelper<T>(Panel, ModifyRepo, DispEditHelperCopyPaste.CopyPasteBuffer, List<T>, T, Func<T, T>, AdminShellV20.SubmodelRef, AdminShellV20.Submodel, String)
+  href: api/AasxPackageExplorer.DispEditHelperCopyPaste.html#AasxPackageExplorer_DispEditHelperCopyPaste_DispSubmodelCutCopyPasteHelper__1_System_Windows_Controls_Panel_AasxPackageExplorer_ModifyRepo_AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_System_Collections_Generic_List___0____0_System_Func___0___0__AdminShellNS_AdminShellV20_SubmodelRef_AdminShellNS_AdminShellV20_Submodel_System_String_
+  commentId: M:AasxPackageExplorer.DispEditHelperCopyPaste.DispSubmodelCutCopyPasteHelper``1(System.Windows.Controls.Panel,AasxPackageExplorer.ModifyRepo,AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer,System.Collections.Generic.List{``0},``0,System.Func{``0,``0},AdminShellNS.AdminShellV20.SubmodelRef,AdminShellNS.AdminShellV20.Submodel,System.String)
+  name.vb: DispSubmodelCutCopyPasteHelper(Of T)(Panel, ModifyRepo, DispEditHelperCopyPaste.CopyPasteBuffer, List(Of T), T, Func(Of T, T), AdminShellV20.SubmodelRef, AdminShellV20.Submodel, String)
+  fullName: AasxPackageExplorer.DispEditHelperCopyPaste.DispSubmodelCutCopyPasteHelper<T>(System.Windows.Controls.Panel, AasxPackageExplorer.ModifyRepo, AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer, System.Collections.Generic.List<T>, T, System.Func<T, T>, AdminShellNS.AdminShellV20.SubmodelRef, AdminShellNS.AdminShellV20.Submodel, System.String)
+  fullName.vb: AasxPackageExplorer.DispEditHelperCopyPaste.DispSubmodelCutCopyPasteHelper(Of T)(System.Windows.Controls.Panel, AasxPackageExplorer.ModifyRepo, AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer, System.Collections.Generic.List(Of T), T, System.Func(Of T, T), AdminShellNS.AdminShellV20.SubmodelRef, AdminShellNS.AdminShellV20.Submodel, System.String)
+  nameWithType: DispEditHelperCopyPaste.DispSubmodelCutCopyPasteHelper<T>(Panel, ModifyRepo, DispEditHelperCopyPaste.CopyPasteBuffer, List<T>, T, Func<T, T>, AdminShellV20.SubmodelRef, AdminShellV20.Submodel, String)
+  nameWithType.vb: DispEditHelperCopyPaste.DispSubmodelCutCopyPasteHelper(Of T)(Panel, ModifyRepo, DispEditHelperCopyPaste.CopyPasteBuffer, List(Of T), T, Func(Of T, T), AdminShellV20.SubmodelRef, AdminShellV20.Submodel, String)
 - uid: AasxPackageExplorer.DispEditHelperModules
   name: DispEditHelperModules
   href: api/AasxPackageExplorer.DispEditHelperModules.html
@@ -19847,15 +20172,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityDataSpecificationIEC61360
   nameWithType: DispEditHelperModules.DisplayOrEditEntityDataSpecificationIEC61360
-- uid: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.HasDataSpecification,System.Action{AdminShellNS.AdminShellV20.HasDataSpecification},System.String[],AdminShellNS.AdminShellV20.Key[],System.Boolean)
-  name: DisplayOrEditEntityHasDataSpecificationReferences(StackPanel, AdminShellV20.HasDataSpecification, Action<AdminShellV20.HasDataSpecification>, String[], AdminShellV20.Key[], Boolean)
-  href: api/AasxPackageExplorer.DispEditHelperModules.html#AasxPackageExplorer_DispEditHelperModules_DisplayOrEditEntityHasDataSpecificationReferences_System_Windows_Controls_StackPanel_AdminShellNS_AdminShellV20_HasDataSpecification_System_Action_AdminShellNS_AdminShellV20_HasDataSpecification__System_String___AdminShellNS_AdminShellV20_Key___System_Boolean_
-  commentId: M:AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.HasDataSpecification,System.Action{AdminShellNS.AdminShellV20.HasDataSpecification},System.String[],AdminShellNS.AdminShellV20.Key[],System.Boolean)
-  name.vb: DisplayOrEditEntityHasDataSpecificationReferences(StackPanel, AdminShellV20.HasDataSpecification, Action(Of AdminShellV20.HasDataSpecification), String(), AdminShellV20.Key(), Boolean)
-  fullName: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.HasDataSpecification, System.Action<AdminShellNS.AdminShellV20.HasDataSpecification>, System.String[], AdminShellNS.AdminShellV20.Key[], System.Boolean)
-  fullName.vb: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.HasDataSpecification, System.Action(Of AdminShellNS.AdminShellV20.HasDataSpecification), System.String(), AdminShellNS.AdminShellV20.Key(), System.Boolean)
-  nameWithType: DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(StackPanel, AdminShellV20.HasDataSpecification, Action<AdminShellV20.HasDataSpecification>, String[], AdminShellV20.Key[], Boolean)
-  nameWithType.vb: DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(StackPanel, AdminShellV20.HasDataSpecification, Action(Of AdminShellV20.HasDataSpecification), String(), AdminShellV20.Key(), Boolean)
+- uid: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.HasDataSpecification,System.Action{AdminShellNS.AdminShellV20.HasDataSpecification},System.String[],AdminShellNS.AdminShellV20.KeyList[],System.Boolean)
+  name: DisplayOrEditEntityHasDataSpecificationReferences(StackPanel, AdminShellV20.HasDataSpecification, Action<AdminShellV20.HasDataSpecification>, String[], AdminShellV20.KeyList[], Boolean)
+  href: api/AasxPackageExplorer.DispEditHelperModules.html#AasxPackageExplorer_DispEditHelperModules_DisplayOrEditEntityHasDataSpecificationReferences_System_Windows_Controls_StackPanel_AdminShellNS_AdminShellV20_HasDataSpecification_System_Action_AdminShellNS_AdminShellV20_HasDataSpecification__System_String___AdminShellNS_AdminShellV20_KeyList___System_Boolean_
+  commentId: M:AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.HasDataSpecification,System.Action{AdminShellNS.AdminShellV20.HasDataSpecification},System.String[],AdminShellNS.AdminShellV20.KeyList[],System.Boolean)
+  name.vb: DisplayOrEditEntityHasDataSpecificationReferences(StackPanel, AdminShellV20.HasDataSpecification, Action(Of AdminShellV20.HasDataSpecification), String(), AdminShellV20.KeyList(), Boolean)
+  fullName: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.HasDataSpecification, System.Action<AdminShellNS.AdminShellV20.HasDataSpecification>, System.String[], AdminShellNS.AdminShellV20.KeyList[], System.Boolean)
+  fullName.vb: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.HasDataSpecification, System.Action(Of AdminShellNS.AdminShellV20.HasDataSpecification), System.String(), AdminShellNS.AdminShellV20.KeyList(), System.Boolean)
+  nameWithType: DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(StackPanel, AdminShellV20.HasDataSpecification, Action<AdminShellV20.HasDataSpecification>, String[], AdminShellV20.KeyList[], Boolean)
+  nameWithType.vb: DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences(StackPanel, AdminShellV20.HasDataSpecification, Action(Of AdminShellV20.HasDataSpecification), String(), AdminShellV20.KeyList(), Boolean)
 - uid: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityHasDataSpecificationReferences*
   name: DisplayOrEditEntityHasDataSpecificationReferences
   href: api/AasxPackageExplorer.DispEditHelperModules.html#AasxPackageExplorer_DispEditHelperModules_DisplayOrEditEntityHasDataSpecificationReferences_
@@ -19940,15 +20265,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntityReferable
   nameWithType: DispEditHelperModules.DisplayOrEditEntityReferable
-- uid: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.SemanticId,System.Action{AdminShellNS.AdminShellV20.SemanticId},System.String,System.Boolean,System.String)
-  name: DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action<AdminShellV20.SemanticId>, String, Boolean, String)
-  href: api/AasxPackageExplorer.DispEditHelperModules.html#AasxPackageExplorer_DispEditHelperModules_DisplayOrEditEntitySemanticId_System_Windows_Controls_StackPanel_AdminShellNS_AdminShellV20_SemanticId_System_Action_AdminShellNS_AdminShellV20_SemanticId__System_String_System_Boolean_System_String_
-  commentId: M:AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.SemanticId,System.Action{AdminShellNS.AdminShellV20.SemanticId},System.String,System.Boolean,System.String)
-  name.vb: DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action(Of AdminShellV20.SemanticId), String, Boolean, String)
-  fullName: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.SemanticId, System.Action<AdminShellNS.AdminShellV20.SemanticId>, System.String, System.Boolean, System.String)
-  fullName.vb: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.SemanticId, System.Action(Of AdminShellNS.AdminShellV20.SemanticId), System.String, System.Boolean, System.String)
-  nameWithType: DispEditHelperModules.DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action<AdminShellV20.SemanticId>, String, Boolean, String)
-  nameWithType.vb: DispEditHelperModules.DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action(Of AdminShellV20.SemanticId), String, Boolean, String)
+- uid: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.SemanticId,System.Action{AdminShellNS.AdminShellV20.SemanticId},System.String,System.Boolean,System.String,AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer)
+  name: DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action<AdminShellV20.SemanticId>, String, Boolean, String, DispEditHelperCopyPaste.CopyPasteBuffer)
+  href: api/AasxPackageExplorer.DispEditHelperModules.html#AasxPackageExplorer_DispEditHelperModules_DisplayOrEditEntitySemanticId_System_Windows_Controls_StackPanel_AdminShellNS_AdminShellV20_SemanticId_System_Action_AdminShellNS_AdminShellV20_SemanticId__System_String_System_Boolean_System_String_AasxPackageExplorer_DispEditHelperCopyPaste_CopyPasteBuffer_
+  commentId: M:AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel,AdminShellNS.AdminShellV20.SemanticId,System.Action{AdminShellNS.AdminShellV20.SemanticId},System.String,System.Boolean,System.String,AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer)
+  name.vb: DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action(Of AdminShellV20.SemanticId), String, Boolean, String, DispEditHelperCopyPaste.CopyPasteBuffer)
+  fullName: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.SemanticId, System.Action<AdminShellNS.AdminShellV20.SemanticId>, System.String, System.Boolean, System.String, AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer)
+  fullName.vb: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId(System.Windows.Controls.StackPanel, AdminShellNS.AdminShellV20.SemanticId, System.Action(Of AdminShellNS.AdminShellV20.SemanticId), System.String, System.Boolean, System.String, AasxPackageExplorer.DispEditHelperCopyPaste.CopyPasteBuffer)
+  nameWithType: DispEditHelperModules.DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action<AdminShellV20.SemanticId>, String, Boolean, String, DispEditHelperCopyPaste.CopyPasteBuffer)
+  nameWithType.vb: DispEditHelperModules.DisplayOrEditEntitySemanticId(StackPanel, AdminShellV20.SemanticId, Action(Of AdminShellV20.SemanticId), String, Boolean, String, DispEditHelperCopyPaste.CopyPasteBuffer)
 - uid: AasxPackageExplorer.DispEditHelperModules.DisplayOrEditEntitySemanticId*
   name: DisplayOrEditEntitySemanticId
   href: api/AasxPackageExplorer.DispEditHelperModules.html#AasxPackageExplorer_DispEditHelperModules_DisplayOrEditEntitySemanticId_
@@ -21362,6 +21687,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.MainWindow.MessageBoxFlyoutShow
   nameWithType: MainWindow.MessageBoxFlyoutShow
+- uid: AasxPackageExplorer.MainWindow.packages
+  name: packages
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_packages
+  commentId: F:AasxPackageExplorer.MainWindow.packages
+  fullName: AasxPackageExplorer.MainWindow.packages
+  nameWithType: MainWindow.packages
 - uid: AasxPackageExplorer.MainWindow.PrepareDispEditEntity(AdminShellNS.AdminShellPackageEnv,AasxPackageExplorer.VisualElementGeneric,System.Boolean,System.Boolean,AasxPackageExplorer.DispEditHighlight.HighlightFieldInfo)
   name: PrepareDispEditEntity(AdminShellPackageEnv, VisualElementGeneric, Boolean, Boolean, DispEditHighlight.HighlightFieldInfo)
   href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_PrepareDispEditEntity_AdminShellNS_AdminShellPackageEnv_AasxPackageExplorer_VisualElementGeneric_System_Boolean_System_Boolean_AasxPackageExplorer_DispEditHighlight_HighlightFieldInfo_
@@ -21466,24 +21797,6 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.MainWindow.StartFlyoverModal
   nameWithType: MainWindow.StartFlyoverModal
-- uid: AasxPackageExplorer.MainWindow.theFileRepository
-  name: theFileRepository
-  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_theFileRepository
-  commentId: F:AasxPackageExplorer.MainWindow.theFileRepository
-  fullName: AasxPackageExplorer.MainWindow.theFileRepository
-  nameWithType: MainWindow.theFileRepository
-- uid: AasxPackageExplorer.MainWindow.thePackageAux
-  name: thePackageAux
-  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_thePackageAux
-  commentId: F:AasxPackageExplorer.MainWindow.thePackageAux
-  fullName: AasxPackageExplorer.MainWindow.thePackageAux
-  nameWithType: MainWindow.thePackageAux
-- uid: AasxPackageExplorer.MainWindow.thePackageEnv
-  name: thePackageEnv
-  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_thePackageEnv
-  commentId: F:AasxPackageExplorer.MainWindow.thePackageEnv
-  fullName: AasxPackageExplorer.MainWindow.thePackageEnv
-  nameWithType: MainWindow.thePackageEnv
 - uid: AasxPackageExplorer.MainWindow.UiCheckIfActivateLoadedNavTo
   name: UiCheckIfActivateLoadedNavTo()
   href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiCheckIfActivateLoadedNavTo
@@ -21510,15 +21823,12 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.MainWindow.UiLoadFileRepository
   nameWithType: MainWindow.UiLoadFileRepository
-- uid: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(AdminShellNS.AdminShellPackageEnv@,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.Boolean)
-  name: UiLoadPackageWithNew(ref AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean, Boolean)
-  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiLoadPackageWithNew_AdminShellNS_AdminShellPackageEnv__AdminShellNS_AdminShellPackageEnv_System_String_System_Boolean_System_Boolean_
-  commentId: M:AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(AdminShellNS.AdminShellPackageEnv@,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.Boolean)
-  name.vb: UiLoadPackageWithNew(ByRef AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean, Boolean)
-  fullName: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(ref AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.Boolean)
-  fullName.vb: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(ByRef AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.Boolean)
-  nameWithType: MainWindow.UiLoadPackageWithNew(ref AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean, Boolean)
-  nameWithType.vb: MainWindow.UiLoadPackageWithNew(ByRef AdminShellPackageEnv, AdminShellPackageEnv, String, Boolean, Boolean)
+- uid: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(AasxWpfControlLibrary.PackageContainer,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.Boolean)
+  name: UiLoadPackageWithNew(PackageContainer, AdminShellPackageEnv, String, Boolean, Boolean)
+  href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiLoadPackageWithNew_AasxWpfControlLibrary_PackageContainer_AdminShellNS_AdminShellPackageEnv_System_String_System_Boolean_System_Boolean_
+  commentId: M:AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(AasxWpfControlLibrary.PackageContainer,AdminShellNS.AdminShellPackageEnv,System.String,System.Boolean,System.Boolean)
+  fullName: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew(AasxWpfControlLibrary.PackageContainer, AdminShellNS.AdminShellPackageEnv, System.String, System.Boolean, System.Boolean)
+  nameWithType: MainWindow.UiLoadPackageWithNew(PackageContainer, AdminShellPackageEnv, String, Boolean, Boolean)
 - uid: AasxPackageExplorer.MainWindow.UiLoadPackageWithNew*
   name: UiLoadPackageWithNew
   href: api/AasxPackageExplorer.MainWindow.html#AasxPackageExplorer_MainWindow_UiLoadPackageWithNew_
@@ -21673,6 +21983,37 @@ references:
   commentId: T:AasxPackageExplorer.ModifyRepo.LambdaActionContentsTakeOver
   fullName: AasxPackageExplorer.ModifyRepo.LambdaActionContentsTakeOver
   nameWithType: ModifyRepo.LambdaActionContentsTakeOver
+- uid: AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo
+  name: ModifyRepo.LambdaActionNavigateTo
+  href: api/AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.html
+  commentId: T:AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo
+  fullName: AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo
+  nameWithType: ModifyRepo.LambdaActionNavigateTo
+- uid: AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.#ctor
+  name: LambdaActionNavigateTo()
+  href: api/AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.html#AasxPackageExplorer_ModifyRepo_LambdaActionNavigateTo__ctor
+  commentId: M:AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.#ctor
+  fullName: AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.LambdaActionNavigateTo()
+  nameWithType: ModifyRepo.LambdaActionNavigateTo.LambdaActionNavigateTo()
+- uid: AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.#ctor(AdminShellNS.AdminShellV20.Reference)
+  name: LambdaActionNavigateTo(AdminShellV20.Reference)
+  href: api/AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.html#AasxPackageExplorer_ModifyRepo_LambdaActionNavigateTo__ctor_AdminShellNS_AdminShellV20_Reference_
+  commentId: M:AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.#ctor(AdminShellNS.AdminShellV20.Reference)
+  fullName: AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.LambdaActionNavigateTo(AdminShellNS.AdminShellV20.Reference)
+  nameWithType: ModifyRepo.LambdaActionNavigateTo.LambdaActionNavigateTo(AdminShellV20.Reference)
+- uid: AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.#ctor*
+  name: LambdaActionNavigateTo
+  href: api/AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.html#AasxPackageExplorer_ModifyRepo_LambdaActionNavigateTo__ctor_
+  commentId: Overload:AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.#ctor
+  isSpec: "True"
+  fullName: AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.LambdaActionNavigateTo
+  nameWithType: ModifyRepo.LambdaActionNavigateTo.LambdaActionNavigateTo
+- uid: AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.targetReference
+  name: targetReference
+  href: api/AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.html#AasxPackageExplorer_ModifyRepo_LambdaActionNavigateTo_targetReference
+  commentId: F:AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.targetReference
+  fullName: AasxPackageExplorer.ModifyRepo.LambdaActionNavigateTo.targetReference
+  nameWithType: ModifyRepo.LambdaActionNavigateTo.targetReference
 - uid: AasxPackageExplorer.ModifyRepo.LambdaActionNone
   name: ModifyRepo.LambdaActionNone
   href: api/AasxPackageExplorer.ModifyRepo.LambdaActionNone.html
@@ -21731,15 +22072,15 @@ references:
   commentId: T:AasxPackageExplorer.ModifyRepo.LambdaActionRedrawEntity
   fullName: AasxPackageExplorer.ModifyRepo.LambdaActionRedrawEntity
   nameWithType: ModifyRepo.LambdaActionRedrawEntity
-- uid: AasxPackageExplorer.ModifyRepo.RegisterControl(System.Windows.Controls.Control,System.Func{System.Object,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction)
-  name: RegisterControl(Control, Func<Object, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction)
-  href: api/AasxPackageExplorer.ModifyRepo.html#AasxPackageExplorer_ModifyRepo_RegisterControl_System_Windows_Controls_Control_System_Func_System_Object_AasxPackageExplorer_ModifyRepo_LambdaAction__AasxPackageExplorer_ModifyRepo_LambdaAction_
-  commentId: M:AasxPackageExplorer.ModifyRepo.RegisterControl(System.Windows.Controls.Control,System.Func{System.Object,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction)
-  name.vb: RegisterControl(Control, Func(Of Object, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction)
-  fullName: AasxPackageExplorer.ModifyRepo.RegisterControl(System.Windows.Controls.Control, System.Func<System.Object, AasxPackageExplorer.ModifyRepo.LambdaAction>, AasxPackageExplorer.ModifyRepo.LambdaAction)
-  fullName.vb: AasxPackageExplorer.ModifyRepo.RegisterControl(System.Windows.Controls.Control, System.Func(Of System.Object, AasxPackageExplorer.ModifyRepo.LambdaAction), AasxPackageExplorer.ModifyRepo.LambdaAction)
-  nameWithType: ModifyRepo.RegisterControl(Control, Func<Object, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction)
-  nameWithType.vb: ModifyRepo.RegisterControl(Control, Func(Of Object, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction)
+- uid: AasxPackageExplorer.ModifyRepo.RegisterControl(System.Windows.FrameworkElement,System.Func{System.Object,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction)
+  name: RegisterControl(FrameworkElement, Func<Object, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction)
+  href: api/AasxPackageExplorer.ModifyRepo.html#AasxPackageExplorer_ModifyRepo_RegisterControl_System_Windows_FrameworkElement_System_Func_System_Object_AasxPackageExplorer_ModifyRepo_LambdaAction__AasxPackageExplorer_ModifyRepo_LambdaAction_
+  commentId: M:AasxPackageExplorer.ModifyRepo.RegisterControl(System.Windows.FrameworkElement,System.Func{System.Object,AasxPackageExplorer.ModifyRepo.LambdaAction},AasxPackageExplorer.ModifyRepo.LambdaAction)
+  name.vb: RegisterControl(FrameworkElement, Func(Of Object, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction)
+  fullName: AasxPackageExplorer.ModifyRepo.RegisterControl(System.Windows.FrameworkElement, System.Func<System.Object, AasxPackageExplorer.ModifyRepo.LambdaAction>, AasxPackageExplorer.ModifyRepo.LambdaAction)
+  fullName.vb: AasxPackageExplorer.ModifyRepo.RegisterControl(System.Windows.FrameworkElement, System.Func(Of System.Object, AasxPackageExplorer.ModifyRepo.LambdaAction), AasxPackageExplorer.ModifyRepo.LambdaAction)
+  nameWithType: ModifyRepo.RegisterControl(FrameworkElement, Func<Object, ModifyRepo.LambdaAction>, ModifyRepo.LambdaAction)
+  nameWithType.vb: ModifyRepo.RegisterControl(FrameworkElement, Func(Of Object, ModifyRepo.LambdaAction), ModifyRepo.LambdaAction)
 - uid: AasxPackageExplorer.ModifyRepo.RegisterControl*
   name: RegisterControl
   href: api/AasxPackageExplorer.ModifyRepo.html#AasxPackageExplorer_ModifyRepo_RegisterControl_
@@ -21753,12 +22094,12 @@ references:
   commentId: T:AasxPackageExplorer.ModifyRepo.RepoItem
   fullName: AasxPackageExplorer.ModifyRepo.RepoItem
   nameWithType: ModifyRepo.RepoItem
-- uid: AasxPackageExplorer.ModifyRepo.RepoItem.control
-  name: control
-  href: api/AasxPackageExplorer.ModifyRepo.RepoItem.html#AasxPackageExplorer_ModifyRepo_RepoItem_control
-  commentId: F:AasxPackageExplorer.ModifyRepo.RepoItem.control
-  fullName: AasxPackageExplorer.ModifyRepo.RepoItem.control
-  nameWithType: ModifyRepo.RepoItem.control
+- uid: AasxPackageExplorer.ModifyRepo.RepoItem.fwElem
+  name: fwElem
+  href: api/AasxPackageExplorer.ModifyRepo.RepoItem.html#AasxPackageExplorer_ModifyRepo_RepoItem_fwElem
+  commentId: F:AasxPackageExplorer.ModifyRepo.RepoItem.fwElem
+  fullName: AasxPackageExplorer.ModifyRepo.RepoItem.fwElem
+  nameWithType: ModifyRepo.RepoItem.fwElem
 - uid: AasxPackageExplorer.ModifyRepo.RepoItem.originalValue
   name: originalValue
   href: api/AasxPackageExplorer.ModifyRepo.RepoItem.html#AasxPackageExplorer_ModifyRepo_RepoItem_originalValue
@@ -22854,68 +23195,18 @@ references:
   commentId: T:AasxPackageExplorer.SecureConnectPresetList
   fullName: AasxPackageExplorer.SecureConnectPresetList
   nameWithType: SecureConnectPresetList
-- uid: AasxPackageExplorer.SelectAasEntityDialogueByTree
-  name: SelectAasEntityDialogueByTree
-  href: api/AasxPackageExplorer.SelectAasEntityDialogueByTree.html
-  commentId: T:AasxPackageExplorer.SelectAasEntityDialogueByTree
-  fullName: AasxPackageExplorer.SelectAasEntityDialogueByTree
-  nameWithType: SelectAasEntityDialogueByTree
-- uid: AasxPackageExplorer.SelectAasEntityDialogueByTree.#ctor(AdminShellNS.AdminShellV20.AdministrationShellEnv,System.String,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[])
-  name: SelectAasEntityDialogueByTree(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv[])
-  href: api/AasxPackageExplorer.SelectAasEntityDialogueByTree.html#AasxPackageExplorer_SelectAasEntityDialogueByTree__ctor_AdminShellNS_AdminShellV20_AdministrationShellEnv_System_String_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellPackageEnv___
-  commentId: M:AasxPackageExplorer.SelectAasEntityDialogueByTree.#ctor(AdminShellNS.AdminShellV20.AdministrationShellEnv,System.String,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[])
-  name.vb: SelectAasEntityDialogueByTree(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv())
-  fullName: AasxPackageExplorer.SelectAasEntityDialogueByTree.SelectAasEntityDialogueByTree(AdminShellNS.AdminShellV20.AdministrationShellEnv, System.String, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv[])
-  fullName.vb: AasxPackageExplorer.SelectAasEntityDialogueByTree.SelectAasEntityDialogueByTree(AdminShellNS.AdminShellV20.AdministrationShellEnv, System.String, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv())
-  nameWithType: SelectAasEntityDialogueByTree.SelectAasEntityDialogueByTree(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv[])
-  nameWithType.vb: SelectAasEntityDialogueByTree.SelectAasEntityDialogueByTree(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv())
-- uid: AasxPackageExplorer.SelectAasEntityDialogueByTree.#ctor*
-  name: SelectAasEntityDialogueByTree
-  href: api/AasxPackageExplorer.SelectAasEntityDialogueByTree.html#AasxPackageExplorer_SelectAasEntityDialogueByTree__ctor_
-  commentId: Overload:AasxPackageExplorer.SelectAasEntityDialogueByTree.#ctor
-  isSpec: "True"
-  fullName: AasxPackageExplorer.SelectAasEntityDialogueByTree.SelectAasEntityDialogueByTree
-  nameWithType: SelectAasEntityDialogueByTree.SelectAasEntityDialogueByTree
-- uid: AasxPackageExplorer.SelectAasEntityDialogueByTree.InitializeComponent
-  name: InitializeComponent()
-  href: api/AasxPackageExplorer.SelectAasEntityDialogueByTree.html#AasxPackageExplorer_SelectAasEntityDialogueByTree_InitializeComponent
-  commentId: M:AasxPackageExplorer.SelectAasEntityDialogueByTree.InitializeComponent
-  fullName: AasxPackageExplorer.SelectAasEntityDialogueByTree.InitializeComponent()
-  nameWithType: SelectAasEntityDialogueByTree.InitializeComponent()
-- uid: AasxPackageExplorer.SelectAasEntityDialogueByTree.InitializeComponent*
-  name: InitializeComponent
-  href: api/AasxPackageExplorer.SelectAasEntityDialogueByTree.html#AasxPackageExplorer_SelectAasEntityDialogueByTree_InitializeComponent_
-  commentId: Overload:AasxPackageExplorer.SelectAasEntityDialogueByTree.InitializeComponent
-  isSpec: "True"
-  fullName: AasxPackageExplorer.SelectAasEntityDialogueByTree.InitializeComponent
-  nameWithType: SelectAasEntityDialogueByTree.InitializeComponent
-- uid: AasxPackageExplorer.SelectAasEntityDialogueByTree.ResultKeys
-  name: ResultKeys
-  href: api/AasxPackageExplorer.SelectAasEntityDialogueByTree.html#AasxPackageExplorer_SelectAasEntityDialogueByTree_ResultKeys
-  commentId: F:AasxPackageExplorer.SelectAasEntityDialogueByTree.ResultKeys
-  fullName: AasxPackageExplorer.SelectAasEntityDialogueByTree.ResultKeys
-  nameWithType: SelectAasEntityDialogueByTree.ResultKeys
-- uid: AasxPackageExplorer.SelectAasEntityDialogueByTree.ResultVisualElement
-  name: ResultVisualElement
-  href: api/AasxPackageExplorer.SelectAasEntityDialogueByTree.html#AasxPackageExplorer_SelectAasEntityDialogueByTree_ResultVisualElement
-  commentId: F:AasxPackageExplorer.SelectAasEntityDialogueByTree.ResultVisualElement
-  fullName: AasxPackageExplorer.SelectAasEntityDialogueByTree.ResultVisualElement
-  nameWithType: SelectAasEntityDialogueByTree.ResultVisualElement
 - uid: AasxPackageExplorer.SelectAasEntityFlyout
   name: SelectAasEntityFlyout
   href: api/AasxPackageExplorer.SelectAasEntityFlyout.html
   commentId: T:AasxPackageExplorer.SelectAasEntityFlyout
   fullName: AasxPackageExplorer.SelectAasEntityFlyout
   nameWithType: SelectAasEntityFlyout
-- uid: AasxPackageExplorer.SelectAasEntityFlyout.#ctor(AdminShellNS.AdminShellV20.AdministrationShellEnv,System.String,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[])
-  name: SelectAasEntityFlyout(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv[])
-  href: api/AasxPackageExplorer.SelectAasEntityFlyout.html#AasxPackageExplorer_SelectAasEntityFlyout__ctor_AdminShellNS_AdminShellV20_AdministrationShellEnv_System_String_AdminShellNS_AdminShellPackageEnv_AdminShellNS_AdminShellPackageEnv___
-  commentId: M:AasxPackageExplorer.SelectAasEntityFlyout.#ctor(AdminShellNS.AdminShellV20.AdministrationShellEnv,System.String,AdminShellNS.AdminShellPackageEnv,AdminShellNS.AdminShellPackageEnv[])
-  name.vb: SelectAasEntityFlyout(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv())
-  fullName: AasxPackageExplorer.SelectAasEntityFlyout.SelectAasEntityFlyout(AdminShellNS.AdminShellV20.AdministrationShellEnv, System.String, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv[])
-  fullName.vb: AasxPackageExplorer.SelectAasEntityFlyout.SelectAasEntityFlyout(AdminShellNS.AdminShellV20.AdministrationShellEnv, System.String, AdminShellNS.AdminShellPackageEnv, AdminShellNS.AdminShellPackageEnv())
-  nameWithType: SelectAasEntityFlyout.SelectAasEntityFlyout(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv[])
-  nameWithType.vb: SelectAasEntityFlyout.SelectAasEntityFlyout(AdminShellV20.AdministrationShellEnv, String, AdminShellPackageEnv, AdminShellPackageEnv())
+- uid: AasxPackageExplorer.SelectAasEntityFlyout.#ctor(AasxWpfControlLibrary.PackageCentral,AasxWpfControlLibrary.PackageCentral.Selector,System.String)
+  name: SelectAasEntityFlyout(PackageCentral, PackageCentral.Selector, String)
+  href: api/AasxPackageExplorer.SelectAasEntityFlyout.html#AasxPackageExplorer_SelectAasEntityFlyout__ctor_AasxWpfControlLibrary_PackageCentral_AasxWpfControlLibrary_PackageCentral_Selector_System_String_
+  commentId: M:AasxPackageExplorer.SelectAasEntityFlyout.#ctor(AasxWpfControlLibrary.PackageCentral,AasxWpfControlLibrary.PackageCentral.Selector,System.String)
+  fullName: AasxPackageExplorer.SelectAasEntityFlyout.SelectAasEntityFlyout(AasxWpfControlLibrary.PackageCentral, AasxWpfControlLibrary.PackageCentral.Selector, System.String)
+  nameWithType: SelectAasEntityFlyout.SelectAasEntityFlyout(PackageCentral, PackageCentral.Selector, String)
 - uid: AasxPackageExplorer.SelectAasEntityFlyout.#ctor*
   name: SelectAasEntityFlyout
   href: api/AasxPackageExplorer.SelectAasEntityFlyout.html#AasxPackageExplorer_SelectAasEntityFlyout__ctor_
@@ -23731,6 +24022,102 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.TextBoxFlyout.Text
   nameWithType: TextBoxFlyout.Text
+- uid: AasxPackageExplorer.TextEditorFlyout
+  name: TextEditorFlyout
+  href: api/AasxPackageExplorer.TextEditorFlyout.html
+  commentId: T:AasxPackageExplorer.TextEditorFlyout
+  fullName: AasxPackageExplorer.TextEditorFlyout
+  nameWithType: TextEditorFlyout
+- uid: AasxPackageExplorer.TextEditorFlyout.#ctor(System.String)
+  name: TextEditorFlyout(String)
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout__ctor_System_String_
+  commentId: M:AasxPackageExplorer.TextEditorFlyout.#ctor(System.String)
+  fullName: AasxPackageExplorer.TextEditorFlyout.TextEditorFlyout(System.String)
+  nameWithType: TextEditorFlyout.TextEditorFlyout(String)
+- uid: AasxPackageExplorer.TextEditorFlyout.#ctor*
+  name: TextEditorFlyout
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout__ctor_
+  commentId: Overload:AasxPackageExplorer.TextEditorFlyout.#ctor
+  isSpec: "True"
+  fullName: AasxPackageExplorer.TextEditorFlyout.TextEditorFlyout
+  nameWithType: TextEditorFlyout.TextEditorFlyout
+- uid: AasxPackageExplorer.TextEditorFlyout.ControlClosed
+  name: ControlClosed
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_ControlClosed
+  commentId: E:AasxPackageExplorer.TextEditorFlyout.ControlClosed
+  fullName: AasxPackageExplorer.TextEditorFlyout.ControlClosed
+  nameWithType: TextEditorFlyout.ControlClosed
+- uid: AasxPackageExplorer.TextEditorFlyout.ControlPreviewKeyDown(System.Windows.Input.KeyEventArgs)
+  name: ControlPreviewKeyDown(KeyEventArgs)
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_ControlPreviewKeyDown_System_Windows_Input_KeyEventArgs_
+  commentId: M:AasxPackageExplorer.TextEditorFlyout.ControlPreviewKeyDown(System.Windows.Input.KeyEventArgs)
+  fullName: AasxPackageExplorer.TextEditorFlyout.ControlPreviewKeyDown(System.Windows.Input.KeyEventArgs)
+  nameWithType: TextEditorFlyout.ControlPreviewKeyDown(KeyEventArgs)
+- uid: AasxPackageExplorer.TextEditorFlyout.ControlPreviewKeyDown*
+  name: ControlPreviewKeyDown
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_ControlPreviewKeyDown_
+  commentId: Overload:AasxPackageExplorer.TextEditorFlyout.ControlPreviewKeyDown
+  isSpec: "True"
+  fullName: AasxPackageExplorer.TextEditorFlyout.ControlPreviewKeyDown
+  nameWithType: TextEditorFlyout.ControlPreviewKeyDown
+- uid: AasxPackageExplorer.TextEditorFlyout.ControlStart
+  name: ControlStart()
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_ControlStart
+  commentId: M:AasxPackageExplorer.TextEditorFlyout.ControlStart
+  fullName: AasxPackageExplorer.TextEditorFlyout.ControlStart()
+  nameWithType: TextEditorFlyout.ControlStart()
+- uid: AasxPackageExplorer.TextEditorFlyout.ControlStart*
+  name: ControlStart
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_ControlStart_
+  commentId: Overload:AasxPackageExplorer.TextEditorFlyout.ControlStart
+  isSpec: "True"
+  fullName: AasxPackageExplorer.TextEditorFlyout.ControlStart
+  nameWithType: TextEditorFlyout.ControlStart
+- uid: AasxPackageExplorer.TextEditorFlyout.InitializeComponent
+  name: InitializeComponent()
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_InitializeComponent
+  commentId: M:AasxPackageExplorer.TextEditorFlyout.InitializeComponent
+  fullName: AasxPackageExplorer.TextEditorFlyout.InitializeComponent()
+  nameWithType: TextEditorFlyout.InitializeComponent()
+- uid: AasxPackageExplorer.TextEditorFlyout.InitializeComponent*
+  name: InitializeComponent
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_InitializeComponent_
+  commentId: Overload:AasxPackageExplorer.TextEditorFlyout.InitializeComponent
+  isSpec: "True"
+  fullName: AasxPackageExplorer.TextEditorFlyout.InitializeComponent
+  nameWithType: TextEditorFlyout.InitializeComponent
+- uid: AasxPackageExplorer.TextEditorFlyout.Result
+  name: Result
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_Result
+  commentId: F:AasxPackageExplorer.TextEditorFlyout.Result
+  fullName: AasxPackageExplorer.TextEditorFlyout.Result
+  nameWithType: TextEditorFlyout.Result
+- uid: AasxPackageExplorer.TextEditorFlyout.SetMimeTypeAndText(System.String,System.String)
+  name: SetMimeTypeAndText(String, String)
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_SetMimeTypeAndText_System_String_System_String_
+  commentId: M:AasxPackageExplorer.TextEditorFlyout.SetMimeTypeAndText(System.String,System.String)
+  fullName: AasxPackageExplorer.TextEditorFlyout.SetMimeTypeAndText(System.String, System.String)
+  nameWithType: TextEditorFlyout.SetMimeTypeAndText(String, String)
+- uid: AasxPackageExplorer.TextEditorFlyout.SetMimeTypeAndText*
+  name: SetMimeTypeAndText
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_SetMimeTypeAndText_
+  commentId: Overload:AasxPackageExplorer.TextEditorFlyout.SetMimeTypeAndText
+  isSpec: "True"
+  fullName: AasxPackageExplorer.TextEditorFlyout.SetMimeTypeAndText
+  nameWithType: TextEditorFlyout.SetMimeTypeAndText
+- uid: AasxPackageExplorer.TextEditorFlyout.Text
+  name: Text
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_Text
+  commentId: P:AasxPackageExplorer.TextEditorFlyout.Text
+  fullName: AasxPackageExplorer.TextEditorFlyout.Text
+  nameWithType: TextEditorFlyout.Text
+- uid: AasxPackageExplorer.TextEditorFlyout.Text*
+  name: Text
+  href: api/AasxPackageExplorer.TextEditorFlyout.html#AasxPackageExplorer_TextEditorFlyout_Text_
+  commentId: Overload:AasxPackageExplorer.TextEditorFlyout.Text
+  isSpec: "True"
+  fullName: AasxPackageExplorer.TextEditorFlyout.Text
+  nameWithType: TextEditorFlyout.Text
 - uid: AasxPackageExplorer.ToolControlFindReplace
   name: ToolControlFindReplace
   href: api/AasxPackageExplorer.ToolControlFindReplace.html
@@ -25464,6 +25851,76 @@ references:
   commentId: F:AasxPackageExplorer.VisualElementView.theView
   fullName: AasxPackageExplorer.VisualElementView.theView
   nameWithType: VisualElementView.theView
+- uid: AasxPluginAdvancedTextEditor
+  name: AasxPluginAdvancedTextEditor
+  href: api/AasxPluginAdvancedTextEditor.html
+  commentId: N:AasxPluginAdvancedTextEditor
+  fullName: AasxPluginAdvancedTextEditor
+  nameWithType: AasxPluginAdvancedTextEditor
+- uid: AasxPluginAdvancedTextEditor.AdvancedTextEditOptions
+  name: AdvancedTextEditOptions
+  href: api/AasxPluginAdvancedTextEditor.AdvancedTextEditOptions.html
+  commentId: T:AasxPluginAdvancedTextEditor.AdvancedTextEditOptions
+  fullName: AasxPluginAdvancedTextEditor.AdvancedTextEditOptions
+  nameWithType: AdvancedTextEditOptions
+- uid: AasxPluginAdvancedTextEditor.AdvancedTextEditOptions.CreateDefault
+  name: CreateDefault()
+  href: api/AasxPluginAdvancedTextEditor.AdvancedTextEditOptions.html#AasxPluginAdvancedTextEditor_AdvancedTextEditOptions_CreateDefault
+  commentId: M:AasxPluginAdvancedTextEditor.AdvancedTextEditOptions.CreateDefault
+  fullName: AasxPluginAdvancedTextEditor.AdvancedTextEditOptions.CreateDefault()
+  nameWithType: AdvancedTextEditOptions.CreateDefault()
+- uid: AasxPluginAdvancedTextEditor.AdvancedTextEditOptions.CreateDefault*
+  name: CreateDefault
+  href: api/AasxPluginAdvancedTextEditor.AdvancedTextEditOptions.html#AasxPluginAdvancedTextEditor_AdvancedTextEditOptions_CreateDefault_
+  commentId: Overload:AasxPluginAdvancedTextEditor.AdvancedTextEditOptions.CreateDefault
+  isSpec: "True"
+  fullName: AasxPluginAdvancedTextEditor.AdvancedTextEditOptions.CreateDefault
+  nameWithType: AdvancedTextEditOptions.CreateDefault
+- uid: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor
+  name: UserControlAdvancedTextEditor
+  href: api/AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.html
+  commentId: T:AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor
+  fullName: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor
+  nameWithType: UserControlAdvancedTextEditor
+- uid: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.#ctor
+  name: UserControlAdvancedTextEditor()
+  href: api/AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.html#AasxPluginAdvancedTextEditor_UserControlAdvancedTextEditor__ctor
+  commentId: M:AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.#ctor
+  fullName: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.UserControlAdvancedTextEditor()
+  nameWithType: UserControlAdvancedTextEditor.UserControlAdvancedTextEditor()
+- uid: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.#ctor*
+  name: UserControlAdvancedTextEditor
+  href: api/AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.html#AasxPluginAdvancedTextEditor_UserControlAdvancedTextEditor__ctor_
+  commentId: Overload:AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.#ctor
+  isSpec: "True"
+  fullName: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.UserControlAdvancedTextEditor
+  nameWithType: UserControlAdvancedTextEditor.UserControlAdvancedTextEditor
+- uid: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.MimeType
+  name: MimeType
+  href: api/AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.html#AasxPluginAdvancedTextEditor_UserControlAdvancedTextEditor_MimeType
+  commentId: P:AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.MimeType
+  fullName: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.MimeType
+  nameWithType: UserControlAdvancedTextEditor.MimeType
+- uid: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.MimeType*
+  name: MimeType
+  href: api/AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.html#AasxPluginAdvancedTextEditor_UserControlAdvancedTextEditor_MimeType_
+  commentId: Overload:AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.MimeType
+  isSpec: "True"
+  fullName: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.MimeType
+  nameWithType: UserControlAdvancedTextEditor.MimeType
+- uid: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.Text
+  name: Text
+  href: api/AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.html#AasxPluginAdvancedTextEditor_UserControlAdvancedTextEditor_Text
+  commentId: P:AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.Text
+  fullName: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.Text
+  nameWithType: UserControlAdvancedTextEditor.Text
+- uid: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.Text*
+  name: Text
+  href: api/AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.html#AasxPluginAdvancedTextEditor_UserControlAdvancedTextEditor_Text_
+  commentId: Overload:AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.Text
+  isSpec: "True"
+  fullName: AasxPluginAdvancedTextEditor.UserControlAdvancedTextEditor.Text
+  nameWithType: UserControlAdvancedTextEditor.Text
 - uid: AasxPluginBomStructure
   name: AasxPluginBomStructure
   href: api/AasxPluginBomStructure.html
@@ -35336,6 +35793,158 @@ references:
   isSpec: "True"
   fullName: AasxUANodesetImExport.UAView.EventNotifier
   nameWithType: UAView.EventNotifier
+- uid: AasxWpfControlLibrary
+  name: AasxWpfControlLibrary
+  href: api/AasxWpfControlLibrary.html
+  commentId: N:AasxWpfControlLibrary
+  fullName: AasxWpfControlLibrary
+  nameWithType: AasxWpfControlLibrary
+- uid: AasxWpfControlLibrary.PackageCentral
+  name: PackageCentral
+  href: api/AasxWpfControlLibrary.PackageCentral.html
+  commentId: T:AasxWpfControlLibrary.PackageCentral
+  fullName: AasxWpfControlLibrary.PackageCentral
+  nameWithType: PackageCentral
+- uid: AasxWpfControlLibrary.PackageCentral.Aux
+  name: Aux
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_Aux
+  commentId: P:AasxWpfControlLibrary.PackageCentral.Aux
+  fullName: AasxWpfControlLibrary.PackageCentral.Aux
+  nameWithType: PackageCentral.Aux
+- uid: AasxWpfControlLibrary.PackageCentral.Aux*
+  name: Aux
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_Aux_
+  commentId: Overload:AasxWpfControlLibrary.PackageCentral.Aux
+  isSpec: "True"
+  fullName: AasxWpfControlLibrary.PackageCentral.Aux
+  nameWithType: PackageCentral.Aux
+- uid: AasxWpfControlLibrary.PackageCentral.AuxAvailable
+  name: AuxAvailable
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_AuxAvailable
+  commentId: P:AasxWpfControlLibrary.PackageCentral.AuxAvailable
+  fullName: AasxWpfControlLibrary.PackageCentral.AuxAvailable
+  nameWithType: PackageCentral.AuxAvailable
+- uid: AasxWpfControlLibrary.PackageCentral.AuxAvailable*
+  name: AuxAvailable
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_AuxAvailable_
+  commentId: Overload:AasxWpfControlLibrary.PackageCentral.AuxAvailable
+  isSpec: "True"
+  fullName: AasxWpfControlLibrary.PackageCentral.AuxAvailable
+  nameWithType: PackageCentral.AuxAvailable
+- uid: AasxWpfControlLibrary.PackageCentral.AuxContainer
+  name: AuxContainer
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_AuxContainer
+  commentId: P:AasxWpfControlLibrary.PackageCentral.AuxContainer
+  fullName: AasxWpfControlLibrary.PackageCentral.AuxContainer
+  nameWithType: PackageCentral.AuxContainer
+- uid: AasxWpfControlLibrary.PackageCentral.AuxContainer*
+  name: AuxContainer
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_AuxContainer_
+  commentId: Overload:AasxWpfControlLibrary.PackageCentral.AuxContainer
+  isSpec: "True"
+  fullName: AasxWpfControlLibrary.PackageCentral.AuxContainer
+  nameWithType: PackageCentral.AuxContainer
+- uid: AasxWpfControlLibrary.PackageCentral.FileRepository
+  name: FileRepository
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_FileRepository
+  commentId: P:AasxWpfControlLibrary.PackageCentral.FileRepository
+  fullName: AasxWpfControlLibrary.PackageCentral.FileRepository
+  nameWithType: PackageCentral.FileRepository
+- uid: AasxWpfControlLibrary.PackageCentral.FileRepository*
+  name: FileRepository
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_FileRepository_
+  commentId: Overload:AasxWpfControlLibrary.PackageCentral.FileRepository
+  isSpec: "True"
+  fullName: AasxWpfControlLibrary.PackageCentral.FileRepository
+  nameWithType: PackageCentral.FileRepository
+- uid: AasxWpfControlLibrary.PackageCentral.Main
+  name: Main
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_Main
+  commentId: P:AasxWpfControlLibrary.PackageCentral.Main
+  fullName: AasxWpfControlLibrary.PackageCentral.Main
+  nameWithType: PackageCentral.Main
+- uid: AasxWpfControlLibrary.PackageCentral.Main*
+  name: Main
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_Main_
+  commentId: Overload:AasxWpfControlLibrary.PackageCentral.Main
+  isSpec: "True"
+  fullName: AasxWpfControlLibrary.PackageCentral.Main
+  nameWithType: PackageCentral.Main
+- uid: AasxWpfControlLibrary.PackageCentral.MainAvailable
+  name: MainAvailable
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_MainAvailable
+  commentId: P:AasxWpfControlLibrary.PackageCentral.MainAvailable
+  fullName: AasxWpfControlLibrary.PackageCentral.MainAvailable
+  nameWithType: PackageCentral.MainAvailable
+- uid: AasxWpfControlLibrary.PackageCentral.MainAvailable*
+  name: MainAvailable
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_MainAvailable_
+  commentId: Overload:AasxWpfControlLibrary.PackageCentral.MainAvailable
+  isSpec: "True"
+  fullName: AasxWpfControlLibrary.PackageCentral.MainAvailable
+  nameWithType: PackageCentral.MainAvailable
+- uid: AasxWpfControlLibrary.PackageCentral.MainContainer
+  name: MainContainer
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_MainContainer
+  commentId: P:AasxWpfControlLibrary.PackageCentral.MainContainer
+  fullName: AasxWpfControlLibrary.PackageCentral.MainContainer
+  nameWithType: PackageCentral.MainContainer
+- uid: AasxWpfControlLibrary.PackageCentral.MainContainer*
+  name: MainContainer
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_MainContainer_
+  commentId: Overload:AasxWpfControlLibrary.PackageCentral.MainContainer
+  isSpec: "True"
+  fullName: AasxWpfControlLibrary.PackageCentral.MainContainer
+  nameWithType: PackageCentral.MainContainer
+- uid: AasxWpfControlLibrary.PackageCentral.MainStorable
+  name: MainStorable
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_MainStorable
+  commentId: P:AasxWpfControlLibrary.PackageCentral.MainStorable
+  fullName: AasxWpfControlLibrary.PackageCentral.MainStorable
+  nameWithType: PackageCentral.MainStorable
+- uid: AasxWpfControlLibrary.PackageCentral.MainStorable*
+  name: MainStorable
+  href: api/AasxWpfControlLibrary.PackageCentral.html#AasxWpfControlLibrary_PackageCentral_MainStorable_
+  commentId: Overload:AasxWpfControlLibrary.PackageCentral.MainStorable
+  isSpec: "True"
+  fullName: AasxWpfControlLibrary.PackageCentral.MainStorable
+  nameWithType: PackageCentral.MainStorable
+- uid: AasxWpfControlLibrary.PackageCentral.Selector
+  name: PackageCentral.Selector
+  href: api/AasxWpfControlLibrary.PackageCentral.Selector.html
+  commentId: T:AasxWpfControlLibrary.PackageCentral.Selector
+  fullName: AasxWpfControlLibrary.PackageCentral.Selector
+  nameWithType: PackageCentral.Selector
+- uid: AasxWpfControlLibrary.PackageCentral.Selector.Main
+  name: Main
+  href: api/AasxWpfControlLibrary.PackageCentral.Selector.html#AasxWpfControlLibrary_PackageCentral_Selector_Main
+  commentId: F:AasxWpfControlLibrary.PackageCentral.Selector.Main
+  fullName: AasxWpfControlLibrary.PackageCentral.Selector.Main
+  nameWithType: PackageCentral.Selector.Main
+- uid: AasxWpfControlLibrary.PackageCentral.Selector.MainAux
+  name: MainAux
+  href: api/AasxWpfControlLibrary.PackageCentral.Selector.html#AasxWpfControlLibrary_PackageCentral_Selector_MainAux
+  commentId: F:AasxWpfControlLibrary.PackageCentral.Selector.MainAux
+  fullName: AasxWpfControlLibrary.PackageCentral.Selector.MainAux
+  nameWithType: PackageCentral.Selector.MainAux
+- uid: AasxWpfControlLibrary.PackageCentral.Selector.MainAuxFileRepo
+  name: MainAuxFileRepo
+  href: api/AasxWpfControlLibrary.PackageCentral.Selector.html#AasxWpfControlLibrary_PackageCentral_Selector_MainAuxFileRepo
+  commentId: F:AasxWpfControlLibrary.PackageCentral.Selector.MainAuxFileRepo
+  fullName: AasxWpfControlLibrary.PackageCentral.Selector.MainAuxFileRepo
+  nameWithType: PackageCentral.Selector.MainAuxFileRepo
+- uid: AasxWpfControlLibrary.PackageContainer
+  name: PackageContainer
+  href: api/AasxWpfControlLibrary.PackageContainer.html
+  commentId: T:AasxWpfControlLibrary.PackageContainer
+  fullName: AasxWpfControlLibrary.PackageContainer
+  nameWithType: PackageContainer
+- uid: AasxWpfControlLibrary.PackageContainer.Env
+  name: Env
+  href: api/AasxWpfControlLibrary.PackageContainer.html#AasxWpfControlLibrary_PackageContainer_Env
+  commentId: F:AasxWpfControlLibrary.PackageContainer.Env
+  fullName: AasxWpfControlLibrary.PackageContainer.Env
+  nameWithType: PackageContainer.Env
 - uid: AdminShellNS
   name: AdminShellNS
   href: api/AdminShellNS.html
@@ -35884,12 +36493,12 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellPackageEnv.GetListOfSupplementaryFiles
   nameWithType: AdminShellPackageEnv.GetListOfSupplementaryFiles
-- uid: AdminShellNS.AdminShellPackageEnv.GetLocalStreamFromPackage(System.String)
-  name: GetLocalStreamFromPackage(String)
-  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetLocalStreamFromPackage_System_String_
-  commentId: M:AdminShellNS.AdminShellPackageEnv.GetLocalStreamFromPackage(System.String)
-  fullName: AdminShellNS.AdminShellPackageEnv.GetLocalStreamFromPackage(System.String)
-  nameWithType: AdminShellPackageEnv.GetLocalStreamFromPackage(String)
+- uid: AdminShellNS.AdminShellPackageEnv.GetLocalStreamFromPackage(System.String,FileMode)
+  name: GetLocalStreamFromPackage(String, FileMode)
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetLocalStreamFromPackage_System_String_FileMode_
+  commentId: M:AdminShellNS.AdminShellPackageEnv.GetLocalStreamFromPackage(System.String,FileMode)
+  fullName: AdminShellNS.AdminShellPackageEnv.GetLocalStreamFromPackage(System.String, FileMode)
+  nameWithType: AdminShellPackageEnv.GetLocalStreamFromPackage(String, FileMode)
 - uid: AdminShellNS.AdminShellPackageEnv.GetLocalStreamFromPackage*
   name: GetLocalStreamFromPackage
   href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetLocalStreamFromPackage_
@@ -35919,12 +36528,12 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellPackageEnv.GetLocalThumbnailStream
   nameWithType: AdminShellPackageEnv.GetLocalThumbnailStream
-- uid: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String)
-  name: GetStreamFromUriOrLocalPackage(String)
-  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetStreamFromUriOrLocalPackage_System_String_
-  commentId: M:AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String)
-  fullName: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String)
-  nameWithType: AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(String)
+- uid: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String,FileMode,FileAccess)
+  name: GetStreamFromUriOrLocalPackage(String, FileMode, FileAccess)
+  href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetStreamFromUriOrLocalPackage_System_String_FileMode_FileAccess_
+  commentId: M:AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String,FileMode,FileAccess)
+  fullName: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(System.String, FileMode, FileAccess)
+  nameWithType: AdminShellPackageEnv.GetStreamFromUriOrLocalPackage(String, FileMode, FileAccess)
 - uid: AdminShellNS.AdminShellPackageEnv.GetStreamFromUriOrLocalPackage*
   name: GetStreamFromUriOrLocalPackage
   href: api/AdminShellNS.AdminShellPackageEnv.html#AdminShellNS_AdminShellPackageEnv_GetStreamFromUriOrLocalPackage_
@@ -37099,6 +37708,19 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.CreateFromExistingEnv
   nameWithType: AdminShellV20.AdministrationShellEnv.CreateFromExistingEnv
+- uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.CreateIndexedComparerCdsForSmUsage
+  name: CreateIndexedComparerCdsForSmUsage()
+  href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_CreateIndexedComparerCdsForSmUsage
+  commentId: M:AdminShellNS.AdminShellV20.AdministrationShellEnv.CreateIndexedComparerCdsForSmUsage
+  fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.CreateIndexedComparerCdsForSmUsage()
+  nameWithType: AdminShellV20.AdministrationShellEnv.CreateIndexedComparerCdsForSmUsage()
+- uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.CreateIndexedComparerCdsForSmUsage*
+  name: CreateIndexedComparerCdsForSmUsage
+  href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_CreateIndexedComparerCdsForSmUsage_
+  commentId: Overload:AdminShellNS.AdminShellV20.AdministrationShellEnv.CreateIndexedComparerCdsForSmUsage
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.AdministrationShellEnv.CreateIndexedComparerCdsForSmUsage
+  nameWithType: AdminShellV20.AdministrationShellEnv.CreateIndexedComparerCdsForSmUsage
 - uid: AdminShellNS.AdminShellV20.AdministrationShellEnv.DeserializeFromJsonStream(TextReader)
   name: DeserializeFromJsonStream(TextReader)
   href: api/AdminShellNS.AdminShellV20.AdministrationShellEnv.html#AdminShellNS_AdminShellV20_AdministrationShellEnv_DeserializeFromJsonStream_TextReader_
@@ -40183,6 +40805,25 @@ references:
   commentId: F:AdminShellNS.AdminShellV20.Identifiable.administration
   fullName: AdminShellNS.AdminShellV20.Identifiable.administration
   nameWithType: AdminShellV20.Identifiable.administration
+- uid: AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification
+  name: AdminShellV20.Identifiable.ComparerIdentification
+  href: api/AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification.html
+  commentId: T:AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification
+  fullName: AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification
+  nameWithType: AdminShellV20.Identifiable.ComparerIdentification
+- uid: AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification.Compare(AdminShellNS.AdminShellV20.Identifiable,AdminShellNS.AdminShellV20.Identifiable)
+  name: Compare(AdminShellV20.Identifiable, AdminShellV20.Identifiable)
+  href: api/AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification.html#AdminShellNS_AdminShellV20_Identifiable_ComparerIdentification_Compare_AdminShellNS_AdminShellV20_Identifiable_AdminShellNS_AdminShellV20_Identifiable_
+  commentId: M:AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification.Compare(AdminShellNS.AdminShellV20.Identifiable,AdminShellNS.AdminShellV20.Identifiable)
+  fullName: AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification.Compare(AdminShellNS.AdminShellV20.Identifiable, AdminShellNS.AdminShellV20.Identifiable)
+  nameWithType: AdminShellV20.Identifiable.ComparerIdentification.Compare(AdminShellV20.Identifiable, AdminShellV20.Identifiable)
+- uid: AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification.Compare*
+  name: Compare
+  href: api/AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification.html#AdminShellNS_AdminShellV20_Identifiable_ComparerIdentification_Compare_
+  commentId: Overload:AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification.Compare
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Identifiable.ComparerIdentification.Compare
+  nameWithType: AdminShellV20.Identifiable.ComparerIdentification.Compare
 - uid: AdminShellNS.AdminShellV20.Identifiable.GetFriendlyName
   name: GetFriendlyName()
   href: api/AdminShellNS.AdminShellV20.Identifiable.html#AdminShellNS_AdminShellV20_Identifiable_GetFriendlyName
@@ -42463,6 +43104,56 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.AdminShellV20.Referable.CollectReferencesByParent
   nameWithType: AdminShellV20.Referable.CollectReferencesByParent
+- uid: AdminShellNS.AdminShellV20.Referable.ComparerIdShort
+  name: AdminShellV20.Referable.ComparerIdShort
+  href: api/AdminShellNS.AdminShellV20.Referable.ComparerIdShort.html
+  commentId: T:AdminShellNS.AdminShellV20.Referable.ComparerIdShort
+  fullName: AdminShellNS.AdminShellV20.Referable.ComparerIdShort
+  nameWithType: AdminShellV20.Referable.ComparerIdShort
+- uid: AdminShellNS.AdminShellV20.Referable.ComparerIdShort.Compare(AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.Referable)
+  name: Compare(AdminShellV20.Referable, AdminShellV20.Referable)
+  href: api/AdminShellNS.AdminShellV20.Referable.ComparerIdShort.html#AdminShellNS_AdminShellV20_Referable_ComparerIdShort_Compare_AdminShellNS_AdminShellV20_Referable_AdminShellNS_AdminShellV20_Referable_
+  commentId: M:AdminShellNS.AdminShellV20.Referable.ComparerIdShort.Compare(AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.Referable)
+  fullName: AdminShellNS.AdminShellV20.Referable.ComparerIdShort.Compare(AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.Referable)
+  nameWithType: AdminShellV20.Referable.ComparerIdShort.Compare(AdminShellV20.Referable, AdminShellV20.Referable)
+- uid: AdminShellNS.AdminShellV20.Referable.ComparerIdShort.Compare*
+  name: Compare
+  href: api/AdminShellNS.AdminShellV20.Referable.ComparerIdShort.html#AdminShellNS_AdminShellV20_Referable_ComparerIdShort_Compare_
+  commentId: Overload:AdminShellNS.AdminShellV20.Referable.ComparerIdShort.Compare
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Referable.ComparerIdShort.Compare
+  nameWithType: AdminShellV20.Referable.ComparerIdShort.Compare
+- uid: AdminShellNS.AdminShellV20.Referable.ComparerIndexed
+  name: AdminShellV20.Referable.ComparerIndexed
+  href: api/AdminShellNS.AdminShellV20.Referable.ComparerIndexed.html
+  commentId: T:AdminShellNS.AdminShellV20.Referable.ComparerIndexed
+  fullName: AdminShellNS.AdminShellV20.Referable.ComparerIndexed
+  nameWithType: AdminShellV20.Referable.ComparerIndexed
+- uid: AdminShellNS.AdminShellV20.Referable.ComparerIndexed.Compare(AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.Referable)
+  name: Compare(AdminShellV20.Referable, AdminShellV20.Referable)
+  href: api/AdminShellNS.AdminShellV20.Referable.ComparerIndexed.html#AdminShellNS_AdminShellV20_Referable_ComparerIndexed_Compare_AdminShellNS_AdminShellV20_Referable_AdminShellNS_AdminShellV20_Referable_
+  commentId: M:AdminShellNS.AdminShellV20.Referable.ComparerIndexed.Compare(AdminShellNS.AdminShellV20.Referable,AdminShellNS.AdminShellV20.Referable)
+  fullName: AdminShellNS.AdminShellV20.Referable.ComparerIndexed.Compare(AdminShellNS.AdminShellV20.Referable, AdminShellNS.AdminShellV20.Referable)
+  nameWithType: AdminShellV20.Referable.ComparerIndexed.Compare(AdminShellV20.Referable, AdminShellV20.Referable)
+- uid: AdminShellNS.AdminShellV20.Referable.ComparerIndexed.Compare*
+  name: Compare
+  href: api/AdminShellNS.AdminShellV20.Referable.ComparerIndexed.html#AdminShellNS_AdminShellV20_Referable_ComparerIndexed_Compare_
+  commentId: Overload:AdminShellNS.AdminShellV20.Referable.ComparerIndexed.Compare
+  isSpec: "True"
+  fullName: AdminShellNS.AdminShellV20.Referable.ComparerIndexed.Compare
+  nameWithType: AdminShellV20.Referable.ComparerIndexed.Compare
+- uid: AdminShellNS.AdminShellV20.Referable.ComparerIndexed.Index
+  name: Index
+  href: api/AdminShellNS.AdminShellV20.Referable.ComparerIndexed.html#AdminShellNS_AdminShellV20_Referable_ComparerIndexed_Index
+  commentId: F:AdminShellNS.AdminShellV20.Referable.ComparerIndexed.Index
+  fullName: AdminShellNS.AdminShellV20.Referable.ComparerIndexed.Index
+  nameWithType: AdminShellV20.Referable.ComparerIndexed.Index
+- uid: AdminShellNS.AdminShellV20.Referable.ComparerIndexed.NullIndex
+  name: NullIndex
+  href: api/AdminShellNS.AdminShellV20.Referable.ComparerIndexed.html#AdminShellNS_AdminShellV20_Referable_ComparerIndexed_NullIndex
+  commentId: F:AdminShellNS.AdminShellV20.Referable.ComparerIndexed.NullIndex
+  fullName: AdminShellNS.AdminShellV20.Referable.ComparerIndexed.NullIndex
+  nameWithType: AdminShellV20.Referable.ComparerIndexed.NullIndex
 - uid: AdminShellNS.AdminShellV20.Referable.ComputeByteArray
   name: ComputeByteArray()
   href: api/AdminShellNS.AdminShellV20.Referable.html#AdminShellNS_AdminShellV20_Referable_ComputeByteArray
@@ -44882,6 +45573,25 @@ references:
   commentId: F:AdminShellNS.AdminShellV20.Views.views
   fullName: AdminShellNS.AdminShellV20.Views.views
   nameWithType: AdminShellV20.Views.views
+- uid: AdminShellNS.ListOfAasSupplementaryFile
+  name: ListOfAasSupplementaryFile
+  href: api/AdminShellNS.ListOfAasSupplementaryFile.html
+  commentId: T:AdminShellNS.ListOfAasSupplementaryFile
+  fullName: AdminShellNS.ListOfAasSupplementaryFile
+  nameWithType: ListOfAasSupplementaryFile
+- uid: AdminShellNS.ListOfAasSupplementaryFile.FindByUri(System.String)
+  name: FindByUri(String)
+  href: api/AdminShellNS.ListOfAasSupplementaryFile.html#AdminShellNS_ListOfAasSupplementaryFile_FindByUri_System_String_
+  commentId: M:AdminShellNS.ListOfAasSupplementaryFile.FindByUri(System.String)
+  fullName: AdminShellNS.ListOfAasSupplementaryFile.FindByUri(System.String)
+  nameWithType: ListOfAasSupplementaryFile.FindByUri(String)
+- uid: AdminShellNS.ListOfAasSupplementaryFile.FindByUri*
+  name: FindByUri
+  href: api/AdminShellNS.ListOfAasSupplementaryFile.html#AdminShellNS_ListOfAasSupplementaryFile_FindByUri_
+  commentId: Overload:AdminShellNS.ListOfAasSupplementaryFile.FindByUri
+  isSpec: "True"
+  fullName: AdminShellNS.ListOfAasSupplementaryFile.FindByUri
+  nameWithType: ListOfAasSupplementaryFile.FindByUri
 - uid: AdminShellNS.MultiValueDictionary`2
   name: MultiValueDictionary<K, V>
   href: api/AdminShellNS.MultiValueDictionary-2.html
