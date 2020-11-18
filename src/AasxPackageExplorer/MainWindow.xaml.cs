@@ -22,25 +22,18 @@ using AdminShellNS;
 /*
 Copyright (c) 2018-2019 Festo AG & Co. KG <https://www.festo.com/net/de_de/Forms/web/contact_international>
 Author: Michael Hoffmeister
-
-The browser functionality is under the cefSharp license
-(see https://raw.githubusercontent.com/cefsharp/CefSharp/master/LICENSE).
-
-The JSON serialization is under the MIT license
-(see https://github.com/JamesNK/Newtonsoft.Json/blob/master/LICENSE.md).
-
-The QR code generation is under the MIT license (see https://github.com/codebude/QRCoder/blob/master/LICENSE.txt).
-
-The Dot Matrix Code (DMC) generation is under Apache license v.2 (see http://www.apache.org/licenses/LICENSE-2.0).
 */
 
 namespace AasxPackageExplorer
 {
-    /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window, IFlyoutProvider
     {
+        #region Dependencies
+        // (mristin, 2020-11-18): consider injecting OptionsInformation, Package environment *etc.* to the main window
+        // to make it traceable and testable.
+        private readonly Pref _pref;
+        #endregion
+
         #region Members
         // ============
 
@@ -58,8 +51,9 @@ namespace AasxPackageExplorer
         #region Init Component
         //====================
 
-        public MainWindow()
+        public MainWindow(Pref pref)
         {
+            _pref = pref;
             InitializeComponent();
         }
 
@@ -251,7 +245,7 @@ namespace AasxPackageExplorer
         }
 
         /// <summary>
-        /// Using the currently loaded AASX, will check if a CD_AasxLoadedNavigateTo elements can be 
+        /// Using the currently loaded AASX, will check if a CD_AasxLoadedNavigateTo elements can be
         /// found to be activated
         /// </summary>
         public bool UiCheckIfActivateLoadedNavTo()
@@ -1213,7 +1207,16 @@ namespace AasxPackageExplorer
             var cmd = ruic.Text?.Trim().ToLower();
 
             // see: MainWindow.CommandBindings.cs
-            this.CommandBinding_GeneralDispatch(cmd);
+            try
+            {
+                this.CommandBinding_GeneralDispatch(cmd);
+            }
+            catch (Exception err)
+            {
+                throw new InvalidOperationException(
+                    $"Failed to execute the command {cmd}: {err}");
+            }
+
         }
 
 

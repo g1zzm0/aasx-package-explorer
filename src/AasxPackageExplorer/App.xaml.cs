@@ -131,7 +131,6 @@ namespace AasxPackageExplorer
                 Options.Curr.PluginDll.AddRange(pluginDllInfos);
             }
 
-
             Log.Info($"Loading and activating {Options.Curr.PluginDll.Count} plugin(s)...");
             Plugins.LoadedPlugins = LoadAndActivatePlugins(Options.Curr.PluginDll);
 
@@ -169,12 +168,17 @@ namespace AasxPackageExplorer
                 }
             }
 
+            Pref pref = Pref.Read();
+
             // show splash (required for licenses of open source)
-            var splash = new CustomSplashScreenNew();
-            splash.Show();
+            if (Options.Curr.SplashTime != 0)
+            {
+                var splash = new CustomSplashScreenNew(pref);
+                splash.Show();
+            }
 
             // show main window
-            MainWindow wnd = new MainWindow();
+            MainWindow wnd = new MainWindow(pref);
             wnd.Show();
         }
     }
