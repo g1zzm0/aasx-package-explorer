@@ -45672,6 +45672,24 @@ references:
   isSpec: "True"
   fullName: AdminShellNS.XmlValidator.Validate
   nameWithType: XmlValidator.Validate
+- uid: CheckScript
+  name: CheckScript
+  href: api/CheckScript.html
+  commentId: N:CheckScript
+  fullName: CheckScript
+  nameWithType: CheckScript
+- uid: CheckScript.ThreeLetterWords
+  name: ThreeLetterWords
+  href: api/CheckScript.ThreeLetterWords.html
+  commentId: T:CheckScript.ThreeLetterWords
+  fullName: CheckScript.ThreeLetterWords
+  nameWithType: ThreeLetterWords
+- uid: CheckScript.ThreeLetterWords.TheList
+  name: TheList
+  href: api/CheckScript.ThreeLetterWords.html#CheckScript_ThreeLetterWords_TheList
+  commentId: F:CheckScript.ThreeLetterWords.TheList
+  fullName: CheckScript.ThreeLetterWords.TheList
+  nameWithType: ThreeLetterWords.TheList
 - uid: Microsoft.Msagl.WpfGraphControl
   name: Microsoft.Msagl.WpfGraphControl
   href: api/Microsoft.Msagl.WpfGraphControl.html
