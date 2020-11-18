@@ -18278,6 +18278,22 @@ references:
   commentId: T:AasxPackageExplorer.App
   fullName: AasxPackageExplorer.App
   nameWithType: App
+- uid: AasxPackageExplorer.App.InferOptions(System.String,System.String[])
+  name: InferOptions(String, String[])
+  href: api/AasxPackageExplorer.App.html#AasxPackageExplorer_App_InferOptions_System_String_System_String___
+  commentId: M:AasxPackageExplorer.App.InferOptions(System.String,System.String[])
+  name.vb: InferOptions(String, String())
+  fullName: AasxPackageExplorer.App.InferOptions(System.String, System.String[])
+  fullName.vb: AasxPackageExplorer.App.InferOptions(System.String, System.String())
+  nameWithType: App.InferOptions(String, String[])
+  nameWithType.vb: App.InferOptions(String, String())
+- uid: AasxPackageExplorer.App.InferOptions*
+  name: InferOptions
+  href: api/AasxPackageExplorer.App.html#AasxPackageExplorer_App_InferOptions_
+  commentId: Overload:AasxPackageExplorer.App.InferOptions
+  isSpec: "True"
+  fullName: AasxPackageExplorer.App.InferOptions
+  nameWithType: App.InferOptions
 - uid: AasxPackageExplorer.App.InitializeComponent
   name: InitializeComponent()
   href: api/AasxPackageExplorer.App.html#AasxPackageExplorer_App_InitializeComponent
@@ -18291,6 +18307,22 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.App.InitializeComponent
   nameWithType: App.InitializeComponent
+- uid: AasxPackageExplorer.App.LoadAndActivatePlugins(System.Collections.Generic.IReadOnlyList{AasxPackageExplorer.OptionsInformation.PluginDllInfo})
+  name: LoadAndActivatePlugins(IReadOnlyList<OptionsInformation.PluginDllInfo>)
+  href: api/AasxPackageExplorer.App.html#AasxPackageExplorer_App_LoadAndActivatePlugins_System_Collections_Generic_IReadOnlyList_AasxPackageExplorer_OptionsInformation_PluginDllInfo__
+  commentId: M:AasxPackageExplorer.App.LoadAndActivatePlugins(System.Collections.Generic.IReadOnlyList{AasxPackageExplorer.OptionsInformation.PluginDllInfo})
+  name.vb: LoadAndActivatePlugins(IReadOnlyList(Of OptionsInformation.PluginDllInfo))
+  fullName: AasxPackageExplorer.App.LoadAndActivatePlugins(System.Collections.Generic.IReadOnlyList<AasxPackageExplorer.OptionsInformation.PluginDllInfo>)
+  fullName.vb: AasxPackageExplorer.App.LoadAndActivatePlugins(System.Collections.Generic.IReadOnlyList(Of AasxPackageExplorer.OptionsInformation.PluginDllInfo))
+  nameWithType: App.LoadAndActivatePlugins(IReadOnlyList<OptionsInformation.PluginDllInfo>)
+  nameWithType.vb: App.LoadAndActivatePlugins(IReadOnlyList(Of OptionsInformation.PluginDllInfo))
+- uid: AasxPackageExplorer.App.LoadAndActivatePlugins*
+  name: LoadAndActivatePlugins
+  href: api/AasxPackageExplorer.App.html#AasxPackageExplorer_App_LoadAndActivatePlugins_
+  commentId: Overload:AasxPackageExplorer.App.LoadAndActivatePlugins
+  isSpec: "True"
+  fullName: AasxPackageExplorer.App.LoadAndActivatePlugins
+  nameWithType: App.LoadAndActivatePlugins
 - uid: AasxPackageExplorer.App.Main
   name: Main()
   href: api/AasxPackageExplorer.App.html#AasxPackageExplorer_App_Main
@@ -22311,15 +22343,15 @@ references:
   commentId: F:AasxPackageExplorer.OptionsInformation.OptionsTextFn
   fullName: AasxPackageExplorer.OptionsInformation.OptionsTextFn
   nameWithType: OptionsInformation.OptionsTextFn
-- uid: AasxPackageExplorer.OptionsInformation.ParseArgs(System.String[])
-  name: ParseArgs(String[])
-  href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_ParseArgs_System_String___
-  commentId: M:AasxPackageExplorer.OptionsInformation.ParseArgs(System.String[])
-  name.vb: ParseArgs(String())
-  fullName: AasxPackageExplorer.OptionsInformation.ParseArgs(System.String[])
-  fullName.vb: AasxPackageExplorer.OptionsInformation.ParseArgs(System.String())
-  nameWithType: OptionsInformation.ParseArgs(String[])
-  nameWithType.vb: OptionsInformation.ParseArgs(String())
+- uid: AasxPackageExplorer.OptionsInformation.ParseArgs(System.String[],AasxPackageExplorer.OptionsInformation)
+  name: ParseArgs(String[], OptionsInformation)
+  href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_ParseArgs_System_String___AasxPackageExplorer_OptionsInformation_
+  commentId: M:AasxPackageExplorer.OptionsInformation.ParseArgs(System.String[],AasxPackageExplorer.OptionsInformation)
+  name.vb: ParseArgs(String(), OptionsInformation)
+  fullName: AasxPackageExplorer.OptionsInformation.ParseArgs(System.String[], AasxPackageExplorer.OptionsInformation)
+  fullName.vb: AasxPackageExplorer.OptionsInformation.ParseArgs(System.String(), AasxPackageExplorer.OptionsInformation)
+  nameWithType: OptionsInformation.ParseArgs(String[], OptionsInformation)
+  nameWithType.vb: OptionsInformation.ParseArgs(String(), OptionsInformation)
 - uid: AasxPackageExplorer.OptionsInformation.ParseArgs*
   name: ParseArgs
   href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_ParseArgs_
@@ -22448,12 +22480,12 @@ references:
   commentId: F:AasxPackageExplorer.OptionsInformation.QualifiersFile
   fullName: AasxPackageExplorer.OptionsInformation.QualifiersFile
   nameWithType: OptionsInformation.QualifiersFile
-- uid: AasxPackageExplorer.OptionsInformation.ReadJson(System.String)
-  name: ReadJson(String)
-  href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_ReadJson_System_String_
-  commentId: M:AasxPackageExplorer.OptionsInformation.ReadJson(System.String)
-  fullName: AasxPackageExplorer.OptionsInformation.ReadJson(System.String)
-  nameWithType: OptionsInformation.ReadJson(String)
+- uid: AasxPackageExplorer.OptionsInformation.ReadJson(System.String,AasxPackageExplorer.OptionsInformation)
+  name: ReadJson(String, OptionsInformation)
+  href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_ReadJson_System_String_AasxPackageExplorer_OptionsInformation_
+  commentId: M:AasxPackageExplorer.OptionsInformation.ReadJson(System.String,AasxPackageExplorer.OptionsInformation)
+  fullName: AasxPackageExplorer.OptionsInformation.ReadJson(System.String, AasxPackageExplorer.OptionsInformation)
+  nameWithType: OptionsInformation.ReadJson(String, OptionsInformation)
 - uid: AasxPackageExplorer.OptionsInformation.ReadJson*
   name: ReadJson
   href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_ReadJson_
@@ -22521,12 +22553,12 @@ references:
   commentId: F:AasxPackageExplorer.OptionsInformation.TemplateIdSubmodelTemplate
   fullName: AasxPackageExplorer.OptionsInformation.TemplateIdSubmodelTemplate
   nameWithType: OptionsInformation.TemplateIdSubmodelTemplate
-- uid: AasxPackageExplorer.OptionsInformation.TryReadOptionsFile(System.String)
-  name: TryReadOptionsFile(String)
-  href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_TryReadOptionsFile_System_String_
-  commentId: M:AasxPackageExplorer.OptionsInformation.TryReadOptionsFile(System.String)
-  fullName: AasxPackageExplorer.OptionsInformation.TryReadOptionsFile(System.String)
-  nameWithType: OptionsInformation.TryReadOptionsFile(String)
+- uid: AasxPackageExplorer.OptionsInformation.TryReadOptionsFile(System.String,AasxPackageExplorer.OptionsInformation)
+  name: TryReadOptionsFile(String, OptionsInformation)
+  href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_TryReadOptionsFile_System_String_AasxPackageExplorer_OptionsInformation_
+  commentId: M:AasxPackageExplorer.OptionsInformation.TryReadOptionsFile(System.String,AasxPackageExplorer.OptionsInformation)
+  fullName: AasxPackageExplorer.OptionsInformation.TryReadOptionsFile(System.String, AasxPackageExplorer.OptionsInformation)
+  nameWithType: OptionsInformation.TryReadOptionsFile(String, OptionsInformation)
 - uid: AasxPackageExplorer.OptionsInformation.TryReadOptionsFile*
   name: TryReadOptionsFile
   href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_TryReadOptionsFile_
@@ -22576,12 +22608,12 @@ references:
   commentId: F:AasxPackageExplorer.OptionsInformation.WriteDefaultOptionsFN
   fullName: AasxPackageExplorer.OptionsInformation.WriteDefaultOptionsFN
   nameWithType: OptionsInformation.WriteDefaultOptionsFN
-- uid: AasxPackageExplorer.OptionsInformation.WriteJson(System.String)
-  name: WriteJson(String)
-  href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_WriteJson_System_String_
-  commentId: M:AasxPackageExplorer.OptionsInformation.WriteJson(System.String)
-  fullName: AasxPackageExplorer.OptionsInformation.WriteJson(System.String)
-  nameWithType: OptionsInformation.WriteJson(String)
+- uid: AasxPackageExplorer.OptionsInformation.WriteJson(AasxPackageExplorer.OptionsInformation,System.String)
+  name: WriteJson(OptionsInformation, String)
+  href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_WriteJson_AasxPackageExplorer_OptionsInformation_System_String_
+  commentId: M:AasxPackageExplorer.OptionsInformation.WriteJson(AasxPackageExplorer.OptionsInformation,System.String)
+  fullName: AasxPackageExplorer.OptionsInformation.WriteJson(AasxPackageExplorer.OptionsInformation, System.String)
+  nameWithType: OptionsInformation.WriteJson(OptionsInformation, String)
 - uid: AasxPackageExplorer.OptionsInformation.WriteJson*
   name: WriteJson
   href: api/AasxPackageExplorer.OptionsInformation.html#AasxPackageExplorer_OptionsInformation_WriteJson_
@@ -22826,28 +22858,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.Plugins.PumpPluginLogsIntoLog
   nameWithType: Plugins.PumpPluginLogsIntoLog
-- uid: AasxPackageExplorer.Plugins.TrGetDefaultOptionsForPlugins(AasxPackageExplorer.OptionsInformation)
-  name: TrGetDefaultOptionsForPlugins(OptionsInformation)
-  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TrGetDefaultOptionsForPlugins_AasxPackageExplorer_OptionsInformation_
-  commentId: M:AasxPackageExplorer.Plugins.TrGetDefaultOptionsForPlugins(AasxPackageExplorer.OptionsInformation)
-  fullName: AasxPackageExplorer.Plugins.TrGetDefaultOptionsForPlugins(AasxPackageExplorer.OptionsInformation)
-  nameWithType: Plugins.TrGetDefaultOptionsForPlugins(OptionsInformation)
-- uid: AasxPackageExplorer.Plugins.TrGetDefaultOptionsForPlugins*
-  name: TrGetDefaultOptionsForPlugins
-  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TrGetDefaultOptionsForPlugins_
-  commentId: Overload:AasxPackageExplorer.Plugins.TrGetDefaultOptionsForPlugins
-  isSpec: "True"
-  fullName: AasxPackageExplorer.Plugins.TrGetDefaultOptionsForPlugins
-  nameWithType: Plugins.TrGetDefaultOptionsForPlugins
-- uid: AasxPackageExplorer.Plugins.TryActivatePlugins(System.Collections.Generic.List{AasxPackageExplorer.OptionsInformation.PluginDllInfo})
-  name: TryActivatePlugins(List<OptionsInformation.PluginDllInfo>)
-  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TryActivatePlugins_System_Collections_Generic_List_AasxPackageExplorer_OptionsInformation_PluginDllInfo__
-  commentId: M:AasxPackageExplorer.Plugins.TryActivatePlugins(System.Collections.Generic.List{AasxPackageExplorer.OptionsInformation.PluginDllInfo})
-  name.vb: TryActivatePlugins(List(Of OptionsInformation.PluginDllInfo))
-  fullName: AasxPackageExplorer.Plugins.TryActivatePlugins(System.Collections.Generic.List<AasxPackageExplorer.OptionsInformation.PluginDllInfo>)
-  fullName.vb: AasxPackageExplorer.Plugins.TryActivatePlugins(System.Collections.Generic.List(Of AasxPackageExplorer.OptionsInformation.PluginDllInfo))
-  nameWithType: Plugins.TryActivatePlugins(List<OptionsInformation.PluginDllInfo>)
-  nameWithType.vb: Plugins.TryActivatePlugins(List(Of OptionsInformation.PluginDllInfo))
+- uid: AasxPackageExplorer.Plugins.TryActivatePlugins(System.Collections.Generic.IReadOnlyList{AasxPackageExplorer.OptionsInformation.PluginDllInfo})
+  name: TryActivatePlugins(IReadOnlyList<OptionsInformation.PluginDllInfo>)
+  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TryActivatePlugins_System_Collections_Generic_IReadOnlyList_AasxPackageExplorer_OptionsInformation_PluginDllInfo__
+  commentId: M:AasxPackageExplorer.Plugins.TryActivatePlugins(System.Collections.Generic.IReadOnlyList{AasxPackageExplorer.OptionsInformation.PluginDllInfo})
+  name.vb: TryActivatePlugins(IReadOnlyList(Of OptionsInformation.PluginDllInfo))
+  fullName: AasxPackageExplorer.Plugins.TryActivatePlugins(System.Collections.Generic.IReadOnlyList<AasxPackageExplorer.OptionsInformation.PluginDllInfo>)
+  fullName.vb: AasxPackageExplorer.Plugins.TryActivatePlugins(System.Collections.Generic.IReadOnlyList(Of AasxPackageExplorer.OptionsInformation.PluginDllInfo))
+  nameWithType: Plugins.TryActivatePlugins(IReadOnlyList<OptionsInformation.PluginDllInfo>)
+  nameWithType.vb: Plugins.TryActivatePlugins(IReadOnlyList(Of OptionsInformation.PluginDllInfo))
 - uid: AasxPackageExplorer.Plugins.TryActivatePlugins*
   name: TryActivatePlugins
   href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TryActivatePlugins_
@@ -22855,15 +22874,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.Plugins.TryActivatePlugins
   nameWithType: Plugins.TryActivatePlugins
-- uid: AasxPackageExplorer.Plugins.TryForAllLoadedPlugins(AasxPackageExplorer.OptionsInformation,System.String,System.Func{AasxPackageExplorer.OptionsInformation.PluginDllInfo,AasxPackageExplorer.Plugins.PluginInstance,System.Object})
-  name: TryForAllLoadedPlugins(OptionsInformation, String, Func<OptionsInformation.PluginDllInfo, Plugins.PluginInstance, Object>)
-  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TryForAllLoadedPlugins_AasxPackageExplorer_OptionsInformation_System_String_System_Func_AasxPackageExplorer_OptionsInformation_PluginDllInfo_AasxPackageExplorer_Plugins_PluginInstance_System_Object__
-  commentId: M:AasxPackageExplorer.Plugins.TryForAllLoadedPlugins(AasxPackageExplorer.OptionsInformation,System.String,System.Func{AasxPackageExplorer.OptionsInformation.PluginDllInfo,AasxPackageExplorer.Plugins.PluginInstance,System.Object})
-  name.vb: TryForAllLoadedPlugins(OptionsInformation, String, Func(Of OptionsInformation.PluginDllInfo, Plugins.PluginInstance, Object))
-  fullName: AasxPackageExplorer.Plugins.TryForAllLoadedPlugins(AasxPackageExplorer.OptionsInformation, System.String, System.Func<AasxPackageExplorer.OptionsInformation.PluginDllInfo, AasxPackageExplorer.Plugins.PluginInstance, System.Object>)
-  fullName.vb: AasxPackageExplorer.Plugins.TryForAllLoadedPlugins(AasxPackageExplorer.OptionsInformation, System.String, System.Func(Of AasxPackageExplorer.OptionsInformation.PluginDllInfo, AasxPackageExplorer.Plugins.PluginInstance, System.Object))
-  nameWithType: Plugins.TryForAllLoadedPlugins(OptionsInformation, String, Func<OptionsInformation.PluginDllInfo, Plugins.PluginInstance, Object>)
-  nameWithType.vb: Plugins.TryForAllLoadedPlugins(OptionsInformation, String, Func(Of OptionsInformation.PluginDllInfo, Plugins.PluginInstance, Object))
+- uid: AasxPackageExplorer.Plugins.TryForAllLoadedPlugins(System.Collections.Generic.IReadOnlyList{AasxPackageExplorer.OptionsInformation.PluginDllInfo},System.Collections.Generic.Dictionary{System.String,AasxPackageExplorer.Plugins.PluginInstance},System.String,System.Action{AasxPackageExplorer.OptionsInformation.PluginDllInfo,AasxPackageExplorer.Plugins.PluginInstance})
+  name: TryForAllLoadedPlugins(IReadOnlyList<OptionsInformation.PluginDllInfo>, Dictionary<String, Plugins.PluginInstance>, String, Action<OptionsInformation.PluginDllInfo, Plugins.PluginInstance>)
+  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TryForAllLoadedPlugins_System_Collections_Generic_IReadOnlyList_AasxPackageExplorer_OptionsInformation_PluginDllInfo__System_Collections_Generic_Dictionary_System_String_AasxPackageExplorer_Plugins_PluginInstance__System_String_System_Action_AasxPackageExplorer_OptionsInformation_PluginDllInfo_AasxPackageExplorer_Plugins_PluginInstance__
+  commentId: M:AasxPackageExplorer.Plugins.TryForAllLoadedPlugins(System.Collections.Generic.IReadOnlyList{AasxPackageExplorer.OptionsInformation.PluginDllInfo},System.Collections.Generic.Dictionary{System.String,AasxPackageExplorer.Plugins.PluginInstance},System.String,System.Action{AasxPackageExplorer.OptionsInformation.PluginDllInfo,AasxPackageExplorer.Plugins.PluginInstance})
+  name.vb: TryForAllLoadedPlugins(IReadOnlyList(Of OptionsInformation.PluginDllInfo), Dictionary(Of String, Plugins.PluginInstance), String, Action(Of OptionsInformation.PluginDllInfo, Plugins.PluginInstance))
+  fullName: AasxPackageExplorer.Plugins.TryForAllLoadedPlugins(System.Collections.Generic.IReadOnlyList<AasxPackageExplorer.OptionsInformation.PluginDllInfo>, System.Collections.Generic.Dictionary<System.String, AasxPackageExplorer.Plugins.PluginInstance>, System.String, System.Action<AasxPackageExplorer.OptionsInformation.PluginDllInfo, AasxPackageExplorer.Plugins.PluginInstance>)
+  fullName.vb: AasxPackageExplorer.Plugins.TryForAllLoadedPlugins(System.Collections.Generic.IReadOnlyList(Of AasxPackageExplorer.OptionsInformation.PluginDllInfo), System.Collections.Generic.Dictionary(Of System.String, AasxPackageExplorer.Plugins.PluginInstance), System.String, System.Action(Of AasxPackageExplorer.OptionsInformation.PluginDllInfo, AasxPackageExplorer.Plugins.PluginInstance))
+  nameWithType: Plugins.TryForAllLoadedPlugins(IReadOnlyList<OptionsInformation.PluginDllInfo>, Dictionary<String, Plugins.PluginInstance>, String, Action<OptionsInformation.PluginDllInfo, Plugins.PluginInstance>)
+  nameWithType.vb: Plugins.TryForAllLoadedPlugins(IReadOnlyList(Of OptionsInformation.PluginDllInfo), Dictionary(Of String, Plugins.PluginInstance), String, Action(Of OptionsInformation.PluginDllInfo, Plugins.PluginInstance))
 - uid: AasxPackageExplorer.Plugins.TryForAllLoadedPlugins*
   name: TryForAllLoadedPlugins
   href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TryForAllLoadedPlugins_
@@ -22871,15 +22890,28 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.Plugins.TryForAllLoadedPlugins
   nameWithType: Plugins.TryForAllLoadedPlugins
-- uid: AasxPackageExplorer.Plugins.TrySearchPlugins(System.String,System.Collections.Generic.List{AasxPackageExplorer.OptionsInformation.PluginDllInfo})
-  name: TrySearchPlugins(String, List<OptionsInformation.PluginDllInfo>)
-  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TrySearchPlugins_System_String_System_Collections_Generic_List_AasxPackageExplorer_OptionsInformation_PluginDllInfo__
-  commentId: M:AasxPackageExplorer.Plugins.TrySearchPlugins(System.String,System.Collections.Generic.List{AasxPackageExplorer.OptionsInformation.PluginDllInfo})
-  name.vb: TrySearchPlugins(String, List(Of OptionsInformation.PluginDllInfo))
-  fullName: AasxPackageExplorer.Plugins.TrySearchPlugins(System.String, System.Collections.Generic.List<AasxPackageExplorer.OptionsInformation.PluginDllInfo>)
-  fullName.vb: AasxPackageExplorer.Plugins.TrySearchPlugins(System.String, System.Collections.Generic.List(Of AasxPackageExplorer.OptionsInformation.PluginDllInfo))
-  nameWithType: Plugins.TrySearchPlugins(String, List<OptionsInformation.PluginDllInfo>)
-  nameWithType.vb: Plugins.TrySearchPlugins(String, List(Of OptionsInformation.PluginDllInfo))
+- uid: AasxPackageExplorer.Plugins.TryGetDefaultOptionsForPlugins(System.Collections.Generic.IReadOnlyList{AasxPackageExplorer.OptionsInformation.PluginDllInfo},System.Collections.Generic.Dictionary{System.String,AasxPackageExplorer.Plugins.PluginInstance})
+  name: TryGetDefaultOptionsForPlugins(IReadOnlyList<OptionsInformation.PluginDllInfo>, Dictionary<String, Plugins.PluginInstance>)
+  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TryGetDefaultOptionsForPlugins_System_Collections_Generic_IReadOnlyList_AasxPackageExplorer_OptionsInformation_PluginDllInfo__System_Collections_Generic_Dictionary_System_String_AasxPackageExplorer_Plugins_PluginInstance__
+  commentId: M:AasxPackageExplorer.Plugins.TryGetDefaultOptionsForPlugins(System.Collections.Generic.IReadOnlyList{AasxPackageExplorer.OptionsInformation.PluginDllInfo},System.Collections.Generic.Dictionary{System.String,AasxPackageExplorer.Plugins.PluginInstance})
+  name.vb: TryGetDefaultOptionsForPlugins(IReadOnlyList(Of OptionsInformation.PluginDllInfo), Dictionary(Of String, Plugins.PluginInstance))
+  fullName: AasxPackageExplorer.Plugins.TryGetDefaultOptionsForPlugins(System.Collections.Generic.IReadOnlyList<AasxPackageExplorer.OptionsInformation.PluginDllInfo>, System.Collections.Generic.Dictionary<System.String, AasxPackageExplorer.Plugins.PluginInstance>)
+  fullName.vb: AasxPackageExplorer.Plugins.TryGetDefaultOptionsForPlugins(System.Collections.Generic.IReadOnlyList(Of AasxPackageExplorer.OptionsInformation.PluginDllInfo), System.Collections.Generic.Dictionary(Of System.String, AasxPackageExplorer.Plugins.PluginInstance))
+  nameWithType: Plugins.TryGetDefaultOptionsForPlugins(IReadOnlyList<OptionsInformation.PluginDllInfo>, Dictionary<String, Plugins.PluginInstance>)
+  nameWithType.vb: Plugins.TryGetDefaultOptionsForPlugins(IReadOnlyList(Of OptionsInformation.PluginDllInfo), Dictionary(Of String, Plugins.PluginInstance))
+- uid: AasxPackageExplorer.Plugins.TryGetDefaultOptionsForPlugins*
+  name: TryGetDefaultOptionsForPlugins
+  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TryGetDefaultOptionsForPlugins_
+  commentId: Overload:AasxPackageExplorer.Plugins.TryGetDefaultOptionsForPlugins
+  isSpec: "True"
+  fullName: AasxPackageExplorer.Plugins.TryGetDefaultOptionsForPlugins
+  nameWithType: Plugins.TryGetDefaultOptionsForPlugins
+- uid: AasxPackageExplorer.Plugins.TrySearchPlugins(System.String)
+  name: TrySearchPlugins(String)
+  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TrySearchPlugins_System_String_
+  commentId: M:AasxPackageExplorer.Plugins.TrySearchPlugins(System.String)
+  fullName: AasxPackageExplorer.Plugins.TrySearchPlugins(System.String)
+  nameWithType: Plugins.TrySearchPlugins(String)
 - uid: AasxPackageExplorer.Plugins.TrySearchPlugins*
   name: TrySearchPlugins
   href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TrySearchPlugins_
@@ -22887,12 +22919,15 @@ references:
   isSpec: "True"
   fullName: AasxPackageExplorer.Plugins.TrySearchPlugins
   nameWithType: Plugins.TrySearchPlugins
-- uid: AasxPackageExplorer.Plugins.TrySetOptionsForPlugins(AasxPackageExplorer.OptionsInformation)
-  name: TrySetOptionsForPlugins(OptionsInformation)
-  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TrySetOptionsForPlugins_AasxPackageExplorer_OptionsInformation_
-  commentId: M:AasxPackageExplorer.Plugins.TrySetOptionsForPlugins(AasxPackageExplorer.OptionsInformation)
-  fullName: AasxPackageExplorer.Plugins.TrySetOptionsForPlugins(AasxPackageExplorer.OptionsInformation)
-  nameWithType: Plugins.TrySetOptionsForPlugins(OptionsInformation)
+- uid: AasxPackageExplorer.Plugins.TrySetOptionsForPlugins(System.Collections.Generic.IReadOnlyList{AasxPackageExplorer.OptionsInformation.PluginDllInfo},System.Collections.Generic.Dictionary{System.String,AasxPackageExplorer.Plugins.PluginInstance})
+  name: TrySetOptionsForPlugins(IReadOnlyList<OptionsInformation.PluginDllInfo>, Dictionary<String, Plugins.PluginInstance>)
+  href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TrySetOptionsForPlugins_System_Collections_Generic_IReadOnlyList_AasxPackageExplorer_OptionsInformation_PluginDllInfo__System_Collections_Generic_Dictionary_System_String_AasxPackageExplorer_Plugins_PluginInstance__
+  commentId: M:AasxPackageExplorer.Plugins.TrySetOptionsForPlugins(System.Collections.Generic.IReadOnlyList{AasxPackageExplorer.OptionsInformation.PluginDllInfo},System.Collections.Generic.Dictionary{System.String,AasxPackageExplorer.Plugins.PluginInstance})
+  name.vb: TrySetOptionsForPlugins(IReadOnlyList(Of OptionsInformation.PluginDllInfo), Dictionary(Of String, Plugins.PluginInstance))
+  fullName: AasxPackageExplorer.Plugins.TrySetOptionsForPlugins(System.Collections.Generic.IReadOnlyList<AasxPackageExplorer.OptionsInformation.PluginDllInfo>, System.Collections.Generic.Dictionary<System.String, AasxPackageExplorer.Plugins.PluginInstance>)
+  fullName.vb: AasxPackageExplorer.Plugins.TrySetOptionsForPlugins(System.Collections.Generic.IReadOnlyList(Of AasxPackageExplorer.OptionsInformation.PluginDllInfo), System.Collections.Generic.Dictionary(Of System.String, AasxPackageExplorer.Plugins.PluginInstance))
+  nameWithType: Plugins.TrySetOptionsForPlugins(IReadOnlyList<OptionsInformation.PluginDllInfo>, Dictionary<String, Plugins.PluginInstance>)
+  nameWithType.vb: Plugins.TrySetOptionsForPlugins(IReadOnlyList(Of OptionsInformation.PluginDllInfo), Dictionary(Of String, Plugins.PluginInstance))
 - uid: AasxPackageExplorer.Plugins.TrySetOptionsForPlugins*
   name: TrySetOptionsForPlugins
   href: api/AasxPackageExplorer.Plugins.html#AasxPackageExplorer_Plugins_TrySetOptionsForPlugins_

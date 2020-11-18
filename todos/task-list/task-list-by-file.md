@@ -335,6 +335,16 @@ Robin,
 
     check this code
 
+## AasxPackageExplorer.Tests\TestOptionsAndPlugins.cs
+
+[Line 85, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageExplorer.Tests/TestOptionsAndPlugins.cs#L85
+), 
+mristin,
+2020-11-13
+
+    @MIHO please check -- Options should be null, not empty?
+
 ## AasxPluginUaNetClient\UASampleClient.cs
 
 [Line 1, column 1](

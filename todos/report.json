@@ -288,6 +288,18 @@
     ]
   },
   {
+    "path": "AasxPackageExplorer.Tests\\TestOptionsAndPlugins.cs",
+    "records": [
+      {
+        "prefix": "TODO",
+        "suffix": " (mristin, 2020-11-13): @MIHO please check -- Options should be null, not empty?",
+        "line": 84,
+        "column": 16,
+        "status": "ok"
+      }
+    ]
+  },
+  {
     "path": "AasxPluginUaNetClient\\UASampleClient.cs",
     "records": [
       {
